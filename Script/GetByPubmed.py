@@ -6,6 +6,7 @@ import os
 import csv
 from datetime import datetime
 import pandas as pd
+import subprocess
 
 def extract_date(text):
     match = re.search(r"\b([A-Za-z]+)\s+(\d{4})\b", text)
@@ -13,6 +14,15 @@ def extract_date(text):
           return(match.group(2) + " " + match.group(1))
     else:
           return(None)
+
+def git_push(commit_message):
+    try:
+        subprocess.check_output(['git', 'add', '.'])  # 添加所有更改
+        subprocess.check_output(['git', 'commit', '-m', commit_message])  # 提交更改
+        subprocess.check_output(['git', 'push'])  # 推送更改
+        print("Git push successful.")
+    except subprocess.CalledProcessError as e:
+        print("Git push failed. Error:", e.output)
 
 # 设置工作路径
 os.chdir("../GetData")
@@ -120,7 +130,7 @@ else:
         # 在最后一列增加网址
         table_data[0].insert(0, "URL")
         for row in table_data[1:]:
-            row.insert(0, filtered_results[i])
+            row.insert(0, urls[i])
 
         # 在最后一列增加网址
         table_data[0].insert(0, "DOI")
@@ -157,6 +167,7 @@ else:
 
     # 将合并后的数据保存为CSV文件
     merged_data.to_csv(output_file, index=False)
+    merged_data.to_csv("reportdata/All_data_last.csv", index=False)
 
     # 读取Readme.md文件内容
     readme_path = "../Readme.md"
@@ -175,3 +186,8 @@ else:
     # 将更新后的内容写入Readme.md文件
     with open(readme_path, "w") as readme_file:
         readme_file.write(updated_readme_content)
+        
+    # 推送至Github
+    commit_message = f"Auto push data {year_month}"
+    git_push(commit_message)
+    print("Commit success")
