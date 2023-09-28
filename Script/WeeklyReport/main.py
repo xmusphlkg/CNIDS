@@ -12,9 +12,7 @@ from function import process_table_data
 import variables
 
 # test get new data
-test = True
-if test == True:
-    print("Test mode, only get the latest data")
+test = False
 
 # set working directory
 os.chdir("./GetData")
@@ -32,8 +30,12 @@ new_dates = [result['YearMonth'] for result in results if result['YearMonth'] no
 if len(new_dates) == 0 | test == False:
     print("Newest data, no need to update")
 else:
-    print("Find new data, need to update:")
-    print(new_dates)
+    if test == True:
+      print("Test mode, only get the latest data")
+      new_dates = [max([result['YearMonth'] for result in results])]
+    else:
+      print("Find new data, need to update:")
+      print(new_dates)
     # filter results
     filtered_results = [result for result in results if result['YearMonth'] in new_dates]
     # extract DOI
@@ -117,20 +119,23 @@ else:
     data.to_csv('..' + '/AllData/WeeklyReport/latest.csv', index=False, encoding='utf-8', header=True)
     data.to_csv('..' + '/AllData/WeeklyReport/' + max_date + '.csv', index=False, encoding='utf-8', header=True)
 
-    # 读取Readme.md文件内容
+    # modify the disease name
     readme_path = "../Readme.md"
     with open(readme_path, "r") as readme_file:
         readme_content = readme_file.read()
 
-    # 获取当前日期
+    # get current date
     current_date = datetime.now().strftime("%Y%m%d")
 
-    # 更新日志
+    # update log
     update_log = f"#### {year_month}\n\nDate: {current_date}\n\nUpdated: {new_dates}"
 
-    # 将更新日志插入到Readme.md文件中的"Update Log"部分
+    # insert the update log to the "Update Log" section of Readme.md file
     updated_readme_content = readme_content.replace("### China CDC Monthly Report", "### China CDC Monthly Report\n\n" + update_log)
 
-    # 将更新后的内容写入Readme.md文件
+    # write the updated content to Readme.md file
     with open(readme_path, "w") as readme_file:
         readme_file.write(updated_readme_content)
+
+    # print success message
+    print("CDCWeekly Data updated successfully!")
