@@ -44,6 +44,7 @@ new_dates = list(set(years) - set(existing_dates))
 
 if len(new_dates) == 0 | test == False:
     print("Newest data, no need to update")
+    need_update = False # no need to update
 else:
     if test == True:
       new_dates = [max(years)]
