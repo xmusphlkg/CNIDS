@@ -17,5 +17,5 @@ jobs:
         with:
           python-version: '3.9.12'
       - run: pip install requests xmltodict beautifulsoup4 pandas
-      - run: python3 ./Script/WeeklyReport/main.py
-      - run: python3 ./Script/DatacenterReport/main.py
+      - run: python3 ../Script/WeeklyReport/main.py
+      - run: python3 ../Script/DatacenterReport/main.py
