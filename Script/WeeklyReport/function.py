@@ -99,7 +99,7 @@ def get_cdc_results(url):
             doi = link.split("doi/")[1]
             result_list.append({
                 "title": text,
-                "date": date,
+                "date": date_obj,
                 "YearMonthDay": formatted_date,
                 "YearMonth": date,
                 "link": url + link,
