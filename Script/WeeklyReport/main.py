@@ -9,6 +9,7 @@ import glob
 # import functions from function.py
 from function import get_rss_results
 from function import process_table_data
+from function import get_cdc_results
 import variables
 
 # test get new data
@@ -17,15 +18,24 @@ test = False
 # set working directory
 os.chdir("./GetData")
 
-# Call the function and pass the URL parameter
-url = "https://pubmed.ncbi.nlm.nih.gov/rss/search/1tQjT4yH2iuqFpDL7Y1nShJmC4kDC5_BJYgw4R1O0BCs-_Nemt/?limit=100&utm_campaign=pubmed-2&fc=20230905093742"
-results = get_rss_results(url)
-
 # detect existing dates
 folder_path = "WeeklyReport/"  # file path
 existing_dates = [os.path.splitext(file)[0] for file in os.listdir(folder_path) if os.path.isfile(os.path.join(folder_path, file))]
 
+# Call the function and pass the URL parameter
+url = "https://pubmed.ncbi.nlm.nih.gov/rss/search/1tQjT4yH2iuqFpDL7Y1nShJmC4kDC5_BJYgw4R1O0BCs-_Nemt/?limit=100&utm_campaign=pubmed-2&fc=20230905093742"
+results = get_rss_results(url)
+
 new_dates = [result['YearMonth'] for result in results if result['YearMonth'] not in existing_dates]
+
+if len(new_dates) == 0:
+    print("No new data in the Pubmed RSS feed, try China CDC Weekly website.")
+    
+url = "https://weekly.chinacdc.cn"
+results = get_cdc_results(url)
+new_dates = [result['YearMonth'] for result in results if result['YearMonth'] not in existing_dates]
+if len(new_dates) == 0:
+    print("No new data in the China CDC Weekly website also.")
 
 if len(new_dates) == 0 | test == False:
     print("Newest data, no need to update")
@@ -33,6 +43,7 @@ else:
     if test == True:
       print("Test mode, only get the latest data")
       new_dates = [max([result['YearMonth'] for result in results])]
+      print(new_dates)
     else:
       print("Find new data, need to update:")
       print(new_dates)

@@ -15,7 +15,7 @@ def extract_date(text):
     else:
           return(None)
 
-# define a function to get RSS results
+# define a function to get Pubmed RSS results
 def get_rss_results(url):
     """
     get RSS results from the URL
@@ -60,6 +60,60 @@ def get_rss_results(url):
 
     return results
 
+
+# define a function to get china cdc weekly results
+
+def get_cdc_results(url):
+    """
+    Extracts links containing "doi" from a given URL.
+
+    Args:
+        url (str): The URL of the webpage to scrape.
+
+    Returns:
+        list: A list of dictionaries containing the extracted information.
+    """
+    # Send an HTTP request to get the webpage content
+    response = requests.get(url)
+    html_content = response.text
+
+    # Use BeautifulSoup to parse the webpage content
+    soup = BeautifulSoup(html_content, "html.parser")
+
+    # Find all <a> tags
+    a_tags = soup.find_all("a")
+
+    # Create a list to store the results
+    result_list = []
+
+    # Traverse each <a> tag, extract text and link
+    for a_tag in a_tags:
+        text = a_tag.text.strip()
+        link = a_tag.get("href")
+        if link and "doi" in link and "National Notifiable Infectious Diseases" in text:
+            # Extract the date from the text
+            date = extract_date(re.sub(r"[^\w\s-]", "", text))
+            date_obj = datetime.strptime(date, "%Y %B")
+            formatted_date = date_obj.strftime("%Y/%m/%d")
+            # Split the link by "doi/" to get the doi
+            doi = link.split("doi/")[1]
+            result_list.append({
+                "title": text,
+                "date": date,
+                "YearMonthDay": formatted_date,
+                "YearMonth": date,
+                "link": url + link,
+                "doi": ['missing', 'missing', 'doi:' + doi]
+            })
+
+    # Remove duplicate results
+    result_list = list({v['link']: v for v in result_list}.values())
+
+    return result_list
+
+
+# define a function to get table data from URLs
+
 def process_table_data(urls, filtered_results, diseaseCode2Name, dois):
     """
     Process table data from URLs and save the results to CSV files.
@@ -83,6 +137,8 @@ def process_table_data(urls, filtered_results, diseaseCode2Name, dois):
         # Check the response status code
         if response.status_code != 200:
             raise Exception("Failed to fetch web content, status code: {}".format(response.status_code))
+        else:
+            print("Successfully fetched web content, urls: {}".format(url))
 
         # Parse HTML
         soup = BeautifulSoup(response.content, "html.parser")
