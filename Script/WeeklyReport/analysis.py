@@ -16,7 +16,6 @@ from reportlab.pdfbase.ttfonts import TTFont
 from reportlab.lib import colors
 from reportlab.lib.pagesizes import letter
 import matplotlib.pyplot as plt
-import yaml
 import shutil
 
 from function import chatgpt_description
@@ -39,8 +38,8 @@ update_report = log_list[0]["info"]["MRupdate"]
 if update_report:
   print('Need to update report')
   update_YearMonth = log_list[0]["info"]["MRYearMonth"]
-  analysis_YearMonth = max(update_YearMonth)+' 01'
-  analysis_date = datetime.datetime.strptime(analysis_YearMonth, '%Y %B %d')
+  analysis_YearMonth = max(update_YearMonth)
+  analysis_date = datetime.datetime.strptime(analysis_YearMonth+' 01', '%Y %B %d')
 
   # read all data
   df = pd.read_csv('../AllData/WeeklyReport/latest.csv', encoding='utf-8')
