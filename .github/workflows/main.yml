@@ -20,7 +20,7 @@ jobs:
           github-token: ${{ secrets.GITHUB_TOKEN }}
       - run: pip install requests xmltodict beautifulsoup4 pandas reportlab plotnine
       - run: python3 Script/WeeklyReport/main.py
-      # - run: python3 Script/WeeklyReport/analysis.py
+      - run: python3 Script/WeeklyReport/analysis.py
       - run: python3 Script/DatacenterReport/main.py
       - run: |
             git config --local user.email "kanggle@outlook.com"
