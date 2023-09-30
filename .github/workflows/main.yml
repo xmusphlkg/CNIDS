@@ -12,18 +12,17 @@ jobs:
       OPENAI_api: ${{ secrets.OPENAI_API }}
       OPENAI_url: ${{ secrets.OPENAI_URL }}
     steps:
+      - name: checkout actions
       - uses: actions/checkout@v2
       - uses: actions/setup-python@v4
         with:
           python-version: '3.9.12'
+          github-token: ${{ secrets.GITHUB_TOKEN }}
       - run: pip install requests xmltodict beautifulsoup4 pandas reportlab plotnine
       - run: python3 Script/WeeklyReport/main.py
       # - run: python3 Script/WeeklyReport/analysis.py
       - run: python3 Script/DatacenterReport/main.py
-      - uses: actions/github-script@v4
-        with:
-          github-token: ${{ secrets.GITHUB_TOKEN }}
-          script: |
+      - run: |
             git config --local user.email "kanggle@outlook.com"
             git config --local user.name "GitHub Action"
             git add .
