@@ -5,6 +5,7 @@ import os
 from datetime import datetime
 import pandas as pd
 import glob
+import json
 
 # import functions from function.py
 from function import get_rss_results
@@ -34,6 +35,10 @@ if len(new_dates) == 0:
 url = "https://weekly.chinacdc.cn"
 results = get_cdc_results(url)
 new_dates = [result['YearMonth'] for result in results if result['YearMonth'] not in existing_dates]
+
+# get current date
+current_date = datetime.now().strftime("%Y%m%d")
+
 if len(new_dates) == 0:
     print("No new data in the China CDC Weekly website also.")
 
@@ -47,6 +52,7 @@ else:
     else:
       print("Find new data, need to update:")
       print(new_dates)
+          
     # filter results
     filtered_results = [result for result in results if result['YearMonth'] in new_dates]
     # extract DOI
@@ -67,7 +73,7 @@ else:
     for file in csv_files:
         file_path = os.path.join(folder_path, file)
         data = pd.read_csv(file_path)
-        merged_data = merged_data.append(data, ignore_index=True)
+        merged_data = pd.concat([merged_data, data], ignore_index=True)
 
     # sort by date and disease
     merged_data = merged_data.sort_values(by=["Date", "Diseases"], ascending=False)
@@ -135,9 +141,6 @@ else:
     with open(readme_path, "r") as readme_file:
         readme_content = readme_file.read()
 
-    # get current date
-    current_date = datetime.now().strftime("%Y%m%d")
-
     # update log
     update_log = f"#### {year_month}\n\nDate: {current_date}\n\nUpdated: {new_dates}"
 
@@ -147,6 +150,27 @@ else:
     # write the updated content to Readme.md file
     with open(readme_path, "w") as readme_file:
         readme_file.write(updated_readme_content)
+    
+    if test != True:
+      # write to up date log
+      with open('../LOG/WeeklyReport/log.json', 'r') as f:
+          logs = json.load(f)
+      new_log = {
+          'info': {
+              'date': current_date,
+              'MRYearMonth': new_dates,
+              'MRupdate': True
+          },
+          current_date: {
+              'date': current_date,
+              'MRYearMonth': new_dates
+          }
+      }
+      logs.append(new_log)
+      with open('../LOG/WeeklyReport/log.json', 'w') as f:
+          json.dump(logs, f, indent=4)
 
     # print success message
     print("CDCWeekly Data updated successfully!")
+
+

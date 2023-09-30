@@ -221,3 +221,36 @@ def process_table_data(urls, filtered_results, diseaseCode2Name, dois):
         # Save the results for each month to a CSV file
         file_name = os.path.join("WeeklyReport/", filtered_results[i]["YearMonth"] + ".csv")
         table_data.to_csv(file_name, index=False, encoding="UTF-8-sig")
+
+# define a function to get table data from URLs
+def chatgpt_description(api_base, api_key, analysis_YearMonth, table_data_str, model, disease_name = ''):
+    url = f"{api_base}"
+    headers = {
+        'Content-Type': 'application/json',
+        'Authorization': f'Bearer {api_key}'
+    }
+    data = {
+        'model': model,
+        'temperature': 0.7,
+        'max_tokens': 10000,
+        'messages': [
+            {"role": "user", "content": "I'm working on the results of my paper, playing a professional epidemiologist assisted me to describe the data. Next, I will send you the monthly incidence and death of different diseases. Please describe these data based on this data."},
+            {"role": "system", "content": "OK, you can send me the data directly to me."},
+            {"role": "user", "content": f"This is the monthly cases and deaths in {analysis_YearMonth} {disease_name}, Please directly write the discussion of the data for paper."},
+            {"role": "system", "content": "I will play a professional writer, create the discussion of the paper."},
+            {"role": "user", "content": f"Here is the data:\n{table_data_str}"}
+        ]
+    }
+
+    response = requests.post(url, headers=headers, json=data)
+
+    if response.status_code == 200:
+        print('Generate Description Success ' + disease_name)
+        out_content = response.json()['choices'][0]['message']['content']
+        out_content = out_content.replace('Discussion:\n\n', '')
+    else:
+        print('Generate Description Fail ' + disease_name)
+        print(response.json())
+        out_content = None
+
+    return out_content

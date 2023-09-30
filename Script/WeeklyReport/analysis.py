@@ -1,31 +1,33 @@
 import pandas as pd
 import json
 import datetime
+import time
 import os
-import seaborn as sns
-import matplotlib.pyplot as plt
-import matplotlib.ticker as mticker
-import os
-import pandas as pd
-import seaborn as sns
-import matplotlib.pyplot as plt
-from reportlab.lib.pagesizes import letter
-from reportlab.lib import colors
-from reportlab.pdfbase import pdfmetrics
-from reportlab.lib.styles import getSampleStyleSheet, ParagraphStyle
-from reportlab.platypus import SimpleDocTemplate, Paragraph, Spacer, Image, Table, TableStyle, PageTemplate, Frame, BaseDocTemplate, PageBreak
-from reportlab.lib.enums import TA_CENTER, TA_RIGHT
-from reportlab.lib.units import inch, cm
-from reportlab.pdfbase.pdfmetrics import registerFontFamily
-from reportlab.pdfbase.ttfonts import TTFont
-from reportlab.lib.pagesizes import landscape
+from plotnine import *
 from reportlab.pdfgen import canvas
+from reportlab.platypus import (SimpleDocTemplate, Paragraph, PageBreak, Image, Spacer, Table, TableStyle)
+from reportlab.lib.enums import TA_LEFT, TA_RIGHT, TA_CENTER, TA_JUSTIFY
+from reportlab.lib.styles import ParagraphStyle, getSampleStyleSheet
+from reportlab.lib.pagesizes import A4, inch
+from reportlab.graphics.shapes import Line, LineShape, Drawing
+from reportlab.lib.colors import Color
+from reportlab.pdfbase import pdfmetrics
+from reportlab.pdfbase.ttfonts import TTFont
+from reportlab.lib import colors
+from reportlab.lib.pagesizes import letter
+import matplotlib.pyplot as plt
+import yaml
+import shutil
+
+from function import chatgpt_description
 
 # set working directory
 os.chdir("./GetData")
 
 # 设置字体
-pdfmetrics.registerFont(TTFont('SimSun', '../Script/WeeklyReport/SIMSUN.ttf')) 
+pdfmetrics.registerFont(TTFont('SimSun', '../Script/WeeklyReport/font/SIMSUN.ttf')) 
+pdfmetrics.registerFont(TTFont('Helvetica', '../Script/WeeklyReport/font/Helvetica.ttf'))
+pdfmetrics.registerFont(TTFont('Helvetica-Bold', '../Script/WeeklyReport/font/Helvetica-Bold.ttf'))
 
 ## 读取log文件
 with open('../LOG/WeeklyReport/log.json', 'r') as f:
@@ -33,12 +35,12 @@ with open('../LOG/WeeklyReport/log.json', 'r') as f:
 update_report = log_list[0]["info"]["MRupdate"]
 
 # 判断是否需要更新
+# 判断是否需要更新
 if update_report:
   print('Need to update report')
-  update_YearMonthDay = log_list[0]["info"]["MRYearMonthDay"]
-  analysis_YearMonthDay = max(update_YearMonthDay)
-  analysis_date = datetime.datetime.strptime(analysis_YearMonthDay, '%Y/%m/%d')
-  analysis_YearMonth = analysis_date.strftime('%Y %B')
+  update_YearMonth = log_list[0]["info"]["MRYearMonth"]
+  analysis_YearMonth = max(update_YearMonth)+' 01'
+  analysis_date = datetime.datetime.strptime(analysis_YearMonth, '%Y %B %d')
 
   # read all data
   df = pd.read_csv('../AllData/WeeklyReport/latest.csv', encoding='utf-8')
@@ -82,52 +84,40 @@ if update_report:
   # sort by Cases
   change_data = change_data.sort_values(by='Cases', ascending=False).reset_index()
 
-  # 设置工作路径
   os.chdir("../Script")
   # 创建temp文件夹
   if not os.path.exists("temp"):
       os.makedirs("temp")
 
+  # 读取原始文件
+  table_data_original = pd.read_csv('../GetData/WeeklyReport/2020 April.csv', encoding='utf-8')
+  diseases_order = table_data_original['Diseases'].tolist()  # 转换为列表
 
-  # 创建一个包含两个子图的图形
-  fig, axes = plt.subplots(1, 2, figsize=(10, 10))
 
-  # 生成图像1 - 柱状图 (Cases)
-  sns.barplot(y="Diseases", 
-              x="Cases", 
-              data=change_data[change_data['Diseases'] != "Total"], 
-              palette="Blues_d",
-              ax=axes[0])
-  for index, row in change_data[change_data['Diseases'] != "Total"].iterrows():
-      axes[0].text(row.Cases, index-1, int(row.Cases), color='black', ha="left", va="center")
-  axes[0].set_xlim(0, change_data[change_data['Diseases'] != "Total"]['Cases'].max() * 1.3)
-  axes[0].set_ylim(-1, len(change_data[change_data['Diseases'] != "Total"]['Diseases']))
-  axes[0].set_xlabel("Cases (thousand)")
-  axes[0].set_ylabel("")
-  axes[0].set_title("A: Monthly Cases Notifiable Infectious Diseases Reports", loc='right')
-  formatter = mticker.FuncFormatter(lambda x, pos: '{:.0f}'.format(x/1000))
-  axes[0].xaxis.set_major_formatter(formatter)
+  change_data_total = change_data[change_data['Diseases'] != "Total"]
+  change_data_total = change_data_total.melt(id_vars='Diseases',
+                                            value_vars=['Cases', 'Deaths'], 
+                                            var_name='Type',
+                                            value_name='Value')
+  change_data_total = change_data_total.sort_values(by='Diseases', key=lambda x: x.map(diseases_order.index))
 
-  # 生成图像2 - 柱状图 (Deaths)
-  sns.barplot(y="Diseases", 
-              x="Deaths", 
-              data=change_data[change_data['Diseases'] != "Total"], 
-              palette="Reds_d",
-              ax=axes[1])
-  for index, row in change_data[change_data['Diseases'] != "Total"].iterrows():
-      axes[1].text(row.Deaths, index-1, int(row.Deaths), color='black', ha="left", va="center")
-  axes[1].set_xlim(0, change_data[change_data['Diseases'] != "Total"]['Deaths'].max() * 1.3)
-  axes[1].set_ylim(-1, len(change_data[change_data['Diseases'] != "Total"]['Diseases']))
-  axes[1].set_xlabel("Deaths")
-  axes[1].set_ylabel("")
-  axes[1].set_title("B: Monthly Deaths Notifiable Infectious Diseases Reports", loc='right')
 
-  # 调整子图之间的间距
-  plt.tight_layout()
+  # Generate plot for Cases
+  plot_total = (
+      ggplot(change_data_total, 
+            aes(y='Value', x='reorder(Diseases, Value)', fill = 'Type')) +
+      geom_bar(stat="identity", position="identity") +
+      scale_y_continuous(limits = [0, None], expand = [0, 0, 0.2, 0]) +
+      coord_flip() +
+      theme_bw()+
+      theme(legend_position='none')+
+      facet_wrap('~Type', nrow=1, scales='free_x')+
+      labs(x ='', y = '')
+  )
 
-  # 保存合并的图像
-  merged_chart_path = os.path.join("temp", "merged_chart.png")
-  plt.savefig(merged_chart_path, dpi=300)
+  # Save the merged plot
+  merged_chart_path = "temp/merged_chart.png"
+  plot_total.save(merged_chart_path, dpi=300, width=10, height=10)
 
   table_data = change_data
   # 去除index
@@ -167,224 +157,364 @@ if update_report:
   # drop percentage columns
   table_data = table_data.drop(['ChangeCasesMonthPer', 'ChangeCasesYearPer', 'ChangeDeathsMonthPer', 'ChangeDeathsYearPer'], axis=1)
 
-  # get compare date
+  # 获取比较日期
   compare_PM = analysis_date - pd.DateOffset(months=1)
   compare_PM = compare_PM.strftime('%Y %B')
   compare_PY = analysis_date - pd.DateOffset(years=1)
   compare_PY = compare_PY.strftime('%Y %B')
 
-  # set columns name
-  table_data.columns = ['Diseases', 'Diseases(Chinese)',
+  # 设置列名
+  table_data.columns = ['Diseases', 'Diseases (Chinese)',
                         'Cases', 
-                        'Compare with ' + compare_PM, 
-                        'Compare with ' + compare_PY, 
+                        'Comparison with ' + compare_PM, 
+                        'Comparison with ' + compare_PY, 
                         'Deaths', 
-                        'Compare with ' + compare_PM, 
-                        'Compare with ' + compare_PY]
-  # 把第一行放到最后一行
-  table_data = table_data.append(table_data.iloc[0], ignore_index=True)
-  table_data = table_data.drop([0], axis=0)
+                        'Comparison with ' + compare_PM, 
+                        'Comparison with ' + compare_PY]
+
+  # 将第一行移动到最后一行
+  table_data = table_data.loc[table_data.index[1:].tolist() + [table_data.index[0]]]
+
   # 选择第1-5列
-  table_data_cases = table_data.iloc[:, 0:5]
-  # 选择第1-2和6-8列
-  table_data_deaths = table_data.iloc[:, [0, 1, 5, 6, 7]]
+  table_data_cases = table_data.iloc[:, [0, 2, 3, 4]]
+  table_data_cases = table_data_cases.sort_values(by='Diseases', key=lambda x: x.map(diseases_order.index))
 
-  # 创建报告
-  doc = SimpleDocTemplate("../Report/report " + analysis_YearMonth + ".pdf", pagesize=letter)
+  # 选择第1-2和第6-8列
+  table_data_deaths = table_data.iloc[:, [0, 5, 6, 7]]
+  table_data_deaths = table_data_deaths.sort_values(by='Diseases', key=lambda x: x.map(diseases_order.index))
 
-  # 定义样式
-  styles = getSampleStyleSheet()
-  styles.add(ParagraphStyle(name='Subtitle', parent=styles['Normal'], fontSize=12, textColor=colors.gray))
+  diseases = table_data_cases['Diseases'].tolist()
 
-  # 添加封面
-  cover_elements = []
+  # set chatgpt
+  # with open('../config.yml', 'r') as f:
+  #   config = yaml.safe_load(f)
 
-  # 添加封面标题
-  cover_title = Paragraph("CNID: A Dynamic Sensing Project of Notifiable Infectious Diseases Data in Mainland, China", styles['Title'])
-  cover_elements.append(cover_title)
-  cover_elements.append(Spacer(1, 12))
+  # api_key = config['OPENAI']['api']
+  # api_base = config['OPENAI']['URL']
+  api_key = os.environ['OPENAI_api']
+  api_base = os.environ['OPENAI_url']
+  table_data_str = table_data
+  table_data_str = table_data_str.to_string(index=False)
 
-  # 添加封面副标题
-  cover_subtitle = Paragraph("This report create by reportlab and python, automatically.", styles['Subtitle'])
-  cover_elements.append(cover_subtitle)
-  cover_elements.append(Spacer(1, 36))
+  class FooterCanvas(canvas.Canvas):
+    def __init__(self, *args, **kwargs):
+        super().__init__(*args, **kwargs)
+        self.pages = []
+        self.width, self.height = letter
 
-  # 添加封面底部引用
-  cover_citation = Paragraph("Cite Us: Reported Cases and Deaths of National Notifiable Infectious Diseases — China, June 2023*[J]. China CDC Weekly. <u><a href='http://dx.doi.org/10.46234/ccdcw2023.130'>doi: 10.46234/ccdcw2023.130</a></u>", styles['Normal'])
-  cover_elements.append(cover_citation)
-  cover_elements.append(PageBreak())
+    def showPage(self):
+        self.pages.append(dict(self.__dict__))
+        self._startPage()
 
-  # 创建元素列表
-  elements = []
+    def save(self):
+        page_count = len(self.pages)
+        for page in self.pages:
+            self.__dict__.update(page)
+            if self._pageNumber > 1:
+                self.draw_canvas(page_count)
+            super().showPage()
+        super().save()
 
-  # 添加封面内容到元素列表
-  elements.extend(cover_elements)
+    def draw_canvas(self, page_count):
+        page = "Page %s of %s" % (self._pageNumber - 1, page_count - 1)
+        x = 128
+        self.saveState()
+        self.setStrokeColorRGB(0, 0, 0)
+        self.setLineWidth(0.5)
+        
+        self.line(30, self.height - 10, self.width - 30, self.height - 10)
+        self.line(30, 50, self.width - 30, 50)
+        self.drawString(self.width - x, 25, page)
+        self.drawString(self.width - inch * 8 - 5, self.height, "CNIDs: Chinese Notifiable Infectious Diseases Sensing Project")
+        self.restoreState()
 
-  # 添加页眉和页码
-  def add_page_number(canvas, doc):
-      canvas.saveState()
-      canvas.setFont("Helvetica", 9)
-      canvas.drawString(inch, 0.75 * inch, "CNID dynamic sensing")
-      canvas.drawString(7.5 * inch, 0.75 * inch, str(doc.page))
-      canvas.restoreState()
-      
-  # 创建一个自定义的页脚样式
-  footer_style = ParagraphStyle(
-      name='FooterStyle',
-      fontSize=10,
-      textColor='gray',
-      alignment=1,
-      spaceAfter=0.1 * inch
-  )
+class PDFPSReporte:
 
-  # 添加页眉和页码模板
-  doc = SimpleDocTemplate("../Report/report " + analysis_YearMonth + ".pdf", pagesize=letter)
+    def __init__(self, path):
+        self.path = path
+        self.styleSheet = getSampleStyleSheet()
+        self.elements = []
 
-  # 创建自定义的页面模板，指定页脚回调函数
-  page_template = PageTemplate(id='mypagetemplate', onPage=add_page_number)
+        # colors - Azul turkeza 367AB3
+        self.colorOhkaGreen0 = Color((45.0/255), (166.0/255), (153.0/255), 1)
+        self.colorOhkaGreen1 = Color((182.0/255), (227.0/255), (166.0/255), 1)
+        self.colorOhkaGreen2 = Color((140.0/255), (222.0/255), (192.0/255), 1)
+        #self.colorOhkaGreen2 = Color((140.0/255), (222.0/255), (192.0/255), 1)
+        self.colorOhkaBlue0 = Color((54.0/255), (122.0/255), (179.0/255), 1)
+        self.colorOhkaBlue1 = Color((122.0/255), (180.0/255), (225.0/255), 1)
+        self.colorOhkaGreenLineas = Color((50.0/255), (140.0/255), (140.0/255), 1)
+        # set style
+        styles = getSampleStyleSheet()
+        styles.add(ParagraphStyle(name='Subtitle', parent=styles['Normal'], fontSize=12, textColor=colors.gray))
+        styles.add(ParagraphStyle(name='Notice', parent=styles['Normal'], fontSize=14, textColor=colors.red, alignment=TA_CENTER, borderWidth=3))
+        styles.add(ParagraphStyle(name="Cite", alignment=TA_LEFT, fontSize=10, textColor=colors.gray))
+        styles.add(ParagraphStyle(name="Author", alignment=TA_LEFT, fontSize=10, textColor=colors.black))
+        styles.add(ParagraphStyle(name='Hed0', fontSize=16, alignment=TA_LEFT, borderWidth=3, textColor=self.colorOhkaGreen0, leftIndent=-16))
+        styles.add(ParagraphStyle(name='Hed1', fontSize=14, alignment=TA_LEFT, borderWidth=3, textColor=self.colorOhkaBlue1, leftIndent=-16, rightIndent=-16))
+        styles.add(ParagraphStyle(name='Content', fontSize=10, alignment=TA_LEFT, borderWidth=3, textColor=colors.black, leftIndent=-16, rightIndent=-16))
+        styles.add(ParagraphStyle(name='Legend', fontSize=12, bold=True, alignment=TA_CENTER, borderWidth=3, textColor=self.colorOhkaBlue0, leftIndent=-16, rightIndent=-16))
+        # change style margin
+        styles['Normal'].leftMargin = 0
+        styles['Normal'].rightMargin = 0
+        # set table style
+        table_style = TableStyle([
+            ('TEXTCOLOR', (0, 1), (-1, -1), colors.black),
+            ('BACKGROUND', (0, 0), (-1, 0), self.colorOhkaGreen0),
+            ('TEXTCOLOR', (0, 0), (-1, 0), colors.whitesmoke),
+            ('FONTNAME', (0, 0), (-1, 0), 'Helvetica-Bold'),
+            ('FONTSIZE', (0, 0), (-1, 0), 12),
+            ('BOTTOMPADDING', (0, 0), (-1, 0), 12),
+            ('LINEBELOW', (0, 0), (-1, -1), 1, self.colorOhkaBlue1),
+            ('BACKGROUND', (0, -1), (-1, -1), colors.lightblue)
+        ])
 
-  # 添加标题
-  title = Paragraph("Notifiable Infectious Diseases Reports: Reported Cases and Deaths of National Notifiable Infectious Diseases — China, " + analysis_YearMonth, styles['Title'])
-  elements.append(title)
-  elements.append(Spacer(1, 12))
+        self.firstPage(styles)
+        self.nextPagesHeader('Monthly Report -- ' + analysis_YearMonth, styles)
+        self.MonthlyPages(styles, table_style)
+        self.nextPagesHeader('History Data Analysis' + analysis_YearMonth, styles)
+        self.HistoryTotalPages(styles, disease = 'Total')
+        
+        if 'Total' in diseases:
+            diseases.remove('Total')
+    
+        for i, disease in enumerate(diseases):
+            self.HistoryTotalPages(styles, disease, i+1)
+        # Build
+        self.doc = SimpleDocTemplate(path, pagesize=A4)
+        self.doc.multiBuild(self.elements, canvasmaker=FooterCanvas)
 
-  # 添加图像1
-  image1 = Image('./temp/merged_chart.png', width=500, height=500)
-  elements.append(image1)
-  elements.append(Spacer(1, 12))
+    def firstPage(self, styles):
+        cover_title = Paragraph("CNIDs: Chinese Notifiable Infectious Diseases Sensing Project", styles['Subtitle'])
+        self.elements.append(cover_title)
+        self.elements.append(Spacer(30, 100))
 
-  # 分割页
-  elements.append(PageBreak())
+        cover_title = Paragraph("A Dynamic Sensing Report of Notifiable Infectious Diseases Data in Mainland, China", styles['Title'])
+        self.elements.append(cover_title)
+        self.elements.append(Spacer(1, 12))
+        
+        cover_title = Paragraph(analysis_YearMonth, styles['Title'])
+        self.elements.append(cover_title)
+        self.elements.append(Spacer(1, 12))
 
-  # 添加二级标题
-  subtitle1 = Paragraph("Monthly Cases ———— " + analysis_YearMonth, styles['Heading2'])
-  elements.append(subtitle1)
-  # 添加表格
-  data = [table_data_cases.columns.tolist()] + table_data_cases.values.tolist()
-  table = Table(data)
-  table_style = TableStyle([
-      ('TEXTCOLOR', (0, 1), (-1, -1), colors.black),
-      ('FONTNAME', (0, 1), (-1, -1), 'SimSun'),
-      ('FONTSIZE', (0, 1), (-1, -1), 8),
-      ('LEADING', (0, 0), (-1, -1), 6)
-  ])
-  table.setStyle(table_style)
-  elements.append(table)
-  elements.append(Spacer(1, 12))
-  elements.append(PageBreak())
+        cover_title = Paragraph("NOTICE: The text in this report was generate by ChatGPT-3.5-turbo-16k-0613, for reference only.", styles['Notice'])
+        self.elements.append(cover_title)
+        self.elements.append(Spacer(1, 12))
 
-  # 添加表格标题
-  subtitle2 = Paragraph("Monthly Deaths ———— " + analysis_YearMonth, styles['Heading2'])
-  elements.append(subtitle2)
-  # 添加表格
-  data = [table_data_deaths.columns.tolist()] + table_data_deaths.values.tolist()
-  table = Table(data)
-  table_style = TableStyle([
-      ('TEXTCOLOR', (0, 1), (-1, -1), colors.black),
-      ('FONTNAME', (0, 1), (-1, -1), 'SimSun'),
-      ('FONTSIZE', (0, 1), (-1, -1), 8),
-      ('LEADING', (0, 0), (-1, -1), 6)
-  ])
-  table.setStyle(table_style)
-  elements.append(table)
-  elements.append(Spacer(1, 12))
-  elements.append(PageBreak())
+        self.elements.append(Spacer(10, 270))
 
-  title = Paragraph("Historic Notifiable Infectious Diseases Reports Analysis — China, " + analysis_YearMonth, styles['Title'])
-  elements.append(title)
-  elements.append(Spacer(1, 12))
+        datenow = datetime.datetime.now()
+        datenow = datenow.strftime("%Y-%m-%d")
+        text = f"""Automaticly Generate by Python and ChatGPT<br/>
+        Power by: Github Action<br/>
+        Design by: Kangguo Li<br/>
+        Connect with me: <u><a href='mailto:lkg1116@outlook.com'>lkg1116@outlook.com</a></u><br/>
+        Generated Date: {datenow}<br/>
+        """
+        paragraphReportSummary = Paragraph(text, styles["Author"])
+        self.elements.append(paragraphReportSummary)
+        self.elements.append(Spacer(1, 30))
 
-  elements.append(PageBreak())
+        text = """Cite Us: Reported Cases and Deaths of National Notifiable Infectious Diseases — China, June 2023*[J]. 
+        China CDC Weekly. <u><a href='http://dx.doi.org/10.46234/ccdcw2023.130'>doi: 10.46234/ccdcw2023.130</a></u>"""
+        cover_citation = Paragraph(text, styles['Cite'])
+        self.elements.append(cover_citation)
+        self.elements.append(PageBreak())
 
-  # 添加每种Disease的页面
-  for disease in table_data_cases['Diseases']:
-      # 添加标题
-      disease_title = Paragraph("Disease: {}".format(disease), styles['Heading2'])
-      elements.append(disease_title)
-      elements.append(Spacer(1, 12))
+    def nextPagesHeader(self, text=None, styles=None):
+        paragraphReportHeader = Paragraph(text, styles['Hed0'])
+        self.elements.append(paragraphReportHeader)
 
-      # 获取疾病数据
-      disease_data = df[df['Diseases'] == disease].copy()
-      disease_data['Date'] = pd.to_datetime(disease_data['Date']).dt.date
-      disease_data = disease_data.sort_values(by='Date', ascending=True)
-      # 选择列
-      disease_data = disease_data[['YearMonthDay', 'Cases', 'Deaths']]
-      # 补全缺失的日期，检查dates中是否有缺失的日期
-      missing_dates = list(set(dates) - set(disease_data['YearMonthDay']))
-      missing_data = pd.DataFrame({'YearMonthDay': missing_dates, 'Cases': None, 'Deaths': None})
-      disease_data = pd.concat([disease_data, missing_data])
-      # 生成从最小值到最大值的一串日期，间隔为月
-      dates_unrecognized = pd.date_range(disease_data['YearMonthDay'].min(), disease_data['YearMonthDay'].max(), freq='MS').strftime('%Y/%m/%d')
-      dates_unrecognized = list(set(dates_unrecognized) - set(disease_data['YearMonthDay']))
-      missing_data = pd.DataFrame({'YearMonthDay': dates_unrecognized, 'Cases': None, 'Deaths': None})
-      disease_data = pd.concat([disease_data, missing_data])
-      # 排序
-      disease_data = disease_data.sort_values(by='YearMonthDay', ascending=True)
-      # 重置索引
-      disease_data = disease_data.reset_index()
-      # 删除索引列
-      disease_data = disease_data.drop(['index'], axis=1)
-      # 生成日期列
-      disease_data['Date'] = pd.to_datetime(disease_data['YearMonthDay'])
+        spacer = Spacer(10, 10)
+        self.elements.append(spacer)
 
-      # 生成折线图1 - Cases
-      fig, ax1 = plt.subplots(figsize=(12, 4))
-      ax1.plot(disease_data['Date'], disease_data['Cases'], color='blue')
-      ax1.set_ylabel("Cases", color = 'blue')
-      
-      ax2 = ax1.twinx()
-      ax2.plot(disease_data['Date'], disease_data['Deaths'], color='red')
-      ax2.set_ylabel("Deaths", color = 'red')
-      disease_chart1_path = os.path.join("temp", "disease_{}_chart1.png".format(disease))
-      plt.savefig(disease_chart1_path)
+        d = Drawing(500, 1)
+        line = Line(-20, 0, 460, 0)
+        line.strokeColor = self.colorOhkaGreenLineas
+        line.strokeWidth = 2
+        d.add(line)
+        self.elements.append(d)
 
-      # 表格整理
-      ## 提取年份和月份
-      disease_data['Year'] = disease_data['Date'].dt.year
-      disease_data['Month'] = disease_data['Date'].dt.month
-      # 去除重复行
-      disease_data = disease_data.drop_duplicates(subset=['Year', 'Month'])
-      ## 表格转置
-      table_data_case = disease_data.pivot(index='Month', columns='Year', values='Cases')
-      table_data_death = disease_data.pivot(index='Month', columns='Year', values='Deaths')
+        spacer = Spacer(10, 1)
+        self.elements.append(spacer)
 
-      ## 绘制热图1
-      # fig, ax = plt.subplots(figsize=(12, 4))
-      # sns.heatmap(table_data_case, annot=True, fmt="d", linewidths=.5, ax=ax)
-      # plt.title("Heatmap of Cases by Month and Year")
-      # plt.xlabel("Year")
-      # plt.ylabel("Month")
-      # disease_chart2_path = os.path.join("temp", "disease_{}_chart2.png".format(disease))
-      # plt.savefig(disease_chart2_path)
+        d = Drawing(500, 1)
+        line = Line(-20, 0, 460, 0)
+        line.strokeColor = self.colorOhkaGreenLineas
+        line.strokeWidth = 0.5
+        d.add(line)
+        self.elements.append(d)
 
-      # 添加折线图1
-      disease_image1 = Image(disease_chart1_path, width=600, height=200)
-      elements.append(disease_image1)
-      elements.append(Spacer(1, 12))
+        spacer = Spacer(10, 22)
+        self.elements.append(spacer)
 
-      # 添加表格1
-      data = [table_data_case.columns.tolist()] + table_data_case.values.tolist()
-      table = Table(data)
-      table.setStyle(table_style)
-      elements.append(table)
-      elements.append(Spacer(1, 12))
+    def MonthlyPages(self, styles = None, table_style = None):        
+        
+        image1 = Image('./temp/merged_chart.png', width=500, height=500)
+        self.elements.append(image1)
+        self.elements.append(Spacer(1, 12))
+        legend = Paragraph("Figure 1: Monthly Notifiable Infectious Diseases Reports in " + analysis_YearMonth, styles['Legend'])
+        self.elements.append(legend)
+        self.elements.append(Spacer(1, 12))
 
+        # add out_content
+        max_attempts = 10
+        attempts = 0
+        content = None
+        while attempts < max_attempts:
+            content = chatgpt_description(api_base, api_key, analysis_YearMonth, table_data_str, 'gpt-3.5-turbo-16k-0613')
+            if content is not None:
+                paragraphChatgpt = Paragraph(content.replace('\n\n','<br />\n'), styles['Content'])
+                self.elements.append(paragraphChatgpt)
+                self.elements.append(Spacer(1, 12))
+                break
+            else:
+                time.sleep(21)
+            attempts += 1
 
-      # 添加表格2
-      data = [table_data_death.columns.tolist()] + table_data_death.values.tolist()
-      table = Table(data)
-      table.setStyle(table_style)
-      elements.append(table)
-      elements.append(Spacer(1, 12))
+        legend = Paragraph("Table 1: Monthly Notifiable Infectious Diseases Cases in " + analysis_YearMonth, styles['Legend'])
+        self.elements.append(legend)
+        self.elements.append(Spacer(1, 12))
+        data = [table_data_cases.columns.tolist()] + table_data_cases.values.tolist()
+        table = Table(data)
+        table.setStyle(table_style)
+        self.elements.append(table)
+        self.elements.append(Spacer(1, 12))
+        
+        legend = Paragraph("Table 2: Monthly Notifiable Infectious Diseases Deaths in " + analysis_YearMonth, styles['Legend'])
+        self.elements.append(legend)
+        self.elements.append(Spacer(1, 12))
+        data = [table_data_deaths.columns.tolist()] + table_data_deaths.values.tolist()
+        table = Table(data)
+        table.setStyle(table_style)
+        self.elements.append(table)
+        
+        self.elements.append(PageBreak())
 
-      elements.append(PageBreak())
+    def HistoryTotalPages(self, styles = None, disease = 'Total', i=0):   
+        # add head
+        paragraphReportHeader = Paragraph(disease, styles['Hed1'])
+        self.elements.append(paragraphReportHeader)
+        self.elements.append(Spacer(1, 12))
 
-  # 将元素列表添加到报告中
-  doc.build(elements)
+        # filter data
+        disease_data = df[df['Diseases'] == disease].copy()
+        disease_data['Date'] = pd.to_datetime(disease_data['Date']).dt.date
+        disease_data = disease_data.sort_values(by='Date', ascending=True)
+        # 选择列
+        disease_data = disease_data[['YearMonthDay', 'Cases', 'Deaths']]
+        dates_unrecognized = pd.date_range(disease_data['YearMonthDay'].min(), disease_data['YearMonthDay'].max(), freq='MS').strftime('%Y/%m/%d')
+        dates_unrecognized = list(set(dates_unrecognized) - set(disease_data['YearMonthDay']))
+        missing_data = pd.DataFrame({'YearMonthDay': dates_unrecognized, 'Cases': None, 'Deaths': None})
+        disease_data = pd.concat([disease_data, missing_data])
 
-  # 删除temp文件夹
-  import shutil
-  shutil.rmtree("temp")
+        disease_data = disease_data.sort_values(by='YearMonthDay', ascending=True)
+        disease_data = disease_data.reset_index()
+        disease_data = disease_data.drop(['index'], axis=1)
+        disease_data['Date'] = pd.to_datetime(disease_data['YearMonthDay'])
+        # add YearMonth
+        disease_data['YearMonth'] = disease_data['Date'].dt.strftime('%Y %B')
 
-  # 复制一份文件为 Report latest.pdf
-  shutil.copy("../Report/report " + analysis_YearMonth + ".pdf", "../Report/report latest.pdf")
+        # 生成折线图1 - Cases
+        fig, ax1 = plt.subplots(figsize=(12, 4))
+        ax1.plot(disease_data['Date'], disease_data['Cases'], color='blue')
+        ax1.set_ylabel("Cases", color = 'blue')
+        ax2 = ax1.twinx()
+        ax2.plot(disease_data['Date'], disease_data['Deaths'], color='red')
+        ax2.set_ylabel("Deaths", color = 'red')
+        disease_chart1_path = os.path.join("temp", "disease_{}_chart1.png".format(disease))
+        plt.savefig(disease_chart1_path)
+        plt.close()
+        plt.show()
+
+        # table
+        disease_data['Year'] = disease_data['Date'].dt.year
+        disease_data['Month'] = disease_data['Date'].dt.month
+        disease_data = disease_data.drop_duplicates(subset=['Year', 'Month'])
+        disease_data = disease_data.melt(id_vars=['Year', 'Month', 'YearMonth'],
+                                        value_vars=['Cases', 'Deaths'], 
+                                        var_name='Type',
+                                        value_name='Value')
+        disease_data['Value'] = disease_data['Value'].fillna(-10)
+
+        ## heatmap
+        plot_total = (
+            ggplot(disease_data[(disease_data['Value'] != -10) & (disease_data['Type'] == 'Cases')], 
+                  aes(y='factor(Month)', x='factor(Year)', fill='Value')) +
+            geom_tile(aes(width=.95, height=.95)) +
+            scale_fill_continuous(limits = [0, None]) +
+            coord_equal() +
+            theme_bw()+
+            labs(x ='Year', y = 'Month', fill = 'Cases')
+        )
+
+        disease_chart2_path = os.path.join("temp", "disease_{}_chart2.png".format(disease))
+        plot_total.save(disease_chart2_path, dpi=300, width=7, height=5)
+
+        plot_total = (
+            ggplot(disease_data[(disease_data['Value'] != -10) & (disease_data['Type'] == 'Deaths')], 
+                  aes(y='factor(Month)', x='factor(Year)', fill='Value')) +
+            geom_tile(aes(width=.95, height=.95)) +
+            scale_fill_continuous(limits = [0, None]) +
+            coord_equal() +
+            theme_bw()+
+            labs(x ='Year', y = 'Month', fill = 'Cases')
+        )
+
+        disease_chart3_path = os.path.join("temp", "disease_{}_chart3.png".format(disease))
+        plot_total.save(disease_chart3_path, dpi=300, width=7, height=5)  
+        
+        disease_image1 = Image(disease_chart1_path, width=600, height=200)
+        self.elements.append(disease_image1)
+        self.elements.append(Spacer(1, 12))
+        legend = Paragraph(f"Figure {i*3+2}: The Change of {disease} Reports before " + analysis_YearMonth, styles['Legend'])
+        self.elements.append(legend)
+        self.elements.append(Spacer(1, 12))
+
+        # add out_content
+        disease_data_str = disease_data[['YearMonth', 'Type', 'Value']].to_string(index=False)
+
+        max_attempts = 10
+        attempts = 0
+        content = None
+        while attempts < max_attempts:
+            content = chatgpt_description(api_base, api_key, analysis_YearMonth, disease_data_str, 'gpt-3.5-turbo', disease_name=f'for {disease}')
+            if content is not None:
+                paragraphChatgpt = Paragraph(content.replace('\n\n','<br />\n'), styles['Content'])
+                self.elements.append(paragraphChatgpt)
+                self.elements.append(Spacer(1, 12))
+                break
+            else:
+                time.sleep(21)
+            attempts += 1
+
+        disease_image1 = Image(disease_chart2_path, width=350, height=250)
+        self.elements.append(disease_image1)
+        self.elements.append(Spacer(1, 12))
+        legend = Paragraph(f"Figure {i*3+3}: The Change of {disease} Cases before " + analysis_YearMonth, styles['Legend'])
+        self.elements.append(legend)
+        self.elements.append(Spacer(1, 12))
+        
+        disease_image1 = Image(disease_chart3_path, width=350, height=250)
+        self.elements.append(disease_image1)
+        self.elements.append(Spacer(1, 12))
+        legend = Paragraph(f"Figure {i*3+4}: The Change of {disease} Deaths before " + analysis_YearMonth, styles['Legend'])
+        self.elements.append(legend)
+        self.elements.append(PageBreak())
+
+if __name__ == '__main__':
+    report = PDFPSReporte("../Report/report " + analysis_YearMonth + ".pdf")
+    shutil.rmtree("temp")
+    shutil.copy("../Report/report " + analysis_YearMonth + ".pdf", "../Report/report latest.pdf")
+
+    new_log = {
+          'info': {
+              'date': log_list[0]["info"]["date"],
+              'MRYearMonth': log_list[0]["info"]["MRYearMonth"],
+              'MRupdate': False
+          }
+      }
+    log_list.append(new_log)
+    with open('../LOG/WeeklyReport/log.json', 'w') as f:
+        json.dump(log_list, f, indent=4)
+
+  
