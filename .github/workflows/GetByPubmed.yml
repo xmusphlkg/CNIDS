@@ -18,5 +18,15 @@ jobs:
           python-version: '3.9.12'
       - run: pip install requests xmltodict beautifulsoup4 pandas reportlab plotnine
       - run: python3 Script/WeeklyReport/main.py
-      - run: python3 Script/WeeklyReport/analysis.py
+      # - run: python3 Script/WeeklyReport/analysis.py
       - run: python3 Script/DatacenterReport/main.py
+      - uses: actions/github-script@v4
+        with:
+          github-token: ${{ secrets.GITHUB_TOKEN }}
+          script: |
+            git config --local user.email "kanggle@outlook.com"
+            git config --local user.name "GitHub Action"
+            git add .
+            git commit -m "Auto Update files"
+            git push origin main
+
