@@ -250,7 +250,7 @@ def chatgpt_description(api_base, api_key, analysis_YearMonth, table_data_str, m
         out_content = out_content.replace('Discussion:\n\n', '')
     else:
         print('Generate Description Fail ' + disease_name)
-        print(response.json())
+        print(response)
         out_content = None
 
     return out_content
