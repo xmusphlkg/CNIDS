@@ -12,7 +12,6 @@ jobs:
       OPENAI_api: ${{ secrets.OPENAI_API }}
       OPENAI_url: ${{ secrets.OPENAI_URL }}
     steps:
-      - name: checkout actions
       - uses: actions/checkout@v2
       - uses: actions/setup-python@v4
         with:
@@ -22,6 +21,7 @@ jobs:
       - run: python3 Script/WeeklyReport/main.py
       - run: python3 Script/WeeklyReport/analysis.py
       - run: python3 Script/DatacenterReport/main.py
+      - uses: actions/setup-python@v4
       - run: |
             git config --local user.email "kanggle@outlook.com"
             git config --local user.name "GitHub Action"
