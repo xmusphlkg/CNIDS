@@ -8,11 +8,14 @@ on:
 jobs:
   run-python-script:
     runs-on: ubuntu-latest
+    env:
+      OPENAI_api: ${{ secrets.OPENAI_API }}
+      OPENAI_url: ${{ secrets.OPENAI_URL }}
     steps:
       - uses: actions/checkout@v2
       - uses: actions/setup-python@v4
         with:
           python-version: '3.9.12'
-      - run: pip install requests xmltodict beautifulsoup4 pandas
+      - run: pip install requests xmltodict beautifulsoup4 pandas reportlab plotnine shutil
       - run: python3 Script/WeeklyReport/main.py
       - run: python3 Script/DatacenterReport/main.py
