@@ -5,19 +5,20 @@
 
 ### **Data Sharing**
 
-1. `GetData`: All original files automatically crawled by the program.
-2. `CleanData`: Cleaned data files, available for download as needed.
-3. `AllData`: Structured merged file for data analysis.
+1. [`GetData`](./GetData): All original files automatically crawled by the program.
+2. [`CleanData`](./CleanData): Cleaned data files, available for download as needed.
+3. [`AllData`](./AllData): Structured merged file for data analysis.
 
 ### **Dynamic Sensing**
 
-1. After data updates, use ChatGPT-3.5 to automatically generate reports.
+1. After data updates, use ChatGPT-3.5 to automatically generate [reports](./Report).
 2. After report generation, ChatGPT-3.5 automatically generates email content (including data update information and important highlights), sends email notifications to subscribed users, and attaches the report as an attachment.
 
 ### **Dashboard Session**
 
 1. Shiny Dashboard automatically reads the latest report data and presents it interactively.
-2. Bilingual support
+
+[CNIDs (EN)](https://lkg1116.shinyapps.io/CNIDs/)
 
 ## **Local Deployment**
 
