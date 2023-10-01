@@ -17,7 +17,7 @@ def extract_date(text):
           return(None)
     
 def find_max_date(YearMonths):
-    date_objects = [datetime.datetime.strptime(date, "%Y %B") for date in YearMonths]
+    date_objects = [datetime.strptime(date, "%Y %B") for date in YearMonths]
     max_date = max(date_objects, key=lambda x: x)
     max_date_str = max_date.strftime("%Y %B")
     return max_date_str

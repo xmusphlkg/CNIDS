@@ -14,6 +14,7 @@ jobs:
       OPENAI_url: ${{ secrets.OPENAI_URL }}
       test: ${{ vars.TEST }}
       test_analysis: ${{ vars.TEST_ANALYSIS }}
+      cite: ${{ vars.CITE }}
     steps:
       - name: Checkout code
         uses: actions/checkout@v2

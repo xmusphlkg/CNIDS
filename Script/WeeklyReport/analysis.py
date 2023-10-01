@@ -26,12 +26,6 @@ def generate_weekly_report(analysis_YearMonth, api_base, api_key):
     df = pd.read_csv('../AllData/WeeklyReport/latest.csv', encoding='utf-8')
     df['Date'] = pd.to_datetime(df['Date'])
 
-    # get Diseases unique list
-    diseases = df['Diseases'].unique()
-    # get Date unique list
-    dates = df['YearMonthDay'].unique().sort()
-    # get change data
-
     os.chdir("../Script")
     if not os.path.exists("temp"):
         os.makedirs("temp")

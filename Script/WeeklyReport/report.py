@@ -140,8 +140,7 @@ def generate_report(analysis_YearMonth, table_data, df, diseases_order, api_base
             self.elements.append(paragraphReportSummary)
             self.elements.append(Spacer(1, 30))
 
-            text = """Cite Us: Reported Cases and Deaths of National Notifiable Infectious Diseases — China, June 2023*[J]. 
-            China CDC Weekly. <u><a href='http://dx.doi.org/10.46234/ccdcw2023.130'>doi: 10.46234/ccdcw2023.130</a></u>"""
+            text = os.environ['cite']
             cover_citation = Paragraph(text, styles['Cite'])
             self.elements.append(cover_citation)
             self.elements.append(PageBreak())
