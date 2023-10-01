@@ -12,6 +12,8 @@ jobs:
     env:
       OPENAI_api: ${{ secrets.OPENAI_API }}
       OPENAI_url: ${{ secrets.OPENAI_URL }}
+      test: ${{ variables.TEST }}
+      test_analysis: ${{ variables.TEST_ANALYSIS }}
     steps:
       - name: Checkout code
         uses: actions/checkout@v2
