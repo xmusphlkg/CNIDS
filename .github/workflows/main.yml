@@ -1,9 +1,10 @@
 name: auto update CDC Monthly Report Data
+
 on:
   workflow_dispatch:
   schedule:
     # IMPORTANT: Set cron job in UTC timezone
-    - cron:  '0 0 6 * *'
+    - cron: '29 4 * * *'
 
 jobs:
   run-python-script:
@@ -12,19 +13,27 @@ jobs:
       OPENAI_api: ${{ secrets.OPENAI_API }}
       OPENAI_url: ${{ secrets.OPENAI_URL }}
     steps:
-      - uses: actions/checkout@v2
-      - uses: actions/setup-python@v4
+      - name: Checkout code
+        uses: actions/checkout@v2
+
+      - name: Set up Python
+        uses: actions/setup-python@v2
         with:
           python-version: '3.9.12'
-          github-token: ${{ secrets.GITHUB_TOKEN }}
-      - run: pip install requests xmltodict beautifulsoup4 pandas reportlab plotnine
-      - run: python3 Script/WeeklyReport/main.py
-      - run: python3 Script/WeeklyReport/analysis.py
-      - run: python3 Script/DatacenterReport/main.py
-      - uses: ad-m/github-push-action@master
-      - run: |
-            git config --local user.email "kanggle@outlook.com"
-            git config --local user.name "GitHub Action"
-            git add .
-            git commit -m "Auto Update files"
-            git push origin main
+
+      - name: Install dependencies
+        run: |
+          pip install requests xmltodict beautifulsoup4 pandas reportlab plotnine
+
+      - name: Run Python script
+        run: |
+          python3 Script/WeeklyReport/main.py
+          python3 Script/DatacenterReport/main.py
+
+      - name: Commit and push changes
+        run: |
+          git config --global user.name "xmusphlkg"
+          git config --global user.email "kanggle@outlook.com"
+          git add .
+          git commit -m "Update generated files"
+          git push origin main
