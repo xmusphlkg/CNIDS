@@ -4,7 +4,7 @@ on:
   workflow_dispatch:
   schedule:
     # IMPORTANT: Set cron job in UTC timezone
-    - cron: '29 4 * * *'
+    - cron: '0 6 * * *'
 
 jobs:
   run-python-script:
@@ -12,6 +12,8 @@ jobs:
     env:
       OPENAI_api: ${{ secrets.OPENAI_API }}
       OPENAI_url: ${{ secrets.OPENAI_URL }}
+      test: ${{ vars.TEST }}
+      test_analysis: ${{ vars.TEST_ANALYSIS }}
     steps:
       - name: Checkout code
         uses: actions/checkout@v2
