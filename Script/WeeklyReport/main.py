@@ -45,7 +45,7 @@ current_date = datetime.now().strftime("%Y%m%d")
 if len(new_dates) == 0:
     print("No new data in the China CDC Weekly website also.")
 
-if len(new_dates) == 0 or test == 'False':
+if len(new_dates) == 0 and test == 'False':
     print("Newest data, no need to update")
 else:
     if test == 'True':
