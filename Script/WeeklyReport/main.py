@@ -45,15 +45,15 @@ current_date = datetime.now().strftime("%Y%m%d")
 if len(new_dates) == 0:
     print("No new data in the China CDC Weekly website also.")
 
-if len(new_dates) == 0 | test == False:
+if len(new_dates) == 0 | test == 'False':
     print("Newest data, no need to update")
 else:
-    if test == True:
+    if test == 'True':
       print("Test mode, only get the latest data")
       new_dates = [max([result['YearMonth'] for result in results])]
       print(new_dates)
     else:
-      test_analysis = True
+      test_analysis = 'True'
       print("Find new data, need to update:")
       print(new_dates)
           
@@ -141,7 +141,7 @@ else:
     data.to_csv('..' + '/AllData/WeeklyReport/' + max_date + '.csv', index=False, encoding='utf-8', header=True)
 
     # modify the disease name
-    if test == False:
+    if test == 'False':
         readme_path = "../Readme.md"
         with open(readme_path, "r") as readme_file:
             readme_content = readme_file.read()
@@ -150,7 +150,7 @@ else:
         with open(readme_path, "w") as readme_file:
             readme_file.write(updated_readme_content)
     
-    if test_analysis:
+    if test_analysis == 'True':
         api_key = os.environ['OPENAI_api']
         api_base = os.environ['OPENAI_url']
         for YearMonth in new_dates:
