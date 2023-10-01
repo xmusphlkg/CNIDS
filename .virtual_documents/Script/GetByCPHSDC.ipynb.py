@@ -7,8 +7,6 @@ import datetime
 import xml.etree.ElementTree as ET
 import json
 import sys
-import time
-import random
 import multiprocessing
 
 os.chdir("../GetData")

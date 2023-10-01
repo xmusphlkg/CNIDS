@@ -5,16 +5,19 @@ import os
 from datetime import datetime
 import pandas as pd
 import glob
-import json
 
 # import functions from function.py
 from function import get_rss_results
 from function import process_table_data
 from function import get_cdc_results
+from analysis import generate_weekly_report
+from function import find_max_date
 import variables
+import shutil
 
 # test get new data
-test = False
+test = True
+test_analysis = True
 
 # set working directory
 os.chdir("./GetData")
@@ -50,6 +53,7 @@ else:
       new_dates = [max([result['YearMonth'] for result in results])]
       print(new_dates)
     else:
+      test_analysis = True
       print("Find new data, need to update:")
       print(new_dates)
           
@@ -137,38 +141,22 @@ else:
     data.to_csv('..' + '/AllData/WeeklyReport/' + max_date + '.csv', index=False, encoding='utf-8', header=True)
 
     # modify the disease name
-    readme_path = "../Readme.md"
-    with open(readme_path, "r") as readme_file:
-        readme_content = readme_file.read()
-
-    # update log
-    update_log = f"#### {year_month}\n\nDate: {current_date}\n\nUpdated: {new_dates}"
-
-    # insert the update log to the "Update Log" section of Readme.md file
-    updated_readme_content = readme_content.replace("### China CDC Monthly Report", "### China CDC Monthly Report\n\n" + update_log)
-
-    # write the updated content to Readme.md file
-    with open(readme_path, "w") as readme_file:
-        readme_file.write(updated_readme_content)
+    if test == False:
+        readme_path = "../Readme.md"
+        with open(readme_path, "r") as readme_file:
+            readme_content = readme_file.read()
+        update_log = f"#### {year_month}\n\nDate: {current_date}\n\nUpdated: {new_dates}"
+        updated_readme_content = readme_content.replace("### China CDC Monthly Report", "### China CDC Monthly Report\n\n" + update_log)
+        with open(readme_path, "w") as readme_file:
+            readme_file.write(updated_readme_content)
     
-    if test != True:
-      # write to up date log
-      with open('../LOG/WeeklyReport/log.json', 'r') as f:
-          logs = json.load(f)
-      new_log = {
-          'info': {
-              'date': current_date,
-              'MRYearMonth': new_dates,
-              'MRupdate': True
-          },
-          current_date: {
-              'date': current_date,
-              'MRYearMonth': new_dates
-          }
-      }
-      logs.append(new_log)
-      with open('../LOG/WeeklyReport/log.json', 'w') as f:
-          json.dump(logs, f, indent=4)
+    if test_analysis:
+        api_key = os.environ['OPENAI_api']
+        api_base = os.environ['OPENAI_url']
+        for YearMonth in new_dates:
+            print("Generate report for " + YearMonth)
+            generate_weekly_report(YearMonth, api_base, api_key)
+        shutil.copy("../Report/report " + find_max_date(new_dates) + ".pdf", "../Report/report latest.pdf")
 
     # print success message
     print("CDCWeekly Data updated successfully!")

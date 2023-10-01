@@ -5,6 +5,7 @@ import re
 from bs4 import BeautifulSoup
 import os
 import pandas as pd
+from requests.exceptions import ConnectionError
 from datetime import datetime
 
 # define a function to extract date from text
@@ -14,6 +15,12 @@ def extract_date(text):
           return(match.group(2) + " " + match.group(1))
     else:
           return(None)
+    
+def find_max_date(YearMonths):
+    date_objects = [datetime.datetime.strptime(date, "%Y %B") for date in YearMonths]
+    max_date = max(date_objects, key=lambda x: x)
+    max_date_str = max_date.strftime("%Y %B")
+    return max_date_str
 
 # define a function to get Pubmed RSS results
 def get_rss_results(url):
@@ -136,6 +143,7 @@ def process_table_data(urls, filtered_results, diseaseCode2Name, dois):
 
         # Check the response status code
         if response.status_code != 200:
+            print(url)
             raise Exception("Failed to fetch web content, status code: {}".format(response.status_code))
         else:
             print("Successfully fetched web content, urls: {}".format(url))
@@ -238,19 +246,23 @@ def chatgpt_description(api_base, api_key, analysis_YearMonth, table_data_str, m
             {"role": "system", "content": "OK, you can send me the data directly to me."},
             {"role": "user", "content": f"This is the monthly cases and deaths in {analysis_YearMonth} {disease_name}, Please directly write the discussion of the data for paper."},
             {"role": "system", "content": "I will play a professional writer, create the discussion of the paper."},
-            {"role": "user", "content": f"Here is the data:\n{table_data_str}"}
+            {"role": "user", "content": f"In the case of time series data, you can analyze seasonal and cyclical issues. Here is the data:\n{table_data_str}"}
         ]
     }
 
-    response = requests.post(url, headers=headers, json=data)
+    try:
+        response = requests.post(url, headers=headers, json=data)
 
-    if response.status_code == 200:
-        print('Generate Description Success ' + disease_name)
-        out_content = response.json()['choices'][0]['message']['content']
-        out_content = out_content.replace('Discussion:\n\n', '')
-    else:
-        print('Generate Description Fail ' + disease_name)
-        print(response)
+        if response.status_code == 200:
+            print('Generate Description Success ' + disease_name)
+            out_content = response.json()['choices'][0]['message']['content']
+            out_content = out_content.replace('Discussion:\n\n', '')
+        else:
+            print('Generate Description Fail ' + disease_name)
+            print(response)
+            out_content = None
+    except ConnectionError as e:
+        print('Connection Error:', e)
         out_content = None
 
     return out_content
