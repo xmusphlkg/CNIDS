@@ -16,8 +16,8 @@ import variables
 import shutil
 
 # test get new data
-test = True
-test_analysis = True
+test = os.environ['test']
+test_analysis = os.environ['test_analysis']
 
 # set working directory
 os.chdir("./GetData")
