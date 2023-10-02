@@ -15,7 +15,7 @@ from function import calculate_HD
 import variables
 
 # set working directory
-os.chdir("./GetData")
+os.chdir("./Data/GetData")
 
 # test get new data
 test = False
@@ -110,8 +110,8 @@ if need_update:
     max_date = datetime.datetime.strptime(max_date, '%Y/%m/%d').strftime("%Y %B")
 
     # save the data
-    data.to_csv('..' + '/AllData/DatacenterReport/latest.csv', index=False, encoding='utf-8', header=True)
-    data.to_csv('..' + '/AllData/DatacenterReport/' + max_date + '.csv', index=False, encoding='utf-8', header=True)
+    data.to_csv('../AllData/DatacenterReport/latest.csv', index=False, encoding='utf-8', header=True)
+    data.to_csv('../AllData/DatacenterReport/' + max_date + '.csv', index=False, encoding='utf-8', header=True)
 
     # modify the disease name
     readme_path = "../Readme.md"

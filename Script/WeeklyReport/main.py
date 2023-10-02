@@ -20,7 +20,7 @@ test = os.environ['test']
 test_analysis = os.environ['test_analysis']
 
 # set working directory
-os.chdir("./GetData")
+os.chdir("./Data/GetData")
 
 # detect existing dates
 folder_path = "WeeklyReport/"  # file path

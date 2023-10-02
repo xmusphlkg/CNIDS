@@ -13,7 +13,7 @@ from report import generate_report
 
 def generate_weekly_report(analysis_YearMonth, api_base, api_key):
     # set working directory
-    os.chdir("../GetData")
+    os.chdir("../Data/GetData")
     # os.chdir("./GetData")
 
     # 设置字体
@@ -26,7 +26,7 @@ def generate_weekly_report(analysis_YearMonth, api_base, api_key):
     df = pd.read_csv('../AllData/WeeklyReport/latest.csv', encoding='utf-8')
     df['Date'] = pd.to_datetime(df['Date'])
 
-    os.chdir("../Script")
+    os.chdir("../../Script")
     if not os.path.exists("temp"):
         os.makedirs("temp")
     change_data = calculate_change_data(df, analysis_date)

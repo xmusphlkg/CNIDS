@@ -103,11 +103,11 @@ def process_files(xls_files, provinceName2Code, provinceName2ADCode, diseaseName
             if 'Hiv' in diseases and len(diseases) != 1:
                 diseases_name = 'AIDS And HIV'
 
-            if not os.path.exists('..' + '/CleanData/DatacenterReport/' + diseases_name):
+            if not os.path.exists('../CleanData/DatacenterReport/' + diseases_name):
                 print(diseases_name)
-                os.makedirs('..' + '/CleanData/DatacenterReport/' + diseases_name)
+                os.makedirs('../CleanData/DatacenterReport/' + diseases_name)
 
-            output_file = '..' + '/CleanData/DatacenterReport/' + diseases_name + '/' + YearMonth + '.csv'
+            output_file = '../CleanData/DatacenterReport/' + diseases_name + '/' + YearMonth + '.csv'
             data.to_csv(output_file, index=False, encoding='utf-8', header=True)
 
 # calculate the case and death of Hepatitis D

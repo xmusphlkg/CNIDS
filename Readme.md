@@ -5,14 +5,16 @@
 
 ### **Data Sharing**
 
-1. [`GetData`](./GetData): All original files automatically crawled by the program.
-2. [`CleanData`](./CleanData): Cleaned data files, available for download as needed.
-3. [`AllData`](./AllData): Structured merged file for data analysis.
+1. [`GetData`](./Data/GetData): All original files automatically crawled by the program.
+2. [`CleanData`](./Data/CleanData): Cleaned data files, available for download as needed.
+3. [`AllData`](./Data/AllData): Structured merged file for data analysis.
 
 ### **Dynamic Sensing**
 
 1. After data updates, use ChatGPT-3.5 to automatically generate [reports](./Report).
 2. After report generation, ChatGPT-3.5 automatically generates email content (including data update information and important highlights), sends email notifications to subscribed users, and attaches the report as an attachment.
+
+[Subscribe|Unsubscribe](https://forms.office.com/r/V6vH7rRfeq)
 
 ### **Dashboard Session**
 

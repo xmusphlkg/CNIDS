@@ -6,7 +6,7 @@ library(DT)
 library(dplyr)
 
 # reading github data
-DataRaw <- read.csv("https://raw.githubusercontent.com/xmusphlkg/CNID/master/AllData/WeeklyReport/latest.csv")
+DataRaw <- read.csv("https://raw.githubusercontent.com/xmusphlkg/CNID/master/Data/AllData/WeeklyReport/latest.csv")
 DataRaw$Date <- as.Date(DataRaw$Date)
 DataRaw <- DataRaw[, c("Date", "Diseases", "DiseasesCN", "Cases", "Deaths", "Source")]
 

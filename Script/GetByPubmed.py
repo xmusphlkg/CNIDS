@@ -25,7 +25,7 @@ def git_push(commit_message):
         print("Git push failed. Error:", e.output)
 
 # 设置工作路径
-os.chdir("../GetData")
+os.chdir("../Data/GetData")
 
 # 获取 RSS 网址
 url = "https://pubmed.ncbi.nlm.nih.gov/rss/search/1tQjT4yH2iuqFpDL7Y1nShJmC4kDC5_BJYgw4R1O0BCs-_Nemt/?limit=100&utm_campaign=pubmed-2&fc=20230905093742"

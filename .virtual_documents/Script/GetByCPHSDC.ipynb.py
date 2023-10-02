@@ -9,7 +9,7 @@ import json
 import sys
 import multiprocessing
 
-os.chdir("../GetData")
+os.chdir("../Data/GetData")
 
 
 ## get avaliable years
