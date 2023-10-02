@@ -316,8 +316,8 @@ def chatgpt_mail_raw(api_base, api_key, analysis_YearMonth, table_data_str, mode
         'messages': [
             {"role": "user", "content": f"""Please playing a epidemiologist and text generator to help me write a email. 
              Next, I will send you the monthly cases and deaths of different diseases in mainland, China.
-             Please describe the data monthly cases and deaths in {analysis_YearMonth}.
-             And just write the main content of mail. And """},
+             Please analysis the data monthly cases and deaths in {analysis_YearMonth} and find the noteworthy points. Don't just list data.
+             And just write the main content of mail."""},
             {"role": "system", "content": "I understand. Please provide me with the monthly cases and deaths of different diseases, and I will generate the main content of the email without subject, header and the signature information at the end."},
             {"role": "user", "content": f"Here is the data:\n{table_data_str}"}
         ]
