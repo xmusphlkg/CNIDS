@@ -18,7 +18,7 @@ import variables
 os.chdir("./Data/GetData")
 
 # test get new data
-test = False
+test = os.environ['test_dc']
 
 ## get avaliable years
 response = requests.get("https://www.phsciencedata.cn/Share/getQuerystart/")
@@ -42,11 +42,11 @@ existing_dates.sort()
 # compare with avaliable years
 new_dates = list(set(years) - set(existing_dates))
 
-if len(new_dates) == 0 | test == False:
+if len(new_dates) == 0 and test == 'False':
     print("Newest data, no need to update")
     need_update = False # no need to update
 else:
-    if test == True:
+    if test == 'True':
       new_dates = [max(years)]
       variables.diseaseIds = [variables.diseaseIds[10]]
       print(f"Test mode, only get the latest data: {new_dates}")
@@ -114,7 +114,7 @@ if need_update:
     data.to_csv('../AllData/DatacenterReport/' + max_date + '.csv', index=False, encoding='utf-8', header=True)
 
     # modify the disease name
-    readme_path = "../Readme.md"
+    readme_path = "../../Readme.md"
     with open(readme_path, "r") as readme_file:
         readme_content = readme_file.read()
 

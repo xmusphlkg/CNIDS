@@ -57,7 +57,7 @@ def process_files(xls_files, provinceName2Code, provinceName2ADCode, diseaseName
                 df = df.iloc[:, 1:]
                 df.columns = pd.to_numeric(df.columns, errors='coerce')
                 df = df.sort_index(axis=1)
-                df.iloc[0, :] = df.iloc[0, :].fillna(method='ffill')
+                df.iloc[0, :] = df.iloc[0, :].ffill()
 
                 diseases = df.iloc[0, :].unique()
                 diseases = diseases[diseases != '']
@@ -74,7 +74,7 @@ def process_files(xls_files, provinceName2Code, provinceName2ADCode, diseaseName
                     df_disease['YearMonth'] = YearMonth
                     df_disease['Diseases'] = disease
                     df_disease = df_disease.reset_index(drop=True)
-                    data = data.append(df_disease)
+                    data = pd.concat([data, df_disease], ignore_index=True)
 
             data = data.rename(columns={'地区': 'ProvinceCN', '发病数': 'Cases', '死亡数': 'Deaths', '发病率(1/10万)': 'Incidence', '死亡率(1/10万)': 'Mortality'})
             data['Province'] = data['ProvinceCN'].replace(provinceName2Code)
@@ -146,27 +146,27 @@ def calculate_HD(csv_files, folder_path):
             Hepatitis_D_Deaths = Hepatitis_data['Deaths'] - Not_Hepatitis_data['Deaths'].sum()
 
             # add Hepatitis D data to Province_data
-            new_row = {
-                'Date': Hepatitis_data['Date'].iloc[0],
-                'YearMonthDay': Hepatitis_data['YearMonthDay'].iloc[0],
-                'YearMonth': Hepatitis_data['YearMonth'].iloc[0],
-                'Diseases': 'Hepatitis D',
-                'DiseasesCN': '丁肝',
-                'Cases': Hepatitis_D_Cases.iloc[0],
-                'Deaths': Hepatitis_D_Deaths.iloc[0],
-                'Incidence': -10,
-                'Mortality': -10,
-                'ProvinceCN': Province_data['ProvinceCN'].iloc[0],
-                'Province': Province_data['Province'].iloc[0],
-                'ADCode': Province_data['ADCode'].iloc[0],
-                'DOI': Province_data['DOI'].iloc[0],
-                'URL': Province_data['URL'].iloc[0],
-                'Source': Province_data['Source'].iloc[0]
-            }
-            Province_data = Province_data.append(new_row, ignore_index=True)
+            new_row = pd.DataFrame({
+                'Date': [Hepatitis_data['Date'].iloc[0]],
+                'YearMonthDay': [Hepatitis_data['YearMonthDay'].iloc[0]],
+                'YearMonth': [Hepatitis_data['YearMonth'].iloc[0]],
+                'Diseases': ['Hepatitis D'],
+                'DiseasesCN': ['丁肝'],
+                'Cases': [Hepatitis_D_Cases.iloc[0]],
+                'Deaths': [Hepatitis_D_Deaths.iloc[0]],
+                'Incidence': [-10],
+                'Mortality': [-10],
+                'ProvinceCN': [Province_data['ProvinceCN'].iloc[0]],
+                'Province': [Province_data['Province'].iloc[0]],
+                'ADCode': [Province_data['ADCode'].iloc[0]],
+                'DOI': [Province_data['DOI'].iloc[0]],
+                'URL': [Province_data['URL'].iloc[0]],
+                'Source': [Province_data['Source'].iloc[0]]
+            })
+            Province_data = pd.concat([Province_data, new_row], ignore_index=True)
 
             # combine data
-            merged_data = merged_data.append(Province_data, ignore_index=True)
+            merged_data = pd.concat([merged_data, Province_data], ignore_index=True)
 
         # save data
         merged_file_name = os.path.join(folder_path, file)
