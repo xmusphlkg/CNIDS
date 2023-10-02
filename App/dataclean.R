@@ -1,4 +1,4 @@
-DataRaw <- read.csv("https://ai.shinyweb.top/proxy/raw.githubusercontent.com/xmusphlkg/CNID/master/AllData/WeeklyReport/latest.csv")
+DataRaw <- read.csv("https://ai.shinyweb.top/proxy/raw.githubusercontent.com/xmusphlkg/CNID/master/Data/AllData/WeeklyReport/latest.csv")
 DataRaw$Date <- as.Date(DataRaw$Date)
 DataRaw <- DataRaw[, c("Date", "Diseases", "DiseasesCN", "Cases", "Deaths", "Source")]
 

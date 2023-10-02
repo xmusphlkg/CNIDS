@@ -80,9 +80,9 @@ ui <- navbarPage(
       tags$h2("Documents and Data"),
       tags$a("Get Report of NID", href = "https://github.com/xmusphlkg/CNID/tree/master/Report", target = "_blank"),
       tags$br(),
-      tags$a("Get All Data", href = "https://github.com/xmusphlkg/CNID/tree/master/AllData/WeeklyReport", target = "_blank"),
+      tags$a("Get All Data", href = "https://github.com/xmusphlkg/CNID/tree/master/Data/AllData/WeeklyReport", target = "_blank"),
       tags$br(),
-      tags$a("Get Province Level Data", href = "https://github.com/xmusphlkg/CNID/tree/master/AllData/DatacenterReport", target = "_blank"),
+      tags$a("Get Province Level Data", href = "https://github.com/xmusphlkg/CNID/tree/master/Data/AllData/DatacenterReport", target = "_blank"),
       tags$h2("Cite:"),
       tags$p("CNIDs: Chinese Notifiable Infectious Diseases Sensing Project. https://github.com/xmusphlkg/CNID")
     )
