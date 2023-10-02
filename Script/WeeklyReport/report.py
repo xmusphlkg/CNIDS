@@ -15,6 +15,8 @@ import matplotlib.pyplot as plt
 import time
 
 from function import chatgpt_description
+from function import chatgpt_mail_raw
+from function import chatgpt_mail_rebuild
 
 def generate_report(analysis_YearMonth, table_data, df, diseases_order, api_base, api_key):
     table_data_cases = table_data.iloc[:, [0, 2, 3, 4]].sort_values(by='Diseases', key=lambda x: x.map(diseases_order.index))
@@ -103,6 +105,7 @@ def generate_report(analysis_YearMonth, table_data, df, diseases_order, api_base
             if 'Total' in diseases:
                 diseases.remove('Total')
 
+            # for i, disease in enumerate(diseases[1:2]):
             for i, disease in enumerate(diseases):
                 self.HistoryTotalPages(styles, disease, i + 1)
             # Build
@@ -180,12 +183,34 @@ def generate_report(analysis_YearMonth, table_data, df, diseases_order, api_base
             self.elements.append(legend)
             self.elements.append(Spacer(1, 12))
 
-            # add out_content
+            # generate mail content
             max_attempts = 10
+            attempts = 0
+            while attempts < max_attempts:
+                content = chatgpt_mail_raw(api_base, api_key, analysis_YearMonth, table_data_str, 'gpt-3.5-turbo-16k')
+                if content is not None:
+                    break
+                else:
+                    time.sleep(21)
+                attempts += 1
+            # rebuild mail content
+            attempts = 0
+            while attempts < max_attempts:
+                content = chatgpt_mail_rebuild(api_base, api_key, content, 'gpt-3.5-turbo-16k')
+                if content is not None:
+                    # save to md file
+                    with open(f'../Report/mail/{analysis_YearMonth}.md', 'w') as f:
+                        f.write(content)
+                    break
+                else:
+                    time.sleep(21)
+                attempts += 1
+
+            # add out_content
             attempts = 0
             content = None
             while attempts < max_attempts:
-                content = chatgpt_description(api_base, api_key, analysis_YearMonth, table_data_str, 'gpt-3.5-turbo-16k-0613')
+                content = chatgpt_description(api_base, api_key, analysis_YearMonth, table_data_str, 'gpt-3.5-turbo-16k')
                 if content is not None:
                     paragraphChatgpt = Paragraph(content.replace('\n\n', '<br />\n'), styles['Content'])
                     self.elements.append(paragraphChatgpt)

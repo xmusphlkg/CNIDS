@@ -77,3 +77,6 @@ diseaseCode2Name = {
     'Filariasis': '丝虫病',
     'Total': '合计'
 }
+
+# email information
+emailInfo = "\n\n\n\nFurther support: lkg1116@outlook.com" + "\n\nFull Report Link: https://github.com/xmusphlkg/CNID/blob/master/Report/report%20latest.pdf" + "\n\nDashboard Link: https://lkg1116.shinyapps.io/CNIDs/" + "\n\nData Source: https://github.com/xmusphlkg/CNID/tree/master/Data" + "\n\nUnsubscribe: https://forms.office.com/r/V6vH7rRfeq"

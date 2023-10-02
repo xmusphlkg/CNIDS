@@ -12,8 +12,14 @@ jobs:
     env:
       OPENAI_api: ${{ secrets.OPENAI_API }}
       OPENAI_url: ${{ secrets.OPENAI_URL }}
+      MS_subscribe: ${{ secrets.MS_SUBSCRIBE }}
+      MS_sender_email: ${{ secrets.MS_SENDER_EMAIL }}
+      MS_client_id: ${{ secrets.MS_CLIENT_ID }}
+      MS_client_secret: ${{ secrets.MS_CLIENT_SECRET }}
+      MS_tenant_id: ${{ secrets.MS_TENANT_ID }}
       test: ${{ vars.TEST }}
       test_analysis: ${{ vars.TEST_ANALYSIS }}
+      test_dc: ${{ vars.TEST_DC }}
       cite: ${{ vars.CITE }}
     steps:
       - name: Checkout code

@@ -12,6 +12,7 @@ from function import process_table_data
 from function import get_cdc_results
 from analysis import generate_weekly_report
 from function import find_max_date
+from sendmail import send_email_to_subscriber
 import variables
 import shutil
 
@@ -157,6 +158,8 @@ else:
             print("Generate report for " + YearMonth)
             generate_weekly_report(YearMonth, api_base, api_key)
         shutil.copy("../Report/report " + find_max_date(new_dates) + ".pdf", "../Report/report latest.pdf")
+        shutil.copy("../Report/mail/" + find_max_date(new_dates) + ".md", "../Report/mail/latest.md")
+        send_email_to_subscriber()
 
     # print success message
     print("CDCWeekly Data updated successfully!")
