@@ -22,6 +22,26 @@
 
 [CNIDs (EN)](https://lkg1116.shinyapps.io/CNIDs/)
 
+2. It also supports local Docker deployment.
+
+Get the latest image:
+
+```
+docker push kanggle/cnids:latest
+```
+
+Run the image:
+
+```
+docker run -d -p 3838:3838 kanggle/cnids:latest
+```
+
+Open the browser and enter the address:
+
+```
+http://localhost:3838
+```
+
 ## **Local Deployment**
 
 1. Fork this directory.
