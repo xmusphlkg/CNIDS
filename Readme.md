@@ -1,5 +1,10 @@
 ## Introduction
 
+**CNIDs: Chinese Notifiable Infectious Diseases Sensing Project**
+
+CNIDs is a project aimed at monitoring and sensing legally notifiable infectious diseases in mainland China. The project utilizes automated technology and data analysis methods to enhance the monitoring and early warning capabilities for infectious diseases, enabling timely measures to be taken to address potential public health risks.
+
+The primary objective of the CNIDs project is to establish an efficient infectious disease sensing system that enables real-time monitoring and prediction of legally notifiable infectious diseases. The system leverages advanced technologies, including artificial intelligence, machine learning, and big data analytics, to rapidly identify and track outbreaks and transmission trends of infectious diseases. It provides decision-makers with timely information and recommendations to facilitate appropriate measures for disease control and prevention.
 
 ## Usage Example
 
