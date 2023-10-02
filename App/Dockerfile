@@ -3,31 +3,26 @@ FROM rocker/r-base:latest
 LABEL maintainer="Likangguo <lkg1116@outlook.com>"
 
 # system libraries of general use
-RUN apt-get update && apt-get install -y \
-  sudo \
-  pandoc \
-  pandoc-citeproc \
-  libcurl4-gnutls-dev \
-  libcairo2-dev \
-  libxt-dev \
-  libssl-dev \
-  libssh2-1-dev \
-  libxml2-dev \
-  libudunits2-dev \
-  libgdal-dev \
-  gdal-bin \
-  libproj-dev \
-  proj-data \
-  proj-bin \
-  libgeos-dev\
-  libsodium-dev \
-  libssl1.1 \
-  && rm -rf /var/lib/apt/lists/*
-
-# system library dependency for the this app
-RUN apt-get update && apt-get install -y \
-  libmpfr-dev \
-  && rm -rf /var/lib/apt/lists/*
+# RUN apt-get update && apt-get install -y \
+#   sudo \
+#   pandoc \
+#   pandoc-citeproc \
+#   libcurl4-gnutls-dev \
+#   libcairo2-dev \
+#   libxt-dev \
+#   libssl-dev \
+#   libssh2-1-dev \
+#   libxml2-dev \
+#   libudunits2-dev \
+#   libgdal-dev \
+#   gdal-bin \
+#   libproj-dev \
+#   proj-data \
+#   proj-bin \
+#   libgeos-dev\
+#   libsodium-dev \
+#   libssl1.1 \
+#   && rm -rf /var/lib/apt/lists/*
 
 # basic shiny functionality
 RUN R -e "install.packages(pkgs = c('shiny', 'shinythemes'), repos = 'https://mirrors.tuna.tsinghua.edu.cn/CRAN/')"
