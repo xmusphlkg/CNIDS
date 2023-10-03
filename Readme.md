@@ -27,6 +27,8 @@ The primary objective of the CNIDs project is to establish an efficient infectio
 
 [CNIDs (EN)](https://lkg1116.shinyapps.io/CNIDs/)
 
+[CNIDs (EN & CN)](https://lkg1116.shinyapps.io/CNIDs/)
+
 2. It also supports local Docker deployment.
 
 Get the latest image:

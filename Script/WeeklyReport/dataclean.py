@@ -98,7 +98,8 @@ def format_table_data(table_data, analysis_date):
 
 def generate_merge_chart(change_data, original_file):
     table_data_original = pd.read_csv(original_file, encoding='utf-8')
-    diseases_order = table_data_original['Diseases'].tolist()  # 转换为列表
+    diseases_order = table_data_original['Diseases'].tolist()
+    diseases_order_cn = table_data_original['DiseasesCN'].tolist()
     change_data_total = change_data[change_data['Diseases'] != "Total"]
     change_data_total = change_data_total.melt(id_vars='Diseases',
                                               value_vars=['Cases', 'Deaths'], 
@@ -121,4 +122,4 @@ def generate_merge_chart(change_data, original_file):
     merged_chart_path = "temp/merged_chart.png"
     plot_total.save(merged_chart_path, dpi=300, width=10, height=10)
 
-    return diseases_order
+    return diseases_order, diseases_order_cn

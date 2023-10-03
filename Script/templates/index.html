@@ -1,0 +1,111 @@
+<!doctype html>
+<html lang="en">
+
+<head>
+  <meta charset="utf-8" />
+  <title>CNIDS</title>
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <link rel="preconnect" href="https://fonts.gstatic.com">
+  <link href="https://fonts.googleapis.com/css2?family=Source+Sans+Pro:wght@300;400&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="static/css/bootstrap.min.css" type="text/css" />
+  <link rel="stylesheet" href="static/fontawesome/css/all.min.css" type="text/css" />
+  <link rel="stylesheet" href="static/css/slick.css" type="text/css" />
+  <link rel="stylesheet" href="static/css/tooplate-simply-amazed.css" type="text/css" />
+  <!--
+
+Tooplate 2123 Simply Amazed
+
+https://www.tooplate.com/view/2123-simply-amazed
+
+-->
+</head>
+
+<body>
+  <div id="outer">
+    <header class="header order-last" id="tm-header">
+      <nav class="navbar">
+        <div class="collapse navbar-collapse single-page-nav">
+          <ul class="navbar-nav">
+
+            <li class="nav-item">
+              <h3> {{ disease }} <br> {{ disease_cn }}</h3>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="#section-1"><span class="icn"><i class="fas fa-2x fa-air-freshener"></i></span>
+                Select Disease(选择疾病)</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="#section-2"><span class="icn"><i class="fab fa-2x fa-battle-net"></i></span>
+                Cases(病例数)</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="#section-3"><span class="icn"><i class="far fa-2x fa-images"></i></span>
+                Daeths(病死数)</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="#section-4"><span class="icn"><i class="far fa-2x fa-comments"></i></span>
+                Deaths/Cases(病死/病例)</a>
+            </li>
+          </ul>
+        </div>
+      </nav>
+    </header>
+
+    <button class="navbar-button collapsed" type="button">
+      <span class="menu_icon">
+        <span class="icon-bar"></span>
+        <span class="icon-bar"></span>
+        <span class="icon-bar"></span>
+      </span>
+    </button>
+
+
+    <main id="content-box" class="order-first">
+      <div class="banner-section section parallax-window" data-parallax="scroll" id="section-1">
+        <div class="container">
+          <div class="title" style="color: #69738a;">
+            <h2>Select Disease (切换病种)</h2>
+          </div>
+          {{select_div}}
+        </div>
+      </div>
+
+      <section class="work-section section" id="section-2">
+        <div class="container">
+          <div class="row">
+            <div class="title">
+              <h3>Cases<br>(病例数)</h3>
+            </div>
+            <div>{{ plot_html_1 | safe }}</div>
+          </div>
+        </div>
+      </section>
+
+      <section class="work-section section" id="section-3">
+        <div class="container">
+          <div class="title">
+            <h3>Deaths<br>(病死数)</h3>
+            <div>{{ plot_html_2 | safe }}</div>
+          </div>
+        </div>
+      </section>
+
+      <section class="work-section section" id="section-4">
+        <div class="container">
+          <div class="title">
+            <h3>Deaths/Cases<br>(病死/病例)</h3>
+          </div>
+          <div>{{ plot_html_3 | safe }}</div>
+        </div>
+      </section>
+    </main>
+  </div>
+  <script src="static/js/jquery-3.3.1.min.js"></script>
+  <script src="static/js/bootstrap.bundle.min.js"></script>
+  <script src="static/js/jquery.singlePageNav.min.js"></script>
+  <script src="static/js/slick.js"></script>
+  <script src="static/js/parallax.min.js"></script>
+  <script src="static/js/templatemo-script.js"></script>
+</body>
+
+</html>
