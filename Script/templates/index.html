@@ -31,20 +31,32 @@ https://www.tooplate.com/view/2123-simply-amazed
               <h3> {{ disease }} <br> {{ disease_cn }}</h3>
             </li>
             <li class="nav-item">
-              <a class="nav-link" href="#section-1"><span class="icn"><i class="fas fa-2x fa-air-freshener"></i></span>
+              <a class="nav-link" href="#section-1">
+                <span class="icn"><i class="fas fa-2x fa-air-freshener"></i></span>
                 Select Disease(选择疾病)</a>
             </li>
             <li class="nav-item">
-              <a class="nav-link" href="#section-2"><span class="icn"><i class="fab fa-2x fa-battle-net"></i></span>
-                Cases(病例数)</a>
+              <a class="nav-link" href="#section-2">
+                <span class="icn"><i class="fab fa-2x fa-battle-net"></i></span>
+                Cases(病例数)
+              </a>
             </li>
             <li class="nav-item">
-              <a class="nav-link" href="#section-3"><span class="icn"><i class="far fa-2x fa-images"></i></span>
-                Daeths(病死数)</a>
+              <a class="nav-link" href="#section-3">
+                <span class="icn"><i class="far fa-2x fa-images"></i></span>
+                Daeths(病死数)
+              </a>
             </li>
             <li class="nav-item">
-              <a class="nav-link" href="#section-4"><span class="icn"><i class="far fa-2x fa-comments"></i></span>
-                Deaths/Cases(病死/病例)</a>
+              <a class="nav-link" href="#section-4">
+                <span class="icn"><i class="far fa-2x fa-comments"></i></span>
+                Deaths/Cases(病死/病例)
+              </a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="https://github.com/xmusphlkg/CNID/">
+                Source Code
+              </a>
             </li>
           </ul>
         </div>
@@ -77,6 +89,10 @@ https://www.tooplate.com/view/2123-simply-amazed
               <h3>Cases<br>(病例数)</h3>
             </div>
             <div>{{ plot_html_1 | safe }}</div>
+            <br>
+            <a href="https://github.com/xmusphlkg/CNID/tree/master/Data/CleanData/WeeklyReport{{disease}}">
+              Download Data(下载数据)
+            </a>
           </div>
         </div>
       </section>
@@ -86,6 +102,10 @@ https://www.tooplate.com/view/2123-simply-amazed
           <div class="title">
             <h3>Deaths<br>(病死数)</h3>
             <div>{{ plot_html_2 | safe }}</div>
+            <br>
+            <a href="https://github.com/xmusphlkg/CNID/tree/master/Data/CleanData/WeeklyReport{{disease}}">
+              Download Data(下载数据)
+            </a>
           </div>
         </div>
       </section>
@@ -96,6 +116,10 @@ https://www.tooplate.com/view/2123-simply-amazed
             <h3>Deaths/Cases<br>(病死/病例)</h3>
           </div>
           <div>{{ plot_html_3 | safe }}</div>
+          <br>
+          <a href="https://github.com/xmusphlkg/CNID/tree/master/Data/CleanData/WeeklyReport{{disease}}">
+            Download Data(下载数据)
+          </a>
         </div>
       </section>
     </main>
