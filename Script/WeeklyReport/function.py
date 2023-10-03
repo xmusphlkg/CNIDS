@@ -242,11 +242,11 @@ def chatgpt_description(api_base, api_key, analysis_YearMonth, table_data_str, m
         'temperature': 0.7,
         'max_tokens': 10000,
         'messages': [
-            {"role": "user", "content": "I'm working on the results of my paper, playing a professional epidemiologist assisted me to describe the data. Next, I will send you the monthly incidence and death of different diseases. Please describe these data based on this data."},
+            {"role": "user", "content": f"""I'm working on the results of my paper, playing a professional epidemiologist assisted me to describe the data. 
+             Next, I will send you the monthly cases and deaths in {analysis_YearMonth} {disease_name} in mainland, China. 
+             Please describe and analysis these data based on this data."""},
             {"role": "system", "content": "OK, you can send me the data directly to me."},
-            {"role": "user", "content": f"This is the monthly cases and deaths in {analysis_YearMonth} {disease_name}, Please directly write the discussion of the data for paper."},
-            {"role": "system", "content": "I will play a professional writer, create the discussion of the paper."},
-            {"role": "user", "content": f"In the case of time series data, you can analyze seasonal and cyclical issues. Here is the data:\n{table_data_str}"}
+            {"role": "user", "content": f"Here is the data:\n{table_data_str}"}
         ]
     }
 
@@ -313,4 +313,40 @@ def chatgpt_mail_rebuild(mail_main, analysis_YearMonth):
     mail_signature = "Best regards,\n CNIDs"
     mail_time = datetime.now().strftime("%Y-%m-%d")
     out_content = mail_head + "\n\n" + mail_info + "\n\n" + mail_main + "\n\n" + mail_end + "\n\n" + mail_signature + "\n\n" + mail_time + "\n\n"
+    return out_content
+
+def chatgpt_description_time(api_base, api_key, analysis_YearMonth, table_data_str, model, disease_name = ''):
+    url = f"{api_base}"
+    headers = {
+        'Content-Type': 'application/json',
+        'Authorization': f'Bearer {api_key}'
+    }
+    data = {
+        'model': model,
+        'temperature': 0.7,
+        'max_tokens': 10000,
+        'messages': [
+            {"role": "user", "content": f"""As a professional epidemiologist, I'm working on analyzing the results of my paper. I have obtained monthly data on cases and deaths before
+              {analysis_YearMonth} for {disease_name} in mainland China. I would like you, as ChatGPT, to assist me in describing and analyzing these data. Please focus on identifying 
+              the seasonal patterns, peak and trough periods, and overall trends."""},
+            {"role": "system", "content": "OK, you can send me the data directly to me."},
+            {"role": "user", "content": f"Here is the data:\n{table_data_str}"}
+        ]
+    }
+
+    try:
+        response = requests.post(url, headers=headers, json=data)
+
+        if response.status_code == 200:
+            print('Generate Description Success ' + disease_name)
+            out_content = response.json()['choices'][0]['message']['content']
+            out_content = out_content.replace('Discussion:\n\n', '')
+        else:
+            print('Generate Description Fail ' + disease_name)
+            print(response)
+            out_content = None
+    except ConnectionError as e:
+        print('Connection Error:', e)
+        out_content = None
+
     return out_content

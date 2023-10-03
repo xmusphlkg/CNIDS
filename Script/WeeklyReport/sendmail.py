@@ -114,5 +114,5 @@ def send_email_to_subscriber():
 
         send_email(access_token, sender_email, recipient_email, subject, body)
 
-os.chdir("./Data/")
-send_email_to_subscriber()
+# os.chdir("./Data/")
+# send_email_to_subscriber()

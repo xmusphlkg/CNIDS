@@ -15,6 +15,7 @@ import matplotlib.pyplot as plt
 import time
 
 from function import chatgpt_description
+from function import chatgpt_description_time
 from function import chatgpt_mail_raw
 from function import chatgpt_mail_rebuild
 
@@ -207,7 +208,7 @@ def generate_report(analysis_YearMonth, table_data, df, diseases_order, api_base
             attempts = 0
             content = None
             while attempts < max_attempts:
-                content = chatgpt_description(api_base, api_key, analysis_YearMonth, table_data_str, 'gpt-3.5-turbo-16k')
+                content = chatgpt_description_time(api_base, api_key, analysis_YearMonth, table_data_str, 'gpt-3.5-turbo')
                 if content is not None:
                     paragraphChatgpt = Paragraph(content.replace('\n\n', '<br />\n'), styles['Content'])
                     self.elements.append(paragraphChatgpt)
@@ -318,7 +319,7 @@ def generate_report(analysis_YearMonth, table_data, df, diseases_order, api_base
             self.elements.append(Spacer(1, 12))
 
             # add out_content
-            disease_data_str = disease_data[['YearMonth', 'Type', 'Value']].to_string(index=False)
+            disease_data_str = disease_data[['YearMonth', 'Type', 'Value']].to_markdown(index=False)
 
             max_attempts = 10
             attempts = 0
