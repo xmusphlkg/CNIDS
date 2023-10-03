@@ -78,5 +78,5 @@ def update_pages(diseases_order, diseases_order_cn, disease_index, df):
                                       disease_cn=diseases_order_cn[i])
 
       # 将渲染后的HTML内容保存到文件
-      with open(f'../Pages/{disease_index[i]}.html', 'w') as f:
+      with open(f'../docs/{disease_index[i]}.html', 'w') as f:
           f.write(rendered_html)
