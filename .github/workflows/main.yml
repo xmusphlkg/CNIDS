@@ -32,7 +32,7 @@ jobs:
 
       - name: Install dependencies
         run: |
-          pip install requests xmltodict beautifulsoup4 pandas reportlab plotnine onedrivedownloader openpyxl tabulate
+          pip install requests xmltodict beautifulsoup4 pandas reportlab plotnine onedrivedownloader openpyxl tabulate markdown
 
       - name: Run Python script
         run: |

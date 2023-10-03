@@ -5,7 +5,8 @@ from onedrivedownloader import download
 import pandas as pd
 import datetime
 import variables
-
+import markdown
+import re
 
 def get_access_token():
     tenant_id = os.environ['MS_tenant_id']
@@ -52,7 +53,7 @@ def send_email(access_token, sender_email, recipient_email, subject, body):
         "message": {
             "subject": subject,
             "body": {
-                "contentType": "Text",
+                "contentType": "HTML",
                 "content": body
             },
             "toRecipients": [
@@ -95,15 +96,23 @@ def send_email_to_subscriber():
     subject = "CNIDs Automatic Report Update!"
     body_main = open("../Report/mail/latest.md", "r").read()
     body_table = open("../Report/table/latest.md", "r").read()
+    body_table = markdown.markdown(body_table, extensions=['markdown.extensions.tables'])
+    emailInfo = re.sub(r'(https?://\S+)', r'<a href="\1">\1</a>', variables.emailInfo)
     # send email to all subscribers
     for index, row in df.iterrows():
         recipient_email = row['email']
         subject = subject
         if os.environ['test_analysis'] == "True":
             body_main = "<h1>Project still in test mode, please ignore this email.</h1>\n\n" + body_main
-        body = body_main.replace("[Recipient]", row['name'])
-        body = body + variables.emailInfo + "\n\n"  + f"<h3>Notifiable Infectious Diseases Reports: Reported Cases and Deaths of National Notifiable Infectious Diseases</h3>" + "\n\n" + body_table
-        
+        body = body_main.replace("[Recipient]", row['name']) + emailInfo + "\n\n"
+        # trans markdown content to html
+        body = body.replace("\n", "<br>")
+        body = body.replace("  ", "&nbsp;&nbsp;")
+
+        body = body + f"<h3>Appendix: Notifiable Infectious Diseases Reports: Reported Cases and Deaths of National Notifiable Infectious Diseases</h3>" + "\n\n" + body_table
+
+
         send_email(access_token, sender_email, recipient_email, subject, body)
 
-# send_email_to_subscriber()
+os.chdir("./Data/")
+send_email_to_subscriber()
