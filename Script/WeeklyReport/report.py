@@ -22,8 +22,8 @@ def generate_report(analysis_YearMonth, table_data, df, diseases_order, api_base
     table_data_cases = table_data.iloc[:, [0, 2, 3, 4]].sort_values(by='Diseases', key=lambda x: x.map(diseases_order.index))
     table_data_deaths = table_data.iloc[:, [0, 5, 6, 7]].sort_values(by='Diseases', key=lambda x: x.map(diseases_order.index))
     diseases = table_data_cases['Diseases'].tolist()
-    table_data_str = table_data
-    table_data_str = table_data_str.to_string(index=False)
+    table_data_str = table_data.iloc[:, [0, 2, 3, 4, 5, 6, 7]]
+    table_data_str = table_data_str.to_markdown(index=False)
 
     class FooterCanvas(canvas.Canvas):
         def __init__(self, *args, **kwargs):
@@ -98,7 +98,7 @@ def generate_report(analysis_YearMonth, table_data, df, diseases_order, api_base
 
             self.firstPage(styles)
             self.nextPagesHeader('Monthly Report -- ' + analysis_YearMonth, styles)
-            self.MonthlyPages(styles, table_style, table_data_cases)
+            self.MonthlyPages(styles, table_style, table_data_str)
             self.nextPagesHeader('History Data Analysis' + analysis_YearMonth, styles)
             self.HistoryTotalPages(styles, disease='Total')
 
@@ -194,17 +194,11 @@ def generate_report(analysis_YearMonth, table_data, df, diseases_order, api_base
                     time.sleep(21)
                 attempts += 1
             # rebuild mail content
-            attempts = 0
-            while attempts < max_attempts:
-                content = chatgpt_mail_rebuild(api_base, api_key, content, 'gpt-3.5-turbo-16k')
-                if content is not None:
-                    # save to md file
-                    with open(f'../Report/mail/{analysis_YearMonth}.md', 'w') as f:
-                        f.write(content)
-                    break
-                else:
-                    time.sleep(21)
-                attempts += 1
+            content = chatgpt_mail_rebuild(content, analysis_YearMonth)
+            with open(f'../Report/mail/{analysis_YearMonth}.md', 'w') as f:
+                f.write(content)
+            with open(f'../Report/table/{analysis_YearMonth}.md', 'w') as f:
+                f.write(table_data_str)
 
             # add out_content
             attempts = 0

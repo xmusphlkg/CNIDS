@@ -94,14 +94,15 @@ def send_email_to_subscriber():
     df = get_subscriber_list(url)
     subject = "CNIDs Automatic Report Update!"
     body_main = open("../Report/mail/latest.md", "r").read()
+    body_table = open("../Report/table/latest.md", "r").read()
     # send email to all subscribers
     for index, row in df.iterrows():
         recipient_email = row['email']
         subject = subject
-        body = body_main.replace("[recipient]", row['name'])
+        if os.environ['test_analysis'] == "True":
+            body_main = "<h1>Project still in test mode, please ignore this email.</h1>\n\n" + body_main
         body = body_main.replace("[Recipient]", row['name'])
-        body = body.replace("[Date]", datetime.datetime.now().strftime("%Y-%m-%d"))
-        body = body + variables.emailInfo
+        body = body + variables.emailInfo + "\n\n"  + f"<h3>Notifiable Infectious Diseases Reports: Reported Cases and Deaths of National Notifiable Infectious Diseases</h3>" + "\n\n" + body_table
         
         send_email(access_token, sender_email, recipient_email, subject, body)
 
