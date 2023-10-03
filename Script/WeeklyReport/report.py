@@ -104,10 +104,13 @@ def generate_report(analysis_YearMonth, table_data, df, diseases_order, api_base
 
             if 'Total' in diseases:
                 diseases.remove('Total')
-
-            # for i, disease in enumerate(diseases[1:2]):
-            for i, disease in enumerate(diseases):
-                self.HistoryTotalPages(styles, disease, i + 1)
+            
+            if os.environ['test_analysis'] == "True":
+                for i, disease in enumerate(diseases[1:2]):
+                    self.HistoryTotalPages(styles, disease, i + 1)
+            else:
+                for i, disease in enumerate(diseases):
+                    self.HistoryTotalPages(styles, disease, i + 1)
             # Build
             self.doc = SimpleDocTemplate(path, pagesize=A4)
             self.doc.multiBuild(self.elements, canvasmaker=FooterCanvas)
