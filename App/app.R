@@ -84,7 +84,7 @@ ui <- navbarPage(
       tags$br(),
       tags$a("Get Province Level Data", href = "https://github.com/xmusphlkg/CNID/tree/master/Data/AllData/DatacenterReport", target = "_blank"),
       tags$h2("Cite:"),
-      tags$p("CNIDS: Chinese Notifiable Infectious Diseases Perception Project. https://github.com/xmusphlkg/CNID")
+      tags$p("CNIDS: Chinese Notifiable Infectious Diseases Surveillance Project. https://github.com/xmusphlkg/CNID")
     )
   )
 )

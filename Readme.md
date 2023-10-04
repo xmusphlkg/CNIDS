@@ -1,10 +1,10 @@
 ## Introduction
 
-**CNIDS: Chinese Notifiable Infectious Diseases Perception Project**
+**CNIDS: Chinese Notifiable Infectious Diseases Surveillance Project**
 
 CNIDS is a project aimed at monitoring notifiable infectious diseases in mainland China. The project utilizes automated technology and data analysis methods to enhance the monitoring and early warning capabilities for infectious diseases, enabling timely measures to be taken to address potential public health risks.
 
-The primary objective of the CNIDS project is to establish an efficient infectious disease Perception system that enables real-time monitoring and prediction of legally notifiable infectious diseases. It provides decision-makers with timely information and recommendations to facilitate appropriate measures for disease control and prevention.
+The primary objective of the CNIDS project is to establish an efficient infectious disease Surveillance system that enables real-time monitoring and prediction of legally notifiable infectious diseases. It provides decision-makers with timely information and recommendations to facilitate appropriate measures for disease control and prevention.
 
 ## Usage Example
 
@@ -14,7 +14,7 @@ The primary objective of the CNIDS project is to establish an efficient infectio
 2. [`CleanData`](./Data/CleanData): Cleaned data files, available for download as needed.
 3. [`AllData`](./Data/AllData): Structured merged file for data analysis.
 
-### **Dynamic Perception**
+### **Dynamic Surveillance**
 
 1. After data updates, use ChatGPT-3.5 to automatically generate [reports](./Report).
 2. After report generation, ChatGPT-3.5 automatically generates email content (including data update information and important highlights), sends email notifications to subscribed users, and attaches the report as an attachment.
