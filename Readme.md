@@ -2,7 +2,7 @@
 
 **CNIDs: Chinese Notifiable Infectious Diseases Perception Project**
 
-CNIDs is a project aimed at monitoring legally notifiable infectious diseases in mainland China. The project utilizes automated technology and data analysis methods to enhance the monitoring and early warning capabilities for infectious diseases, enabling timely measures to be taken to address potential public health risks.
+CNIDs is a project aimed at monitoring notifiable infectious diseases in mainland China. The project utilizes automated technology and data analysis methods to enhance the monitoring and early warning capabilities for infectious diseases, enabling timely measures to be taken to address potential public health risks.
 
 The primary objective of the CNIDs project is to establish an efficient infectious disease Perception system that enables real-time monitoring and prediction of legally notifiable infectious diseases. It provides decision-makers with timely information and recommendations to facilitate appropriate measures for disease control and prevention.
 
