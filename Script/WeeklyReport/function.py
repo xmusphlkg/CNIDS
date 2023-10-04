@@ -310,7 +310,7 @@ def chatgpt_mail_rebuild(mail_main, analysis_YearMonth):
     mail_head = "Dear [Recipient],"
     mail_info = f"I hope this email finds you well. China CDC Weekly has published the new data on the cases and deaths of notifiable infectious diseases in mainland China in {analysis_YearMonth}."
     mail_end = "The notion generated automatically, and assistant by ChatGPT. Please check the data and description carefully."
-    mail_signature = "Best regards,\n CNIDs"
+    mail_signature = "Best regards,\n CNIDS"
     mail_time = datetime.now().strftime("%Y-%m-%d")
     out_content = mail_head + "\n\n" + mail_info + "\n\n" + mail_main + "\n\n" + mail_end + "\n\n" + mail_signature + "\n\n" + mail_time + "\n\n"
     return out_content

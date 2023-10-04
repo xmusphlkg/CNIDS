@@ -1,10 +1,10 @@
 ## Introduction
 
-**CNIDs: Chinese Notifiable Infectious Diseases Perception Project**
+**CNIDS: Chinese Notifiable Infectious Diseases Perception Project**
 
-CNIDs is a project aimed at monitoring notifiable infectious diseases in mainland China. The project utilizes automated technology and data analysis methods to enhance the monitoring and early warning capabilities for infectious diseases, enabling timely measures to be taken to address potential public health risks.
+CNIDS is a project aimed at monitoring notifiable infectious diseases in mainland China. The project utilizes automated technology and data analysis methods to enhance the monitoring and early warning capabilities for infectious diseases, enabling timely measures to be taken to address potential public health risks.
 
-The primary objective of the CNIDs project is to establish an efficient infectious disease Perception system that enables real-time monitoring and prediction of legally notifiable infectious diseases. It provides decision-makers with timely information and recommendations to facilitate appropriate measures for disease control and prevention.
+The primary objective of the CNIDS project is to establish an efficient infectious disease Perception system that enables real-time monitoring and prediction of legally notifiable infectious diseases. It provides decision-makers with timely information and recommendations to facilitate appropriate measures for disease control and prevention.
 
 ## Usage Example
 
@@ -25,22 +25,22 @@ The primary objective of the CNIDs project is to establish an efficient infectio
 
 1. Shiny Dashboard automatically reads the latest report data and presents it interactively.
 
-[CNIDs (EN)](https://lkg1116.shinyapps.io/CNIDs/)
+[CNIDS (EN)](https://lkg1116.shinyapps.io/CNIDS/)
 
-[CNIDs (EN & CN)](https://xmusphlkg.github.io/CNID/)
+[CNIDS (EN & CN)](https://xmusphlkg.github.io/CNID/)
 
 2. It also supports local Docker deployment.
 
 Get the latest image:
 
 ```
-docker push kanggle/cnids:latest
+docker push kanggle/CNIDS:latest
 ```
 
 Run the image:
 
 ```
-docker run -d -p 3838:3838 kanggle/cnids:latest
+docker run -d -p 3838:3838 kanggle/CNIDS:latest
 ```
 
 Open the browser and enter the address:
