@@ -93,7 +93,7 @@ def send_email_to_subscriber():
     sender_email = os.environ['MS_sender_email']
     url = os.environ['MS_subscribe']
     df = get_subscriber_list(url)
-    subject = "CNIDs Automatic Report Update!"
+    subject = "CNIDS Automatic Report Update!"
     body_main = open("../Report/mail/latest.md", "r").read()
     body_table = open("../Report/table/latest.md", "r").read()
     body_table = markdown.markdown(body_table, extensions=['markdown.extensions.tables'])

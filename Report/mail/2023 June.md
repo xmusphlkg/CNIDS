@@ -43,7 +43,7 @@ It is important to note that these observations are based solely on the provided
 The notion generated automatically, and assistant by ChatGPT. Please check the data and description carefully.
 
 Best regards,
- CNIDs
+ CNIDS
 
 2023-10-04
 
