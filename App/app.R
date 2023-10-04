@@ -32,8 +32,8 @@ diseases <- unique(DataRaw$Diseases)
 
 ui <- navbarPage(
   theme = shinytheme("flatly"),
-  title = "Chinese Notifiable Infectious Diseases (CNIDs) Dashboard",
-  windowTitle = "CNIDs",
+  title = "Chinese Notifiable Infectious Diseases (CNIDS) Dashboard",
+  windowTitle = "CNIDS",
   tags$div(
     style = "position: absolute; top: 10px; right: 10px; z-index:10000; color: #18bc9c;",
     selectInput(
@@ -72,7 +72,7 @@ ui <- navbarPage(
       width = 8,
       offset = 2,
       tags$h2("About"),
-      tags$p("This is a dashboard for Chinese Notifiable Infectious Diseases (CNIDs) data."),
+      tags$p("This is a dashboard for Chinese Notifiable Infectious Diseases (CNIDS) data."),
       tags$p("The data is from the website of China CDC Weekly."),
       tags$p("The dashboard is developed by Kangguo Li."),
       tags$p("The source code is available on Github:"),
@@ -84,7 +84,7 @@ ui <- navbarPage(
       tags$br(),
       tags$a("Get Province Level Data", href = "https://github.com/xmusphlkg/CNID/tree/master/Data/AllData/DatacenterReport", target = "_blank"),
       tags$h2("Cite:"),
-      tags$p("CNIDs: Chinese Notifiable Infectious Diseases Perception Project. https://github.com/xmusphlkg/CNID")
+      tags$p("CNIDS: Chinese Notifiable Infectious Diseases Perception Project. https://github.com/xmusphlkg/CNID")
     )
   )
 )
