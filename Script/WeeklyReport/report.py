@@ -55,7 +55,7 @@ def generate_report(analysis_YearMonth, table_data, df, diseases_order, api_base
             self.line(30, self.height - 10, self.width - 30, self.height - 10)
             self.line(30, 50, self.width - 30, 50)
             self.drawString(self.width - x, 25, page)
-            self.drawString(self.width - inch * 8 - 5, self.height, "CNIDs: Chinese Notifiable Infectious Diseases Sensing Project")
+            self.drawString(self.width - inch * 8 - 5, self.height, "CNIDs: Chinese Notifiable Infectious Diseases Perception Project")
             self.restoreState()
 
     class PDFPSReporte:
@@ -117,11 +117,11 @@ def generate_report(analysis_YearMonth, table_data, df, diseases_order, api_base
             self.doc.multiBuild(self.elements, canvasmaker=FooterCanvas)
 
         def firstPage(self, styles):
-            cover_title = Paragraph("CNIDs: Chinese Notifiable Infectious Diseases Sensing Project", styles['Subtitle'])
+            cover_title = Paragraph("CNIDs: Chinese Notifiable Infectious Diseases Perception Project", styles['Subtitle'])
             self.elements.append(cover_title)
             self.elements.append(Spacer(30, 100))
 
-            cover_title = Paragraph("A Dynamic Sensing Report of Notifiable Infectious Diseases Data in Mainland, China", styles['Title'])
+            cover_title = Paragraph("A Dynamic Perception Report of Notifiable Infectious Diseases Data in Mainland, China", styles['Title'])
             self.elements.append(cover_title)
             self.elements.append(Spacer(1, 12))
 
