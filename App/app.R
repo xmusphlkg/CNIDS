@@ -32,7 +32,7 @@ diseases <- unique(DataRaw$Diseases)
 
 ui <- navbarPage(
   theme = shinytheme("flatly"),
-  title = "Chinese Notifiable Infectious Diseases (CNIDS) Dashboard",
+  title = "Chinese Notifiable Infectious Diseases Surveillance (CNIDS) Dashboard",
   windowTitle = "CNIDS",
   tags$div(
     style = "position: absolute; top: 10px; right: 10px; z-index:10000; color: #18bc9c;",
