@@ -34,13 +34,13 @@ The primary objective of the CNIDS project is to establish an efficient infectio
 Get the latest image:
 
 ```
-docker push kanggle/CNIDS:latest
+docker push kanggle/cnids:latest
 ```
 
 Run the image:
 
 ```
-docker run -d -p 3838:3838 kanggle/CNIDS:latest
+docker run -d -p 3838:3838 kanggle/cnids:latest
 ```
 
 Open the browser and enter the address:
