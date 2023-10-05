@@ -159,7 +159,7 @@ else:
         generate_weekly_report(YearMonth, api_base, api_key)
     shutil.copy("../Report/report " + find_max_date(new_dates) + ".pdf", "../Report/report latest.pdf")
     shutil.copy("../Report/mail/" + find_max_date(new_dates) + ".md", "../Report/mail/latest.md")
-    # send_email_to_subscriber()
+    send_email_to_subscriber()
 
     # print success message
     print("CDCWeekly Data updated successfully!")

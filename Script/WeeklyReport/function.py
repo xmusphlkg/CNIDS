@@ -239,12 +239,11 @@ def chatgpt_description(api_base, api_key, analysis_YearMonth, table_data_str, m
     }
     data = {
         'model': model,
-        'temperature': 0.7,
+        'temperature': 0,
         'max_tokens': 10000,
         'messages': [
-            {"role": "user", "content": f"""I'm working on the results of my paper, playing a professional epidemiologist assisted me to describe the data. 
-             Next, I will send you the monthly cases and deaths in {analysis_YearMonth}in mainland, China. 
-             Please describe and analysis these data based on this data."""},
+            {"role": "user", "content": f"""I want you play a epidemiologist, analyze I input monthly data on cases and deaths in
+             {analysis_YearMonth} in mainland, China. Find anything interesting or unusual in the data. Not add graph or table, and No greeting is generated."""},
             {"role": "system", "content": "OK, you can send me the data directly to me."},
             {"role": "user", "content": f"Here is the data:\n{table_data_str}"}
         ]
@@ -281,7 +280,7 @@ def chatgpt_mail_raw(api_base, api_key, analysis_YearMonth, table_data_str, mode
     }
     data = {
         'model': model,
-        'temperature': 0.5,
+        'temperature': 1,
         'max_tokens': 10000,
         'messages': [
             {"role": "user", "content": f"""Analyze the monthly cases and deaths of different diseases in mainland China for {analysis_YearMonth}.
@@ -335,13 +334,17 @@ def chatgpt_description_time(api_base, api_key, analysis_YearMonth, table_data_s
     }
     data = {
         'model': model,
-        'temperature': 0.7,
+        'temperature': 0,
         'max_tokens': 10000,
         'messages': [
-            {"role": "user", "content": f"""As a professional epidemiologist, I'm working on analyzing the results of my paper. I have obtained monthly data on cases and deaths before
-              {analysis_YearMonth} for {disease_name} in mainland China. I would like you, as ChatGPT, to assist me in describing and analyzing these data. Please focus on identifying 
-              the seasonal patterns, peak and trough periods, and overall trends."""},
-            {"role": "system", "content": "OK, you can send me the data directly to me."},
+            {"role": "user", "content": f"""I want you play a epidemiologist, analyze I input monthly data on cases and deaths before {analysis_YearMonth} for {disease_name} in mainland China. Describe the seasonal patterns, peak and trough periods, and overall trends. Not add graph or table, and No greeting is generated.
+             After I input data, you will generate 4 sections as following format.
+             Seasonal Patterns: [content]\n
+             Peak and Trough Periods: [content]\n
+             Overall Trends: [content]\n
+             Discussion: [content]\n
+             Before I send the data just answer whether you understand?"""},
+            {"role": "system", "content": "Yes, I understand. Please go ahead and provide the monthly data."},
             {"role": "user", "content": f"Here is the data:\n{table_data_str}"}
         ]
     }
@@ -377,7 +380,7 @@ def chatgpt_infomation(api_base, api_key, model, disease_name = ''):
     }
     data = {
         'model': model,
-        'temperature': 0.7,
+        'temperature': 0,
         'max_tokens': 10000,
         'messages': [
             {"role": "user", "content": f"""Provide a comprehensive overview of the epidemiology of {disease_name}, 
