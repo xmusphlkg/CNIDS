@@ -49,6 +49,8 @@ ui <- navbarPage(
     column(
       width = 8,
       offset = 2,
+      tags$h2("Diseases Infomation"),
+      uiOutput("markdown"),
       tags$h2("Reported Cases"),
       plotlyOutput("plot1", height = "300px"),
       tags$h2("Reported Deaths"),
@@ -85,7 +87,6 @@ ui <- navbarPage(
       tags$a("Get Province Level Data", href = "https://github.com/xmusphlkg/CNID/tree/master/Data/AllData/DatacenterReport", target = "_blank"),
       tags$h2("Cite:"),
       tags$p("CNIDS: Chinese Notifiable Infectious Diseases Surveillance Project. https://github.com/xmusphlkg/CNID")
-      
     )
   )
 )
@@ -98,6 +99,16 @@ server <- function(input, output) {
     datasub <- DataRaw[DataRaw$Diseases == input$disease, ]
     datasub <- datasub |> arrange(desc(Date))
     values$datasub <- datasub
+
+    output$markdown <- renderUI({
+      url <- paste0(
+        "https://raw.githubusercontent.com/xmusphlkg/CNID/master/Report/infomation/",
+        input$disease,
+        ".md"
+      )
+      content <- readLines(url)
+      HTML(markdown::markdownToHTML(text = content))
+    })
   })
   output$table <- renderDT(
     {

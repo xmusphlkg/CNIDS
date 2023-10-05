@@ -69,12 +69,18 @@ def update_pages(diseases_order, diseases_order_cn, disease_index, df):
                               hovertemplate='Date: %{x}<br>Ratio: %{y}'))
       plot_html_3 = fig.to_html(full_html=False)
 
+      ## read the analysis of the disease
+      body_main = open(f'../Report/history/latest/{disease}.md', "r").read()
+      body_info = open(f'../Report/infomation/{disease}.md', "r").read()
+
       template = Template(template_content)
       rendered_html = template.render(plot_html_1=plot_html_1,
                                       plot_html_2=plot_html_2,
                                       plot_html_3=plot_html_3,
                                       select_div=div_element,
                                       disease=disease,
+                                      body_main=body_main,
+                                      body_info=body_info,
                                       disease_cn=diseases_order_cn[i])
 
       # 将渲染后的HTML内容保存到文件

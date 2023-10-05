@@ -231,7 +231,7 @@ def process_table_data(urls, filtered_results, diseaseCode2Name, dois):
         table_data.to_csv(file_name, index=False, encoding="UTF-8-sig")
 
 # define a function to get table data from URLs
-def chatgpt_description(api_base, api_key, analysis_YearMonth, table_data_str, model, disease_name = ''):
+def chatgpt_description(api_base, api_key, analysis_YearMonth, table_data_str, model):
     url = f"{api_base}"
     headers = {
         'Content-Type': 'application/json',
@@ -243,23 +243,29 @@ def chatgpt_description(api_base, api_key, analysis_YearMonth, table_data_str, m
         'max_tokens': 10000,
         'messages': [
             {"role": "user", "content": f"""I'm working on the results of my paper, playing a professional epidemiologist assisted me to describe the data. 
-             Next, I will send you the monthly cases and deaths in {analysis_YearMonth} {disease_name} in mainland, China. 
+             Next, I will send you the monthly cases and deaths in {analysis_YearMonth}in mainland, China. 
              Please describe and analysis these data based on this data."""},
             {"role": "system", "content": "OK, you can send me the data directly to me."},
             {"role": "user", "content": f"Here is the data:\n{table_data_str}"}
         ]
     }
+    print(f"Start Generate Description Content in {analysis_YearMonth}")
 
     try:
         response = requests.post(url, headers=headers, json=data)
 
         if response.status_code == 200:
-            print('Generate Description Success ' + disease_name)
+            print('Generate Description Success ')
             out_content = response.json()['choices'][0]['message']['content']
             out_content = out_content.replace('Discussion:\n\n', '')
         else:
-            print('Generate Description Fail ' + disease_name)
+            print('Generate Mail Fail ' + disease_name)
             print(response)
+            try:
+                print(model)
+                print(response.json())
+            except:
+                pass
             out_content = None
     except ConnectionError as e:
         print('Connection Error:', e)
@@ -288,6 +294,7 @@ def chatgpt_mail_raw(api_base, api_key, analysis_YearMonth, table_data_str, mode
             {"role": "user", "content": f"Here is the data:\n{table_data_str}"}
         ]
     }
+    print("Start Generate Mail Content")
 
     try:
         response = requests.post(url, headers=headers, json=data)
@@ -299,6 +306,11 @@ def chatgpt_mail_raw(api_base, api_key, analysis_YearMonth, table_data_str, mode
         else:
             print('Generate Mail Fail ' + disease_name)
             print(response)
+            try:
+                print(model)
+                print(response.json())
+            except:
+                pass
             out_content = None
     except ConnectionError as e:
         print('Connection Error:', e)
@@ -333,6 +345,7 @@ def chatgpt_description_time(api_base, api_key, analysis_YearMonth, table_data_s
             {"role": "user", "content": f"Here is the data:\n{table_data_str}"}
         ]
     }
+    print(f"Start Generate Description Content of {disease_name}")
 
     try:
         response = requests.post(url, headers=headers, json=data)
@@ -344,6 +357,53 @@ def chatgpt_description_time(api_base, api_key, analysis_YearMonth, table_data_s
         else:
             print('Generate Description Fail ' + disease_name)
             print(response)
+            try:
+                print(model)
+                print(response.json())
+            except:
+                pass
+            out_content = None
+    except ConnectionError as e:
+        print('Connection Error:', e)
+        out_content = None
+
+    return out_content
+
+def chatgpt_infomation(api_base, api_key, model, disease_name = ''):
+    url = f"{api_base}"
+    headers = {
+        'Content-Type': 'application/json',
+        'Authorization': f'Bearer {api_key}'
+    }
+    data = {
+        'model': model,
+        'temperature': 0.7,
+        'max_tokens': 10000,
+        'messages': [
+            {"role": "user", "content": f"""Provide a comprehensive overview of the epidemiology of {disease_name}, 
+             including its global prevalence, transmission routes, affected populations, and key statistics. 
+             Include information on the historical context and discovery of {disease_name}.
+             Highlight the major risk factors associated with {disease_name} transmission.
+             Discuss the impact of {disease_name} on different regions and populations, 
+             including variations in prevalence rates and affected demographics."""}
+        ]
+    }
+
+    try:
+        response = requests.post(url, headers=headers, json=data)
+
+        if response.status_code == 200:
+            print('Generate Infomation Success ' + disease_name)
+            out_content = response.json()['choices'][0]['message']['content']
+            out_content = out_content.replace('Discussion:\n\n', '')
+        else:
+            print('Generate Infomation Fail ' + disease_name)
+            print(response)
+            try:
+                print(model)
+                print(response.json())
+            except:
+                pass
             out_content = None
     except ConnectionError as e:
         print('Connection Error:', e)

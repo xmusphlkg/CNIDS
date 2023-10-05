@@ -141,7 +141,7 @@ else:
     data.to_csv('..' + '/AllData/WeeklyReport/latest.csv', index=False, encoding='utf-8', header=True)
     data.to_csv('..' + '/AllData/WeeklyReport/' + max_date + '.csv', index=False, encoding='utf-8', header=True)
 
-    # modify the disease name
+    # modify the markdown file
     if test == 'False':
         readme_path = "../Readme.md"
         with open(readme_path, "r") as readme_file:
@@ -151,15 +151,15 @@ else:
         with open(readme_path, "w") as readme_file:
             readme_file.write(updated_readme_content)
     
-    if test_analysis == 'True':
-        api_key = os.environ['OPENAI_api']
-        api_base = os.environ['OPENAI_url']
-        for YearMonth in new_dates:
-            print("Generate report for " + YearMonth)
-            generate_weekly_report(YearMonth, api_base, api_key)
-        shutil.copy("../Report/report " + find_max_date(new_dates) + ".pdf", "../Report/report latest.pdf")
-        shutil.copy("../Report/mail/" + find_max_date(new_dates) + ".md", "../Report/mail/latest.md")
-        send_email_to_subscriber()
+    
+    api_key = os.environ['OPENAI_api']
+    api_base = os.environ['OPENAI_url']
+    for YearMonth in new_dates:
+        print("Generate report for " + YearMonth)
+        generate_weekly_report(YearMonth, api_base, api_key)
+    shutil.copy("../Report/report " + find_max_date(new_dates) + ".pdf", "../Report/report latest.pdf")
+    shutil.copy("../Report/mail/" + find_max_date(new_dates) + ".md", "../Report/mail/latest.md")
+    send_email_to_subscriber()
 
     # print success message
     print("CDCWeekly Data updated successfully!")

@@ -28,12 +28,14 @@ https://www.tooplate.com/view/2123-simply-amazed
           <ul class="navbar-nav">
 
             <li class="nav-item">
-              <h3> {{ disease }} <br> {{ disease_cn }}</h3>
+              <a class="nav-link" href="#section-0">
+                <span class="icn"><i class="fas fa-2x fa-air-freshener"></i></span>
+                Select Disease(选择疾病)</a>
             </li>
             <li class="nav-item">
               <a class="nav-link" href="#section-1">
-                <span class="icn"><i class="fas fa-2x fa-air-freshener"></i></span>
-                Select Disease(选择疾病)</a>
+                {{ disease }} <br> {{ disease_cn }}
+              </a>
             </li>
             <li class="nav-item">
               <a class="nav-link" href="#section-2">
@@ -44,7 +46,7 @@ https://www.tooplate.com/view/2123-simply-amazed
             <li class="nav-item">
               <a class="nav-link" href="#section-3">
                 <span class="icn"><i class="far fa-2x fa-images"></i></span>
-                Daeths(病死数)
+                Deaths(病死数)
               </a>
             </li>
             <li class="nav-item">
@@ -73,7 +75,7 @@ https://www.tooplate.com/view/2123-simply-amazed
 
 
     <main id="content-box" class="order-first">
-      <div class="banner-section section parallax-window" data-parallax="scroll" id="section-1">
+      <div class="banner-section section parallax-window" data-parallax="scroll" id="section-0">
         <div class="container">
           <div class="title" style="color: #69738a;">
             <h2>Select Disease (切换病种)</h2>
@@ -81,6 +83,19 @@ https://www.tooplate.com/view/2123-simply-amazed
           {{select_div}}
         </div>
       </div>
+
+      <section class="work-section section" id="section-1">
+        <div class="container">
+          <div class="row">
+            <div class="title">
+              <h3>{{ disease }} <br> {{ disease_cn }}</h3>
+            </div>
+            {{body_info}}
+            <br>
+            {{body_main}}
+          </div>
+        </div>
+      </section>
 
       <section class="work-section section" id="section-2">
         <div class="container">
