@@ -239,12 +239,12 @@ def chatgpt_description(api_base, api_key, analysis_YearMonth, table_data_str, m
     }
     data = {
         'model': model,
-        'temperature': 0,
+        'temperature': 0.8,
         'max_tokens': 10000,
         'messages': [
-            {"role": "user", "content": f"""I want you play a epidemiologist, analyze I input monthly data on cases and deaths in
-             {analysis_YearMonth} in mainland, China. Find anything interesting or unusual in the data. Not add graph or table, and No greeting is generated."""},
-            {"role": "system", "content": "OK, you can send me the data directly to me."},
+            {"role": "user", "content": f"""Analyze the epidemiological data on disease cases and deaths for {analysis_YearMonth} in mainland, China,
+              identifying any significant patterns or trends. Offer a comprehensive written analysis and discussion without the use of visual aids like graphs or tables."""},
+            {"role": "system", "content": "Please provide the disease data, Once I have this information, I can start the written analysis for you."},
             {"role": "user", "content": f"Here is the data:\n{table_data_str}"}
         ]
     }
@@ -258,7 +258,7 @@ def chatgpt_description(api_base, api_key, analysis_YearMonth, table_data_str, m
             out_content = response.json()['choices'][0]['message']['content']
             out_content = out_content.replace('Discussion:\n\n', '')
         else:
-            print('Generate Mail Fail ' + disease_name)
+            print('Generate Description Fail')
             print(response)
             try:
                 print(model)
@@ -337,7 +337,7 @@ def chatgpt_description_time(api_base, api_key, analysis_YearMonth, table_data_s
         'temperature': 0,
         'max_tokens': 10000,
         'messages': [
-            {"role": "user", "content": f"""I want you play a epidemiologist, analyze I input monthly data on cases and deaths before {analysis_YearMonth} for {disease_name} in mainland China. Describe the seasonal patterns, peak and trough periods, and overall trends. Not add graph or table, and No greeting is generated.
+            {"role": "user", "content": f"""As a epidemiologist, analyze I input monthly data on cases and deaths before {analysis_YearMonth} for {disease_name} in mainland China. Describe the seasonal patterns, peak and trough periods, and overall trends. Not add graph or table, and No greeting is generated.
              After I input data, you will generate 4 sections as following format.
              Seasonal Patterns: [content]\n
              Peak and Trough Periods: [content]\n
@@ -354,11 +354,11 @@ def chatgpt_description_time(api_base, api_key, analysis_YearMonth, table_data_s
         response = requests.post(url, headers=headers, json=data)
 
         if response.status_code == 200:
-            print('Generate Description Success ' + disease_name)
+            print('Generate Disease Description Success ' + disease_name)
             out_content = response.json()['choices'][0]['message']['content']
             out_content = out_content.replace('Discussion:\n\n', '')
         else:
-            print('Generate Description Fail ' + disease_name)
+            print('Generate Disease Description Fail ' + disease_name)
             print(response)
             try:
                 print(model)
