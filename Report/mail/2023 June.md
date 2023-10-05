@@ -4,37 +4,31 @@ I hope this email finds you well. China CDC Weekly has published the new data on
 
 Based on the provided data for the monthly cases and deaths of different diseases in mainland China for 2023 June, here are some key observations and points to note:
 
-1. Acute hemorrhagic conjunctivitis: There was a significant increase in cases compared to May 2023 and June 2022.
+1. Acute hemorrhagic conjunctivitis: Cases increased significantly by 115.71% compared to May 2023, and 71.60% compared to June 2022. No deaths were reported for this disease.
 
-2. Anthrax: The number of cases increased slightly compared to May 2023 and June 2022.
+2. Anthrax: A small increase of 24% in cases was observed compared to May 2023, and 6.90% increase compared to June 2022. No deaths were reported for Anthrax.
 
-3. Brucellosis: There was a decrease in cases compared to May 2023 and June 2022.
+3. Brucellosis: Cases decreased by 8.17% compared to May 2023, and 16.26% decrease compared to June 2022. No deaths were reported for Brucellosis.
 
-4. Cholera: There were only 3 cases reported, with a decrease compared to May 2023 and June 2022.
+4. Cholera: There were only 3 reported cases of Cholera in June 2023, with a 50% decrease compared to June 2022. No deaths were reported.
 
-5. Dengue: The number of cases increased significantly compared to May 2023, but there was a drastic increase compared to June 2022.
+5. Dengue: Cases increased by a significant 161.90% compared to May 2023, and an astonishing 5400% increase compared to June 2022. No deaths were reported for Dengue.
 
-6. Dysentery: There was an increase in cases compared to May 2023, but a decrease compared to June 2022.
+6. Dysentery: Cases increased by 15.99% compared to May 2023, but there was a slight decrease of 7.54% compared to June 2022. No deaths were reported.
 
-7. Hand foot and mouth disease: There was a substantial increase in cases compared to both May 2023 and June 2022.
+7. Hand foot and mouth disease: There was a massive increase of 374.57% in cases compared to May 2023, and a significant increase of 207.89% compared to June 2022. No deaths were reported for this disease.
 
-8. Hepatitis: The number of cases decreased slightly compared to May 2023, but there was an increase compared to June 2022. The number of deaths also increased compared to May 2023 and June 2022.
+8. Hepatitis: Total cases decreased by 5.37% compared to May 2023, but a slight increase of 1.54% compared to June 2022. There were 206 reported deaths, with a 21.18% increase compared to May 2023 and a staggering 303.92% increase compared to June 2022.
 
-9. Influenza: There was a significant decrease in cases compared to both May 2023 and June 2022. However, there was one reported death.
+9. Influenza: Cases decreased significantly by 69.33% compared to May 2023, and a massive decrease of 91.26% compared to June 2022. One death was reported in June 2023, with a 50% decrease compared to May 2023, and a 75% decrease compared to June 2022.
 
-10. Malaria: The number of cases increased compared to May 2023 and June 2022, with two reported deaths.
+10. Measles: Cases decreased by 18.35% compared to May 2023, and a 19.09% decrease compared to June 2022. No deaths were reported for Measles.
 
-11. Measles: There was a decrease in cases compared to May 2023 and June 2022.
+11. Tuberculosis: Cases decreased by 6.20% compared to May 2023, and a 4.58% decrease compared to June 2022. There were 324 reported deaths, with a 5.54% decrease compared to May 2023, and a 6.09% decrease compared to June 2022.
 
-12. Rabies: There was a slight increase in cases compared to May 2023, but a decrease compared to June 2022. The number of deaths increased compared to both May 2023 and June 2022.
+12. Typhoid fever and paratyphoid fever: Cases increased by 14.63% compared to May 2023, but there was a slight decrease of 10.43% compared to June 2022. No deaths were reported for these diseases.
 
-13. Syphilis: The number of cases decreased slightly compared to May 2023, but there was an increase compared to June 2022. There was one reported death.
-
-14. Tuberculosis: There was a decrease in cases compared to both May 2023 and June 2022. However, there were 324 reported deaths.
-
-15. Acquired immune deficiency syndrome (AIDS): The number of cases increased compared to both May 2023 and June 2022. There was an increase in deaths compared to May 2023, but a decrease compared to June 2022.
-
-It is important to note that the data provided is specific to mainland China for June 2023 and should be interpreted with caution. Further analysis and contextual information may be necessary to understand the full implications of these observations.
+Please note that the comparison figures indicate the percentage change in cases and deaths compared to the specified months. The diseases listed above are based on the provided data, and attention should be given to the significant increases or decreases in cases and deaths for each disease.
 
 The notion generated automatically, and assistant by ChatGPT. Please check the data and description carefully.
 
