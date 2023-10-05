@@ -70,8 +70,9 @@ def update_pages(diseases_order, diseases_order_cn, disease_index, df):
       plot_html_3 = fig.to_html(full_html=False)
 
       ## read the analysis of the disease
-      body_main = open(f'../Report/history/latest/{disease}.md', "r").read()
-      body_info = open(f'../Report/infomation/{disease}.md', "r").read()
+      body_main = open(f'../Report/history/latest/{disease}.md', "r").read().replace('\n\n', '<br>')
+      body_info = open(f'../Report/infomation/{disease}.md', "r").read().replace('\n\n', '<br>')
+
 
       template = Template(template_content)
       rendered_html = template.render(plot_html_1=plot_html_1,
