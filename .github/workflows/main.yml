@@ -22,6 +22,7 @@ jobs:
       test_dc: ${{ vars.TEST_DC }}
       cite: ${{ vars.CITE }}
       update_info: ${{ vars.UPDATE_INFO }}
+      test_info: ${{ vars.TEST_MAIL }}
     steps:
       - name: Checkout code
         uses: actions/checkout@v2

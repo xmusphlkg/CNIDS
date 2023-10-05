@@ -88,7 +88,7 @@ def get_subscriber_list(url:str, file_name = "subscriber.xlsx"):
         os.remove(file_name)
         return df
 
-def send_email_to_subscriber():
+def send_email_to_subscriber(test_info):
     access_token = get_access_token()
     sender_email = os.environ['MS_sender_email']
     url = os.environ['MS_subscribe']
@@ -102,7 +102,7 @@ def send_email_to_subscriber():
     for index, row in df.iterrows():
         recipient_email = row['email']
         subject = subject
-        if os.environ['test_analysis'] == "True":
+        if test_info == "True":
             body_main = "<h1>Project still in test mode, please ignore this email.</h1>\n\n" + body_main
         body = body_main.replace("[Recipient]", row['name']) + emailInfo + "\n\n"
         # trans markdown content to html
