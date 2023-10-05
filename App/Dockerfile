@@ -17,7 +17,6 @@ RUN apt-get update && apt-get install -y \
 
 # install dependencies of the this app
 RUN R -e "install.packages('plotly', repos='https://cloud.r-project.org/')"
-RUN R -e "install.packages('markdown', repos='https://cloud.r-project.org/')"
 
 # copy the app to the image
 RUN mkdir /root/app

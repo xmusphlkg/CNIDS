@@ -50,7 +50,7 @@ ui <- navbarPage(
       width = 8,
       offset = 2,
       tags$h2("Diseases Infomation"),
-      uiOutput("markdown"),
+      htmlOutput("markdown"),
       tags$h2("Reported Cases"),
       plotlyOutput("plot1", height = "300px"),
       tags$h2("Reported Deaths"),
@@ -106,8 +106,8 @@ server <- function(input, output) {
         input$disease,
         ".md"
       )
-      content <- readLines(url)
-      HTML(markdown::markdownToHTML(text = content))
+      content <- readLines(URLencode(url))
+      HTML(paste(content, collapse = "<br>"))
     })
   })
   output$table <- renderDT(
