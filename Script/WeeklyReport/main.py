@@ -154,7 +154,7 @@ else:
     
     api_key = os.environ['OPENAI_api']
     api_base = os.environ['OPENAI_url']
-    test_info = os.environ['TEST_MAIL']
+    test_info = os.environ['test_mail']
     for YearMonth in new_dates:
         print("Generate report for " + YearMonth)
         generate_weekly_report(YearMonth, api_base, api_key)
