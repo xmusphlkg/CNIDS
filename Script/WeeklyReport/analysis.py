@@ -34,7 +34,7 @@ def generate_weekly_report(analysis_YearMonth, api_base, api_key):
     table_data = format_table_data(change_data, analysis_date)
 
     # # update report
-    generate_report(analysis_YearMonth, table_data, df, diseases_order, api_base, api_key)     
+    # generate_report(analysis_YearMonth, table_data, df, diseases_order, api_base, api_key)     
     shutil.rmtree("temp")
     shutil.copytree("../Report/history/" + analysis_YearMonth, "../Report/history/latest", dirs_exist_ok=True)
 
