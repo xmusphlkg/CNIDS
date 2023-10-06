@@ -394,7 +394,7 @@ def generate_report(analysis_YearMonth, table_data, df, diseases_order, api_base
             if content_raw is not None:
                 attempts = 0
                 while attempts < max_attempts:
-                    content = chatgpt_academic(api_base, api_key, 'gpt-3.5-turbo-16k', content)
+                    content = chatgpt_academic(api_base, api_key, 'gpt-3.5-turbo-16k', content_raw)
                     if content is not None:
                         paragraphChatgpt = Paragraph(content.replace('\n\n', '<br />\n'), styles['Content'])
                         self.elements.append(paragraphChatgpt)
