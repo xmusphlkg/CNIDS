@@ -422,7 +422,7 @@ def chatgpt_academic(api_base, api_key, model, content_raw = ''):
     }
     data = {
         'model': model,
-        'temperature': 0,
+        'temperature': 1,
         'max_tokens': 10000,
         'messages': [
             {"role": "user", "content": f"""Below is a paragraph from an academic paper. Polish the writing to meet the academic style, 
