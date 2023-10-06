@@ -1,11 +1,21 @@
-Seasonal Patterns: Pertussis cases in mainland China show a clear seasonal pattern, with higher numbers of cases occurring during the summer and fall months (June to October) and lower numbers during the winter and spring months (November to May). This pattern can be observed consistently throughout the years.
+Seasonal Patterns:
 
-Peak and Trough Periods: The peak periods for Pertussis cases in mainland China typically occur in the months of July and August, with a decrease in cases starting from September onwards. The lowest number of cases can be observed between December and February, during the winter months.
+An analysis of the monthly data on Pertussis cases in mainland China prior to June 2023 reveals a distinct seasonal pattern. The highest number of cases is observed during the summer and autumn months, spanning from June to October, while the number of cases decreases during the winter and spring months, from November to May. This consistent seasonal pattern persists across the years.
 
-Overall Trends: Over the years, there has been an overall increasing trend in Pertussis cases in mainland China. The number of cases gradually increased from 2010 to 2014, with a significant surge in cases observed from 2014 to 2015. After reaching a peak in 2015, the number of cases slowly declined until 2020, when a sharp decrease occurred. However, the number of cases started to rise again from 2021 to 2023.
+Peak and Trough Periods:
 
-Discussion: The seasonal patterns of Pertussis cases in mainland China suggest that the disease is more prevalent during the summer and fall months, which may indicate heightened transmission during these periods. The peak and trough periods align with the seasonal pattern, with the highest number of cases occurring in the summer months and the lowest number of cases in the winter months.
+The peak period for Pertussis cases in mainland China is concentrated in the months of July and August. During this period, the number of cases reaches its peak, with a particularly high occurrence in 2018 when the number of cases rose above 4,000. Conversely, the trough period for Pertussis cases is observed in the months of January and February, characterized by a decrease in the number of cases. This consistent fluctuation between peak and trough periods is observed throughout the years.
 
-The overall increasing trend in Pertussis cases until 2015 may be attributed to various factors, such as changes in reporting practices, improved awareness and diagnosis, increased population density, and changes in vaccination coverage. The decline in cases from 2020 could be due to the impact of public health measures implemented during the COVID-19 pandemic, which included widespread masking and social distancing.
+Overall Trends:
 
-However, the recent rise in cases from 2021 to 2023 suggests that Pertussis remains a public health concern in mainland China and highlights the need for continued surveillance and vaccination efforts to control its spread. Further analysis and investigation are required to understand the contributing factors behind the increasing trend in recent years and to develop effective preventive strategies.
+Upon considering the overall trend of Pertussis cases in mainland China before June 2023, there is a general increase in case numbers over the years. Between 2010 and 2013, the number of cases remained relatively stable, albeit with some fluctuations. However, a noticeable increase in the number of cases is observed from 2014 onwards, with peaks occurring in 2015, 2017, and 2022. Despite some annual fluctuations, the overall trend depicts an escalating number of Pertussis cases.
+
+Discussion:
+
+The seasonal pattern of Pertussis cases in mainland China indicates a higher risk of transmission during the summer and autumn months. This may be attributed to factors such as increased social interactions and close contact, as people tend to spend more time outdoors during these seasons. It is important to note that the trough period during winter and spring suggests a decrease in transmission, which may be influenced by factors like reduced outdoor activities and improved hygiene practices.
+
+The peak periods in July and August can be attributed to various factors, such as increased travel and socializing during summer vacations, which facilitate the spread of the disease. Moreover, the overall increase in Pertussis cases over the years suggests potential challenges in disease control, highlighting the need for effective prevention strategies such as vaccination and public health education.
+
+It is worth mentioning that the data on Pertussis deaths in mainland China prior to June 2023 demonstrates sporadic occurrences, with no discernible seasonal or overall trend. This indicates that Pertussis-related deaths are relatively infrequent compared to the reported number of cases.
+
+Overall, these findings underscore the significance of ongoing surveillance and intervention measures to mitigate the impact of Pertussis in mainland China.
