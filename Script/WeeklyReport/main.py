@@ -51,7 +51,7 @@ if len(new_dates) == 0 and test == 'False':
 else:
     if test == 'True':
       print("Test mode, only get the latest data")
-      new_dates = [max([result['YearMonth'] for result in results])]
+      new_dates = [find_max_date([result['YearMonth'] for result in results])]
       print(new_dates)
     else:
       test_analysis = 'True'
