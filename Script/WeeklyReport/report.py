@@ -1,3 +1,8 @@
+## 
+## This script is used to generate report
+## Part of the code is from jurasec/python-reportlab-example
+##
+
 import datetime
 from plotnine import *
 import pandas as pd
