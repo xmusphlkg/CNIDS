@@ -71,7 +71,7 @@ def update_pages(diseases_order, diseases_order_cn, disease_index, df):
 
       ## read the analysis of the disease
       body_main = open(f'../Report/history/latest/{disease}.md', "r").read().replace('\n\n', '<br>')
-      body_info = open(f'../Report/infomation/{disease}.md', "r").read().replace('\n\n', '<br>')
+      body_info = open(f'../Report/information/{disease}.md', "r").read().replace('\n\n', '<br>')
 
 
       template = Template(template_content)

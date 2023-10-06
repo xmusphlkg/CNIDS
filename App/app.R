@@ -49,7 +49,7 @@ ui <- navbarPage(
     column(
       width = 8,
       offset = 2,
-      tags$h2("Diseases Infomation"),
+      tags$h2("Diseases information"),
       htmlOutput("markdown"),
       tags$h2("Reported Cases"),
       plotlyOutput("plot1", height = "300px"),
@@ -102,7 +102,7 @@ server <- function(input, output) {
 
     output$markdown <- renderUI({
       url <- paste0(
-        "https://raw.githubusercontent.com/xmusphlkg/CNID/master/Report/infomation/",
+        "https://raw.githubusercontent.com/xmusphlkg/CNID/master/Report/information/",
         input$disease,
         ".md"
       )
