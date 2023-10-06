@@ -372,7 +372,7 @@ def chatgpt_description_time(api_base, api_key, analysis_YearMonth, table_data_s
 
     return out_content
 
-def chatgpt_infomation(api_base, api_key, model, disease_name = ''):
+def chatgpt_information(api_base, api_key, model, disease_name = ''):
     url = f"{api_base}"
     headers = {
         'Content-Type': 'application/json',
@@ -396,11 +396,49 @@ def chatgpt_infomation(api_base, api_key, model, disease_name = ''):
         response = requests.post(url, headers=headers, json=data)
 
         if response.status_code == 200:
-            print('Generate Infomation Success ' + disease_name)
+            print('Generate information Success ' + disease_name)
             out_content = response.json()['choices'][0]['message']['content']
             out_content = out_content.replace('Discussion:\n\n', '')
         else:
-            print('Generate Infomation Fail ' + disease_name)
+            print('Generate information Fail ' + disease_name)
+            print(response)
+            try:
+                print(model)
+                print(response.json())
+            except:
+                pass
+            out_content = None
+    except ConnectionError as e:
+        print('Connection Error:', e)
+        out_content = None
+
+    return out_content
+
+def chatgpt_academic(api_base, api_key, model, content_raw = ''):
+    url = f"{api_base}"
+    headers = {
+        'Content-Type': 'application/json',
+        'Authorization': f'Bearer {api_key}'
+    }
+    data = {
+        'model': model,
+        'temperature': 0,
+        'max_tokens': 10000,
+        'messages': [
+            {"role": "user", "content": f"""Below is a paragraph from an academic paper. Polish the writing to meet the academic style, 
+             improve the spelling, grammar, clarity, concision and overall readability. When necessary, rewrite the whole sentence. 
+             You should have just told me the result and nothing else.\n\n{content_raw}"""}
+        ]
+    }
+
+    try:
+        response = requests.post(url, headers=headers, json=data)
+
+        if response.status_code == 200:
+            print('Text Academic Success')
+            out_content = response.json()['choices'][0]['message']['content']
+        else:
+            print('Text Academic Fail')
             print(response)
             try:
                 print(model)

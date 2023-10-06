@@ -18,7 +18,8 @@ from function import chatgpt_description
 from function import chatgpt_description_time
 from function import chatgpt_mail_raw
 from function import chatgpt_mail_rebuild
-from function import chatgpt_infomation
+from function import chatgpt_information
+from function import chatgpt_academic
 
 def generate_report(analysis_YearMonth, table_data, df, diseases_order, api_base, api_key):
     table_data_cases = table_data.iloc[:, [0, 2, 3, 4]].sort_values(by='Diseases', key=lambda x: x.map(diseases_order.index))
@@ -213,20 +214,29 @@ def generate_report(analysis_YearMonth, table_data, df, diseases_order, api_base
             # add out_content
             attempts = 0
             content = None
-            
+            content_raw = None
             while attempts < max_attempts:
-                content = chatgpt_description(api_base, api_key, analysis_YearMonth, table_data_str,
-                                              'gpt-3.5-turbo-16k')
-                if content is not None:
-                    paragraphChatgpt = Paragraph(content.replace('\n\n', '<br />\n'), styles['Content'])
-                    self.elements.append(paragraphChatgpt)
-                    self.elements.append(Spacer(1, 12))
-                    with open(f'../Report/history/{analysis_YearMonth}/main.md', 'w') as f:
-                        f.write(content)
+                content_raw = chatgpt_description(api_base, api_key, analysis_YearMonth, table_data_str, 'gpt-3.5-turbo-16k')
+                if content_raw is not None:
                     break
                 else:
                     time.sleep(21)
                 attempts += 1
+            # make content more academic
+            if content_raw is not None:
+                attempts = 0
+                while attempts < max_attempts:
+                    content = chatgpt_academic(api_base, api_key, 'gpt-3.5-turbo', content_raw)
+                    if content is not None:
+                        paragraphChatgpt = Paragraph(content.replace('\n\n', '<br />\n'), styles['Content'])
+                        self.elements.append(paragraphChatgpt)
+                        self.elements.append(Spacer(1, 12))
+                        with open(f'../Report/history/{analysis_YearMonth}/main.md', 'w') as f:
+                            f.write(content)
+                        break
+                    else:
+                        time.sleep(21)
+                    attempts += 1
 
             legend = Paragraph("Table 1: Monthly Notifiable Infectious Diseases Cases in " + analysis_YearMonth, styles['Legend'])
             self.elements.append(legend)
@@ -320,6 +330,43 @@ def generate_report(analysis_YearMonth, table_data, df, diseases_order, api_base
             disease_chart3_path = os.path.join("temp", "disease_{}_chart3.png".format(disease))
             plot_total.save(disease_chart3_path, dpi=300, width=7, height=5)
 
+            # add information of each disease
+            if os.environ['update_info'] == "True":
+                if disease != 'Total':
+                    attempts = 0
+                    content_raw = None
+                    content = None
+                    while attempts < max_attempts:
+                        content_raw = chatgpt_information(api_base, api_key, 'gpt-3.5-turbo-16k', disease_name = disease)
+                        if content_raw is not None:
+                            break
+                        else:
+                            time.sleep(21)
+                        attempts += 1
+                    # make content more academic
+                    if content_raw is not None:
+                        attempts = 0
+                        while attempts < max_attempts:
+                            content = chatgpt_academic(api_base, api_key, 'gpt-3.5-turbo', content_raw)
+                            if content is not None:
+                                paragraphInformation = Paragraph(content.replace('\n\n', '<br />\n'), styles['Content'])
+                                self.elements.append(paragraphInformation)
+                                self.elements.append(Spacer(1, 12))
+                                with open(f'../Report/information/{disease}.md', 'w') as f:
+                                    f.write(content)
+                                break
+                            else:
+                                time.sleep(21)
+                            attempts += 1
+            else:
+                # read old information as content
+                with open(f'../Report/information/{disease}.md', 'r') as f:
+                    content = f.read()
+                paragraphInformation = Paragraph(content.replace('\n\n', '<br />\n'), styles['Content'])
+                self.elements.append(paragraphInformation)
+                self.elements.append(Spacer(1, 12))
+
+            # add image 1 of each disease
             disease_image1 = Image(disease_chart1_path, width=600, height=200)
             self.elements.append(disease_image1)
             self.elements.append(Spacer(1, 12))
@@ -333,34 +380,30 @@ def generate_report(analysis_YearMonth, table_data, df, diseases_order, api_base
 
             max_attempts = 10
             attempts = 0
+            content_raw = None
             content = None
             while attempts < max_attempts:
-                content = chatgpt_description_time(api_base, api_key, analysis_YearMonth, disease_data_str, 'gpt-3.5-turbo-16k', disease)
-                if content is not None:
-                    paragraphChatgpt = Paragraph(content.replace('\n\n', '<br />\n'), styles['Content'])
-                    self.elements.append(paragraphChatgpt)
-                    self.elements.append(Spacer(1, 12))
-                    with open(f'../Report/history/{analysis_YearMonth}/{disease}.md', 'w') as f:
-                        f.write(content)
+                content_raw = chatgpt_description_time(api_base, api_key, analysis_YearMonth, disease_data_str, 'gpt-3.5-turbo-16k', disease)
+                if content_raw is not None:
                     break
                 else:
                     time.sleep(21)
                 attempts += 1
-            
-            # add information of each disease
-            if os.environ['update_info'] == "True":
-                if disease != 'Total':
-                    attempts = 0
-                    content = None
-                    while attempts < max_attempts:
-                        content = chatgpt_infomation(api_base, api_key, 'gpt-3.5-turbo-16k', disease_name = disease)
-                        if content is not None:
-                            with open(f'../Report/infomation/{disease}.md', 'w') as f:
-                                f.write(content)
-                            break
-                        else:
-                            time.sleep(21)
-                        attempts += 1
+            # make content more academic
+            if content_raw is not None:
+                attempts = 0
+                while attempts < max_attempts:
+                    content = chatgpt_academic(api_base, api_key, 'gpt-3.5-turbo', content)
+                    if content is not None:
+                        paragraphChatgpt = Paragraph(content.replace('\n\n', '<br />\n'), styles['Content'])
+                        self.elements.append(paragraphChatgpt)
+                        self.elements.append(Spacer(1, 12))
+                        with open(f'../Report/history/{analysis_YearMonth}/{disease}.md', 'w') as f:
+                            f.write(content)
+                        break
+                    else:
+                        time.sleep(21)
+                    attempts += 1
 
             disease_image1 = Image(disease_chart2_path, width=350, height=250)
             self.elements.append(disease_image1)
