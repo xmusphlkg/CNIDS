@@ -1,11 +1,13 @@
-Seasonal Patterns: 
-Based on the monthly data for Hepatitis E cases in mainland China prior to July 2023, a clear seasonal pattern is evident. The number of cases consistently increases from January to March, followed by a decrease from April to June, and then a slight increase again in July. These findings indicate a peak in cases during the first quarter of the year and a decline during the second quarter.
+Seasonal Patterns:
+Based on the monthly data for Hepatitis E cases in mainland China prior to July 2023, a distinct seasonal pattern emerges. The number of cases appears to peak in March, September, and December, while it generally decreases in January, February, and July.
 
-Peak and Trough Periods: 
-The peak period for Hepatitis E cases in mainland China occurs from January to March, with a significant increase in the number of cases during these months. March typically sees the highest number of cases. Subsequently, the number of cases begins to decline from April and reaches a trough in June. This trough period continues until July, when there is a slight rise in cases compared to June.
+Peak and Trough Periods:
+As previously mentioned, the peak periods for Hepatitis E cases in mainland China occur in March, September, and December. During these months, case numbers consistently exceed those of other months. Conversely, trough periods are observed in January, February, and July, when the number of cases is generally lower.
 
-Overall Trends: 
-In general, the trend of Hepatitis E cases in mainland China before July 2023 demonstrates a fluctuating pattern. There are recurring peaks in cases during the first quarter of each year, followed by a decline in the second and third quarters. However, it is important to note that there are variations in the number of cases across different months and years, indicating some level of inconsistency in the overall trend.
+Overall Trends:
+Upon examining the overall trends, it is evident that Hepatitis E cases vary from year to year. The number of cases gradually increased from 2010 to 2016, reaching its peak in that year. Subsequently, case numbers have declined with some fluctuations.
 
-Discussion: 
-The observed seasonal patterns of Hepatitis E cases in mainland China suggest that there may be certain factors contributing to the fluctuations in cases throughout the year. Possible factors include variations in temperature, precipitation, or environmental conditions that impact the transmission of the virus. Understanding these seasonal patterns and the underlying factors can provide valuable insights for public health interventions and strategies aimed at preventing and controlling Hepatitis E in mainland China.
+Discussion:
+The seasonal patterns and peak periods of Hepatitis E cases in mainland China suggest a potential association with specific weather conditions, environmental factors, or human behaviors that contribute to transmission. Further analysis and investigation are necessary to identify the underlying reasons for these observed seasonal patterns. In addition, the overall decline in Hepatitis E cases after 2016 may indicate the effectiveness of interventions and control measures implemented during that time. However, it is essential to consider other factors such as changes in surveillance and reporting practices when interpreting the data.
+
+In conclusion, this analysis of monthly data on Hepatitis E cases in mainland China provides valuable insights into the disease's seasonal patterns, peak and trough periods, and general trends. This information can inform public health efforts aimed at preventing and managing Hepatitis E outbreaks in the region.
