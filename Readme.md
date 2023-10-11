@@ -52,8 +52,35 @@ http://localhost:3838
 ## **Local Deployment**
 
 1. Fork this directory.
-2. Set up Actions secrets and variables.
-3. Run Github Action.
+2. Set up Actions secrets.
+   a. Docker Hub Settings:
+   `DOCKERHUB_TOKEN`: Docker Hub token.
+   `DOCKERHUB_USERNAME`: Docker Hub username.
+   b. Microsoft Graph Settings:
+   `MS_client_id`: Microsoft Graph client id.
+   `MS_client_secret`: Microsoft Graph client secret.
+   `MS_sender_email`: Microsoft Graph sender email.
+   `MS_subscribe`: Microsoft OneDrive file share link.
+   `MS_tenant_id`: Microsoft Graph tenant id.
+
+   > You can get the above information by registering an application in [Azure Active Directory](https://portal.azure.com/#blade/Microsoft_AAD_RegisteredApps/ApplicationsListBlade).
+
+  c. OpenAI Settings:
+   `OPENAI_api`: OpenAI API key.
+   `OPENAI_url`: OpenAI API url.
+
+   > You can get the above information by registering an application in [OpenAI](https://beta.openai.com/).
+   > example: `sk-xxxxxxxxxxxxxxxxxxxxxxxxxxx`and `https://api.openai.com/v1/chat/completions`
+
+3. Set up Actions variables.
+  a. `test`: Whether to test getting data from the China CDC Monthly Report. Default: `False`.
+  b. `test_analysis`: Whether to test the analysis program. Default: `False`.
+  c. `cite`: Citation information. Default: `Cite Us: CNIDs: Chinese Notifiable Infectious Diseases Surveillance Project. <u><a href='https://github.com/xmusphlkg/CNID'>Github</a></u>'
+  d. `test_dc`: Whether to test getting data from the Public Health Scientific Data Center. Default: `False`.
+  e. `test_mail`: Whether to display the test content in email. Default: `True`.
+  f. `update_info`: Whether to display the update information of each disease in the repository. Default: `False`.
+
+4. Run Github Action.
 
 ## Notice
 

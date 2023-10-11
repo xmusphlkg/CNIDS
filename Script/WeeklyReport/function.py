@@ -230,7 +230,7 @@ def process_table_data(urls, filtered_results, diseaseCode2Name, dois):
         file_name = os.path.join("WeeklyReport/", filtered_results[i]["YearMonth"] + ".csv")
         table_data.to_csv(file_name, index=False, encoding="UTF-8-sig")
 
-# define a function to get table data from URLs
+# get chatgpt generated content about newest data
 def chatgpt_description(api_base, api_key, analysis_YearMonth, table_data_str, model):
     url = f"{api_base}"
     headers = {
@@ -272,6 +272,7 @@ def chatgpt_description(api_base, api_key, analysis_YearMonth, table_data_str, m
 
     return out_content
 
+# get chatgpt generated mail content about newest data
 def chatgpt_mail_raw(api_base, api_key, analysis_YearMonth, table_data_str, model, disease_name = ''):
     url = f"{api_base}"
     headers = {
@@ -284,7 +285,8 @@ def chatgpt_mail_raw(api_base, api_key, analysis_YearMonth, table_data_str, mode
         'max_tokens': 10000,
         'messages': [
             {"role": "user", "content": f"""Analyze the monthly cases and deaths of different diseases in mainland China for {analysis_YearMonth}.
-             Provide a list of important points which need note in the data. After I will send data to your, you can start."""},
+             Provide a short
+list of important points which need note in the data. After I will send data to your, you can start."""},
             {"role": "system", "content": f"""Sure, I can help you analyze the monthly cases and deaths of different diseases in mainland China for {analysis_YearMonth}. 
              Please provide me with the data, and I'll assist you in analyzing it and providing important points which need note."""},
              {"role": "user", "content": f"""You need to pay attention: select noteworthy diseases, not all diseases, and give short description."""},
@@ -317,6 +319,7 @@ def chatgpt_mail_raw(api_base, api_key, analysis_YearMonth, table_data_str, mode
 
     return out_content
 
+# add mail head and end
 def chatgpt_mail_rebuild(mail_main, analysis_YearMonth):
     mail_head = "Dear [Recipient],"
     mail_info = f"I hope this email finds you well. China CDC Weekly has published the new data on the cases and deaths of notifiable infectious diseases in mainland China in {analysis_YearMonth}."
@@ -326,6 +329,7 @@ def chatgpt_mail_rebuild(mail_main, analysis_YearMonth):
     out_content = mail_head + "\n\n" + mail_info + "\n\n" + mail_main + "\n\n" + mail_end + "\n\n" + mail_signature + "\n\n" + mail_time + "\n\n"
     return out_content
 
+# get chatgpt generated history data content about signle disease
 def chatgpt_description_time(api_base, api_key, analysis_YearMonth, table_data_str, model, disease_name = ''):
     url = f"{api_base}"
     headers = {
@@ -372,6 +376,7 @@ def chatgpt_description_time(api_base, api_key, analysis_YearMonth, table_data_s
 
     return out_content
 
+# get chatgpt generated information content about single disease
 def chatgpt_information(api_base, api_key, model, disease_name = ''):
     url = f"{api_base}"
     headers = {
@@ -414,6 +419,7 @@ def chatgpt_information(api_base, api_key, model, disease_name = ''):
 
     return out_content
 
+# make content more academic
 def chatgpt_academic(api_base, api_key, model, content_raw = ''):
     url = f"{api_base}"
     headers = {
