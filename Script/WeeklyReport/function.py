@@ -285,8 +285,12 @@ def chatgpt_mail_raw(api_base, api_key, analysis_YearMonth, table_data_str, mode
         'max_tokens': 10000,
         'messages': [
             {"role": "user", "content": f"""Analyze the monthly cases and deaths of different diseases in mainland China for {analysis_YearMonth}.
+<<<<<<< HEAD
              Provide a short
 list of important points which need note in the data. After I will send data to your, you can start."""},
+=======
+             Provide a short list of important points which need note in the data. After I will send data to your, you can start."""},
+>>>>>>> c544fea32629989f7462b9cb836ca428d7a1e3b5
             {"role": "system", "content": f"""Sure, I can help you analyze the monthly cases and deaths of different diseases in mainland China for {analysis_YearMonth}. 
              Please provide me with the data, and I'll assist you in analyzing it and providing important points which need note."""},
              {"role": "user", "content": f"""You need to pay attention: select noteworthy diseases, not all diseases, and give short description."""},
