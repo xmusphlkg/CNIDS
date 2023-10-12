@@ -41,7 +41,7 @@ def update_pages(diseases_order, diseases_order_cn, disease_index, df):
                               mode='lines',
                               name='Cases',
                               hovertemplate='Date: %{x}<br>Cases: %{y}'))
-      plot_html_1 = fig.to_html(full_html=False)
+      plot_html_1 = fig.to_html(full_html=False, include_plotlyjs='cdn')
 
       fig = go.Figure(layout=go.Layout(
           title=go.layout.Title(text=f'{disease}({diseases_order_cn[i]})'),
@@ -54,7 +54,7 @@ def update_pages(diseases_order, diseases_order_cn, disease_index, df):
                               mode='lines',
                               name='Deaths',
                               hovertemplate='Date: %{x}<br>Deaths: %{y}'))
-      plot_html_2 = fig.to_html(full_html=False)
+      plot_html_2 = fig.to_html(full_html=False, include_plotlyjs='cdn')
 
       fig = go.Figure(layout=go.Layout(
           title=go.layout.Title(text=f'{disease}({diseases_order_cn[i]})'),
@@ -67,7 +67,7 @@ def update_pages(diseases_order, diseases_order_cn, disease_index, df):
                               mode='lines',
                               name='Ratio',
                               hovertemplate='Date: %{x}<br>Ratio: %{y}'))
-      plot_html_3 = fig.to_html(full_html=False)
+      plot_html_3 = fig.to_html(full_html=False, include_plotlyjs='cdn')
 
       ## read the analysis of the disease
       body_main = open(f'../Report/history/latest/{disease}.md', "r").read().replace('\n\n', '<br>')
