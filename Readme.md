@@ -88,7 +88,7 @@ http://localhost:3838
 
   a. `test`: Whether to test getting data from the China CDC Monthly Report. Default: `False`.
 
-  b. `test_analysis`: Whether to test the analysis program. Default: `False`.
+  b. `test_analysis`: Whether to test the analysis program, if `True` only create report for two disease. Default: `False`.
 
   c. `cite`: Citation information. Default: `Cite Us: CNIDs: Chinese Notifiable Infectious Diseases Surveillance Project. <u><a href='https://github.com/xmusphlkg/CNID'>Github</a></u>'
 
