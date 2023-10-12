@@ -96,7 +96,9 @@ http://localhost:3838
 
   e. `test_mail`: Whether to display the test content in email. Default: `True`.
 
-  f. `update_info`: Whether to display the update information of each disease in the repository. Default: `False`.
+  f. `send_mail`: Whether to send email. Default: `True`.
+
+  g. `update_info`: Whether to display the update information of each disease in the repository. Default: `False`.
 
 4. Run Github Action.
 

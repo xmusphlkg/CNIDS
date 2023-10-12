@@ -155,12 +155,14 @@ else:
     api_key = os.environ['OPENAI_api']
     api_base = os.environ['OPENAI_url']
     test_info = os.environ['test_mail']
+    send_mail = os.environ['send_mail']
     for YearMonth in new_dates:
         print("Generate report for " + YearMonth)
         generate_weekly_report(YearMonth, api_base, api_key)
     shutil.copy("../Report/report " + find_max_date(new_dates) + ".pdf", "../Report/report latest.pdf")
     shutil.copy("../Report/mail/" + find_max_date(new_dates) + ".md", "../Report/mail/latest.md")
-    send_email_to_subscriber(test_info)
+    if send_mail == 'True':
+        send_email_to_subscriber(test_info)
 
     # print success message
     print("CDCWeekly Data updated successfully!")

@@ -7,6 +7,7 @@ import os
 import pandas as pd
 from requests.exceptions import ConnectionError
 from datetime import datetime
+import pdb
 
 # define a function to extract date from text
 def extract_date(text):
@@ -261,8 +262,10 @@ def chatgpt_description(api_base, api_key, analysis_YearMonth, table_data_str, m
             print('Generate Description Fail')
             print(response)
             try:
+                print('---------------------------------')
                 print(model)
                 print(response.json())
+                print('---------------------------------')
             except:
                 pass
             out_content = None
@@ -273,7 +276,7 @@ def chatgpt_description(api_base, api_key, analysis_YearMonth, table_data_str, m
     return out_content
 
 # get chatgpt generated mail content about newest data
-def chatgpt_mail_raw(api_base, api_key, analysis_YearMonth, table_data_str, model, disease_name = ''):
+def chatgpt_mail_raw(api_base, api_key, analysis_YearMonth, table_data_str, model):
     url = f"{api_base}"
     headers = {
         'Content-Type': 'application/json',
@@ -300,15 +303,17 @@ def chatgpt_mail_raw(api_base, api_key, analysis_YearMonth, table_data_str, mode
         response = requests.post(url, headers=headers, json=data)
 
         if response.status_code == 200:
-            print('Generate Mail Success ' + disease_name)
+            print('Generate Mail Success ')
             out_content = response.json()['choices'][0]['message']['content']
             out_content = out_content.replace('Discussion:\n\n', '')
         else:
-            print('Generate Mail Fail ' + disease_name)
+            print('Generate Mail Fail ')
             print(response)
             try:
+                print('---------------------------------')
                 print(model)
                 print(response.json())
+                print('---------------------------------')
             except:
                 pass
             out_content = None
@@ -364,8 +369,10 @@ def chatgpt_description_time(api_base, api_key, analysis_YearMonth, table_data_s
             print('Generate Disease Description Fail ' + disease_name)
             print(response)
             try:
+                print('---------------------------------')
                 print(model)
                 print(response.json())
+                print('---------------------------------')
             except:
                 pass
             out_content = None
@@ -407,8 +414,10 @@ def chatgpt_information(api_base, api_key, model, disease_name = ''):
             print('Generate information Fail ' + disease_name)
             print(response)
             try:
+                print('---------------------------------')
                 print(model)
                 print(response.json())
+                print('---------------------------------')
             except:
                 pass
             out_content = None
@@ -446,8 +455,10 @@ def chatgpt_academic(api_base, api_key, model, content_raw = ''):
             print('Text Academic Fail')
             print(response)
             try:
+                print('---------------------------------')
                 print(model)
                 print(response.json())
+                print('---------------------------------')
             except:
                 pass
             out_content = None
