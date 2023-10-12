@@ -2,39 +2,24 @@ Dear [Recipient],
 
 I hope this email finds you well. China CDC Weekly has published the new data on the cases and deaths of notifiable infectious diseases in mainland China in 2023 July.
 
-Based on the provided data for the monthly cases and deaths of different diseases in mainland China for 2023 July, here are the noteworthy diseases and their key points:
+Based on the provided data for the monthly cases and deaths of different diseases in mainland China for July 2023, here are some noteworthy points:
 
-1. Acute hemorrhagic conjunctivitis:
-   - Cases increased significantly compared to June 2023, seeing a 169.31% rise.
-   - Cases were also higher compared to July 2022, with a 410.65% increase.
-   - No reported deaths for this disease in July 2023.
+1. Acute hemorrhagic conjunctivitis: The number of cases in July 2023 increased significantly compared to June 2023 and July 2022.
+2. Anthrax: There was an increase in the number of cases in July 2023 compared to June 2023, but a decrease compared to July 2022.
+3. Cholera: Despite the overall low number of cases, there was a slight increase in July 2023 compared to June 2023. However, the number decreased significantly compared to July 2022.
+4. Hand foot and mouth disease: The number of cases in July 2023 increased compared to both June 2023 and July 2022, indicating a potential outbreak.
+5. Hepatitis: The number of cases in July 2023 increased compared to June 2023 and July 2022, particularly for Hepatitis A, Hepatitis B, Hepatitis C, and Other Hepatitis.
+6. Influenza: There was a significant decrease in the number of cases in July 2023 compared to June 2023, with a very low number of cases compared to July 2022.
+7. Measles: Although the number of cases remained relatively low, there was an increase in July 2023 compared to both June 2023 and July 2022.
+8. Typhoid fever and paratyphoid fever: The number of cases slightly increased in July 2023 compared to June 2023, but decreased compared to July 2022.
+9. Acquired immune deficiency syndrome (AIDS): There was a decrease in the number of cases in July 2023 compared to June 2023, but an increase compared to July 2022. The number of deaths increased in July 2023 compared to June 2023 and July 2022.
 
-2. Anthrax:
-   - Cases increased by 64.52% compared to June 2023.
-   - However, there was a decrease in cases compared to July 2022, showing a 20.31% decline.
-   - One death was reported in July 2023.
-
-3. Brucellosis:
-   - Cases increased by 10.06% compared to June 2023.
-   - There was a slight decrease in cases compared to July 2022, with a 5.36% decline.
-   - One death was reported in July 2023.
-
-4. Cholera:
-   - Only four cases were reported, showing a 33.33% increase compared to June 2023.
-   - However, there was a significant decrease in cases compared to July 2022, with a 60% decline.
-   - No deaths were reported for this disease in July 2023.
-
-5. Dengue:
-   - Cases increased drastically in July 2023, showing a 2816.36% rise compared to June 2023.
-   - Cases were also higher compared to July 2022, with a staggering 53366.67% increase.
-   - No deaths were reported for Dengue in July 2023.
-
-It's important to note that these points only cover a few diseases from the provided dataset. If there are specific diseases you would like to prioritize or if you need analysis on additional diseases, please let me know.
+Please note that this analysis is based on the provided data for July 2023 and the comparisons with June 2023 and July 2022.
 
 The notion generated automatically, and assistant by ChatGPT. Please check the data and description carefully.
 
 Best regards,
  CNIDS
 
-2023-10-08
+2023-10-12
 
