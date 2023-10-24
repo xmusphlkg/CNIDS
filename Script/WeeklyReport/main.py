@@ -143,7 +143,7 @@ else:
 
     # modify the markdown file
     if test == 'False':
-        readme_path = "../Readme.md"
+        readme_path = "../../Readme.md"
         with open(readme_path, "r") as readme_file:
             readme_content = readme_file.read()
         update_log = f"#### {year_month}\n\nDate: {current_date}\n\nUpdated: {new_dates}"
