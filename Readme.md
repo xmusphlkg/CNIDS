@@ -112,6 +112,12 @@ http://localhost:3838
 
 ### China CDC Monthly Report
 
+#### 2023 August
+
+Date: 20231025
+
+Updated: ['2023 August']
+
 #### 2023 July
 
 Date: 20230929
