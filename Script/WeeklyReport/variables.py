@@ -75,7 +75,8 @@ diseaseCode2Name = {
     'Human infection with H7N9 virus': '人感染H7N9病毒',
     'COVID-19': '新冠肺炎',
     'Filariasis': '丝虫病',
-    'Total': '合计'
+    'Total': '合计',
+    'Monkey pox': '猴痘'
 }
 
 # email information
