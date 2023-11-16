@@ -70,8 +70,19 @@ def update_pages(diseases_order, diseases_order_cn, disease_index, df):
       plot_html_3 = fig.to_html(full_html=False, include_plotlyjs='cdn')
 
       ## read the analysis of the disease
-      body_main = open(f'../Report/history/latest/{disease}.md', "r").read().replace('\n\n', '<br>')
-      body_info = open(f'../Report/information/{disease}.md', "r").read().replace('\n\n', '<br>')
+      body_main = ""
+      body_info = ""
+      
+      main_file_path = f'../Report/history/latest/{disease}.md'
+      info_file_path = f'../Report/information/{disease}.md'
+      
+      if os.path.isfile(main_file_path):
+          with open(main_file_path, "r") as main_file:
+              body_main = main_file.read().replace('\n\n', '<br>')
+      
+      if os.path.isfile(info_file_path):
+          with open(info_file_path, "r") as info_file:
+              body_info = info_file.read().replace('\n\n', '<br>')
 
 
       template = Template(template_content)
