@@ -2,6 +2,7 @@ import pandas as pd
 import plotly.graph_objects as go
 from plotly.offline import plot
 from jinja2 import Template
+import os
 
 def update_pages(diseases_order, diseases_order_cn, disease_index, df):
   links = []
