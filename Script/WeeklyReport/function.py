@@ -11,7 +11,9 @@ import pdb
 
 # define a function to extract date from text
 def extract_date(text):
-    match = re.search(r"\b([A-Za-z]+)\s+(\d{4})\b", text)
+    text_without_tags = re.sub(r"<[^>]+>", "", text)
+    text_without_special_chars = re.sub(r"[^a-zA-Z0-9\s]", "", text_without_tags)
+    match = re.search(r"\b([A-Za-z]+)\s+(\d{4})\b", text_without_special_chars)
     if match:
           return(match.group(2) + " " + match.group(1))
     else:
@@ -48,7 +50,7 @@ def get_rss_results(url):
     # Extract results
     results = []
     for item in rss_results["rss"]["channel"]["item"]:
-        date = extract_date(re.sub(r"[^\w\s-]", "", item["title"]))
+        date = extract_date(item["title"])
         date_obj = datetime.strptime(date, "%Y %B")
         formatted_date = date_obj.strftime("%Y/%m/%d")
         results.append({
