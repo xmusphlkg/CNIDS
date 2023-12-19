@@ -25,3 +25,22 @@ The impact of the H7N9 virus varies across regions and populations. Mainland Chi
 Outside of China, imported cases have been reported, but human-to-human transmission has been limited, resulting in a lesser impact on other regions. Timely detection, surveillance, and public health interventions have contributed to preventing widespread outbreaks in these areas.
 
 In summary, the H7N9 virus primarily affects individuals with close contact with infected poultry, and human-to-human transmission is limited. The virus has had a significant impact on China, particularly with high fatality rates among older adults and those with underlying medical conditions. Public health efforts and increased awareness of preventive measures remain crucial in controlling the spread of H7N9 infection and mitigating its impact.
+## Introduction
+
+Human infection with H7N9 virus refers to a type of avian influenza infection that humans can contract from exposure to infected poultry or contaminated environments. The virus emerged in China in 2013, causing severe respiratory illnesses in humans, frequently progressing to pneumonia or acute respiratory distress syndrome. Human-to-human transmission is rare, but when it occurs, it raises public health concerns due to historical pandemic outcomes. No vaccines for general public use are currently available, making prevention efforts critical.
+
+
+## Highlights
+
+1. There has been a significant decline in the number of H7N9 virus cases since 2017 with zero cases reported since 2020.<br/>2. The fatality rate varied over the years, with the highest being in 2017, but has also dropped to zero since 2020.<br/>3. As of September 2023, no new cases or deaths have been reported, indicating successful control over the disease.<br/>4. Despite no current cases, maintaining surveillance is crucial considering the past volatility and potential resurgence.
+
+## Analysis
+
+### Cases Analysis
+
+The data shows that cases of Human infection with H7N9 virus in mainland China peaked in the early part of 2014, with a significant surge in late 2016 and early 2017. Following 2017, the data indicates a rapid decline in the number of cases, becoming virtually non-existent by 2019 onwards. The spike in January 2014, January and February 2017 suggest H7N9 has potential seasonality, as these are winter months and many viruses, including influenza strains, exhibit winter seasonality.
+
+
+### Deaths Analysis
+
+Deaths from the H7N9 virus follow a similar pattern with highest number of deaths in early 2014 and again in early 2017, concurrent with the peak cases. The case fatality rate (CFR), calculated as deaths/cases, however, seems to have been relatively high, meaning a significant proportion of those infected with the virus unfortunately died from it. Similar to cases, the number deaths dramatically reduced post-2018 and no deaths were reported after April 2019.

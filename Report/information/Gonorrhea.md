@@ -32,3 +32,19 @@ The impact of gonorrhea varies across different regions and populations. Sub-Sah
 Certain populations, such as adolescents, MSM, and sex workers, also experience higher infection rates. Disparities exist in terms of diagnosis, treatment, and the availability of prevention services in some regions, resulting in unequal impacts on different demographic groups.
 
 In conclusion, gonorrhea is a global public health concern with high prevalence rates, multiple transmission routes, and a significant impact on affected populations. It is crucial to understand the epidemiology, risk factors, and regional variations in order to design effective prevention and control strategies. Furthermore, addressing antibiotic resistance is essential to ensure adequate treatment options for this prevalent STI.
+## Introduction
+
+Gonorrhea is a sexually transmitted infection (STI) caused by the bacterium Neisseria gonorrhoeae. It's most commonly spread through unprotected sexual contact and can infect various areas of the body including the genitals, rectum, and throat. Symptoms include painful urination, abnormal discharge, and, in women, pelvic pain. However, some infected individuals may be asymptomatic. Left untreated, gonorrhea can lead to serious complications such as infertility in both sexes and an increased risk of getting HIV. It is typically treated with antibiotics.
+
+## Highlights
+
+1. A general increasing trend of Gonorrhea cases was observed in China from 2010 to 2023 despite minor fluctuations.<br/>2. The Gonorrhea cases peaked during the months of June to September each year consistently, reflecting a possible seasonal pattern.<br/>3. Although deaths were very rare, an increase was noticeable in the year 2020, possibly related to health system strain due to COVID-19.<br/>4. Fewer cases were reported in February 2020, indicative of measures taken during the early COVID-19 outbreak.<br/>5. In September 2023, the number of cases was 10,147, with zero deaths reported which is consistent with the seasonal peak and low mortality pattern.
+
+
+## Analysis
+
+### Cases Analysis
+The reported data shows a general upward trend in Gonorrhea cases from 2010 to 2023 in mainland China. The number of cases reported annually gradually increased, reaching peak numbers in 2016 and 2017. Despite fluctuations, there is a noticeable drop in 2020, likely due to effects of the COVID-19 pandemic. However, the case numbers have started to rebound since 2021. The numbers tend to be lowest in winter months, possibly due to reduced social interaction, and highest in summer, suggesting seasonal impact.
+
+### Deaths Analysis
+With respect to deaths, it is important to note Gonorrhea is not usually a direct cause of mortality; hence the numbers are minimal. There are occasional reported deaths, which could be possibly due to complications associated with the disease, but the overall death rate appears extremely low, reflecting effective treatment regimes. The highest single monthly death toll was seen in September 2012, but overall, the death rate remains negligible.

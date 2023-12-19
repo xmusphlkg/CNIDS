@@ -32,3 +32,20 @@ The prevalence of filariasis varies across regions. In areas with high transmiss
 4. Western Pacific: Pacific Islands, such as Papua New Guinea and the Solomon Islands, have a high prevalence of filariasis, primarily transmitted by Anopheles and Aedes mosquitoes.
 
 In conclusion, filariasis is a parasitic disease with a substantial impact on global health. Its transmission occurs through mosquito bites in tropical and subtropical regions. While significant progress has been made in controlling the disease through mass drug administration and mosquito control measures, efforts to further reduce its prevalence and impact on affected populations remain ongoing.
+## Introduction
+
+Filariasis is a tropical disease caused by parasitic worms (specifically, Wuchereria bancrofti, Brugia malayi, and Brugia timori) transmitted to humans through the bites of infected mosquitoes. Most common in Asian, Pacific Island, and African regions. In its most severe form, it causes significantly swollen limbs, known as Elephantiasis, and can disrupt the lymphatic system. Commonly, it enhances susceptibility to bacterial infection. It's also known as Lymphatic Filariasis. Treatment typically involves anti-parasitic drugs, though prevention via mosquito control is crucial.
+## Highlights
+
+1. Extremely low incidence: With only 3 documented cases in over 13 years, filariasis in mainland China displays an extremely low incidence rate.<br/>
+2. Zero mortality: Notably, no deaths were recorded for any of the few cases, indicating effective management of the disease when it does occur.<br/>
+3. Seasonal occurrence: All cases happened in August and November, suggesting a probable season-linked factor to be considered for future surveillance and prevention strategies.<br/>
+4. Recent report in 2021: The last recorded case was in August 2021, with no cases reported as of September 2023, which indicates ongoing successful control methods.
+
+## Analysis
+
+### Cases Analysis
+From 2010 to 2023, only 3 cases of Filariasis were reported in mainland China, indicating a very low incidence rate. There is no apparent seasonality to the reported cases, as isolated cases occurred in August 2011, November 2014, and August 2021. It is interesting to note that approximately a three-year interval can be observed between each case. With the sporadic occurrences of Filariasis, it suggests effective disease control and prevention measures might be implemented in the region. 
+
+### Deaths Analysis
+Remarkably, there were zero reported deaths from Filariasis from 2010 to 2023. This suggests that although cases do occur, the disease possibly does not progress to severe stages leading to fatalities, indicating effective medical intervention. This zero mortality rate is an encouraging sign, demonstrating the success of healthcare measures in disease management and patient survival in mainland China. The data signifies the non-fatal nature of Filariasis or high recovery rate in this specific geographical context.

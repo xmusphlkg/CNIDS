@@ -22,3 +22,19 @@ Impact on Different Regions and Populations:
 EHF outbreaks have had significant impacts on different regions and populations. In areas where healthcare infrastructure is weak, outbreaks can quickly overwhelm healthcare systems and lead to high mortality rates. These outbreaks also have wider socio-economic consequences, including disruption of trade, travel restrictions, and negative impacts on education and employment. EHF outbreaks also disproportionately affect marginalized populations, particularly those living in poverty or in areas with limited access to healthcare services. Women and children may also experience unique vulnerabilities during outbreaks, such as increased risks during pregnancy or challenges accessing healthcare.
 
 Overall, EHF is an important public health concern with the potential for severe outbreaks and high mortality rates. Continued efforts in surveillance, prevention, and outbreak response are essential to minimize the impact of EHF on affected populations and prevent future outbreaks.
+## Introduction
+
+Epidemic hemorrhagic fever, also known as viral hemorrhagic fever, is an infectious disease characterized by fever and hemorrhaging. It's caused by several families of viruses, including Ebola and Dengue, among others. The disease can progress to severe illness or death due to the body's vascular system damage and the body's ability to regulate itself can deteriorate. The transmission of these viruses to humans can occur through contact with infected hosts or vectors, typically rodents or arthropods. Prevention and control are crucial to limit the spread of such viruses.
+## Highlights
+
+1. The reported cases of Epidemic hemorrhagic fever in China have been showing a declining trend over years since 2010. Especially from 2022 onward, confirmed cases decreased significantly indicating improved prevention measures.<br/>
+2. The number of deaths each year reflects a similar trend with fewer deaths recorded in recent years. Specifically, in September 2023, only one death was reported.<br/>
+3. The data points towards an annual pattern of an increase in cases in the colder months (November - January) suggesting a seasonal trend associated with the disease.<br/>
+4. Despite the general decline, occasional spikes in cases such as those seen in November 2014, 2017, and 2021 suggest challenges in disease control.<br/>
+## Analysis
+
+### Cases Analysis
+The data on Epidemic Hemorrhagic Fever from 2010 to 2023 in mainland China reveals a cyclical pattern with cases generally peaking towards the end of the year, particularly in November and December. This trend appears more marked in the period from 2010 to 2021, with the highest number of reported cases in November 2012 (3000 cases). From the year 2022 onwards, the overall seasonal trend seems to weaken; however, the highest number of cases is still seen in the November of each year. The fluctuations in the number of cases could potentially be attributed to seasonal factors impacting the spread of the virus.
+
+### Deaths Analysis
+A similar cyclical pattern can be observed in death cases as well, with higher death numbers reported from November to December annually. Notably, there is an exceptional spike in September 2012 with 150 reported deaths, which sharply deviates from the consistent trend observed in the rest of the months and years. Generally, the fatality rate fluctuates and does not necessarily correspond to the number of cases. Nevertheless, despite seasonal variations, the number of deaths remains relatively low in comparison to the number of cases, suggesting a relatively low fatality rate for this disease.

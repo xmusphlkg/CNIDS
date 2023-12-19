@@ -306,7 +306,7 @@ def generate_report(analysis_YearMonth, table_data, df, diseases_order, api_base
                                              value_vars=['Cases', 'Deaths'],
                                              var_name='Type',
                                              value_name='Value')
-            disease_data['Value'] = disease_data['Value'].fillna(-10)
+            # disease_data['Value'] = disease_data['Value'].fillna(-10)
 
             ## heatmap
             plot_total = (

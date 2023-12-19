@@ -30,3 +30,18 @@ Prevalence Rates and Demographics:
 Schistosomiasis prevalence rates vary among different regions and populations. Sub-Saharan Africa experiences the highest burden, with countries like Nigeria, Tanzania, and Sudan reporting particularly high prevalence. In some endemic areas, prevalence rates can reach 70-80% among school-aged children. However, there are variations within countries, with higher rates often found in rural communities compared to urban areas. In other regions, such as Brazil and Egypt, localized foci of transmission exist, primarily affecting specific communities in rural areas.
 
 In conclusion, schistosomiasis is a chronic and widespread parasitic disease affecting millions of people worldwide, primarily in low-income settings. Lack of access to clean water, poor sanitation, and specific occupational activities are major risk factors. The disease has significant health and socioeconomic impacts, particularly in sub-Saharan Africa. Efforts to control and prevent schistosomiasis require a comprehensive approach, including health education, access to clean water, improved sanitation, mass drug administration, and snail control programs.
+## Introduction
+
+Schistosomiasis, also known as bilharzia, is a type of parasitic disease caused by specific species of flatworms, or schistosomes. These parasites infect freshwater snails, which release larval forms that can penetrate human skin during water contact activities. The infection often results in abdominal pain, diarrhea, and blood in the stool or urine. Chronic infection may cause serious damage to organs like the liver and bladder. Schistosomiasis is widespread in tropical and subtropical regions, notably in poor communities without access to safe drinking water and sanitation.
+
+## Highlights
+
+1. There is a long term decreasing trend in both confirmed Schistosomiasis cases and deaths in China from January 2010 to September 2023. Significant progress has been made towards disease control.<br/>2. Noticeable surge periods are seen typically from September to December with the peak taking place in November, such as November 2015 with the highest reported 10,481 cases and no deaths.<br/>3. In September 2023, only 3 cases were reported without any fatalities, which indicates substantial progress in disease management and prevention.<br/>4. Striking reduction in cases and deaths in 2020 and onwards might be partly due to the overshadowing global Covid-19 pandemic and should be analyzed cautiously.
+
+## Analysis
+
+### Cases Analysis
+The data suggests a decreasing trend in Schistosomiasis cases in mainland China, especially after 2015. The total number of cases peaked at 10,481 in November 2015 and has been decreasing since. In 2010, the number of cases began increasing in March, peaked during the middle of the year (June to August), and then started declining. This pattern carries on in the following years with seasonal variations. By 2023, the number of cases has decreased to single digits, with no month reporting more than seven cases.
+
+### Deaths Analysis
+The data shows an extremely low death toll related to Schistosomiasis, with years going by without a single death reported. This suggests that while the disease may be common, it is not typically deadly in China. The highest death toll was observed in June 2012 where three deaths were reported. After much of 2012, there were virtually no deaths, apart from a single death in 2020. The data overall suggests a high survival rate for those inflicted with Schistosomiasis in mainland China.

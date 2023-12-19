@@ -27,3 +27,23 @@ Prevalence Rates: The prevalence of measles varies globally. Regions such as Afr
 Affected Demographics: Measles can affect individuals of any age and demographic; however, outbreaks often occur in populations with lower vaccine coverage. These include communities with vaccine hesitancy, marginalized populations, and areas with weak healthcare infrastructure. Additionally, overcrowded settings such as refugee camps and schools can facilitate rapid measles transmission.
 
 In conclusion, measles is a highly contagious viral infection that remains a significant global public health concern. Although vaccination has dramatically reduced measles cases and deaths, outbreaks still occur, particularly in regions with limited access to immunization programs. Lack of vaccination, travel to endemic areas, and limited healthcare infrastructure are the primary risk factors for measles transmission. Efforts to increase vaccination coverage and strengthen healthcare systems are essential to further control and prevent the spread of measles.
+## Introduction
+
+Measles is a highly contagious viral disease caused by the Rubeola virus. It can lead to serious complications, particularly in children, including pneumonia, encephalitis, and even death. Initial symptoms present after a 10-12 day incubation period and include fever, cough, a runny nose, and a distinct rash spreading from the face and neck to the rest of the body. Its primary mode of transmission is through respiratory droplets from coughing or sneezing. Immunization through the MMR vaccine is a highly effective preventative measure.
+
+## Highlights
+
+1. Cases and fatalities show substantial decline: The data reveals a remarkable reduction in both the number of Measles cases and deaths in mainland China since 2010.<br/>
+2. General seasonality is observed: Higher incidence rates are noticeable every spring, particularly between March and May. However, 2023 peaks are less severe.<br/>
+3. Zero mortality since 2016: Remarkably, there have been no reported deaths from Measles since 2016.<br/>
+4. Stable numbers from 2020: The number of cases remained relatively consistent since 2020, with average monthly cases around 80-110.<br/>
+5. September 2023: In line with the general trend, September 2023 reported 78 cases with zero deaths.
+
+
+## Analysis
+
+### Cases Analysis
+The measles data from mainland China reveals interesting temporal trends. There is an observable surge of cases between the spring and summer of each year, typically from March to May, suggesting a seasonal influence on transmission. However, since 2015 there is a noticeable decline in the number of reported cases. In 2010, we recorded the highest case count with around 13318 cases in May. The reported cases had remarkably decreased by 2023, with a high of 109 reported cases in May. Analysing this trend suggests a significant victory of public health measures against measles and possibly an increase in population immunity.
+
+### Deaths Analysis
+The rates of reported deaths remain proportionally low compared to the case counts, indicating a significant survival rate among infected individuals. Interestingly, despite reductions in case counts over time, annual total deaths don't seem to show a clear decreasing pattern until after 2016. The largest number of deaths in one month was 12 in 2010, considerably low in relation to the high case numbers. This data further underscores the importance of early detection and proper medical attention for measles. However, even with lower mortality, the persistence of measles cases indicates ongoing transmission and the need for further infection control measures.

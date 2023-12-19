@@ -30,3 +30,21 @@ The discovery of Plague's causative agent, Yersinia pestis, is credited to Alexa
 Regions and populations with limited access to healthcare resources, poor sanitation, and high exposure to rodents or fleas are most susceptible to Plague outbreaks. Additionally, factors such as climate change, urbanization, and natural disasters can contribute to the spread and impact of Plague. Populations living in poverty and overcrowded conditions remain at greater risk worldwide.
 
 In conclusion, Plague continues to pose a threat to certain regions and populations, although its global prevalence has significantly decreased over time. Understanding the epidemiology of Plague, including its transmission routes, affected populations, and risk factors, is crucial for implementing effective prevention and control measures to mitigate its impact.
+## Introduction
+
+Plague is an infectious disease caused by the bacterium Yersinia pestis. This zoonotic disease primarily affects rodents like rats and is transmitted to humans through the bites of infected fleas. Plague presents in three forms - bubonic, septicemic, and pneumonic, each carrying varying severity and symptoms. Historically, plague caused widespread pandemics, including the Black Death in the 14th century. Despite antibiotic treatment, plague can be lethal if not treated promptly, hence emphasizing preventive measures.
+
+## Highlights
+
+1. There is a tendency of reported Plague cases and deaths to occur in sporadic, isolated instances, with majority of the months reporting zero cases or deaths.<br/>
+2. Years 2010, 2011, 2012, 2014, 2017, 2019, 2020, and 2022 witnessed both cases and deaths in the same month, suggestive of severe disease periods.<br/>
+3. September 2023 marked a quiet period, with no reported cases or deaths, following a bump in cases (and deaths) in August 2023, keep monitoring for potential resurgences.<br/>
+4. There is no clear seasonal pattern, however, some cases/deaths appear around mid-year (July), and late-year (September to November).
+
+## Analysis
+
+### Cases Analysis
+Over the reported period of 13 years, Plague cases in mainland China appear to be sporadic and infrequent, with most months reporting zero cases. Some notable spikes in cases are found in October 2011, October 2014, November 2019, and August 2023, with 2, 2, 4, and 4 cases reported respectively. The months that consistently show a slight increase in cases tend to be mid-year and towards the end of the year, indicating possible seasonality in the occurrence of plague cases. 
+
+### Deaths Analysis 
+In terms of fatalities, the data shows that the mortality rate is relatively high for reported cases. Out of the 23 reported cases of plague, there were 10 deaths, indicating a case fatality ratio of approximately 43%. This suggests that while the incidence of Plague is low, the disease severity is high. Notably, the two peak case months, November 2019, and August 2023, had zero and one death(s) respectively, which may suggest improved case management or reporting inaccuracies.

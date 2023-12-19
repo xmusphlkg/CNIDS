@@ -30,3 +30,21 @@ The impact of influenza varies across different regions and populations due to f
 Certain demographics, such as the elderly, young children, and individuals with pre-existing conditions, are more susceptible to severe complications and death. Influenza can also have a significant impact on indigenous populations, refugees, and those living in impoverished or unsanitary conditions.
 
 To conclude, influenza is a respiratory illness of global importance, affecting millions of individuals each year. It is primarily transmitted through respiratory droplets and can have severe consequences, especially for high-risk populations. The historical context reveals periodic pandemics, leading to increased awareness and research. Risk factors for transmission include close contact, crowded environments, and a lack of preventive measures. The impact of influenza varies across regions, with developing countries and vulnerable demographics experiencing a higher burden. Effective surveillance, vaccination, and public health measures are vital for controlling the spread of influenza.
+## Introduction
+
+Influenza, commonly known as the flu, is a highly contagious respiratory illness caused by influenza viruses. It can cause mild to severe illness, and at times can lead to death. Symptoms include sudden onset of fever, cough, headache, muscle and joint pain, severe malaise, sore throat, and runny nose. It is transmitted easily from person to person via droplets and small particles produced when infected people cough or sneeze. Seasonal influenza outbreaks occur annually and any demographic group can be affected, though certain groups, like the elderly, are more susceptible to severe disease.
+
+## Highlights
+
+1. Influenza cases in mainland China spiked unusually high in March 2023 reaching over 3.7 million cases, representing a massive surge compared to previous years.<br/> 
+2. Despite the high case load in March 2023, mortality remained relatively low (38 deaths), suggesting a low case-fatality ratio.<br/>
+3. By September 2023, cases declined significantly to 168,963 with no reported deaths, indicating effective control measures or population immunity.<br/>
+4. Noticeable trend shows instances of Influenza are seasonally fluctuating with peaks usually around January followed by gradual decline.
+
+## Analysis
+
+### Cases Analysis 
+From this data, there's a clear trend of a steady increase in the number of influenza cases from 2010 to 2023 in mainland, China. The highest peak is seen in March 2023, with a noticeable factor of seasonality present throughout the data. For instance, influenza cases tend to rise intensely during the cooler months (winter), often peaking around December and January, while they relatively recede during the warmer seasons. However, unexpected surges such as in March 2023 and June 2022 indicate variability of unknown cause and may prompt further investigations into social, environmental, or strain-related factors.
+
+### Deaths Analysis
+The death rates remain low throughout 2010-2023, despite the gradual rise of cases over time. However, the highest numbers of deaths are primarily recorded during the winter months, aligning with peak case instances. It seems that in years with significant increases in cases, the number of deaths doesn't correspondingly rise, suggesting effective treatments or responsive healthcare interventions. However, with considerable variation across time, no solid trend of decrease or increase in death counts is visible. Arguably, this irregularity might indicate unpredictable factors influencing mortality rates, warranting continued vigilance.

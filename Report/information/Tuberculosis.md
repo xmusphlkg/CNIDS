@@ -17,3 +17,22 @@ In terms of demographics, men are more susceptible to developing active TB than 
 Prevalence rates of TB also vary greatly within countries. Factors such as poverty, urbanization, limited access to healthcare, and substandard living conditions contribute to higher rates of TB in certain areas. Additionally, drug-resistant TB strains have emerged, presenting challenges to effective treatment and control efforts.
 
 In conclusion, TB remains a significant global health issue that has devastating consequences for individuals, communities, and economies. It spreads through airborne droplets and primarily affects low- and middle-income countries. Major risk factors include close contact with infected individuals, immunosuppression, and inadequate living conditions. The burden of TB is higher in specific regions and populations, with variations in prevalence rates and affected demographics. Combating TB necessitates a comprehensive approach involving early detection, treatment with appropriate antibiotics, infection control measures, and addressing social determinants of health.
+## Introduction
+
+Tuberculosis (TB) is a contagious infection mainly caused by Mycobacterium tuberculosis bacteria. It primarily affects the lungs but can infect other organs. Symptoms include persistent coughing, fatigue, fever, night sweats, and weight loss. It spreads through the air when an infected person coughs, sneezes, or talks. Although tuberculosis is commonly thought of as a disease of the past, it still causes a significant health burden, especially in low-income countries. Effective treatment regimens, including long-term use of antibiotics, exist, but drug-resistant strains pose a considerable challenge.
+
+## Highlights
+
+1. The trend shows a significant decrease in reported tuberculosis (TB) cases in mainland China from 2010 to 2023. However, the number of deaths has been increasing, especially between 2022 and 2023.<br/>
+2. The month of September typically shows a decrease in the number of TB cases, following a peak number around March-April. However, in September 2023, deaths remain high at 324, necessitating enhanced interventions and strategies to combat TB.<br/>
+3. Despite the drop in cases, the fatality rate of TB appears to raise in recent years, indicating more virulent strains or complications from co-infections or comorbidities.<br/>
+4. Immediate action is required to understand the escalated mortality rate despite fewer reported cases.
+
+
+## Analysis
+
+### Cases Analysis
+Over the 13-year period, there was a marked decrease in the number of Tuberculosis cases from 105877 in January 2010 to 61859 in September 2023, signaling progress in combating Tuberculosis in China. However, a consistent pattern of higher cases seen in the early months of each year suggests a seasonal trend. For instance, March has typically been the peak month, possibly due to climate conditions and people's living habits.
+
+### Deaths Analysis
+Despite the progress in reducing cases overall, the number of deaths due to Tuberculosis has fluctuated, but overall increased, rising from 141 in January 2010 to 324 in September 2023. There is a conspicuous upward trend of deaths starting from 2018 with high peak in February 2022. This could reflect an increasing severity of the disease, issues with treatment and care, or lagged effects of earlier exposure.

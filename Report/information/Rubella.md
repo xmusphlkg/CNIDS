@@ -31,3 +31,22 @@ However, in low-income countries with limited access to vaccines, rubella incide
 Additionally, vulnerable populations such as migrant communities and marginalized groups face an increased risk of rubella due to limited access to healthcare and immunization services. Therefore, efforts to improve vaccine equity and reach underserved populations are crucial in controlling the spread of rubella and preventing CRS.
 
 In conclusion, understanding the epidemiology of rubella highlights the importance of vaccination in preventing its transmission and reducing the burden of congenital rubella syndrome. While progress has been made in controlling rubella in many regions, ongoing efforts are necessary to ensure high vaccination coverage, particularly among pregnant women and vulnerable populations.
+## Introduction
+
+Rubella, also known as German measles, is a contagious disease caused by the Rubella virus. It is typically mild in children but can have serious consequences in expecting mothers, potentially causing congenital rubella syndrome leading to significant fetal defects. The disease is characterized by symptoms like fever, sore throat, rash, and swollen lymph nodes. It spreads through the air or close contact and is preventable by widespread vaccination. Globally, immunization campaigns have dramatically reduced the incidence of rubella.
+
+## Highlights
+
+1. Overall decreasing trend of Rubella cases in China from 2010 to 2023, marking successful disease control efforts. 
+2. No significant rise in cases in September over years, including September 2023, indicating stable seasonality.
+3. Remarkably low number of fatalities, suggesting effective management and treatment strategies.
+4. A noticeable peak occurs in spring (April-May) over the years suggesting season could influence the disease occurrence.
+5. Dramatic drop in cases noted from 2020, likely due to pandemic-related restrictions and improved hygiene practices.
+
+## Analysis
+
+### Cases Analysis
+The reported cases of Rubella in mainland China show cyclical patterns, with prominent peaks typically observed between March and June every year from 2010 to 2019. A marked decrease in cases is seen subsequently from 2020 onwards, with fewer peaks of lower intensity. The all-time high recorded in May 2011 (~18,445 cases) has not been surpassed since. The gradual reduction since 2011 followed by a notable decline post-2019 may suggest effective intervention strategies (like vaccination campaigns) or lesser reporting due to other significant health events.
+
+### Deaths Analysis
+The number of deaths due to Rubella is considerably low, with only seven reported deaths over the entire 13-year period. An interesting aspect is the sporadic nature of these deaths, with no clear trend across the years. This low mortality rate is in line with rubella's typical disease progression, as it is usually a mild condition but can have severe implications for pregnant women. Possible implications for public health response include both sustained vaccination efforts and focused education on the prevention of congenital rubella syndrome.

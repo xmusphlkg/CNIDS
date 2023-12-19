@@ -27,3 +27,17 @@ Prevalence Rates and Affected Demographics:
 Brucellosis prevalence rates differ among populations and regions. For example, in the Mediterranean basin and Middle Eastern countries, B. melitensis is the most common species causing human infection, primarily transmitted through sheep and goats. On the other hand, B. abortus is more prevalent in regions where cattle farming is prominent, like parts of South and Central America.
 
 In conclusion, Brucellosis is a significant global health concern, primarily affecting individuals with occupational exposure to animals or consumption of contaminated animal products. Its impact varies across regions, with higher prevalence rates found in areas with intensive livestock farming. Effective control strategies, including improved animal health management, vaccination programs, and education regarding food safety and hygienic practices, are crucial to reducing the burden of Brucellosis worldwide.
+## Introduction
+
+Brucellosis, also known as Malta fever, is a highly contagious zoonotic infection caused by the bacteria of the genus Brucella. It primarily affects animals including cattle, goats, and pigs, with humans contracting the disease via unpasteurized dairy products or by close contact with infected animals. Symptoms range from fever, fatigue, muscle pain, to more serious complications like inflammation of the heart or nervous system. Although it can be severe or even fatal, brucellosis is typically treatable using a course of antibiotics.
+
+## Highlights
+
+1. The data reveals a clear yearly cyclic pattern in Brucellosis cases, peaking in summer and declining towards winter.<br/>2. Fatalities remain exceptionally low despite fluctuations in case numbers, indicating effective disease management.<br/>3. Brucellosis cases are on a subtle rise through the years since 2010, signaling a need for enhanced preventive measures.<br/>4. Notably, in September 2023, 5987 cases and 2 fatalities were reported, reflecting a downward trend after the peak in July 2023 and emphasizing the aforementioned yearly pattern.<br/>
+## Analysis
+
+### Cases Analysis
+An analysis of the brucellosis cases shows a generally increasing trend from 2010 to 2023, with marked peaks mostly during summer – May to August (possibly due to higher bacterial activity in warmer months). A notable dip in cases is seen in 2020 February, possibly due to COVID-19 impacts. However, cases seem to spike again commencing from 2021. Interestingly, the highest number of cases was reported in June 2022, about 9943, indicating an escalating infection rate in the recent past.
+
+### Deaths Analysis
+Despite the rising cases, deaths remain sporadic and relatively infrequent for Brucellosis, reinforcing the fact that it's typically not a fatal disease. The highest number of deaths in a month, 2, is reported three times: July 2018, July 2021, and September 2023. Year 2023 depicts an increased death rate compared to previous years, which might indicate an increasing severity of infection or possible reporting biases. However, overall mortality remains low despite the rising case count.

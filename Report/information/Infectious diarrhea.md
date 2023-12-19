@@ -39,3 +39,23 @@ In high-income countries with better access to clean water and sanitation facili
 Furthermore, variations in prevalence rates and affected demographics can be influenced by factors such as climate, cultural practices, healthcare infrastructure, and public health interventions in different regions.
 
 In conclusion, infectious diarrhea is a significant global health concern, impacting morbidity, mortality, and quality of life. Its prevalence is highest in low- and middle-income countries, where poor sanitation, contaminated food, and limited healthcare resources contribute to its burden. Understanding the epidemiology of infectious diarrhea, including transmission routes, affected populations, risk factors, and regional variations, is crucial for developing effective prevention and control strategies, thereby reducing the global burden of this preventable and treatable condition.
+## Introduction
+
+Infectious diarrhea is a health condition caused by various pathogens including bacteria, viruses or parasites. It typically manifests through symptoms of stomach cramps, frequent bowel movements, and loose, watery stools. These pathogens can be transmitted through contaminated food, water, or close contact with an infected individual. While generally self-limiting, infectious diarrhea can become severe especially in children, the elderly, or immunocompromised individuals, where it can result in dehydration or nutritional issues. Proper hygiene practices are key in preventing its spread.
+
+
+## Highlights
+
+1. An increasing trend in Infectious diarrhea cases is observed over the years, particularly in July and August. In 2023, cases peak in August with 125,319 reported diagnoses.<br/>
+2. The number of reported death cases remains relatively low, demonstrating effective disease management.<br/>
+3. By September 2023, the case counts decrease to 102,559 and no deaths were reported, a positive outcome for potential prevention measures.<br/>
+4. Notably, case counts show significant variations during winter months, suggesting a possible seasonal aspect to the disease's prevalence.
+
+## Analysis
+
+### Cases Analysis
+Analyzing the data, it is observed that there is an evident seasonality to the Infectious diarrhea over the years in mainland China. The number of reported cases has a trend of peaking during the mid-year months, particularly June, July, August, around Summer season. Cases tend to dip during Spring and again rise in Autumn till December. Since 2010, there seems to be a general upward trend with some dips. The cases reach over 100k in the recent years (2017 onwards), especially peaking in 2021 January with above 170k cases. After 2021, however, there is a notable decrease in the number of reported cases.
+
+### Deaths Analysis
+Throughout the years, the number of deaths due to infectious diarrhea has remained relatively low in spite of the fluctuations in the number of cases. The mortality rate is consistently minimal despite rising cases, pointing to effective treatment and disease management. Some years like 2021, 2022, and 2023 have recorded months with zero deaths, indicative of improved medical interventions and possibly more awareness about the disease. Yet it's important to continue preventive measures and effective treatment to keep the mortality rate low.
+

@@ -29,3 +29,18 @@ Meningococcal meningitis affects regions and populations differently in terms of
 In recent years, increased access to meningococcal vaccines has contributed to a reduction in the burden of meningococcal meningitis, particularly in high-income countries. Vaccination campaigns, improved surveillance systems, and rapid response to outbreaks have proven effective in controlling the disease.
 
 In conclusion, meningococcal meningitis is a significant health problem, particularly in sub-Saharan Africa. Understanding its epidemiology, including prevalence rates, transmission routes, affected populations, and risk factors, helps guide prevention and control strategies. Continued efforts to increase vaccination coverage, improve surveillance, and respond to outbreaks are essential for reducing the global burden of this disease.
+## Introduction
+
+Meningococcal meningitis is a serious bacterial infection and a major global health challenge that primarily affects the brain's membrane. It is caused by the bacterium Neisseria meningitidis, a fast-moving organism that can cause severe illness or death within hours of symptom onset. The disease is associated with high fatality rates and can result in serious long-term complications, including brain damage, hearing loss, and learning disabilities. Though it can affect anyone, it is most common in infants, adolescents, and young adults. Vaccination is the most effective preventative measure.
+
+## Highlights
+
+1. Notably, the Meningococcal meningitis cases and deaths have markedly declined over the years in Mainland China, indicating a successful public health intervention.<br/>2. Cases tend to peak in early spring (March-April) and dwindle during summer (June-August). This suggests a possible seasonal trend associated with the disease's transmission.<br/>3. In September 2023, there were 5 reported cases and no deaths, indicating a substantial control over the disease compared to the earlier years.<br/>4. While there is significant progress, continuous monitoring and preventive measures are required given the potential severity of Meningococcal meningitis.
+
+## Analysis
+
+### Cases Analysis
+From the data, it's apparent that the number of Meningococcal meningitis cases observed in mainland China has been on a general downwards trend from 2010 to 2023. There was a pronounced peak in 2010 with the number of Meningococcal meningitis cases per month reaching the high 60s, gradually falling over time. The years 2010-2012 saw a particularly high caseload, with numbers steadily dropping from 2013 onwards, which suggests effective measures might have been implemented to curb the disease. However, sporadic increases were observed even in the later years, particularly during spring and early summer months, demonstrating the importance of vigilant monitoring and preventative measures.
+
+### Deaths Analysis
+As for the deaths caused by Meningococcal meningitis, the data shows relatively lower numbers throughout the discussed period. The death count also shows a general declining trend, paralleling the decrease in reported cases. Notably, there are months in the later years from around 2020 where no deaths were registered, which points to potential achievements in early detection or improvements in treatment modalities. However, occasional rises in death counts - such as in March in various years - should not be overlooked, highlighting the necessity for continuous improvement in healthcare responses to the disease.

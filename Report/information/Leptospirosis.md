@@ -31,3 +31,21 @@ The prevalence of Leptospirosis varies across regions due to environmental, soci
 Certain populations, such as indigenous communities and urban slum dwellers, are at a higher risk due to inadequate access to clean water, sanitation, and healthcare facilities. Travelers to endemic regions are also at risk, particularly if engaged in outdoor activities that involve exposure to contaminated environments.
 
 In conclusion, Leptospirosis is a globally distributed zoonotic disease with varying prevalence rates and affected demographics. Direct or indirect exposure to contaminated animal urine or tissues, as well as engagement in occupational or recreational activities involving contact with infected animals or contaminated environments, and poor sanitation, are significant risk factors for transmission. Understanding the epidemiology of Leptospirosis is crucial for developing effective prevention strategies and improving public health outcomes.
+## Introduction
+
+Leptospirosis is a bacterial disease caused by the Leptospira bacteria, typically spread to humans through the urine of infected animals. Common carriers include rodents, cattle, pigs, and dogs, although a wide range of animals can carry the disease. It's most common in tropical climates but can occur anywhere. Humans often contract Leptospirosis through contact with contaminated water, soil, or food. Symptoms include fever, headache, chills, muscle aches, vomiting, and jaundice. Severe cases can lead to kidney damage, liver failure, or meningitis. Treatment typically involves antibiotics.
+
+## Highlights
+
+1. There is a clear seasonality, with cases increasing significantly from June to October each year (peak leptospirosis transmission period).<br/>
+2. The number of cases for September 2023 (71 cases) is higher compared to the previous year (43 cases).<br/>
+3. Deaths fluctuate and are not increasing over the years. September 2023 reported no deaths, indicating improved mortality management.<br/>
+4. Despite some year to year fluctuations, there's an overall decreasing trend in cases since 2010 which suggests improved prevention, or intervention measures.<br/>
+
+## Analysis
+
+### Cases Analysis
+Within the given period (2010-2023), Leptospirosis cases in mainland China show cyclic annual fluctuation with spikes in cases typically observed from August to October. This aligns with post-monsoon periods where conditions favor Leptospirosis transmission. Cases are generally lowest during the colder months (December - February). A noticeable dip in cases was seen in 2020, possibly due to COVID-19 restrictions reducing human exposure to Leptospirosis. 
+
+### Deaths Analysis
+Reported deaths from Leptospirosis are relatively low compared to cases, indicating a decent survival rate. Like cases, reported deaths also exhibit a seasonal pattern, peaking mostly in late summer and early fall (August - October). However, the pattern is less predictable than cases, suggesting that various factors beyond infection rate influence fatality outcomes, such as healthcare access or comorbidities. The highest death toll within a month (7) was seen twice in September and October 2010.

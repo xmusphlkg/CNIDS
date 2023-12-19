@@ -1,17 +1,17 @@
-Hand, foot, and mouth disease (HFMD) is a highly contagious viral illness that primarily affects infants and young children. It is caused by several different types of enteroviruses, most commonly, Enterovirus 71 (EV71) and Coxsackievirus A16 (CA16). This condition is characterized by fever, sore throat, and blister-like lesions on the hands, feet, and mouth.
 
-HFMD was first recognized in New Zealand in 1957. However, it likely existed prior to that but was not formally identified. Initially, it was believed to be solely caused by Coxsackievirus A16. However, with the development of advanced laboratory techniques and improved diagnostic methods, other enteroviruses like EV71 were also identified as causative agents of HFMD.
+## Introduction
 
-HFMD is prevalent globally and is endemic in many parts of the world. However, it is more commonly reported in the Asia-Pacific region, including countries such as China, Japan, Singapore, Malaysia, and Taiwan. Outbreaks are more prevalent during the warmer months and tend to occur in cyclical patterns every few years. While the disease is also found in other regions, such as Europe, North America, and Africa, its incidence is lower.
+Hand, foot and mouth disease (HFMD) is a highly contagious viral infection primarily affecting children under five years old. It's typically caused by Coxsackievirus A16. The disease is characterized by sores in the mouth and rashes on the hands and feet. It spreads through direct contact with unwashed hands or surfaces contaminated with feces. Symptoms include fever, sore throat, feeling unwell, irritability, loss of appetite, and painful sores. The disease is usually mild, with most patients recovering within a week without medical treatment.
+## Highlights
 
-Transmission of HFMD usually occurs through direct contact with nose and throat discharges, saliva, fluid from blisters, and feces of infected individuals. The virus can also spread through respiratory droplets, such as through coughing or sneezing. It can survive on surfaces outside the body for several hours, increasing the risk of transmission via contaminated objects or surfaces.
+1. The data highlights seasonality with higher cases of Hand, Foot, and Mouth Disease in China typically during April - July, with drastic decreases during rest of the year.<br/>
+2. Despite an overall decline in HFMD cases since 2010, a surge is noticeable in June 2023, the highest in the past eight years.<br/>
+3. Remarkably, a considerable drop in death rates is observed over the years, with no fatalities reported from May 2023.<br/>
+4. The disease prevalence in September remains moderate. Comparatively, September 2023 saw lower cases than recent years, which could indicate improved control measures.<br/>
+## Analysis
 
-Although HFMD affects people of all ages, children under the age of five are most susceptible due to their developing immune systems and lack of previous exposure. In densely populated areas such as daycares, schools, and boarding facilities, there is an increased risk of transmission. Additionally, the virus can be transmitted from mother to baby during childbirth.
+### Cases Analysis
+Hand foot and mouth disease cases in mainland China show a seasonal trend, with cases peaking from April to July each year from 2010 to 2023. The highest reported cases are in 2014 with 528,777 cases in May. Overall, there is a significant reduction observed in the number of cases after 2019. In the year 2020, we see a drastic decline in the number of cases, possibly due to intensive hygiene practices and social distance regulations induced by the COVID-19 pandemic.
 
-The major risk factors associated with HFMD transmission include poor personal hygiene practices, close contact with infected individuals, and crowded living conditions. Lack of proper handwashing, sharing of contaminated objects, and failure to cover the mouth and nose when coughing or sneezing contribute to the spread of the virus.
-
-The impact of HFMD varies across different regions and populations. In the Asia-Pacific region, particularly in countries like China and Taiwan, large-scale outbreaks occur periodically, affecting thousands of children. The disease can lead to severe complications in some cases, including viral meningitis, encephalitis, myocarditis, and acute flaccid paralysis.
-
-Prevalence rates and affected demographics can differ within regions and even within countries. For example, in China, HFMD cases are more prevalent in rural areas compared to urban regions. This disparity may be due to differences in healthcare access, sanitation, and population density. Certain demographics, such as young children in crowded environments, are at a higher risk of infection and severe complications.
-
-In conclusion, HFMD is a globally prevalent viral illness primarily affecting children. The disease is transmitted through direct contact with infected fluids and feces, as well as respiratory droplets. Risk factors include poor personal hygiene, crowded living conditions, and close contact with infected individuals. HFMD has a significant impact on different regions and populations, with variations in prevalence rates and affected demographics. Efforts to prevent and control the disease focus on maintaining good hygiene practices, early detection, and appropriate medical care.
+### Deaths Analysis
+The number of deaths is relatively low compared to the number of cases, which indicates that the disease may not be highly lethal. Deaths tend to peak slightly later than cases, usually around April to June. Deaths are highest in 2010, reaching 186 in May. The number of deaths has shown a steady decrease over the years, reaching zero multiple times from 2017 onwards. This could be attributed to improved case management, community engagement, and awareness activities.

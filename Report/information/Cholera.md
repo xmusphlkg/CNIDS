@@ -17,3 +17,23 @@ The prevalence rates of cholera can vary across regions and populations. In high
 Demographically, cholera affects all age groups, but children under five years old are particularly vulnerable. This vulnerability is partly due to their weaker immune systems and increased susceptibility to complications related to dehydration. During outbreaks, cholera disproportionately affects marginalized and vulnerable populations, including those living in poverty and in areas with limited access to healthcare.
 
 In conclusion, cholera remains a significant public health concern globally, with periodic outbreaks and endemicity in specific regions. Poor sanitation, inadequate access to clean water, and limited healthcare infrastructure are major risk factors associated with cholera transmission. The impact of cholera varies across different regions and populations, with higher prevalence rates and severe outcomes observed in areas with limited resources and infrastructure to control the disease. Efforts to improve sanitation, access to clean water, and promote hygiene practices are crucial for preventing and controlling cholera.
+## Introduction
+
+Cholera is an acute diarrheal disease caused by Vibrio cholerae bacteria, primarily transmitted via contaminated water and food. It presents with severe vomiting, rapid loss of body fluids leading to dehydration and shock. Prompt treatment with rehydration therapy can effectively manage cholera, though lack of immediate care can result in death. Prevention revolves around improved sanitation, safe water, and vaccines. The disease remains a global threat in areas with inadequate water and sanitation systems.
+
+## Highlights
+
+1. The cyclical pattern of increased Cholera cases during summer months (June-August) and a decrease in the colder season is sustained.<br/> 
+2. Despite occasional spikes, the general trend over the past decade has shown a consistent decline in cases, with no significant increase in recent years.<br/>
+3. September 2023 experienced a modest increase, marking it as the month with the highest number of cases of the year, although still in line with annual patterns.<br/>
+4. Notably, despite several cases through the years, the fatality rate has remained relatively low, indicating effective disease management.
+
+## Analysis
+
+### Cases Analysis
+
+The reported Cholera cases from 2010 to 2023 in mainland China depict sporadic occurrence with certain seasonal pattern, as the number of reported cases tends to increase from May, peaking around August and then decreasing towards the December each year. The year 2010 records a significant peak for the decade with 63 cases in August and has been decreasing since, with minor surges observed in the subsequent years. However, the years 2011 to 2021 generally indicate a successful containment of Cholera, as case numbers remain low compared to 2010.
+
+### Deaths Analysis
+
+The data for deaths from 2010 to 2023 shows exceptionally effective management of Cholera in China as very few deaths occurred during the period. Out of 13 years data, only two deaths were reported in July and September 2013, respectively. This indicates that Cholera, despite its sporadic occurrence, was generally well-managed and didn't result in substantial fatalities in mainland China from 2010 to 2023. Receiving timely intervention and prevention can help control death rates in bacterial infections like Cholera.

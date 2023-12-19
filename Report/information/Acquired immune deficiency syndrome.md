@@ -34,3 +34,20 @@ The impact of AIDS varies across different regions and populations. Sub-Saharan 
 Other regions heavily impacted by HIV/AIDS include Asia, Latin America, Eastern Europe, and the Caribbean. In some countries, marginalized populations such as sex workers, men who have sex with men, transgender individuals, and people who inject drugs face a higher risk of infection due to societal stigma, discrimination, and limited access to healthcare services.
 
 Significant progress has been made in recent years in reducing the global prevalence of HIV/AIDS. Increased access to antiretroviral therapy, expanded prevention efforts including condom distribution and harm reduction programs, and advancements in maternal and child health have all contributed to lowering infection rates. However, continued efforts in prevention, treatment, and reducing societal barriers are crucial to further combat the AIDS epidemic.
+## Introduction
+
+Acquired Immune Deficiency Syndrome (AIDS) is a chronic, life-threatening disease caused by the Human Immunodeficiency Virus (HIV). It breaks down the immune system over time, reducing the body's ability to fight off infections and diseases. Contracted primarily through unprotected sex or needle sharing, HIV can also be transmitted from mother to child during childbirth or breastfeeding. There's no cure for AIDS, but proper medical care can control the virus and prevent progression to severe stages. The populations disproportionately affected are marginalized groups, including sex workers, intravenous drug users, and men who have sex with men.
+
+## Highlights
+
+1. The number of Acquired immune deficiency syndrome cases reported in September 2023 was 5121, with 1693 deaths. These numbers indicate a relative stabilization in the immediate trend in the number of cases and deaths compared to previous months, yet still significantly high.<br/>
+2. The long-term trend also implies a severe persistent epidemic, as an increasing trend in cases and deaths was observed over the whole data period, and in recent years, a steeper increase suggests the HIV-AIDS epidemic is escalating.<br/>
+3. There are periodic peaks in November and December each year across the data history, hinting at potential seasonal patterns in case detection, reporting, or even transmission that health authorities should be aware of.
+
+## Analysis
+
+### Cases Analysis
+The data indicates a fluctuating trend in the cases of Acquired immune deficiency syndrome (AIDS) in mainland China from January 2010 to September 2023. Generally, the cases seem to be increasing over time, with few outliers— particularly in July 2010 where the cases significantly elevated to 5,930. An all-time high was observed in December 2021 with 7,490 cases.
+
+### Deaths Analysis
+Similar to the cases, the deaths from AIDS also fluctuate across this period, however, showing a general upward trend. The number of deaths tends to spike in the December of each year. The highest number of deaths was observed in December 2021 with 2,486 deaths. This indicates that the disease's fatality rate may be increasing over time, necessitating improved interventions and treatment methods.

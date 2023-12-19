@@ -20,3 +20,20 @@ Impact on Different Regions and Populations: Diphtheria remains a significant pu
 Certain populations face higher risk due to specific circumstances. For instance, among refugees or displaced populations, the risk of diphtheria outbreaks increases due to crowded and unsanitary living conditions. Additionally, localized outbreaks can occur in areas with pockets of unvaccinated or under-vaccinated populations, religious or philosophical objections to vaccination, and logistical challenges in reaching remote areas.
 
 In conclusion, although diphtheria is now relatively rare globally, it still poses a significant risk in regions and populations with limited vaccination coverage and healthcare infrastructure. Vaccination remains the most effective preventive measure, and maintaining high immunization coverage and strengthening healthcare systems are essential for eradicating the disease worldwide.
+## Introduction
+
+Diphtheria is a highly contagious and potentially deadly infection caused by Corynebacterium diphtheriae bacteria. It primarily affects the upper respiratory tract and is characterized by sore throat, fever, and swollen glands. A distinguishing feature is a thick, gray membrane that forms in the throat, hindering breathing and swallowing. It spreads through air droplets or direct contact with infected individuals or objects. Vaccination, the best form of prevention, is usually included in routine childhood immunizations. Despite its rarity in developed countries, diphtheria remains a significant threat globally, especially in areas with low immunization coverage.
+## Highlights
+
+1. Diphtheria inherently presents a low occurrence in mainland China, with sporadic cases appearing since 2011. Counted cases reached single digits annually.<br/>
+2. Despite low cases, occasional fatalities occurred in the absence of confirmed cases, signaling possible under-diagnoses or reporting gaps.<br/>
+3. Yearly trend exhibits a pattern suggesting possible increased susceptibility during June-August, potentially due to climate-associated factors.<br/>
+4. No Diphtheria Case reported in September 2023, maintaining its sporadic nature in the region. Consider national surveillance sensitivity.<br/>
+## Analysis
+
+### Cases Analysis
+The provided data shows an extremely low incidence of Diphtheria in mainland China from January 2010 to September 2023. Cases detected were singular and sporadic, specifically appearing in October 2011, October 2016, June 2018, August and September 2020, July 2021, July 2022, and June 2023. An interval of years with zero incidents followed by the recurrence of a single case indicates a sporadic occurrence of the disease. Considering the wide geographical and demographic reach of mainland China, these figures imply a largely successful control and prevention strategy.
+
+### Deaths Analysis
+Interestingly, despite very few reported cases over the span of 13 years, there were also a few deaths: in November 2010 and September 2012. Importantly, recorded deaths occurred even in the absence of reported cases, suggesting under-detection or under-reporting of the disease. Despite this, the death rate is significantly low over the observed period. This outcome is indicative of either a low disease virulence or an overall effective health response.
+

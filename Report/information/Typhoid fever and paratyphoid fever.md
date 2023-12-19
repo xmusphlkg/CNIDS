@@ -30,3 +30,20 @@ Impact on Different Regions and Populations:
 Typhoid fever and paratyphoid fever have a significant impact on regions with poor sanitation and limited access to clean water. In countries where these diseases are endemic, they contribute to a substantial burden of illness, resulting in morbidity, mortality, and economic costs. Outbreaks can have devastating effects, especially on vulnerable populations such as children, pregnant women, and malnourished individuals. The impact is often compounded by factors such as inadequate healthcare infrastructure and limited diagnostic and treatment capabilities.
 
 In conclusion, typhoid fever and paratyphoid fever are globally prevalent infectious diseases that have significant impacts on affected populations. Understanding their epidemiology, including global prevalence, transmission routes, affected populations, risk factors, and impact on different regions, is crucial for implementing effective prevention and control strategies. These strategies include improved sanitation, access to clean water, vaccination programs, and public health interventions.
+## Introduction
+
+Typhoid and paratyphoid fevers are systemic illnesses caused by Salmonella Typhi and Salmonella Paratyphi, respectively. Characterized by high fever, weakness, stomach pain, and in some cases, rash, they are commonly contracted via contaminated food or water. While typhoid is more severe, both diseases are endemic in regions with poor sanitation, and can spread rapidly without fundamental public health measures. Vaccination and antibiotics help manage these diseases, but emerging antibiotic resistance necessitates continuous monitoring and research.
+
+## Highlights
+
+1. There is a consistent seasonal trend, with a rise in cases from March to August followed by a fall that reaches lowest in February. This suggests environmental factors significantly influence disease transmission.<br/>
+2. The number of cases and deaths have generally decreased over the years, indicating successful interventions or progress in public health measures. The zero deaths in September 2023 suggest a particular triumph in managing severe cases.<br/>
+3. Despite the overall decline, spikes in cases still occur (eg. July 2013), implying persistent risk factors or occasional failures in preventive measures.
+
+## Analysis
+
+### Cases Analysis
+The data reveals a consistent seasonal pattern of typhoid and paratyphoid fever cases in mainland China, with most cases reported during the summer months—peaking usually in July or August—and fewer cases reported during the cooler months. The data also shows a gradual decrease in cases in recent years. For instance, July had 1799 cases in 2013, but this fell to 657 cases by 2023. The overall trend indicates that China has made substantial progress in controlling these diseases.
+
+### Deaths Analysis
+The number of reported deaths due to typhoid or paratyphoid fever is significantly lower than cases throughout the years, suggesting a low case fatality rate. Deaths are relatively infrequent and sporadic with no clear seasonal or yearly pattern. Notably, June 2017 reports a peak of 3 deaths, the highest in the given period. Although the number of cases is decreasing overall, the number of deaths does not strictly follow this trend indicating the continued need for effective treatment strategies.

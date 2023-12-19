@@ -29,3 +29,25 @@ The impact of syphilis varies across regions and populations. In certain areas, 
 While some regions have made notable progress in controlling syphilis by reducing transmission rates through effective prevention and treatment programs, other areas continue to face challenges due to inadequate healthcare infrastructure, limited resources, stigma, and low levels of awareness.
 
 In conclusion, syphilis remains a global health threat. Its prevalence, transmission routes, affected populations, and impact display considerable variability worldwide. Efforts to combat syphilis involve comprehensive sexual education, increased accessibility to healthcare, widespread testing, prompt treatment, and the promotion of safer sexual practices.
+## Introduction
+
+Syphilis is a sexually transmitted bacterial infection caused by Treponema pallidum. It progresses in stages and can last for years, affecting multiple organ systems. Initially presenting as sores, visible in the primary stage, it later manifests rashes and other symptoms in the secondary stage. If untreated, syphilis may advance to the latent and tertiary stages, resulting in severe complications, including neurological and cardiovascular complications. Transmission occurs primarily through sexual contact. Congenital syphilis is the infection of a newborn from an infected mother. It's preventable and treatable with the correct antibiotics.
+
+
+## Highlights
+
+1. There's an uptick in syphilis cases between April and August each year, peaking during summer; suggesting possible links with seasonal activities.<br/>
+2. Despite fluctuations in cases, the number of syphilis-related deaths remained relatively low, indicating effective treatment options. <br/>
+3. The year 2023 recorded a significant increase in cases, particularly high in August (61,068 cases), while the number of deaths has not escalated proportionately.<br/>
+4. The September 2023 data showed a slight drop in cases (55,767), but above average compared to previous September data trends. The death rate remains fairly standard.
+
+## Analysis
+
+### Cases Analysis
+
+The cases of syphilis in mainland China demonstrate a somewhat fluctuating pattern over this thirteen-year period. Overall, there is a slight trend of increasing numbers from 2010 to 2023. They show a seasonal pattern, where cases tend to peak during July and show a dip in February. The highest number of cases were registered in August 2023 with 61068 cases, and the lowest in February 2020 with 21448 cases, which might be attributed to the COVID-19 pandemic's precautions and health regulations.
+
+### Deaths Analysis
+
+The death toll for syphilis remained relatively low from 2010-2023, with deaths monthly often being in single-digit figures. No significant increase or trend can be seen throughout this timeframe. The highest number of deaths was recorded in January 2020 with 25 deaths relating to syphilis. It is notable that deaths typically do not align with peak case numbers, suggesting efficient syphilis treatments and health care responses. Reasonably consistent death numbers despite fluctuating case numbers may point towards robust health systems for syphilis treatment.
+

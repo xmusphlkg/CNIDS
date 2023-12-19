@@ -28,3 +28,22 @@ Impact on Different Regions and Populations:
 The impact of polio varies across regions, with the highest prevalence observed in countries where the virus is endemic. Regions with low socioeconomic development, limited access to healthcare, and political unrest face the greatest challenges in controlling the spread of polio. Disparities in vaccine coverage can also contribute to variations in prevalence rates and affected populations. Additionally, certain marginalized populations, such as refugees and internally displaced individuals, may face increased vulnerability due to limited access to healthcare and vaccination services.
 
 In conclusion, poliomyelitis has significantly declined in global prevalence due to comprehensive vaccination efforts. However, it is crucial to maintain continued surveillance, vaccination campaigns, and awareness programs to achieve the eradication of polio worldwide. The disease remains a concern in specific regions with inadequate health infrastructure and ongoing conflicts. Addressing risk factors, ensuring high vaccination coverage, and maintaining strong surveillance systems are essential in preventing the transmission of polio and protecting vulnerable populations.
+## Introduction
+
+Poliomyelitis, also known as polio, is an infectious disease caused by the poliovirus. It primarily affects children under 5 years of age and can lead to irreversible paralysis. The virus is typically spread through contaminated water or food and enters the body via the mouth. It proceeds to infect the nervous system, potentially leading to significant neurological complications. Despite its severity, polio is preventable through immunization, and global efforts have significantly reduced its prevalence.
+
+## Highlights
+
+1. There has been a persistent zero-cases trend of Poliomyelitis in mainland China from 2013 to 2023, indicating effective containment and prevention methods.<br/>
+2. An unusual surge in Poliomyelitis cases and one death was observed in August to October of 2011, emphasizing the importance of continual vigilance.<br/>
+3. Despite the case spike in 2011, following years saw no recurrence, tentatively suggesting successful intervention measures.<br/>
+4. September 2023 reports no cases or deaths, continuing the steady zero-case trend of the past decade.
+
+
+## Analysis
+
+### Cases Analysis
+Poliomyelitis cases in mainland China from 2010 to 2023 demonstrate an effective disease control strategy. The period witnessed one significant incident of polio outbreak during the second half of 2011, with 20 cases reported, peaking in October at 8 cases. Thereafter, the successful efforts in eradication are evidenced by consecutive zero cases from 2012 onwards. This speaks to the robust surveillance systems and effective immunization campaigns.
+
+### Deaths Analysis
+Over the nearly 14-year observation period, only a single polio-related death is reported in Sept 2011, during the brief outbreak. This suggests a satisfactory treatment and health care response, alongside effective preventive measures. The low mortality rate underpins the advances in healthcare facilities, prompt prognosis, and effective therapeutic interventions across China. Reports since 2012 indicate zero fatalities from Poliomyelitis, reiterating the successful disease management.

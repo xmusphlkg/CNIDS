@@ -20,8 +20,8 @@ def calculate_change_data(df, analysis_date):
     latest_data_3.columns = ['Diseases', 'DiseasesCN', 'CasesPY', 'DeathsPY']
     
     # change_data is join latest_data_1 and latest_data_2
-    change_data = pd.merge(latest_data_1, latest_data_2, on=['Diseases', 'DiseasesCN'])
-    change_data = pd.merge(change_data, latest_data_3, on=['Diseases', 'DiseasesCN'])
+    change_data = pd.merge(latest_data_1, latest_data_2, on=['Diseases', 'DiseasesCN'], how='left')
+    change_data = pd.merge(change_data, latest_data_3, on=['Diseases', 'DiseasesCN'], how='left')
 
     # ChangeCasesMonth, ChangeCasesYear, ChangeDeathsMonth, ChangeDeathsYear
     change_data['ChangeCasesMonth'] = change_data['Cases'] - change_data['CasesPM']
@@ -37,7 +37,9 @@ def calculate_change_data(df, analysis_date):
     
     return change_data
 
-def format_table_data(table_data, analysis_date):    
+def format_table_data(table_data, analysis_date):
+    # 复制数据
+    table_data = table_data.copy()
     # Cases, Deaths显示千分符号
     table_data['Cases'] = table_data['Cases'].apply(lambda x: format(x, ','))
     table_data['Deaths'] = table_data['Deaths'].apply(lambda x: format(x, ','))
@@ -59,7 +61,7 @@ def format_table_data(table_data, analysis_date):
     table_data = table_data.replace('inf%', '/')
     
     # select columns
-    table_data = table_data[['Diseases', 'DiseasesCN',
+    table_data = table_data[['Diseases',
                              'Cases', 
                              'ChangeCasesMonth', 'ChangeCasesMonthPer', 
                              'ChangeCasesYear', 'ChangeCasesYearPer', 
@@ -76,14 +78,14 @@ def format_table_data(table_data, analysis_date):
     # drop percentage columns
     table_data = table_data.drop(['ChangeCasesMonthPer', 'ChangeCasesYearPer', 'ChangeDeathsMonthPer', 'ChangeDeathsYearPer'], axis=1)
     
-    # 获取比较日期
+    # get compare date
     compare_PM = analysis_date - pd.DateOffset(months=1)
     compare_PM = compare_PM.strftime('%Y %B')
     compare_PY = analysis_date - pd.DateOffset(years=1)
     compare_PY = compare_PY.strftime('%Y %B')
     
-    # 设置列名
-    table_data.columns = ['Diseases', 'Diseases (Chinese)',
+    # setting column names
+    table_data.columns = ['Diseases',
                           'Cases', 
                           'Comparison with ' + compare_PM, 
                           'Comparison with ' + compare_PY, 
@@ -91,7 +93,7 @@ def format_table_data(table_data, analysis_date):
                           'Comparison with ' + compare_PM, 
                           'Comparison with ' + compare_PY]
     
-    # 将第一行移动到最后一行
+    # add total row
     table_data = table_data.loc[table_data.index[1:].tolist() + [table_data.index[0]]]
     
     return table_data
@@ -99,9 +101,11 @@ def format_table_data(table_data, analysis_date):
 def generate_merge_chart(change_data, original_file):
     table_data_original = pd.read_csv(original_file, encoding='utf-8')
     diseases_order = table_data_original['Diseases'].tolist()
-    diseases_order_cn = table_data_original['DiseasesCN'].tolist()
-    change_data_total = change_data[change_data['Diseases'] != "Total"]
-    change_data_total = change_data_total.melt(id_vars='Diseases',
+    change_data_total = change_data[(change_data['Diseases'] != "Total") & (change_data['Diseases'].isin(diseases_order))]
+    change_data_total = change_data_total.sort_values(by='Diseases', key=lambda x: x.map(diseases_order.index))
+    diseases = change_data_total['Diseases'].tolist()
+    diseases_cn = change_data_total['DiseasesCN'].tolist()
+    change_data_total = change_data_total.melt(id_vars=['Diseases', 'DiseasesCN'],
                                               value_vars=['Cases', 'Deaths'], 
                                               var_name='Type',
                                               value_name='Value')
@@ -122,4 +126,4 @@ def generate_merge_chart(change_data, original_file):
     merged_chart_path = "temp/merged_chart.png"
     plot_total.save(merged_chart_path, dpi=300, width=10, height=10)
 
-    return diseases_order, diseases_order_cn
+    return diseases, diseases_cn

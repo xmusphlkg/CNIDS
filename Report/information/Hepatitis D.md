@@ -35,3 +35,19 @@ Impact on Different Regions and Populations:
 4. Pacific Islands: Many Pacific Island nations have a high prevalence of HDV due to traditional cultural practices involving blood contact and shared tattooing tools.
 
 In conclusion, Hepatitis D is a significant global public health concern, primarily affecting populations with high rates of chronic HBV infection. Efforts to control HDV mainly focus on preventing HBV infection through vaccination and implementing comprehensive public health strategies to reduce transmission risks associated with blood contact, injection drug use, and unsafe medical practices.
+## Introduction
+
+Hepatitis D, also known as delta hepatitis, is a serious liver disease caused by the hepatitis D virus (HDV). It's unique, as it can only infect people already afflicted with hepatitis B virus (HBV). Transmission primarily occurs through direct contact with infected blood or body fluids. Chronic HDV can lead to more severe outcomes such as cirrhosis, liver failure, and liver cancer. Effective prevention strategies involve hepatitis B vaccination and harm reduction services for people who inject drugs.
+
+## Highlights
+
+1. A continuous decline in the reported cases of Hepatitis D can be observed from 2016 to 2023, signifying beneficial preventive and curative measures.<br/>2. Despite a steep fall in cases post-2019, a complete eradication is yet to be achieved, implying the disease's persistent occurrence.<br/>3. A more stable cycle of peaks and dips became visible from 2020, indicating a manageable state of disease control.<br/>4. In September 2023, the cases reported were 15, lower than most instances in the past, suggesting an improvement.<br/>5. No fatalities indicate the relative non-severity or prompt healthcare response. It, however, does not negate the need for continuous vigilance.
+
+
+## Analysis
+
+### Cases Analysis
+From 2016 to 2023, there is a declining trend of Hepatitis D cases reported in mainland China. In the early phase (2016 - 2018), notably fluctuated cases were witnessed, with a peak in the mid-year and a trough at the year-end. After 2019, the number of cases significantly dropped and stabilized around 20-30, possibly indicating successful disease control strategies. Recently, in 2023, although the volume is relatively low, an increment in cases compared to 2022 suggests vigilance.
+
+### Deaths Analysis
+The death data from 2016 to 2023 presented no fatalities from Hepatitis D, which is an incredibly positive sign. However, the apparent lack of fatalities reported shouldn't lead to complacency in managing the disease. Continued efforts are needed to maintain this situation, ensuring effective vaccination, prevention, and treatment strategies are in place.

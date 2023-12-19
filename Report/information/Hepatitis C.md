@@ -54,3 +54,22 @@ The prevalence of hepatitis C varies significantly between countries and regions
 5. Risk Behaviors: High-risk behaviors like injection drug use, unsafe sexual practices, and tattoo/piercing practices can contribute to variations in prevalence among different populations within a country.
 
 In conclusion, hepatitis C is a global health burden with varying prevalence rates across regions and populations. It is primarily transmitted through blood-to-blood contact, with injection drug use being the most common mode of transmission globally. Improvements in screening, prevention, and treatment are essential to reduce the impact of hepatitis C on affected populations and achieve the WHO's goal of eliminating HCV as a public health threat by 2030.
+## Introduction
+
+Hepatitis C is a viral infection affecting the liver, caused by the Hepatitis C virus (HCV). It is a bloodborne virus, commonly transmitted through invasive procedures like drug injection. Most people do not exhibit symptoms until liver damage appears, potentially leading to serious complications like cirrhosis or liver cancer. Acute infection can transition into a long-term chronic phase which may persist for a lifetime. There is no effective vaccine for Hepatitis C, but antiviral medication can cure about 95% of people with the virus, reducing the risk of lethal complications.
+
+## Highlights
+
+1. Notable rising death trend in 2023, especially from April, peaking in August and moderately declining in September. Increased morbidity rates demand improved medical attention.<br/>
+2. Case count shows near cyclical patterns annually, perhaps due to climate influence, with high case numbers often seen in March and July-August.<br/>
+3. Despite small fluctuations in the number of cases over the years, sustained high count emphasizes the dire need for advancing public health measures.<br/> 
+4. September 2023 report indicates continued high cases and deaths, showing an urgent situation with Hepatitis C in Mainland China.<br/> 
+5. Intense improvement in diagnosis and treatment facilities plus prevention methods are critical to curb the escalating mortality in 2023.
+
+## Analysis
+
+### Cases Analysis
+In the period from 2010 to 2023, Hepatitis C cases showed irregular trends with occasional spikes and decreases, but overall they have been increasing over the years. The highest reported monthly cases were around 24,977 in March 2016. Interestingly, February 2020 saw a sharp drop in cases (9068), possibly due to the COVID-19 outbreak impacting medical reporting or other resource allocation. However, the general trend remains within the 13,000-24,000 monthly case range.
+
+### Deaths Analysis
+Deaths due to Hepatitis C were relatively low till July 2022, ranging between 1 and 21 per month. However, a concerning uptick in fatalities was observed from August 2022 onward, reaching a maximum of 186 in June 2023. This sudden surge suggests the emergence of a more severe strain of the virus or changes in healthcare infrastructure, requiring immediate public health attention to prevent further loss. This might be reflecting a public health emergency associated with diagnosis, treatment, or healthcare access.

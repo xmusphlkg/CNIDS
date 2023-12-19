@@ -38,3 +38,20 @@ The impact of Rabies varies across different regions and populations. In regions
 In many developing countries, especially those with a large stray dog population, Rabies poses a considerable burden on public health. The disease affects not only humans but also domestic animals, leading to economic losses in the agricultural sector. Furthermore, the death toll disproportionately affects marginalized communities with limited access to healthcare and prevention measures.
 
 In conclusion, Rabies is a deadly viral disease that continues to pose a significant threat to global public health. While efforts have been made to control the disease through vaccination programs and improved awareness, much work remains to be done, particularly in regions with limited resources. Increasing access to affordable vaccines, promoting responsible pet ownership, and enhancing veterinary services are key strategies to combat Rabies and reduce its impact on affected populations worldwide.
+## Introduction
+
+Rabies is a lethal viral infection predominantly transmitted through the bites of infected animals. The rabies virus affects the central nervous system, eventually causing disease in the brain and leading to death in almost 100% of untreated cases. It typically manifests as fever, weakness, discomfort or headache, later progressing to anxiety, confusion, hallucination, and paralysis. It is preventable through post-exposure prophylaxis, involving wound cleaning, vaccinations, and boosters. Annually, the disease claims roughly 59,000 lives worldwide, mostly in Asia and Africa, with dogs being the main source of human rabies deaths.
+
+## Highlights
+
+1. Gradual decline in rabies: From 2010-2023, there's a noticeable trend of gradually declining cases and deaths from rabies, despite occasional spikes. The improvement reflects successful public health efforts.<br/>
+2. High Case Fatality Rate (CFR): Generally, deaths closely track the number of cases. This high CFR emphasizes a need to focus on preventative measures and early treatment.<br/>
+3. Recent Stability: In 2023, the monthly cases and deaths have stabilized to around 10. Despite this positive trend, constant vigilance is vital to maintain and enhance these gains.
+
+## Analysis
+
+### Cases Analysis
+The Rabies case data from 2010 to 2023 shows a general decline in mainland China. The most significant number of cases were reported in 2010, with a peak in September and October (233 cases each month). However, this gradually decreased over the years, dropping to 65 cases in May 2016 which is nearly a 72% drop. The number continued to decline and has seen below 20 cases per month consistently from 2021, achieving a significant reduction in Rabies cases over this period.
+
+### Deaths Analysis
+The death instances due to Rabies have similarly shown a declining trend from 2010 to 2023. The number of deaths mirrors the number of cases in most months, suggesting a high fatality rate. The highest recorded deaths were in November 2010 (208 deaths), while by 2023, the figures came down to single digits, hitting the record low of 4 in February. Given the consistent decrease throughout the years, this data suggests successful control and prevention measures against Rabies in mainland China.

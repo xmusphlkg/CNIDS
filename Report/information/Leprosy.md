@@ -22,3 +22,22 @@ Impact on Different Regions and Populations:
 The impact of leprosy varies significantly across regions and populations. India carries the highest burden of leprosy, accounting for more than half of the new cases globally. Brazil and several other countries in Africa and Asia also face significant challenges in relation to leprosy prevalence. The disease often disproportionately affects marginalized populations, such as individuals living in poverty, migrants, and remote rural communities. Stigma and discrimination associated with leprosy remain major challenges, resulting in delayed diagnosis, social isolation, and limited access to healthcare.
 
 In conclusion, leprosy remains a significant public health concern in certain regions, particularly in parts of Africa, Asia, and Latin America. Efforts to control and eliminate leprosy continue, including early detection, proper treatment, and addressing social stigma. Understanding the epidemiology of leprosy is crucial for developing and implementing effective strategies to reduce transmission, provide appropriate care, and improve the lives of those affected by the disease.
+## Introduction
+
+Leprosy, also known as Hansen's disease, is a chronic infectious disease caused by the bacteria Mycobacterium leprae. This disease primarily affects the skin and peripheral nerves, but can also involve the eyes and the mucosa of the upper respiratory tract. Often characterized by lesions and nerve damage, leprosy transmission is believed to occur via respiratory droplets. The disease is curable with a multi-drug therapy, preventing disabilities and transmission. Despite its decline globally, leprosy still poses significant challenges in some regions.
+
+## Highlights
+
+1. The overall trend of Leprosy cases in mainland, China is decreasing over the reported period from 2010 to 2023.<br/>
+2. The mortality rate of Leprosy patients has remained exceptionally low, with sporadic instances of deaths per month throughout the years.<br/>
+3. The reported cases of Leprosy in September 2023 stand at 23, demonstrating a considerable decrease when compared with the same month in previous years.<br/>
+4. Notably, there's a cyclical trend with a spike usually occurring around March and the lowest figures observed towards the end of each year.
+5. Even amongst this decline, regular occurrences of the disease signify its continued presence and the necessity for ongoing public health measures.<br/>
+
+## Analysis
+
+### Cases Analysis
+Over the course of 13 years (2010-2023), China's monthly leprosy case count appears to steadily decrease. The data demonstrates a consistent trend with higher frequencies in the early years (approximately 100 cases/month in 2010) and considerably lower rates in recent years (about 30 cases/month in 2023). Peaking periods shift from spring in 2010 (March) to summer months (June) in subsequent years. By 2023, the peak has seemingly moved to early spring (February-March). There is sparse data for 2013's January and February, which limits some interpretability.
+
+### Deaths Analysis
+The death data shows a very low mortality rate related to leprosy from 2010 to 2023. Most months in this period reported zero deaths, indicating that leprosy's lethality is consistently low, which is most likely due to advanced treatments available. However, occasional mortalities occur in each year. These seem random and do not follow a clear pattern, hinting at possibly other contributing factors like patient's overall health conditions. In recent years, mortalities are especially rare, with only three reported deaths since 2016.

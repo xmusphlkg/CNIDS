@@ -26,3 +26,21 @@ Children are the most affected population group due to their increased susceptib
 The impact of hepatitis A on different populations also differs. For instance, outbreaks can occur among homeless populations and individuals living in overcrowded conditions or institutions with substandard sanitation. In regions with a high burden of hepatitis A, the disease can cause significant morbidity and mortality, particularly among older adults or individuals with underlying liver conditions.
 
 In recent years, global initiatives to control hepatitis A have included extensive vaccination campaigns targeting high-risk groups, improved sanitation and hygiene practices, and enhanced surveillance systems to accurately monitor the disease burden. These interventions have resulted in a decrease in hepatitis A incidence in many regions. However, the disease still poses public health concerns in areas with inadequate infrastructure and resources.
+## Introduction
+
+Hepatitis A is a highly contagious liver infection caused by the Hepatitis A virus. It is typically transmitted through the ingestion of contaminated food or water or direct contact with an infected person. The infection often resolves on its own and does not lead to chronic disease. Symptoms, when they occur, include fatigue, nausea, abdominal pain, loss of appetite, and jaundice. Vaccination can prevent infection and is recommended for those at high risk or travelling to areas where Hepatitis A is common.
+
+## Highlights
+
+1. There is an overall decreasing trend in the number of Hepatitis A cases over the years since 2010, suggesting effective control measures.
+2. Despite the general downward trend, there is a marked seasonal increase observed almost every year around August-September. This might indicate a seasonal or environmental component to transmission.
+3. The number of fatalities has remained relatively low throughout, indicating a low case-fatality rate.
+4. As of September 2023, there were 1038 reported cases and no deaths. Although this shows a slight decrease from the preceding month, it remains important to continue monitoring trends as we approach the usual seasonal increase period.
+
+## Analysis
+
+### Cases Analysis
+Over the period 2010-2023, the total number of Hepatitis A cases in mainland China overall shows a descending trend. The count of cases peaked in August 2010 at 3789 and has since been gradually declining, with several minor spikes. The lowest count of 523 was recorded in January 2023. The general trends show higher case counts in the middle of each year, indicating seasonal variation, suggesting the virus's transmission might be influenced by warmer temperatures, which requires further research.
+
+### Deaths Analysis
+The total number of deaths due to Hepatitis A during this period stayed relatively low with sporadic increments. The maximum number of deaths in a month (56) occurred in May 2012. However, this seems to be an anomaly given the low numbers for the surrounding months. Throughout most months, the deaths ranged between 0 and 2, indicating quite a low mortality rate for Hepatitis A in mainland China during this period. It also showcases the effectiveness of healthcare measures considering the large case counts contrasted with the modest death figures.

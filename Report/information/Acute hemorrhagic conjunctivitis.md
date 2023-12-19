@@ -26,3 +26,20 @@ In developing countries with limited resources and inadequate healthcare infrast
 Variations in prevalence rates and affected demographics can be observed within regions. Factors such as population density, healthcare access, and socio-economic conditions contribute to these variations. Targeted public health interventions and improved hygiene practices can help mitigate the impact of AHC and reduce transmission rates.
 
 Overall, AHC remains a significant public health concern, particularly in regions with lower socio-economic status and limited resources. Continued surveillance, early detection, and timely implementation of control measures are necessary to minimize the spread and impact of this viral infection.
+## Introduction
+
+Acute Hemorrhagic Conjunctivitis (AHC) is a highly contagious viral infection primarily affecting the conjunctiva and eyelids. Originating from enterovirus 70 and coxsackievirus A24, typical symptoms may include sudden onset of eye pain, redness, swelling, and sometimes subconjunctival hemorrhage. Outbreaks usually happen on a community-wide scale, particularly in tropical and subtropical regions. No specific antiviral treatment exists for AHC; management involves supportive care and prevention of transmission.
+## Highlights
+
+1. Acute hemorrhagic conjunctivitis has demonstrated significant seasonality, with a notable spike in cases annually around September.<br/>
+2. While no deaths have been recorded for most months, sporadic fatalities in December 2011, August 2019, and February 2020 indicate a potential for severity.<br/>
+3. The count of cases in September 2023 skyrocketed to 125,264, representing an unprecedented surge compared to previous years.<br/>
+4. Despite seasonal peaks, a substantial overall decreasing trend was observed from 2010-2022. However, this changed drastically in 2023 with a sudden increase starting from June.<br/>
+5. There's an urgent need for increased public health measures, notably in late summer and early fall, to manage and mitigate this disease's impact.
+## Analysis
+
+### Cases Analysis
+Analyzing Acute Hemorrhagic Conjunctivitis (AHC) case data from 2010 to 2023 in mainland China, we observed cyclic trends in the data. Most cases occurred between the months of July to September peaking generally in September. The highest surge was in September 2010 with 48,658 cases and lately in September 2023 with a whopping 125,264 cases. The annual cases showed an overall increasing trend despite few dips, hinting towards a complex epidemiologic behavior of the AHC virus.
+
+### Deaths Analysis
+The death analysis indicates a relatively low lethality rate of AHC in mainland China from 2010 to 2023. There were only four reported deaths throughout the whole period: December 2011, August 2019, and February 2020. This reinforces the fact that AHC, an infectious eye disease, although may cause considerable discomfort, is rarely lethal. Nonetheless, it remains a public health concern due to its potential complications and rapid spread.

@@ -25,3 +25,21 @@ The impact of Japanese encephalitis varies across different regions and populati
 Efforts have been made in recent years to control Japanese encephalitis through vaccination campaigns. Vaccination programs targeting high-risk populations, especially children in endemic areas, have shown promising results in reducing the disease burden.
 
 In conclusion, Japanese encephalitis is a viral disease primarily found in Asia. It is transmitted through the bite of infected mosquitoes and primarily affects children and individuals living in rural agricultural areas. The disease has a significant impact on affected regions and populations, leading to substantial morbidity and mortality. Vaccination and control measures play a vital role in preventing the transmission and reducing the burden of Japanese encephalitis.
+## Introduction
+
+Japanese Encephalitis (JE) is a mosquito-borne viral disease primarily prevalent in Asia, causing significant public health issues. The JE virus (JEV) triggers acute inflammation of the brain in humans, leading to severe neurological symptoms which can become lethal. About a third of the symptomatic cases remain permanently disabled. Pigs and birds serve as natural reservoirs of the virus, and no cure exists currently. However, safe and effective vaccines are available for prevention. Despite this, JE remains a significant cause of viral encephalitis globally, with approximately 68,000 clinical cases reported annually.
+
+
+## Highlights
+
+1. There is a clear annual pattern in Japanese encephalitis cases. Peaks are observed annually, mostly during the summer months (June-August).<br/>
+2. Over the years, there is a decreasing trend in both the number of cases and deaths, showing successful control measures.<br/>
+3. In September 2023, there were 62 cases and 1 death - significantly lower than peak numbers in the past but higher than the preceding months of the same year indicating the beginning of the peak period.
+
+## Analysis
+
+### Cases Analysis
+Japanese encephalitis case data from China shows a pattern of seasonal variation, peaking in the summer months of June to September each year. High numbers of cases are observed throughout 2010-2018, with each summer peak reaching hundreds or thousands of cases. Notably, a considerable reduction is seen from 2018, with the peak decreasing to several dozens through to 2023. However, the summer surge remained prevalent for the disease. Also, even during off-peak months, cases of the disease continue to be reported, demonstrating that exposure persists year-round.
+
+### Deaths Analysis
+Similar to the case data, death counts also illustrate a seasonal trend, with most deaths occurring in the summer and early fall. The high mortality is especially noticeable in 2010-2018, reflecting the higher case counts in these years. Mirroring the significant decrease in reported cases, deaths also substantially drop starting from 2018. Despite the decrease, there is a remarkable rise in mortality in April 2019. The deaths data also shows that despite fewer cases in off-peak months, a number of fatalities still occur, emphasizing the severity of the disease.

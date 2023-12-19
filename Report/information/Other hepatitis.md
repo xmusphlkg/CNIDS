@@ -29,3 +29,20 @@ The impact of other hepatitis varies across different regions and populations du
 - Toxic hepatitis can be influenced by occupational and environmental factors and may disproportionately affect specific industries or communities.
 
 In conclusion, other hepatitis encompasses various forms of hepatitis not caused by viral infections. Understanding the epidemiology, transmission routes, affected populations, and risk factors associated with autoimmune hepatitis, alcoholic hepatitis, and toxic hepatitis is crucial for effective prevention, early diagnosis, and management strategies.
+## Introduction
+
+Other hepatitis refers to inflammation of the liver caused by types of hepatitis other than A, B, and C, typically hepatitis D, E, and G. These types are less common, and transmission methods vary. Hepatitis D occurs in people already infected with Hepatitis B, while Hepatitis E is usually contracted through contaminated food or water. Hepatitis G is mostly observed in people with compromised immune systems. Symptoms for all types include jaundice, fatigue, and abdominal pain. Vaccines are available for some types, but treatment mainly involves managing symptoms.
+
+## Highlights
+
+1. A steady decrease in reported cases of Other Hepatitis in mainland China from 2010 to 2023, with peaks recorded mostly in spring.<br/>
+2. Fatalities remained generally low throughout the years, showing the disease was not highly lethal.<br/>
+3. For September 2023, cases dropped from the August 2023 peak with no reported deaths. Nonetheless, continued surveillance is essential due to yearly fluctuations.<br/>
+
+## Analysis
+
+### Cases Analysis
+The given data indicates an overall trend of decreasing cases of 'Other hepatitis' in mainland China over the span of years from 2010 to 2023. The highest number of recorded cases seem to be in the earlier years, specifically in March of 2011 where there were 5010 cases. However, since then, there is a consistent decrease in number of cases reported annually. As of the latest record in September 2023, there are only 638 cases reported which is considerably lower than the cases reported in the same period during 2010 (4157 cases).
+
+### Deaths Analysis
+In contrast to the case frequency, the death count due to 'Other Hepatitis' has remained relatively low throughout the span of these years. There does not appear to be a clear correlation between the number of cases and deaths, indicating potentially effective interventions for disease management. The highest recorded deaths in a month is 6, which occurred in December 2012. There is an observable overall decline in deaths after 2012 with most months recording 0 or 1 deaths in the recent years. This could infer an improvement in treatments or preventive measures.

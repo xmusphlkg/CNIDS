@@ -57,3 +57,21 @@ Hepatitis B prevalence rates and affected demographics vary across different reg
 In conclusion, hepatitis B is a widely prevalent viral infection, with its impact varying by region. It affects diverse populations, with transmission occurring primarily through perinatal, sexual, and bloodborne routes. The discovery of the hepatitis B virus led to the development of an effective vaccine, but considerable challenges persist in terms of improving vaccination coverage and reducing the global impact of this disease.
 
 Note: The information provided is based on general knowledge and may require further research for academic or scientific purposes.
+## Introduction
+
+Hepatitis B is a viral infection that attacks the liver and can cause both acute and chronic disease. It's transmitted through blood and various body fluids. Key sources include mother-to-child at birth, unsafe injections, and unprotected sexual contact. Many individuals show no symptoms, while others experience jaundice, fatigue, and nausea. Chronic Hepatitis B can lead to severe health conditions like cirrhosis or liver cancer. There is a safe and effective vaccine available to prevent this disease. However, the treatment of chronic Hepatitis B remains a significant global health challenge.
+
+
+## Highlights
+
+1. There's an increasing trend in Hepatitis B cases in China since early 2020 up until September 2023, with a notable spread in August 2023 (138,875 cases, a record high)<br/>
+2. Despite a rising trend in cases, the death rate appears to be stable and relatively low, indicating effective medical care<br/>
+3. The significant variation in the number of cases on a monthly basis suggests seasonal influences or changes in reporting, requiring further investigation.
+
+## Analysis
+
+### Cases Analysis
+The table presented covers Hepatitis B data from 2010 to 2023. There is a generally fluctuating trend in the number of cases reported per month for each year. However, a significant drop in numbers was observed in February 2020 which could be linked to the Covid-19 pandemic. Notably, from 2022 the number of cases seems to be increasing with an apparent peak in August 2023 with 138,875 cases.
+
+### Deaths Analysis
+The number of deaths varies from month to month, typically remaining well below 100 per month. There is an observable slight increase in the death count over the years, nonetheless, the numbers remain fairly low. An unexpected peak in death counts can be seen in January 2020, but the cause is not indicated in the given data. The lowest death count is seen in February 2023 at 18.

@@ -37,3 +37,18 @@ The impact of viral hepatitis varies across regions and populations due to diffe
 4. Sexual transmission: Populations with higher rates of unprotected sex or engaging in high-risk sexual practices are more likely to have higher hepatitis prevalence.
 
 In conclusion, viral hepatitis is a global health concern with varying prevalence rates, transmission routes, and affected populations. Understanding these epidemiological factors is critical for implementing effective prevention strategies, improving healthcare practices, and ultimately reducing the burden of hepatitis on both regional and global levels.
+## Introduction
+
+Hepatitis is a medical condition characterized by inflammation of the liver, primarily caused by five types of viral infections - Hepatitis A, B, C, D, and E. These viruses are differentiated based on their mode of transmission, geographic distribution, and impact on liver health. Symptoms include fatigue, jaundice, nausea, and abdominal pain. Chronic forms, particularly Hepatitis B and C, can lead to severe liver diseases such as cirrhosis and liver cancer. Prevention measures include vaccination, safe food practices, and good personal hygiene.
+## Highlights
+
+1. A notable upward trend in Hepatitis cases was seen from January 2010 to August 2023, suggesting an alarming increase of infections.<br/>2. Fatalities have generally remained constant but from April to September 2023 there was a significant surge. The case-fatality ratio increased markedly, indicating a worsening disease severity or detection/reporting of severe cases.<br/>3. High case numbers in September 2023 (147758 cases and 177 deaths), though somewhat reduced from the August peak, signal continued robust transmission and disease impact.
+
+## Analysis
+
+### Cases Analysis
+The Hepatitis cases in mainland China from 2010 to 2023 exhibit a slightly undulating trend with minor fluctuations. While March typically sees the most reported cases across the period, February often records the lowest cases annually. Notably, there is a significant drop of cases in February 2020, possibly due to the COVID-19 pandemic. Another slight rise can be spotted from 2017 onwards, with significant climbs in 2023, necessitating further investigation into potential causality.
+
+### Deaths Analysis
+In terms of fatalities, the records show a relatively stable count, averaging around 50-60 deaths per month. A sharp increase, however, can be observed from April 2023 onwards, peaking in June 2023. This escalating trend in fatalities signals potential virulence changes in the pathogen or shortcomings in current treatments or healthcare infrastructure, which require immediate attention and investigation.
+

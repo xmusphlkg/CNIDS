@@ -40,3 +40,22 @@ Prevalence rates and demographics affected by mumps can vary across regions and 
 4. Outbreaks and Clusters: Mumps outbreaks can occur in specific communities, settings, or regions where there is close contact and low vaccination rates, such as schools or religious communities.
 
 In conclusion, mumps is a globally prevalent viral infection that primarily affects the salivary glands. Its transmission occurs through respiratory droplets and direct contact with infected individuals. Although mumps can affect individuals of all ages, children and unvaccinated individuals are at higher risk. Vaccination campaigns have significantly reduced the number of cases, but there are still variations in prevalence rates and affected demographics across regions and populations. Understanding the epidemiology of mumps is crucial for implementing effective prevention and control strategies.
+## Introduction
+
+Mumps is a contagious viral disease caused by mumps virus. It spreads easily through the saliva or mucus from the mouth, nose, or throat of an infected person. Symptoms usually appear 16-18 days after exposure and include fever, headache, muscle aches, and pain or swelling in the jaw. Most notably, mumps affects the parotid glands and may lead to complications such as orchitis in males and oophoritis in females if untreated. Vaccination with the MMR vaccine is an effective preventative measure.
+
+## Highlights
+
+1. Mumps cases show a yearly cyclic pattern with peaks around May-June and lesser cases in winter months.<br/>
+2. There has been a long-term gradual decrease in cases since 2010, dropping notably after 2020.<br/>
+3. Death occurrences are extremely low, indicating adequate healthcare response.<br/>
+4. As of September 2023, the disease continues to be sporadic in China but the situation remains manageable.<br/>
+5. The sudden drop in cases in 2020 could likely point to factors such as global pandemic measures impacting disease transmission.<br/>
+
+## Analysis
+
+### Cases Analysis
+The reported case data for Mumps in mainland China from 2010 to 2023 indicates significant variations across the years but shows a general trend of decrease over time. Prolific outbreaks were observed between the months of May and July for each year, with especially high spikes between 2010 and 2012. This suggests that Mumps cases rise during the warmer months. The data from 2020 onwards shows a drastic drop, with figures remaining below 20,000 cases. This decrease is likely due to the ongoing global health crisis.
+
+### Deaths Analysis
+The Mumps mortality rate in mainland China during this period is relatively low when compared to the size of reported cases, suggesting adequate disease management. It is noteworthy that occasional fatalities seem to appear erratically, without a clear pattern or proportion to the number of mumps cases. The highest number of deaths occurred in January 2020, with four reported deaths. It is crucial to do further analysis on these deaths to understand if any external factors contribute to the higher mortality rate.

@@ -24,3 +24,24 @@ The prevalence of echinococcosis varies across different regions. It is more com
 Echinococcosis can have a significant economic impact in affected regions. The disease affects livestock productivity and can lead to significant economic losses in the agricultural sector. It also has a profound impact on affected individuals and their families due to the high cost of diagnosis, treatment, and potential surgical interventions.
 
 In conclusion, Echinococcosis is a global health concern, particularly in rural and resource-limited settings. Understanding its epidemiology, transmission routes, affected populations, and risk factors is crucial for the development of effective prevention and control measures to reduce the burden of this parasitic infection.
+## Introduction
+
+Echinococcosis is a parasitic disease caused by tapeworms of the Echinococcus species. Humans contract it primarily through direct contact with infected animals or ingestion of contaminated food. The infection results in cystic growths in vital organs such as the liver, lungs, or brain. Echinococcosis, which comprises Cystic Echinococcosis (CE) and Alveolar Echinococcosis (AE), poses severe health risks with significant fatality if not treated timely. It's endemic in pastoral regions, including parts of South America, Africa, Asia, and Europe.
+## Highlights
+
+1. Echinococcosis reported cases have been recently fluctuating over the year, with a noteworthy all-time low of 97 cases in November 2022 and a slight rise to 367 cases in September 2023. This indicates variability in disease transmission.
+
+2. Despite the fluctuations, Echinococcosis shows relative seasonal predictability, peaking in winters and decreasing in summers throughout years.
+
+3. There are generally very few deaths (less than 1% of reported cases), indicating successful disease management.
+
+4. The disease is still actively reported every month, showing it's endemic nature in Mainland China.
+
+5. The latest situation (September 2023) shows a moderate number of cases (367) without any recorded death.
+## Analysis
+
+### Cases Analysis
+The cases of Echinococcosis in mainland China show a cyclic variation within each year, peaking towards the end of the year. The highest single-month case count was in March 2017, with 1077 cases. However, the monthly case count has been generally decreasing since then, with noticeable drops in February 2020 and again in September 2022. Overall, the data shows a certain degree of seasonality and an overall decreasing trend in recent years.
+
+### Deaths Analysis
+Echinococcosis, despite having a significant number of cases, has a very low fatality rate. There were very few months where even a single death was reported, with February 2019 having the highest count of two. The data suggests an effective medical intervention, possibly due to early diagnosis, effective treatment, or the condition's nonfatal nature. However, as death records might be underreported, caution should be taken interpreting these figures.

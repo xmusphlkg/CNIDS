@@ -45,3 +45,21 @@ Dysentery disproportionately affects certain regions and populations, with varia
 4. Conflict Zones: Dysentery outbreaks are common in areas experiencing armed conflicts or natural disasters, where sanitation facilities are disrupted, and access to healthcare is limited.
 
 In conclusion, dysentery is a widespread gastrointestinal infection with varying prevalence rates across different regions and populations. Inadequate sanitation, contaminated water, and crowded living conditions are major risk factors for transmission. Dysentery primarily affects developing countries, rural areas, children, and populations in conflict zones. Efforts to improve sanitation, access to clean water, and public health infrastructure are crucial in reducing the burden of dysentery and improving the health outcomes of affected populations worldwide.
+## Introduction
+
+Dysentery is a type of gastroenteritis that results in diarrhea with blood. It's caused by several types of infections such as bacteria, viruses, parasitic worms, or protozoa. The most common types are Bacillary Dysentery, also known as Shigellosis, and Amoebic Dysentery, caused by the amoeba Entamoeba histolytica. Symptoms include bloody diarrhea, abdominal pain, fever, and occasionally vomiting. Dysentery is typically a result of poor sanitation, and is often contracted during travel to areas where hygiene is inadequate. Without treatment, it can lead to severe dehydration and can be life-threatening.
+## Highlights
+
+1. Dysentery cases in Mainland China show an evident seasonal trend, peaking in the summer months (particularly June through August) each year. <br/>
+2. There's a clear long-term decline in the reported instances of Dysentery over the past decade, from ~37,000 cases in July 2010 to ~4,700 cases in July 2023.<br/>
+3. The case fatality rate is notably low and sporadic throughout the years, demonstrating successful disease management.<br/>
+4. Specifically, in September 2023, there were 3,658 cases reported with no deaths, continuing the trend of reduced cases compared to previous years.
+
+
+## Analysis
+
+### Cases Analysis
+The data indicates a declining trend in dysentery cases in mainland China from 2010 to 2023. Each year generally exhibits the same pattern, with peak incidences occurring in the summer months (June to August), and dropping drastically during the cooler months (December to February), suggesting seasonality may be a factor. However, the seasonality starts to become less pronounced from 2016, indicating a falling number of cases throughout the year after that.
+
+### Deaths Analysis
+A similar stable but generally downward trend can be observed for deaths due to dysentery. However, with such low death counts, the data may be subject to higher fluctuations due to less statistical stability. The unusual spike of 198 deaths in September 2012 could likely be due to an error or an outbreak involving a particularly harmful strain. The annual number of deaths remains close to zero for most months post 2016.
