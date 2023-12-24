@@ -8,3 +8,12 @@ CNIDS is a project aimed at monitoring notifiable infectious diseases in mainlan
 The primary objective of the CNIDS project is to establish an efficient infectious disease Surveillance system that enables real-time surveillance of legally notifiable infectious diseases and internet news. It provides decision-makers with timely information and recommendations to facilitate appropriate measures for disease control and prevention.
 
 # Latest Update
+
+
+# Cite Us
+
+If you use CNIDS in your research, please cite the following paper:
+
+```
+
+```

@@ -74,7 +74,7 @@ def generate_weekly_report(analysis_YearMonth):
         [update_pages(diseases_order, diseases_order_cn, i, df, analysis_MonthYear) for i in range(len(diseases_order))]
         # update README.md
         # table_data Diseases 列作为连接
-        table_data['Diseases'] = table_data['Diseases'].apply(lambda x: f"[{x}](./{x})")
+        table_data['Diseases'] = table_data['Diseases'].apply(lambda x: f"[{x}](./{x.replace(' ', '%20')})")
         table_of_content = table_data.to_markdown(index=False)
         with open('../docs/README.md', 'r') as file:
             readme = file.readlines()
