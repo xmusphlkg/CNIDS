@@ -35,7 +35,7 @@ jobs:
 
       - name: Install dependencies
         run: |
-          pip install requests xmltodict beautifulsoup4 pandas reportlab plotnine onedrivedownloader openpyxl tabulate markdown plotly jinja2 openai pyyaml
+          pip install requests xmltodict beautifulsoup4 pandas reportlab plotnine onedrivedownloader openpyxl tabulate markdown plotly jinja2 openai pyyaml PyPDF2 PIL
 
       - name: Run Python script
         run: |
