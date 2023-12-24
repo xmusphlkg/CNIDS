@@ -149,6 +149,8 @@ else:
     
     test_info = os.environ['test_mail']
     send_mail = os.environ['send_mail']
+    # change working directory
+    os.chdir("../../Script/WeeklyReport")
     for YearMonth in new_dates:
         print("Generate report for " + YearMonth)
         generate_weekly_report(YearMonth)
