@@ -1,40 +1,29 @@
-Pertussis, also known as whooping cough, is a highly contagious respiratory tract infection caused by the bacterium Bordetella pertussis. This disease has been present throughout history, with documented outbreaks dating back to the 16th century. However, it was only in 1906 that Jules Bordet and Octave Gengou discovered the specific bacterium responsible for pertussis.
+**Epidemiology of Pertussis:**
 
-Transmission of pertussis primarily occurs through respiratory droplets when an infected individual coughs or sneezes. Others in close proximity can inhale the bacteria, leading to infection. Pertussis is highly infectious, with an estimated reproduction number (R0) of 12-17, meaning each infected individual can transmit the disease to 12-17 susceptible individuals.
+**Global Prevalence:**
+Pertussis, commonly known as whooping cough, is a highly contagious respiratory disease caused by the bacterium Bordetella pertussis. The disease is characterized by severe coughing spells that can last for weeks. Despite the availability of vaccines, pertussis remains a significant public health problem. Globally, the World Health Organization (WHO) estimates that there were about 151,074 pertussis cases reported in 2018, but the actual number of cases is likely much higher due to underreporting.
 
-Although pertussis can affect individuals of all ages, it is most severe in infants under one year old. Infants are especially vulnerable because they have not completed the full series of vaccinations. Pertussis can cause severe coughing fits, difficulty breathing, and in some cases, life-threatening complications. Older children and adults can also contract pertussis, but their symptoms are generally milder and may resemble a prolonged cough.
+**Transmission Routes:**
+Pertussis is transmitted from person to person primarily through respiratory droplets when an infected person coughs or sneezes. The disease is most contagious during the early stages of the illness and the incubation period, which can be up to 21 days.
 
-Globally, pertussis remains a significant public health concern. According to the World Health Organization (WHO), an estimated 24.1 million cases of pertussis occurred worldwide in 2019, resulting in approximately 160,700 deaths. However, these figures may be underestimated due to underreporting and limited resources for accurate diagnosis in many regions.
+**Affected Populations:**
+While pertussis can affect individuals of all ages, it is particularly dangerous for infants and young children, who are at risk of severe complications such as apnea, pneumonia, seizures, and death. Older children, adults, and adolescents can also contract pertussis, often with milder symptoms, but they serve as a reservoir for the bacteria and can transmit it to more vulnerable populations.
 
-The burden of pertussis varies among different regions and populations. In high-income countries with robust immunization programs, the incidence of pertussis has significantly decreased. However, occasional outbreaks still occur, primarily affecting unvaccinated or incompletely vaccinated individuals and those with waning immunity. In low- and middle-income countries, pertussis remains a major cause of morbidity and mortality, especially in infants.
+**Key Statistics:**
+Throughout the 20th century, pertussis was one of the leading causes of childhood mortality, but vaccination programs have dramatically reduced its incidence. However, even in countries with high vaccination coverage, pertussis remains endemic with periodic epidemics every 3–5 years. Key statistics on the disease, such as case fatality rates and the number of cases, vary widely between regions and depend on the effectiveness of surveillance systems and access to vaccination.
 
-There are several risk factors associated with pertussis transmission:
+**Historical Context and Discovery:**
+Pertussis has been recognized as a distinct clinical entity since at least the 16th century, but the causative agent, Bordetella pertussis, was not isolated until 1906 by Belgian bacteriologists Jules Bordet and Octave Gengou. The development of the whole-cell pertussis vaccine in the 1940s and its subsequent combination with diphtheria and tetanus toxoids (DTP) led to a decline in the incidence of the disease in countries that implemented vaccination programs.
 
-1. Lack of Vaccination: Individuals who are unvaccinated or have not completed the recommended immunization schedule are at a higher risk of contracting pertussis.
+**Major Risk Factors Associated with Pertussis Transmission:**
+1. **Lack of Vaccination:** The primary risk factor for pertussis transmission is lack of vaccination or incomplete vaccination, particularly among infants too young to have received the full course of the DTaP vaccine.
+2. **Waning Immunity:** Vaccine-derived immunity can wane over time, making adolescents and adults susceptible to the disease and capable of transmitting it to others, including unvaccinated or under-vaccinated infants.
+3. **Close Contact:** Living in crowded conditions or being in close contact with someone who has pertussis increases the risk of transmission.
+4. **Age:** Very young infants are at the highest risk for severe disease as they are not fully vaccinated.
 
-2. Waning Immunity: Over time, the protection provided by the pertussis vaccine diminishes, making previously vaccinated individuals susceptible to infection.
+**Impact on Different Regions and Populations:**
+- **Developing Countries:** Pertussis continues to be a significant cause of morbidity and mortality in developing countries, where vaccination coverage may be lower and access to medical care may be limited. The WHO estimates that in 2018, over 60% of pertussis-related deaths occurred in Africa.
+- **Developed Countries:** In developed countries, the re-emergence of pertussis among adolescents and adults is a growing concern. Outbreaks are often attributed to the aforementioned waning immunity and the evolution of B. pertussis strains that may be less susceptible to vaccine-induced immunity.
+- **Prevalence Rates and Affected Demographics:** Although all age groups are susceptible, infants who are too young to be vaccinated or who have not completed the vaccination schedule are the most affected demographic with the highest rates of complications and mortality.
 
-3. Close Contact: Being in close proximity to an infected person, particularly in crowded settings like households, schools, or childcare facilities, increases the likelihood of transmission.
-
-4. Age: Infants, especially those under six months old, face the highest risk of severe disease and complications. Adolescents and adults can also transmit the infection to vulnerable populations.
-
-5. Maternal Transmission: Mothers with pertussis can transmit the infection to their newborns. Vaccination during pregnancy (preferably between the 27th and 36th weeks) can offer some protection to the newborn.
-
-The impact of pertussis varies across regions and populations. In high-income countries, where vaccination coverage is high, pertussis rates have significantly declined compared to the pre-vaccine era. However, occasional outbreaks occur due to waning immunity or vaccine hesitancy. In low- and middle-income countries, pertussis remains a major public health issue, contributing to high infant mortality rates. Limited access to healthcare, inadequate immunization coverage, and challenges in diagnosis and treatment all contribute to the persistence of pertussis in these regions.
-
-In conclusion, pertussis is a highly contagious respiratory tract infection caused by the bacterium Bordetella pertussis. It has a global prevalence, with millions of cases reported annually. Pertussis primarily affects infants, but individuals of all ages can be affected. Risk factors for pertussis transmission include lack of vaccination, waning immunity, close contact with infected individuals, and age. The impact of pertussis varies across regions, with higher-income countries experiencing lower prevalence rates compared to lower-income countries, where pertussis remains a substantial burden. Vaccination coverage and public health measures play a crucial role in reducing the transmission and impact of pertussis.
-## Introduction
-
-Pertussis, also known as whooping cough, is a highly contagious respiratory disease caused by the bacterium Bordetella pertussis. The disease, characterized by severe coughing spells, presents initially with cold-like symptoms before progressing to more severe manifestations such as paroxysmal cough and inspiratory whoop. Pertussis can occur at any age but is most severe in infants and young children, with potential for serious complications including pneumonia, encephalopathy, and death. Vaccination has significantly reduced the incidence of pertussis, but it remains a significant public health concern worldwide.
-
-## Highlights
-
-1. A recurring annual cycle is noticeable in Pertussis cases, with a peak generally occurring between May and September. <br/>2. Overall, cases have been increasing over the years; the highest numbers are seen in recent years, specifically from 2018-2023. <br/>3. Though sporadic, a significant number of deaths have also been occurring alongside the increasing trend, necessitating continuous surveillance. <br/>4. Notably, in September 2023, 4517 cases were reported, marking a decrease from the August 2023 peak but still displaying the critical impact of Pertussis.
-
-## Analysis
-
-### Cases Analysis
-The provided data for Pertussis in mainland China reveals a distinct upward trend in reported cases over time, with yearly fluctuations. Between 2010 to 2023, the number of reported cases appears to grow significantly, with peak values each year notably occurring during summer months, particularly between June and August. The data show the lowest cases in the start of the year, specifically from January to April. A sharp dip in cases can be observed between 2020 and 2021, possibly due to the impact of COVID-19 pandemic, with subsequent resurgence over 2022 to 2023.
-
-### Deaths Analysis
-Analysis of deaths caused by Pertussis shows a generally stable trend over the years, with low and infrequent death rates. However, similarity can be observed with the peak of reported deaths with the peak of cases, as slight increases often happen during the peak case months, June to August. It's interesting to note that despite the increase in cases, the number of deaths remained relatively consistent throughout the years, indicating successful treatment and/or prevention efforts.
+In response to the changing epidemiology of pertussis, many countries have introduced booster doses of acellular pertussis vaccines (Tdap) for older children, adolescents, and adults, including pregnant women, to protect newborns. Continuous surveillance, advancing vaccination strategies, and public health education are essential components of efforts to control pertussis globally.

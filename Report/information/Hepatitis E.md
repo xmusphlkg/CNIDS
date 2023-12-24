@@ -1,49 +1,34 @@
-Hepatitis E is an acute viral infection caused by the hepatitis E virus (HEV) that primarily affects the liver. It is characterized by symptoms such as jaundice, fatigue, abdominal pain, and loss of appetite. The prevalence of hepatitis E differs globally across regions and populations.
+Hepatitis E is a liver disease caused by the Hepatitis E virus (HEV), a non-enveloped, single-stranded RNA virus. There are at least four distinct genotypes of the virus that can infect humans. The epidemiology of Hepatitis E varies greatly between different regions and populations, with significant implications for public health.
 
-Historical Context and Discovery:
-Hepatitis E was initially identified in 1980 during an outbreak in Kashmir, India, where roughly 50,000 cases were reported. However, the formal classification of the virus did not occur until 1990. The understanding of this disease advanced through the discovery of the HEV genome and the development of diagnostic tests.
+**Global Prevalence and Historical Context:**
 
-Prevalence:
-Hepatitis E is endemic in many developing countries, particularly in parts of Asia, Africa, and Central America. According to the World Health Organization (WHO), approximately 20 million HEV infections occur annually worldwide, resulting in roughly 44,000 deaths. However, these estimates may be conservative as many cases go unreported or are misdiagnosed due to the similarity of symptoms with other types of hepatitis.
+The discovery of Hepatitis E dates back to the 1950s when outbreaks of unexplained hepatitis occurred in India. It wasn't until the late 1970s and early 1980s that more evidence accumulated pointing to the existence of a new form of non-A, non-B hepatitis. The virus was officially identified in 1983 when Soviet military researchers provided the first direct evidence of a virus causing the disease by successfully transmitting infection to primates with stool extracts from an outbreak. The virus was cloned and sequenced in 1990.
 
-Transmission Routes:
-Hepatitis E can spread through fecal-oral routes, mainly via contaminated water and food. Transmission can also occur through the transfusion of infected blood products, organ transplantation from infected donors, and vertical transmission from mother to fetus. In regions where sanitation is poor and access to clean water is limited, the risk of transmission is higher.
+Hepatitis E has a global distribution but is most prevalent in developing countries with poor sanitation and hygiene, where it usually causes waterborne epidemics. It is considered endemic in many parts of Central and Southeast Asia, Northern and Western Africa, and Mexico. According to the World Health Organization (WHO), there are about 20 million HEV infections worldwide annually, leading to an estimated 3.3 million symptomatic cases and 44,000 deaths.
 
-Affected Populations:
-Hepatitis E can affect individuals of all age groups, but pregnant women and people with pre-existing liver disease are at an increased risk of severe illness or complications. Pregnant women infected with HEV have a significantly higher mortality rate, especially during the third trimester.
+**Transmission Routes:**
 
-Risk Factors:
-Several major risk factors are associated with Hepatitis E transmission, including:
-1. Unsafe water sources and inadequate sanitation infrastructure.
-2. Consumption of contaminated water or food, particularly raw or undercooked meat, shellfish, and vegetables.
-3. Crowded living conditions, such as refugee camps or slums, where maintaining proper hygiene practices can be challenging.
-4. Traveling to areas with a high incidence of Hepatitis E.
-5. Occupational exposure to animals, such as swine, that may carry the virus.
+1. **Fecal-Oral Route:** HEV is primarily transmitted through the fecal-oral route, typically through contaminated water. Large outbreaks have been associated with contaminated water supplies in countries with poor sanitation infrastructure.
+2. **Zoonotic Route:** Certain genotypes of HEV (particularly genotypes 3 and 4) are zoonotic and can be transmitted from animals to humans. Pigs, wild boar, and deer are recognized reservoirs. Consumption of undercooked or raw meat and liver from these animals can lead to infection.
+3. **Blood Transfusion:** In rare cases, the virus can be transmitted through blood transfusion.
+4. **Vertical Transmission:** Pregnant women can transmit the virus to their unborn children.
 
-Impact on Regions and Populations:
-The prevalence of Hepatitis E varies across regions worldwide. In resource-limited countries, particularly in South Asia and sub-Saharan Africa, the burden of the disease is higher due to inadequate sanitation facilities and limited access to clean water. Outbreaks are frequently reported in these regions, especially during natural disasters, conflict situations, or mass gatherings.
+**Affected Populations:**
 
-In developed countries, Hepatitis E is usually sporadic and is often associated with travel to endemic regions or consumption of contaminated imported food products. However, autochthonous transmission (acquired within the resident population) has also been occasionally reported.
+- **General Population:** While everyone can potentially contract HEV, young adults between the ages of 15 and 40 are the most frequently affected demographic in endemic regions.
+- **Pregnant Women:** HEV infection is particularly severe in pregnant women, especially during the third trimester, with reported mortality rates up to 20-30%. The reason for this increased severity is not fully understood.
+- **Immunocompromised Individuals:** People with weakened immune systems, such as organ transplant recipients, patients with HIV/AIDS, and those receiving chemotherapy, can develop chronic HEV infection, which can lead to progressive liver damage.
 
-Overall, Hepatitis E is more common in low-to-middle-income countries with poor sanitation conditions and limited healthcare resources. Nevertheless, advancements in sanitation infrastructure and increased access to clean water have helped reduce the burden of the disease in certain regions.
+**Major Risk Factors:**
 
-In conclusion, Hepatitis E is a global health concern, particularly in regions with inadequate sanitation and contaminated water sources. It can affect individuals of all ages, but pregnant women and people with pre-existing liver disease are at a higher risk. Efforts to improve sanitation, access to clean water, and raise awareness about safe food and water practices are essential for reducing the transmission and impact of Hepatitis E.
-## Introduction
+1. Poor Sanitation: Limited or no access to clean water and poor sewage disposal systems increase the risk of HEV transmission.
+2. Travel: Travel to endemic regions can pose a higher risk of acquiring HEV for individuals from non-endemic areas.
+3. Dietary Habits: Consumption of raw or undercooked meat and liver from infected animals, particularly pork or wild game, can increase the risk of zoonotic transmission.
+4. Occupation: Individuals working with pigs, wild boars, or in sewage management may have a higher risk of exposure to HEV.
 
-Hepatitis E is a liver disease caused by the Hepatitis E virus (HEV). Found worldwide, it predominantly occurs in regions with poor sanitation where it is often transmitted via contaminated drinking water. It can cause severe illness in pregnant women and people with chronic liver diseases. Unlike other types of hepatitis, it's not known to progress to chronic infection. Most individuals clear the virus naturally. In general populations, it remains largely asymptomatic but can sometimes lead to acute liver failure.
+**Regional Impact and Variations in Prevalence:**
 
+- **Asia & Africa:** These regions account for the vast majority of HEV infections due to poor sanitary conditions, frequent flooding, and the common occurrence of waterborne outbreaks. HEV genotype 1 predominates in Asia, and genotype 2 is observed frequently in Africa and Mexico.
+- **Developed Countries:** In these regions, HEV cases are often sporadic or result from zoonotic transmission; genotypes 3 and 4 are more prevalent here. The incidence of HEV is likely underestimated due to less routine testing for the virus.
 
-## Highlights
-
-1. The number of Hepatitis E cases shows a pronounced seasonality pattern, with cases peaking in March and falling to the lowest levels in January of each year. <br/>
-2. Despite the fluctuating case numbers, the reported mortality rate remains consistently low, indicating effective case management strategies. <br/>
-3. Cases have been increasing in September each year since 2020 despite overall decline, suggesting a potential shift in disease trend in the recent years. September 2023 reports the highest case count in the last 14 years, marking a significant increase that warrants close monitoring.<br/>
-4. There was a dramatic drop in cases in early 2020, potentially due to the COVID-19 pandemic's impact on reporting or changes in lifestyle behavior.<br/>
-
-## Analysis
-
-### Cases Analysis
-In the reported period from January 2010 to September 2023, there is an overall periodic fluctuation in Hepatitis E cases in mainland China. A trend of annual variability is noticeable, with a surge in reported cases generally observed from January through April each year, followed by a gradual decrease towards year-end. We can associate this seasonal pattern with local climate and behavior patterns influencing the hepatitis E virus transmission. However, the total number of cases seems to have dropped slightly since 2017, indicating possibly effective prevention and control measures.
-
-### Deaths Analysis
-Compared to cases, the number of Hepatitis E-related deaths shows less variability over the same period. There is generally a low mortality rate, less than 1%, spread inconsistively across the years, with no clear seasonal pattern. This may be due to the generally non-severe nature of Hepatitis E in healthy individuals. Nonetheless, occasional spikes in deaths are visible, the cause of which requires further investigation. The apparent overall low mortality, however, may be a marker of effective clinical management of diagnosed cases.
+In conclusion, Hepatitis E remains a significant global public health concern, especially in areas with inadequate water supply and sanitation. Efforts to improve water quality, food safety, widespread health education, and improved sanitation practices are critical for controlling HEV transmission. In endemic areas, improving the surveillance and reporting systems is essential to understand and track the burden of disease more accurately. Although a vaccine for HEV (HEV 239, sold under the brand name Hecolin) has been developed and is available in China, it is not widely accessible in other parts of the world, making prevention strategies even more critical.

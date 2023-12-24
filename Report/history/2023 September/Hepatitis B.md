@@ -1,17 +1,18 @@
-Seasonal Patterns:
-Based on the provided data, there is evidence of a seasonal pattern in the incidence of Hepatitis B cases in mainland China. The number of cases tends to be higher during the winter months (December to February) and lower during the summer months (June to August). This pattern is consistent across multiple years.
+## Introduction
 
-Peak and Trough Periods:
-The peak periods for Hepatitis B cases in mainland China occur during the winter months, particularly in January and February, with the highest number of cases reported during these months. Conversely, the trough periods, characterized by the lowest number of cases, are observed during the summer months, specifically in July and August.
+Hepatitis B is a potentially life-threatening liver infection caused by the Hepatitis B virus (HBV). It is a major global health problem, leading to acute and chronic disease that can result in liver cirrhosis, liver failure, or hepatocellular carcinoma. The virus is transmitted through contact with blood or other body fluids of an infected person. A safe and effective vaccine can prevent Hepatitis B, and it is commonly given as part of childhood vaccination programs. While acute infections may be mild or symptom-free, chronic Hepatitis B can cause long-term health issues and requires medical management.
 
-Overall Trends:
-Overall, there is a slight downward trend in the incidence of Hepatitis B cases in mainland China prior to September 2023. From 2010 to 2013, there was a gradual increase in cases followed by a period of fluctuation from 2014 to 2016. Subsequently, a general decline in the number of cases was observed after 2016, with intermittent fluctuations along the way.
+## Highlights
 
-Discussion:
-The observed seasonal pattern in the data suggests that specific factors may be influencing the transmission of Hepatitis B in mainland China. The greater number of cases during the winter months could be attributed to factors such as increased indoor gatherings, closer interpersonal contact, and decreased immune system function due to colder weather. Conversely, the lower number of cases during the summer months could be attributed to factors including increased outdoor activities, improved immune system function, and reduced opportunities for transmission.
+- There has been a general decrease in the number of Hepatitis B cases in China from 2010 to 2023, with minor fluctuations.<br/>
+- Despite some spikes such as in March and August 2023 with 126,932 and 138,875 cases respectively, the overall trend suggests effective disease control methods.<br/>
+- Mortality rates have remained relatively low throughout all years, signifying good patient management.<br/>
+- As of September 2023, the situation appears to be under control with a decline in the number of cases and deaths (123,495 and 20, respectively).<br/>
 
-The overall decreasing trend in Hepatitis B cases indicates that efforts to prevent and control the disease may be yielding positive results. It is crucial to continue implementing preventive measures such as vaccination programs, public health education, and heightened hygiene practices to further alleviate the burden of Hepatitis B in mainland China.
+## Analysis
 
-It is important to note that there are negative values for cases reported in January and February 2013, as well as in January and February 2020. These anomalies in the data collection process or potential issues with data reporting should be thoroughly investigated and verified to ensure the accuracy of the data.
+### Cases Analysis
+The data indicates fluctuating numbers of Hepatitis B cases in Mainland China from January 2010 to September 2023. The lowest was in December 2022 with 59498 cases while the peak was noted in August 2023 with 138875 cases. Though there were some periods with decline, there is an overall upward trend in the later years, notably starting from 2016. This upward trajectory suggests an increased rate of transmission or possibly improved disease surveillance and diagnosis.
 
-In summary, the analysis of monthly Hepatitis B case data in mainland China before September 2023 reveals a consistent seasonal pattern, with peak periods occurring in the winter months and trough periods in the summer months. Moreover, there is an overall decreasing trend in the incidence of cases, indicative of progress in the prevention and control of Hepatitis B.
+### Deaths Analysis
+The death toll due to Hepatitis B varied from a low of 12 in May 2012 up to a high of 80 in January 2020. Despite minor fluctuations, the mortality remained relatively stable throughout the period. The number of deaths does not appear to directly correlate with the number of diagnoses, suggesting effective management of the disease. However, the fluctuations may indicate varying treatment success rates, the virulence of the virus, or other health interventions. Despite the steady mortality rate, the increasing caseload suggests an urgent need for effective disease prevention.

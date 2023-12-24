@@ -1,15 +1,18 @@
-Seasonal Patterns: 
-Based on the provided data, a clear seasonal pattern emerges in the number of Schistosomiasis cases in mainland China. The prevalence of cases is higher during the summer months (June, July, and August) and lower during the winter months (December, January, and February). This suggests a potential link between the transmission of Schistosomiasis and seasonal variables such as temperature and rainfall.
+## Introduction
 
-Peak and Trough Periods: 
-The peak period for Schistosomiasis cases in mainland China is observed during the summer, particularly in July and August. During these months, the number of cases reaches its maximum, ranging from 665 to 641. Conversely, the trough period for Schistosomiasis cases is observed in the winter, particularly in December and January, when the number of cases is at its lowest, ranging from 0 to 4.
+Schistosomiasis, also known as bilharzia, is a parasitic disease caused by trematode worms of the genus Schistosoma. Transmitted through exposure to freshwater contaminated by the worms' larvae, it primarily affects the urinary tract or intestines. People become infected when larval forms of the parasite, released by freshwater snails, penetrate the skin during contact with infested water. Chronic infection can lead to liver damage, kidney failure, infertility, or bladder cancer. Schistosomiasis is endemic in tropical and subtropical regions, with significant health impacts in some of the world's poorest communities.
 
-Overall Trends: 
-Overall, there is a fluctuating trend in the number of Schistosomiasis cases in mainland China leading up to September 2023. From 2010 to 2015, there is an increasing trend in the number of cases, with a substantial spike in 2015, reaching its peak at 10,481 cases. However, starting in 2016, there is a decreasing trend in the number of cases, with occasional fluctuations. It is important to note that data for 2023 is only available until September, so the overall trend for the entire year remains unknown.
+## Highlights
 
-Discussion: 
-The observed seasonal patterns in the data suggest that Schistosomiasis transmission in mainland China is influenced by environmental factors that change throughout the year. The higher number of cases during the summer months may be attributed to increased water activities and contact with contaminated water sources, known risk factors for Schistosomiasis transmission. Conversely, the lower number of cases during the winter months may be due to reduced water activities and decreased exposure to the parasite.
+1. There has been a drastic decrease in the number of Schistosomiasis cases in mainland China from 2010 through 2023, indicating successful control measures.<br/>
+2. Significant peaks were observed in 2015 with a high of 10481 cases in November but then followed a sharp decline, probably due to large-scale interventions.<br/>
+3. Fatalities have remained extremely low, suggesting effective clinical management of detected cases.<br/>
+4. As of September 2023, the Schistosomiasis situation in China appears to be well under control, with a month average of under 10 cases and no reported deaths.
 
-The overall decreasing trend in the number of cases since 2016 is a positive development and can be attributed to successful control and prevention measures implemented in mainland China. These efforts may include interventions such as mass drug administration, snail control, health education, and improved sanitation and water supply systems. However, it is crucial to maintain monitoring and implement effective control measures to sustain this downward trend and further reduce the burden of Schistosomiasis in mainland China.
+## Analysis
 
-It is important to note that the provided data only includes information on the number of cases and deaths due to Schistosomiasis. To gain a more comprehensive understanding of the disease burden and trends, additional information such as population at risk, prevalence rates, and geographical distribution would be beneficial.
+### Cases Analysis
+From the provided dataset, we can deduce that schistosomiasis cases in mainland China fluctuate with high and low extremes. From 2010, there has been a steady rise in reported cases per month, peaking dramatically in 2015 with a high of 10481 cases in November. This surge was followed by a considerable decrease. By 2017, the numbers had drastically dropped to hundreds and tens, with a notable spike in October (3144 cases). However, since then, there has been an ongoing downward trend, with recent years, such as 2023, reporting single-digit cases.
+
+### Deaths Analysis
+The death toll due to Schistosomiasis in mainland China is relatively low respective to the number of reported cases. Out of the total reported cases from 2010 - 2023, deaths occurred in just 7 months. The highest number of deaths was reported in June 2012 with 3 fatalities. It can be concluded that a robust healthcare system and early diagnosis probably contributed to a low mortality rate, despite the significant number of infections in some years.

@@ -1,13 +1,18 @@
-Seasonal Patterns: 
-Based on the provided data, a clear seasonal pattern emerges regarding the number of cholera cases in mainland China. The majority of cases occur during the summer months, specifically from June to August. This aligns with the known transmission patterns of cholera, as the bacteria thrive in warm and humid conditions. During the winter months, from December to February, there is a decrease in the number of cases, with very few or even no cases reported.
+## Introduction
 
-Peak and Trough Periods: 
-The peak period for cholera cases in mainland China is typically observed in August, with a significant increase in the number of cases. This can be attributed to a combination of favorable environmental conditions and heightened human activities during the summer, such as travel and outdoor gatherings. Conversely, the trough period occurs during the winter months, specifically from December to February, when the number of cases reaches its lowest point.
+Cholera is an acute intestinal infection caused by ingesting food or water contaminated with the bacterium Vibrio cholerae. It is characterized by watery diarrhea, vomiting, and leg cramps, which can lead to severe dehydration and death if untreated. The disease is most commonly spread in areas with inadequate water treatment, poor sanitation, and hygiene practices. Cholera is endemic in many countries and can lead to large-scale outbreaks. Prevention relies on access to clean water, proper sanitation, and education about hygiene practices, along with oral cholera vaccines in high-risk populations.
 
-Overall Trends: 
-Overall, the number of cholera cases in mainland China exhibits a fluctuating trend before October 2023. The cases vary from year to year, with certain years reporting higher case counts than others. However, there is no distinct upward or downward trend evident in the data.
+## Highlights
 
-Discussion: 
-The observed seasonal patterns in the data indicate that environmental factors, particularly temperature and humidity, influence cholera transmission in mainland China. The peak in cases during the summer months underscores the importance of implementing preventive measures, such as improved sanitation and hygiene practices, during this period to mitigate the risk of cholera outbreaks. The decrease in cases during the winter months can be attributed to less conducive environmental conditions for the survival of cholera bacteria.
+- There is a seasonal trend in Cholera cases in mainland China, with peaks generally appearing during the summer months (June - September).<br/>
+- The overall number of cases has noticeably decreased over the years, indicating improved public health measures and infrastructural improvements.<br/>
+- Despite fluctuations, it is noteworthy that the number of Cholera deaths remained consistently low, suggesting a high rate of successful treatment and survival.<br/>
+- As for September 2023, there were 9 new cholera cases in mainland China, with no deaths recorded, but vigilance is required as this is typically a period of increased disease incidence.
 
-It is important to note that the data provided solely covers the period before October 2023. Further analysis and monitoring of cholera cases in mainland China beyond this timeframe are necessary to assess any long-term trends or changes in the disease's epidemiology. Additionally, a comprehensive understanding of cholera transmission in mainland China would benefit from analyzing other factors, such as geographical distribution and population demographics.
+## Analysis
+
+### Cases Analysis
+Analysis of the Cholera data in mainland China from 2010 to 2023 shows cyclic trends in cases, with peaks normally occurring in mid-year. These trend patterns hint at a seasonal cycle where warmer periods could propagate the spread of the bacterium causing cholera. While periodic spikes in cases, up to 63 in August 2010, are observed, the overall trend suggests a steady decrease in instances over time. Interestingly, cases seem to experience a pervasive decline after 2016, demonstrated by consistent single-digit figures in monthly cases, with a few exceptions. The reduction might be attributed to improved sanitation and preventive health measures.
+
+### Deaths Analysis
+Despite the fluctuating trend in cholera cases, the reported deaths remain strikingly low throughout the evaluated period. The mainland China data documents only two deaths over the 13-year interval, occurring in July and September 2013. This could indicate successful prompt medical intervention and treatment in reported cases. The maintained low mortality rate, despite the varying incidence of cases, underscores the efficacy of China's health system in managing cholera. It might also reflect extensive public health campaigns, improvements in water safety, and more widespread use of oral cholera vaccines.

@@ -12,16 +12,50 @@ from reportlab.lib.enums import TA_CENTER, TA_LEFT
 from reportlab.platypus import SimpleDocTemplate, Table, Spacer, Paragraph, PageBreak
 from reportlab.lib.styles import getSampleStyleSheet
 from reportlab.lib import colors
+from PyPDF2 import PdfMerger, PdfReader
+from reportlab.lib.utils import ImageReader
 import datetime
 import os
 import re
 import markdown
 
-from report_fig import prepare_disease_data, plot_disease_data, plot_disease_heatmap
-from report_text import openai_single, openai_analysis
+from report_fig import prepare_disease_data
+from report_text import openai_single, openai_analysis, bing_analysis, update_markdown_file
+
+def create_report(disease_order):
+    """
+    This function is used to merge created pdf files into one pdf file.
+
+    Parameters:
+    - disease_order (list): the order of diseases
+    """
+
+    filenames = [f"./temp/{disease}.pdf" for disease in disease_order]
+    merger = PdfMerger()
+    merger.append("./temp/cover.pdf")
+    merger.append("./temp/cover_summary.pdf")
+    # Loop through all the filenames and merge them
+    for filename in filenames:
+        try:
+            # Open the PDF file and append it to the merger
+            with open(filename, 'rb') as pdf_file:
+                merger.append(pdf_file)
+        except FileNotFoundError:
+            print(f"File {filename} not found. Skipping.")
+        except Exception as e:
+            print(f"An error occurred while merging {filename}: {e}")
+
+    # Write out the merged PDF to a new file
+    output_filename = "./temp/Report.pdf"
+    with open(output_filename, 'wb') as output_pdf:
+        merger.write(output_pdf)
+
+    merger.close()
+    return output_filename
 
 def create_report_page(df,
                        disease_name,
+                       analysis_YearMonth,
                        report_date,
                        page_number,
                        page_total,
@@ -33,6 +67,7 @@ def create_report_page(df,
     Parameters:
     - df: the dataframe of disease data
     - disease_name: the name of disease
+    - 
     - report_date: the date of report, format: "June 2023"
     - page_number: the number of page
     - page_total: the total number of page
@@ -41,77 +76,79 @@ def create_report_page(df,
     - foot_left_content: the content of left footer, format: "Page 1 of 1"
     """
 
-    # create figure1 and figure2 of report
+    # prepare data
     disease_data = prepare_disease_data(df, disease_name)
-    plot_disease_data(disease_data, disease_name)
-    plot_disease_heatmap(disease_data, disease_name)
     table_data_str = disease_data[['YearMonth', 'Cases', 'Deaths']].to_markdown(index=False)
 
-    # generate introduction content
-    introduction_box_content = openai_single('gpt-4',
-                                              'gpt-3.5-turbo',
-                                              f"Give a brief introduction to {disease_name}, not give any comment (words limit 90 - 100 words).", 
-                                              "Introduction",
-                                              disease_name)
-    # introduction_box_content = "testinfo"
-    highlights_box_content = openai_single('gpt-4',
-                                            'gpt-3.5-turbo',
-                                            f"""Analyze below reported data for {disease_name} in mainland, China,
-                                            Please briefly list several epidemiologist furthers people should notice,
-                                            no only trends, but also the situation of the disease in {report_date},
-                                            only list highlight like below format:
+    
+    pdfmetrics.registerFont(TTFont('Helvetica', './WeeklyReport/font/Helvetica.ttf'))
+    pdfmetrics.registerFont(TTFont('Helvetica-Bold', './WeeklyReport/font/Helvetica-Bold.ttf'))
 
-                                            1. Highlight content.<br/>2. Highlight content.</br>......
-                                            (words limit 110 - 120 words).
-                                            
-                                            This the data for {disease_name} in mainland, China:
-                                            {table_data_str}""",
-                                            "Highlights",
-                                            disease_name)
+    # generate introduction content
+    introduction_box_content = openai_single(
+        os.environ['REPORT_INTRODUCTION_CREATE'],
+        os.environ['REPORT_INTRODUCTION_CHECK'],
+        f"Give a brief introduction to {disease_name}, not give any comment (words limit 90 - 100 words).", 
+        "Introduction",
+        disease_name
+        )
+    update_markdown_file(disease_name, "Introduction", introduction_box_content, analysis_YearMonth)
+    # introduction_box_content = "testinfo"
+
+    highlights_box_content = openai_single(
+        os.environ['REPORT_HIGHLIGHTS_CREATE'],
+        os.environ['REPORT_HIGHLIGHTS_CHECK'],
+        f"""Analyze the provided data for {disease_name} in mainland China
+        and provide a brief summary of key epidemiological trends and the current disease situation as of {report_date}.
+        The summary should be formatted as a list of highlights (3-4 elements), each one followed by a line break <br/>.
+        The word count should be between 100 and 110 words. Here is the data for {disease_name} in mainland China: {table_data_str}""",
+        "Highlights",
+        disease_name
+        )
+    update_markdown_file(disease_name, "Highlights", highlights_box_content, analysis_YearMonth)
     # highlights_box_content = "testinfo"
 
-    analy_box_content = openai_single('gpt-4',
-                                      'gpt-3.5-turbo',
-                                      f"""Analyze below reported data for {disease_name} in mainland, China,
-                                      Please provide a brief analysis for {disease_name} of the data, like below format:
-                                      ### Cases Analysis
-                                      ......
-                                      ### Deaths Analysis
-                                      ......
-                                      (The word count for each parts limit 110-120 words.)
-                                      This the data for {disease_name} in mainland, China:
-                                      {table_data_str}""",
-                                      "Analysis",
-                                      disease_name)
+    analy_box_content = openai_single(
+        os.environ['REPORT_ANALYSIS_CREATE'],
+        os.environ['REPORT_ANALYSIS_CHECK'],
+        f"""Provide a concise analysis of the reported data for {disease_name} in mainland China, following the format below:
+        ### Cases Analysis
+        ...... (Word count: 100-110 words)
+        ### Deaths Analysis
+        ...... (Word count: 100-110 words)
+        Here is the data for {disease_name} in mainland China:
+        {table_data_str}""",
+        "Analysis",
+        disease_name
+        )
+    update_markdown_file(disease_name, "Analysis", analy_box_content, analysis_YearMonth)
     # analy_box_content = "### Cases Analysis\n\n testinfo ### Deaths Analysis\n\n testinfo"
-
     cases_box_content = analy_box_content.split("### Cases Analysis")[1].split("### Deaths Analysis")[0]
     death_box_content = analy_box_content.split("### Deaths Analysis")[1]
 
     foot_left_content = f"Page {page_number} of {page_total}"
+    add_disease(disease_name,
+                report_date, 
+                introduction_box_content,
+                highlights_box_content,
+                cases_box_content,
+                death_box_content,
+                foot_left_content,
+                links_app,
+                links_web)
 
-    create_report_disease(disease_name,
-                          report_date, 
-                          introduction_box_content,
-                          highlights_box_content,
-                          cases_box_content,
-                          death_box_content,
-                          foot_left_content,
-                          links_app,
-                          links_web)
-
-def create_report_disease(set_disease_name,
-                          set_report_date, 
-                          introduction_box_content,
-                          highlights_box_content,
-                          incidence_box_content,
-                          death_box_content,
-                          foot_left_content,
-                          links_app,
-                          links_web,
-                          info_box_content = '<font color="red"><b>' + "IMPORTANT: The text in boxs is generated automatically by ChatGPT. " + '</b></font>', 
-                          foot_right_content = "All rights reserved.",
-                          set_report_title = "Chinese Notifiable Infectious Diseases Surveillance Report"):
+def add_disease(set_disease_name,
+                set_report_date, 
+                introduction_box_content,
+                highlights_box_content,
+                incidence_box_content,
+                death_box_content,
+                foot_left_content,
+                links_app,
+                links_web,
+                info_box_content = '<font color="red"><b>' + "IMPORTANT: The text in boxs is generated automatically by ChatGPT. " + '</b></font>', 
+                foot_right_content = "All rights reserved.",
+                set_report_title = "Chinese Notifiable Infectious Diseases Surveillance Report"):
     # setting function description
     """
     This function is used to generate pdf report page for single disease.
@@ -255,9 +292,7 @@ def create_report_disease(set_disease_name,
             c.drawImage(image_path, new_x, new_y, new_width, new_height, mask='auto')
             c.linkURL(url=box_links[i], rect=(x + 10, y + 10, x + 10 + width - 20, y + 10 + height - 30))
         elif box_titles[i] is not None:
-            content = content.replace('<br/>', 'BR_TAG_PLACEHOLDER')
-            content = re.sub('<.*?>', '', content)
-            content = content.replace('BR_TAG_PLACEHOLDER', '<br/>')
+            content = content_clean(content)
             para = Paragraph(content, styles['Normal'])
             para.wrapOn(c, width - 15, height - 30)
             para.drawOn(c, x + 10, y + height - para.height - 20)
@@ -297,25 +332,100 @@ def create_report_disease(set_disease_name,
     c.showPage()
     c.save()
 
-    # remove figure1 and figure2
-    os.remove(f"./temp/{set_disease_name} figure1.png")
-    os.remove(f"./temp/{set_disease_name} figure2.png")
-    os.remove(f"./temp/{set_disease_name} figure2_1.png")
-    os.remove(f"./temp/{set_disease_name} figure2_2.png")
-
     print(f"{set_disease_name} report is generated successfully!")
 
+def create_report_cover(analysis_MonthYear):
+    """
+    This function is used to generate pdf report cover.
 
-def create_report_summary(table_data, change_data, df_10, analysis_MonthYear):
+    Parameters:
+    - analysis_MonthYear (str): the date of report, format: "June 2023"
+    """
+
+    # create pdf
+    pdf_filename =  f"./temp/cover.pdf"
+    c = canvas.Canvas(pdf_filename, pagesize=A4)
+
+    # define page size
+    page_width, page_height = A4
+    styles = getSampleStyleSheet()
+
+    # add background image
+    image_path = './temp/cover.jpg'
+    image = ImageReader(image_path)
+    iw, ih = image.getSize()
+    scale_w = page_width / iw
+    scale_h = page_height / ih
+    scale = max(scale_w, scale_h)
+    new_width = iw * scale
+    new_height = ih * scale
+    new_x = (page_width - new_width) / 2
+    new_y = (page_height - new_height) / 2
+    c.drawImage(image_path, new_x, new_y, new_width, new_height, mask='auto')
+
+    # define project location
+    project_box_x = 20
+    project_box_y = page_height - 50
+    project_text_color = colors.white
+    project_font_sizes = 10
+    project_font_family = 'Helvetica-Bold'
+
+    # dram project
+    c.setFont(project_font_family, project_font_sizes)
+    c.setFillColor(project_text_color)
+    c.drawString(project_box_x, project_box_y, "CNIDS: Chinese Notifiable Infectious Diseases Surveillance Project")
+
+    # define title location
+    title_box_x = 20
+    title_box_y = 650
+    title_text_color = colors.white
+    title_font_sizes = 28
+    title_font_family = 'Helvetica-Bold'
+
+    # draw title
+    text = ["Chinese Notifiable Infectious Diseases", 
+            "Surveillance Report",
+            analysis_MonthYear]
+    position = [(title_box_x, title_box_y),
+                (title_box_x, title_box_y - 40),
+                (title_box_x, title_box_y - 80)]
+    c.setFont(title_font_family, title_font_sizes)
+    c.setFillColor(title_text_color)
+    for i, line in enumerate(text):
+        c.drawString(position[i][0], position[i][1], line)
+
+    # define author location
+    author_box_x = 20
+    author_box_y = 90
+    author_text_color = colors.white
+    author_font_sizes = 10
+    author_font_family = 'Helvetica'
+
+    # draw author
+    datenow = datetime.datetime.now()
+    datenow = datenow.strftime("%Y-%m-%d")
+    text = ["Automaticly Generate by Python and ChatGPT",
+            "Power by: Github Action",
+            "Design by: Kangguo Li",
+            f"Generated Date: {datenow}",
+            os.environ['cite']]
+    styles.add(ParagraphStyle(name='covernormal', parent=styles['Normal'],
+                              fontSize=author_font_sizes, textColor=author_text_color, fontName=author_font_family))
+    for i, line in enumerate(text):
+        para = Paragraph(line, styles["covernormal"])
+        para.wrapOn(c, page_width - 40, 20)
+        para.drawOn(c, author_box_x, author_box_y - i * 15)
+
+    # save pdf
+    c.showPage()
+    c.save()
+
+# create_report_cover("September 2023")
+
+def create_report_summary(table_data, table_data_str, analysis_MonthYear, legend, file_name = "cover_summary"):
 
     elements = []
     analysis_MonthYear = analysis_MonthYear
-    doc = SimpleDocTemplate("./temp/cover_summary.pdf",
-                            pagesize=A4,
-                            topMargin=20,
-                            leftMargin=20,
-                            rightMargin=20,
-                            bottomMargin=0)
 
     # setting style
     styles = getSampleStyleSheet()
@@ -323,79 +433,186 @@ def create_report_summary(table_data, change_data, df_10, analysis_MonthYear):
     styles.add(ParagraphStyle(name='Notice', parent=styles['Normal'], fontSize=14, textColor=colors.red, alignment=TA_CENTER, borderWidth=3))
     styles.add(ParagraphStyle(name="Cite", alignment=TA_LEFT, fontSize=10, textColor=colors.gray))
     styles.add(ParagraphStyle(name="Author", alignment=TA_LEFT, fontSize=10, textColor=colors.black))
-    styles.add(ParagraphStyle(name='Center', alignment=TA_CENTER, fontName='Helvetica-Bold', fontSize=18, textColor=colors.white))
+    styles.add(ParagraphStyle(name='Center', alignment=TA_CENTER, fontName='Helvetica-Bold', fontSize=14, textColor=colors.white))
+    styles.add(ParagraphStyle(name='Hed0', fontSize=16, alignment=TA_LEFT, borderWidth=3, textColor=colors.HexColor("#1E5E84")))
     styles.add(ParagraphStyle(name='foot', fontName='Helvetica', fontSize=10, textColor=colors.black))
     styles.add(ParagraphStyle(name='pg', fontName='Helvetica', fontSize=8, textColor=colors.HexColor("#606060")))
+    styles.add(ParagraphStyle(name='break', fontName='Helvetica', fontSize=10, textColor=colors.darkred))
+    styles.add(ParagraphStyle(name='TOC', fontName='Helvetica-Bold', fontSize=10, textColor=colors.navy, alignment=TA_LEFT, leading=20))
+    
+    pdfmetrics.registerFont(TTFont('Helvetica', './WeeklyReport/font/Helvetica.ttf'))
+    pdfmetrics.registerFont(TTFont('Helvetica-Bold', './WeeklyReport/font/Helvetica-Bold.ttf'))
 
-    # add cover
-    elements = add_cover(elements, styles, analysis_MonthYear)
+
+    # add table of content
+    disease_order = table_data['Diseases'][:-1].tolist()
+    elements = add_toc(elements, disease_order, styles)
     # add table
-    elements = add_table(elements, table_data, change_data, analysis_MonthYear, styles)
+    elements = add_table(elements, table_data, analysis_MonthYear, styles)
     # add monthly analysis
-    table_data_str = df_10.to_markdown(index=False)
-    analysis_cases = openai_analysis('gpt-4-32k', 'gpt-3.5-turbo',
-                                      f"""Analyze the monthly cases of different diseases in mainland China. Provide a deeply and comprehensive analysis of the current situation.
-                                      You need to pay attention: select noteworthy diseases, not all diseases. Using below format:
-                                      <b>disease name:</b> analysis content<br/><br/> <b>disease name:</b> analysis content<br/><br/>.....
+    analysis_content = openai_analysis(os.environ['REPORT_ABSTRACT_CREATE'],
+                                       os.environ['REPORT_ABSTRACT_CHECK'],
+                                      f"""Craft an epidemiological report analyzing the prevalence and impact of various diseases in mainland China for the specified month and year, {analysis_MonthYear}.
+                                      The report should not only focus on diseases with a high incidence but also those that are of public concern. 
+                                      The report should be between 1000 and 1200 words, structured as follows:
+                                      <b>Overview:</b> <br/> 2 paragraphs to analysis cases and deaths, respectively. <br/>
+                                      <b>Concerns:</b> <br/> 1 paragraphs to analysis high incidence disease and public concern, respectively. <br/>
+                                      <b>Limitations:</b> <br/> 2-3 paragraphs to analysis the limitations of the data. <br/>
+                                      <b>Recommendations:</b> <br/> 2-3 paragraphs to provided the recommendations for the public.
                                       
-                                      This the data:
-                                      {table_data_str}""",
+                                      Use the provided data (Cases/Deaths) to support the analysis.
+                                      {table_data_str}.
+                                      {legend}""",
                                       4096)
-    # table_data_str = table_data.to_markdown(index=False)
-    # analysis_content = openai_analysis('gpt-4-32k', 'gpt-3.5-turbo',
-    #                                   f"""Analyze the monthly cases and deaths of different diseases in mainland China for {analysis_MonthYear}. Provide a deeply and comprehensive analysis of the data.
-    #                                   You need to pay attention: select noteworthy diseases, not all diseases and using below format:
-    #                                   <b>disease name:</b> analysis content<br/><br/> <b>disease name:</b> analysis content<br/><br/>.....
-                                      
-    #                                   This the data for {analysis_MonthYear} in mainland, China:
-    #                                   {table_data_str}""",
-    #                                   4096)
-    # analysis_content = """**Prevalence**: this is test information"""
-    # analysis_content = markdown.markdown(analysis_content)
+    # analysis_content = 'test'
+    analysis_content = re.sub(r'h[1-5]>', 'b>', analysis_content)
+    analysis_content = content_clean(analysis_content)
     elements = add_analysis(elements, analysis_content, styles)
+    # add table legend
+    elements = add_legend(elements, legend, styles)
+    # add new page
+    bing_content = bing_analysis(os.environ['REPORT_NEWS_CREATE'],
+                                 os.environ['REPORT_NEWS_CLEAN'],
+                                 os.environ['REPORT_NEWS_CHECK'],
+                                  f"""Conduct a comprehensive yet concise search and summarize infectious disease events in mainland China since {analysis_MonthYear}. 
+                                  The summary should be structured as follows:
+                                  <b>Summary</b>:
+                                  (Provide an overall summary of the infectious disease events)
+                                  <b>Outbreaks of Known Diseases:</b>
+                                  (Detail the outbreaks of known diseases during this period)
+                                  <b>Emergence of Novel Pathogens:</b>
+                                  (Discuss any new pathogens that have emerged)
+                                  """)
+    # bing_content = "test"
+    bing_content = re.sub(r'h[1-5]>', 'b>', bing_content)
+    bing_content = content_clean(bing_content)
+    elements = add_news(elements, bing_content, analysis_MonthYear, "in Chinese Mainland", styles)
 
-    # build
-    doc.multiBuild(elements)
+    bing_content = bing_analysis(os.environ['REPORT_NEWS_CREATE'],
+                                  os.environ['REPORT_NEWS_CLEAN'],
+                                 os.environ['REPORT_NEWS_CHECK'],
+                                  f"""Conduct a comprehensive yet concise search and summarize infectious disease events globally since {analysis_MonthYear}. 
+                                  The summary should be structured as follows:
+                                  <b>Summary</b>:
+                                  (Provide an overall summary of the infectious disease events)
+                                  <b>Outbreaks of Known Diseases:</b>
+                                  (Detail the outbreaks of known diseases during this period)
+                                  <b>Emergence of Novel Pathogens:</b>
+                                  (Discuss any new pathogens that have emerged)
+                                  """)
+    # bing_content = "test"
+    bing_content = re.sub(r'h[1-5]>', 'b>', bing_content)
+    bing_content = content_clean(bing_content)
+    elements = add_news(elements, bing_content, analysis_MonthYear, "around world", styles)
 
-def add_cover(elements, styles, analysis_MonthYear):
-    cover_title = Paragraph("CNIDS: Chinese Notifiable Infectious Diseases Surveillance Project", styles['Subtitle'])
-    elements.append(cover_title)
-    elements.append(Spacer(30, 100))
+    # pre build
+    doc = SimpleDocTemplate(f"./temp/{file_name}.pdf",
+                            pagesize=A4,
+                            topMargin=20,
+                            leftMargin=20,
+                            rightMargin=20,
+                            bottomMargin=20)
+    elements_copy = elements.copy()
+    doc.build(elements_copy)
+    existing_pdf = PdfReader(f"./temp/{file_name}.pdf", 'rb')
+    custom_total_num = len(existing_pdf.pages) + len(disease_order) - 1
+    # build report
+    doc = SimpleDocTemplate(f"./temp/{file_name}.pdf",
+                            pagesize=A4,
+                            topMargin=20,
+                            leftMargin=20,
+                            rightMargin=20,
+                            bottomMargin=20)
+    # doc.build(elements)
+    doc.build(
+        elements,
+        onFirstPage=lambda canvas, doc: add_page_number(canvas, doc, custom_total_num),
+        onLaterPages=lambda canvas, doc: add_page_number(canvas, doc, custom_total_num)
+    )
 
-    cover_title = Paragraph("A Dynamic Surveillance Report of Notifiable Infectious Diseases Data in Mainland, China", styles['Title'])
-    elements.append(cover_title)
-    elements.append(Spacer(1, 12))
+    return custom_total_num
 
-    cover_title = Paragraph(analysis_MonthYear, styles['Title'])
-    elements.append(cover_title)
-    elements.append(Spacer(1, 12))
+def add_page_number(canvas, doc, total_num):
+    page_num = canvas.getPageNumber() - 1
+    text = f"Page {page_num} of {total_num}"
+    if page_num > 0:
+        canvas.saveState()
+        canvas.setFont('Helvetica', 8)
+        canvas.setFillColor(colors.HexColor("#606060"))
+        canvas.drawString(20, 8, text)
+        canvas.restoreState()
 
-    cover_title = Paragraph("NOTICE: The text in this report was generate by ChatGPT-3.5-turbo-16k for reference only.", styles['Notice'])
-    elements.append(cover_title)
-    elements.append(Spacer(1, 12))
+def content_clean(content):
+    content = content.replace('<br>', '<br/>').replace('\n', '<br/>')
+    content = re.compile(r'(?i)<(?!br\s*/?>|/?b>)[^>]+>').sub('', content)
+    content = re.compile(r'(?i)(<br\s*/?>)+').sub('<br/>', content)
+    content = re.compile(r'^(<br\s*/?>)+').sub('', content)
+    content = markdown.markdown(content)
+    return content
 
-    elements.append(Spacer(10, 270))
-
-    datenow = datetime.datetime.now()
-    datenow = datenow.strftime("%Y-%m-%d")
-    text = f"""Automaticly Generate by Python and ChatGPT<br/>
-    Power by: Github Action<br/>
-    Design by: Kangguo Li<br/>
-    Connect with me: <u><a href='mailto:lkg1116@outlook.com'>lkg1116@outlook.com</a></u><br/>
-    Generated Date: {datenow}<br/>
-    """
-    paragraphReportSummary = Paragraph(text, styles["Author"])
+def add_news(elements, content, analysis_MonthYear, location, styles):
+    title = f"News information since {analysis_MonthYear} {location}"
+    paragraphReportHeader = Paragraph(title, styles['Hed0'])
+    elements.append(paragraphReportHeader)
+    elements.append(Spacer(12, 12))
+    paragraphReportSummary = Paragraph(content, styles["Author"])
     elements.append(paragraphReportSummary)
-    elements.append(Spacer(1, 30))
-
-    text = os.environ['cite']
-    cover_citation = Paragraph(text, styles['Cite'])
-    elements.append(cover_citation)
     elements.append(PageBreak())
-
     return elements
 
-def add_table(elements, table_data, change_data, analysis_MonthYear, styles):
+def add_toc(elements, diseases_order, styles):
+    doc = SimpleDocTemplate(f"./temp/temp.pdf",
+                            pagesize=A4,
+                            topMargin=20,
+                            leftMargin=20,
+                            rightMargin=20,
+                            bottomMargin=0)
+    # add title
+    title = f'Chinese Notifiable Infectious Diseases Surveillance Report<br/><br/>IMPORTANT'
+    title = Paragraph(title, styles['Center'])
+    title_table = Table([[title]], colWidths=[doc.width], rowHeights=[80])
+    title_table.setStyle([
+        ('BACKGROUND', (0, 0), (-1, -1), colors.red),
+        ('ALIGN', (0, 0), (-1, -1), 'CENTER'),
+        ('VALIGN', (0, 0), (-1, -1), 'MIDDLE'),
+        ('TOPPADDING', (0, 0), (-1, -1), 0),
+        ('BOTTOMPADDING', (0, 0), (-1, -1), 0),
+        ('LEFTPADDING', (0, 0), (-1, -1), 0),
+        ('RIGHTPADDING', (0, 0), (-1, -1), 0),
+    ])
+    elements.append(title_table)
+    elements.append(Spacer(50, 12))
+    text = "The text in report is generated automatically by ChatGPT and Gemini."
+    paragraphReportSummary = Paragraph(text, styles["Notice"])
+    elements.append(paragraphReportSummary)
+
+    # # add links
+    # data = [[Paragraph('<a href="3">Report Summary</a>', styles['TOC']),
+    #          Paragraph('<a href="5">News Information</a>', styles['TOC'])]]
+    # link_list = list(range(7, 7 + len(diseases_order)))
+    # for i, disease in enumerate(diseases_order):
+    #     link = Paragraph(f'<a href="{link_list[i]}">{disease}</a>', styles['TOC'])
+    #     if i % 2 == 0:
+    #         data.append([link, ""])
+    #     else:
+    #         data[-1][1] = link
+    # if len(diseases_order) % 2 != 0:
+    #     data[-1].append(Paragraph("", styles['TOC']))
+    # # add table
+    # toc_table = Table(data, colWidths=[doc.width/2]*2)
+    # toc_table.setStyle([
+    #     ('VALIGN', (0, 0), (-1, -1), 'TOP'),
+    #     ('TOPPADDING', (0, 0), (-1, -1), 0),
+    #     ('LEFTPADDING', (0, 0), (-1, -1), 0),
+    #     ('RIGHTPADDING', (0, 0), (-1, -1), 0),
+    #     ('BOTTOMPADDING', (0, 0), (-1, -1), 0),
+    # ])
+    # elements.append(toc_table)
+    elements.append(PageBreak())
+        
+    return elements
+
+def add_table(elements, table_data, analysis_MonthYear, styles):
     doc = SimpleDocTemplate(f"./temp/temp.pdf",
                             pagesize=A4,
                             topMargin=20,
@@ -459,6 +676,10 @@ def add_table(elements, table_data, change_data, analysis_MonthYear, styles):
     table.setStyle(table_style)
 
     ## setting color fill
+    change_data = table_data.copy()
+    change_data = change_data[['Diseases', 'Cases', 'Deaths']]
+    change_data['Cases'] = change_data['Cases'].str.replace(',', '').astype(float)
+    change_data['Deaths'] = change_data['Deaths'].str.replace(',', '').astype(float)
     min_case = min(change_data['Cases'][:-1])
     max_case = max(change_data['Cases'][:-1])
     norm_case = mcolors.Normalize(vmin=min_case, vmax=max_case)
@@ -487,13 +708,20 @@ def add_table(elements, table_data, change_data, analysis_MonthYear, styles):
     return elements
 
 def add_analysis(elements, text, styles):
-    # md to html
-
     paragraphReportSummary = Paragraph(text, styles["Author"])
     elements.append(paragraphReportSummary)
-    elements.append(Spacer(1, 12))
+    elements.append(Spacer(12, 12))
 
     return elements
+
+def add_legend(elements, legend, styles):
+    elements.append(Spacer(36, 12))
+    legend = legend.replace('\ufeff', '')
+    paragraphReportSummary = Paragraph("<b>Notation from Data Source:</b><br/>" + legend, styles["break"])
+    elements.append(paragraphReportSummary)
+    elements.append(PageBreak())
+    return elements
+
 
 # Example usage:
 # disease_name = "Hand foot and mouth disease"
@@ -506,7 +734,7 @@ def add_analysis(elements, text, styles):
 # links_web = "https://github.com/xmusphlkg/CNID"
 # foot_left_content = "Page 1 of 1"
 
-# create_report_disease(disease_name, report_date, 
-#                       introduction_box_content, highlights_box_content,
-#                       incidence_box_content, death_box_content,
-#                       foot_left_content, links_app, links_web)
+# add_disease(disease_name, report_date, 
+#             introduction_box_content, highlights_box_content,
+#             incidence_box_content, death_box_content,
+#             foot_left_content, links_app, links_web)

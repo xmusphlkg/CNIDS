@@ -1,15 +1,19 @@
-Seasonal Patterns:
-Based on the provided data, there is evidence of a seasonal pattern in the number of Hepatitis E cases in mainland China. The number of cases tends to be higher between March and July, with a peak in March. Conversely, from August to February, the number of cases generally decreases and reaches its lowest point in December and January. This pattern indicates a seasonal variation in the transmission of Hepatitis E.
+## Introduction
 
-Peak and Trough Periods:
-The highest number of Hepatitis E cases in mainland China is reported in March, making it the peak period. Conversely, the lowest number of cases occurs in December and January, considered the trough period. These peak and trough periods demonstrate the seasonal fluctuations in the incidence of Hepatitis E.
+Hepatitis E is a liver disease caused by the hepatitis E virus (HEV), which can cause acute inflammation of the liver. The virus is typically transmitted via the fecal-oral route, through consumption of contaminated water or food. Although it often leads to a self-limiting illness, HEV can cause severe disease or a fulminant hepatic failure, particularly in pregnant women. There are four genotypes of HEV that infect humans, with geographical variations in prevalence. Currently, there is no specific treatment for hepatitis E, and prevention is primarily through improved sanitation and hygiene practices.
 
-Overall Trends:
-Overall, there is a fluctuating trend in the number of Hepatitis E cases in mainland China. From 2010 to 2013, there is an increasing trend in the number of cases, with a peak in 2011. However, from 2014 to 2016, there is a decreasing trend in the number of cases. After 2016, there is a slight increase, but the number of cases remains relatively stable. The overall trend suggests that the incidence of Hepatitis E has experienced fluctuations over the years, with periods of increase and decrease.
+## Highlights
 
-Discussion:
-The observed seasonal patterns in the data indicate that certain factors may influence the transmission of Hepatitis E in mainland China. The higher number of cases between March and July may be attributed to environmental factors, such as increased rainfall or temperature, which could favor the survival and transmission of the virus. Conversely, the lower number of cases during the winter months could be due to reduced exposure to the virus or changes in behavior, such as improved sanitation practices.
+- A steady decrease in the number of Hepatitis E cases in Mainland China was observed from 2010 to 2022, with sporadic peaks in between and a considerable dip in 2020 before a gradual increase in 2021 and 2023. <br/>
+- The death rate due to Hepatitis E is small and irregular, with no discernable pattern. The highest deaths of 6 in a month were observed in February 2010 and December 2017. <br/>
+- As of September 2023, there were about 2550 reported cases with zero death, indicating a controlled situation. <br/>
+- Despite the overall declining trend in cases, consistent vigilance and prevention measures are needed given sporadic increases.
 
-The overall trend in the number of cases suggests that the incidence of Hepatitis E in mainland China has fluctuated over the years. The increasing trend from 2010 to 2013 could be attributed to various factors, including changes in surveillance and reporting systems, increased awareness and testing, or changes in population susceptibility. The subsequent decrease in cases from 2014 to 2016 may be the result of interventions or natural fluctuations in the transmission dynamics of the virus.
 
-It is important to note that the provided data only includes cases and deaths up until October 2023. Further analysis and monitoring of the data beyond this period would be necessary to assess the long-term trends and potential impact of interventions on the incidence of Hepatitis E in mainland China.
+## Analysis
+
+### Cases Analysis 
+Hepatitis E cases in mainland China showed fluctuating patterns from 2010 to 2023. It's noteworthy that cases usually peaked in the first quarter of every year, especially in March. A significant decrease in cases was observed in 2020, likely due to stringent public health measures instituted due to the COVID-19 pandemic. However, the cases got back to previous numbers by the end of 2021.
+
+### Deaths Analysis
+The data indicates a relatively low fatality rate for Hepatitis E across these years. Peaks of deaths were not consistent and occurred at different intervals. The highest count of deaths was observed in February 2010, and December 2017, with 6 instances each. The low death counts throughout the reported period suggest a high survival rate, possibly due to early detection and effective treatment. Interestingly, no significant increase in deaths was observed during periods with higher case numbers.

@@ -1,5 +1,5 @@
 
-## 转换疾病名称到英文
+## Variables
 diseaseCode2Name = {
     'Plague': '鼠疫',
     'Cholera': '霍乱',

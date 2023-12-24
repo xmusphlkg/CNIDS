@@ -1,6 +1,6 @@
 
 from plotnine import *
-from PIL import Image, ImageOps
+from PIL import Image
 import pandas as pd
 import os
 import matplotlib
@@ -54,7 +54,7 @@ def plot_disease_data(disease_data, disease, output_folder="temp"):
     - output_folder: The output directory to save the figure.
     """
     # set font
-    font_manager.fontManager.addfont('./font/Helvetica.ttf')
+    font_manager.fontManager.addfont('./WeeklyReport/font/Helvetica.ttf')
     matplotlib.rcParams['font.family'] = 'Helvetica'
 
     # Create a figure with a single subplot
@@ -87,8 +87,7 @@ def plot_disease_data(disease_data, disease, output_folder="temp"):
     ax1.xaxis.set_major_formatter(years_fmt)
 
     # Ensure the output folder exists
-    if not os.path.exists(output_folder):
-        os.makedirs(output_folder)
+    os.makedirs(output_folder, exist_ok=True)
 
     # Save the figure
     disease_chart_path = os.path.join(output_folder, f"{disease} figure1.png")
@@ -156,9 +155,9 @@ def plot_disease_heatmap(disease_data, disease, output_folder="temp"):
 
     # combine two heatmap
     img1 = Image.open(os.path.join(output_folder, f"{disease} figure2_1.png"))
-    img1 = img1.crop((200, 10, img1.width-200, img1.height-10))
+    img1 = img1.crop((10, 10, img1.width-10, img1.height-10))
     img2 = Image.open(os.path.join(output_folder, f"{disease} figure2_2.png"))
-    img2 = img2.crop((200, 10, img2.width-200, img2.height-10))
+    img2 = img2.crop((10, 10, img2.width-10, img2.height-10))
 
     total_width = img1.width + img2.width
     max_height = max(img1.height, img2.height)

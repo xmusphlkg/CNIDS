@@ -1,15 +1,18 @@
-Seasonal Patterns: 
-Based on the provided data, there is evidence of a seasonal pattern in the incidence of tuberculosis cases in mainland China. The number of cases tends to be higher during the winter months (December to February) and lower during the summer months (June to August). This pattern persists across multiple years.
+## Introduction
 
-Peak and Trough Periods: 
-The peak period for tuberculosis cases in mainland China occurs during the winter months, particularly in January and February, when the number of cases is highest. Conversely, the trough period, representing the lowest point in case numbers, is observed during the summer months, with the lowest values typically recorded in July and August.
+Tuberculosis (TB) is a contagious infection primarily affecting the lungs, caused by the bacterium Mycobacterium tuberculosis. It can also impact other parts of the body, including the kidneys, spine, and brain. TB is typically spread through the air when a person with active respiratory disease coughs or sneezes. Many people can harbor the bacteria without symptoms, a condition known as latent TB. When the immune system weakens, latent TB can progress to active TB, which can be fatal if left untreated. Treatment involves a long-term regimen of antibiotics to fully eradicate the infection.
 
-Overall Trends: 
-In general, there has been a decreasing trend in the incidence of tuberculosis cases in mainland China from 2010 to September 2023. While case numbers fluctuate from year to year, there is an overall downward trend over time. It is worth noting, however, that there was a sudden decrease in reported cases in 2013, with negative values recorded for January and February. This anomaly may be attributed to issues with data reporting or other factors affecting data collection during that period.
+## Highlights
 
-Discussion: 
-The seasonal pattern of tuberculosis cases in mainland China, with higher numbers during the winter and lower numbers during the summer, aligns with the known transmission dynamics of the disease. Tuberculosis is an airborne illness, and factors such as increased indoor crowding and reduced ventilation during the winter months may contribute to higher transmission rates.
+- The data shows a general decrease in both TB cases and deaths in Mainland China from 2010 to 2023.<br/>
+- Despite the overall decline, there are noticeable seasonal spikes, particularly in the spring (March to May). It's possible that these increases could be linked to varying environmental factors or healthcare system variables.<br/>
+- Starting from 2022, while the number of TB cases continues to decline, death count starts to rise significantly, indicating an increased mortality rate. This needs further investigation for potential causes.<br/>
+- As of September 2023, the number of TB cases stands at 61,859 with 324 deaths reported, reflecting the continued trend of decreasing cases but an elevated death rate compared to earlier years.
 
-The overall decreasing trend in tuberculosis cases over the years is an encouraging indication of progress in disease control and prevention efforts in mainland China. This trend can be attributed to various factors, including improvements in healthcare infrastructure, enhanced access to diagnostic and treatment services, and the implementation of public health interventions such as vaccination and contact tracing.
+## Analysis
 
-Nevertheless, it is crucial to continue monitoring and addressing tuberculosis in mainland China, as the disease remains a significant public health concern. Emphasis should be placed on early detection, prompt treatment, and the strengthening of healthcare systems to ensure effective control and prevention of tuberculosis.
+### Cases Analysis
+Based on the provided data, tuberculosis cases in mainland China have shown a general decreasing trend over the observed period from January 2010 to September 2023. Peaks are regularly seen in March each year, suggesting seasonal variations. Nonetheless, the total cases reported from year to year have been steadily decreasing, possibly due to improvements in detection and treatment methods. In particular, a significant drop was observed in 2020, likely due to strict lockdown measures applied to control the COVID-19 pandemic which may have hindered tuberculosis transmission.
+
+### Deaths Analysis
+The numbers of deaths due to tuberculosis have remained relatively stable from 2010 to around 2019, despite the decreasing trend of total reported cases. This constancy could imply enduring problems in late diagnosis or treatment effectiveness. However, an unusual increase was observed starting from 2022, which may suggest possible issues within the healthcare system or a change in disease virulence. Further investigation is required to confirm and address these potential problems.

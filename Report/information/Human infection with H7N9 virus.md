@@ -1,46 +1,32 @@
-Human infection with the H7N9 virus, a subtype of avian influenza, was first identified in China in 2013. The emergence of H7N9 raised concerns due to its potential to cause severe illness and high fatality rate. This comprehensive overview aims to provide information on the global prevalence, transmission routes, affected populations, key statistics, historical context, discovery, risk factors, and the impact of H7N9 virus on different regions and populations.
+Human infection with the H7N9 virus is a type of avian influenza that was first reported in China in March 2013. Avian influenza viruses are categorized by two types of proteins on their surface: hemagglutinin (H) and neuraminidase (N). The H7N9 strain is of particular concern because it has shown the capability to cause severe respiratory illness and, in some cases, death in humans. Since its first detection, the epidemiology of H7N9 has been closely monitored by global and national health agencies.
 
-Epidemiology of H7N9 Virus Infection:
-1. Global Prevalence: Since its discovery in 2013, human cases of H7N9 infection have primarily been reported in China. However, a few imported cases have been detected outside of China, including Hong Kong, Taiwan, Canada, Malaysia, and the United States.
+**Global Prevalence:**
+Since 2013, cases of H7N9 have been predominantly reported in China, with the majority occurring in the Yangtze River Delta and Pearl River Delta regions. Despite concentrated efforts to control the virus, sporadic human cases and occasional outbreaks have occurred since the virus was first identified. The number of reported cases has varied over time, with noticeable peaks during the winter and spring months, coinciding with the flu season when the contact between humans and infected poultry is higher.
 
-2. Transmission Routes: The primary mode of H7N9 virus transmission is through direct contact with infected poultry, particularly in live poultry markets. Human-to-human transmission of the H7N9 virus is limited and has mainly been observed among close household contacts of infected individuals.
+**Transmission Routes:**
+The primary route of transmission of H7N9 from birds to humans is through direct exposure to infected live poultry or contaminated environments, such as live bird markets. Human-to-human transmission is considered rare; however, there have been some family clusters reported, suggesting limited person-to-person transmission when there is close and prolonged contact. There is no evidence that the H7N9 virus can be transmitted to humans through properly cooked poultry products.
 
-3. Affected Populations: H7N9 infection primarily affects individuals who have direct or indirect contact with poultry, such as workers in live poultry markets, poultry farmers, and those with exposure to contaminated environments. Most reported cases have occurred in older adults (average age 58 years) with underlying medical conditions, such as diabetes, chronic respiratory diseases, or immunosuppression. While children are comparatively less affected, cases have been reported in all age groups.
+**Affected Populations:**
+The majority of reported cases have been among people who have had contact with live poultry or visited live poultry markets. This has included individuals working in the poultry industry, such as farmers and market workers, as well as customers of these markets. Middle-aged and older adults have been more frequently affected, but cases have been reported in a range of age groups.
 
-4. Key Statistics: As of February 2021, a total of 1,568 laboratory-confirmed cases of H7N9 infection have been reported globally, with a fatality rate of approximately 39%. The majority of cases have occurred in mainland China, with only a few cases reported in other countries.
+**Key Statistics:**
+The fatality rate for H7N9 cases has varied, but severe illness leading to hospitalization has been common among reported cases. Among those infected, the World Health Organization (WHO) has reported case fatality rates of around 30-40%, making it one of the more deadly strains of avian influenza for humans.
 
-Historical Context and Discovery:
-The first cases of human infection with the H7N9 virus were reported in China in March 2013. These cases were initially identified in Shanghai and later spread to several other provinces in eastern China. The rapid detection and identification of the virus were made possible by the strengthening of China's surveillance systems following the H5N1 avian influenza outbreak in 2003.
+**Historical Context and Discovery:**
+The first documented cases of human infection with H7N9 virus were reported in China in early 2013. The virus was initially detected when patients developed severe respiratory infections of unknown cause. Subsequent investigations traced the infection back to poultry markets.
 
-Risk Factors Associated with H7N9 Transmission:
-1. Direct or Indirect Contact with Poultry: The primary risk factor for H7N9 transmission is close contact with infected poultry or contaminated environments in live poultry markets or poultry farms. Individuals working in the poultry industry have a higher risk of infection.
+**Major Risk Factors:**
+- Contact with live poultry, especially in markets where they might be kept in unhygienic conditions.
+- Exposure to environments contaminated with the virus, including surfaces and air in live bird markets.
+- Unsuitable handling and slaughtering practices that may lead to exposure to infected birds.
+- Lack of proper personal protective equipment for those in contact with live poultry.
+- Undercooked poultry or contaminated food products.
 
-2. Low Awareness and Protective Measures: Individuals with limited awareness of preventive measures, such as proper hand hygiene, use of personal protective equipment, and avoidance of live poultry markets, are at a higher risk of H7N9 infection.
+**Regional and Population Impact:**
+The impact of H7N9 has been specifically significant in China due to the cultural and economic importance of live poultry markets, the proximity of birds and humans, and the large poultry population. Some neighboring countries have raised concerns and increased surveillance, but few cases have been reported outside of China. 
 
-3. Underlying Medical Conditions: Individuals with pre-existing medical conditions, especially diabetes, chronic respiratory diseases, cardiovascular diseases, and immunosuppression, are more susceptible to severe illness and complications from H7N9 infection.
+Variations in prevalence are largely attributed to differing practices in the poultry industry, the effectiveness of live poultry market closures, and public health interventions such as culling of infected birds, market sanitation, and public awareness campaigns.
 
-Impact on Different Regions and Populations:
-The impact of the H7N9 virus varies across regions and populations. Mainland China has observed the highest number of cases and fatalities. Prevalence rates have been higher in provinces with intensive poultry production and live poultry markets. The elderly population and individuals with underlying medical conditions have experienced higher mortality rates compared to healthier individuals.
+The prevalence and impact on demographics in the affected regions can be correlated with occupational exposure to poultry and culturally ingrained practices of purchasing and handling live birds. For example, older adults may be overrepresented because they are more often involved in the buying of fresh poultry from live bird markets.
 
-Outside of China, imported cases have been reported, but human-to-human transmission has been limited, resulting in a lesser impact on other regions. Timely detection, surveillance, and public health interventions have contributed to preventing widespread outbreaks in these areas.
-
-In summary, the H7N9 virus primarily affects individuals with close contact with infected poultry, and human-to-human transmission is limited. The virus has had a significant impact on China, particularly with high fatality rates among older adults and those with underlying medical conditions. Public health efforts and increased awareness of preventive measures remain crucial in controlling the spread of H7N9 infection and mitigating its impact.
-## Introduction
-
-Human infection with H7N9 virus refers to a type of avian influenza infection that humans can contract from exposure to infected poultry or contaminated environments. The virus emerged in China in 2013, causing severe respiratory illnesses in humans, frequently progressing to pneumonia or acute respiratory distress syndrome. Human-to-human transmission is rare, but when it occurs, it raises public health concerns due to historical pandemic outcomes. No vaccines for general public use are currently available, making prevention efforts critical.
-
-
-## Highlights
-
-1. There has been a significant decline in the number of H7N9 virus cases since 2017 with zero cases reported since 2020.<br/>2. The fatality rate varied over the years, with the highest being in 2017, but has also dropped to zero since 2020.<br/>3. As of September 2023, no new cases or deaths have been reported, indicating successful control over the disease.<br/>4. Despite no current cases, maintaining surveillance is crucial considering the past volatility and potential resurgence.
-
-## Analysis
-
-### Cases Analysis
-
-The data shows that cases of Human infection with H7N9 virus in mainland China peaked in the early part of 2014, with a significant surge in late 2016 and early 2017. Following 2017, the data indicates a rapid decline in the number of cases, becoming virtually non-existent by 2019 onwards. The spike in January 2014, January and February 2017 suggest H7N9 has potential seasonality, as these are winter months and many viruses, including influenza strains, exhibit winter seasonality.
-
-
-### Deaths Analysis
-
-Deaths from the H7N9 virus follow a similar pattern with highest number of deaths in early 2014 and again in early 2017, concurrent with the peak cases. The case fatality rate (CFR), calculated as deaths/cases, however, seems to have been relatively high, meaning a significant proportion of those infected with the virus unfortunately died from it. Similar to cases, the number deaths dramatically reduced post-2018 and no deaths were reported after April 2019.
+Overall, the epidemiology of human infection with H7N9 virus requires continuous surveillance and aggressive public health measures to prevent the virus from becoming more widespread. This includes close monitoring of poultry markets, ongoing research into the virology of H7N9, vaccine development, and public health education campaigns to minimize high-risk behaviors associated with transmission.

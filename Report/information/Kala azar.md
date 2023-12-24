@@ -1,39 +1,36 @@
-Kala azar, also known as Visceral Leishmaniasis (VL), is a neglected tropical disease caused by the parasite Leishmania donovani. It is prevalent in South Asia, East Africa, and South America, primarily affecting impoverished and marginalized communities in remote and rural areas with limited healthcare access.
+Kala-azar, also known as visceral leishmaniasis (VL), is a parasitic disease caused by protozoan parasites of the Leishmania genus. The disease is transmitted to humans by the bite of infected female phlebotomine sandflies. It primarily affects the visceral organs, such as the liver, spleen, and bone marrow.
 
-Historically, Kala azar has been recognized in India and other endemic regions for centuries. Early accounts from the 19th century describe symptoms resembling visceral leishmaniasis. However, it was not until 1903 that the causative parasite, Leishmania donovani, was identified by Sir William Leishman, a British bacteriologist working in India. The disease acquired its name "Kala azar" from Hindustani, meaning "black fever," in reference to the grayish discoloration of the patient's skin.
+**Global Prevalence and Distribution:**
+Kala-azar has a widespread global distribution but is most prevalent in tropical and subtropical regions, occurring in more than 80 countries. The highest burden is in East Africa, the Indian subcontinent, and Brazil. Populations in Bangladesh, India, Nepal, South Sudan, Sudan, Ethiopia, and Brazil account for more than 90% of global VL cases.
 
-Kala azar is endemic in approximately 65 countries worldwide, with India, Bangladesh, Nepal, Sudan, South Sudan, and Brazil accounting for the majority of cases. These countries represent around 90% of reported global cases. However, there is a potential for outbreak and the disease can affect other regions under specific circumstances.
+**Transmission Routes:**
+The two main transmission routes for Kala-azar are anthroponotic and zoonotic:
+1. *Anthroponotic*: Human beings are the only significant reservoir, and transmission occurs directly from person to person via the sandfly vector. This is the predominant mode in the Indian subcontinent.
+2. *Zoonotic*: Domestic animals, particularly dogs, and wild animals serve as reservoirs for the disease, with transmission to humans occurring through sandfly bites. This form is common in East Africa, parts of Europe, and Brazil.
 
-The primary mode of transmission for Kala azar is through the bite of infected female sand flies belonging to the Phlebotomus genus (such as Phlebotomus argentipes and Phlebotomus orientalis) in the Indian subcontinent and the Lutzomyia genus (such as Lutzomyia longipalpis) in the Americas. These sand flies acquire the parasite by biting an infected human or animal reservoir.
+**Affected Populations:**
+Certain socioeconomic and environmental conditions heighten the risk of VL. The populations most affected tend to live in rural areas, in poverty, and with limited access to healthcare and preventive measures. The disease also shows a seasonal pattern coinciding with the activity of sandflies.
 
-Kala azar affects both children and adults, although children under 15 are most vulnerable to severe forms of the disease. Poverty, malnutrition, and weakened immune systems contribute to increased susceptibility in endemic areas. Additionally, conditions such as HIV/AIDS, tuberculosis, and malaria increase the risk of developing or exacerbating Kala azar.
+**Historical Context and Discovery:**
+The term "kala-azar," which means "black fever" in Hindi, was first used in the early 20th century in India. The disease itself has been known since ancient times, but the causative organism, Leishmania donovani, was discovered by William Boog Leishman and Charles Donovan around the beginning of the 20th century.
 
-According to the World Health Organization (WHO), there are an estimated 50,000 to 90,000 new cases of Kala azar globally each year. However, due to underreporting and limited surveillance systems, the actual number of cases is likely higher. The estimated annual death toll ranges from 20,000 to 40,000 people. India alone reportedly accounts for approximately 70% of the global burden of Kala azar.
+**Key Statistics:**
+Globally, there are an estimated 50,000 to 90,000 new cases of VL each year, according to the World Health Organization (WHO). However, due to underreporting, the actual number of cases may be higher. The case-fatality rate can be high without proper treatment, with rates above 10% reported in some areas.
 
-Several factors contribute to the transmission of Kala azar, including proximity to sand fly breeding sites, poor housing conditions, limited access to effective vector control measures, migration of infected individuals, and inadequate availability and accessibility to diagnosis and treatment services.
+**Major Risk Factors:**
+The risk factors associated with the transmission of Kala-azar include:
+- Poor housing conditions and living close to sandfly breeding sites.
+- Malnutrition, which can weaken the immune system.
+- Climate change, increasing the range of sandflies.
+- Population displacement and the movement of non-immune people into endemic areas.
 
-The impact of Kala azar varies among regions and populations. Sudan and South Sudan have the highest burden in Africa, accounting for over 50% of global cases. In India, the disease is endemic in the eastern states, particularly Bihar, Jharkhand, and West Bengal. Nepal and Bangladesh also have significant prevalence rates. Brazil is the most affected country in South America. Within these regions, marginalized and vulnerable populations such as migrant workers, refugees, and displaced persons bear a disproportionate burden of the disease.
+**Impact on Different Regions and Populations:**
+- *Indian Subcontinent*: Here, VL is primarily anthroponotic, and efforts to control the disease have shown success, with significant reductions in cases. India has launched an elimination initiative aiming to reduce the incidence to less than 1 case per 10,000 at the sub-district level.
+- *East Africa*: Particularly in Sudan and South Sudan, VL presents significant challenges due to ongoing conflicts and displacement, which hinder control efforts and access to treatment.
+- *Brazil*: Zoonotic transmission means control measures must also address animal reservoirs, making eradication efforts complicated.
+- *Mediterranean region and Middle East*: Both zoonotic and anthroponotic forms occur, with children often being the most affected demographic.
 
-Prevalence rates of Kala azar can vary within countries and even within different regions of the same country. Factors such as variations in sand fly distribution and behavior, local ecological conditions, and access to healthcare services contribute to these variations. Socioeconomic disparities, including poverty and limited healthcare infrastructure, further amplify the impact of Kala azar on vulnerable populations.
+**Variations in Prevalence Rates and Affected Demographics:**
+Prevalence rates vary widely between regions due to differences in vector ecology, host reservoirs, and socioeconomic conditions. In some regions, VL might mostly affect young children, while in others, all age groups are at risk.
 
-In conclusion, Kala azar is a neglected tropical disease that significantly affects communities in South Asia, East Africa, and South America. Transmission occurs primarily through sand fly bites, and it disproportionately impacts marginalized and vulnerable populations. To reduce the burden of Kala azar globally, improved surveillance, effective vector control measures, increased access to diagnosis and treatment, and enhanced public health interventions are crucial.
-## Introduction
-
-Kala-azar, also known as visceral leishmaniasis, is a parasitic disease spread by sandflies. It's predominantly found in parts of Asia, East Africa, and Latin America. Symptoms, emerging weeks to months after infection, include fever, weight loss, enlarged spleen and liver, and anemia. If untreated, it can be fatal, posing serious public health challenges. As there's no vaccine, prevention involves controlling sandflies and diagnosing/treating patients early. Antimonial drugs, amphotericin B, miltefosine, and paromomycin are used for treatment.
-
-## Highlights
-
-1. Kala azar in China shows a tendency of escalation in warmer months whilst decelerating in colder periods.<br/>
-2. Although fatalities remain low, year 2023 showed an increase in deaths compared to previous years.<br/>
-3. The disease demonstrated a peak in 2015 but has since subsided significantly.<br/>
-4. Despite fluctuations, overall case numbers appear to be gradually decreasing over time.<br/>
-5. September 2023 report shows no mortalities, yet cases are slightly higher than previous year's same month.<br/>
-
-## Analysis
-
-### Cases Analysis
-The data from 2010-2023 indicates a fluctuating trend in Kala-azar cases in mainland China with apparent seasonality. The highest number of cases are generally reported during March-April or October-November each year, possibly suggesting a link to climatic conditions that influence vector activity. In a gross time-series perspective, from 2010 there is a substantial reduction in cases until 2013. After this period, a notable rise in cases was observed in late 2014-2015. Although a slight increase was noted during early 2023, cases remained relatively constant since then.
-
-### Deaths Analysis
-Kala-azar fatalities in mainland China are remarkably low over the observed years. A total of 10 deaths were reported throughout 2010-2023, with the years 2010, 2011, 2014, 2015, 2017, 2018, 2019, 2021, and 2022 each registering zero deaths. Interestingly, there is no discernible pattern or seasonality in the deaths reported, which suggests successful medical intervention in severe cases. Despite slight variations in disease cases, the annual fatality rate remains very minimal, demonstrating effective disease management measures undertaken in mainland China.
-
+In summary, Kala-azar is a disease that primarily affects the most vulnerable populations in poor, rural settings. While some regions have made strides in controlling the disease, global efforts must continue to focus on vector control, improving living conditions, strengthening health systems, and developing more effective treatments and vaccines to reduce the prevalence and impact of VL.

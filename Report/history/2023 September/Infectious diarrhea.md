@@ -1,23 +1,18 @@
-Seasonal Patterns: 
+## Introduction
 
-Based on the provided data, there is a discernible seasonal pattern in the incidence of infectious diarrhea in mainland China. The number of cases tends to be higher during the summer months (June, July, and August) and lower during the winter months (December, January, and February). This pattern suggests a relationship between the occurrence of infectious diarrhea and warmer weather.
+Infectious diarrhea is a condition caused by a host of bacteria, viruses, and parasites, which enter the body primarily through the ingestion of contaminated food or water. Symptoms often include frequent loose or watery stools, abdominal cramps, and nausea, with potential dehydration as a serious complication. The disease is particularly prevalent in regions with inadequate sanitation and can be life-threatening, especially for children and the immunocompromised. Prevention strategies include safe food handling, proper hand hygiene, and access to clean water. Vaccinations and prompt treatment can mitigate the impact of certain pathogens responsible for infectious diarrhea.
 
-Peak and Trough Periods: 
+## Highlights
 
-Infectious diarrhea cases in mainland China reach their peak during the summer months, particularly in July and August. These months consistently exhibit the highest number of cases year after year. Conversely, the winter months, specifically December and January, generally experience the lowest number of cases.
+- Infectious diarrhea in mainland China has displayed strong seasonality with peaks generally occurring in the hot, summer months (June, July, and August) and a decrease in cases in the colder, winter months. <br/>
+- Despite the seasonality, a general increasing trend of cases can be observed from the start period in 2010 to a peak in 2018, followed by an overall decreasing trend up to the current period in 2023. <br/>
+- Mortality due to infectious diarrhea is notably low, indicating effective medical interventions and overall public health response to manage the disease. <br/>
+- As of September 2023, there were 102,559 cases with no recorded deaths, which is relatively lower compared to the last two years within the same month.
 
-Overall Trends: 
+## Analysis
 
-Overall, there is an upward trend in the incidence of infectious diarrhea cases in mainland China from 2010 to 2023. The number of cases fluctuates annually, but there is a general increase over time. This indicates a rise in the occurrence of infectious diarrhea.
+### Cases Analysis
+The data shows seasonal variability to infectious diarrhea cases in mainland China. Each year, cases tend to rise from April/May, peak around June/July, and gradually fall through winter. The disease exhibits cyclical behavior, with cases increasing during the warmer months, indicating a probable link with environmental factors, such as temperature and precipitation. Notably, cases drastically increased in 2011, maintaining high values through 2013. In 2014 the pattern seemed to normalize but started increasing again steadily from 2016 to 2018. Even though there seem to be reductions, the total number of cases over the years remains comparatively high.
 
-Discussion: 
-
-The observed seasonal patterns in the data indicate that infectious diarrhea in mainland China is influenced by seasonality, with a higher incidence during the summer months and a lower incidence during the winter months. This aligns with the typical patterns of numerous infectious diseases, which tend to thrive in warmer months.
-
-Several factors may contribute to the peak periods in July and August, including increased travel and outdoor activities during the summer that can facilitate the transmission of infectious agents. Additionally, higher temperatures and increased humidity during these months may create more favorable conditions for the survival and transmission of pathogens.
-
-The overall increasing trend in the number of cases suggests that infectious diarrhea remains a significant public health concern in mainland China. This trend could be influenced by various factors, such as changes in population density, sanitation practices, and access to clean water. Additional analysis and investigation are necessary to identify the specific factors contributing to this trend.
-
-It is important to note that the provided data only includes cases and deaths resulting from infectious diarrhea and does not provide information regarding the specific pathogens responsible for these cases. Understanding the specific pathogens involved would be essential for implementing targeted prevention and control measures.
-
-In conclusion, the data indicates a clear seasonal pattern, with peak periods occurring in the summer and trough periods in the winter for infectious diarrhea cases in mainland China. Furthermore, there is an overall increasing trend in the number of cases over time. These findings underscore the need for ongoing surveillance, prevention, and control efforts to alleviate the burden of infectious diarrhea in the country.
+### Deaths Analysis
+In contrast with the high number of cases, the death count remains remarkably low throughout, never exceeding seven deaths per month. While the death rate varies little across seasons, some years observed higher death counts like 2010 and 2014. The death rate has decreased significantly over time, reaching zero deaths/month repeatedly after 2015. The low mortality rate could possibly suggest effective measures in place to deal with severe cases, like prompt treatment strategies, health education, and improved public health infrastructure, despite the high incidence of the disease.

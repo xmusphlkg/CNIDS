@@ -166,6 +166,13 @@ def process_table_data(urls, filtered_results, diseaseCode2Name, dois):
                 text = re.sub(r"[^\w\s-]", "", cell.text.strip())
                 row_data.append(text)
             table_data.append(row_data)
+        
+        # Save the results to a txt file
+        file_name = os.path.join("WeeklyReport/", filtered_results[i]["YearMonth"] + ".txt")
+        with open(file_name, "w", encoding="UTF-8-sig") as f:
+            last_row = table.find_all("tr")[-1]
+            last_row = re.sub(r"<tr>|</tr>|<td[^>]*>|</td>", "", str(last_row))
+            f.write(last_row[0])
 
         # Remove the last segment of content
         table_data = table_data[:-1]
@@ -197,7 +204,12 @@ def process_table_data(urls, filtered_results, diseaseCode2Name, dois):
         # Add the Chinese name of the disease
         table_data[0].insert(1, "DiseasesCN")
         for row in table_data[1:]:
-            row.insert(1, diseaseCode2Name[row[5]])
+          disease_code = row[5]
+          if disease_code in diseaseCode2Name:
+              chinese_name = diseaseCode2Name[disease_code]
+          else:
+              chinese_name = disease_code
+          row.insert(1, chinese_name)
 
         # Add the data source as "China CDC Weekly: Notifiable Infectious Diseases Reports"
         table_data[0].insert(1, "Source")
@@ -232,240 +244,3 @@ def process_table_data(urls, filtered_results, diseaseCode2Name, dois):
         # Save the results for each month to a CSV file
         file_name = os.path.join("WeeklyReport/", filtered_results[i]["YearMonth"] + ".csv")
         table_data.to_csv(file_name, index=False, encoding="UTF-8-sig")
-
-# get chatgpt generated content about newest data
-def chatgpt_description(api_base, api_key, analysis_YearMonth, table_data_str, model):
-    url = f"{api_base}"
-    headers = {
-        'Content-Type': 'application/json',
-        'Authorization': f'Bearer {api_key}'
-    }
-    data = {
-        'model': model,
-        'temperature': 0.8,
-        'max_tokens': 10000,
-        'messages': [
-            {"role": "user", "content": f"""Analyze the epidemiological data on disease cases and deaths for {analysis_YearMonth} in mainland, China,
-              identifying any significant patterns or trends. Offer a comprehensive written analysis and discussion without the use of visual aids like graphs or tables."""},
-            {"role": "system", "content": "Please provide the disease data, Once I have this information, I can start the written analysis for you."},
-            {"role": "user", "content": f"Here is the data:\n{table_data_str}"}
-        ]
-    }
-    print(f"Start Generate Description Content in {analysis_YearMonth}")
-
-    try:
-        response = requests.post(url, headers=headers, json=data)
-
-        if response.status_code == 200:
-            print('Generate Description Success ')
-            out_content = response.json()['choices'][0]['message']['content']
-            out_content = out_content.replace('Discussion:\n\n', '')
-        else:
-            print('Generate Description Fail')
-            print(response)
-            try:
-                print('---------------------------------')
-                print(model)
-                print(response.json())
-                print('---------------------------------')
-            except:
-                pass
-            out_content = None
-    except ConnectionError as e:
-        print('Connection Error:', e)
-        out_content = None
-
-    return out_content
-
-# get chatgpt generated mail content about newest data
-def chatgpt_mail_raw(api_base, api_key, analysis_YearMonth, table_data_str, model):
-    url = f"{api_base}"
-    headers = {
-        'Content-Type': 'application/json',
-        'Authorization': f'Bearer {api_key}'
-    }
-    data = {
-        'model': model,
-        'temperature': 1,
-        'max_tokens': 10000,
-        'messages': [
-            {"role": "user", "content": f"""Analyze the monthly cases and deaths of different diseases in mainland China for {analysis_YearMonth}.
-             Provide a short list of important points which need note in the data. After I will send data to your, you can start."""},
-            {"role": "system", "content": f"""Sure, I can help you analyze the monthly cases and deaths of different diseases in mainland China for {analysis_YearMonth}. 
-             Please provide me with the data, and I'll assist you in analyzing it and providing important points which need note."""},
-             {"role": "user", "content": f"""You need to pay attention: select noteworthy diseases, not all diseases, and give short description."""},
-            {"role": "system", "content": f"""Understood. Please provide me with the data for the monthly cases and deaths of different diseases in mainland China for {analysis_YearMonth}, 
-             and I will generate the attention points directly."""},
-            {"role": "user", "content": f"Here is the data:\n{table_data_str}"}
-        ]
-    }
-    print("Start Generate Mail Content")
-
-    try:
-        response = requests.post(url, headers=headers, json=data)
-
-        if response.status_code == 200:
-            print('Generate Mail Success ')
-            out_content = response.json()['choices'][0]['message']['content']
-            out_content = out_content.replace('Discussion:\n\n', '')
-        else:
-            print('Generate Mail Fail ')
-            print(response)
-            try:
-                print('---------------------------------')
-                print(model)
-                print(response.json())
-                print('---------------------------------')
-            except:
-                pass
-            out_content = None
-    except ConnectionError as e:
-        print('Connection Error:', e)
-        out_content = None
-
-    return out_content
-
-# add mail head and end
-def chatgpt_mail_rebuild(mail_main, analysis_YearMonth):
-    mail_head = "Dear [Recipient],"
-    mail_info = f"I hope this email finds you well. China CDC Weekly has published the new data on the cases and deaths of notifiable infectious diseases in mainland China in {analysis_YearMonth}."
-    mail_end = "The notion generated automatically, and assistant by ChatGPT. Please check the data and description carefully."
-    mail_signature = "Best regards,\n CNIDS"
-    mail_time = datetime.now().strftime("%Y-%m-%d")
-    out_content = mail_head + "\n\n" + mail_info + "\n\n" + mail_main + "\n\n" + mail_end + "\n\n" + mail_signature + "\n\n" + mail_time + "\n\n"
-    return out_content
-
-# get chatgpt generated history data content about signle disease
-def chatgpt_description_time(api_base, api_key, analysis_YearMonth, table_data_str, model, disease_name = ''):
-    url = f"{api_base}"
-    headers = {
-        'Content-Type': 'application/json',
-        'Authorization': f'Bearer {api_key}'
-    }
-    data = {
-        'model': model,
-        'temperature': 0,
-        'max_tokens': 10000,
-        'messages': [
-            {"role": "user", "content": f"""As a epidemiologist, analyze I input monthly data on cases and deaths before {analysis_YearMonth} for {disease_name} in mainland China. Describe the seasonal patterns, peak and trough periods, and overall trends. Not add graph or table, and No greeting is generated.
-             After I input data, you will generate 4 sections as following format.
-             Seasonal Patterns: [content]\n
-             Peak and Trough Periods: [content]\n
-             Overall Trends: [content]\n
-             Discussion: [content]\n
-             Before I send the data just answer whether you understand?"""},
-            {"role": "system", "content": "Yes, I understand. Please go ahead and provide the monthly data."},
-            {"role": "user", "content": f"Here is the data:\n{table_data_str}"}
-        ]
-    }
-    print(f"Start Generate Description Content of {disease_name}")
-
-    try:
-        response = requests.post(url, headers=headers, json=data)
-
-        if response.status_code == 200:
-            print('Generate Disease Description Success ' + disease_name)
-            out_content = response.json()['choices'][0]['message']['content']
-            out_content = out_content.replace('Discussion:\n\n', '')
-        else:
-            print('Generate Disease Description Fail ' + disease_name)
-            print(response)
-            try:
-                print('---------------------------------')
-                print(model)
-                print(response.json())
-                print('---------------------------------')
-            except:
-                pass
-            out_content = None
-    except ConnectionError as e:
-        print('Connection Error:', e)
-        out_content = None
-
-    return out_content
-
-# get chatgpt generated information content about single disease
-def chatgpt_information(api_base, api_key, model, disease_name = ''):
-    url = f"{api_base}"
-    headers = {
-        'Content-Type': 'application/json',
-        'Authorization': f'Bearer {api_key}'
-    }
-    data = {
-        'model': model,
-        'temperature': 0,
-        'max_tokens': 10000,
-        'messages': [
-            {"role": "user", "content": f"""Provide a comprehensive overview of the epidemiology of {disease_name}, 
-             including its global prevalence, transmission routes, affected populations, and key statistics. 
-             Include information on the historical context and discovery of {disease_name}.
-             Highlight the major risk factors associated with {disease_name} transmission.
-             Discuss the impact of {disease_name} on different regions and populations, 
-             including variations in prevalence rates and affected demographics."""}
-        ]
-    }
-
-    try:
-        response = requests.post(url, headers=headers, json=data)
-
-        if response.status_code == 200:
-            print('Generate information Success ' + disease_name)
-            out_content = response.json()['choices'][0]['message']['content']
-            out_content = out_content.replace('Discussion:\n\n', '')
-        else:
-            print('Generate information Fail ' + disease_name)
-            print(response)
-            try:
-                print('---------------------------------')
-                print(model)
-                print(response.json())
-                print('---------------------------------')
-            except:
-                pass
-            out_content = None
-    except ConnectionError as e:
-        print('Connection Error:', e)
-        out_content = None
-
-    return out_content
-
-# make content more academic
-def chatgpt_academic(api_base, api_key, model, content_raw = ''):
-    url = f"{api_base}"
-    headers = {
-        'Content-Type': 'application/json',
-        'Authorization': f'Bearer {api_key}'
-    }
-    data = {
-        'model': model,
-        'temperature': 1,
-        'max_tokens': 10000,
-        'messages': [
-            {"role": "user", "content": f"""Below is a paragraph from an academic paper. Polish the writing to meet the academic style, 
-             improve the spelling, grammar, clarity, concision and overall readability. When necessary, rewrite the whole sentence. 
-             You should have just told me the result and nothing else.\n\n{content_raw}"""}
-        ]
-    }
-
-    try:
-        response = requests.post(url, headers=headers, json=data)
-
-        if response.status_code == 200:
-            print('Text Academic Success')
-            out_content = response.json()['choices'][0]['message']['content']
-        else:
-            print('Text Academic Fail')
-            print(response)
-            try:
-                print('---------------------------------')
-                print(model)
-                print(response.json())
-                print('---------------------------------')
-            except:
-                pass
-            out_content = None
-    except ConnectionError as e:
-        print('Connection Error:', e)
-        out_content = None
-
-    return out_content

@@ -1,21 +1,19 @@
-Seasonal Patterns:
+## Introduction
 
-The data provided indicates a distinct seasonal pattern for cases of Acute hemorrhagic conjunctivitis (AHC) in mainland China. The number of cases is highest during the summer months (June, July, and August) and lowest during the winter months (December, January, and February). This suggests that AHC is more prevalent in the warmer months.
+Acute Hemorrhagic Conjunctivitis (AHC) is a highly contagious eye infection characterized by sudden onset of painful, swollen red eyes, followed by subconjunctival hemorrhages, tearing, photophobia, and blurred vision. It typically affects the conjunctiva, the clear membrane covering the white part of the eye and the inner eyelids. AHC is primarily caused by the enterovirus 70 and the coxsackievirus A24, and occasionally by adenoviruses. It spreads easily through direct contact with contaminated hands, objects, or ophthalmologic instruments. Outbreaks often occur in crowded settings, usually as epidemics with a significant public health impact.
 
-Peak and Trough Periods:
+## Highlights
 
-In mainland China, the peak period for AHC cases occurs in August, with a peak value of 12,742 cases reported in August 2023. Conversely, the trough period occurs in December, with the lowest number of cases reported (2,390 cases in December 2014).
+- There is a cyclical trend observed in Acute hemorrhagic conjunctivitis cases with a surge noticed around the months of August to October. The peak, in 2023, is observed in September with 125264 cases. <br/>
+- Despite a high number of reported cases, mortality rate remains extremely low, almost negligible, with only three reported deaths in the last decade. <br/>
+- Over the latest decade, the number of cases seems to gradually decrease until 2023 when a significant upsurge is reported. This suggests a potential outbreak or variation in the viral strain. <br/>
+- The drastic increase in cases from June 2023, peaking in September 2023, indicates the current situation to be critical and necessitates rigorous epidemiological surveillance.
 
-Overall Trends:
+## Analysis
 
-Overall, there is an increasing trend in the number of AHC cases in mainland China from 2010 to 2023. The number of cases started relatively low in 2010, with 634 cases reported in January, and gradually increased over the years, reaching a peak of 125,264 cases in September 2023. However, it is important to note that there is a significant spike in cases in July and August 2023, which may be an outlier or a result of specific circumstances.
+### Cases Analysis
+The data reflects an annual cycle of Acute hemorrhagic conjunctivitis cases in mainland China, with the incidence generally rising in the spring, peaking in the summer, and declining in the fall and winter. This seasonal trend aligns with the known epidemiology of the disease. There are exceptional spikes seen in September 2010 and 2023, potentially indicating major outbreak events. Overall, an increase in the number of cases over the longer term can also be observed, suggesting a growing disease burden. The highest spike occurs in September 2023 with 125264 cases.
 
-Discussion:
+### Deaths Analysis
+The number of reported deaths due to Acute hemorrhagic conjunctivitis in mainland China is remarkably low, with only three recorded deaths over the presented timeframe. These occurred in December 2011, August 2019, and February 2020. The low fatality rate reflects the typically self-limiting nature of the disease, which generally only poses a significant risk to health in rare events of severe conditions or complications arising.
 
-The observed seasonal pattern of AHC cases in mainland China aligns with previous studies and reports on the disease. AHC is known to be more common in tropical and subtropical regions, and the higher temperatures and humidity during the summer months may contribute to increased transmission of the virus causing AHC.
-
-The peak period in August coincides with the peak of the summer season when people are more likely to engage in outdoor activities and have increased contact with others, potentially facilitating the spread of the disease. The trough period in December corresponds to the colder winter months when people tend to spend more time indoors and have less contact with others, leading to a decrease in AHC transmission.
-
-The overall increasing trend in AHC cases over the years may be attributed to various factors, including improved surveillance and reporting systems, increased awareness and testing for AHC, and changes in population dynamics and behavior. It is also important to consider that the spike in cases in July and August 2023 may be influenced by specific events or outbreaks that occurred during that period.
-
-Further analysis and investigation are necessary to understand the specific factors contributing to the observed seasonal patterns, peak and trough periods, and overall trends in AHC cases in mainland China. This information can help inform public health interventions and strategies to control and prevent the spread of AHC in the future.

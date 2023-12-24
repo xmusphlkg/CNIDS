@@ -1,15 +1,18 @@
-Seasonal Patterns: 
-According to the provided data, there is a notable seasonal pattern in cases of human infection with the H7N9 virus in mainland China. The majority of cases occur during the winter months, specifically from December to February. There is a gradual increase in cases starting in November, reaching a peak in January or February, and then a decline in cases from March onwards. This pattern is consistent across multiple years, indicating a seasonal trend.
+## Introduction
 
-Peak and Trough Periods: 
-Typically, the peak period for cases of H7N9 virus infection in mainland China is observed in January or February, with the highest number of cases reported during these months. The trough period, which signifies the period with the lowest number of cases, is usually seen in the summer months, particularly from June to August, where the number of cases is significantly lower or even zero.
+Human infection with the H7N9 virus, a subtype of influenza A, was first reported in China in March 2013. This avian-origin virus primarily affects birds, but it has shown the capability to infect humans, leading to severe respiratory illness. Most cases have been linked to exposure to live poultry markets or contact with infected animals. While H7N9 does not currently appear to transmit easily from person to person, there is concern about the potential for the virus to mutate and gain this ability, which could lead to a pandemic.
 
-Overall Trends: 
-Overall, there has been a decline in the number of H7N9 virus infection cases in mainland China since 2017. From 2013 to 2017, there was a gradual increase in cases, with the highest number reported in 2017. However, since 2018, there has been a significant decrease in cases, with no reported cases from 2018 to September 2023.
+## Highlights
 
-Discussion: 
-The observed seasonal pattern in cases of H7N9 virus infection in mainland China aligns with the known characteristics of the virus. Influenza viruses, including H7N9, are recognized to exhibit seasonal patterns, with increased transmission during colder months. This is likely due to various factors, including changes in human behavior such as increased indoor gatherings and closer contact, as well as environmental factors that promote virus survival and transmission.
+- The H7N9 virus in mainland China showed periodic spikes in human cases and deaths, particularly noticeable during early 2014 and early 2017, suggesting a possible seasonal pattern. <br/>
+- Since the peak in 2017, there has been a significant decline in both cases and deaths, with occurrences dropping to zero from the start of 2018 through September 2023. <br/>
+- No cases or deaths were reported for over 5 years, indicating successful control measures or a potential end of the transmission cycle in humans. <br/>
+- Vigilance is still required to monitor for any possible resurgence, considering the historical pattern of sporadic outbreaks. <br/>
 
-The decline in cases since 2018 is an encouraging trend and may be attributed to various factors, including improved surveillance and control measures implemented by public health authorities. These measures might have effectively reduced the spread of the virus and prevented outbreaks. However, it is important to remain vigilant and continue monitoring the situation, as the potential for future outbreaks or changes in the virus cannot be ruled out.
+## Analysis
 
-It is noteworthy that the provided data only includes cases and deaths up until September 2023. Therefore, regularly updating and analyzing the data is crucial to assess any changes in the seasonal patterns, peak and trough periods, and overall trends of H7N9 virus infection in mainland China.
+### Cases Analysis
+The H7N9 virus in mainland China reached its peak incidence during January and February of 2017, with 192 and 160 cases respectively. The years 2013 to 2017 marked active transmission periods, highlighted by prolonged winter-spring epidemics. A dramatic decline post-2017 suggests successful containment measures or virus pattern changes. The dramatic reduction to zero cases since March 2018 implies effective public health interventions or potential under-reporting.
+
+### Deaths Analysis
+Mortality associated with H7N9 peaked concurrently with cases, particularly in January and February of 2017, recording 79 and 61 deaths, respectively. The high case fatality rates in the early months of 2014 and 2017 suggest a virulent strain. Deaths also ceased from March 2018 onwards, mirroring the decline in reported cases. The trend denotes either the impact of control strategies or possible shifts in reporting and surveillance sensitivity.

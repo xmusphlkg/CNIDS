@@ -14,7 +14,6 @@ from analysis import generate_weekly_report
 from function import find_max_date
 from sendmail import send_email_to_subscriber
 import variables
-import shutil
 
 # test get new data
 test = os.environ['test']
@@ -39,6 +38,7 @@ if len(new_dates) == 0:
 url = "https://weekly.chinacdc.cn"
 results = get_cdc_results(url)
 new_dates = [result['YearMonth'] for result in results if result['YearMonth'] not in existing_dates]
+print(results)
 
 # get current date
 current_date = datetime.now().strftime("%Y%m%d")
@@ -123,17 +123,13 @@ else:
                 os.makedirs('..' + '/CleanData/WeeklyReport/' + disease)
             disease_date_data.to_csv(file_name, index=False, encoding="UTF-8-sig")
 
-    # set working directory
-    folder_path = '../CleanData/WeeklyReport/'
-
     # read all CSV files
+    folder_path = '../CleanData/WeeklyReport/'
     csv_files = glob.glob(os.path.join(folder_path, '*/*.csv'))
     data = pd.concat([pd.read_csv(csv_file) for csv_file in csv_files], ignore_index=True)
 
     # remove duplicates
     data = data.drop_duplicates()
-
-    # get max date
     max_date = data['YearMonthDay'].max()
     max_date = datetime.strptime(max_date, '%Y/%m/%d').strftime("%Y %B")
 
@@ -151,16 +147,11 @@ else:
         with open(readme_path, "w") as readme_file:
             readme_file.write(updated_readme_content)
     
-    
-    api_key = os.environ['OPENAI_api']
-    api_base = os.environ['OPENAI_url']
     test_info = os.environ['test_mail']
     send_mail = os.environ['send_mail']
     for YearMonth in new_dates:
         print("Generate report for " + YearMonth)
-        generate_weekly_report(YearMonth, api_base, api_key)
-    shutil.copy("../Report/report " + find_max_date(new_dates) + ".pdf", "../Report/report latest.pdf")
-    shutil.copy("../Report/mail/" + find_max_date(new_dates) + ".md", "../Report/mail/latest.md")
+        generate_weekly_report(YearMonth)
     if send_mail == 'True':
         send_email_to_subscriber(test_info)
 

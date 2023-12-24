@@ -1,21 +1,19 @@
-Seasonal Patterns:
+## Introduction
 
-According to the provided data, there is a clear seasonal pattern in the number of Scarlet fever cases in mainland China. The highest number of cases is consistently observed during the months of May, June, and July, with a peak occurring in June. From August to September, there is a gradual decrease in cases, followed by a further decline from October to December. The lowest number of cases is observed in January and February.
+Scarlet fever is an infectious disease caused by a strain of group A streptococcus bacteria, the same that causes strep throat. Primarily affecting children, it is characterized by a bright red rash on the body, often accompanied by a high fever and sore throat. The rash, which feels like sandpaper to the touch, typically begins on the chest and spreads to other body parts. Other symptoms may include a red, bumpy tongue (strawberry tongue) and flushed face. Scarlet fever is treatable with antibiotics, and early treatment is crucial to prevent complications.
 
-Peak and Trough Periods:
+## Highlights
 
-The peak period for Scarlet fever cases in mainland China consistently occurs in June, with the highest number of cases reported during this month. Conversely, the trough period, representing the lowest point in the number of cases, is typically seen in January and February.
+1. Seasonal Patterns: Scarlet fever in China shows strong seasonal patterns, with higher caseloads from April to June and November to January with peak caseloads most often occurring in June and December.<br/>
+2. Long-Term Trend: The long-term trend shows a significant decrease in cases after 2018, dropping from an average of 4990 cases per month (2010 to 2018) to an average of 1160 cases per month (2019 to 2023).<br/>
+3. Mortality Rates: The mortality rate is generally low, with few recorded deaths throughout the recorded period.<br/>
+4. Current Status: As of September 2023, scarlet fever shows a slight increase from the previous month, however, overall the numbers remain lower in comparison to the earlier years.
 
-Overall Trends:
 
-Overall, there is an increasing trend in the number of Scarlet fever cases in mainland China from 2010 to 2015. The highest point is reached in 2015, with a peak of 13,053 cases recorded in December. However, starting in 2016, there is a gradual decline in the number of cases, with fluctuations observed in subsequent years. Notably, in 2020, there is a significant decrease in the number of cases, likely due to the impact of the COVID-19 pandemic.
+## Analysis
 
-Discussion:
+### Cases Analysis
+Scarlet fever cases in mainland China appear to have a seasonal pattern, with the highest reported cases generally occurring around the months of May, June, and December. The period between 2010 and 2018 shows a significant increase in cases each year, reaching a peak in 2018. However, a dramatic decline in cases is seen in 2020, likely due to the COVID-19 pandemic and subsequent implementation of restrictive measures. Nonetheless, there was a gradual increase in cases observed since the start of 2021, although the numbers are still relatively lower compared to the pre-pandemic years.
 
-The seasonal pattern of Scarlet fever cases in mainland China suggests a higher prevalence of the disease during the summer months, particularly in June. This could be attributed to various factors, such as increased transmission in crowded places, higher temperatures favoring bacterial growth, or changes in human behavior and contact patterns during the summer season.
-
-The overall trend of increasing Scarlet fever cases from 2010 to 2015, followed by a decline in subsequent years, could be influenced by multiple factors. These may include changes in surveillance and reporting systems, variations in population susceptibility, and the effectiveness of public health interventions. It is important to acknowledge that the data provided lacks information on specific interventions or control measures implemented during this period, which could have influenced the observed trends.
-
-It should also be noted that the negative values reported for some months in the dataset, especially in the deaths column, are likely data entry errors or anomalies. These values require further investigation and correction if necessary.
-
-Overall, this analysis provides an overview of the seasonal patterns, peak and trough periods, and overall trends of Scarlet fever cases in mainland China until September 2023. Further analysis and investigation are necessary to comprehend the underlying factors driving these patterns and trends and to inform public health strategies for the prevention and control of Scarlet fever in the future.
+### Deaths Analysis
+Overall, Scarlet fever has a very low mortality rate in mainland China. Throughout the entire recorded period, only a total of 5 deaths were reported, despite the large number of cases. These deaths occurred in 2011, 2012, 2013, 2015, and 2020. It's important to note, however, that despite its low mortality rate, Scarlet fever can cause severe complications if not treated properly and promptly. Despite the drop in cases in 2020, the disease continues to circulate and remain a potential public health concern.

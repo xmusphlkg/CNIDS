@@ -77,12 +77,12 @@ http://localhost:3838
 
   c. OpenAI Settings:
 
-   `OPENAI_api`: OpenAI API key.
+   `OPENAI_API_KEY`: OpenAI API key (sk-xxxxxxxx).
 
-   `OPENAI_url`: OpenAI API url.
+   `OPENAI_API_BASE`: OpenAI API url (https://api.openai.com).
 
     > You can get the above information by registering an application in [OpenAI](https://beta.openai.com/).
-    > example: `sk-xxxxxxxxxxxxxxxxxxxxxxxxxxx`and `https://api.openai.com/v1/chat/completions`
+    > example: `sk-xxxxxxxxxxxxxxxxxxxxxxxxxxx`and `https://api.openai.com`.
 
 3. Set up Actions variables.
 

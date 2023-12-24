@@ -1,13 +1,18 @@
-Seasonal Patterns: 
-Based on the provided data, there is evidence of a seasonal pattern in the number of Gonorrhea cases in mainland China. The incidence of cases is higher during the summer months (June, July, and August) and lower during the winter months (December, January, and February). This indicates a possible association between Gonorrhea incidence and seasonal factors.
+## Introduction
 
-Peak and Trough Periods: 
-Gonorrhea cases in mainland China reach their peak during the summer months, specifically in July and August, consistently having the highest number of reported cases. Conversely, the lowest number of cases, known as trough periods, occur during the winter months, particularly in December and January.
+Gonorrhea is a sexually transmitted infection caused by the bacterium Neisseria gonorrhoeae. It affects both men and women, mainly infecting the urethra, rectum, throat, and cervix. Transmission occurs through sexual contact with an infected partner. Symptoms vary, including painful urination, abnormal discharge, and, if left untreated, can lead to severe reproductive complications and increase the risk of HIV transmission. Gonorrhea can be diagnosed with laboratory tests and is treatable with antibiotics, although drug-resistant strains are emerging, complicating treatment strategies. Preventive measures include safe sexual practices and regular screening.
 
-Overall Trends: 
-Overall, there is a consistent increase in the number of Gonorrhea cases in mainland China from September 2010 to September 2023. Although the number of cases fluctuates yearly, there is a gradual upward trend over time. It is important to note a sudden decrease in reported cases in January and February 2013, which may be attributed to data reporting issues or other factors.
+## Highlights
 
-Discussion: 
-The observed seasonal pattern in Gonorrhea cases suggests the influence of certain environmental or behavioral factors that contribute to the disease's spread during the summer months. This could be related to increased sexual activity, changes in social behaviors, or other factors that are more prevalent in the summer season. The peak periods in July and August may be influenced by factors like increased travel, tourism, or outdoor activities.
+- Cases of Gonorrhea observed a general upward trend from 2010 to 2016, with fluctuations seen in certain months.  <br/>
+- A steady increase in case count was notable from 2017, reaching a high-point around mid-2017 and maintaining similar levels until 2019. <br/>
+- A significant dip was observed in 2020, which could be related to changes in social behaviors during the COVID-19 pandemic. However, the numbers started to recover in 2021. <br/>
+- As of September 2023, the situation seems stable with fewer cases than the previous peak years of 2017 and 2018 but higher than the dip in 2020. Deaths from the disease remain consistently low, suggesting effective clinical management.
 
-The overall increasing trend in cases emphasizes the need for sustained efforts in prevention, education, and control measures for Gonorrhea in mainland China. It is crucial to monitor and address the factors that contribute to the disease's spread, especially during peak periods, to effectively control and reduce its incidence in the population.
+## Analysis
+
+### Cases Analysis
+The data from 2010 to 2023 shows a general upward trend with an annual oscillation in the number of Gonorrhea cases in mainland China. Interestingly, months from July to December tend to report higher numbers, suggesting a seasonal influence on reported cases. The lowest number of cases reported was in 2020 February (3524 cases), when the entire world was grappling with the onset of the COVID-19 pandemic. Two conspicuous peaks occur in 2016 August (11280 cases) and 2021 August (12019 cases), perhaps indicating a need for utmost public health caution during these months.
+
+### Deaths Analysis
+The Gonorrhea data reveals an overall low death count. Many cases reported zero deaths. Despite a sporadic increase in deaths over the years with a maximum of four deaths recorded in 2020 January, the causality with Gonorrhea remains unknown as it usually does not cause death directly. The high case-to-death ratio from 2010 to 2023 implies a relatively low mortality rate for Gonorrhea, but underlines the importance of continuous monitoring and management strategies to mitigate wider impacts on public health.

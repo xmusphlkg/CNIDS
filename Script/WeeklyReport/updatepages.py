@@ -26,7 +26,6 @@ def update_pages(diseases_order, diseases_order_cn, disease_index, df):
   with open('./templates/index.html', 'r') as f:
       template_content = f.read()
 
-
   for i, disease in enumerate(diseases_order):
       df_disease = df[df['Diseases'] == disease]
       df_disease = df_disease.sort_values('Date')

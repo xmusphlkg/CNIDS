@@ -1,15 +1,18 @@
-Seasonal Patterns: 
-According to the data, there is a discernible seasonal pattern for Pertussis cases in mainland China. The number of cases is higher during the summer and fall, specifically from June to September, and lower during the winter and spring, from December to April. This pattern remains consistent across multiple years.
+## Introduction
 
-Peak and Trough Periods:
-The peak period for Pertussis cases in mainland China is during July and August, with the highest number of cases reported during this time. The trough period, or the lowest number of cases, is observed in the winter months, particularly January and February.
+Pertussis, commonly known as whooping cough, is a highly contagious respiratory disease caused by the bacterium Bordetella pertussis. Characterized by severe coughing fits that can end in a "whooping" sound when the person breathes in, the disease can affect individuals of all ages but is particularly dangerous for infants. Vaccination offers effective protection, yet outbreaks still occur, indicating the need for continued vigilance. Pertussis is transmitted through respiratory droplets from coughing or sneezing, and its initial symptoms resemble those of a common cold, followed by a more severe coughing phase.
 
-Overall Trends:
-Overall, there is an increasing trend in Pertussis cases in mainland China from 2010 to 2023. The number of cases gradually increased from 88 in January 2010 to a peak of 4793 in August 2023. However, there are fluctuations in the number of cases throughout the years, with some periods showing relatively stable or decreasing cases.
+## Highlights
 
-Discussion:
-The seasonal pattern of Pertussis cases in mainland China suggests that the disease is more prevalent during the summer and fall, which aligns with the known transmission dynamics of Pertussis. The peak period in July and August may be influenced by factors such as increased social interactions and travel during the summer season.
+- Pertussis cases in mainland China show a fluctuating pattern over time, with dramatic increases during certain periods, such as between 2013-2015 and 2017-2019. <br/>
+- Despite annual fluctuations, a general upward trend is observed from 2010 to 2023, indicating a progressively worsening situation. <br/>
+- The data suggests seasonality, with case counts typically peaking during the summer months (June-August) year after year. <br/>
+- There is a low number of reported deaths, showing that whilst the disease is widespread, it is not commonly fatal. However, fatalities are inconsistently reported, inferring an unpredictable severity trend. <br/>
 
-The overall increasing trend in Pertussis cases over the years may be attributed to various factors, including changes in surveillance and reporting systems, increased awareness and testing for Pertussis, population growth, and changes in vaccination coverage. It is important to note that the provided data only includes cases and deaths before September 2023, and further analysis would be necessary to assess the impact of interventions and changes in disease dynamics beyond this period.
+## Analysis
 
-It is crucial for public health authorities to continue monitoring Pertussis cases and implementing preventive measures, such as vaccination programs and public awareness campaigns, to control the spread of the disease and reduce its burden on the population.
+### Cases Analysis
+The reported cases of Pertussis in mainland China show a fluctuating but generally increasing trend over time. The data for the successive years indicate that the number of cases tends to peak during the summer months, particularly in August. This seasonality may be due to climatic factors conducive to the spread of the disease. The years 2022 and 2023 witnessed a substantial increase in the cases, with August 2022 having the highest number (5355 cases).
+
+### Deaths Analysis
+The mortality rate from Pertussis remains relatively low, given the total number of cases reported throughout the years. The data shows sporadic instances of death (only 13 reported in the span of thirteen years), suggesting effective detection and treatment by health officials. Most deaths occurred in the second half of the year, probably due to the high number of infections during those months. However, despite the increasing cases in 2022-2023, the number of deaths did not show a proportional rise, indicating improvements in medical responses.

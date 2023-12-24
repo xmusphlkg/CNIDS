@@ -1,15 +1,19 @@
-Seasonal Patterns: 
-Based on the data provided, there is a evident seasonal pattern in the number of influenza cases in mainland China. The number of cases tends to be highest during the winter months (December to February) and lowest during the summer months (June to August). This pattern is consistent across multiple years, indicating a recurring seasonal trend.
+## Introduction
 
-Peak and Trough Periods: 
-The peak period for influenza cases in mainland China occurs during the winter months, specifically in December and January. During these months, the number of cases reaches its highest point, with peaks observed in 2013, 2018, and 2021. In contrast, the trough period occurs during the summer months, particularly in July and August. During these months, the number of cases is at its lowest point, with troughs observed in 2010, 2014, and 2020.
+Influenza, commonly known as the flu, is an infectious respiratory illness caused by influenza viruses. It affects the nose, throat, and sometimes the lungs. Symptoms can range from mild to severe and typically include fever, cough, sore throat, muscle aches, and fatigue. Influenza spreads from person to person primarily via respiratory droplets. It can lead to complications, especially in high-risk groups. Annual vaccination is the primary prevention strategy. Antiviral medications are available for treatment. Flu outbreaks occur yearly, usually in cooler months, and can sometimes lead to pandemics with widespread illness.
 
-Overall Trends: 
-Overall, there is an increasing trend in the number of influenza cases in mainland China over the years. From 2010 to 2023, there is a general upward trend in the number of cases, with some fluctuations observed. The number of cases has significantly increased since 2018, with a sharp rise in 2019 and a subsequent peak in 2021. However, it is important to note that the data for 2023 is only available until September, so the overall trend for the entire year is not yet known.
+## Highlights
 
-Discussion: 
-The seasonal patterns and overall trends in the number of influenza cases in mainland China suggest that the virus follows a typical seasonal pattern, with higher transmission rates during the winter months. This behavior is consistent with influenza viruses in other parts of the world. The peak and trough periods observed in the data indicate the periods of highest and lowest transmission, respectively.
+- There is a seasonal surge in Influenza cases, with peaks typically seen in the colder months (January to March) and smaller peaks in the summer months (June to July), aligning with typical global influenza seasons. <br/>
+- The highest number of cases was reported in March 2023 with over 3.7 million cases, an unprecedented increase in the trend. <br/>
+- Despite the high fluctuation in case numbers, the number of deaths remains relatively low indicating a low case fatality rate throughout the years. <br/>
+- To date, as of September 2023, there are approximately 168,963 cases reported with no deaths - indicative of the low severity of Influenza this season.
 
-The increasing trend in the number of cases over the years could be attributed to various factors, such as changes in population density, increased travel and globalization, and shifts in the circulating strains of the influenza virus. It is also important to consider the impact of public health interventions, including vaccination campaigns and public awareness campaigns, on the observed trends.
 
-It is worth noting that the data provided only includes cases and deaths related to influenza and does not include information on the specific strains of the virus or the severity of the cases. Further analysis would be required to comprehend the specific factors driving the observed patterns and trends in influenza transmission in mainland China.
+## Analysis
+
+### Cases Analysis
+Over the past 13 years, the number of influenza cases in mainland China typically peaked in the winter months, whilst hitting the lowest point in the summer. The amount of detected cases began to rise significantly from 2017, reaching its zenith in March 2023 with a total of 3721370 cases. The trend of reported cases in recent years showed an increase in flu activity, suggesting that enhanced surveillance, improved diagnostic testing or more severe flu seasons potentially enhanced the reported case numbers. The sudden fall in cases in April 2020 might be due to infection-control measures for the COVID-19 pandemic, reducing influenza transmission. 
+
+### Deaths Analysis
+The death rate remains relatively low irrespective of the number of cases reported, suggesting effective clinical management of influenza in China. The years with the highest death rates were observed in 2014, 2018, and 2019, each reporting more than 50 deaths, the majority occurring in January - considered the peak of China's flu season. However, the death rate remained consistently low in the past few years with only minor fluctuations. This could be due to improved medical practices, increased vaccination, and prompt antiviral treatment. It's important to note that the death count only includes laboratory confirmed Influenza deaths, actual death toll may be higher.

@@ -1,13 +1,18 @@
-Seasonal Patterns: 
-Based on the provided data, there is a discernible seasonal pattern in Japanese encephalitis cases in mainland China. The number of cases shows an upward trend starting from May and peaking in August. Subsequently, there is a gradual decrease in cases, with lower numbers observed from September to April. This pattern indicates that Japanese encephalitis transmission is more active during the summer months.
+## Introduction
 
-Peak and Trough Periods: 
-The peak period for Japanese encephalitis cases in mainland China falls in August, with the highest number of reported cases during this month. In contrast, the trough period occurs from November to February, with the lowest number of cases reported. This implies that Japanese encephalitis activity is at its highest during the summer and early autumn, while it is at its lowest during the winter.
+Japanese encephalitis (JE) is a viral disease that is spread through the bite of infected mosquitoes, particularly Culex species. The virus is a member of the Flavivirus genus and can cause inflammation of the brain. While most JE virus infections are mild or asymptomatic, a small percentage can result in severe clinical illness, characterized by rapid onset of high fever, headache, neck stiffness, disorientation, coma, seizures, spastic paralysis, and ultimately death. JE is most common in rural agricultural areas of Asia and the Western Pacific. Vaccines are available and are the most effective way to prevent the disease.
 
-Overall Trends: 
-Upon examining the overall trends, there is a general increase in Japanese encephalitis cases in mainland China from 2010 to 2013. However, after 2013, there is a fluctuating pattern, with some years showing higher case numbers and others showing lower numbers. Nevertheless, there is no clear upward or downward trend observed over the entire period analyzed.
+## Highlights
 
-Discussion: 
-The seasonal patterns and peak periods observed in Japanese encephalitis cases in mainland China align with the known transmission dynamics of the disease. Japanese encephalitis is primarily transmitted through mosquitoes, and the peak in cases during the summer months corresponds to the period of heightened mosquito activity. This underscores the importance of implementing effective mosquito control measures and vaccination programs during the peak season to mitigate the risk of Japanese encephalitis transmission.
+- The data shows a cyclical pattern with an increase in Japanese encephalitis cases from June through September each year. <br/>
+- While the maximum number of cases occurred in August 2010 (1,301 cases), there has been a gradual decline in the maximum number of cases each year, with 80 cases in August 2023. <br/>
+- The death rate has also declined over time, with the highest reported in August 2018 (55 deaths) and only 1 death reported in September 2023. <br/>
+- As of September 2023, Japan encephalitis continues to present a significant health burden in China, albeit with decreasing trend in incidence and mortality.
 
-The overall trends in Japanese encephalitis cases in mainland China exhibit some variability from year to year, without a discernible long-term trend. This variability may be influenced by multiple factors, including fluctuations in mosquito populations, vaccination coverage, and surveillance efforts. Further analysis and investigation are necessary to comprehend the underlying factors contributing to the fluctuations in case numbers and to identify strategies for improved control and prevention of Japanese encephalitis in mainland China.
+## Analysis
+
+### Cases Analysis
+A retrospective look at the data from 2010 to 2023 reveals considerable variability in the number of Japanese encephalitis cases throughout the years. However, certain patterns emerge. Specifically, a substantial increase in cases is observed from May to September each year, peaking in August. This pattern could be tied to the vector's (mosquito) life cycle and increased human exposure in the warmer months. Notably, the numbers have been decreasing overall since 2018, implying successful prevention or control measures. However, occasional spikes such as in August 2023 stress the need for continued surveillance and proactive public health measures.
+
+### Deaths Analysis
+The mortality associated with Japanese encephalitis in mainland China appears to follow a similar seasonal trend as the case count. A noticeable rise in fatalities can be observed from June to September. The highest number of deaths was recorded in August 2018 with 55 fatalities. Appreciably fewer deaths have been reported since 2019, perhaps indicating improved medical management or effective intervention strategies. Nevertheless, the persistent fatality count, even if lower, indicates the high-risk nature of the disease and the need for reinforced efforts towards early detection and treatment.

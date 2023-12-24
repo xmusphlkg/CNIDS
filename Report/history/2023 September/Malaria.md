@@ -1,19 +1,18 @@
-Seasonal Patterns: 
+## Introduction
 
-Based on the provided data, there is a clear seasonal pattern in the number of malaria cases in mainland China. The number of cases is highest during the summer months (June, July, and August) and lowest during the winter months (December, January, and February). This pattern suggests that malaria transmission is influenced by seasonal factors, such as temperature and rainfall, which affect the breeding and survival of mosquitoes.
+Malaria is a life-threatening disease caused by parasites that are transmitted to people through the bites of infected female Anopheles mosquitoes. There are four main types of malaria-causing parasites: Plasmodium falciparum, P. vivax, P. malariae, and P. ovale, with P. falciparum being the most deadly. Once inside the human host, the parasites multiply in the liver before infecting and destroying red blood cells. Symptoms include fever, headache, chills, and vomiting, and can appear several days after the mosquito bite. If not treated promptly with effective medication, malaria can be fatal.
 
-Peak and Trough Periods: 
+## Highlights
 
-The peak period for malaria cases in mainland China is during the summer months, particularly in July and August. During this time, the number of cases reaches its highest point, exceeding 1,000 cases. Conversely, the trough period for malaria cases occurs during the winter months, with the lowest number of cases observed in December and January, dropping to around 200-300 cases.
+1. The number of Malaria cases in mainland China has generally decreased over the years, from report highs in 2010 to significantly lower figures in 2023.<br/>
+2. Despite some yearly fluctuation and an observed increase in 2022, the overall case frequency still shows a downward trend.<br/>
+3. Mortality due to malaria is relatively low and fluctuates minimally, with no significant increase or decrease over the years.<br/>
+4. As of September 2023, the number of reported cases is 193 with 1 reported death, which aligns with the trend of decreasing cases, despite the slight increase reported in 2023.
 
-Overall Trends: 
+## Analysis
 
-Overall, there is a decreasing trend in the number of malaria cases in mainland China from 2010 to 2023. In the earlier years (2010-2012), the number of cases fluctuated but generally remained high, ranging from 200 to over 1,000 cases. However, from around 2013, there has been a gradual decline in the number of cases, ranging from around 50 to 400 cases. This decreasing trend indicates that efforts to control and prevent malaria transmission in mainland China have been effective.
+### Cases Analysis
+The Malaria cases in mainland China depict a considerable fluctuation over a period of 13 years, yet there is an overall decreasing trend. A high number of cases were reported in 2010, recording a peak of 1094 cases in August 2010. However, the numbers had a noticeable decline after 2010 and then maintained relatively lower rates constantly changing from 2012 until recent years. The significant drop in 2020, with numbers going below 100, is notable, which might be contributed by stringent health measures due to the COVID-19 pandemic. A slight increase can be observed from 2021, but the figures were still kept below 300 till 2023. 
 
-Discussion: 
-
-The observed seasonal patterns in the data align with the known transmission dynamics of malaria. Mosquitoes, the primary vectors for malaria, thrive in warm and humid conditions. Therefore, it is not surprising to see higher numbers of cases during the summer months, when these conditions are more favorable for mosquito breeding and survival. Conversely, the lower number of cases during the winter months can be attributed to the unfavorable conditions for mosquito activity.
-
-The overall decreasing trend in the number of malaria cases is encouraging and suggests that control measures, such as vector control, improved diagnosis and treatment, and public health interventions, have effectively reduced malaria transmission in mainland China. However, it is important to continue monitoring and implementing these measures to sustain the progress made and prevent any resurgence of malaria cases.
-
-It is worth noting that the provided data only includes cases and deaths due to malaria. To fully comprehend the malaria situation in mainland China, it would be beneficial to also consider other factors such as population demographics, geographical distribution, and interventions implemented during the study period. Additionally, comparing the data with historical trends and data from neighboring countries would provide a broader perspective on the malaria situation in the region.
+### Deaths Analysis
+Despite fluctuations in the number of cases, the death toll remained relatively low throughout the years with one exceptional surge to 32 deaths in September 2012. Most months reported an average death count of less than 5. No significant pattern can be identified in the distribution of deaths. The highest number of deaths registered each year has been decreasing progressively from 2010 onwards, indicating potentially improved treatment strategies or more extensive preventative measures. By 2020, there were some months where no deaths were reported, indicating progress in Malaria management in China.

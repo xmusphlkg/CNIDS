@@ -58,6 +58,7 @@ def format_table_data(table_data, analysis_date):
     
     # replace nan% and inf% to '-'
     table_data = table_data.replace('nan%', '/')
+    table_data = table_data.replace('nan', '/')
     table_data = table_data.replace('inf%', '/')
     
     # select columns

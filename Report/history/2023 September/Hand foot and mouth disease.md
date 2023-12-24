@@ -1,17 +1,19 @@
-Seasonal Patterns: 
-Based on the provided data, a distinct seasonal pattern for Hand, Foot, and Mouth Disease (HFMD) in mainland China is apparent. The number of cases shows a consistent increase during the spring and summer months, reaching its highest point between May and July. This is followed by a gradual decrease during the fall and winter months, with the lowest activity occurring between December and February.
+## Introduction
 
-Peak and Trough Periods: 
-The peak period for HFMD cases in mainland China commonly falls between May and July, with the highest number of cases being reported during this time. Conversely, the trough period, characterized by the least number of cases, typically spans from December to February.
+Hand, Foot, and Mouth Disease (HFMD) is an infectious illness typically caused by coxsackievirus A16 and enterovirus 71. It commonly affects children but can occur in adults. Characterized by fever, sore throat, and blisters on the hands, feet, and inside the mouth, HFMD spreads through direct contact with nasal secretions, saliva, fluid from blisters, or stool of an infected person. While normally self-limiting and resolving within 7 to 10 days, HFMD can sometimes lead to complications, especially with enterovirus 71 infections. Preventative measures include good hygiene practices and isolating infected individuals to limit transmission.
 
-Overall Trends: 
-From 2010 to 2023, mainland China has experienced an overall upward trend in the incidence of HFMD cases. While the number of cases fluctuates from year to year, some years exhibiting higher peaks than others, an overall increase is evident over time.
+## Highlights
 
-Discussion: 
-The observed seasonal pattern of HFMD in mainland China aligns with the recognized characteristics of the disease. HFMD is known to be more prevalent during warmer months due to the thriving conditions for causative viruses, such as enterovirus, in warm and humid environments. The peak period of HFMD cases in May to July coincides with the summer season, which is characterized by elevated temperatures.
+- Significant reduction in Hand foot and mouth disease cases in China from 2010 with over 354,000 cases and 186 deaths in May to September 2023 with 166,980 cases and no deaths reported. This is indicative of improved disease management and prevention.
+- <br/>
+- Peaks are prominently noticed during the warmer months (May-June) across the years. Exemplifying this, the jump from 20,105 to 433,084 cases was seen from April to June in 2023. Hence, the disease exhibits clear seasonality.
+- <br/>
+- Even though consistent fluctuations are noted in the disease cases, a positive trend is the relatively low number or lack of fatalities especially evident post-2017.
 
-The overall rise in HFMD cases over the years can be attributed to several factors, including improved surveillance and reporting systems, increased awareness and diagnosis of the disease, population growth, and changes in environmental and socioeconomic factors. It is important to note that the provided data only includes cases and deaths documented before September 2023, thus further analysis is necessary to evaluate the influence of interventions and public health measures on disease trends.
+## Analysis
 
-Moreover, it is noteworthy that negative values are present in some months, particularly in the early years. These negative values may indicate data reporting issues or inconsistencies and should be investigated further to ensure accuracy.
+### Cases Analysis
+There has been a marked disparity in reported cases of Hand, Foot and Mouth Disease (HFMD) over the years in mainland China, with a noticeable seasonal pattern. A sharp increase is observed during April, reaching a peak around June, and then declining from July onwards. While the exact number of cases fluctuates each year, there has been a trend of an overall increase in yearly case numbers since 2010. However, there was a significant drop in cases in 2020, which might be due to stringent health measures during the Covid-19 pandemic. Reports for 2023 show an unprecedented surge in June, indicating potentially evolving dynamics of disease transmission.
 
-In conclusion, the data suggests a distinct seasonal pattern with peak HFMD activity observed in the spring and summer months in mainland China. The overall trend reveals a progressive increase in HFMD cases, emphasizing the importance of ongoing surveillance and preventive measures to control disease transmission.
+### Deaths Analysis
+The number of deaths from HFMD presents a generally low mortality, with the highest number recorded in April 2010 with 175 fatalities. A decrease in the number of deaths can be seen over the years, despite the increasing number of cases. This might suggest improvements in healthcare facilities and early detection strategies. The highest death rate coincides with the peak of cases around April-June, indicating deaths are closely related to the severity of the outbreak. Similar to the cases, there has been a noticeable drop in fatalities recorded during 2020, aligning with the pandemic period. Interestingly, no fatal cases are reported after April 2023 despite the surge in disease cases.

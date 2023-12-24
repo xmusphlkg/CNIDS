@@ -1,50 +1,51 @@
-Plague, also known as the Black Death, is a highly infectious disease caused by the bacteria Yersinia pestis. It has a long history and has caused devastating pandemics worldwide. This comprehensive overview examines the epidemiology of Plague, including its global prevalence, transmission routes, affected populations, key statistics, historical context, and discovery.
+### Historical Context and Discovery of Plague:
 
-1. Global Prevalence:
-Plague is naturally found on all continents except Antarctica, but it is most commonly associated with Africa, Asia, and South America. The prevalence of Plague varies over time and across regions. While localized outbreaks are frequent, the global burden of Plague has decreased significantly over the centuries due to improved healthcare systems and public health measures.
+Plague is a disease that has affected humanity throughout historical and prehistorical times. The most notorious plague outbreak was the Black Death in the 14th century, which killed an estimated 50 million people in Europe, approximately one-third of the continent's population. Caused by the bacterium *Yersinia pestis*, plague was historically transmitted via fleabites, from person to person, and through other routes, leading to devastating pandemics.
 
-2. Transmission Routes:
-The primary mode of Plague transmission is zoonotic, meaning it primarily affects animals and can be transmitted to humans. It mainly spreads through the bites of infected fleas that reside on small mammals like rats, squirrels, and prairie dogs. Plague can also be transmitted through direct contact with infected animals' bodily fluids or tissues, or by inhaling respiratory droplets from individuals with pneumonic Plague.
+The discovery of the plague bacterium is attributed to the bacteriologist Alexandre Yersin during an 1894 Hong Kong outbreak, which led to a better understanding of the disease. Subsequent scientific advancements allowed for the development of antibiotics, which markedly reduced the lethality and incidence of the disease.
 
-3. Affected Populations:
-Plague can affect people of all ages and genders. Historically, it was associated with poverty, crowded living conditions, and poor sanitation, as these factors increase the chance of coming into contact with infected fleas or animals. Occupations involving close contact with animals, such as farmers, hunters, and veterinarians, traditionally have higher exposure rates.
+### Global Prevalence:
 
-4. Key Statistics:
-- According to the World Health Organization (WHO), an average of 1,000 to 2,000 cases of Plague have been reported worldwide in recent years.
-- Plague has three forms: bubonic, septicemic, and pneumonic. Bubonic Plague is the most common, accounting for around 80-95% of cases.
-- Mortality rates vary based on the form. Bubonic Plague has a mortality rate of about 30-60% if left untreated, while septicemic and pneumonic Plague are more severe, with mortality rates of 100% if not treated promptly.
-- Madagascar reports the highest number of Plague cases annually, with periodic outbreaks between September and April. Other countries reporting Plague cases include Peru, the Democratic Republic of Congo, and Madagascar.
+The global prevalence of plague has dramatically decreased since the advent of modern sanitation and antibiotics. However, outbreaks still occur, primarily in rural areas in specific regions of the world. Modern cases of plague are predominantly reported from Africa (especially the Democratic Republic of the Congo and Madagascar), Asia, and the Americas (USA and Peru). WHO reports that there are a few thousand cases annually, but due to under-reporting and surveillance issues, the actual numbers might be higher.
 
-5. Historical Context and Discovery:
-Plague has a documented history dating back thousands of years, with the first recorded pandemic occurring during the Byzantine Empire in the 6th century AD. The most infamous pandemic, the Black Death, ravaged Europe in the 14th century, killing an estimated 75-200 million people and causing profound societal, economic, and cultural impacts.
-The discovery of Plague's causative agent, Yersinia pestis, is credited to Alexandre Yersin, a Swiss-French physician, in 1894. His groundbreaking work paved the way for understanding the disease and developing effective treatments and preventive measures.
+### Transmission Routes:
 
-6. Major Risk Factors:
-- Close contact with rodents or their fleas.
-- Poor sanitation and hygiene conditions.
-- Living or working in areas with high Plague prevalence.
-- Traveling to Plague-affected regions.
-- Participating in activities involving close contact with infected animals or fleas.
+Plague can be transmitted in several ways:
 
-7. Impact on Different Regions and Populations:
-Regions and populations with limited access to healthcare resources, poor sanitation, and high exposure to rodents or fleas are most susceptible to Plague outbreaks. Additionally, factors such as climate change, urbanization, and natural disasters can contribute to the spread and impact of Plague. Populations living in poverty and overcrowded conditions remain at greater risk worldwide.
+1. **Flea Bites**: The most common route of transmission to humans is through the bite of an infected flea. The bacterium lives in small mammals like rats, prairie dogs, and squirrels, with fleas serving as vectors that can transmit the bacterium to humans.
 
-In conclusion, Plague continues to pose a threat to certain regions and populations, although its global prevalence has significantly decreased over time. Understanding the epidemiology of Plague, including its transmission routes, affected populations, and risk factors, is crucial for implementing effective prevention and control measures to mitigate its impact.
-## Introduction
+2. **Direct Contact**: Humans can contract the bubonic or septicemic form of plague through direct contact with tissue or bodily fluids of an infected animal.
 
-Plague is an infectious disease caused by the bacterium Yersinia pestis. This zoonotic disease primarily affects rodents like rats and is transmitted to humans through the bites of infected fleas. Plague presents in three forms - bubonic, septicemic, and pneumonic, each carrying varying severity and symptoms. Historically, plague caused widespread pandemics, including the Black Death in the 14th century. Despite antibiotic treatment, plague can be lethal if not treated promptly, hence emphasizing preventive measures.
+3. **Inhalation**: Pneumonic plague, the most serious form, can be transmitted from person to person through infected respiratory droplets.
 
-## Highlights
+4. **Contaminated Materials**: Handling contaminated materials, such as clothing or linen from infected individuals, can also result in transmission.
 
-1. There is a tendency of reported Plague cases and deaths to occur in sporadic, isolated instances, with majority of the months reporting zero cases or deaths.<br/>
-2. Years 2010, 2011, 2012, 2014, 2017, 2019, 2020, and 2022 witnessed both cases and deaths in the same month, suggestive of severe disease periods.<br/>
-3. September 2023 marked a quiet period, with no reported cases or deaths, following a bump in cases (and deaths) in August 2023, keep monitoring for potential resurgences.<br/>
-4. There is no clear seasonal pattern, however, some cases/deaths appear around mid-year (July), and late-year (September to November).
+### Affected Populations and Key Statistics:
 
-## Analysis
+Most human cases in the modern era occur in rural areas where people live in close proximity to infected rodents and fleas. Specific populations might be at higher risk due to close interaction with vector species (for hunting, etc.) or environmental conditions that encourage the proliferation of rodents.
 
-### Cases Analysis
-Over the reported period of 13 years, Plague cases in mainland China appear to be sporadic and infrequent, with most months reporting zero cases. Some notable spikes in cases are found in October 2011, October 2014, November 2019, and August 2023, with 2, 2, 4, and 4 cases reported respectively. The months that consistently show a slight increase in cases tend to be mid-year and towards the end of the year, indicating possible seasonality in the occurrence of plague cases. 
+### Major Risk Factors:
 
-### Deaths Analysis 
-In terms of fatalities, the data shows that the mortality rate is relatively high for reported cases. Out of the 23 reported cases of plague, there were 10 deaths, indicating a case fatality ratio of approximately 43%. This suggests that while the incidence of Plague is low, the disease severity is high. Notably, the two peak case months, November 2019, and August 2023, had zero and one death(s) respectively, which may suggest improved case management or reporting inaccuracies.
+1. **Environmental Factors**: Regions that experience natural disasters, poor sanitation, and high rodent populations can facilitate the spread of plague.
+
+2. **Occupational Exposure**: Veterinarians and wildlife workers may be at higher risk due to their direct contact with potentially infected animals.
+
+3. **Proximity to Vectors**: People living near or venturing into areas with large rodent populations have heightened risk.
+
+4. **Socio-economic Factors**: Low-income regions with less developed healthcare systems are at an increased risk of outbreaks and less effective disease control.
+
+### Impact on Different Regions and Populations:
+
+The impact of plague depends on various factors, including local public health capabilities, state of infrastructure, and the immediate response to any outbreak.
+
+1. **Africa**: Reports the highest number of cases, with Madagascar experiencing frequent outbreaks, often marked by high mortality rates.
+
+2. **Asia**: Historical pandemics originated in Asia, and some countries still report occasional cases, but with much-reduced frequency and severity.
+
+3. **The Americas**: Particularly in the western United States and some regions of South America, there are sporadic cases, often related to outdoor activities that bring humans into contact with infected wildlife or fleas.
+
+### Variations in Prevalence Rates and Affected Demographics:
+
+Plague cases have a geographic and demographic pattern that generally corresponds to the presence and interaction of humans with potential vectors and reservoirs. However, due to the great rarity of plague in the contemporary period compared to historical pandemics, broad patterns of prevalence are difficult to ascertain beyond the aforementioned risks linked to occupation, geography, and socio-economic status.
+
+It's important to note that with global climate changes and shifting human-animal interfaces, the risk of plague outbreaks may also shift temporally and geographically. Public health measures and awareness are critical in preventing potential re-emergence or spread of the disease in regions where plague is still extant.

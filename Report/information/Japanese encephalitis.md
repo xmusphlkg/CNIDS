@@ -1,45 +1,38 @@
-Japanese encephalitis (JE) is a viral disease caused by the Japanese encephalitis virus (JEV), a mosquito-borne flavivirus. It is primarily found in East and Southeast Asia, with sporadic cases reported in other regions. This paper provides a comprehensive overview of the epidemiology of Japanese encephalitis.
+Japanese encephalitis (JE) is a mosquito-borne viral infection that affects the central nervous system. It is caused by the Japanese encephalitis virus (JEV), a flavivirus related to dengue, yellow fever, and West Nile viruses.
 
-Historically, the first major outbreak of Japanese encephalitis was reported in Japan in the 1870s. In the 1920s, the virus was isolated for the first time, and its connection to neurological symptoms was established. Since then, JE has been recognized as a significant public health concern in many Asian countries.
+**Historical Context and Discovery:**
+JE was first recognized in Japan in the 1870s. The causative agent, JEV, was subsequently isolated during the 1930s. Since its discovery, JE has been documented across much of Asia and parts of the Western Pacific, becoming a significant public health problem in these regions.
 
-Japanese encephalitis is endemic in 24 countries in the Asia-Pacific region, including India, China, Bangladesh, Vietnam, Thailand, Myanmar, and others. However, the disease can also spread to non-endemic regions, such as Australia, Papua New Guinea, and the Pacific Islands. Travelers from non-endemic regions can acquire the infection while visiting endemic areas.
+**Global Prevalence:**
+JE is most common in rural agricultural areas in Asia, where rice cultivation and pig farming provide ideal breeding grounds for mosquitoes. According to the World Health Organization (WHO), approximately 3 billion people live in regions where JE is endemic. The disease occurs from the easternmost islands of the Pacific Ocean to the Himalayas, and as far south as Australia.
 
-JEV is mainly transmitted through the bite of infected mosquitoes, primarily from the Culex genus. Pigs and wading birds act as hosts for the virus, while mosquitoes serve as vectors for transmission between these animals and humans. JE is primarily a rural agricultural disease, common in areas with wetland rice cultivation and pig farming.
+**Transmission Routes:**
+JEV is primarily transmitted through the bite of infected Culex species mosquitoes, particularly Culex tritaeniorhynchus. The mosquitoes become infected by feeding on birds (especially wading birds) and pigs that have high levels of JEV in their blood. Pigs are especially important amplifying hosts that facilitate the transmission to humans, who are dead-end hosts, meaning that JEV does not reach high enough levels in human blood to infect biting mosquitoes.
 
-Children, especially those under 15 years of age, are the most affected population group by JE. However, adults who have not been previously exposed to the virus are also at risk. The disease is more prevalent in rural areas with abundant vector mosquitoes and amplifying hosts. Individuals involved in farming, rice field work, and those living near pig farms or wetlands are at a higher risk of JE.
+**Affected Populations:**
+While anyone in a JE-endemic area can be infected, certain populations are at higher risk. This includes people living in rural agricultural areas, children under 15, and individuals who spend substantial time outdoors in JE-endemic locations.
 
-According to the World Health Organization (WHO), approximately 68,000 cases of Japanese encephalitis occur annually, resulting in 13,600 to 20,400 deaths worldwide. However, these numbers are likely underestimated due to limited healthcare access and surveillance systems in affected regions. The case fatality rate varies widely, ranging from 5% to 30%, with higher rates in older populations.
+**Key Statistics:**
+- JE causes an estimated 68,000 clinical cases each year, though the incidence of infection is likely much higher due to subclinical infections.
+- Case fatality rates among those with encephalitis can be as high as 30%.
+- Survivors can suffer from long-term neurological sequelae. Approximately 30-50% of survivors have cognitive, behavioral, or neurological problems.
+- Vaccination programs have significantly decreased JE incidence in countries like Japan and South Korea.
 
-Several risk factors increase the transmission of Japanese encephalitis:
+**Major Risk Factors:**
+The following factors increase the risk of JE:
+- Proximity to rice fields and pig farming areas.
+- Seasonal patterns, with most human cases occurring during the summer and fall when mosquito populations peak.
+- Lack of immunity, particularly in areas where JE is not endemic or among travelers from non-endemic regions.
 
-1. Mosquito Exposure: Living or working in areas with high mosquito populations, especially during peak transmission seasons, increases the risk of JE.
+**Impact on Different Regions and Populations:**
+- Southeast Asia and the Western Pacific are the most affected. High prevalence rates are seen in countries like Vietnam, India, Nepal, and China.
+- Urbanization and changes in agricultural practices have influenced transmission patterns, sometimes extending the reach of JEV or introducing it into new areas.
+- Children are particularly vulnerable because adults in endemic areas often acquire natural immunity due to subclinical infection early in life.
+- Vaccination campaigns have reduced incidence in countries like Japan, where the disease was once very prevalent.
 
-2. Rural Agricultural Activities: People involved in rice farming and pig rearing are at an elevated risk due to close proximity to mosquito vectors and amplifying hosts.
+**Prevention and Control:**
+Prevention focuses on vaccination, especially in high-risk areas. Safe and effective vaccines are available, and the WHO recommends integration of JE vaccination into national immunization schedules in areas where JE is recognized as a public health issue.
 
-3. Lack of Vaccination: Individuals who have not been previously vaccinated against JE are more susceptible to infection.
+Control of mosquito populations and personal protective measures (e.g., use of repellent, bed nets, and wearing long sleeves and trousers) are also important, particularly for travelers and those at occupational risk.
 
-4. Travel to Endemic Areas: Travelers from non-endemic regions who visit areas with ongoing JE transmission are at risk if they are not immunized or take preventive measures to avoid mosquito bites.
-
-The impact of Japanese encephalitis varies across different regions and populations. In endemic areas, particularly in rural and agricultural communities, the disease is a significant public health concern. Countries with high burden, such as India and China, report a substantial number of cases each year. Japanese encephalitis can cause long-term neurological disabilities, cognitive impairments, and economic burdens on affected individuals and their families.
-
-Efforts have been made in recent years to control Japanese encephalitis through vaccination campaigns. Vaccination programs targeting high-risk populations, especially children in endemic areas, have shown promising results in reducing the disease burden.
-
-In conclusion, Japanese encephalitis is a viral disease primarily found in Asia. It is transmitted through the bite of infected mosquitoes and primarily affects children and individuals living in rural agricultural areas. The disease has a significant impact on affected regions and populations, leading to substantial morbidity and mortality. Vaccination and control measures play a vital role in preventing the transmission and reducing the burden of Japanese encephalitis.
-## Introduction
-
-Japanese Encephalitis (JE) is a mosquito-borne viral disease primarily prevalent in Asia, causing significant public health issues. The JE virus (JEV) triggers acute inflammation of the brain in humans, leading to severe neurological symptoms which can become lethal. About a third of the symptomatic cases remain permanently disabled. Pigs and birds serve as natural reservoirs of the virus, and no cure exists currently. However, safe and effective vaccines are available for prevention. Despite this, JE remains a significant cause of viral encephalitis globally, with approximately 68,000 clinical cases reported annually.
-
-
-## Highlights
-
-1. There is a clear annual pattern in Japanese encephalitis cases. Peaks are observed annually, mostly during the summer months (June-August).<br/>
-2. Over the years, there is a decreasing trend in both the number of cases and deaths, showing successful control measures.<br/>
-3. In September 2023, there were 62 cases and 1 death - significantly lower than peak numbers in the past but higher than the preceding months of the same year indicating the beginning of the peak period.
-
-## Analysis
-
-### Cases Analysis
-Japanese encephalitis case data from China shows a pattern of seasonal variation, peaking in the summer months of June to September each year. High numbers of cases are observed throughout 2010-2018, with each summer peak reaching hundreds or thousands of cases. Notably, a considerable reduction is seen from 2018, with the peak decreasing to several dozens through to 2023. However, the summer surge remained prevalent for the disease. Also, even during off-peak months, cases of the disease continue to be reported, demonstrating that exposure persists year-round.
-
-### Deaths Analysis
-Similar to the case data, death counts also illustrate a seasonal trend, with most deaths occurring in the summer and early fall. The high mortality is especially noticeable in 2010-2018, reflecting the higher case counts in these years. Mirroring the significant decrease in reported cases, deaths also substantially drop starting from 2018. Despite the decrease, there is a remarkable rise in mortality in April 2019. The deaths data also shows that despite fewer cases in off-peak months, a number of fatalities still occur, emphasizing the severity of the disease.
+Japanese encephalitis remains a disease of concern due to its potential severity and the large population at risk. Ongoing research, surveillance, and public health efforts are essential to control and prevent JE. Climate change, ecological disruption, and global travel could modify transmission patterns, emphasizing the need for continued vigilance and adaptation of control strategies.

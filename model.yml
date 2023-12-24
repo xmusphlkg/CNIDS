@@ -1,0 +1,31 @@
+# setting for model
+Report:
+  cover:
+    create: 'dall-e-3'
+  abstract: # create_report_summary function
+    create: 'gpt-4-1106-preview'
+    check: 'gpt-3.5-turbo-16k'
+  news: # bing_analysis function
+    create: 'gpt-4-all'
+    clean: 'gpt-4-1106-preview'
+    check: 'gpt-3.5-turbo-16k'
+  introduction: # create_report_page function
+    create: 'gpt-4'
+    check: 'gpt-3.5-turbo'
+  highlights: # create_report_page function
+    create: 'gpt-4'
+    check: 'gpt-3.5-turbo'
+  analysis: # create_report_page function
+    create: 'gpt-4'
+    check: 'gpt-3.5-turbo'
+Mail:
+  main: # send_mail function
+    create: 'gpt-4-1106-preview'
+    check: 'gpt-3.5-turbo-16k'
+  keywords:
+    create: 'gpt-4-1106-preview'
+    check: 'gpt-3.5-turbo-16k'
+Website:
+  main: # create_website function
+    create: 'gpt-4-1106-preview'
+    check: 'gpt-3.5-turbo-16k'

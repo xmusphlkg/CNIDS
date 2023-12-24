@@ -1,15 +1,18 @@
-Seasonal Patterns: 
-Based on the provided data, there is a clear seasonal pattern observed for Rubella cases in mainland China. The number of cases tends to be highest during the spring and summer months (March to August), with a peak occurring in May. After August, the number of cases gradually decreases, reaching its lowest point in January and February. This pattern suggests that Rubella transmission is more active during the warmer months.
+## Introduction
 
-Peak and Trough Periods: 
-In mainland China, the peak period for Rubella cases typically occurs in May, with the highest number of reported cases during this month. Conversely, the trough period, characterized by the lowest number of cases, is observed in January and February consistently.
+Rubella, also known as German measles, is a contagious viral infection best known for its distinctive red rash. It's caused by the rubella virus, which is transmitted through respiratory droplets when an infected person coughs or sneezes. While often mild in children and adults, rubella infection during pregnancy, especially in the first trimester, can lead to serious congenital rubella syndrome (CRS) in the fetus, resulting in multiple birth defects and developmental issues. Since the development of the rubella vaccine, occurrences have greatly diminished in countries where the vaccine is widely administered.
 
-Overall Trends: 
-An examination of the overall trends reveals a general decrease in Rubella cases in mainland China over the years. From 2010 to 2013, a gradual decline in the number of cases was observed. However, from 2014 to 2019, there was a significant decrease in cases, with occasional fluctuations in certain months. For the period 2020 to 2023, the number of cases remained relatively low, with sporadic fluctuations.
+## Highlights
 
-Discussion: 
-The seasonal pattern of Rubella cases in mainland China suggests that the virus is more likely to spread during the spring and summer, in line with the known transmission dynamics of Rubella. The peak in May could be attributed to increased social interactions and gatherings during this time, including school activities and holidays. The trough period in January and February may be influenced by reduced social interactions and heightened awareness of the disease during the winter months.
+- The data shows a consistent pattern of Rubella cases peaking between March and June every year, and declining significantly towards later months. <br/>
+- Overall, the number of Rubella cases in mainland China has been on a steady decline from 2010 to 2023. <br/>
+- The number of deaths caused by Rubella remains extremely low, with only a few instances of fatalities recorded between 2010 and 2023. <br/>
+- As of September 2023, the number of Rubella cases remains low at 72, with zero recorded deaths.
 
-The overall decreasing trend in Rubella cases in mainland China is encouraging and indicates the effectiveness of vaccination programs and public health interventions. However, it is important to continue monitoring and maintaining high vaccination coverage to prevent outbreaks and ensure the elimination of Rubella in the population.
+## Analysis
 
-Please note that the analysis provided is based solely on the available data and does not consider other factors that may influence Rubella transmission, such as vaccination coverage, population demographics, and public health measures.
+### Cases Analysis
+Rubella cases in mainland China demonstrate significant temporal fluctuations. The data shows a distinct pattern, with case numbers peaking between March and June every year, and notably in April. The highest number of cases (18445) occurred in May 2011, while the lowest (40) in January 2023. Over the 13-year period, there is a clear trend of decreasing incidence rates, with the highest concentrations of cases occurring between 2010-2012, and numbers generally decreasing from 2013 onwards. This suggests progress in disease control efforts, which could be attributed to various causes, including improved immunization coverage.
+
+### Deaths Analysis
+The mortality rate from Rubella in mainland China is remarkably low, with only five reported deaths between 2010 and 2022, during periods of high case numbers. This demonstrates that, while Rubella may have a high infection rate during certain periods, its virulence in terms of mortality remains relatively low. This low lethality rate can be attributed to effective disease management strategies in mainland China, including access to healthcare and treatment. Similarly to the case numbers, deaths also largely decreased over the observed period, indicating effective public health interventions.

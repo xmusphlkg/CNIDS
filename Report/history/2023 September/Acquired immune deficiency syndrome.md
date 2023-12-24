@@ -1,13 +1,18 @@
-Seasonal Patterns: 
-Based on the provided data, there is evidence of a seasonal pattern in the incidence of Acquired Immune Deficiency Syndrome (AIDS) cases and deaths in mainland China. The number of cases and deaths tends to be higher during the summer months (June, July, and August) and lower during the winter months (December, January, and February). This suggests a potential association between the disease spread and seasonal factors.
+## Introduction
 
-Peak and Trough Periods: 
-The peak periods for AIDS cases and deaths in mainland China are observed during the summer months, particularly in July, when the number of cases and deaths reaches its highest point. Conversely, the trough periods, where case and death numbers are at their lowest, occur in the winter months, specifically in January and February.
+Acquired Immune Deficiency Syndrome (AIDS) is a chronic and potentially life-threatening condition caused by the human immunodeficiency virus (HIV). The virus damages the immune system, hindering the body's ability to fight infections and diseases. AIDS is the most advanced stage of HIV infection, characterized by the development of certain cancers, infections, or other severe clinical manifestations. It was first recognized in the early 1980s and has since become a global pandemic. Treatment involves antiretroviral therapy (ART) which, while not a cure, can significantly prolong and improve the lives of those living with HIV.
 
-Overall Trends: 
-Examining the overall trends, there has been a steady increase in AIDS cases and deaths in mainland China from September 2010 to September 2023. However, it is essential to note that there are fluctuations in the data from year to year, with some years reporting higher numbers than others. Additionally, there is a decline in the number of cases and deaths in January and February 2013, potentially attributable to data reporting issues.
+## Highlights
 
-Discussion: 
-The observed seasonal patterns imply that environmental or behavioral factors may contribute to the spread of AIDS in mainland China. The higher incidence during the summer months could be linked to increased social activities, such as travel and gatherings, facilitating disease transmission. Conversely, the lower incidence during the winter months may result from reduced social interactions and increased awareness of preventive measures.
+- A steady increase in the number of both Acquired immune deficiency syndrome (AIDS) cases and deaths has been witnessed from 2010 to 2023 in mainland China. <br/>
+- There is a persistent upward trend observed even in the year 2023, indicating a growing health concern. <br/>
+- Particularly, the death rate due to AIDS has seen a significant surge in early 2023. <br/>
+- Despite considerable advances in global medical services, the situation remains challenging and demands persistent efforts towards control and prevention of AIDS.
 
-The ongoing upward trend in AIDS cases and deaths in mainland China emphasizes the ongoing challenge of controlling the disease's spread. It is crucial to continue implementing effective prevention and control measures, such as promoting safe sexual practices, facilitating access to testing and treatment, and raising awareness about the disease. Additionally, further research is necessary to gain a deeper understanding of the factors influencing the observed seasonal patterns and overall trends. This knowledge can inform targeted interventions and strategies to reduce the burden of AIDS in mainland China.
+## Analysis
+
+### Cases Analysis
+The reported cases of Acquired Immune Deficiency Syndrome (AIDS) in mainland China present significant month-to-month flactuations, with observable increasing trends over the long term. The numbers start from approximately 1,663 in January 2010, followed by a rise and fall pattern across subsequent years peaking at about 7,897 in December 2018. Following this peak, the cases have generally declined, although with an upswing centered in the latter half of subsequent years. Based on the presented data, it appears that the burden of AIDS in mainland China is still considerable and remains an issue of major concern.
+
+### Deaths Analysis
+The data on reported AIDS-related deaths exhibits an upward trend across the same period, despite variations between individual months. In the early part of the period under consideration (January 2010), deaths were around 301 per month, but these rose to about 2,486 per month by December 2021, marking a considerable increase. However, it is noteworthy that within the same period, monthly deaths had already approached this figure in late 2018. The variations in AIDS-related deaths are indicative of the evolving nature of the epidemic, warranting ongoing surveillance and adaptive strategies to mitigate its impact.

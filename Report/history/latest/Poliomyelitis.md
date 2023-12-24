@@ -1,7 +1,18 @@
-Seasonal Patterns: According to the provided data, no clear seasonal pattern can be observed for cases and deaths related to Poliomyelitis in mainland China prior to October 2023. The number of cases and deaths have consistently remained low over the years, with no noticeable fluctuations or identifiable seasonal peaks.
+## Introduction
 
-Peak and Trough Periods: As previously mentioned, there are no distinct periods of high or low points evident in the data. The number of cases and deaths has consistently remained low, without any significant increases or decreases observed over time.
+Poliomyelitis, commonly known as polio, is a highly infectious viral disease primarily affecting children under the age of five. The poliovirus spreads from person to person and can invade the nervous system, potentially causing irreversible paralysis. While there is no cure, polio is preventable through immunization. The virus typically enters the body through the mouth, proliferating in the intestine, and from there, it can infect the nervous system. Most infected people show no symptoms or exhibit mild, flu-like signs. However, a small proportion of those infected develop severe muscle weakness or paralysis.
 
-Overall Trends: The overall trend for cases and deaths related to Poliomyelitis in mainland China before October 2023 is characterized by consistently low numbers. There is no significant upward or downward trend evident in the data.
+## Highlights
 
-Discussion: The absence of Poliomyelitis cases and deaths in mainland China before October 2023 indicates successful control and prevention measures implemented by public health authorities. The consistently low numbers suggest that the disease has been effectively managed, possibly through vaccination programs and other public health interventions. However, it is crucial to continue monitoring and surveillance efforts to ensure that the disease remains under control and to prevent any potential outbreaks in the future.
+- Mainland China has seen a significant decrease in Poliomyelitis cases over the years.<br/>
+- The only noticeable outbreak in the provided data was observed in August to October 2011, with a minor case spike in December the same year.<br/>
+- From 2012 onward, no Poliomyelitis cases or deaths were recorded, suggesting an effective control or eradication of the disease.<br/>
+- As of September 2023, Mainland China has had no new reported cases or deaths from Poliomyelitis. This indicates successful elimination and prevention programs.<br/>
+
+## Analysis
+
+### Cases Analysis
+Poliomyelitis (polio) cases in mainland China appear negligible over the given period, demonstrating effective control and prevention measures. Notably, reported polio cases predominantly occurred over a four-month period towards the end of 2011, with the highest cases (8) noted in October 2011. The recorded cases abruptly halted in December 2011 and no other instances emerged over the subsequent decade. This unexpected surge could be attributed to a localized outbreak or enhanced case detection during this period, and the absence of cases thereafter indicates effective response measures, consistent with China's goal for eradicating polio.
+
+### Deaths Analysis
+Data shows only one reported death from polio over the outlined timeline, which occurred in September 2011 coinciding with the surge of reported cases. The single death showcases the often low mortality rate linked with polio in the presence of proper medical care. Furthermore, the data implies an effective nationwide vaccination program, minimizing the population's susceptibility to the disease and thus controlling fatal instances. The single fatality amid the 2011 spike accentuates the importance of immediate response to potential outbreaks. Future management should continue to emphasize prevention strategies, primarily vaccination.

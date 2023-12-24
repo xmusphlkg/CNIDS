@@ -1,19 +1,18 @@
-Seasonal Patterns: 
-Based on the data provided, there is a distinct seasonal pattern for Hepatitis A cases in mainland China. The number of cases is higher during the summer months (June to August) and lower during the winter months (December to February). This pattern remains consistent over multiple years.
+## Introduction
 
-Peak and Trough Periods: 
-The peak period for Hepatitis A cases in mainland China is in the summer months, particularly in July and August. These months consistently have the highest number of cases. Conversely, the trough period for cases occurs during the winter months, with December and January having the lowest number of cases.
+Hepatitis A is an infectious disease of the liver caused by the Hepatitis A virus (HAV). It is typically transmitted through the ingestion of contaminated food or water or through direct contact with an infectious person. The virus causes an acute infection, with symptoms ranging from mild to severe, including jaundice, fatigue, abdominal pain, loss of appetite, nausea, diarrhea, and fever. Vaccination can prevent infection, and improved sanitation and hygiene are crucial in controlling the spread of the virus. Most infected individuals recover fully with no lasting liver damage, although rare cases can be more severe or even fatal.
 
-Overall Trends: 
-Upon examining the overall trend, there appears to be a gradual decrease in the number of Hepatitis A cases in mainland China over the years. From 2010 to 2013, there is a slight fluctuation in the number of cases, but overall, the trend remains relatively stable. However, starting from 2014, there is a noticeable decline in the number of cases, with occasional fluctuations.
+## Highlights
 
-Discussion: 
-The seasonal pattern of Hepatitis A cases in mainland China suggests that there may be certain environmental or behavioral factors that contribute to the transmission of the disease during the summer months. These factors may be linked to increased outdoor activities, changes in food consumption patterns, or other factors that facilitate the spread of the virus.
+- There has been a notable overall reduction in Hepatitis A cases in mainland China from 2010 to 2023, illustrating successful disease containment measures. <br/>
+- A seasonal trend of increased cases from July to September is observed over years, indicating its role as a critical period for intervention. <br/>
+- Despite high case numbers, death rates retained a consistently low trend, indicating effective case management strategies nationwide. <br/>
+- Presently (September 2023), consistent with historic trends, case numbers began to rise but no fatalities were reported, indicating a controllable disease situation.
 
-The peak period of cases during the summer months underscores the importance of implementing preventive measures such as improved sanitation and hygiene practices, vaccination campaigns, and public health education to reduce the risk of transmission.
+## Analysis
 
-The overall trend of decreasing Hepatitis A cases in mainland China is promising and can be attributed to various factors, including improved sanitation and hygiene practices, increased vaccination coverage, and public health interventions. However, it is crucial to continue monitoring the situation and sustaining efforts to further reduce the burden of Hepatitis A in the population.
+### Cases Analysis
+The data details Hepatitis A cases in China spanning from 2010 to 2023. In that time, case numbers fluctuated typically between 1000-3000 monthly cases. A sharp reduction in cases can be observed starting from 2015, with numbers mostly ranging between 1400-2100. By 2021, a further decrease is seen with case numbers consistently falling below 1150 each month. Such decrease in disease prevalence might indicate effective public health interventions, including vaccination and sanitation improvements.
 
-It is noteworthy that the data provided includes negative values for some months, especially in the early years. These negative values may indicate data reporting issues or inconsistencies that should be further investigated to ensure data accuracy.
-
-In conclusion, the analysis of monthly data on Hepatitis A cases in mainland China reveals a distinct seasonal pattern, with peak periods in the summer and trough periods in the winter. The overall trend demonstrates a gradual decrease in cases over the years, suggesting the effectiveness of preventive measures and public health interventions.
+### Deaths Analysis
+Over the same time period, deaths due to Hepatitis A remained quite low, with most months reporting 0-2 fatalities. A notable exception is May 2012 with an unusual spike of 56 deaths. Post 2012, fatalities didn't exceed 4 per month. Since 2017, most months reported no fatalities. The low mortality rate may be attributed to improved healthcare provision, and early diagnosis and treatment. It's also possible that mass vaccination greatly affected infection severity, reducing fatal outcomes.

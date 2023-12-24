@@ -1,19 +1,18 @@
-Seasonal Patterns:
+## Introduction
 
-Based on the available data, there is evidence of a seasonal pattern in the incidence of Other hepatitis cases in mainland China. The number of cases tends to be higher during the winter months (December to February) and lower during the summer months (June to August). This pattern remains consistent across multiple years.
+Other hepatitis refers to liver inflammation caused by factors other than the commonly known hepatitis A, B, C, D, and E viruses. It can result from infections, autoimmune diseases, medications, toxins, alcohol, and other less common viruses. These types of hepatitis are less prevalent but can still lead to significant health issues, including chronic liver disease, cirrhosis, and liver failure. Diagnosis often requires a combination of blood tests, imaging, and sometimes liver biopsy, with treatments varying based on the underlying cause. Preventive measures and strategies depend on the specific etiology of the hepatitis.
 
-Peak and Trough Periods:
+## Highlights
 
-The peak period for Other hepatitis cases in mainland China occurs during the winter months, particularly in January and February, when the number of cases is highest. Conversely, the trough period occurs during the summer months, with the lowest number of cases typically observed in July and August.
+- A downward trend of Other hepatitis cases is observed in mainland China from 2010 to 2023, with cases decreasing from above 4000 each month in 2010 to less than 1000 each month in 2023. <br/>
+- The fatality rate of hepatitis has mostly remained low throughout these years, typically ranging from 0 to 6 deaths regardless of the higher number of cases in early years.<br/>
+- A noticeable drop in cases is observed in February 2020, which could likely be linked to the strain that COVID-19 pandemic put on the healthcare system and reporting/measuring other diseases. <br/>
+- The data shows no significant seasonal pattern in the occurrence of hepatitis cases over the years, indicating the disease tends to spread in a consistent pattern throughout all months.
 
-Overall Trends:
+## Analysis
 
-In general, there has been a decreasing trend in the number of Other hepatitis cases in mainland China from September 2010 to 2023. The number of cases reached its peak in 2011 and gradually declined over the subsequent years. However, it is worth noting that a significant decrease in reported cases occurred in 2013, particularly in January and February, where negative values were recorded. This discrepancy may be attributed to data reporting issues or other factors that affect data accuracy.
+### Cases Analysis
+The reported data for Other Hepatitis over a span of approximately 14 years (2010-2023) in mainland China shows a consistent, downward trend. A sharp spike can be observed annually around March, which might correspond with Chinese New Year activities. However, the general trend indicates substantial progress in disease control, with reported cases reducing from over 4,000 per month in the initial years (2010-2012) to under 1,000 per month in recent years (2021-2023).
 
-Discussion:
-
-The observed seasonal pattern in the incidence of Other hepatitis cases in mainland China suggests a potential correlation between the disease and climatic factors. The higher number of cases during the winter months could be attributed to factors such as increased indoor crowding, reduced ventilation, and weakened immune system function due to cold weather. Conversely, the lower number of cases during the summer months may be influenced by factors like increased outdoor activities, improved ventilation, and stronger immune system function.
-
-The overall decreasing trend in the number of cases over the years may indicate successful public health interventions and preventive measures implemented to control the spread of Other hepatitis in mainland China. However, it is crucial to further investigate the sudden decrease in reported cases in 2013, as negative values were recorded for January and February. This anomaly may require additional data verification and analysis to ensure data accuracy and reliability.
-
-It should be noted that this analysis is based solely on the provided data and does not consider other potential factors that may influence the occurrence of Other hepatitis, such as changes in diagnostic practices, reporting systems, or population demographics. Further research and analysis are needed to gain a comprehensive understanding of the epidemiology of Other hepatitis in mainland China.
+### Deaths Analysis
+The fatality rate, despite the variation in the number of reported cases, has remained relatively low over the studied period, with an average of 1 death per month. A few outliers are noted, such as December 2012, November 2013, and December 2019, with 6, 4, and 2 deaths respectively. However, from 2020 onwards, the death rate becomes more infrequent and sporadic, reflecting potentially improved health care services and better hepatitis management.

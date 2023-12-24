@@ -1,13 +1,19 @@
-Seasonal Patterns: 
-Based on the provided data, an evident seasonal pattern emerges in the number of Brucellosis cases in mainland China. The number of cases demonstrates higher incidence rates from March to August, with a peak occurring in June. Conversely, from September to February, a general decrease in cases is observed, reaching a low point in January. This pattern suggests a seasonal variation in the transmission of Brucellosis, with increased transmission rates during the warmer months.
+## Introduction
 
-Peak and Trough Periods: 
-The peak period for Brucellosis cases in mainland China occurs in June, with a significant number of reported cases during this month. Conversely, the trough period occurs in January, with a lower number of reported cases. These peak and trough periods indicate the seasonal variability in the occurrence of Brucellosis cases.
+Brucellosis is an infectious disease caused by bacteria of the genus Brucella, typically transmitted from animals to humans, primarily through the consumption of unpasteurized dairy products, direct contact with infected animals, or inhalation of airborne agents. It is characterized by fever, sweats, malaise, anorexia, headache, and muscle pain, and can result in more chronic symptoms including arthritis and spondylitis. Though it can affect any organ system, it predominantly targets the musculoskeletal system. Various mammalian species act as reservoirs for Brucella, including cattle, goats, camels, and swine. Prevention strategies revolve around animal vaccination, food safety measures, and occupational precautions.
 
-Overall Trends: 
-Overall, there is a noticeable upward trend in the number of Brucellosis cases in mainland China from September 2010 to September 2023. Although there are fluctuations from year to year, the trend suggests a general increase over time. This emphasizes that Brucellosis remains a significant public health concern in mainland China, with an escalating burden.
+## Highlights
 
-Discussion: 
-The observed seasonal patterns in the data signify that the transmission of Brucellosis in mainland China is influenced by seasonal factors. The higher number of cases during the warmer months, particularly in June, implies that environmental conditions during this period may favor the survival and transmission of Brucella bacteria. Possible factors contributing to this could be increased contact with infected animals or consumption of contaminated food products.
+- Despite the volatile monthly reported cases of Brucellosis from 2010 to 2023, there is a general increasing trend in the number of cases. The highest peak was in June 2022 with approximately 9943 reported cases.<br/>
+- There is a clear yearly cyclical pattern noticeable, wherein reported cases tend to rise during spring and summer months (from March to August), followed by a decrease in autumn and winter (from September to February).<br/>
+- While the number of reported Brucellosis cases remains high, the reported deaths are very low in comparison. This suggests that while the infection rate may be increasing, the disease is not necessarily causing a proportionate number of deaths.<br/>
+- As of September 2023, there are 5987 reported cases and 2 reported deaths, indicating the ongoing public health situation in mainland China.
 
-The overall increasing trend in Brucellosis cases highlights the critical need for sustained surveillance and control measures in mainland China. Efforts should be concentrated on identifying and addressing the risk factors associated with Brucellosis transmission. This includes improving animal husbandry practices, enhancing food safety measures, and promoting public awareness about the disease. Moreover, further research is necessary to gain a better understanding of the specific factors driving the increasing trend and to develop targeted interventions aimed at reducing the burden of Brucellosis in mainland China.
+
+## Analysis
+
+### Cases Analysis
+Brucellosis cases from 2010 to 2023 demonstrate significant seasonality in mainland China. The numbers start to rise in March, peaking between May to July, then gradually declining through August into the end of the year. Notably, the number of total cases trend upward over the years, suggesting that control measures may be falling short. The year 2023 shows the highest peak with 9164 cases in July. There's a decrease in cases at the beginning of the year, which could be due to reduced transmission during colder months.
+
+### Deaths Analysis
+Despite the increasing trend in cases, Brucellosis fatalities remain sporadically low, generally ranging from 0 to 2 deaths throughout the reporting period. This suggests a less virulent strain or effective treatment protocols once diagnosed. However, the presence of isolated fatalities, such as two deaths in September 2023, indicates the potential severity of the disease. It's also important to stress that while the mortality rate is low, the morbidity impact of Brucellosis, leading to diminished quality of life, should not be underestimated.

@@ -1,17 +1,18 @@
-Seasonal Patterns:
-The data provided indicates the presence of a seasonal pattern in the number of leprosy cases in mainland China. The number of cases tends to be higher between the months of March and July, with the highest number of cases occurring in June. Conversely, the number of cases generally decreases between August and February, reaching the lowest point in December and January. This pattern suggests a seasonal variation in leprosy transmission, with higher transmission rates occurring during the warmer months.
+## Introduction
 
-Peak and Trough Periods:
-The peak period for leprosy cases in mainland China is observed in June, with a significant number of cases reported during this month. On the other hand, the lowest number of cases is observed in December and January, indicating the periods of highest and lowest disease activity, respectively.
+Leprosy, also known as Hansen's disease, is a chronic infectious disease caused by the bacterium Mycobacterium leprae. The disease primarily affects the skin, peripheral nerves, upper respiratory tract, and eyes, leading to skin lesions and nerve damage. Leprosy is characterized by a long incubation period and is known for its historical stigma, although it is now curable with multi-drug therapy. Transmission is believed to occur through prolonged close contact with an untreated, infected person. The disease has been largely brought under control in the modern era; however, pockets of high prevalence continue in some developing regions.
 
-Overall Trends:
-An examination of the overall trends reveals a fluctuation in the number of leprosy cases reported in mainland China over the years. Between 2010 and 2013, there was a gradual increase in the number of cases, peaking in 2012. However, starting from 2014, there has been a decreasing trend in the number of cases, with some fluctuations. It is worth noting that there was a sudden decrease in reported cases in 2013, possibly due to issues with data reporting or other factors affecting data accuracy.
+## Highlights
 
-Discussion:
-The observed seasonal patterns in leprosy cases in mainland China suggest a potential association with climatic factors. Leprosy is known to be influenced by environmental conditions, with higher transmission rates reported in warmer and more humid climates. The peak in cases during the months of March to July aligns with the spring and summer seasons, characterized by higher temperatures and increased outdoor activities, potentially leading to higher exposure to the bacteria causing leprosy.
+- Leprosy cases in mainland China have been experiencing a consistent downward trend since 2010, indicating a reduction in disease incidence. <br/>
+- The number of deaths from Leprosy is quite low, suggesting effective disease management and treatment strategies in practice. <br/>
+- As of September 2023, the number of monthly cases has fluctuated around 30 suggesting a stabilization of the disease with low occurrence. <br/>
+- Despite the overall decline, there have been few notable increases at times, indicating periodic disease resurgence, which warrants continuous surveillance and control efforts.
 
-The overall decreasing trend in leprosy cases since 2014 is a promising indication of successful control measures and interventions implemented in mainland China. However, it is essential to continue monitoring and surveillance efforts to ensure sustained progress in reducing leprosy transmission. Furthermore, further analysis and investigation are necessary to understand the factors contributing to the sudden decrease in reported cases in 2013.
+## Analysis
 
-It is important to note that the data provided includes negative values for some months, especially in the deaths column. These negative values may result from data entry errors or other anomalies in the data. Therefore, it is crucial to verify and correct such errors before conducting further analysis.
+### Cases Analysis
+The reported data shows a general decline in Leprosy cases in mainland China from 2010 to 2023. Monthly case counts ranged from lows of 13 to highs of 127. March of 2012 reported the highest number of cases (127), while November, October, and January in 2022 recorded the lowest (13). This suggests variable seasonality could influence Leprosy transmission. The decline might be attributed to improved healthcare, early detection, and successful prevention strategies. The sharp periodic increases might align with population movements or healthcare access changes.
 
-In conclusion, the analysis of monthly data on leprosy cases in mainland China reveals seasonal patterns, peak and trough periods, and an overall decreasing trend in the number of cases. This information can be valuable for public health authorities in the planning and implementation of targeted interventions to control and prevent leprosy transmission.
+### Deaths Analysis
+Deaths from Leprosy over the reported period are relatively rare in comparison to the number of reported cases. The mortality rate compared to cases was very low, indicating a controlled epidemic and efficient treatment. There were several months in which no deaths were reported, and in the months where deaths occurred, the number never exceeded one. The disparate number of cases and deaths could be attributed to early detection and efficient treatment protocols, emphasizing the benefits of robust public health initiatives against Leprosy.

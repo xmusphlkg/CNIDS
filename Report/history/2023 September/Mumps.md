@@ -1,21 +1,19 @@
-Seasonal Patterns:
+## Introduction
 
-Based on the provided data, there is a discernible seasonal pattern for mumps cases in mainland China. The number of cases reaches its peak during the summer months (June, July, and August) and is at its lowest during the winter months (December, January, and February). This consistent pattern over multiple years suggests a recurring seasonal trend.
+Mumps is a highly contagious viral disease caused by the mumps virus, a member of the paramyxovirus family. It's primarily characterized by the painful swelling of the salivary glands, particularly the parotid glands, located near the ears, which can result in a distinctive "chipmunk cheek" appearance. Other symptoms may include fever, headache, muscle aches, tiredness, and loss of appetite. Mumps is typically transmitted through respiratory secretions or saliva. Since the introduction of the MMR (measles, mumps, rubella) vaccine, occurrences have dramatically decreased, though outbreaks still happen, particularly in areas with low vaccination coverage.
 
-Peak and Trough Periods:
+## Highlights
 
-The peak period for mumps cases in mainland China occurs in the summer months, specifically in June and July. These months consistently report the highest number of cases. Conversely, the trough period is observed in the winter months, with December, January, and February consistently having the fewest cases.
+- Mumps cases have seen a sharp decline in mainland China from the beginning of the decade (2010) till September 2023. The highest number of cases were seen in June 2012 (71606 cases), which was drastically reduced to 10867 cases in September 2023. <br/>
+- The months of May, June and July appear to be peak months for the mumps seasonal trend in cases across the years, with June often reporting the highest number of cases. <br/>
+- Despite a high number of reported cases, mumps mortality is exceedingly low. There's a notable peak in 2020 with 5 deaths, but usually there are only 0-2 reported deaths annually. <br/>
+- Current disease situation as of September 2023 is under control with 10867 cases and no deaths.
 
-Overall Trends:
+## Analysis
 
-Overall, there is an increasing trend in the number of mumps cases in mainland China from 2010 to 2019. The number of cases gradually rises during this period, with some fluctuations from year to year. However, starting from 2020, there is a significant decrease in the number of cases, which could be attributed to various factors such as improved vaccination coverage or changes in surveillance and reporting systems.
+### Cases Analysis
+Mumps cases in mainland China show a clear cyclical pattern each year with peaks normally around May-June and lows around February. The highest number of cases was reported in June 2012 (71,606 cases), and the lowest in February 2022 (4,491 cases). From 2010 to 2022, an upward trend in the number of cases is noticeable with a peak in 2012 followed by a general downward trend through 2023. However, it's important to note data may not yet be complete for 2023.
 
-Discussion:
+### Deaths Analysis
+Mumps-related deaths in mainland China are extremely low relative to the number of reported cases. Between 2010 and 2023, there were a total of only 14 recorded deaths attributable to mumps. The highest number of deaths in a single month (4) was reported in January 2020. Unlike case numbers, there does not appear to be a pronounced seasonal pattern for deaths. It's crucial to remember though, while deaths from mumps are rare, complications can occur, leading to severe health issues.
 
-The seasonal pattern of mumps cases in mainland China, with higher numbers occurring during the summer and lower numbers during the winter, aligns with the known transmission dynamics of the disease. Mumps primarily spreads through respiratory droplets and close contact, which are more likely to occur in crowded settings, such as schools and communities, during the summer months.
-
-The overall increasing trend in mumps cases from 2010 to 2019 may be influenced by various factors, including changes in population immunity, fluctuations in vaccination coverage, and variations in the circulation of the virus. It is important to note that the provided data only includes reported cases, and there may be underreporting or variations in surveillance practices that could impact the observed trends.
-
-The significant decrease in the number of cases starting from 2020 is noteworthy and may indicate the success of control measures implemented in recent years. However, further analysis and investigation are necessary to determine the specific factors contributing to this decline.
-
-Continued monitoring of the trends and patterns of mumps cases in mainland China is crucial to inform public health interventions, including vaccination strategies and outbreak response measures. Additionally, efforts should be made to enhance surveillance systems and ensure accurate and timely reporting of cases and deaths to gain a better understanding of the epidemiology of mumps in the country.

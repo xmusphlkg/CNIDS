@@ -1,57 +1,38 @@
-Rabies is a highly fatal viral disease that affects both humans and animals. It is caused by the Rabies virus and is primarily transmitted through the saliva of infected animals. In humans, the virus targets the central nervous system, leading to inflammation of the brain and ultimately death.
+Rabies is a viral disease that causes encephalomyelitis (inflammation of the brain and spinal cord) in mammals, including humans, and is usually fatal once clinical symptoms appear. The virus that causes rabies is a lyssavirus, and it affects the central nervous system, ultimately leading to disease in the brain and death.
 
-Historical Context and Discovery:
+**Global Prevalence:**
+Rabies is found on all continents except Antarctica, but more than 95% of human deaths occur in Asia and Africa. The World Health Organization (WHO) estimates that tens of thousands of people die from rabies each year, with most cases occurring in rural areas where access to medical care and vaccination is limited. Dogs are the main source of human rabies deaths, contributing up to 99% of all rabies transmissions to humans.
 
-Rabies has been known throughout history, with references to the disease dating back thousands of years. The earliest known records can be found in ancient Mesopotamian and Egyptian writings. The term "rabies" itself was first used by the ancient Greeks. However, the first scientific study of Rabies was conducted by Louis Pasteur in the 19th century. Pasteur developed a vaccine and successfully used it to prevent the disease in dogs. This groundbreaking work laid the foundation for the prevention and control of Rabies.
+**Transmission Routes:**
+Transmission typically occurs through the bite of an infected animal, with dogs being the most common transmitter to humans. The virus is present in the saliva of an infected animal and enters the host's body through broken skin or mucous membranes. Other routes, though rare, can include scratches, organ transplants, and inhalation of aerosolized virus particles (for example, in bat caves).
 
-Prevalence:
+**Affected Populations:**
+Those most at risk are individuals who work closely with animals, such as veterinarians and wildlife professionals, and those living in regions with high stray dog populations and limited access to post-exposure prophylaxis (PEP) and vaccination. Children are particularly vulnerable due to their playful nature and small size, which may lead to more severe bites and being less likely to report minor bites or scratches.
 
-Rabies is present in every continent except Antarctica. According to the World Health Organization (WHO), an estimated 59,000 human deaths occur due to Rabies each year, with around 99% of cases occurring in Asia and Africa. India alone accounts for approximately one-third of global Rabies deaths. However, it is important to note that Rabies is endemic in many regions worldwide, and human cases are also reported in the Americas, Europe, and Oceania.
+**Key Statistics:**
+- Globally, rabies causes an estimated 59,000 human deaths annually.
+- Rabies post-exposure prophylaxis is nearly 100% effective when administered promptly and correctly.
+- Despite being vaccine-preventable, rabies remains a significant concern due to underreporting and lack of access to healthcare in many regions.
 
-Transmission Routes:
+**Historical Context and Discovery:**
+Rabies is one of the oldest recognized diseases, with records dating back to ancient civilizations. The etymology traces back to languages like Sanskrit, meaning "to do violence," reflecting the manifestations of animal behavior when infected. In the 19th century, Louis Pasteur and Emile Roux developed the first successful rabies vaccination. Pasteur famously treated a young boy named Joseph Meister, who had been bitten by a rabid dog, with his experimental vaccine, marking a significant milestone in the medical management of the disease.
 
-The primary mode of Rabies transmission is through the bite or scratch of an infected animal, typically a dog. Other modes of transmission include contact with infected animal saliva through mucous membranes or open wounds. In rare cases, Rabies can also be transmitted through organ transplantation from an infected donor or through aerosol transmission in laboratory settings.
+**Major Risk Factors:**
+- Contact with wild and domestic animals in rabies-endemic areas.
+- Bites or scratches from infected animals, particularly in regions with high populations of stray dogs.
+- Limited public health resources and access to healthcare, resulting in insufficient vaccination coverage.
+- Lack of awareness and education about rabies and preventive measures.
+- Engagement in activities that increase the risk of wildlife encounters, such as spelunking in areas with bat populations, which might harbor the virus.
 
-Affected Populations:
+**Regional and Population Impact:**
+While rabies is a global concern, the impact and prevalence rates vary significantly by region:
+- In developed countries, rabies is relatively rare in domestic animals and the majority of the cases come from wildlife reservoirs like bats, raccoons, and foxes.
+- In developing countries, canine rabies is still endemic, and the lack of infrastructure for animal control and vaccination programs contributes to higher prevalence and transmission rates.
+- Vulnerable populations in these areas are disproportionately affected due to a combination of factors, including limited access to preventive measures and post-exposure treatments.
 
-While Rabies can affect individuals of all ages, children are particularly vulnerable due to their higher likelihood of close contact with animals. Certain populations, such as veterinarians, animal handlers, and laboratory workers, are at an increased risk due to their occupational exposure to potentially infected animals. Additionally, individuals living in rural or suburban areas where stray dogs are present are also more susceptible.
+Vaccination of domestic animals, particularly dogs, is the most cost-effective strategy for preventing rabies in humans. To address the global burden of rabies, international organizations, including WHO, are working toward its control and elimination through programs that focus on increasing awareness, vaccination campaigns, and improving access to post-exposure prophylaxis.
 
-Key Statistics:
-- Worldwide, rabid dogs are the source of more than 99% of human Rabies cases.
-- Over 40% of people bitten by suspect rabid animals are children under the age of 15.
-- Almost 60% of all dog-mediated human Rabies deaths occur in children under 15 years of age.
+**Affected Demographics:**
+Children in rabies-endemic regions represent a significant proportion of the victims due to their behavior and height, which makes their facial areas more accessible to dogs. Males have historically been shown to have a higher incidence of rabies, potentially due to increased exposure through occupational or behavioral factors. 
 
-Risk Factors:
-
-There are several risk factors associated with the transmission of Rabies. These include:
-
-1. Lack of awareness and education: Individuals who are uninformed about Rabies and its prevention methods are more likely to engage in risky behaviors that increase their exposure to infected animals.
-
-2. Insufficient veterinary services: In areas with limited access to veterinary care and vaccination programs, the risk of Rabies transmission is higher, especially among stray dogs.
-
-3. Lack of dog vaccination: Vaccinating dogs against Rabies is crucial to prevent the virus from spreading to humans. Where dog vaccination coverage is low, there is a higher risk of transmission.
-
-Impact on Different Regions and Populations:
-
-The impact of Rabies varies across different regions and populations. In regions with effective prevention and control programs, such as North America and Western Europe, the incidence of human Rabies is relatively low. However, in resource-limited regions, particularly parts of Asia and Africa, Rabies remains a significant public health issue due to limited access to healthcare services, inadequate animal control measures, and a high prevalence of rabid dogs.
-
-In many developing countries, especially those with a large stray dog population, Rabies poses a considerable burden on public health. The disease affects not only humans but also domestic animals, leading to economic losses in the agricultural sector. Furthermore, the death toll disproportionately affects marginalized communities with limited access to healthcare and prevention measures.
-
-In conclusion, Rabies is a deadly viral disease that continues to pose a significant threat to global public health. While efforts have been made to control the disease through vaccination programs and improved awareness, much work remains to be done, particularly in regions with limited resources. Increasing access to affordable vaccines, promoting responsible pet ownership, and enhancing veterinary services are key strategies to combat Rabies and reduce its impact on affected populations worldwide.
-## Introduction
-
-Rabies is a lethal viral infection predominantly transmitted through the bites of infected animals. The rabies virus affects the central nervous system, eventually causing disease in the brain and leading to death in almost 100% of untreated cases. It typically manifests as fever, weakness, discomfort or headache, later progressing to anxiety, confusion, hallucination, and paralysis. It is preventable through post-exposure prophylaxis, involving wound cleaning, vaccinations, and boosters. Annually, the disease claims roughly 59,000 lives worldwide, mostly in Asia and Africa, with dogs being the main source of human rabies deaths.
-
-## Highlights
-
-1. Gradual decline in rabies: From 2010-2023, there's a noticeable trend of gradually declining cases and deaths from rabies, despite occasional spikes. The improvement reflects successful public health efforts.<br/>
-2. High Case Fatality Rate (CFR): Generally, deaths closely track the number of cases. This high CFR emphasizes a need to focus on preventative measures and early treatment.<br/>
-3. Recent Stability: In 2023, the monthly cases and deaths have stabilized to around 10. Despite this positive trend, constant vigilance is vital to maintain and enhance these gains.
-
-## Analysis
-
-### Cases Analysis
-The Rabies case data from 2010 to 2023 shows a general decline in mainland China. The most significant number of cases were reported in 2010, with a peak in September and October (233 cases each month). However, this gradually decreased over the years, dropping to 65 cases in May 2016 which is nearly a 72% drop. The number continued to decline and has seen below 20 cases per month consistently from 2021, achieving a significant reduction in Rabies cases over this period.
-
-### Deaths Analysis
-The death instances due to Rabies have similarly shown a declining trend from 2010 to 2023. The number of deaths mirrors the number of cases in most months, suggesting a high fatality rate. The highest recorded deaths were in November 2010 (208 deaths), while by 2023, the figures came down to single digits, hitting the record low of 4 in February. Given the consistent decrease throughout the years, this data suggests successful control and prevention measures against Rabies in mainland China.
+Efforts to combat rabies involve coordinated public health strategies, including vaccination campaigns for animals, widespread public education, and improved access to healthcare and post-exposure prophylaxis. Despite such efforts, the disease remains a serious threat in many low-resource countries, highlighting the need for ongoing global public health interventions.

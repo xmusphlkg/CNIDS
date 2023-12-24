@@ -1,15 +1,23 @@
-Seasonal Patterns: 
-According to the data provided, there is evidence of a seasonal pattern in the prevalence of Hepatitis C cases in mainland China. The number of cases tends to be higher between March and August, with the peak occurring in July. From September to February, there is a general decrease in cases, reaching a low point in December or January. This pattern suggests that there is a seasonal variation in the transmission or reporting of Hepatitis C cases.
+## Introduction
 
-Peak and Trough Periods: 
-The highest number of Hepatitis C cases in mainland China is reported in July, indicating the peak period for the disease. Conversely, December or January represent the trough period, with the lowest number of cases being reported during these months. These peak and trough periods signify periods of heightened and reduced disease activity, respectively.
+Hepatitis C is a liver infection caused by the Hepatitis C virus (HCV). It results in inflammation and can lead to serious liver damage. The virus is typically spread through blood-to-blood contact, often via sharing needles or other equipment to inject drugs. Many people with HCV are asymptomatic, but when present, symptoms may include fatigue, jaundice, and abdominal pain. Chronic Hepatitis C can result in long-term health issues such as cirrhosis and liver cancer. Antiviral medications can treat and cure most cases of Hepatitis C infection.
 
-Overall Trends: 
-Upon examining the overall trend, it is evident that the number of Hepatitis C cases in mainland China has been increasing from 2010 to 2015. However, after 2015, there appears to be a fluctuating pattern with no clear upward or downward trend. It is worth noting that there is a drastic decrease in reported cases in 2013, especially during January and February, where negative values are recorded. This anomaly could be attributed to issues with data reporting or other factors affecting data accuracy.
 
-Discussion: 
-The observed seasonal pattern in Hepatitis C cases suggests that there may be specific factors influencing disease transmission during certain months. Possible factors could include changes in weather, human behavior, or healthcare practices. The peak in July could be linked to increased social activities and higher-risk behaviors during the summer months. Conversely, the trough in December or January may be influenced by reduced social interactions and increased awareness of the disease during the holiday season.
+## Highlights
 
-The overall increasing trend in Hepatitis C cases from 2010 to 2015 is potentially indicative of improved surveillance and reporting systems, as well as increased awareness and testing for the disease. The fluctuating pattern observed after 2015 may be influenced by various factors, including changes in testing practices, variations in reporting accuracy, or interventions implemented to control the spread of the disease.
+1. Data shows a consistent, upward trend of Hepatitis C cases from 2010 to 2023 with occasional decreases.<br/>
+   
+2. An alarming spike in death rates is evident from July 2022, surpassing previous records and consistently increasing, with the peak in June 2023 at 186 deaths.<br/>
 
-It is important to note that the analysis is solely based on the provided data, and a more comprehensive understanding of Hepatitis C epidemiology in mainland China would require additional information such as population demographics, risk factors, and interventions implemented during the study period.
+3. Despite an increase in cases in 2023, September reports a slight decrease in both reported cases and deaths compared to the previous month.<br/>
+
+4. Overall, the Hepatitis C situation in mainland China is deteriorating, with a marked increase in mortality in the most recent year. <br/>
+
+## Analysis
+
+### Cases Analysis
+The number of Hepatitis C cases in mainland China has displayed an inconsistent trend, with some fluctuations. From 2010 to 2022, there was a general increase, with the highest number of cases (24,666) recorded in March 2018. However, a sharp decrease in the number of cases has been observed from 2022, dropping to 11,050 in December 2022. This is followed by a sudden increase in cases in January 2023 to 20,580. 
+
+### Deaths Analysis
+In terms of fatalities, the death toll has remained relatively low throughout the years 2010-2022, seeing negligible changes with a few notable spikes such as 21 deaths in March 2017. However, from 2023, there's a significant surge in Hepatitis C-related deaths, exponentially rising from 13 in January to 186 in June, averaging 109.75 cases for the first eight months of 2023. This sudden upsurge necessitates an immediate public health response for disease control.
+

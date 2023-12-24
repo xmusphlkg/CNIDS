@@ -1,17 +1,18 @@
-Seasonal Patterns:
-Based on the data provided, there appears to be a consistent seasonal pattern for syphilis cases in mainland China. The number of cases is higher during the summer months (June to August) and lower during the winter months (December to February). This suggests a possible association between warmer weather and increased syphilis transmission rates.
+## Introduction
 
-Peak and Trough Periods:
-Syphilis cases in mainland China reach their peak during the summer months, particularly in July, with the highest number of cases observed at this time. Conversely, the lowest number of cases occurs in January and February during the winter months.
+Syphilis is a sexually transmitted infection caused by the bacterium Treponema pallidum. It presents in stages: primary, secondary, latent, and tertiary. The initial symptom is typically a painless sore or chancre at the infection site. Secondary syphilis may manifest as rashes or mucocutaneous lesions. Untreated, it can enter a latent phase, asymptomatic for years. Tertiary syphilis may occur decades later, damaging the heart, brain, and other organs. Diagnosis is through blood tests or examination of lesion exudates, and treatment is usually with penicillin. Preventive measures include safe sex practices and regular screenings.
 
-Overall Trends:
-From 2010 to 2023, there has been an increasing trend in the number of syphilis cases in mainland China. Although the number of cases fluctuates from year to year, there is a general upward trend, indicating that syphilis remains a significant public health concern in mainland China.
+## Highlights
 
-Discussion:
-The observed seasonal patterns in syphilis cases, with higher numbers during the summer months and lower numbers during the winter months, align with the transmission dynamics of the disease. Syphilis is primarily transmitted through sexual contact, and warmer weather may lead to increased sexual activity and higher transmission rates.
+1. A steady increase in the number of syphilis cases has been observed in China over the past decade, with a noticeable rage of 20,000 to 61,000 per month. <br/>
+2. The number of deaths due to syphilis has been relatively low and has only ranged approximately between 0 and 25 deaths per month. <br/>
+3. Monthly cases seem to often peak around mid-year, especially in the month of July. Recent data from 2023 indicates a high of 61,068 cases in August. <br/>
+4. A significant reduction in cases is noticed during winter periods, evidencing seasonality. Notably, December 2022 has the lowest reported number of cases with 24,367 cases. <br/>
 
-The peak periods in July and the trough periods in January and February are consistent with the observed seasonal patterns. These patterns may be influenced by various factors, including changes in sexual behavior, population movement, and healthcare-seeking behavior.
+## Analysis
 
-The overall increasing trend in syphilis cases underscores the importance of ongoing efforts in prevention, diagnosis, and treatment. Public health interventions should prioritize promoting safe sexual practices, raising awareness and education about syphilis, and ensuring accessibility to testing and treatment services.
+### Cases Analysis
+The reported data on Syphilis cases in mainland China from 2010 to 2023 shows a general increasing trend in the recorded cases annually. While fluctuating monthly, the overall cases have been rising each year. The highest number of reported cases occurs in August 2023 with 61068 cases. It is significant to note that some month's data are missing, which may somewhat distort the overall picture. Patterns of increasing cases during certain months, particularly the summer months, suggests a possible seasonal influence on the transmission of Syphilis.
 
-It is worth noting that the analysis is based on the provided data and that additional information, such as demographic factors, risk behaviors, and implemented interventions during the study period, could provide further insights into the observed patterns and trends.
+### Deaths Analysis
+The death rate, in contrast to the number of Syphilis cases, does not follow a consistent upward trend over the years. The recorded deaths remain relatively low compared to the number of cases, with the highest number recorded in January 2020 as 25 deaths. The relatively low death rate indicates that while the disease seems to be prevalent, its fatal consequences are less frequent. Further analysis has to be made to see if this is an indication of successful health measures or due to underreporting of deaths.

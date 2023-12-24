@@ -1,15 +1,18 @@
-Seasonal Patterns: 
-Based on the provided data, the number of typhus cases in mainland China shows a clear seasonal pattern. The highest number of cases occurs during the summer months (June, July, and August), while the lowest number occurs during the winter months (December, January, and February). This suggests that seasonal factors, such as temperature and humidity, may influence the transmission of typhus.
+## Introduction
 
-Peak and Trough Periods: 
-In mainland China, the peak period for typhus cases is observed during the summer months, particularly in July and August. During this time, the number of cases reaches its highest point, ranging from 234 to 276 cases. Conversely, the trough period for typhus cases occurs during the winter months, with the lowest number of cases observed in December, January, and February. During these months, the number of cases ranges from 40 to 86.
+Typhus is an acute, febrile illness caused by several species of Rickettsia bacteria, transmitted to humans through arthropod vectors like lice, fleas, or mites. It presents with symptoms such as high fever, headache, chills, and a distinctive rash. Historically, outbreaks were associated with poor hygiene and crowding, often in wartime and disaster conditions. It is primarily diagnosed using serologic tests and treated effectively with antibiotics such as doxycycline. Preventative measures include improving sanitation, reducing contact with vectors, and using insect repellents or insecticide-treated clothing. There are three main types: epidemic typhus, endemic (murine) typhus, and scrub typhus.
 
-Overall Trends: 
-Overall, there is a slight increasing trend in the number of typhus cases in mainland China from September 2010 to September 2023. While the number of cases fluctuates from year to year, there is a general upward trend. However, it is worth noting that there was a significant decrease in cases in 2013, particularly in January and February, where the number of cases was recorded as -10. This decrease may be due to issues in data reporting or other factors that affected data collection during that period.
+## Highlights
 
-Discussion: 
-The observed seasonal patterns indicate that the transmission of typhus in mainland China is influenced by environmental factors that change throughout the year. The higher number of cases during the summer months may be attributed to increased outdoor activities and higher population density, which could facilitate the spread of the disease. Conversely, the lower number of cases during the winter months may be a result of reduced outdoor activities and lower population density.
+1. A general decline in the number of Typhus cases per month has been observed in mainland China between 2010 and 2023, with a few exceptions.<br/>
+2. Despite the decreasing number of cases, there have been some increases around May to September each year in this period, suggesting a potential seasonal pattern to the disease's prevalence.<br/>
+3. Notably, there have been very few deaths as a result of Typhus in all these years, implying a high recovery rate, efficient treatment methods, or low disease severity.<br/>
+4. As of September 2023, there were 227 reported cases with no fatalities, which is a slight increase compared to previous years' data within the same month.
 
-The overall increasing trend in the number of cases highlights that typhus remains a significant public health concern in mainland China. This emphasizes the importance of continued surveillance, prevention, and control measures to lessen the burden of typhus on the population. Furthermore, it is crucial to investigate the factors contributing to the decrease in cases in 2013, as this knowledge can provide insights into effective strategies for disease control.
+## Analysis
 
-It is important to note that this analysis is solely based on the provided data and does not consider other factors that may influence typhus transmission, such as population demographics, healthcare accessibility, and interventions implemented during the study period.
+### Cases Analysis
+From January 2010 to September 2023, there were peaks and troughs in the number of confirmed cases of Typhus reported in mainland China. A spike in cases was often reported in summer and autumn months, which might be due to favorable conditions for the vector in this period. A significant decrease in confirmed cases was experienced between the years 2010 to 2023, suggesting an effective intervention strategy in place, such as mass vaccination or improved sanitation measures.
+
+### Deaths Analysis
+Throughout this 13-year span, recorded deaths from Typhus remained remarkably low, reporting only a handful of instances (June 2010, May 2011, June 2014, August 2015, September 2016). This low mortality rate may indicate effective treatment regimens and prompt medical care, thus minimizing fatal outcomes. However, it is essential to investigate any unreported deaths or untreated cases in rural areas to ensure comprehensive epidemic management.

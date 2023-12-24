@@ -1,17 +1,18 @@
-Seasonal Patterns: 
-Based on the data provided, there is a noticeable seasonal pattern for dysentery cases in mainland China. The number of cases is highest during the summer months (June to August) and lowest during the winter months (December to February). This pattern suggests a potential link between dysentery transmission and warmer weather.
+## Introduction
 
-Peak and Trough Periods: 
-The peak period for dysentery cases in mainland China occurs in the summer months, specifically in July and August. During these months, the number of cases reaches its highest point, with values exceeding 35,000 cases in some years. Conversely, the trough period occurs in the winter months, with the lowest number of cases observed in December and January.
+Dysentery is an inflammatory disease of the intestine, especially of the colon, which results in severe diarrhea containing blood and mucus in the feces. It can be caused by several types of infectious pathogens such as bacteria (Shigella), protozoa (Entamoeba histolytica), parasitic worms, or viruses. The condition is typically spread through contaminated food or water. Symptoms include abdominal pain, fever, and urgent need to defecate. Dysentery can be life-threatening, especially in vulnerable populations like young children and the elderly, if not treated appropriately with hydration and, in the case of bacterial dysentery, antibiotics.
 
-Overall Trends: 
-Overall, there is a general upward trend in the number of dysentery cases in mainland China from 2010 to 2023. Although the number of cases varies from year to year, there is a gradual increase in the average number of cases over time. This suggests a potential rise in the burden of dysentery in the population.
+## Highlights
 
-Discussion: 
-The seasonal pattern of dysentery cases in mainland China, with higher numbers during the summer months and lower numbers during the winter months, aligns with the known transmission dynamics of the disease. Dysentery is often caused by bacterial or parasitic infections, which can be more easily transmitted in warm and humid conditions. The peak in cases during the summer months may be attributed to factors such as increased travel, outdoor activities, and inadequate sanitation practices.
+- From 2010 to 2023, there's a notable decline in the number of monthly dysentery cases in mainland China, pointing to successful control measures. <br/>
+- Despite the controlled number of cases, sporadic peaks are evident (e.g., August 2010 with 41,507 cases), signaling potential outbreaks during specific periods.<br/>
+- The disease showcased a seasonal trend, with most cases appearing from May to August each year, indicating a possible link to seasonal factors. <br/>
+- The mortality rate appears to be very low, with most months recording zero or one death, evidencing enhanced disease management and treatment.
 
-The overall upward trend in dysentery cases over the years is concerning and may indicate the need for improved prevention and control measures. It is crucial to investigate the underlying factors contributing to this trend, including changes in population demographics, sanitation practices, and access to healthcare. Furthermore, further analysis of the data, including an examination of specific regions within mainland China, may provide more insights into the spatial and temporal patterns of dysentery transmission.
+## Analysis
 
-It is worth noting that the provided data includes negative values for some months, particularly in the early years. These negative values may be a result of data reporting errors or inconsistencies and should be further investigated and corrected if necessary.
+### Cases Analysis
+Over the period from 2010 through 2023, reported cases of Dysentery in mainland China generally followed a seasonal trend, with the highest numbers typically observed from May to September. The peak was in August 2010 with 41,507 reported cases. Despite the seasonal spikes the general trend over these 13 years indicates a decline in reported cases. The highest annual caseload was in 2010 with 225,245 cases, whereas 2023 (until September) saw 28,088 cases indicating a significant decrease in dysentery prevalence.
 
-In conclusion, the analysis of monthly data on dysentery cases and deaths in mainland China reveals a distinct seasonal pattern, with peak periods during the summer months and trough periods during the winter months. Additionally, there is an overall upward trend in the number of cases over the years. These findings emphasize the importance of continuous surveillance and targeted interventions to prevent and control dysentery in mainland China.
+### Deaths Analysis
+The number of deaths due to dysentery displayed significant variance, with most months reporting very few fatalities, exceptions being 198 deaths in September 2012 being the highest. Generally, despite variations in the number of cases, the death rates have remained relatively low, suggesting effective medical management of the disease. Besides, a declining number of cases over the years led to fewer deaths overall, reinforcing successful disease control measures in place in mainland China.

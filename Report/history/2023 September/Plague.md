@@ -1,31 +1,18 @@
-Seasonal Patterns:
+## Introduction
 
-Based on the provided data, no clear seasonal pattern is observed for Plague cases in mainland China before September 2023. The number of cases fluctuates throughout the years without consistent patterns.
+Plague is an infectious disease caused by the bacterium Yersinia pestis, mainly found in rodents and their fleas. The disease can manifest in three forms: bubonic, septicemic, and pneumonic. Bubonic plague is the most common, characterized by swollen lymph nodes, while septicemic plague affects the bloodstream, and pneumonic plague the lungs. Transmission occurs through flea bites, direct contact with infected tissues, or inhalation of respiratory droplets. Historically, plague caused widespread pandemics, including the Black Death in the 14th century. Today, it is treatable with antibiotics but can still cause fatalities without prompt treatment.
 
-Peak and Trough Periods:
+## Highlights
 
-The peak periods for Plague cases in mainland China before September 2023 are as follows:
+- Plague in mainland China has a generally low prevalence, with a few sporadic occurrences reported annually. <br/>
+- Notably, the data reveals an increase in plague activity during the autumn period (September - October), with 2019 observing the highest number of cases in November. <br/>
+- The mortality rate of the reported cases fluctuates but generally appears to be high, suggesting potentially late detection or aggressive forms of the pathogen. <br/>
+- As of September 2023, the situation is currently stable with no new cases reported; however, the substantial increase in the previous month (August) warrants enhanced surveillance.
 
-- June 2010: 1 case
-- September 2010: 1 case
-- October 2010: 1 case
-- September 2011: 1 case
-- October 2011: 2 cases
-- July 2014: 1 case
-- October 2014: 2 cases
-- September 2019: 1 case
-- November 2019: 4 cases
-- July 2020: 1 case
-- August 2020: 2 cases
-- September 2020: 1 case
-- August 2023: 4 cases
+## Analysis
 
-Trough periods, where no cases were reported, are observed in various months throughout the years.
+### Cases Analysis
+The data indicates that plague cases in mainland China are exceedingly infrequent. Instances of reported cases seem to occur sporadically, with the average number of cases per month barely exceeding 0 for the majority of the reported period. A more substantial situational change occurs in 2019 with 5 cases being registered in 2 months, and in 2023 with 4 cases in August. As no regular pattern in plague cases emerges, these instances may reflect isolated occurrences rather than widespread epidemics.
 
-Overall Trends:
-
-The overall trend for Plague cases in mainland China before September 2023 is relatively low and sporadic. There is no significant increase or decrease in the number of cases over time. However, there is a slight increase in cases observed in recent years, particularly in 2019 and 2020.
-
-Discussion:
-
-The data suggests that Plague cases in mainland China before September 2023 are sporadic and do not exhibit a clear seasonal pattern. The number of cases fluctuates throughout the years, with occasional peaks observed in certain months. It is important to note that the provided data is limited and does not cover the entire period before September 2023. Further analysis and additional data are needed to draw more definitive conclusions about the trends and patterns of Plague in mainland China.
+### Deaths Analysis
+A similar pattern can be observed in the number of reported deaths resulting from the plague. The death rate seems to correlate with the number of reported cases, indicating an almost 1:1 ratio. However, some instances (e.g. August 2020, August 2023) show less deaths than reported cases, suggesting some level of effective treatment or misdiagnosis occurring. The data shows no significant increase or decrease in deaths over time, aligning with the sporadic occurrence pattern rather than a consistent trend.
