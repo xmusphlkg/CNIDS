@@ -47,7 +47,7 @@ def generate_report(df, table_data, diseases_order, analysis_date, analysis_Year
         # create summary
         future_report_summary = executor.submit(create_report_summary, table_data, table_data_str, analysis_MonthYear, table_legend)
         # create web info
-        update_info = os.environ['UPDATE_INFO']
+        update_info = os.environ['update_info']
         if update_info == 'True':
             future_web_info = [executor.submit(create_web_info, disease_name) for disease_name in diseases_order]
         
