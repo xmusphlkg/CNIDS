@@ -83,4 +83,4 @@ def generate_weekly_report(analysis_YearMonth):
         with open('../docs/README.md', 'w') as file:
             file.writelines(readme_new)
 
-generate_weekly_report('2023 September')
+# generate_weekly_report('2023 September')
