@@ -78,7 +78,7 @@ def generate_weekly_report(analysis_YearMonth):
         with open('../docs/README.md', 'r') as file:
             readme = file.read()
         pattern = r"(# Latest Update\n(?:.*?(?=\n# |\Z))*)"
-        replacement = f"# Latest Update\n\n- Version: {analysis_date}\n\n {table_of_content}\n\n"
+        replacement = f"# Latest Update\n\n- Version: {analysis_YearMonth}\n\n {table_of_content}\n\n"
         readme_new = re.sub(pattern, replacement, readme, flags=re.DOTALL)
         with open('../docs/README.md', 'w') as file:
             file.writelines(readme_new)
