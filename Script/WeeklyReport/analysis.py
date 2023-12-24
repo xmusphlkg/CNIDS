@@ -73,15 +73,14 @@ def generate_weekly_report(analysis_YearMonth):
         print(diseases_order_cn)
         [update_pages(diseases_order, diseases_order_cn, i, df, analysis_MonthYear) for i in range(len(diseases_order))]
         # update README.md
-        # table_data Diseases 列作为连接
         table_data['Diseases'] = table_data['Diseases'].apply(lambda x: f"[{x}](./{x.replace(' ', '%20')})")
         table_of_content = table_data.to_markdown(index=False)
         with open('../docs/README.md', 'r') as file:
-            readme = file.readlines()
+            readme = file.read()
         pattern = r"(# Latest Update\n(?:.*?(?=\n# |\Z))*)"
         replacement = f"# Latest Update\n\n- Version: {analysis_date}\n\n {table_of_content}\n\n"
         readme_new = re.sub(pattern, replacement, readme, flags=re.DOTALL)
         with open('../docs/README.md', 'w') as file:
             file.writelines(readme_new)
 
-# generate_weekly_report('2023 September')
+generate_weekly_report('2023 September')
