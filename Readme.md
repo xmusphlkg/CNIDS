@@ -79,10 +79,10 @@ http://localhost:3838
 
    `OPENAI_API_KEY`: OpenAI API key (sk-xxxxxxxx).
 
-   `OPENAI_API_BASE`: OpenAI API url (https://api.openai.com).
+   `OPENAI_API_BASE`: OpenAI API url (https://api.openai.com/v1).
 
     > You can get the above information by registering an application in [OpenAI](https://beta.openai.com/).
-    > example: `sk-xxxxxxxxxxxxxxxxxxxxxxxxxxx`and `https://api.openai.com`.
+    > example: `sk-xxxxxxxxxxxxxxxxxxxxxxxxxxx`and `https://api.openai.com/v1`.
 
 3. Set up Actions variables.
 
