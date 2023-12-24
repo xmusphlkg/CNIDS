@@ -21,7 +21,7 @@ def process_plot(diseases_order, df):
         plot_disease_data(disease_data, disease_name)
         plot_disease_heatmap(disease_data, disease_name)    
 
-def generate_weekly_report(df, table_data, diseases_order, analysis_date, analysis_YearMonth, analysis_MonthYear):
+def generate_report(df, table_data, diseases_order, analysis_date, analysis_YearMonth, analysis_MonthYear):
     # create temp folder
     data_path = '../Data/GetData/WeeklyReport'
    
@@ -47,7 +47,9 @@ def generate_weekly_report(df, table_data, diseases_order, analysis_date, analys
         # create summary
         future_report_summary = executor.submit(create_report_summary, table_data, table_data_str, analysis_MonthYear, table_legend)
         # create web info
-        future_web_info = [executor.submit(create_web_info, disease_name) for disease_name in diseases_order]
+        update_info = os.environ['UPDATE_INFO']
+        if update_info == 'True':
+            future_web_info = [executor.submit(create_web_info, disease_name) for disease_name in diseases_order]
         
         # wait for cover and mail
         future_plot.result()

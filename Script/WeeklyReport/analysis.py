@@ -5,7 +5,7 @@ import datetime
 import yaml
 import re
 from dataclean import calculate_change_data, format_table_data, generate_merge_chart
-from report_main import generate_weekly_report
+from report_main import generate_report
 from mail_main import create_mail_table
 from web_main import update_pages
 
@@ -44,7 +44,7 @@ def generate_weekly_report(analysis_YearMonth):
     create_mail_table(table_data, analysis_YearMonth)
 
     # # generate weekly report, history, mail content and web information
-    generate_weekly_report(df, table_data, diseases_order, analysis_date, analysis_YearMonth, analysis_MonthYear)
+    generate_report(df, table_data, diseases_order, analysis_date, analysis_YearMonth, analysis_MonthYear)
 
     # moving report pages
     destination_folder = f"../Report/page/{analysis_YearMonth}/"
