@@ -3,6 +3,7 @@ import os
 import shutil
 import datetime
 import yaml
+import re
 from dataclean import calculate_change_data, format_table_data, generate_merge_chart
 from report_main import generate_weekly_report
 from mail_main import create_mail_table
@@ -49,7 +50,7 @@ def generate_weekly_report(analysis_YearMonth):
     destination_folder = f"../Report/page/{analysis_YearMonth}/"
     os.makedirs(destination_folder, exist_ok=True)
     report_files = ['cover_summary', 'cover'] + diseases_order
-    for disease in diseases_order:
+    for disease in report_files:
         source_file = f"./temp/{disease}.pdf"
         destination_file = os.path.join(destination_folder, f"{disease}.pdf")
         shutil.move(source_file, destination_file)
@@ -71,6 +72,16 @@ def generate_weekly_report(analysis_YearMonth):
         # update pages
         print(diseases_order_cn)
         [update_pages(diseases_order, diseases_order_cn, i, df, analysis_MonthYear) for i in range(len(diseases_order))]
-
+        # update README.md
+        # table_data Diseases 列作为连接
+        table_data['Diseases'] = table_data['Diseases'].apply(lambda x: f"[{x}](./{x})")
+        table_of_content = table_data.to_markdown(index=False)
+        with open('../docs/README.md', 'r') as file:
+            readme = file.readlines()
+        pattern = r"(# Latest Update\n(?:.*?(?=\n# |\Z))*)"
+        replacement = f"# Latest Update\n\n- Version: {analysis_date}\n\n {table_of_content}\n\n"
+        readme_new = re.sub(pattern, replacement, readme, flags=re.DOTALL)
+        with open('../docs/README.md', 'w') as file:
+            file.writelines(readme_new)
 
 # generate_weekly_report('2023 September')

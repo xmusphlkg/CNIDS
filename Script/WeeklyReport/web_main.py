@@ -26,5 +26,5 @@ def update_pages(diseases_order, diseases_order_cn, disease_index, df, analysis_
   # insert plotly figure into page history before ## Highlights
   page_history = page_history.replace('## Highlights', f'{plot_html_1}\n\n## Highlights')
   page_history = f"# {disease} \n\nVersion: {analysis_MonthYear} \n\n" + page_history
-  with open(f'../Pages/{disease}.md', 'w', encoding='utf-8') as f:
+  with open(f'../docs/{disease}.md', 'w', encoding='utf-8') as f:
       f.write(page_history)
