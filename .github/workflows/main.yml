@@ -10,8 +10,8 @@ jobs:
   run-python-script:
     runs-on: ubuntu-latest
     env:
-      OPENAI_api: ${{ secrets.OPENAI_API }}
-      OPENAI_url: ${{ secrets.OPENAI_URL }}
+      OPENAI_API_KEY: ${{ secrets.OPENAI_API_KEY }}
+      OPENAI_API_BASE: ${{ secrets.OPENAI_API_BASE }}
       MS_subscribe: ${{ secrets.MS_SUBSCRIBE }}
       MS_sender_email: ${{ secrets.MS_SENDER_EMAIL }}
       MS_client_id: ${{ secrets.MS_CLIENT_ID }}
@@ -35,7 +35,7 @@ jobs:
 
       - name: Install dependencies
         run: |
-          pip install requests xmltodict beautifulsoup4 pandas reportlab plotnine onedrivedownloader openpyxl tabulate markdown plotly jinja2
+          pip install requests xmltodict beautifulsoup4 pandas reportlab plotnine onedrivedownloader openpyxl tabulate markdown plotly jinja2 openai pyyaml
 
       - name: Run Python script
         run: |
