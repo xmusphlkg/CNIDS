@@ -1,31 +1,36 @@
-Poliomyelitis, commonly known as polio, is an acute viral infectious disease caused by the poliovirus. Historically, polio was one of the most feared diseases, leading to widespread epidemics throughout the world and causing paralysis and death in many, particularly among children.
+Poliomyelitis, commonly known as polio, is an acute infectious disease caused by the poliovirus. The disease has shaped human societies over millennia, with descriptions that could be attributed to polio found in ancient art and literature. It can result in paralysis and, in some cases, can be fatal.
 
-**Historical Context and Discovery:**
-Polio has been known since ancient times, with descriptions of the disease appearing in Egyptian art. However, major outbreaks became more common in Europe and the United States towards the end of the 19th and the first half of the 20th century. The virus causing poliomyelitis was first isolated in 1908 by Karl Landsteiner and Erwin Popper.
+**Historical context and discovery:**
 
-**Global Prevalence:**
-The global prevalence of poliomyelitis has dramatically decreased thanks to the widespread use of polio vaccines—introduced by Jonas Salk (inactivated polio vaccine, IPV, in 1955) and Albert Sabin (oral polio vaccine, OPV, in 1961). The Global Polio Eradication Initiative (GPEI), launched in 1988, has led to a significant reduction in cases, with polio reportedly being endemic in only two countries—Pakistan and Afghanistan—as of my knowledge cut-off date.
+Polio has been recognized since ancient times, with descriptions of polio-like paralysis in Egyptian art and texts. The first clinical description of poliomyelitis was provided by the English physician Michael Underwood in 1789, and the disease was rigorously studied in the 19th and early 20th centuries. Karl Landsteiner and Erwin Popper identified the poliovirus in 1908.
 
-**Transmission Routes:**
-Polio is highly contagious and transmits primarily via the fecal-oral route, although oral-oral transmission is also possible. It can spread through direct contact with an infected person, or less commonly, through contaminated food and water. The virus multiplies in the intestine, from where it can invade the nervous system.
+Polio reached epidemic proportions in the early 20th century in Europe and North America. In the 1940s and 1950s, polio epidemics became the most frightening public health problems in these regions. In 1955, Dr. Jonas Salk developed the first effective polio vaccine, an inactivated poliovirus vaccine (IPV), which led to widespread immunization. An oral vaccine (OPV), developed by Albert Sabin, was licensed in 1962 and became the mainstay of mass vaccination campaigns.
 
-**Affected Populations:**
-While polio can infect persons of any age, children under five years old are the most vulnerable to the disease, especially those living in areas with poor sanitation and hygiene practices.
+**Global prevalence and transmission routes:**
 
-**Key Statistics and Risk Factors:**
-- The virus has an incubation period of 6-20 days, with a range of possible symptoms, from mild flu-like illness to severe paralysis.
-- Approximately one in 200 infections leads to irreversible paralysis, usually in the legs. Among those paralyzed, 5-10% die when their breathing muscles become immobilized.
-- Risk factors for transmission include lack of immunization, poor sanitation, malnutrition, and traveling to or living in areas where polio is endemic or where vaccination coverage is low.
+Polio is almost non-existent today thanks to extensive vaccination efforts. However, before vaccination campaigns, it was a worldwide scourge. The disease is caused by three serotypes of the virus, and transmission primarily occurs via the fecal-oral route, often through contaminated water or food, or less frequently via oral-oral transmission.
 
-**Impact on Different Regions and Populations:**
-The impact of polio varies by geographical region:
+**Affected populations and key statistics:**
 
-- **Developed Countries:** In countries with high hygiene standards and comprehensive immunization programs, polio cases have been virtually eliminated. Occasional imported cases may occur.
-  
-- **Developing Countries:** Before widespread vaccination, developing countries with less robust sanitation infrastructure experienced endemic polio. Due to intensive vaccination campaigns over the past decades, the incidence has decreased dramatically.
-  
-- **Conflict Zones and Remote Areas:** Ongoing conflicts and hard-to-reach locations provide challenges for polio vaccination campaigns, leading to increased risks of outbreaks.
+While polio can strike at any age, the majority of people affected are children under the age of five. The global incidence of polio has decreased by over 99% since the World Health Organization (WHO) launched the Global Polio Eradication Initiative (GPEI) in 1988. At that time, the disease was endemic in 125 countries and caused paralysis in nearly 1,000 children every day. As of my knowledge cutoff in April 2023, wild poliovirus transmission is limited to a few areas in just a few countries.
 
-Even though polio has been brought to the brink of eradication, it is critical to maintain high immunization coverage to prevent its resurgence. As a polio-free status requires not only no reported cases but also no presence of the virus in the environment (as detected in sewage water, for example), vigilance and continued surveillance are crucial. Additionally, the emergence of vaccine-derived poliovirus (VDPV) strains poses a risk that requires constant monitoring and rapid response measures. 
+**Major risk factors associated with Poliomyelitis transmission:**
 
-In conclusion, ongoing vaccination efforts, improved sanitation, surveillance, and targeted responses to outbreaks in vulnerable areas are vital components of the global strategy to ensure the complete eradication of poliomyelitis.
+- Poor sanitation and hygiene facilitate the spread of the virus, especially in areas with insufficient sewage treatment.
+- High population density can increase transmission rates.
+- Malnutrition and weakened immune systems can make individuals more susceptible to severe forms of the disease.
+- Areas with inadequate vaccination coverage are at increased risk of polio outbreaks.
+
+**Impact on different regions and populations:**
+
+- South Asia and Sub-Saharan Africa have been the most affected regions in the recent past, with several countries experiencing endemic transmission until the 21st century.
+- Conflict and political instability can disrupt vaccination programs and lead to resurgences of the disease, as seen in the past with outbreaks in the Middle East and Horn of Africa.
+- Migrant populations and those with limited access to healthcare are more vulnerable to polio as well as other vaccine-preventable diseases.
+
+**Variations in prevalence rates and affected demographics:**
+
+In the modern era, polio predominantly affects children in regions where the virus has not been fully eradicated. Adult cases are rarer and usually tied to areas with poor immunization coverage. For example, in areas previously declared polio-free, reintroduction of the virus can occur, leading to so-called "vaccine-derived poliovirus" (VDPV) in populations with low vaccination rates.
+
+The successful reduction in global prevalence is due to the rigorous implementation of vaccination campaigns. Still, vigilance is necessary to prevent resurgence; polio-free areas require ongoing immunization strategies to maintain herd immunity. With eradication within reach, international health organizations are focused on the last strongholds of the virus, enhancing surveillance systems, and overcoming sociopolitical and logistical barriers to vaccination.
+
+In summary, while substantial progress has been made, polio remains a public health concern in specific regions. Continuous efforts and international cooperation are critical to maintain the gains achieved and to finally eradicate this devastating disease.

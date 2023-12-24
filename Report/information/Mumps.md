@@ -1,52 +1,31 @@
-Mumps is a contagious viral disease caused by the mumps virus, a member of the Paramyxoviridae family. The disease is characterized by fever, headache, muscle aches, tiredness, loss of appetite, and most notably, swelling of the salivary glands, particularly the parotid glands.
+Mumps is a highly contagious viral disease caused by the mumps virus, which is a member of the genus Rubulavirus in the family of Paramyxoviridae. First described by Hippocrates in the 5th century BC, mumps was a common childhood illness for centuries until the development of a vaccine in the 1960s. The discovery of the mumps virus itself was accomplished in the early 20th century by Claude Henri and colleagues.
 
-### Historical Context and Discovery
+**Global Prevalence and Transmission Routes:**
+The global prevalence of mumps has significantly declined since the introduction of the mumps vaccine, which is often combined with measles and rubella vaccines (MMR). However, outbreaks still occur, particularly in areas where vaccine uptake is low. Before vaccination programs were implemented, mumps was endemic worldwide. Now, countries with high vaccination coverage have significantly lower incidence rates.
 
-Mumps has been recognized as a distinct disease for many centuries. The Greek physician Hippocrates provided the first known written description of mumps in the 5th century BCE. The term "mumps" may originate from an old English dialect, meaning "mumble" or "mump," reflecting the speech difficulties that may occur from the swollen cheeks and jaws.
+Mumps is primarily spread through respiratory droplets or saliva, which can be transmitted by coughing, sneezing, or talking. It can also spread by sharing utensils or cups with an infected person, or by touching objects or surfaces contaminated with the virus and then touching the mouth or nose.
 
-The mumps virus was not scientifically identified until the early 20th century. Before the introduction of the mumps vaccine, the disease was common, especially in children. It was not until 1945 that Johnson and Goodpasture successfully isolated the mumps virus, paving the way for a vaccine.
+**Affected Populations and Key Statistics:**
+Historically, the affected population was mainly children between the ages of 5 and 9. However, with widespread vaccination practices, the average age of patients has increased, and outbreaks now more commonly affect adolescents and young adults, particularly those in close-contact settings such as schools, colleges, and camps.
 
-### Global Prevalence
+Before vaccination, mumps was a leading cause of acquired deafness in children and viral meningitis. Nowadays, incidence rates vary by region and vaccination coverage, with lower prevalence in regions with high vaccine uptake. According to the World Health Organization, seasonal variations can occur, with higher cases reported in winter and spring.
 
-Mumps was endemic worldwide prior to the introduction and widespread use of the mumps vaccine. However, since vaccination programs have been implemented, the global prevalence of mumps has decreased significantly. The vaccine is often administered in combination with measles and rubella vaccines, known as the MMR vaccine.
+**Risk Factors:**
+The major risk factors associated with mumps transmission include:
 
-Despite the success of vaccination programs, mumps outbreaks still occur, especially in areas where vaccine coverage is not comprehensive. In some developed countries, there has been a resurgence of mumps, often among young adults in close-contact settings such as schools and colleges.
+1. Lack of vaccination or incomplete vaccination.
+2. Close-contact settings such as schools, universities, and communal living spaces.
+3. International travel to areas where mumps is endemic or where outbreaks are occurring.
+4. Being part of a community with low vaccination rates or vaccine hesitancy.
 
-### Transmission Routes
+**Impact on Different Regions and Populations:**
+In regions with high vaccination coverage, such as North America and many parts of Europe, the incidence of mumps is low. However, even in these regions, sporadic outbreaks can occur, especially in populations that have declined the vaccine or in communities with pockets of unvaccinated individuals.
 
-The mumps virus is highly contagious and is transmitted from person to person primarily through respiratory secretions, such as saliva or mucus from the nose or throat of an infected individual, which can be spread by coughing, sneezing, or talking. The virus can also be spread by sharing items, such as cups or utensils, that are contaminated with the virus.
+In contrast, developing countries where vaccination coverage is insufficient continue to see higher prevalence rates. The disease can have a serious impact on children's health in these regions due to the complications associated with mumps, such as orchitis, oophoritis, encephalitis, and deafness.
 
-### Affected Populations and Statistics
+**Affected Demographics:**
+While mumps can affect any age group, unvaccinated children and young adults are the most vulnerable to the disease. Additionally, individuals who work in healthcare or educational settings may have a higher risk of exposure.
 
-Traditionally, mumps primarily affected children between the ages of 5 and 9. However, in the post-vaccination era, the demographic most at risk includes:
+Vaccination remains the cornerstone of mumps control and prevention. Two doses of the MMR vaccine are typically recommended, providing about 88% protection against mumps. However, vaccine-derived immunity can wane over time, which is one reason why adolescents and young adults—who may have received their last dose years prior—might still experience outbreaks.
 
-- Unvaccinated individuals
-- Individuals who live in close-contact settings, such as dormitories or military barracks
-- Persons who travel internationally to areas where mumps is more prevalent
-- Healthcare workers who are not adequately protected by vaccination
-
-Cases among adults are less common but can occur, especially in populations with waning immunity or in areas with low vaccination rates.
-
-The incidence and prevalence of mumps widely vary from country to country. Many developed countries have seen a significant decrease in cases due to effective vaccination programs. However, occasional outbreaks can lead to a surge in cases, primarily among unvaccinated or partially vaccinated individuals.
-
-### Major Risk Factors
-
-The following are the primary risk factors associated with mumps transmission:
-- Lack of vaccination or incomplete vaccination
-- Close contact with a person infected with the mumps virus
-- International travel to regions where mumps is still prevalent
-- Attendance at schools, colleges, or institutions with close-living quarters where the disease can easily spread
-
-### Impact on Different Regions and Populations
-
-The impact of mumps varies:
-
-- **Developed Countries**: In countries with high vaccine coverage, mumps is relatively rare but outbreaks may occur, predominantly affecting adolescents and young adults. For example, the United States has experienced a number of outbreaks among college students.
-  
-- **Developing Countries**: In regions where vaccine coverage is not widespread or logistical factors limit vaccination efforts, mumps remains a concern and can be more common among children.
-
-### Affected Demographics
-
-Prior to widespread vaccination, young children were the primary demographic affected by mumps. Since vaccination programs have been implemented, the affected demographics have shifted, with outbreaks now more likely to occur among older children, adolescents, and young adults who did not receive the vaccine or whose immunity has decreased over time.
-
-In summary, the epidemiology of mumps has changed dramatically since the development and application of the MMR vaccine. While global prevalence has decreased, it remains an important public health issue, particularly in areas where vaccine uptake is incomplete. Outbreaks, especially in close-contact settings, highlight the need for continued vigilance in vaccination efforts and epidemiological monitoring to control the spread of mumps.
+Complications from mumps can be serious but are significantly rarer since the advent of the vaccine. These complications might include meningitis, encephalitis, pancreatitis, permanent deafness, and infertility due to orchitis. Vaccination and good hygiene practices remain crucial in combatting the spread of mumps and minimizing its impact on global health.

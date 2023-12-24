@@ -1,18 +1,35 @@
+Seasonal Patterns: 
+Based on the available data, there is a clear seasonal pattern in the incidence of measles cases in mainland China. Measles cases are most prevalent during the spring and summer months (March to August) and least common during the winter months (December to February). This recurring seasonal trend is consistent across multiple years.
+
+Peak and Trough Periods: 
+The highest number of measles cases in mainland China occur during the months of May and June, representing the peak period. Conversely, the lowest number of cases, or trough period, is observed in December and January.
+
+Overall Trends: 
+There has been a gradual decrease in the number of measles cases in mainland China over the years. From 2010 to 2013, a downward trend was evident. However, there was a notable increase in cases from 2013 to 2015, followed by another decrease from 2015 to 2018. Since 2018, the number of cases has remained relatively low and stable.
+
+Discussion:
+The observed seasonal pattern of measles cases in mainland China aligns with the known transmission dynamics of the disease. Measles is highly contagious and spreads easily in densely populated areas, which are more common during warmer months when people spend more time outdoors and in close proximity to one another.
+
+Various factors contribute to the peak period in May and June, including increased travel and social gatherings during holidays and school breaks. These factors may facilitate the transmission of the virus among susceptible individuals. Conversely, reduced social interactions and heightened awareness of preventive measures during the winter season likely contribute to the trough period in December and January.
+
+The overall decline in measles cases over the years can be attributed to successful vaccination campaigns and improved public health measures in mainland China. Implementation of measles vaccination programs has resulted in increased immunity and reduced transmission of the virus. However, it is crucial to maintain high vaccination coverage and continue monitoring the situation to prevent future outbreaks.
+
+It is important to note that the provided data relates solely to measles cases and deaths. To gain a comprehensive understanding of measles epidemiology in mainland China, additional information such as vaccination coverage, age distribution of cases, and geographic variations would be invaluable.
 ## Introduction
 
-Measles is a highly contagious viral disease causing fever, cough, runny nose, inflamed eyes, and a distinctive red rash. It spreads through respiratory droplets from coughs and sneezes. Despite the development of effective vaccines, measles remains a significant cause of death in children worldwide, particularly in areas with low vaccination coverage. Complications can include pneumonia, encephalitis, and subacute sclerosing panencephalitis, a rare chronic inflammation of the brain. Global health efforts focus on vaccination as the primary prevention strategy.
+Measles is a highly contagious viral disease primarily affecting children. It is caused by the measles virus, a member of the genus Morbillivirus within the family Paramyxoviridae. The disease is transmitted via respiratory droplets or direct contact with an infected person’s nasal or throat secretions. Symptoms usually appear 10-12 days after exposure and include high fever, cough, runny nose, and conjunctivitis, followed by a characteristic red rash. Despite the availability of an effective vaccine, measles remains a leading cause of death among young children globally, particularly in areas with low vaccination coverage.
 
 ## Highlights
 
-1. There has been a significant decrease in measles cases in China over the past decade, with a high of 13318 cases in May 2010 to just 78 cases in September 2023. <br/>
-2. The drop in measles cases corresponds with a reduction in related deaths, with the last recorded death occurring in December 2016. <br/>
-3. There is a seasonal pattern, with the highest numbers of cases typically occurring in the first half of the year, peaking around April and May. <br/>
-4. As of September 2023, measles appears to be well-controlled in mainland China with a steady state of low-number monthly cases and no recent fatalities.
+- A significant declining trend in measles cases and deaths from 2010 to 2023, indicating improved disease management and prevention strategies. <br/>
+- In particular, the annual caseload decreases sharply after 2016, maintaining low levels, suggesting effective vaccination coverage and possibly a high level of herd immunity. <br/>
+- The consistently low number of deaths from 2011 onwards, often zero, reflects the capacity for adequate healthcare provisions to treat measles cases. <br/>
+- Data from 2023, including the most recent statistics for October, shows sustained low case numbers, with no reported deaths, demonstrating effective ongoing containment of the disease. <br/>
 
 ## Analysis
 
 ### Cases Analysis
-The reported measles cases in mainland China present an overall decreasing trend from 2010 to 2023. The largest surge was in 2014, hitting a peak in May with 13,318 cases. Post-2014, there was a year-long decline until the cases rose again in 2015. From 2016 onwards, a consistent decrease in cases can be observed with occasional minor upswings. By 2020, the monthly cases had reduced to double digits, primarily below 200, and this trend continued up to 2023. 
+The measles cases in mainland China over the years reflect a significant surge until the midpoint of the last decade, with the highest number of monthly cases occurring in May 2010 with 13,318 cases. A subsequent decline follows, which becomes more pronounced from 2015 onwards. Starting in 2020, there is a marked decrease in cases, with numbers rarely exceeding 100 monthly. This reduction could be attributed to strengthened immunization programs and potentially reduced transmission related to public health measures for COVID-19. The data for January, February, and March 2013 is missing, which precludes a full analysis for that period.
 
 ### Deaths Analysis
-The number of deaths linked to measles presents a generally sporadic pattern. However, the death count remained relatively low throughout the years, from 2010 to 2023, even during periods when the number of cases surged. The highest number of deaths was reported in May 2010 with 12 fatalities. Despite ups and downs in the following years, no deaths were reported post-2016. This suggests increasingly effective treatment and prevention measures over the years.
+Fatalities due to measles in mainland China were intermittent from 2010 to 2020, with the highest mortality reported in May 2010 and April 2015, each recording 12 and 7 deaths, respectively. Notably, from 2020 onwards, no deaths were reported despite the appearance of cases, possibly indicating improved medical interventions and case management. The initial years showcase a correlation between high caseloads and mortality, which is disrupted in latter years, likely a testament to enhanced healthcare systems’ responsiveness and vaccination coverage minimising measles-related mortality.
