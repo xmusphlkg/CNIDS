@@ -385,7 +385,7 @@ def update_markdown_file(disease, section, content, analysis_YearMonth):
     section_found = False
 
     # if not exist create folder
-    os.makedirs(f"../Report/history/{analysis_YearMonth}", exist_ok=T)
+    os.makedirs(f"../Report/history/{analysis_YearMonth}", exist_ok=True)
 
     try:
         with open(file_name, 'r+') as file:
