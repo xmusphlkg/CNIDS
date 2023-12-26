@@ -7,17 +7,11 @@ import pandas as pd
 import glob
 
 # import functions from function.py
-from function import get_rss_results
+from function import get_rss_results, get_gov_results, get_cdc_results
 from function import process_table_data
-from function import get_cdc_results
 from analysis import generate_weekly_report
 from function import find_max_date
 from sendmail import send_email_to_subscriber
-import variables
-
-# test get new data
-test = os.environ['test']
-test_analysis = os.environ['test_analysis']
 
 # set working directory
 os.chdir("./Data/GetData")
@@ -26,47 +20,45 @@ os.chdir("./Data/GetData")
 folder_path = "WeeklyReport/"  # file path
 existing_dates = [os.path.splitext(file)[0] for file in os.listdir(folder_path) if os.path.isfile(os.path.join(folder_path, file))]
 
-# Call the function and pass the URL parameter
-url = "https://pubmed.ncbi.nlm.nih.gov/rss/search/1tQjT4yH2iuqFpDL7Y1nShJmC4kDC5_BJYgw4R1O0BCs-_Nemt/?limit=100&utm_campaign=pubmed-2&fc=20230905093742"
-results = get_rss_results(url)
+results = []
+# Get data from pubmed
+# url = "https://pubmed.ncbi.nlm.nih.gov/rss/search/1tQjT4yH2iuqFpDL7Y1nShJmC4kDC5_BJYgw4R1O0BCs-_Nemt/?limit=100&utm_campaign=pubmed-2&fc=20230905093742"
+# results_pubmed = get_rss_results(url)
+# new_dates_pubmed = [result['YearMonth'] for result in results_pubmed if result['YearMonth'] not in existing_dates]
+# if len(new_dates_pubmed) == 0:
+#     print("No new data in the Pubmed RSS feed, try China CDC Weekly website.")
+# else:
+#     results_pubmed = [result for result in results_pubmed if result['YearMonth'] in new_dates_pubmed]
+#     results = results_pubmed
 
-new_dates = [result['YearMonth'] for result in results if result['YearMonth'] not in existing_dates]
+# Get data from cdc weekly
+results_cdc = get_cdc_results()
+new_dates_cdc = [result['YearMonth'] for result in results_cdc if result['YearMonth'] not in existing_dates]
+if not new_dates_cdc:
+    print("No new data in the China CDC weekly website, try National Disease Control and Prevention Administration.")
+else:
+    results.extend([result for result in results_cdc if result['YearMonth'] in new_dates_cdc])
 
-if len(new_dates) == 0:
-    print("No new data in the Pubmed RSS feed, try China CDC Weekly website.")
-    
-url = "https://weekly.chinacdc.cn"
-results = get_cdc_results(url)
-new_dates = [result['YearMonth'] for result in results if result['YearMonth'] not in existing_dates]
+# Get data from gov
+results_gov = get_gov_results()
+new_dates_gov = [result['YearMonth'] for result in results_gov if result['YearMonth'] not in existing_dates and result['YearMonth'] not in new_dates_cdc]
+if not new_dates_gov:
+    print("No new data in the National Disease Control and Prevention Administration, stop.")
+else:
+    results.extend([result for result in results_gov if result['YearMonth'] in new_dates_gov])
+
+new_dates = list(set(new_dates_cdc + new_dates_gov))
 print(results)
 
 # get current date
 current_date = datetime.now().strftime("%Y%m%d")
 
-if len(new_dates) == 0:
-    print("No new data in the China CDC Weekly website also.")
-
-if len(new_dates) == 0 and test == 'False':
-    print("Newest data, no need to update")
-else:
-    if test == 'True':
-      print("Test mode, only get the latest data")
-      new_dates = [find_max_date([result['YearMonth'] for result in results])]
-      print(new_dates)
-    else:
-      test_analysis = 'True'
-      print("Find new data, need to update:")
-      print(new_dates)
-          
-    # filter results
-    filtered_results = [result for result in results if result['YearMonth'] in new_dates]
-    # extract DOI
-    dois = [re.sub(r"doi:", r"doi/", item["doi"][2]) if len(item["doi"]) > 2 else "" for item in filtered_results]
-    # extract URL
-    urls = ["https://weekly.chinacdc.cn/en/article/{}".format(doi) for doi in dois]
+if new_dates:
+    print("Find new data, update.")
+    print(results)
 
     # process table data
-    process_table_data(urls, filtered_results, variables.diseaseCode2Name, dois)
+    process_table_data(results)
 
     # access the folder
     csv_files = [file for file in os.listdir(folder_path) if file.endswith(".csv")]

@@ -35,8 +35,10 @@ def openai_mail_cover(table_data_str, table_legend, analysis_YearMonth):
 
                            {mail_content}""")
     print(key_words)
+
     image_url = openai_image(os.environ['REPORT_COVER_CREATE'], key_words)
     response = requests.get(image_url)
+
     if response.status_code == 200:
         with open("./temp/cover.jpg", "wb") as file:
             file.write(response.content)

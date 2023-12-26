@@ -7,7 +7,10 @@ import os
 import pandas as pd
 from requests.exceptions import ConnectionError
 from datetime import datetime
-import pdb
+import variables
+import json
+from io import StringIO
+from report_text import openai_trans
 
 # define a function to extract date from text
 def extract_date(text):
@@ -18,6 +21,19 @@ def extract_date(text):
           return(match.group(2) + " " + match.group(1))
     else:
           return(None)
+
+def extract_date_cn(text):
+    text_without_tags = re.sub(r"<[^>]+>", "", text)
+    text_without_special_chars = re.sub(r"[^a-zA-Z0-9\u4e00-\u9fa5\s]", "", text_without_tags)
+    match = re.search(r"(\d{4})年(\d{1,2})月", text_without_special_chars)
+    if match:
+        year = int(match.group(1))
+        month = int(match.group(2))
+        date_obj = datetime(year, month, 1)
+        formatted_date = date_obj.strftime("%Y %B")
+        return formatted_date
+    else:
+        return None
     
 def find_max_date(YearMonths):
     date_objects = [datetime.strptime(date, "%Y %B") for date in YearMonths]
@@ -60,7 +76,9 @@ def get_rss_results(url):
             "date": date_obj,
             "YearMonthDay": formatted_date,
             "YearMonth": date,
-            "doi": item["dc:identifier"]
+            "doi": item["dc:identifier"],
+            "source": 'pubmed',
+            "origin": "EN"
         })
 
     # Sort by date
@@ -73,16 +91,7 @@ def get_rss_results(url):
 
 # define a function to get china cdc weekly results
 
-def get_cdc_results(url):
-    """
-    Extracts links containing "doi" from a given URL.
-
-    Args:
-        url (str): The URL of the webpage to scrape.
-
-    Returns:
-        list: A list of dictionaries containing the extracted information.
-    """
+def get_cdc_results(url="https://weekly.chinacdc.cn"):
     # Send an HTTP request to get the webpage content
     response = requests.get(url)
     html_content = response.text
@@ -113,7 +122,9 @@ def get_cdc_results(url):
                 "YearMonthDay": formatted_date,
                 "YearMonth": date,
                 "link": url + link,
-                "doi": ['missing', 'missing', 'doi:' + doi]
+                "doi": ['missing', 'missing', 'doi:' + doi],
+                "source": 'chinacdc',
+                "origin": "EN"
             })
 
     # Remove duplicate results
@@ -121,18 +132,154 @@ def get_cdc_results(url):
 
     return result_list
 
+def get_gov_results(url="https://www.ndcpa.gov.cn"):
+    # Send a request and get the response
+    form_data = {
+    'current': '1',
+    'pageSize': '10',
+    'webSiteCode[]': 'jbkzzx',
+    'channelCode[]': 'c100016'
+    }
+    response = requests.post(url + "/queryList", data=form_data)
+    if response.status_code != 200:
+        print(url)
+        raise Exception("Failed to fetch web content, status code: {}".format(response.status_code))
+    else:
+        print("Successfully fetched web content, urls: {}".format(url))
+
+    # Get all url
+    titles = [response.json()['data']['results'][i]['source']['title'] for i in range(10)]
+    links = [response.json()['data']['results'][i]['source']['urls'] for i in range(10)]
+
+    # Traverse each <a> tag, extract text and link
+    result_list = []
+    for title,link in zip(titles,links):
+        if title and link:
+            date = extract_date_cn(title)
+            date_obj = datetime.strptime(date, "%Y %B")
+            formatted_date = date_obj.strftime("%Y/%m/%d")
+            link = json.loads(link).get('common')
+            link = url + link
+            result_list.append({
+                "title": title,
+                "date": date_obj,
+                "YearMonthDay": formatted_date,
+                "YearMonth": date,
+                "link": link,
+                "doi": ['missing', 'missing', 'missing'],
+                "source": "gov",
+                "origin": "CN"
+            })
+    return result_list
+
 
 # define a function to get table data from URLs
 
-def process_table_data(urls, filtered_results, diseaseCode2Name, dois):
+def get_table_data(url):
+    # Send a request and get the response
+    response = requests.get(url)
+    if response.status_code != 200:
+        print(url)
+        raise Exception("Failed to fetch web content, status code: {}".format(response.status_code))
+    else:
+        print("Successfully fetched web content, urls: {}".format(url))
+
+    # Use pandas to directly parse the table data
+    text = response.text
+    soup = BeautifulSoup(text, 'html.parser')
+    tables = soup.find_all('table')[0]
+
+    data = []
+    thead = tables.find('thead')
+    if thead:
+        thead_rows = thead.find_all('tr')
+        for tr in thead_rows:
+            data.append([th.get_text().strip() for th in tr.find_all(['td', 'th'])])
+
+    table_body = tables.find('tbody')
+    if table_body:
+        rows = table_body.find_all('tr')
+        for tr in rows:
+            cells = tr.find_all('td')
+            if cells:
+                data.append([td.get_text().strip() for td in cells])
+
+    table_data = pd.DataFrame(data)
+
+    return table_data
+
+def clean_table_data(data, filtered_result):
+    # Clean database
+    data = data.iloc[1:].copy()
+    data.columns = ['Diseases', 'Cases', 'Deaths']
+    data['Diseases'] = data['Diseases'].str.replace(r"[^\w\s]", "", regex=True)
+
+    # Add various columns
+    column_names = ['DOI', 'URL',
+                    'Date', 'YearMonthDay', 'YearMonth',
+                    'Source',
+                    'Province', 'ProvinceCN', 'ADCode',
+                    'Incidence', 'Mortality']
+    column_values = [filtered_result['doi'][2], filtered_result['link'],
+                     filtered_result["date"], filtered_result["YearMonthDay"], filtered_result["YearMonth"],
+                     filtered_result["source"], 'China', '全国', '100000', -10, -10]
+
+    for name, value in zip(column_names, column_values):
+        data[name] = value
+    
+    # trans Diseases to DiseasesCN
+    data['DiseasesCN'] = data['Diseases'].map(variables.diseaseCode2Name)
+
+    # Reorder the column names
+    column_order = ['Date', 'YearMonthDay', 'YearMonth', 'Diseases', 'DiseasesCN', 'Cases', 'Deaths', 'Incidence', 'Mortality', 'ProvinceCN', 'Province', 'ADCode', 'DOI', 'URL', 'Source']
+    table_data = data[column_order]
+
+    return table_data
+
+def clean_table_data_cn(data, filtered_result):
+    # Clean database
+    data = data.iloc[1:].copy()
+    data.columns = ['DiseasesCN', 'Cases', 'Deaths']
+    data = data[~data['DiseasesCN'].str.contains('合计')]
+    data['DiseasesCN'] = data['DiseasesCN'].str.replace(r"[^\w\s\u4e00-\u9fa5]", "", regex=True)
+    data['DiseasesCN'] = data['DiseasesCN'].str.replace(r"甲乙丙类总计", "合计", regex=True)
+    
+    # Add various columns
+    column_names = ['DOI', 'URL',
+                    'Date', 'YearMonthDay', 'YearMonth',
+                    'Source',
+                    'Province', 'ProvinceCN', 'ADCode',
+                    'Incidence', 'Mortality']
+    column_values = [filtered_result["doi"][2], filtered_result['link'],
+                     filtered_result["date"], filtered_result["YearMonthDay"], filtered_result["YearMonth"],
+                     filtered_result["source"],
+                     'China', '全国', '100000',
+                     -10, -10]
+    for name, value in zip(column_names, column_values):
+        data[name] = value
+    
+    # trans DiseasesCN to Diseases
+    data['Diseases'] = data['DiseasesCN'].map(variables.diseaseName2Code)
+    
+    na_indices = data['DiseasesCN'][data['DiseasesCN'].isna()].index
+    for i in na_indices:
+        data.loc[i, 'Diseases'] = openai_trans(os.environ["DATA_TRANSLATE_CREATE"],
+                                               os.environ["DATA_TRANSLATE_CHECK"],
+                                               data.loc[i, 'DiseasesCN'],
+                                               variables.diseaseName2Code.values())
+
+    # Reorder the column names
+    column_order = ['Date', 'YearMonthDay', 'YearMonth', 'Diseases', 'DiseasesCN', 'Cases', 'Deaths', 'Incidence', 'Mortality', 'ProvinceCN', 'Province', 'ADCode', 'DOI', 'URL', 'Source']
+    table_data = data[column_order]
+
+    return table_data
+
+def process_table_data(results):
     """
     Process table data from URLs and save the results to CSV files.
 
     Args:
-        urls (list): List of URLs to fetch data from.
-        filtered_results (list): List of filtered results.
-        diseaseCode2Name (dict): Dictionary mapping disease codes to names.
-        dois (list): List of DOIs.
+        results (list): A list of dictionaries containing the extracted information.
 
     Raises:
         Exception: If the HTTP response status code is not 200.
@@ -140,107 +287,20 @@ def process_table_data(urls, filtered_results, diseaseCode2Name, dois):
     Returns:
         None
     """
+    urls = [result['link'] for result in results]
+
     for i, url in enumerate(urls):
         # Send a request and get the response
-        response = requests.get(url)
-
-        # Check the response status code
-        if response.status_code != 200:
-            print(url)
-            raise Exception("Failed to fetch web content, status code: {}".format(response.status_code))
-        else:
-            print("Successfully fetched web content, urls: {}".format(url))
-
-        # Parse HTML
-        soup = BeautifulSoup(response.content, "html.parser")
-
-        # Find the table
-        table = soup.find("table")  # The table is enclosed in <table> tags
-
-        # Extract table data
-        table_data = []
-        for row in table.find_all("tr"):
-            row_data = []
-            for cell in row.find_all("td"):
-                # Remove all special characters except spaces and hyphens
-                text = re.sub(r"[^\w\s-]", "", cell.text.strip())
-                row_data.append(text)
-            table_data.append(row_data)
+        origin = results[i]['origin']
+        data_raw = get_table_data(url)
         
-        # Save the results to a txt file
-        file_name = os.path.join("WeeklyReport/", filtered_results[i]["YearMonth"] + ".txt")
-        with open(file_name, "w", encoding="UTF-8-sig") as f:
-            last_row = table.find_all("tr")[-1]
-            last_row = re.sub(r"<tr>|</tr>|<td[^>]*>|</td>", "", str(last_row))
-            f.write(last_row[0])
-
-        # Remove the last segment of content
-        table_data = table_data[:-1]
-        # Insert "YearMonth" in the first column of each month's result
-        table_data[0].insert(0, "YearMonth")
-        for row in table_data[1:]:
-            row.insert(0, filtered_results[i]["YearMonth"])
-
-        # Insert "YearMonthDay" in the first column of each month's result
-        table_data[0].insert(0, "YearMonthDay")
-        for row in table_data[1:]:
-            row.insert(0, filtered_results[i]["YearMonthDay"])
-
-        # Insert "Date" in the first column of each month's result
-        table_data[0].insert(0, "Date")
-        for row in table_data[1:]:
-            row.insert(0, filtered_results[i]["date"])
-
-        # Add the URL in the last column
-        table_data[0].insert(0, "URL")
-        for row in table_data[1:]:
-            row.insert(0, urls[i])
-
-        # Add the DOI in the last column
-        table_data[0].insert(0, "DOI")
-        for row in table_data[1:]:
-            row.insert(0, dois[i])
-
-        # Add the Chinese name of the disease
-        table_data[0].insert(1, "DiseasesCN")
-        for row in table_data[1:]:
-          disease_code = row[5]
-          if disease_code in diseaseCode2Name:
-              chinese_name = diseaseCode2Name[disease_code]
-          else:
-              chinese_name = disease_code
-          row.insert(1, chinese_name)
-
-        # Add the data source as "China CDC Weekly: Notifiable Infectious Diseases Reports"
-        table_data[0].insert(1, "Source")
-        for row in table_data[1:]:
-            row.insert(1, 'China CDC Weekly: Notifiable Infectious Diseases Reports')
-
-        # Add province information
-        table_data[0].insert(1, "Province")
-        for row in table_data[1:]:
-            row.insert(1, 'China')
-        table_data[0].insert(1, "ProvinceCN")
-        for row in table_data[1:]:
-            row.insert(1, '全国')
-        table_data[0].insert(1, "ADCode")
-        for row in table_data[1:]:
-            row.insert(1, '100000')
-
-        # Add 'Incidence' and 'Mortality' columns
-        table_data[0].insert(7, "Incidence")
-        for row in table_data[1:]:
-            row.insert(7, -10)
-        table_data[0].insert(8, "Mortality")
-        for row in table_data[1:]:
-            row.insert(8, -10)
-
-        # Convert to a DataFrame
-        table_data = pd.DataFrame(table_data[1:], columns=table_data[0])
-
-        # Reorder the column names: Date, YearMonthDay, YearMonth, Diseases, DiseasesCN, Cases, Deaths, Incidence, Mortality, ProvinceCN, Province, ADCode, DOI, URL, Source
-        table_data = table_data[['Date', 'YearMonthDay', 'YearMonth', 'Diseases', 'DiseasesCN', 'Cases', 'Deaths', 'Incidence', 'Mortality', 'ProvinceCN', 'Province', 'ADCode', 'DOI', 'URL', 'Source']]
+        if origin == 'CN':
+            data = clean_table_data_cn(data_raw,
+                                       results[i])
+        else:
+            data = clean_table_data(data_raw,
+                                    results[i])
 
         # Save the results for each month to a CSV file
-        file_name = os.path.join("WeeklyReport/", filtered_results[i]["YearMonth"] + ".csv")
-        table_data.to_csv(file_name, index=False, encoding="UTF-8-sig")
+        file_name = os.path.join("WeeklyReport/", results[i]["YearMonth"] + ".csv")
+        data.to_csv(file_name, index=False, encoding="UTF-8-sig")

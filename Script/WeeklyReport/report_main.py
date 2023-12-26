@@ -34,7 +34,7 @@ def generate_report(df, table_data, diseases_order, analysis_date, analysis_Year
     table_data_str = df_10.to_markdown(index=False)
     
     # read legend
-    with open(f'{data_path}/{analysis_YearMonth}.txt', 'r') as f:
+    with open(f'{data_path}/latest.txt', 'r') as f:
         table_legend = f.read()
 
     # create report page

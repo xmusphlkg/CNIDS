@@ -20,7 +20,7 @@ import re
 import markdown
 
 from report_fig import prepare_disease_data
-from report_text import openai_single, openai_analysis, bing_analysis, update_markdown_file
+from report_text import openai_single, bing_analysis, update_markdown_file, openai_abstract
 
 def create_report(disease_order):
     """
@@ -450,7 +450,7 @@ def create_report_summary(table_data, table_data_str, analysis_MonthYear, legend
     # add table
     elements = add_table(elements, table_data, analysis_MonthYear, styles)
     # add monthly analysis
-    analysis_content = openai_analysis(os.environ['REPORT_ABSTRACT_CREATE'],
+    analysis_content = openai_abstract(os.environ['REPORT_ABSTRACT_CREATE'],
                                        os.environ['REPORT_ABSTRACT_CHECK'],
                                       f"""Craft an epidemiological report analyzing the prevalence and impact of various diseases in mainland China for the specified month and year, {analysis_MonthYear}.
                                       The report should not only focus on diseases with a high incidence but also those that are of public concern. 
