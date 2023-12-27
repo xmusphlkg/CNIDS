@@ -468,6 +468,16 @@ def create_report_summary(table_data, table_data_str, analysis_MonthYear, legend
     analysis_content = re.sub(r'h[1-5]>', 'b>', analysis_content)
     analysis_content = content_clean(analysis_content)
     elements = add_analysis(elements, analysis_content, styles)
+
+    # update README.md
+    with open('../docs/README.md', 'r') as file:
+        readme = file.read()
+    pattern = r"(# Introduction\n(?:.*?(?=\n# |\Z))*)"
+    replacement = f"# Introduction\n\n{analysis_content}\n\n"
+    readme_new = re.sub(pattern, replacement, readme, flags=re.DOTALL)
+    with open('../docs/README.md', 'w') as file:
+        file.writelines(readme_new)
+
     # add table legend
     elements = add_legend(elements, legend, styles)
     # add new page

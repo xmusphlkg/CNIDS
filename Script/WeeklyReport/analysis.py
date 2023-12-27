@@ -82,5 +82,6 @@ def generate_weekly_report(analysis_YearMonth):
         readme_new = re.sub(pattern, replacement, readme, flags=re.DOTALL)
         with open('../docs/README.md', 'w') as file:
             file.writelines(readme_new)
+        shutil.copyfile(f'../docs/README.md', '../docs/Total.md')
 
 # generate_weekly_report('2023 September')
