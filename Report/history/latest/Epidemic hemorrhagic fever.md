@@ -1,19 +1,19 @@
-
 ## Introduction
 
-Epidemic hemorrhagic fever (EHF) is a group of illnesses caused by several distinct families of viruses. The conditions are characterized by an acute onset of high fever and bleeding disorders, which can lead to shock, organ failure, and potentially death. Rodents often serve as reservoir hosts for these viruses, and human infection typically occurs through contact with the animals or their excretions. The term encompasses various regional diseases, such as Ebola, Dengue, Yellow fever, and Hantavirus, each with its distinct etiology but similar clinical presentations. Control measures focus on prevention, supportive care, and occasionally, antiviral treatments.
+Epidemic Hemorrhagic Fever, also known as Hantavirus, is a severe infectious disease characterized by fever, fatigue, and hemorrhagic symptoms. It is primarily transmitted through rodent vectors, carried by their droppings, urine, or saliva. Humans can contract the illness through inhaling aerosolized particles contaminated by the virus. Potential complications include cardiovascular and renal damage which can result in severe patient outcomes. Early diagnosis and supportive care are vital in managing this zoonotic infection.
+
 
 ## Highlights
 
-- The number of cases of Epidemic hemorrhagic fever (EHF) has fluctuated from 2010 to 2023, with notable peaks occurring almost annually around November; however, the overall trend suggests a decline in both cases and deaths in the most recent years (2021-2023). <br/>
-- The fatality rate has varied considerably over the years, with September 2012 being an outlier with 150 deaths. Generally, the fatality rate has been relatively low, especially in the period from 2018 onwards. <br/>
-- Seasonal patterns in EHF cases can be seen, with cases generally increasing from May to November and then declining through the winter months, which is consistent with patterns of rodent-borne diseases due to factors such as human-rodent contact and rodent population dynamics. <br/>
-- The most recent data from October 2023 shows 439 cases and 3 deaths, indicating a contained situation compared to historical peaks, but constant monitoring is essential to prevent and control future outbreaks. <br/>
+1. **Seasonal Trend:** The data consistently indicates a peak of cases in the autumn and winter months, with November typically the high point.<br/>
+2. **Overall Case Decline:** There has been a general decrease in Epidemic hemorrhagic fever cases since 2010, with a significant drop over the last three years.<br/>
+3. **Low Mortality:** Despite variations in case numbers, mortality related to the disease appears to be relatively low.<br/>
+4. **Current Situation:** As of November 2023, case numbers are below historical highs but suggest an upward trend from previous months, a pattern consistent with the seasonal trend.<br/>
 
 ## Analysis
 
 ### Cases Analysis
-Epidemic hemorrhagic fever in mainland China from 2010 to 2023 displays seasonality with peaks generally in the warmer months, indicating possible vector or host population surges. The highest number of cases was observed in November 2012, with a total of 3000 reported cases. Over the years, there is no conclusive trend indicating either a significant increase or decrease in the number of cases. Notable fluctuations are evident during specific months, which may suggest changes in environmental factors, disease surveillance intensity, or reporting accuracy.
+The reported cases of Epidemic hemorrhagic fever in mainland China show clear seasonality, with annual peaks usually observed from November to January. The maximum number of cases was most significantly observed in November 2012 with 3000 cases. The reported cases started declining from the year 2015 onward, especially from April to November, suggesting effective preventive measures or changes in disease transmission dynamics. However, a notable influx of cases is still seen in the winter months, underlining the requirement for continuous vigilance and control efforts.
 
 ### Deaths Analysis
-The fatality data associated with epidemic hemorrhagic fever from 2010 to 2023 in China shows variability with a noteworthy peak in September 2012, reporting 150 deaths. Following this peak, the deaths per month have not reached similar levels. December tends to show comparatively higher numbers, possibly due to cumulative effects of infections in autumn. The mortality rate fluctuates, making it difficult to discern a clear trend over the years; however, 2012 stands out as an anomalous year with the highest reported deaths.
+Over the reported period, deaths due to Epidemic Hemorrhagic Fever remained generally low, demonstrating its lower lethality or efficient treatment. An unusual peak occurred in September 2012, with 150 deaths, an anomaly as it sharply diverges from the rest of the data. This could be due to various factors like reporting error, major outbreak, or changes in virus strain and merits further investigation. Beyond this peak, mortality linked to the disease appear to follow the disease trends with elevated death counts reported during peak infection months.

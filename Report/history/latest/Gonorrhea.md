@@ -1,19 +1,18 @@
-
 ## Introduction
 
-Gonorrhea is a sexually transmitted infection (STI) caused by the bacterium Neisseria gonorrhoeae. It affects both men and women, commonly involving the genital tract, rectum, and throat. Infection can result in various symptoms including painful urination and abnormal discharge, although some individuals remain asymptomatic. Untreated gonorrhea can lead to serious complications like pelvic inflammatory disease in women and infertility in both sexes. Gonorrhea is typically diagnosed via bacterial culture or nucleic acid amplification tests and is treatable with antibiotics, though antibiotic-resistant strains are a growing concern globally.
+Gonorrhea, a highly contagious sexually transmitted infection, is caused by the bacterium Neisseria gonorrhoeae. It affects both men and women, primarily impacting mucous membranes of the reproductive tract, including the cervix, uterus, and fallopian tubes in women, and the urethra in both genders. It can also affect the throat, eyes, and rectum. Common symptoms include painful urination and yellow or green discharge. Without treatment, gonorrhea can cause significant complications, including infertility. Prevention is best achieved through safe sexual practices.
 
 ## Highlights
 
-- Gonorrhea cases in mainland China showed substantial fluctuation with a general increasing trend from 2010 to a peak around 2017, followed by a noticeable decline after 2018.<br/>
-- The highest number of cases reported in a single month was 13,803 in August 2017, while the lowest after this peak was 4,762 in January 2023, highlighting a significant reduction in case numbers.<br/>
-- The data indicates sporadic instances of mortality, with the highest reported deaths (4) in January 2020, suggesting fatalities are relatively rare or underreported.<br/>
-- As of October 2023, there are 10,328 reported cases of Gonorrhea with no associated deaths, suggesting continued transmission with potential under-detection or effective management of severe cases.<br/>
+1. Overall, there appears to be a general trend of increasing cases of gonorrhea over the years although there is significant variability within the year.<br/>
+2. Remarkably, despite increases in cases, the death rate associated with gonorrhea is very low, approaching zero.<br/>
+3. There was a drop in the number of Gonorrhea cases in 2020 during the early stages of the COVID-19 pandemic, but the cases rapidly increased afterward.<br/>
+4. As of November 2023, there were 10,065 cases reported with no deaths, indicating ongoing transmission but little severe disease.
 
 ## Analysis
 
 ### Cases Analysis
-Reported cases of gonorrhea in mainland China from January 2010 to October 2023 show substantial variability with noticeable seasonal trends. Annually, the lowest rates typically appeared during the early part of the year, with February often exhibiting the lowest case counts. A general upward trend in cases is evident across the years, peaking in 2017. A significant dip in case numbers occurs in February 2020, likely due to public health measures during the COVID-19 pandemic, but a quick rebound follows. Recent data from 2023 indicates continued transmission, maintaining high case numbers.
+During the 13-year period from 2010 to 2023, the number of gonorrhea cases in Mainland China showed a general trend of annually peaking in summer months, with a notable increase starting from 2016. The lower number of cases reported in February 2020 suggest a possible impact from the COVID-19 pandemic. However, a gradual increase is observed in the second half of the same year. The number of cases showed a decline again from the end of 2022, reaching its lowest in December 2022. The data shows an increase again in August 2023.
 
 ### Deaths Analysis
-Gonorrhea is typically a non-fatal sexually transmitted infection; mortality data between January 2010 and October 2023 reflect this, with the vast majority of months reporting zero deaths. The sparse fatalities reported are isolated incidents, with no discernible trend or seasonal pattern. A notable anomaly is September 2012, with 10 reported deaths, which requires further epidemiological investigation to understand causality. Otherwise, mortality remains exceptionally low, suggesting effective treatment and management protocols for gonorrhea complications in mainland China.
+Death data from gonorrhea over the reviewed period is vastly sporadic with several months reporting no fatalities. The overall mortality rate seems significantly low given the large number of cases, suggesting that gonorrhea is a treatable condition. One noticeable surge in death cases is in September 2012 with 10 deaths reported. The record high fatality was in January 2020 (4 deaths). In recent years from 2018 to 2023, deaths occur with almost no distinct pattern, highlighting the unpredictability of severe outcomes in sexual transmitted infections.

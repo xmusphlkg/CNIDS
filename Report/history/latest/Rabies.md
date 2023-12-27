@@ -1,19 +1,20 @@
-
 ## Introduction
 
-Rabies is a viral zoonotic disease that causes progressive and acute encephalitis. The rabies virus is transmitted through the saliva of infected animals, commonly through bites or scratches. Domestic dogs are the most common reservoir of the virus, although it also circulates among wild mammals like bats, raccoons, skunks, and foxes. Once clinical symptoms appear, rabies is virtually 100% fatal. Fortunately, it can be prevented through vaccination of animals and post-exposure prophylaxis in humans. Worldwide efforts to control rabies primarily focus on vaccinating dogs and providing education on prevention to at-risk communities.
+Rabies is a deadly virus transmitted to humans primarily through the bite of infected animals. It invades the central nervous system, causing disease in the brain and often results in death if left untreated. Rabies can affect all mammals, but is most commonly found in wild animals like bats, raccoons, skunks, and foxes. Efficient post-exposure prophylaxis has made the disease preventable in humans. Worldwide, dogs remain the most significant source of human infection, hence the importance of canine vaccination programs.
+
 
 ## Highlights
 
-- There has been a significant decline in both rabies cases and deaths in mainland China from January 2010 to October 2023, indicating effective disease control and prevention measures. <br/>
-- The peak in rabies cases and deaths observed in the summer months (June-July) of earlier years has subsided, suggesting improved management during historically vulnerable periods. <br/>
-- The years 2011-2012 saw higher numbers with a gradual reduction in subsequent years, with 2023 showing the lowest figures, indicating sustained progress over the last decade. <br/>
-- The fatality rate remains high, as deaths closely follow the trend in cases, emphasizing the continued need for public health interventions, particularly in post-exposure prophylaxis and vaccination campaigns. <br/>
+1. Overall Decreasing Trend: There has been an overall decrease in both rabies cases and deaths from 2010 to November 2023. Highest recorded cases (233) in September & October 2010, with the highest death toll (208) in November 2010, significantly higher compared to 2023 levels.<br/>
+2. Seasonal Fluctuations: Each year sees peaks during summer months (around June - August), indicating possible seasonal factors affecting the spread.<br/>
+3. High Fatality: A notably high death-to-case ratio through the years implies a high fatality rate for rabies in mainland China.<br/>
+4. Current Status: As of November 2023, cases (12) and deaths (14) are both relatively low, continuing the overall downward trajectory.
+
 
 ## Analysis
 
 ### Cases Analysis
-Rabies cases in mainland China, from January 2010 to October 2023, displayed a clear decrement. The initial year saw monthly cases as high as 233, with a significant decrease over time. By 2023, monthly cases were consistently below 20. This reduction could suggest improved vaccination, increased public awareness, and better control of rabid animal populations. Seasonal fluctuations were evident, with summer months often experiencing a rise in cases—potentially linked to increased human-animal interactions.
-
+Over the thirteen-year period (2010-2023), Rabies cases in mainland China indicated an overall downward trend. The average case count was highest in 2010 with numbers declining from 2011 onward. The most considerable drop was seen between 2010 and 2011 with cases decreasing by 40%. The number of cases remained relatively consistent afterwards, trickling downwards until 2022 with a temporary rise in 2013, though none of these periods superseded the 2011 cases. No data was available for January and February of 2013.
+ 
 ### Deaths Analysis
-Deaths due to rabies in China from 2010 to 2023 reflect a similar descending trend as seen with cases. Initially, the months recorded death counts surpassing 100, peaking at 208 in November 2010, which dwindle to single digits by 2023. This trend signifies that the public health response has effectively reduced mortality, likely through post-exposure prophylaxis and education. Nonetheless, the proportion of cases resulting in death remained high throughout, likely indicating underreporting of cases or delays in accessing treatment.
+Similar to cases, Rabies-related deaths also showed a declining trend across the period. Despite the high correspondence life threat of Rabies, the mortality rate generally improved over time with fewer deaths relative to the number of cases each year -- suggesting possible improvements in rapid diagnosis, health service accessibility, or treatment.  A sizable dip in deaths was noticed in September 2012 and needs further investigation. Notably, despite fewer cases in recent years, the death amount saw a relative increase in December 2021 and 2022, warranting further exploration of possible factors.

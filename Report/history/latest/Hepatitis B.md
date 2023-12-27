@@ -1,19 +1,18 @@
-
 ## Introduction
 
-Hepatitis B is a potentially life-threatening liver infection caused by the hepatitis B virus (HBV). It is a major global health problem, leading to chronic infection and increasing the risk of death from cirrhosis and liver cancer. Modes of transmission include mother-to-child transmission during childbirth, through contaminated blood, or via unprotected sexual contact. Symptoms include jaundice, fatigue, abdominal pain, and nausea. While an acute infection may resolve on its own, chronic hepatitis B can be managed with medication. Vaccination provides effective protection against HBV.
+Hepatitis B is a viral infection that attacks the liver, potentially causing both acute and chronic disease. Transmitted via blood, semen, or another body fluid of an infected individual, it poses significant risks such as chronic liver disease, cirrhosis, and liver cancer. Hepatitis B is preventable with a safe and effective vaccine, which has been available since 1982. Despite global vaccination programs, the World Health Organization estimates that 257 million people worldwide live with chronic Hepatitis B infection.
 
 ## Highlights
 
-- Gradual increase in cases: Since 2010, mainland China has seen an increase in monthly Hepatitis B cases, escalating to 129,041 cases reported in October 2023. <br/>
-- Consistent mortality rate: Deaths associated with Hepatitis B have remained relatively stable, with a slight decrease to 32 deaths in October 2023 from higher points in the previous decade. <br/>
-- Peak and low seasons: There appears to be variability across months, with higher numbers of cases often reported in January-March and lower numbers in the latter half of the year. <br/>
-- Recent surge: Recent data indicates a significant rise in cases in 2023, reaching a peak in August with 138,875 cases, suggesting a potential outbreak or enhanced detection efforts. <br/>
+1. Hepatitis B cases in mainland China show a consistent cyclical pattern over the years, with February showing consistently lower case counts and peaks often seen around March and August. <br/>
+2. The number of Hepatitis B cases has risen significantly in recent years, particularly from 2020 to 2023. As of November 2023, the number of cases is the highest recorded at 132,270. <br/>
+3. Despite the increase in the number of cases, the number of deaths remains relatively low and stable, signifying possible improvements in disease management and treatment. <br/>
+4. Particularly in the year 2023, the number of deaths has notably decreased, reaching 35 in November, despite the notable increase in cases. This may indicate better outcomes, suggesting effective interventions or improved healthcare measures.
 
 ## Analysis
 
 ### Cases Analysis
-Hepatitis B case reports from mainland China show consistent fluctuations over the years with peak incidences often occurring in March, which might suggest a seasonal pattern. The years 2012 and 2023 observed higher reported cases with peaks of 124,899 in March 2012 and 138,875 in August 2023, contrasting with a notable trough in December 2022 with just 59,498 cases. The periodic spikes could be attributed to increased testing, transmission during specific months, or data aggregation lag. The data from January and February 2013 is missing, which could impact yearly trends interpretation.
+The Hepatitis B case count in mainland China exhibits a clear cyclical trend over the examined period (2010-2023). The case count tends to peak in the first quarter of each year, specifically around March, implying a seasonal strategy for public health interventions could be beneficial. The lowest case count can be observed in February 2020, likely due to the restrictions induced by the COVID-19 outbreak. Over the long term, the data suggests that the annual cases have been increasing, with the highest number of cases recorded in August 2023.
 
 ### Deaths Analysis
-Mortality from Hepatitis B has been relatively low despite varying case numbers, peaking at 80 deaths in January 2020. Monthly death counts remained below 70 from 2010 to 2023, excluding the spike in 2020, which might require further examination for potential underlying causes. Notably, there was a pronounced decline in mortality over recent years, as evidenced by decreased death counts, reaching as low as 12 in May 2012. 2023 reported an all-time low in February and May, with just 18 and 17 deaths respectively, potentially reflecting improvements in healthcare interventions and disease management.
+Unlike the case count, the reported fatalities do not display a consistent seasonal trend. An overall increase in deaths per month can be observed up until 2020, with a peak of 80 deaths in January 2020. However, from 2021 onwards, despite the rising number of cases, the death rate appears to be decreasing, potentially indicating improved treatment or management of Hepatitis B. Lastly, it's essential to acknowledge, with the virility of Hepatitis B, the death count remains relatively low, indicating successful case management overall.

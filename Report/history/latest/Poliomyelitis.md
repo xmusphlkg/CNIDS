@@ -1,19 +1,18 @@
-
 ## Introduction
 
-Poliomyelitis, commonly known as polio, is a highly infectious viral disease caused by the poliovirus. Primarily affecting children under the age of five, the virus spreads from person to person, predominantly through the fecal-oral route or, less frequently, by a common vehicle (for example, contaminated water or food). Once it enters the body, the virus multiplies in the intestine, from where it can invade the nervous system and cause paralysis. While there is no cure for polio, it can be prevented by immunization with a polio vaccine. Polio cases have diminished significantly due to global vaccination efforts.
+Poliomyelitis, also known as polio, is a highly infectious viral disease that primarily affects young children. The virus, transmitted mainly through the fecal-oral route or contaminated food and water, multiplies in the intestine, from where it can invade the nervous system. While many infected show no symptoms, visible symptoms can include fever, fatigue, headache, vomiting, stiffness in the neck, and limb pain. In severe instances, it may cause irreversible paralysis, typically in the legs. Vaccination is the most effective prevention.
 
 ## Highlights
 
-- No cases or deaths due to Poliomyelitis reported from January 2010 to July 2011, suggesting successful control or elimination efforts. <br/>
-- An outbreak occurred in August 2011, with a total of 20 cases and 1 death reported through December 2011, indicating a temporary lapse in polio-free status. <br/>
-- Subsequent to the 2011 outbreak, no further cases or deaths have been reported from January 2012 to October 2023, demonstrating the effectiveness of response measures and immunization campaigns. <br/>
-- As of October 2023, mainland China appears to have maintained its polio-free status for over a decade, assuming no unreported cases exist, showing a strong public health system and vaccine coverage. <br/>
+1. There has been no recorded case of Poliomyelitis in mainland China since 2011, indicating effective eradication efforts.<br/>
+2. A minor outbreak occurred mid-2011, peaking at eight cases in October with one death reported in September but was promptly controlled.<br/>
+3. No fatality from Poliomyelitis has been reported except for the single mortality during the 2011 outbreak.<br/>
+4. As of November 2023, the disease appears to be entirely absent, which suggests successful vaccination and public health measures.<br/>
 
 ## Analysis
 
 ### Cases Analysis
-From January 2010 to October 2023, mainland China reported poliomyelitis cases only between August 2011 and December 2011, with a total of 20 cases. The outbreak peaked in October with 8 cases. The absence of cases in the remaining years suggests effective polio surveillance and vaccination programs, contributing to the interruption of virus transmission and maintaining polio-free status in subsequent years, as per World Health Organization (WHO) standards.
+The data indicates a remarkable period of Poliomyelitis control in mainland China. For the bulk of the years spanning from 2010 to 2023, there are zero reported cases. However, there is a notable spike in 2011, starting in August with 4 cases, increasing to 8 in October, and calming to 2 in December. After this unusual surge, no further Poliomyelitis cases have been recorded. The instance could reflect an outbreak controlled effectively or perhaps improved reporting. The vast majority of the provided timeline exhibits zero reported cases, suggesting successful Polio management measures.
 
 ### Deaths Analysis
-The reported deaths due to poliomyelitis in mainland China during the same period occurred only in September 2011, with 1 death out of the 6 reported cases. The low mortality rate (5% of the cases that year) and its restriction to a single month indicate rapid containment and response measures were effective. Continuing polio-free, as evidenced by zero reported deaths since then, reflects the strength of China's public health interventions in preventing and controlling vaccine-preventable diseases.
+Death instances due to Poliomyelitis are rare in the provided data. Across the entire timeline of 13 years, only a singular death is reported, in September 2011. This correlates with the unusual surge of cases in the same year. The absence of any other fatalities since then suggests a strong healthcare response, with efficient diagnosis and treatment protocols for reported infection cases. It also indirectly signifies the efficacy of the Polio vaccination programs in preventing the disease's severe consequences.

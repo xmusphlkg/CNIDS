@@ -1,19 +1,18 @@
-
 ## Introduction
 
-Acute hemorrhagic conjunctivitis (AHC) is a highly contagious, viral infection of the conjunctiva characterized by sudden onset of painful, swollen, red eyes, with subconjunctival hemorrhages, and excessive tearing. The condition may also involve blurry vision, sensitivity to light, and the sensation of a foreign body in the eye. Enterovirus 70 and coxsackievirus A24 variant are the primary causative agents. It can affect individuals of all ages and spreads rapidly through direct contact with ocular secretions or contaminated surfaces. Outbreaks are more common in tropical and subtropical regions. There is no specific treatment; management focuses on symptomatic relief.
+Acute Hemorrhagic Conjunctivitis (AHC) is a highly contagious, viral infection of the eye. Notorious for causing outbreaks worldwide, it is often linked to Enterovirus 70 and Coxsackievirus A24 variant. Typically short-lived, AHC manifests with symptoms like sudden onset of eye pain, swelling, redness, and a drastic increase in tear production. In some cases, it can lead to subconjunctival hemorrhage. Although usually self-limiting, it causes significant discomfort and has implications for public health due to its rapid spread.
 
 ## Highlights
 
-- A dramatic spike in acute hemorrhagic conjunctivitis cases occurred in September 2023, with 125,264 reported cases, representing a stark increase from previous months and the highest monthly case count in the dataset. <br/>
-- Despite the significant rise in cases, there have been no reported deaths associated with the disease in October 2023, continuing a trend of low mortality throughout the observed period. <br/>
-- The cases in October 2023 show a decrease to 23,111, suggesting that the peak of the outbreak may have passed or that control measures are taking effect. <br/>
-- Historical data indicate that the disease exhibits seasonality with peaks during the summer months, but the surge in 2023 surpasses seasonal trends and warrants investigations into potential new viral strains or changes in transmission patterns. <br/>
+1. Significant peak in cases: The data shows a substantial peak in Acute hemorrhagic conjunctivitis (AHC) cases in September 2023, with 125,264 reported cases which is an anomaly compared to previous data.<br/>
+2. Seasonal trend: Historically, there's a marked increase in AHC cases during the summer months (from June) and peaks around September, followed by a decrease, which continues through the colder months.<br/>
+3. Low Mortality: Despite the high number of cases, the fatality rate is very low. There are only 3 recorded deaths from 2010 to 2023.<br/>
+4. Overall decrease in cases until the recent increase: Observably, the annual number of AHC cases were in a declining trend from 2010 to 2022, but there's a sudden increase in 2023, which needs further investigation.
 
 ## Analysis
 
 ### Cases Analysis
-Between January 2010 and October 2023, mainland China reported an increasing trend in acute hemorrhagic conjunctivitis cases with seasonal peaks, particularly during late summer and early autumn. The most notable surge occurred in September 2023, with a record 125,264 cases, indicating a significant outbreak. The data shows sporadic fluctuations, but the overall trajectory suggests heightened transmission during warmer months. Prior to the 2023 escalation, there were occasional spikes, including significant increases in September of 2010 and 2014.
+From 2010 to 2023, Acute hemorrhagic conjunctivitis exhibited a seasonal increase from July to October with significant spikes happening on September 2010 and September 2023. The data shows overall upward trends over the years, punctuated by occasional dip in cases mid-year. There are also prominent jumps in September 2010 and September 2023, where the cases surged to 48658 and 125264 respectively - possibly indicative of an outbreak. Apart from these, variations in monthly cases follow a somewhat consistent sinusoidal pattern, with the peaks typically occurring from July to October each year.
 
 ### Deaths Analysis
-Throughout the thirteen-year span, deaths remained exceptionally rare, with only three fatalities reported among tens of thousands of cases, emphasizing the typically non-lethal nature of acute hemorrhagic conjunctivitis. The mortalities were recorded in December 2011, August 2019, and February 2020. Despite the substantial outbreak in case numbers observed in 2023, no deaths were reported. This pattern reflects the disease's relatively low mortality risk despite its capacity for rapid and extensive spread within a population.
+Regarding fatalities, the lethality rate for Acute hemorrhagic conjunctivitis is remarkably low, with only three recorded deaths within the 13 years span. The recorded deaths occurred in December 2011, August 2019, and February 2020, each with a singular death per month, indicating sporadic fatalities unrelated to the number of cases. Generally, this suggests an effective symptom management and healthcare system addressing the disease's severity. However, as minor variations may not be accounted for in data, future health status or co-morbidity in individuals are potential risk factors that need deeper exploration.

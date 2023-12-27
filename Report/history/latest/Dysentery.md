@@ -1,19 +1,19 @@
-
 ## Introduction
 
-Dysentery is an inflammatory disorder of the intestine, particularly of the colon, which results in severe diarrhea containing blood and mucus in the feces. It can be caused by either bacterial pathogens such as Shigella, Campylobacter, or E. coli, or by protozoan parasites like Entamoeba histolytica. The disease is typically spread through contaminated food or water and through person-to-person contact, often in areas with poor sanitation. Symptoms include abdominal pain, fever, and urgent need to defecate. Treatment varies depending on the cause and may include antibiotics or antiparasitic medications, hydration, and rest.
+Dysentery is an infectious disease characterized by inflammation of the intestines, primarily the colon. It results in severe diarrhea containing mucus and/or blood. The two primary types of dysentery are bacillary dysentery, commonly caused by Shigella bacteria, and amoebic dysentery, caused by Entamoeba histolytica, a protozoan. Its transmission is generally through fecal-oral contamination. The illness can be severe, leading to dehydration and, at times, may be life-threatening. Treatment typically includes rehydration and, in some cases, antibiotics or amoebicides.
+
 
 ## Highlights
 
-- Dysentery cases in mainland China have shown a clear decreasing trend over the years, with a peak in 2010 and a significant reduction by October 2023. <br/>
-- Seasonal patterns are evident, with cases typically increasing in the warmer months (May to August) and declining during the cooler months (November to April). <br/>
-- Mortality has remained low with sporadic peaks, such as the unusual spike in September 2012, but deaths have generally been rare in the observed period. <br/>
-- The public health interventions and improvements in sanitary conditions might have contributed to the continuous decrease in both morbidity and mortality associated with dysentery. <br/>
+1. A considerable decline in dysentery cases over years, from 8949 in January 2010 to 1963 in November 2023, demonstrating a positive long-term trend.<br/>
+2. The disease exhibits a consistent seasonal pattern, peaking during the summer months (June to August) each year.<br/>
+3. The number of deaths is notably low compared to the number of cases across each year, reflecting possibly effective treatment processes in place.<br/>
+4. After a substantial increase in 2012, the disease related fatalities remained consistently low, indicating improved health responses to dysentery over time.
 
 ## Analysis
 
 ### Cases Analysis
-The data from 2010 to 2023 reveal a distinct seasonality in dysentery cases across mainland China, peaking during the summer months (June to August) and declining during winter. The highest number of cases recorded in a single month was 41,507 in August 2010, followed by a trend of decreasing annual peaks. A possible anomaly is observed in September 2012 with 23399 cases and an unusually high death toll. The recent years from 2020 to 2023 have shown a reduction in case numbers, potentially indicating improved public health measures, reporting changes, or other socio-environmental factors influencing transmission.
+The reported data on Dysentery cases in mainland China from 2010 to 2023 indicates a significant decline over the years. The highest numbers occurred during the summer months reflecting a seasonal trend, with peaks in August in early years. From 41507 cases in August 2010, it reduced to just 4626 cases in August 2023, representing an approx. 89% decrease. This reflects effective preventive and mitigation strategies, alongside potential changes in climatic conditions or overall improvement of public health infrastructure. 
 
 ### Deaths Analysis
-Over the same period, the number of deaths per month due to dysentery has generally been low, with a notable spike in September 2012 (198 deaths), warranting investigation into specific causes or reporting errors. Excluding this outlier, mortalities have remained in single digits or zero, suggesting a relatively low case-fatality ratio. The trend over the years does not display clear seasonality in deaths, with sporadic occurrences that are not evidently linked to the peaks in cases. This could indicate effective clinical management of cases and/or increased access to medical care and treatment options.
+The death rate associated with Dysentery also decreased significantly in the same period but was relatively low from the beginning. September 2012 was an exception where 198 fatalities were reported, suggesting an outbreak or more severe strain in that period. Regardless, total mortalities usually fluctuated between 0 and 8 annually for most of the period, then reaching a consistent 0-1 per month starting from 2019. This points to enhanced medical interventions as well as effective disease management protocols over time.

@@ -1,19 +1,19 @@
-
 ## Introduction
 
-Malaria is a life-threatening disease caused by parasites that are transmitted to people through the bites of infected female Anopheles mosquitoes. It's a preventable and treatable condition that predominantly affects the poorest regions of the world, with Sub-Saharan Africa bearing the highest burden. The disease manifests with fever, chills, and flu-like symptoms. If not treated promptly with the right antimalarial drugs, malaria can progress to severe illness and often result in death. The global fight against malaria involves vector control strategies, vaccines, antimalarial medications, and measures to prevent mosquito bites.
+Malaria is a life-threatening infectious disease caused by parasites transmitted to humans through the bites of infected female Anopheles mosquitoes. The disease primarily affects tropical and subtropical regions, posing significant health risks globally. Symptoms, appearing 10-15 days after the bite, include fever, headaches, and vomiting. If not treated promptly, malaria can disrupt blood supply to vital organs and lead to death. Fighting malaria requires integrated strategies, including effective treatment, mosquito control, and vaccines. Despite efforts, malaria remains a significant global health issue, with hundreds of thousands of deaths annually.
+
 
 ## Highlights
 
-- Malaria cases have significantly decreased over the 13-year period, from high values around 790 cases in May 2010 to lower figures such as 193 cases in October 2023. <br/>
-- Deaths associated with Malaria have seen an overall decline with occasional spikes, like the 32 deaths in September 2012, contrasting with 1 death in October 2023. <br/>
-- A remarkable reduction in cases was seen starting from the year 2020, which coincides with the period of the COVID-19 pandemic and may reflect the impact of public health measures. <br/>
-- Despite fluctuations, the general trend suggests successful control measures in place, reaching low levels of transmission, as evidenced by the consistent decline in both malaria cases and deaths. <br/>
+1. Overall decreasing trend: Cases and deaths from malaria have decreased significantly from 2010 to 2023, indicating effectiveness of public health interventions.<br/>
+2. Seasonal variation: Higher count of cases typically occur from April to August, aligning with warmer months which favor mosquito breeding.<br/>
+3. Rare spikes in mortality: Notable anomalies exist such as in September 2012 with 32 deaths despite fewer cases, inviting further investigation.<br/>
+4. Recent modest increase: Since the drastic fall of cases in 2020, 2023 has seen a slight increase, yet death rates remain steady, maintaining a positive outlook.
 
 ## Analysis
 
 ### Cases Analysis
-The data for Malaria cases in mainland China from January 2010 to October 2023 indicates a declining trend over the years. Initially high in 2010, with a peak in August (1,094 cases), there has been a noticeable reduction with sporadic increases. Since 2020, reported cases significantly decreased, likely due to intensified control measures and public health interventions. A slight increase is observed in the second half of 2022, picking up again in the summer of 2023, suggesting seasonal variation and possibly reduced control efforts or emerging resistance to intervention strategies. Close monitoring and consistent control measures are crucial.
+Between January 2010 and November 2023, the malaria cases in mainland China showed an overall downward trend. The highest numbers were observed during summer, notably in 2010 and 2013, likely due to an enhanced mosquito activity. From 2020, there was a significant reduction in cases, possibly attributed to improved health infrastructure, vector control strategies and social awareness programs. However, a sudden surge in cases was seen in August 2022, which warrants further investigation to prevent potential outbreaks. Though the incident cases have generally decreased, cyclic pattern of highs during the summers and lows in winters still persists.
 
 ### Deaths Analysis
-The death data associated with Malaria from 2010 to 2023 in mainland China demonstrates a low mortality rate overall. A peak of 32 deaths in September 2012 is an anomaly against an otherwise consistently low death tally. The years following 2012 show a vast improvement with deaths rarely exceeding three per month. This improvement could be attributable to better access to medical care, improved diagnostic practices, and effective treatment regimens. The steady low number of deaths since 2020 could also be linked to diminished transmission rates, possibly bolstered by the pandemic response protocols influencing vector control and healthcare access.
+The mortality figures related to malaria show an overall low rate throughout the period. Despite the peak in cases, deaths did not rise proportionately, indicating effective antimalarial treatment strategies in place. Interestingly, September 2012 registered an unexpected spike in deaths, requiring deeper analysis of that particular timeframe. Regardless, the death count experienced a consistent decrease from 2020 onwards, possibly due to advancements in diagnostic tools, access to quick and effective treatments, and preventive measures. Nevertheless, the recurrence of deaths even in recent years underscores the need for continued surveillance and resilient healthcare practices.

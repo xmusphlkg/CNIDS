@@ -1,23 +1,19 @@
-
 ## Introduction
 
-Japanese encephalitis (JE) is a viral disease transmitted by mosquitoes, primarily Culex species. The virus responsible originates from the Flaviviridae family, which also includes dengue and yellow fever. JE is prevalent in rural and agricultural regions of Asia and the Western Pacific. The disease primarily affects the central nervous system, causing inflammation of the brain. While most infections are mild or asymptomatic, approximately 1 in 250 cases evolves into severe clinical illness. Symptoms include high fever, headache, neck stiffness, disorientation, coma, seizures, and potentially death. Vaccination is the most effective preventive measure against JE.
+Japanese encephalitis (JE) is a significant public health concern in Asia, caused by the Japanese encephalitis virus. Spread primarily through mosquitoes, this disease typically causes mild symptoms, like fever and headache. However, about 1 in 250 infections advances to severe disease, featuring high fever, headache, neck stiffness, disorientation, coma, seizures, spastic paralysis, and ultimately causing death in 20 - 30% of cases. Vaccination serves as a primary preventative measure.
 
 ## Highlights
 
-- Significant seasonal variation is observed, with case spikes typically in July and August, correlating with mosquito activity. <br/>
-- Over the years, there is a notable decrease in cases and deaths, indicative of effective disease control measures. <br/>
-- Despite a general downward trend, occasional surges (e.g., August 2018) imply the need for continued vigilance. <br/>
-- The current situation as of October 2023 shows a reduced number of cases and deaths, suggesting improvements in public health interventions and vaccination. <br/>
+1. Cases of Japanese encephalitis reported in mainland China peak during the summer months (June to September), reflecting the seasonality of the disease driven by mosquito activity.<br/>
+2. There has been a significant decrease in reported cases and deaths since 2010, indicating successful control and prevention measures.<br/>
+3. Despite this overall decline, sporadic outbreaks with high mortality occur, underscoring the need for sustained vigilance.<br/>
+4. As of November 2023, the number of cases and deaths remain relatively low, with 12 cases and 2 deaths reported during the month.
+
 
 ## Analysis
 
 ### Cases Analysis
-The distribution of Japanese encephalitis cases in mainland China from 2010 to 2023 exhibits a clear seasonal trend with a peak during the months of July and August each year, corresponding to the mosquito breeding season. While there is variability in cases year-on-year, there seems to be a gradual decrease from the pronounced peak of 1,301 cases in August 2010. Data from 2023 indicates a continued presence of infection, albeit much lower at 80 cases in August. The seasonality and declining trend suggest effective vector control and vaccination strategies may be at play.
-
-Word Count: 100
+The reported Japanese encephalitis cases reveal a distinct seasonal pattern, peaking each year between June and September. The highest rise is consistently marked in August, implying that risk factors may be heightened during this season. From 2010 to 2023, there appears to be a gradual decline in annual case numbers, suggesting the potential effectiveness of preventive measures. However, minor periodic upsurges indicate the persistent presence of the disease and the need for continued public health vigilance.
 
 ### Deaths Analysis
-The mortality associated with Japanese encephalitis in mainland China also reflects a seasonal pattern, with higher death counts typically in the summer months when case numbers surge. Over the years, the deadliest month was August 2018, with 55 deaths. Although not as dramatic as case numbers, death counts also exhibit a decreasing trend. Moreover, the case fatality rate (CFR) appears to fluctuate, with some years like 2019 showing higher CFR despite lower cases, suggesting variations in either disease reporting, virulence, or access to healthcare.
-
-Word Count: 100
+Mortality due to Japanese encephalitis also shows a seasonal pattern, aligning with the peak incidence period. Notably, the death count does not mirror the declining trend of case numbers. This suggests disease management and clinical outcomes might not have improved significantly parallel to prevention strategies. Particularly alarming is the unexplained spike in April 2019, suggesting amplified lethality or reporting irregularities that warrant further investigation. Overall, continuous disease monitoring and improvement in patient care are essential.

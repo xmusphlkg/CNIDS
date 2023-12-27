@@ -108,6 +108,12 @@ e. `send_mail`: Whether to send email. Default: `True`.
 
 ### China CDC Monthly Report
 
+#### 2023 November
+
+Date: 20231227
+
+Updated: ['2023 November']
+
 #### 2023 October
 
 Date: 20231224

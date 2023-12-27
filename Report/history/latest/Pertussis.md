@@ -1,19 +1,18 @@
-
 ## Introduction
 
-Pertussis, or whooping cough, is a highly contagious respiratory disease caused by the bacterium Bordetella pertussis. It is known for uncontrollable, violent coughing which often makes it hard to breathe. After fits of coughing, someone with pertussis often needs to take deep breaths which result in a "whooping" sound. Pertussis can affect individuals of any age but is most severe for babies. The best prevention measure is vaccination with the DTaP vaccine for children and Tdap booster for older children, adults, and especially pregnant women.
+Pertussis, commonly known as whooping cough, is a highly contagious bacterial infection of the respiratory tract. It's caused by Bordetella pertussis and is characterized by severe coughing spells, often ending in a "whooping" sound during the deep inhales following a coughing fit. While it can affect people of all ages, it's particularly dangerous for infants and the elderly. Immunization through vaccines has significantly reduced its prevalence but outbreaks still occur globally due to incomplete vaccination.
 
 ## Highlights
 
-- Steady increase in pertussis cases observed since 2010, reflecting escalating transmission or improved case detection across mainland China. <br/>
-- Deaths remain infrequent despite rising case numbers, indicating enhanced healthcare response or lower virulence. <br/>
-- Significant surge in cases from July to October 2023 suggests possible outbreak or reporting anomaly, requiring urgent public health investigation. <br/>
-- The persistence of cases despite vaccination efforts points toward gaps in herd immunity or vaccine coverage, warranting review of immunization strategies. <br/>
+1. Increasing Trend: The data for Pertussis shows a progressive increment trend annually in the number of cases from 2010 to 2023, indicative of an escalating burden of the disease despite seasonal fluctuations. <br/>
+2. Seasonal Variation: A substantial seasonal pattern is observed, with the majority of cases typically appearing in the warm summer months followed by a decrease in winter. <br/>
+3. Mortality: Deaths due to Pertussis were relatively rare and sporadic over the period, indicating a low fatality rate for the disease. <br/>
+4. Peak in 2023: Pertussis incidence reached a notable peak in November 2023 with 6410 cases, the highest so far, suggesting a possible ongoing outbreak situation to be monitored.
 
 ## Analysis
 
 ### Cases Analysis
-The pertussis case data from mainland China indicates a notable increasing trend from 2010 to 2023. Beginning with relatively fewer cases (88 in January 2010), there is a rise peaking in August each year, likely due to seasonal influences. The data also divulges a substantial escalation over the years, specifically from 2017 onwards, with a significant surge in 2023, showing the highest reported cases (4793 in August). This upward trajectory might be due to various factors, including improved diagnosis, reporting practices, or diminished vaccine efficacy over time.
+The Pertussis cases in Mainland China show a relatively consistent, upward trend from 2010 to 2023. The yearly caseload appears to peak during the late summer months, specifically around August, reflecting a seasonality in the presentation of Pertussis. However, there was a significant drop in cases recorded for the year 2020, which likely correlates with the global COVID-19 pandemic and subsequently increased personal hygiene and decreased interpersonal contact. A swift recovery was observed in the following years with the caseload reaching its highest ever in November of 2023.
 
 ### Deaths Analysis
-The number of deaths associated with pertussis in mainland China, as per the available data, is relatively low compared to the cases reported. From 2010 to 2023, the total deaths recorded in a month rarely exceeds one, indicating a low case-fatality rate. However, this low mortality could be attributed to effective clinical management and vaccination coverage. It's noteworthy that despite increasing cases, the number of deaths has not shown a parallel rise, suggesting that pertussis, while highly infectious, is being managed in a way that minimizes fatalities.
+Although the number of Pertussis cases has been increasing over the years, the number of resultant deaths has remained remarkably low with a total of 22 deaths from 2010 to 2023. The majority of the months had zero recorded deaths. Notably, there was a death in May 2021, breaking a nearly year-long streak of no deaths. The subsequent months also recorded sporadic fatalities. Despite the rise in caseload, the mortality rate of Pertussis in Mainland China remains undeniably low, suggesting effective management and treatment strategies.

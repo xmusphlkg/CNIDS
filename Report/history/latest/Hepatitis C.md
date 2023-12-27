@@ -1,19 +1,21 @@
-
 ## Introduction
 
-Hepatitis C is a viral infection that primarily affects the liver, leading to inflammation. It is caused by the hepatitis C virus (HCV) and is mostly spread through blood-to-blood contact. The infection can be acute or chronic, with the latter posing a risk for severe liver issues like cirrhosis, liver failure, or liver cancer. Many individuals with hepatitis C may have no symptoms initially, but chronic infection can result in significant health complications over time. Treatments have greatly evolved, with antiviral medications offering a high cure rate for the infection.
+Hepatitis C is a viral infection that primarily attacks the liver, leading to inflammation and impaired liver function. It's caused by the Hepatitis C virus (HCV), which spreads through contaminated blood. Symptoms often remain unnoticed until liver damage occurs. Chronic infection can lead to severe health problems such as liver cirrhosis or liver cancer. Cure is possible with antiviral medications, but no effective vaccine currently exists. Public health efforts primarily focus on harm reduction practices and early detection through screening.
+
 
 ## Highlights
 
-- Gradual increase in Hepatitis C cases observed from 2010 to 2023, emphasizing the need for enhanced public health interventions. <br/>
-- A dramatic surge in mortalities noticed from 2022, escalating in 2023, indicating potential changes in healthcare system efficacy or virus virulence. <br/>
-- Marked peaks in cases often occur in the months of March through July, suggesting possible seasonal patterns in transmission or diagnosis rates. <br/>
-- The October 2023 data shows a substantial mortality rate of about 1.15%, the highest throughout the period, warranting urgent epidemiological assessment and response strategies. <br/>
+1. There's a concerning upward trend in fatalities associated with Hepatitis C as of 2023, reaching a peak of 292 deaths in November. This increase is observed despite overall monthly cases remaining relatively stable. <br/>
+2. The general pattern of new cases varies but shows a modest decline in 2022-23. However, a resurgence in cases occurs on a yearly basis around March. <br/>
+3. A major drop in cases is observed in December 2022, reaching its lowest point since 2010, but the decline didn't translate into a simultaneous drop in fatalities. <br/>
+4. Comparatively, the years leading to 2023 didn't showcase such spike in deaths, indicating a growing severity or possibly issues related to treatment efficacy during 2023. <br/>
+
 
 ## Analysis
 
 ### Cases Analysis
-Over the period 2010 to 2023, the number of reported Hepatitis C cases in mainland China reveals fluctuations with several peaks and troughs. Initially, cases ranged between 9,594 and 15,716 per month. A general uptrend is observed with peaks in March 2017 (24,076 cases) and again in March 2019 (24,053 cases). The year 2020 showed lower reporting, possibly due to confounding factors like the COVID-19 pandemic. Starting 2022, a marked downward trend is evident with December reporting only 11,050 cases, but there is a rebound in early 2023 with cases rising again to 23,214 in August.
+Hepatitis C cases in mainland China fluctuated from 2010 to 2023 with slight annual upward trends followed by decreasing periods. In 2010, the cases ranged from 9,594 to 15,716, and by 2023, the range escalated to 12,785 to 23,625. Noticeably, the highest count occurred in February 2023 with 23,625 cases. Despite fluctuation in monthly case counts, a general upward trend can be discerned over the years, indicating an escalating public health issue. What's concerning is the sudden drop in cases towards the end of 2022 and early 2023, it would be crucial to evaluate if this reflects proper mitigation strategies or underreporting.
 
 ### Deaths Analysis
-The death toll associated with Hepatitis C in the studied timeframe exhibits an alarming exponential increase, especially noteworthy from June 2022 onwards. The data suggest a minor number of deaths per month, averaging below 20 prior to 2022. However, the mortality rate notably escalates in August 2022, reaching 45 deaths, and continues to surge to unprecedented levels, peaking at 224 deaths in October 2023. This trend hints at significant changes in either the virulence of the virus, access to effective healthcare, reporting practices, or other external health factors not represented in the data.
+From 2010 to 2022, Hepatitis C deaths remained relatively low, with a range from 1 to 21 per month. The data exhibited a pattern of small fluctuations without a clear increasing or decreasing trend. However, starting in mid-2022, there was a distinct rise in death counts, culminating in a peak of 292 in November 2023 — a dramatic increase compared to previous counts. This drastic change in fatality suggests a considerable evolution in the virus's impact, increased virulence, or possibly indicates a failure in healthcare provision that needs immediate attention.
+
