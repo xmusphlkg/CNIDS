@@ -1,19 +1,16 @@
 ## Introduction
 
-Plague is an infectious disease caused by the bacterium Yersinia pestis. It primarily affects rodents and is transmitted to humans through fleabites from infected fleas, or contact with contaminated fluid or tissue from a dead host. Notoriously known for causing the "Black Death" in the Middle Ages, it frequently occurs in three forms: bubonic, septicemic, and pneumonic. Early detection and antibiotic treatment are crucial to reduce the risk of severe complications or death.
-
-
+Plague is a severe, often fatal bacterial infection caused by Yersinia pestis, primarily transmitted through flea bites and contact with infected animals. Historically responsible for outbreaks like the Black Death, it predominantly affects rodents, but can jump to humans. Symptoms typically include fever, weakness, and swollen lymph nodes (buboes). There are three forms: bubonic, septicemic, and pneumonic, each related to the infection's location in the body. Though significantly less common today, plague cases do occur, generally in rural and semi-rural regions. Prompt treatment with antibiotics can prevent complications and death.
 ## Highlights
 
-1. Plague cases in mainland China have remained consistently low since 2010, with occasional spikes <br/>
-2. The death rate stayed generally proportional to the case rate, implying potentially effective disease management <br/>
-3. August and September appear to be critical months with slightly higher incidence, indicating potential seasonal trends <br/>
-4. The single case in November 2023 implies ongoing vigilance in monitoring and managing the disease despite the low overall prevalence.<br/>
-
+1. Plague incidence in mainland China is generally very low, with sporadic cases reported mostly in summer and autumn.<br/>
+2. A relative increase in cases and mortality has been observed in August 2023, hinting at a possible emerging outbreak.<br/>
+3. Year 2019 recorded a higher incidence with 4 cases in November, but there were no reported deaths.<br/>
+4. Overall, mortality seems to be diminishing over time, suggesting improvements in response capacity and health infrastructure.<br/>
 ## Analysis
 
 ### Cases Analysis
-Plague incidences in mainland China from 2010 to 2023 represent sporadic occurrences, with the total case count remaining low and occurrences being rather irregular. There appears to be no clear seasonal trends in the pattern of plague cases. There is an observed increase in incidence in 2019, with the highest number of 4 cases happening in November. However, the numbers remain too low to confirm any significant changes in plague epidemiology in China.
+The sporadic pattern of Plague cases across mainland China indicates its relative containment across the observed years. The disease recurs annually, typically registering single-digit cases, predominantly in the warmer periods. The largest reported surge occurred in 2023 August (4 cases), perhaps reflective of rare environmental or sociobehavioral factors.
 
 ### Deaths Analysis
-The plague-associated mortality in mainland China during the specified period is also low, mirroring the sporadic nature of the cases. It appears there is a somewhat consistent case fatality rate, given the parallel occurrences of deaths and cases, such as in September 2012, July 2014, and August 2020. Unexpectedly, a death was reported in January 2020 without new cases being recorded, implying a case from the previous month with a delayed fatal outcome. This highlights the need for prompt and effective treatment.
+The death data correlates with the case data, further emphasizing the sporadic and generally controlled nature of Plague in mainland China. Deaths occur predominantly within the same months as case surges. The case-fatality rate seems significant, as evidenced in years 2010 (1/2), 2012 (1/1), 2014 (3/3), 2017 (1/1), 2019 (1/5), 2020 (3/4) and 2023 (1/5), indicating an urgent need to strengthen clinical handling and disease response strategies.

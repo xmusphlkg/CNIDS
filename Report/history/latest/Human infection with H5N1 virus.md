@@ -1,19 +1,16 @@
 ## Introduction
 
-H5N1 is a highly pathogenic avian influenza (HPAI) virus. It's largely a bird-adapted strain, originally transmitted from wild birds to poultry. Human infection with H5N1 is rare but concerning due to roughly 60% mortality rate. Necessary exposure typically arises from close contact with infected birds. In humans, the virus targets the respiratory system causing severe respiratory illnesses, like pneumonia. While not readily transmissible among humans, H5N1 has pandemic potential if it gains human-to-human transmission capability.
-
-
+H5N1 is a subtype of the influenza A virus, known to cause severe illnesses in humans. It first infected humans in 1997 in Hong Kong and has since spread across Asia and globally causing significant mortality. The primary mode of human infection is through direct or indirect contact with infected poultry or surfaces contaminated with secretions/excretions from infected birds. Though it primarily affects birds, it can jump species, sparking concern over potential pandemics due to the virus's ability to mutate. As such, H5N1 is considered a significant pandemic threat.
 ## Highlights
 
-- The H5N1 virus human infection cases in mainland China are extremely sporadic and low in frequency, with 12 recorded cases between 2010 and 2023.<br/>
-- A peak in incidents can be observed in 2015, with six cases and four fatalities being reported. Since then, reported cases have dwindled.<br/>
-- The case fatality rate, although varying due to the small number of cases, has remained high, typically around 50%, indicating high virulence of the H5N1 strain in humans.<br/>
-- Importantly, the years 2017 to 2021 recorded no cases, demonstrating effective control measures during this period. However, minor resurgences are witnessed in 2022 and 2023, demanding renewed vigilance.
-
+1. The H5N1 virus displays sporadic trends of infection and associated deaths in mainland China, indicative of isolated outbreak events. <br/>
+2. Case occurrence and death ratio are remarkably low, with only a few cases recorded and most years experiencing no cases nor deaths at all.<br/>
+3. A significant increase in infections is noticeable in 2015, although with limited associated mortality.<br/>
+4. Despite minor upticks in several years, no sustained increase in infection has been observed, and the situation is currently under control as of November 2023. <br/>
 ## Analysis
 
 ### Cases Analysis
-Over the 13-year period from 2010 to 2023, human H5N1 cases in mainland China were sporadic and relatively low, with only 13 reported cases. H5N1 human cases often presented themselves in isolated incidents with a notable increase in 2015, where 7 cases were recorded, the largest within this timeframe. Cases mostly occurred during the colder months of January and February, both seeing 4 separate incidents over the period. No consistent annual or seasonal trends could be observed in the dataset.
+The table details human infection cases due to the H5N1 virus in mainland China from January 2010 to November 2023. The data exhibits sporadic outbreaks rather than a consistent trend. The largest number of cases is reported in March 2015, with 3 cases. The disease's episodic nature, interspersed with lengthy periods of zero reported cases, hints towards sporadic outbreaks perhaps in tandem with certain conditions or seasonal variations. Moreover, the high case fatality rate is also apparent, often pairing cases with deaths.
 
 ### Deaths Analysis
-During the period 2010 to 2023, there were a total of 8 deaths associated with the H5N1 virus in mainland China. Reflecting the case data, the highest death count also occurred in 2015, with 4 recorded fatalities. Despite the high fatality rate in this year, zero mortalities were reported in 2014, 2016, and after 2018, indicating a sporadic mortality pattern. Notably, all recorded death incidents coincided with reported H5N1 cases, suggesting a potential direct casualty link. Death during periods without reported cases suggests a potential undercount of milder, non-fatal infections.
+Across the time span, there are intervals with notable death occurrences due to H5N1, reflecting high mortality rates. Deaths often occur in months with reported cases, implying a high case fatality rate. Specifically, the highest death count recorded in a single month is 1, occurring in various disparate months. Noticeably, there were singular instances in May 2015 where a death occurred with no newly reported cases, indicating a delayed mortality from existing cases. No discernible temporal trend for deaths emerges, alike the disease cases, suggesting sporadic rather than seasonal occurrence.

@@ -1,19 +1,17 @@
 ## Introduction
 
-Neonatal tetanus is a severe bacterial disease affecting newborns commonly acquired through unsterilized or unconventional birthing practices. It's caused by a powerful neurotoxin produced by the Clostridium tetani bacteria when spores enter the body through a wound, often the umbilical stump of newborns. The disease is preventable with adequate hygiene during delivery and immunization of pregnant women. Despite available preventive measures, neonatal tetanus still contributes significantly to global infant mortality, especially in developing regions.
-
-
+Neonatal tetanus is a severe bacterial infection affecting newborns, predominantly in areas with limited healthcare resources. It's caused by the bacterium Clostridium tetani, primarily introduced through non-sterile delivery and umbilical cord care practices. In untreated cases, the toxins produced by the bacteria lead to severe, life-threatening muscular rigidity and spasms. Neonatal tetanus is highly preventable through maternal immunization, hygienic birth practices, and proper cord care.
 ## Highlights
 
-- There has been a significant decline in cases of Neonatal tetanus and related deaths in mainland China over the last decade, indicating effective interventions. <br/>
-- The disease incidents show a seasonality pattern, with a slight increase in cases often observed in the middle of the year. However, this pattern seems to be diminishing in recent years. <br/>
-- The data does not report any Neonatal tetanus-related deaths since August 2022, which reflects improved disease handling. <br/>
-- As of November 2023, Neonatal tetanus continues to be maintained at a very low level, with 1 case and no reported deaths, pointing towards successful disease control measures.
-
+1. A significant decrease in both neonatal tetanus cases and deaths was observed from 2010-2023 in mainland China.<br/>
+2. From 89 cases in January 2010 to just 1 case in November 2023, this showcases successful public health interventions.<br/>
+3. Deaths due to neonatal tetanus also fell drastically, indicating improved clinical treatment and early disease management.<br/>
+4. Despite low cases, continuous vigilance, vaccination, and prompt treatment remain crucial to maintain these results.<br/>
 ## Analysis
 
 ### Cases Analysis
-Over the period from 2010 to 2023, a broad decline in the number of Neonatal Tetanus cases in mainland China can be observed. The data displays a trend of diminishing cases with 120 cases in September and October 2010 being the peak. Gradual reduction is noticeable year on year with the exception of occasional minor spikes. From 2020 onwards, the number stays below 10 each month, reflecting the effectiveness of health measures and awareness campaigns potentially. As of 2023, regular monthly cases appear to maintain a low single-digit figure.
+From 2010 to 2023, mainland China witnessed a noticeable decrease in Neonatal tetanus cases. A high of 120 cases in September and October of 2010 gradually fell to single-digit figures by 2023, suggesting effective control strategies. However, the trend highlights fluctuations, with certain periods of significant reductions, such as from 2010 to 2011 and then another steep drop after 2016, implying the influence of potential drivers like widespread immunization or health campaigns.
 
 ### Deaths Analysis
-Concurrent with the decrease in cases, the fatalities related to Neonatal Tetanus also register a significant decline over the same period. The highest death toll is twelve in February 2010. Death counts show a general downward trend with sporadic increases. Remarkably, from November 2016, occurrences of death related to the disease drop to zero or near-zero numbers monthly, indicating successful medical interventions and improved neonatal care. This positive trend sustains throughout recent years up until 2023, suggesting a strong grip over the neonatal tetanus mortality rate in the country.
+The number of deaths due to Neonatal tetanus also showed a significant decline over time. While deaths were relatively consistent in the initial years, with a peak of 12 in February 2010, no fatalities were reported from 2017 onwards, hinting at improved medical treatment methods and effective interventions. Nonetheless, isolated instances of deaths reappeared in latter years, signalling the need for sustained attention despite lower incidences.
+

@@ -1,21 +1,16 @@
 ## Introduction
 
-Rubella, also known as German Measles, is a contagious viral disease. It is often mild in children, but can have severe consequences in adults, particularly for pregnant women, as it may cause serious birth defects, including heart problems, loss of hearing and eyesight, or mental disabilities. Spread through coughs and sneezes, symptoms include a red rash, fever, and swollen glands. Rubella is preventable with the MMR (measles-mumps-rubella) vaccine, reinforcing the importance of vaccinations in public health.
-
+Rubella, also known as German Measles, is a contagious disease caused by the Rubella virus. It often causes mild symptoms such as fever, sore throat, and a characteristic red rash. While generally mild in children, Rubella can cause severe complications in pregnant women, potentially leading to birth defects or miscarriage. Vaccination is the primary preventive measure. The disease transmission primarily occurs through direct contact with the respiratory secretions of an infected individual.
 ## Highlights
 
-1. There has been a sustained decrease in Rubella cases in mainland China over the long term, from a high in 2011 (approximately 18,445 per month), down to low hundreds in 2023. <br/>
-2. Seasonality is observed in the data, with cases generally peaking between March and May each year. This corresponds to the typical epidemiology of Rubella, which often exhibits springtime peaks in temperate climates. <br/>
-3. The fatality associated with the disease remained very low, with only a handful of deaths reported across the entire study period. <br/>
-4. As of November 2023, the situation appears stable, with 89 cases of Rubella reported and no deaths. This indicates effective disease control policies are in place. <br/>
-
+1. Significant overall decrease in cases: Cases of Rubella in mainland China saw a substantial decrease over the years from a peak of over 18,000 in May 2011, dropping to fewer than 100 by November 2023. <br/>
+2. Seasonal trend remains evident: Despite the overall decrease, there appears to be a seasonal trend with case numbers typically peaking around April to June each year. <br/>
+3. Almost nonexistent fatality: Rubella fatality remained virtually nonexistent, with just four recorded deaths over the 13-year period. <br/>
+4. Continued vigilance suggested: As of November 2023, despite a massive reduction, the persistent low-level case numbers imply a need for continued surveillance and prevention measures. <br/>
 ## Analysis
 
 ### Cases Analysis
-
-The Rubella cases in mainland China exhibit a seasonal pattern, peaking around April-May for most years (2010: 13,026; 2011: 18,445; 2012: 10,125; 2019: 9,095). The number of cases began decreasing gradually after 2011 until 2018, when spikes were seen in April (472 cases) and December (786 cases). Such fluctuations may reflect varying efficiency of controlled measures and vaccination rates. However, after 2019, the case number remained relatively low, reflecting effective interventions or possibly shifts in disease surveillance.
+Rubella cases in mainland China show a consistent seasonal cycle from 2010 to 2023, with a peak in the spring months (April-May) and a downward trend through the autumn and winter months. Positively, the overall incidence trend of Rubella decreases, from reaching tens of thousands in 2010 and 2011, for instance, to low hundreds by 2023. From 2016, there is a significant decrease in the number of reported Rubella cases, suggesting that the situation has been steadily improving due to likely advancements in prevention, awareness, and healthcare practices.
 
 ### Deaths Analysis
-
-Overall, Rubella's mortality rate appears to be low in this region, with few reported deaths (7) between 2010-2022. The single death occurrences in May 2010, April 2011, July 2011, November 2012, March 2015, June 2019, and March 2022 are sporadic and suggest proper medical care or effective vaccination efforts to inhibit severe conditions. Nonetheless, each of these instances needs a thorough investigation to ensure strategies designed to maintain this low mortality rate are effective and continuous.
-
+Mortality analysis shows a very low fatality rate throughout the years with only eight fatalities reported between 2010 and 2023. The sporadic deaths do not show a clear pattern or happen during peak infection periods, suggesting that fatalities may be incident-specific rather than a systemic issue. These statistics suggest that the health system has been successful in handling the disease, though continuous monitoring and vaccine deployment should be maintained for Rubella given its potential severe complications in pregnant women.

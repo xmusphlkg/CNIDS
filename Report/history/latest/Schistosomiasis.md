@@ -1,20 +1,17 @@
 ## Introduction
 
-Schistosomiasis, also known as bilharzia or "snail fever," is a parasitic disease caused by blood fluke parasites of the genus Schistosoma. People contract it from freshwater bodies contaminated with infected snails. Globally, over 200 million people are estimated to be at risk, with the disease prevalent in tropical and subtropical regions. The disease manifests as an acute or chronic infection, presenting symptoms such as abdominal pain, diarrhea, blood in stool or urine, and can lead to organ damage if untreated.
-
-
+Schistosomiasis, also termed "snail fever," is a disease caused by parasitic flatworms of the Schistosoma species. Transmitted to humans through water contaminated with larvae, these parasites invade the circulatory system, potentially leading to liver, kidney, and bladder damage or, in severe cases, death. With effective treatment available, this aility primarily plagues impoverished communities lacking clean water and sanitation. The World Health Organization estimates 200 million people are infected, primarily in Africa, making it the second most common parasitic disease after malaria.
 ## Highlights
 
-1. Substantial Decrease in Cases: There has been a dramatic decrease in Schistosomiasis cases in mainland China from thousands per month in 2015, to a consistent single digit counts since 2020.<br/>
-2. Notable Outbreaks: Prominent outbreaks were observed in 2015 with peak cases reaching over 10,000 in November. After 2015, similar outbreaks diminished both in frequency and magnitude.<br/>
-3. Low Case Fatality Rate: Mortality due to Schistosomiasis has been extremely low throughout the analysed period, with only a handful of deaths reported in total.<br/>
-4. Current Situation: As of November 2023, Schistosomiasis remains controlled, with just 3 cases and no deaths reported, a clear manifestation of successful disease control policies.Phase.<br/>
-
+1. Significant Decrease in Cases: From 2010-2023, there has been a considerable reduction in Schistosomiasis cases, peaking in 2015 with 10481 cases in November then decreasing to just 3 cases by November 2023.<br/>
+2. Mortality rate remains minimal: Throughout the covered period, there was a relatively low mortality rate, with only a few reported deaths.<br/>
+3. Seasonal Trend: There's a tendency for cases to spike mid-year (June and July) and near the end of each year (October and November), indicating potential seasonality.<br/>
+4. Increased Efforts in Disease Control: The drastic reduction suggests the implementation of effective disease control strategies post-2015.
 
 ## Analysis
 
 ### Cases Analysis
-The reported data for Schistosomiasis in mainland China from 2010 to 2023 shows a fluctuating but overall diminishing trend in the numbers of cases. Significant peaks of cases were observed in November 2015 and October 2016, relating to nearly 10,000 and around 2,000 cases respectively. From 2017 onwards, the number of reported cases drastically reduced, indicating a significant improvement in scoliosis control and prevention efforts. By late 2021, the number of reported cases steadily averaged into single digits. However, a minor increase is noted in May 2022 but has since receded.
+The data suggests a declining trend in schistosomiasis cases in mainland China over the past decade. Particularly notable is the dramatic decrease from 2015 onwards, the year with the highest reported cases (10481 in November), leading to much lower averages in subsequent years. Despite occasional spikes, predominantly observed in autumn months, data in later years show an average monthly figure often below 20. Overall, this indicates a significant improvement in the control of schistosomiasis, possibly due to enhanced disease surveillance, increased public awareness, and preventative health measures.
 
 ### Deaths Analysis
-Contrary to the cases reported, the numbers of deaths due to Schistosomiasis over the same period is scarce, peaking at merely 3 cases in June 2012. Deaths remain relatively sporadic and rare across the entire period, with numerous months reporting zero deaths. This might suggest an overall effective medical response in managing the condition, given the high case count relative to the significantly lower death rates. This is compounded by the fact that from 2014 until 2023, death occurrence due to Schistosomiasis has been virtually non-existent in mainland China.
+The death reports are reassuringly low throughout the years with only seven recorded fatalities from 2011 to 2023. There are two registered deaths in 2011 and one each in 2012, 2013, 2016, 2020, and none recorded in other years. This data suggests a successful medical intervention and effective case management of schistosomiasis. The low death rate might be attributed to a combination of improved medical treatment, swift diagnosis, and a robust public health infrastructure capable of containing the disease's severity.

@@ -1,18 +1,16 @@
 ## Introduction
 
-Gonorrhea, a highly contagious sexually transmitted infection, is caused by the bacterium Neisseria gonorrhoeae. It affects both men and women, primarily impacting mucous membranes of the reproductive tract, including the cervix, uterus, and fallopian tubes in women, and the urethra in both genders. It can also affect the throat, eyes, and rectum. Common symptoms include painful urination and yellow or green discharge. Without treatment, gonorrhea can cause significant complications, including infertility. Prevention is best achieved through safe sexual practices.
-
+Gonorrhea is a sexually transmitted infection (STI) caused by the bacterium Neisseria gonorrhoeae. The disease can infect both men and women, impacting mucous membranes such as the throat, genitals or rectum. Symptoms may include painful urination, discharge, or the absence of symptoms altogether. Transmission occurs primarily through sexual contact. If untreated, it can lead to severe health complications, including infertility. Worldwide, over 87 million new cases are estimated each year.
 ## Highlights
 
-1. Overall, there appears to be a general trend of increasing cases of gonorrhea over the years although there is significant variability within the year.<br/>
-2. Remarkably, despite increases in cases, the death rate associated with gonorrhea is very low, approaching zero.<br/>
-3. There was a drop in the number of Gonorrhea cases in 2020 during the early stages of the COVID-19 pandemic, but the cases rapidly increased afterward.<br/>
-4. As of November 2023, there were 10,065 cases reported with no deaths, indicating ongoing transmission but little severe disease.
-
+1. Throughout the years, there is a consistent rise in the number of Gonorrhea cases with some fluctuations. From 8865 cases in January 2010 to an overall increase reaching 10065 cases in November 2023, depicting a slow upward trend over 13 years. <br/>
+2. Deaths related to Gonorrhea are relatively low and sporadic over the years and no consistent pattern can be observed. Notably, the record number of deaths was four in January 2020, otherwise the number usually did not exceed one. <br/>
+3. There is a significant drop in cases in the early part of 2020, potentially linked with the COVID-19 pandemic and subsequent restriction measures leading to a decrease interaction and transmission opportunities. <br/>
+4. After the dip in 2020, there's an increase trend resuming until November 2023, although not reaching the pre-pandemic peaks. Future monitoring will determine if this trend continues. <br/>
 ## Analysis
 
 ### Cases Analysis
-During the 13-year period from 2010 to 2023, the number of gonorrhea cases in Mainland China showed a general trend of annually peaking in summer months, with a notable increase starting from 2016. The lower number of cases reported in February 2020 suggest a possible impact from the COVID-19 pandemic. However, a gradual increase is observed in the second half of the same year. The number of cases showed a decline again from the end of 2022, reaching its lowest in December 2022. The data shows an increase again in August 2023.
+The cases of Gonorrhea in mainland China demonstrate a noticeable fluctuating pattern over the years, with the counts experiencing seasonal variations. The months with typically higher case counts are June to August. Moreover, there is a discernible downward trend in cases in early 2020, likely associated with enhanced preventive measures during the initial stages of the COVID-19 pandemic. Overall, a general trend from 2010 to 2023 illustrates an increase in reported cases, indicating a possible rise in transmission or improvements in detection and reporting over time.
 
 ### Deaths Analysis
-Death data from gonorrhea over the reviewed period is vastly sporadic with several months reporting no fatalities. The overall mortality rate seems significantly low given the large number of cases, suggesting that gonorrhea is a treatable condition. One noticeable surge in death cases is in September 2012 with 10 deaths reported. The record high fatality was in January 2020 (4 deaths). In recent years from 2018 to 2023, deaths occur with almost no distinct pattern, highlighting the unpredictability of severe outcomes in sexual transmitted infections.
+Despite the fluctuating case count, deaths due to Gonorrhea remain consistently low, with many months recording no fatalities. However, notable exceptions appear in September 2012, January 2023, and a few isolated instances throughout the period. These fatalities might be linked to underlying health complications or limited access to health services during those months. It's plausible that the introduction of more effective treatments and prevention strategies over the years has helped in keeping the death count low.

@@ -1,19 +1,17 @@
 ## Introduction
 
-Kala azar, also known as visceral leishmaniasis, is a parasitic disease transmitted through the bites of infected sandflies. It typically manifests with irregular bouts of fever, significant weight loss, swelling of the spleen and liver, and anemia. If left untreated, it can lead to severe complications, impairing critical organs and potentially causing death. It's prevalent in tropical and subtropical regions, particularly poorest areas and marginalized communities. It's estimated that 50,000 to 90,000 new cases occur worldwide each year.
-
+Kala azar, also known as visceral leishmaniasis, is a severe parasitic disease caused by the Leishmania donovani complex, transmitted through the bite of certain types of sandflies. Approximately 50,000 to 90,000 new cases occur worldwide yearly. If left untreated, the fatality rate can be as high as 100% within two years. It prominently occurs in tropical and subtropical regions, with notable prevalence in India, Bangladesh, Sudan, South Sudan, and Brazil. Symptoms often include fever, weight loss, fatigue, anemia, and enlargement of the spleen and liver.
 
 ## Highlights
 
-1. Overall case decline: The total cases of Kala azar in mainland China exhibited a generalized downward trend from 2010 to 2023, from a peak of 53 cases in January 2010 to a lower count of 19 cases in November 2023. <br/>
-2. Seasonal pattern: Disease incidence typically peaked in the spring (March to May) and ebbed in the late summer and winter months, suggesting a possible seasonal pattern. <br/>
-3. Mortality rate: The mortality rate remained generally low over the years, however, a small upward trend was noted in 2023 with several months reporting one death. <br/>
-4. Recent stabilization: Since 2022, there appears to be a stabilization of new cases counting between 9 and 37 cases each month, with a slight uptick in deaths.
-
+1. General downward trend in Kala azar cases: Over the past decade, mainland China has experienced a general decrease in case numbers, reflecting an improvement in disease control. <br/>
+2. Seasonality evident: An increased number of cases are identified from October to January, suggesting a seasonal trend. <br/>
+3. Low mortality rate: Despite the annual case fluctuations, the fatality rate remains extremely low, indicating effective case management and treatment strategies. <br/>
+4. Higher number of deaths in 2023: Compared to recent years, 2023 has seen increased deaths despite fewer cases, a concern for the healthcare sector.
 ## Analysis
 
 ### Cases Analysis
-Cases of Kala Azar in mainland China were highest from late 2010 to early 2011, and thereafter exhibited a cyclical pattern with a gradual decline overall until late 2015, where an abrupt surge was experienced. The subsequent years (2016-2021) were marked by a sustained reduction in cases with intermittent fluctuations. In 2022, cases briefly increased, but ultimately began decreasing again. Through 2023, case numbers slightly rose but remained relatively stable. Major factors contributing to the distribution trend could be seasonal changes in vector populations and public health efforts to control the disease.
+Between 2010 and 2023, Kala azar cases in mainland China showed a fluctuating pattern with no clear trend of consistent increase or decrease. Peaks were observed in late 2010, 2011, 2014, 2015, and a slight increase in 2023. The highest number of reported cases was in November 2015, with 123 new diagnoses. Notably, there were dips (lower number of reported cases) during the 2011-2013 period and a gradual peak reduction in 2015, stabilized afterward around 20-30 cases monthly.
 
 ### Deaths Analysis
-Kala Azar-related deaths in mainland China were reasonably low given the total case count. The deaths occurred sporadically throughout the observed period, with no discernible pattern, and the fatality rate remained exceedingly low compared to the incidence rate. The reasons behind the low fatality could be early detection and appropriate treatment of the disease due to effective surveillance systems or overall disease awareness. The data shows that there is no direct correlation between the number of cases reported each month/year and the death toll due to the disease in mainland China.
+The reported data suggests a low mortality rate for Kala azar within the observed timeframe. Over the 13 years, only nine deaths were reported, occurring sporadically rather than showing a pattern. In the entire timeline, no single month recorded more than one death, highlighting the non-lethal nature of Kala azar when appropriately treated. There was, however, a slight increase in death occurrences towards 2023 which might need to be investigated further for possible causative factors.

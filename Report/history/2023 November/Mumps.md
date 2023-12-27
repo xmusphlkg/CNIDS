@@ -1,19 +1,17 @@
 ## Introduction
 
-Mumps is a viral infection, primarily affecting salivary glands, transmitted through respiratory droplets or direct contact with an infected person. Notorious for its characteristic symptom of painful, swollen cheeks and jaw, mumps often occurs in children and young adults. Although most people recover within a couple of weeks, complications can include inflammation of the testicles, ovaries, breasts, and/or brain. Vaccination, specifically the MMR vaccine, is the most effective prevention strategy.
+Mumps is a contagious viral disease characterized by fever, headaches, muscle aches, fatigue, and swelling of the salivary glands, notably the parotid glands. It primarily affects unvaccinated individuals and can spread through respiratory droplets or direct contact. Mumps was common globally until the MMR (measles, mumps, and rubella) vaccine greatly reduced its prevalence. In rare cases, serious complications such as meningitis, encephalitis, and deafness can occur. Vaccination is the most effective preventive measure against mumps.
 
 ## Highlights
 
-1. A significant decrease in mumps cases has been observed in mainland China, from peak monthly cases of around 70,000 in 2012 to around 10,000 in 2023. <br/>
-2. There is a seasonal trend whereby cases rise in early summer (May-June) and decrease towards the end of the year. <br/>
-3. Mumps' mortality is minimal, with an annual number of deaths frequently equating to single digits, implying a well-managed situation. <br/>
-4. Recent data (2023) suggests a stabilized situation with monthly cases fluctuating around 7,000 - 11,000 and no reported deaths.
-
-
+1. Drastic Drop in Cases: Since the peak in 2012, Mumps cases have seen a steady decline, most notably after 2019. The drop from 27,704 cases in November 2019 to 7642 in November 2023 represents a substantial decrease over time. <br/>
+2. Low Fatality: Across the years, Mumps has a low fatality rate with only sporadic death events, demonstrating the typically non-lethal nature of the disease. <br/>
+3. Seasonal Trends: There is a clear cyclical annual pattern with cases typically showing a peak during May-June and again lower numbers in the latter part of the year, indicating a strong seasonal influence on the disease occurrence. <br/>
+4. Rapid decrease in 2020: Cases plummeted drastically from January 2020 onwards, potentially reflecting the impact of the COVID-19 pandemic, changes in reporting, or other unknown factors.
 ## Analysis
 
 ### Cases Analysis
-The Mumps case data for mainland China over the last 14 years demonstrates a distinctive seasonal pattern. The number of cases typically rebounds in spring and reaches its peak in summer, followed by a downward trend in autumn. After a trough in the winter, the cycle repeats. The highest recorded case count was seen in June 2012 at 71,606, which contrasts sharply with the low in February 2020 of 6,028 - likely due to the COVID-19 pandemic containment measures. Despite yearly fluctuations, there is a general downward trend in case numbers witnessed from 2010 to 2023.
+The overall trend of mumps cases in mainland China is mixed, with clear cyclical patterns and spikes, mostly recurring around May to June each year. The highest reported number of cases was in 2012 with a peak of 71,606 cases in June, which suggests a seasonal pattern. It's also of note that there's a gradual reduction in the reported cases from 2010, possibly due to effective vaccination programs or herd immunity - with slight exceptions in 2018 and 2019. The trend further decreases in the most recent years, possibly also impacted by coronavirus pandemic measures restraining the mumps spread.
 
 ### Deaths Analysis
-The majority of the months had zero recorded deaths from Mumps, suggesting that the disease—while widespread—is generally not lethal, likely due to comprehensive childhood immunization programs. However, interestingly, the death count reached an all-year high of 4 deaths in January 2020, a date which coincides with the initial stages of the COVID-19 outbreak in China. Toward the tail end of the data sequence, we see a return to consistency with no recorded deaths from 2021 onwards. This underlines the exceptionally controlled nature of the Mumps disease in terms of mortality.
+Analysis of the death data shows that fatalities due to mumps in mainland China are extremely rare despite the high incidence of cases. With only occasional occurrences, the total recorded number of deaths throughout these years remain exceedingly low with the highest in January 2020 (4 deaths). This rare mortality indicates effective clinical management of the disease and potentially high vaccination coverage. The absence of deaths in many months, even with high case count, points to the generally non-lethal nature of mumps and effective public health measures.

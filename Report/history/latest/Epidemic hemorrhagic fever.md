@@ -1,19 +1,19 @@
 ## Introduction
 
-Epidemic Hemorrhagic Fever, also known as Hantavirus, is a severe infectious disease characterized by fever, fatigue, and hemorrhagic symptoms. It is primarily transmitted through rodent vectors, carried by their droppings, urine, or saliva. Humans can contract the illness through inhaling aerosolized particles contaminated by the virus. Potential complications include cardiovascular and renal damage which can result in severe patient outcomes. Early diagnosis and supportive care are vital in managing this zoonotic infection.
-
-
+Epidemic Hemorrhagic Fever (EHF) is an infectious disease typically caused by hantaviruses and transmitted through rodent carriers. It is characterized by fluctuating fever, nausea, body pain, and, in severe cases, bleeding disorders and organ dysfunction. EHF presents worldwide but displays high incidence in Eastern Asia. Its transmission primarily occurs via inhalation of aerosolized rodent excreta. Despite its overall low mortality rate, prompt diagnosis and supportive care are essential to manage complications. Effective rodent control remains the paramount preventive measure.
 ## Highlights
 
-1. **Seasonal Trend:** The data consistently indicates a peak of cases in the autumn and winter months, with November typically the high point.<br/>
-2. **Overall Case Decline:** There has been a general decrease in Epidemic hemorrhagic fever cases since 2010, with a significant drop over the last three years.<br/>
-3. **Low Mortality:** Despite variations in case numbers, mortality related to the disease appears to be relatively low.<br/>
-4. **Current Situation:** As of November 2023, case numbers are below historical highs but suggest an upward trend from previous months, a pattern consistent with the seasonal trend.<br/>
+1. A seasonal pattern is apparent with peak cases typically observed in November and lowest in August.<br/>
+2. Case counts have declined since 2010 with a significant drop from 2022 to 2023.<br/>
+3. Mortality rates vary, but there has been a notable decrease over time.<br/>
+4. As of November 2023, the number of cases is 1320 with 3 deaths, continuing the overall decreasing trend.
 
 ## Analysis
 
 ### Cases Analysis
-The reported cases of Epidemic hemorrhagic fever in mainland China show clear seasonality, with annual peaks usually observed from November to January. The maximum number of cases was most significantly observed in November 2012 with 3000 cases. The reported cases started declining from the year 2015 onward, especially from April to November, suggesting effective preventive measures or changes in disease transmission dynamics. However, a notable influx of cases is still seen in the winter months, underlining the requirement for continuous vigilance and control efforts.
+Epidemic hemorrhagic fever in mainland China revealed a consistent pattern over the years. A cyclical trend was observed with peak occurrence during colder months (Oct-Nov-Dec) with November being the highest. This may suggest a link with climatic and seasonal factors for disease transmission. It's worth noting that the lowest number of cases occurred predominantly in the warmer months and the number declined significantly after 2021. This could be due to escalated public health measures, weather conditions or changes in the infecting agent itself.
+(109 words)
 
 ### Deaths Analysis
-Over the reported period, deaths due to Epidemic Hemorrhagic Fever remained generally low, demonstrating its lower lethality or efficient treatment. An unusual peak occurred in September 2012, with 150 deaths, an anomaly as it sharply diverges from the rest of the data. This could be due to various factors like reporting error, major outbreak, or changes in virus strain and merits further investigation. Beyond this peak, mortality linked to the disease appear to follow the disease trends with elevated death counts reported during peak infection months.
+Evidence clearly indicates a strong correlation between cases and deaths. The data reveals a similar seasonal pattern in fatalities, which are also highest in the colder months (Nov-Dec-Jan). A significant anomaly was observed in September 2012 with a substantial increase in deaths, possibly linked to a virulent strain or a breakdown in healthcare provision. Post 2021, the death toll substantially went down, which could be due to improved treatment, diagnosis and intervention strategies. However, the case fatality rate appears to have remained relatively stable during these years.
+(109 words)

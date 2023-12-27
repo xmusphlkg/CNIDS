@@ -1,19 +1,18 @@
 ## Introduction
 
-Other hepatitis refers to liver inflammation not caused by the common types A, B, C, D, or E viruses. It's relatively less studied compared to viral hepatitis, due to its diverse causes, which may include autoimmune diseases, genetic disorders, alcohol or drug misuse, or toxins. Symptoms generally mirror those of viral hepatitis, with jaundice, fatigue, and abdominal pain being frequent. It's crucial to identify the specific cause for an accurate diagnosis and treatment plan.
-
+Other hepatitis refers to a group of infectious diseases affected by viruses, typically hepatitis A, B, C, D, and E. These viruses cause inflammation in the liver, impairing its function, and present symptoms such as jaundice, abdominal pain, and fatigue. While hepatitis A and E are generally spread through contaminated food or water, hepatitis B, C, and D are primarily transmitted through infected blood and bodily fluids. Chronic hepatitis can lead to serious health conditions such as liver cirrhosis or cancer. Vaccinations are available for certain types of hepatitis.
 
 ## Highlights
 
-1. There has been a consistent decline in Other hepatitis virus cases from 3723 in January 2010 to 601 in November 2023.<br/>
-2. The trend reveals decreased virulence and better public health infrastructure over the last decade.<br/>
-3. The mortality rate, low from the get-go, has decreased further hinting at improved healthcare and treatment efficacy. In November 2023, there were no deaths.<br/>
-4. Despite seasonal fluctuations, the general trend supports the assertion of successful public health interventions against Other hepatitis in China.<br/>
+- There is a significant downward trend in reported hepatitis cases from 2010 (avg ~4,350 cases/month) to 2023 (avg ~601 cases/month). The decline is consistent over these years, suggesting effective control measures. <br/>
+- There's a yearly cyclical pattern in the reported cases with relative highs observed in the early part of the year (March-May) and lows towards year-end (November-February). <br/>
+- The fatality rate from hepatitis over this period appears to be extremely low, reinforcing the assertion that effective management of the disease is in place.
+- Despite the overall decrease, a slight uptick of cases was observed from January to August 2023, warranting close tracking. <br/>
 
 ## Analysis
 
 ### Cases Analysis
-The data reveals a clear trend: the number of hepatitis cases in mainland China has consistently decreased from 2010 to 2023. The highest reported count was in March 2011, with 5010 cases, and a noticeable reduction occurred with the lowest count of 347 cases in December 2022. This trend could be attributed to increased access to vaccines, better healthcare infrastructure, or improved public health awareness. The high counts in March each year may also signify a cyclical pattern in incidence, potentially linked to societal factors.
+In mainland China, the confirmed cases of Other hepatitis have revealed a consistent downward trend from 2010 to 2023. The initial reported cases were in the high neighborliness of approximately 4000 per month, with a discernible spike every March. Gradually, the numbers dwindled, most noticeably starting from 2016 onwards, with current reports showing figures lingering around the 600-700 cases per month bracket. The consistent reduction may intimate successful public health initiatives, better sanitary measures, or enhanced vaccination efforts. 
 
 ### Deaths Analysis
-While the death rate due to hepatitis throughout the years remained relatively low compared to the number of reported cases, it shows no clear continuous decreasing trend like the cases. Instead, it exhibits a mixed pattern with occasional spikes, such as six recorded deaths in December 2012. Zero mortality was first achieved in December 2010 and then recurred more often in recent years, suggesting improvements in early detection, access to healthcare, and better treatment options. The relatively stable, low death rate could indicate effective disease management in place.
+The deaths from Other hepatitis remained significantly low throughout, with monthly tallies rarely exceeding 5 deaths, while numerous instances recorded zero fatalities. Generally, the death toll is uniformly low, comparatively irrespective of the incidence rates, indicating efficient patient care and potential advances in medical treatment procedures. Nevertheless, sporadic increments coincide with slightly elevated case figures, primarily in the earlier years of this period. Recently, month-on-month, there seems to be a significant decline - signifying further improvements in controlling the severity and managing the disease.

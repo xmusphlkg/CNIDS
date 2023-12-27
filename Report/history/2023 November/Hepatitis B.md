@@ -1,18 +1,17 @@
 ## Introduction
 
-Hepatitis B is a viral infection that attacks the liver, potentially causing both acute and chronic disease. Transmitted via blood, semen, or another body fluid of an infected individual, it poses significant risks such as chronic liver disease, cirrhosis, and liver cancer. Hepatitis B is preventable with a safe and effective vaccine, which has been available since 1982. Despite global vaccination programs, the World Health Organization estimates that 257 million people worldwide live with chronic Hepatitis B infection.
-
+Hepatitis B is a viral infection that aggressively targets the liver and can lead to chronic disease, liver cancer or death. The virus can be transmitted through contact with infected blood or other bodily fluids. While vaccines are available and offer over 90% protection, hepatitis B remains a global health threat particularly in regions that lack widespread immunization. It's critical to educate oneself about prevention measures including vaccination, safe sex practices, and avoiding non-sterile medical equipment.
 ## Highlights
 
-1. Hepatitis B cases in mainland China show a consistent cyclical pattern over the years, with February showing consistently lower case counts and peaks often seen around March and August. <br/>
-2. The number of Hepatitis B cases has risen significantly in recent years, particularly from 2020 to 2023. As of November 2023, the number of cases is the highest recorded at 132,270. <br/>
-3. Despite the increase in the number of cases, the number of deaths remains relatively low and stable, signifying possible improvements in disease management and treatment. <br/>
-4. Particularly in the year 2023, the number of deaths has notably decreased, reaching 35 in November, despite the notable increase in cases. This may indicate better outcomes, suggesting effective interventions or improved healthcare measures.
-
+1. Hepatitis B cases rose from 2010 to 2023, with a particularly sharp increase observed from 2022 to 2023. November 2023 exhibited the highest case rate in the dataset.<br/>
+2. There is a significant reduction in deaths, suggesting improvements in healthcare or interventions. <br/>
+3. Notably, there's a predictable annual dip in reported cases and deaths during the winter months (December-February).<br/>
+4. Despite the nursing efforts, the disease continued to spread at an escalating rate, emphasizing the need for enhanced preventive measures.<br/>
 ## Analysis
 
 ### Cases Analysis
-The Hepatitis B case count in mainland China exhibits a clear cyclical trend over the examined period (2010-2023). The case count tends to peak in the first quarter of each year, specifically around March, implying a seasonal strategy for public health interventions could be beneficial. The lowest case count can be observed in February 2020, likely due to the restrictions induced by the COVID-19 outbreak. Over the long term, the data suggests that the annual cases have been increasing, with the highest number of cases recorded in August 2023.
+Hepatitis B cases reported in Mainland China for the 2010-2023 period maintain a cyclical pattern with peaks showing in March and troughs in February. This repetitive pattern also seems to intensify gradually over the years; for instance, cases spiked from about 117k in March 2010 to about 127k in March 2023. The lowest count was in February 2020 (51k), arguably due to reduced diagnosis during the early stages of the COVID-19 pandemic. Overall, despite minor fluctuations, the accumulated case numbers deem Hepatitis B a significant concern in the region.
 
 ### Deaths Analysis
-Unlike the case count, the reported fatalities do not display a consistent seasonal trend. An overall increase in deaths per month can be observed up until 2020, with a peak of 80 deaths in January 2020. However, from 2021 onwards, despite the rising number of cases, the death rate appears to be decreasing, potentially indicating improved treatment or management of Hepatitis B. Lastly, it's essential to acknowledge, with the virility of Hepatitis B, the death count remains relatively low, indicating successful case management overall.
+Fatalities associated with Hepatitis B over these years demonstrate a comparatively stable trajectory, with minor monthly fluctuations ranging between averagely 17 and 80. Although progressing steadily over the period, the mortality rate appeared moderately low, indirectly reflecting the efficiency of healthcare interventions. A sharp peak to 80 deaths was observed in January 2020, presumably due to complications with the surging Covid-19 pandemic. Aside from that, the deaths seemed to be on a downward trend, emphasizing the growing control over Hepatitis B's severe consequences in mainland China.
+

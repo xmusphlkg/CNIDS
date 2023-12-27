@@ -1,18 +1,18 @@
 ## Introduction
 
-Typhoid and paratyphoid fevers are systemic infections primarily caused by Salmonella Typhi and Paratyphi, respectively. Both are transmitted through contaminated food or water and are characterized by fever, headache, nausea, and loss of appetite. Although symptoms are often similar, paratyphoid fever is usually milder than typhoid fever. Without prompt treatment, these diseases can lead to serious complications, making prevention through hygiene and safe food practices critical worldwide.
+Typhoid and paratyphoid fevers are bacterial infections resulting from Salmonella typhi and Salmonella paratyphi, respectively. Both diseases often manifest similar symptoms, including prolonged fever, malaise, and gastrointestinal complications. Primarily spread via contaminated food or water, these infections are common in areas with poor sanitation. Vaccination is available for typhoid, but is not completely effective, and no vaccine currently exists for paratyphoid. Antibiotics are essential for treatment, but the rise of drug-resistant strains remains a global concern. 
 
 ## Highlights
 
-1. Cases of Typhoid and Paratyphoid fever in mainland China have generally shown a downward trend from 2010 to November 2023, with highest case numbers commonly occurring in summer months.<br/>
-2. Despite fluctuations, a significant reduction in case numbers is observed from an average of 1200 cases per month in 2010 to around 500 cases per month in 2023.<br/>
-3. Mortality remains relatively low regardless of case numbers, emphasizing the overall effective management of these diseases.<br/>
-4. The current situation (as of Nov 2023) is controlled, with 377 cases and no deaths, part of the continued downward trend in cases.
+1. Over the decade from 2010-2020, there is an observable decrease in reportable cases of Typhoid and Paratyphoid fevers, suggesting successful control and prevention measures in Mainland China. <br/>
+2. Despite the overall trend, seasonal increases in infections are consistent, with cases peaking during summer months (June - August) each year, demonstrating a potential environmental or lifestyle component influencing transmission.<br/>
+3. The fatality rate remains relatively low throughout the years, and there is no evident trend towards increasing deaths despite occasional jumps, implying effective disease management.<br/>
+4. As of November 2023, the number of cases has been lowered to 377 with zero deaths, continuing the general diminishing trend established over past years.<br/>
 
 ## Analysis
 
 ### Cases Analysis
-An appraisal of Typhoid and Paratyphoid fever cases in mainland China reveals a predictable trend. Typically, reported cases dropped to the lowest during the winter months and gradually increased to peak in summer, denoting seasonality. However, an overall trend shows a decline in the total case counts from 2010, with a peak of 1867 cases in August, to 480 cases in 2023 October. This sustained decrease over the 13 year period could indicate successful implementation of prevention measures, public health interventions, as well as improved water source and sanitation. (110 words)
+The data from 2010 to 2023 shows a seasonal trend in the number of Typhoid and paratyphoid fever cases in mainland China. Every year, cases tend to rise around April or May, peak during the summer months (June to August), then gradually decrease during autumn and winter. Considering the entire observed period, there is a subtle perceptible decrease in recorded cases, indicating potential improvements in sanitary conditions, immunization coverage, contamination control, healthcare provision, or public health awareness.
 
 ### Deaths Analysis
-Notably, deaths from Typhoid and Paratyphoid are distinctly low, with several months reporting zero fatalities. The highest number of deaths in a single month (3) occurred only once in 2017 June. Despite the relatively high number of cases, the low fatality rate suggests an effective healthcare system capable of managing these diseases. However, death occurrences are seemingly sporadic without an identifiable pattern. This can be indicative of localized outbreaks or the variable progression of these diseases among the population. Nonetheless, consistent control measures paired with efficient healthcare delivery continue to keep fatality rates low. (106 words)
+Deaths from Typhoid and paratyphoid fever in mainland China are notably low during the entire period. These minimal numbers, when compared to the total case count, reflect high survival rates, indicating the effectiveness of the medical interventions that are available in the region or a general decrease in the virulence of the pathogen. However, the sporadic nature of deaths throughout the years suggests that risk factors are still present, which could include conditions affecting patients' immunity or variations in the virulence of the disease-causing organisms.

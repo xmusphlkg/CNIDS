@@ -1,19 +1,17 @@
 ## Introduction
 
-Cholera is an acute diarrheal illness caused by the bacterium Vibrio cholerae. It can occur in outbreaks and is most common in places with poor sanitation, crowded conditions, and lack of access to clean water. Transmission occurs primarily through consumption of contaminated water or food. Often mild or without symptoms, severe cases show rapid onset of profuse, watery diarrhea which can lead to severe dehydration and death if untreated. Prevention involves improved sanitation, safe drinking water, and vaccines.
+Cholera is an acute, diarrheal illness caused by infection of the intestine with the bacteria Vibrio cholerae. An individual can get cholera by drinking water or eating food contaminated with the Vibrio cholerae bacteria. The disease is characterized by rapid dehydration due to severe diarrhea and vomiting. Without immediate treatment, cholera can be fatal within hours. Vaccinations and safe water and food practices play crucial roles in cholera prevention and control.
 
 ## Highlights
 
-1. Seasonal increase: The data demonstrates a general trend of an increase in cholera cases during the summer months, particularly in August. <br/>
-2. Annual decline: While few peaks are evident (such as in August 2010 and August 2018), overall, the reported cases have shown an overall slow decline from 2010 to 2023. <br/>
-3. Low fatality rate: The fatality rate is extremely low. Only two deaths were reported in 2013, while all other instances reported no fatalities. <br/>
-4. No new cases in winters: Particularly between November to April, almost no new cases are reported, signifying a seasonal impact on disease incidence. <br/>
-
-
+1. Overall decrease in Cholera cases: The data shows a significant overall decrease in cholera cases in mainland China over the years. This is positive and suggests successful management and control measures. <br/>
+2. Seasonal variations observed: There are evident seasonality patterns, with more cases reported during the warmer months of May to October, hinting at possible environmental factors contributing to transmission. <br/>
+3. Few fatalities: The number of deaths is extremely low compared to the total cases, pointing to effective medical treatments for affected patients. <br/>
+4. A recent downtrend: Zero cases are reported for November 2023, following a slight increase in cases from May 2023, this could signal a decrease in the upcoming months, though continuous surveillance is advised. <br/>
 ## Analysis
 
 ### Cases Analysis
-The data shows a variable but generally low number of reported cholera cases in mainland China from 2010-2023. The trend appears seasonal, with case numbers often peaking during the summer months and dropping to zero during winter. Case numbers peaked noticeably in August 2010 with 63 cases. Although fluctuations are observed over the years, no consistent increase or decrease pattern is noticeable. It is crucial to assess these patterns in relation to changes in surveillance, diagnostic capacities, and healthcare access, which could influence the number of reported cases.
+Observing the cholera cases in mainland China from 2010 to 2023, a noticeable seasonal pattern emerges. The majority of cases tend to occur during the warmer months from May to September. Cases are consistently low, often reaching zero, during the colder months from November to April. A peak was recorded in August 2010 with 63 cases, but the numbers remained relatively low in the subsequent years. Recent years show a mild increase in cases during the summer months, which requires continuous monitoring and preventive efforts.
 
 ### Deaths Analysis
-The mortality related to cholera in mainland China over this period is minimal, with only two recorded deaths in July and September of 2013. This suggests that the cholera disease burden is low, possibly due to efficient disease control measures, medical treatment, or underreporting of deaths. The low mortality rate could also indicate cholera typically manifesting in a less severe form in this population, though further data would be needed for such assertions. Despite the low mortality, continuous monitoring and prevention efforts remain essential, given cholera's potential for rapid spread and severe impact.
+Cholera, although a serious infectious disease, shows a low death rate from 2010 to 2023 in mainland China. Only two deaths occurred in the entire period, both in 2013, making the case-fatality rate extremely low. This low mortality rate suggests effective treatment and healthcare responses to cholera outbreaks. Considering cholera's potential for fast spread and high death rates in vulnerable populations, this highlights the success of integrated disease surveillance, immediate case reporting, and rapid case management.

@@ -1,22 +1,17 @@
 ## Introduction
 
-Syphilis is a sexually transmitted bacterial infection caused by Treponema pallidum. It escalates through four stages: primary, secondary, latent, and tertiary if untreated. Early symptoms include sores and rashes, progressing to severe health problems affecting the heart, brain, and other organs in later stages. It's primarily spread through sexual contact but can also be transmitted from a pregnant woman to her fetus, known as congenital syphilis. Per the CDC, syphilis can be effectively treated with antibiotics, but damage from later stages may be irreversible.
-
+Syphilis is a sexually transmitted bacterial infection caused by Treponema pallidum. Initial symptoms include small, painless sores or a rash, often unnoticed due to their locations. As the disease progresses, it can cause complications like organ damage or neurological issues. It's often divided into stages: primary, secondary, latent, and tertiary, each with different symptoms. Early stages are highly contagious, but it is curable with prompt antibiotic treatment. Transmission primarily occurs through sexual contact, but can also be passed from mother to child during pregnancy.
 ## Highlights
 
-1. The data shows a general upward trend in reported Syphilis cases over time, with some seasonal fluctuation (spring-summer usually sees increases). As of November 2023, monthly reported cases are at a peak compared to preceding years. <br/>
-2. Deaths due to Syphilis remain remarkably low relative to the number of cases, indicating potentially effective treatment and management of the disease despite the increasing case counts. <br/>
-3. There was a marked drop in cases during February 2020, potentially due to reduced sexual activity or changes in reporting due to the COVID-19 pandemic. <br/>
-4. Highest recorded monthly cases are in August 2023, reaching 61068 cases, but with only 3 recorded deaths. <br/>
-
+- Syphilis cases in mainland China have been rising overall from 2010 to 2023, with fluctuations. The case count reached its peak in November 2023 with a record 57,719 new cases. <br/>
+- Despite the increase in cases, the death count has remained relatively low and steady, ranging from 0 to 25 per month over the 13-year period. This could be the result of improved disease management and treatment. <br/>
+- Cases appear to peak annually during the summer months of June-August, suggesting seasonality in syphilis transmission. <br/>
+- Comparing the start and end data points (January 2010 to November 2023), there is more than a double increase in the case count, signifying a high disease burden.
 
 ## Analysis
 
 ### Cases Analysis
-
-Analyzing the cases of syphilis reported in mainland China between January 2010 and November 2023, one can observe a general trend of increasing case reports over the years. To be precise, in 2010, the number of cases in January was 25577 which modestly increased to 32905 by December. This upward trend seems to accelerate over the years, hitting a peak at 61068 cases reported in August 2023. Apart from the overall increasing trend, it's also worth noting that there's a seasonal pattern: case numbers tend to peak during the middle of the year before decreasing towards year end.
+The available data for Syphilis cases in mainland China suggests an overall upward trend, with a peak in August 2023 at 61,068 cases. The lowest recorded cases occurred in February 2010 and December 2022 at 19,724 and 24,367 cases respectively. A pattern emerges, where an escalation in cases typically begins in February, reaching its peak around mid-year, and then declines towards the year-end. However, the data also shows occasional fluctuations, indicating potential variations due to certain environmental or behavioral factors.
 
 ### Deaths Analysis
-
-The reported death counts due to syphilis in mainland China from 2010 to 2023 do not show a clear pattern or trend over the years. The numbers fluctuate, but stay within a low range relative to the number of cases recorded per month - typically between 1 to 25 deaths. Despite the increase in case numbers over the years, the number of deaths does not follow the same pattern, possibly indicating successful treatment and management strategies keeping fatality rates low. In January 2020, the highest number of deaths is seen at 25. However, this phenomenon isn't persistent and the deaths return to the regular counts in the subsequent months.
-
+With respect to death rate, the data depicts a relatively low mortality rate over the years, with a maximum of 25 deaths in January 2020. The lowest recorded value was none in May 2022. There doesn't seem to be a clear pattern or seasonality in the death counts. This could signify effective treatment measures or possibly underreporting of mortality figures. The peak value in 2020 could point towards possible stressors like the COVID-19 pandemic impacting existing healthcare services. Overall, the consistently low death count suggests a successful management of severe cases in mainland China.

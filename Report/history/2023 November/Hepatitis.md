@@ -1,19 +1,18 @@
 ## Introduction
 
-Hepatitis is a medical condition characterized by the inflammation of the liver, mainly caused by viral infections. The five major types are Hepatitis A, B, C, D, and E, each caused by a different virus. Hepatitis can manifest as either acute, with quick onset and potential recovery, or chronic, lasting many years and leading to serious health problems such as cirrhosis and liver cancer. Vaccinations are available for some types. Non-viral causes include alcohol abuse, certain medications, and autoimmune diseases.
-
-
+Hepatitis is a broad term referring to inflammation of the liver, primarily caused by viral infections. The most common types are Hepatitis A, B, C, D, and E. While Hepatitis A and E are typically caused by ingestion of contaminated food or water, Hepatitis B, C, and D usually occur due to parenteral contact with infected bodily fluids or from mother to child at birth. Symptoms include fatigue, yellow discoloration of the skin (jaundice), abdominal pain, and loss of appetite. Untreated or chronic hepatitis can lead to cirrhosis, liver failure, or liver cancer.
 ## Highlights
 
-1. Sustained Epidemic: Despite fluctuations, a consistent level of Hepatitis cases is observed throughout these years in Mainland China, indicating the presence of a sustained epidemic. <br/>
-2. Rising Mortality: The mortality rate significantly escalated in 2023, with November reporting the highest number of deaths so far (327), indicating a worsening situation. <br/>
-3. Short-Term Spikes: Notable short-term spikes occurred in the number of cases, such as February and August 2023, requiring immediate attention and targeted interventions. <br/>
-4. 2022 Decline: Interestingly, a considerable decline was observed in December 2022, however, case counts rose again in 2023.
+1. The number of Hepatitis cases in November 2023 experienced a significant spike, with 156977 cases observed, following a steady increase during the year. <br/>
+2. Despite the general rise in cases, there was a concerning, notable increase in the number of deaths from Hepatitis in 2023, reaching a record high of 327 in November.<br/>
+3. Overall, there's a concerning trend of increasing deaths in 2023 compared to previous years, indicating a possible emergence of a more lethal strain, failure in preventive measures, or an increase in disease severity. <br/>
+4. Downward trends in case numbers were occasionally observed, such as in December 2022, suggesting seasonal influences or successful intervention points that could be further investigated. <br/>
 
 ## Analysis
 
 ### Cases Analysis
-The hepatitis data spanning from 2010 to 2023 for mainland China reveals a relatively stable trend in the number of reported cases. There are typically around 100,000 to 150,000 cases each month. However, distinct rises and falls are observed around specific months, particularly peaks in March and a slight dip in February, hinting at possible seasonal patterns. More pronounced year-to-year trends are subtle due to closely packed data points, yet a mild decrease in case numbers is evident from 2010 to 2015, contrasted by subsequent relatively stable years with a surge in 2023 that implies a possible health crisis.
+Data on Hepatitis cases in mainland China spanning from 2010 to 2023 indicate some trends. Yearly case rates fluctuated between 100,000 to 170,000, indicating a long-term endemic, with highest peaks occurring predominantly in spring and summer months (March to October). This could be accredited to vital seasonality factors impacting viral transmission mode. Noticeably, there seemed to be a significant rise in recorded cases from late 2022, peaking in August 2023. This surge suggests a possible outbreak or an advancement in Hepatitis diagnostics within the country for this period.
 
 ### Deaths Analysis
-The reported death counts associated with Hepatitis in mainland China are overall relatively low compared to the case counts, indicating effective treatment or mild disease forms. The death counts demonstrate little variation from 2010 to 2022, averaging around 50-80 deaths per month. Intriguingly, in 2023, there is a sharp upsurge in deaths, with counts escalating into the hundreds, climaxing at 327 deaths in November. This rise suggests a grave change in disease severity, healthcare system gaps, or reporting practices that deserve urgent public health attention, considering the previous stability of fatality figures.
+The trend in Hepatitis-related deaths in China over this period is fairly stable, usually standing below 100 per month, till early 2023. This suggests effective control and/or treatment measures were implemented. However, an alarming escalation in death count is observed from April 2023, reaching its highest point in November. This dramatic increase might indicate a change in the disease's severity, a strain evolution, or compromised medical infrastructure perhaps due to an overwhelming number of cases or other concurrent crises.
+

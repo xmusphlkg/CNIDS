@@ -1,19 +1,17 @@
 ## Introduction
 
-Measles is a highly contagious infectious disease caused by the measles virus. It's transmitted through respiratory droplets and can survive in the air for up to two hours. Symptoms typically include high fever, cough, runny nose, and inflamed eyes, followed by a distinctive red rash spreading over the body. Severe complications can occur, particularly in malnourished children and people with reduced immunity. Vaccination is the most effective prevention method, specifically the measles-mumps-rubella (MMR) vaccine. Globally, measles remains a leading cause of vaccine-preventable deaths in children.
-
+Measles is a highly contagious viral disease prevalent worldwide, primarily affecting children. Highly transmissible through respiratory droplets, it manifests as a rash, fever, and flu-like symptoms. Despite being preventable with a safe and cost-effective vaccine, measles remains a significant cause of death among young children globally. Long-term complications can include pneumonia, encephalitis, and subacute sclerosing panencephalitis (SSPE), a rare but fatal degenerative disease of the central nervous system.
 ## Highlights
 
-1. From 2010 to 2023, a general decline in measles cases has been observed in mainland China. Annual peaks, usually seen around spring, have also declined over time. <br/>
-2. Despite fluctuations in the count of cases, measles-associated deaths have remained extremely low, often recording zero for most months. <br/>
-3. Interestingly, the measles cases have been consistently low (below 200) each month since 2020, suggesting successful implementation of measles prevention strategies. <br/>
-4. As of November 2023, the measles situation is well controlled with only 78 cases and no deaths reported in this month.
-
+1. Measles case counts in China show a declining trend from 2010 to 2023 with peak seasons generally during the spring months (March-April-May) each year. <br/>
+2. There has been a substantial decrease in monthly measles cases from a peak of approximately 13318 in May 2010 to around 78 in November 2023. <br/>
+3. The number of deaths has significantly reduced over time, with no recorded deaths since 2017, demonstrating improvements in health interventions and disease management. <br/>
+4. The year 2020 marks the lowest annual measles cases recorded with a continued downward trend into 2023, presenting a positive outlook in the control and possible elimination efforts.
 
 ## Analysis
 
 ### Cases Analysis
-From 2010 to 2023, the annual measles incidence in mainland China showed a generally declining trend. Initially, cases peaked between April to June, hitting a remarkable high in May 2010 with 13,318 cases. This could be attributed to seasonal variation in measles transmission. Sharp decreases were observed, reaching their lowest in recent years in January 2023 with merely 18 cases. The significant decrease post-2014 could be due to improved vaccination rates and efforts to control the spread of the disease.
+The data from 2010 to 2023 presents a trend in the reported cases of measles in mainland China. There was a sharp increase in measles cases between 2010 and 2015. The highest numbers of cases were reported annually between March and May. After 2015, a notable decrease in the number of cases began, with 2015 being the peak year of measles cases. Post-2015, the annual case numbers saw a continuous decline, concluding at relatively lower numbers in the most recent years, marking a successful control and measures towards measles. 
 
 ### Deaths Analysis
-Although measles cases were high, the death toll in the given period remains relatively low, somewhat maintaining an inconsistent trend. Deaths peaked at 12 in May 2010, coinciding with the highest number of measles cases. Thereafter, the fatality rates experienced a gradual decrease, resulting in zero fatalities from January 2018 onwards. The low mortality rate could be attributed to better disease management, prompt case detection, isolation, and improved health care.
+Unlike the case numbers, the death numbers remained consistently low throughout the period from 2010 to 2023, indicating effective healthcare. The highest death toll was recorded in May 2010 with 12 deaths. The reported deaths decreased significantly after 2015, reflecting an improved response to measles infections. From 2018 onwards, no death was reported, suggesting the successful application of preventive and therapeutic measures against measles. Specifically, this can be attributed to efficient immunization programs, improved patient care, and effective early detection practices.

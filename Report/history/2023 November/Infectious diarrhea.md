@@ -1,18 +1,16 @@
 ## Introduction
 
-Infectious diarrhea is a widespread health concern, primarily caused by bacteria, viruses, or parasites. These pathogens can spread through contaminated water, food, or contact with an infected person. Common symptoms include frequent, loose or watery stools, abdominal cramps, nausea, and loss of fluids leading to dehydration. Critical epidemiological control measures include hygiene, sanitation, and surveillance. With varied severity, durations, and complications, it demands immediate medical attention for proper diagnosis and treatment.
-
+Infectious diarrhea, primarily caused by bacteria, viruses, or parasites, is a common health concern globally. The primary symptoms include loose or liquid stools, abdominal pain, and fever. Contamination often occurs through consuming unclean water or food, coming into direct contact with a person carrying the infection, or an unhygienic environment. Serious cases may lead to severe dehydration. While it affects people of all ages, it is particularly concerning in children and elderly due to their lower immunity and higher risk of complications.
 ## Highlights
 
-1. Healthy Progress: There has been a general reduction in the number of cases from 2010 to 2023, signalling an effective disease control strategy in place.<br/>
-2. Seasonal Trend: A clear annual pattern can be observed with peaks typically in July-June and troughs in winter months, likely due to the seasonality of the infectious agents.<br/>
-3. Decreasing Deaths: Overall, death count has thankfully remained low and more recently in 2023, no infectious diarrhea-related deaths have been reported.<br/>
-4. Short-Term Uptick: Despite this, an uptick in cases was noted in November 2023, which may need closer monitoring for potential outbreak control.
-
+1. Case Peak in Warmer Months: Infectious diarrhea cases typically peak in the warmer months (late spring, summer, and early autumn), reflecting a strong seasonality effect. <br/>
+2. Decline in Case Number: The number of cases has been generally declining since 2021, indicating a possible improvement in sanitation, hygiene practices, or disease control efforts. <br/>
+3. Limited Fatality: Mortality associated with infectious diarrhea appears extremely low, suggesting efficacious treatment or a health system capable of managing severe cases. <br/>
+4. Consistent in 2023: Throughout 2023, the trend remains consistent with previous years, but the total cases are still relatively lower than in the past.
 ## Analysis
 
 ### Cases Analysis
-The number of infectious diarrhea cases in mainland China from 2010 to 2023 follows a seasonal trend with higher numbers in warmer and humid months (May to September) presumably due to increased bacterial growth and food spoilage at higher temperatures. A steady increase in the number of cases is observed till 2013 where a peak is reached, followed by a decline till 2020 likely due to improved sanitation and health awareness. There's an unexpected steep rise in cases from January 2021, possibly attributed to changes in documentation, a disease outbreak or other contextual factors.
-
+Infectious diarrhea cases in mainland China exhibits a clear seasonal pattern, with the highest incidences commonly observed in the warmer months (June to August). However, new infections show significant year-to-year fluctuations, with the highest reported cases of approximately 186,071 in January 2018. In recent years, there is a steady increase in reported incidents. The rise is particularly marked from 2020 to 2023, potentially suggesting a more extensive spread of the disease or enhancement in diagnostics and reporting channels. 
+  
 ### Deaths Analysis
-Deaths due to infectious diarrhea remain relatively low throughout the observed period, indicating effective treatment protocols in place for this condition. It's heartening to see that despite the rise in cases, there's no corresponding surge in fatalities, hinting at prompt and proper healthcare system response. It's noteworthy that there are zero deaths recorded from April 2021 onwards (except two instances in 2022), potentially signifying significant improvements in disease management and health infrastructure.
+Even with the high case counts, the fatality rates remain remarkably low throughout the years, rarely exceeding seven deaths per month. These low mortality figures suggest the disease's relatively benign nature when treated; however, it could also reflect successful intervention strategies in place. Over time, there's a notable decline towards zero recorded deaths/month from mid-2020 onwards, demonstrating a commendable improvement in health response to the disease and its management.

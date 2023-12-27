@@ -1,19 +1,16 @@
 ## Introduction
 
-Hepatitis E is a liver disease caused by the Hepatitis E virus (HEV), typically transmitted through the fecal-oral route, primarily due to contaminated water. It is prevalent in developing countries with poor sanitation. While most infections are mild or asymptomatic, it can be severe or fatal in certain cases, particularly in pregnant women or individuals with compromised immune systems. Chronic cases, although far rarer, are still a concern, especially in transplant recipients. As there is no specific treatment for Hepatitis E, prevention through adequate sanitation and vaccine development is critical.
-
+Hepatitis E is a liver disease caused by the Hepatitis E virus (HEV), primarily transmitted through the ingestion of contaminated water or food. Common in several developing countries, it poses significant health risks, particularly to pregnant women. Symptoms range from mild fever, abdominal pain, jaundice to severe liver failure. Although no specific treatment exists, good hygiene practices can significantly reduce its transmission.
 ## Highlights
 
-1. There has been a general downward trend in the number of Hepatitis E cases between 2010 and 2023 in mainland China, with some recurrent seasonal spikes, often peaking around March. <br/>
-2. Despite the overall decrease in the number of cases, there wasn't an appreciable decrease in the number of monthly deaths associated with Hepatitis E over the same period. <br/>
-3. Since 2019, cases have frequently dropped below 2000 per month, but there's a noticeable resurgence in 2023, particularly from March onwards. <br/>
-4. As of November 2023, there are 2751 reported cases of Hepatitis E in mainland China, but no deaths recorded.
-
-
+1. There is a steady decrease in the number of Hepatitis E cases from the peak in 2011 with sporadic cases in 2010, followed by a moderate increase post-2020, suggesting a potential recurrence of the disease. <br/>
+2. Seasonal variation is observed, showing higher incidence rates during March to April, likely due to seasonal fluctuations in population behavior or the virus's lifecycle. <br/>
+3. Despite fluctuations in case numbers, mortality rates remain substantially low, pointing towards effective control and treatment measures. <br/>
+4. As of November 2023, a notable rise is seen in cases but without an increase in deaths, indicating an improved survival rate despite the potentially worsening outbreak.
 ## Analysis
 
 ### Cases Analysis
-Over the period from 2010 to 2023, the incidence of Hepatitis E cases in mainland China demonstrated moderate fluctuation with slight decreasing trends towards later years. Peak months with notably high incidences appeared mainly in the first and third quarters of each year. The recorded number of cases achieved highest values in March of 2011, 2017, and 2023, potentially signaling a trend for increased transmission during these periods. Conversely, a clear drop in Hepatitis E cases is observed in February of 2020, possibly due to influence from the COVID-19 pandemic.
+The reported cases of Hepatitis E in mainland China show variable monthly case counts over a span of 14 years. A trend of peaks generally observed in spring (March-April) and troughs, generally in late summer or fall, is noteworthy. This could be subjected to seasonal variations typical to Hepatitis E. By comparison, reported cases significantly reduced around February 2020 likely due to heightened hygiene practices and reduced human interactions amid COVID-19. However, in the post-pandemic era, from March 2021 onwards, the case count seems to be returning to pre-pandemic levels, indicating sustained transmission of Hepatitis E in mainland China.
 
 ### Deaths Analysis
-The number of deaths due to Hepatitis E over the same period has remained consistently and remarkably low. The maximum reported fatalities per month was 6, occurring in February 2010, April 2011, and December 2017. While there are minor occasional elevations, there is no distinguishable annual or seasonal pattern in the death count data, and overall the Hepatitis E mortality rate appears to remain significantly low. Notably, there is a visible increase in the number of zero-death months in the later years, suggesting an improved response or medical treatment capability.
+Death cases associated with Hepatitis E are generally low, rarely exceeding five per month over the examined period. This aligns with the fact that Hepatitis E is typically a self-limiting disease with low fatality, more so in regions with access to better healthcare infrastructures, such as mainland China. However, sporadic increase in deaths (e.g., December 2017, July 2016) calls for further investigations into potential risk factors that may increase disease severity. Overall, a pattern correlating fatalities and case peaks is not evident, underscoring the need for more focused research on disease progression and related mortality.

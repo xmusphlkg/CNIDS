@@ -1,18 +1,16 @@
 ## Introduction
 
-Diphtheria is an infectious disease caused by the bacterium Corynebacterium diphtheriae. It primarily affects the throat and upper airways, often causing difficulty in breathing and swallowing. The bacteria produce a toxin that can damage the heart, nerves, and kidneys. Spread through respiratory droplets or contaminated objects, diphtheria typically presents with a sore throat, fever, and swollen glands. Although less common due to widespread immunization, untreated diphtheria can be fatal.
-
+Diphtheria is a contagious bacterial disease affecting the upper respiratory tract. It's caused by Corynebacterium diphtheriae, transmitted through respiratory droplets, close physical contact, and rarely, contaminated objects. Symptoms include sore throat, fever, and swollen glands, leading to a thick, gray membrane covering the throat and tonsils. Diphtheria can potentially lead to severe complications like myocarditis and neuritis. Vaccination forms a key part of the prevention strategy.
 ## Highlights
 
-- Diphtheria cases in mainland China are extremely low over the period 2010-2023, with only sporadic incidents reported (a total of 7 cases).<br/>
-- Incidence appears non-seasonal, with isolated case occurrences in 2011, 2016, 2018, 2020, 2021, 2022, and 2023, primarily in June and August.<br/>
-- 9 total deaths have been recorded from Diphtheria over the period - 8 in 2010 (no associated cases) and 1 in 2012, while there are no reported deaths post-2012.<br/>
-- As of November 2023, there have been no reported cases or deaths from Diphtheria in mainland China. The disease situation remains stable and effectively controlled.
-
+1. Diphtheria incidence in mainland China from 2010 to 2023 has been fairly low, with isolated cases occurring intermittently. <br/>
+2. There seems to be a pattern of a single case approximately every year from 2016, predominantly during the middle of the year from April to August. This indicates a minimal, potentially seasonal trend. <br/>
+3. Despite the low incidence, there have been recorded deaths until 2012, though the death count since has been zero, suggesting improved healthcare, more effective treatments, or robust vaccination programs. <br/>
+4. As of November 2023, there have been no new reported cases or deaths this year, showing consistent effectiveness of disease control measures.
 ## Analysis
 
 ### Cases Analysis
-The data shows an exceptionally low occurrence of diphtheria in mainland China over the observed years, 2010 to 2023. There are occasional singular case reports, specifically in October 2011, October 2016, June 2018, August and September 2020, July 2021, July 2022, and June 2023. These incidents may indicate sporadic infections, which were effectively controlled, preventing them from causing broader outbreaks. The otherwise zero-case reports suggest effective immunization policies or natural immunity in the population, resulting in minor exposure or susceptibility to the disease.
+Over the 13-year span from 2010 to 2023, the records indicate a very low incidence of diphtheria in mainland China, with reported cases remaining at zero most months. However, there was a sporadic case reported in October 2011, another in October 2016, and single cases reported in June 2018, August and September of 2020, July 2021, and July 2022. The last case occurred in June 2023. This suggests a rare but persistent presence of the disease.
 
 ### Deaths Analysis
-The death reports show an even more infrequent pattern. The majority of the observed periods report zero diphtheria-related deaths. Two instances deviate from this pattern: one in November 2010, where eight deaths are reported, possibly an uncontrolled local outbreak, and the second instance in September 2012 showing one case. The reduced mortality to almost none over the years reflects improved public health interventions, possibly including better healthcare access, effective patient management, and widespread immunization policies.
+Reported data reveals few instances of fatal diphtheria in the same period. There were two recorded instances of fatalities, both without corresponding reported cases. The first occurred in November 2010 with 8 deaths and the second in September 2012 with a single fatality. Other than these instances, no other fatalities have been reported till the end of the data set in November 2023, which suggests effective management or possibly underreporting of fatal cases.
