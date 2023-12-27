@@ -130,14 +130,13 @@ if new_dates:
     data.to_csv('..' + '/AllData/WeeklyReport/' + max_date + '.csv', index=False, encoding='utf-8', header=True)
 
     # modify the markdown file
-    if test == 'False':
-        readme_path = "../../Readme.md"
-        with open(readme_path, "r") as readme_file:
-            readme_content = readme_file.read()
-        update_log = f"#### {year_month}\n\nDate: {current_date}\n\nUpdated: {new_dates}"
-        updated_readme_content = readme_content.replace("### China CDC Monthly Report", "### China CDC Monthly Report\n\n" + update_log)
-        with open(readme_path, "w") as readme_file:
-            readme_file.write(updated_readme_content)
+    readme_path = "../../Readme.md"
+    with open(readme_path, "r") as readme_file:
+        readme_content = readme_file.read()
+    update_log = f"#### {year_month}\n\nDate: {current_date}\n\nUpdated: {new_dates}"
+    updated_readme_content = readme_content.replace("### China CDC Monthly Report", "### China CDC Monthly Report\n\n" + update_log)
+    with open(readme_path, "w") as readme_file:
+        readme_file.write(updated_readme_content)
     
     test_info = os.environ['test_mail']
     send_mail = os.environ['send_mail']
