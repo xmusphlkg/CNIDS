@@ -89,6 +89,7 @@ def create_report_page(df,
         os.environ['REPORT_INTRODUCTION_CREATE'],
         os.environ['REPORT_INTRODUCTION_CHECK'],
         f"Give a brief introduction to {disease_name}, not give any comment (words limit 90 - 100 words).", 
+        f"""Analyze the following text and tell me if it is the Introduction section to {disease_name} report. If it is, please answer me Yes. If not, please answer me No.""",
         "Introduction",
         disease_name
         )
@@ -102,6 +103,7 @@ def create_report_page(df,
         and provide a brief summary of key epidemiological trends and the current disease situation as of {report_date}.
         The summary should be formatted as a list of highlights (3-4 elements), each one followed by a line break <br/>.
         The word count should be between 100 and 110 words. Here is the data for {disease_name} in mainland China: {table_data_str}""",
+        f"""Analyze the following text and tell me if it is the Highlights section to {disease_name} report. If it is, please answer me Yes. If not, please answer me No.""",
         "Highlights",
         disease_name
         )
@@ -111,13 +113,16 @@ def create_report_page(df,
     analy_box_content = openai_single(
         os.environ['REPORT_ANALYSIS_CREATE'],
         os.environ['REPORT_ANALYSIS_CHECK'],
-        f"""Provide a concise analysis of the reported data for {disease_name} in mainland China, following the format below:
+        f"""Provide a concise case analysis of the reported data for {disease_name} in mainland China, following the format below:
         ### Cases Analysis
         ...... (Word count: 100-110 words)
         ### Deaths Analysis
         ...... (Word count: 100-110 words)
         Here is the data for {disease_name} in mainland China:
         {table_data_str}""",
+        f"""Evaluate the given text and determine whether it corresponds to the analysis section of a report related to {disease_name}.
+        If it is indeed the analysis section and includes the sub-sections "### Cases Analysis" and "### Deaths Analysis," respond with 'Yes'.
+        If these conditions are not met, respond with 'No'.""",
         "Analysis",
         disease_name
         )

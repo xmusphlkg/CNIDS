@@ -50,13 +50,16 @@ def openai_trans(model_create, model_check, user_content, setting, token = 500, 
     print("Translate: Maximum retries reached. Failed to create response.")
     return None
 
-def openai_single(model_create, model_check, user_content, section, disease, token = 500, max_retries=10, delay=1):
+def openai_single(model_create, model_check,
+                  user_content, check_content,
+                  section, disease, token = 500, max_retries=10, delay=1):
     """
     Generate box content for single disease.
 
     - model_create: The name of the model to use for the completion.
     - model_check: The name of the model to use for the check.
     - user_content: The content provided by the user for the completion.
+    - check_content: The content provided by the user for the check.
     - section: The section of the report.
     - disease: The disease of the report.
     - token: The maximum number of tokens to generate.
@@ -82,8 +85,7 @@ def openai_single(model_create, model_check, user_content, section, disease, tok
         messages_check = [{"role": "system",
                            "content": "You are a language editing robot."},
                           {"role": "user",
-                           "content": f"""Analyze the following text and tell me if it is the {section} section to {disease} report. If it is, please answer me Yes. If not, please answer me No.
-                           
+                           "content": f"""{check_content}
                            {box_content}"""}]
         box_check = fetch_openai(model_check, client,
                                  messages_check,
