@@ -102,7 +102,7 @@ server <- function(input, output) {
 
     output$markdown <- renderUI({
       url <- paste0(
-        "https://raw.githubusercontent.com/xmusphlkg/CNID/master/Report/information/",
+        "https://raw.githubusercontent.com/xmusphlkg/CNID/master/docs/",
         input$disease,
         ".md"
       )

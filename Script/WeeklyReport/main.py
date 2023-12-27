@@ -138,7 +138,7 @@ if new_dates:
     with open(readme_path, "w") as readme_file:
         readme_file.write(updated_readme_content)
     
-    test_info = os.environ['test_mail']
+    test_mail = os.environ['test_mail']
     send_mail = os.environ['send_mail']
     # change working directory
     os.chdir("../../Script")
@@ -146,7 +146,7 @@ if new_dates:
         print("Generate report for " + YearMonth)
         generate_weekly_report(YearMonth)
     if send_mail == 'True':
-        send_email_to_subscriber(test_info)
+        send_email_to_subscriber(test_mail)
 
     # print success message
     print("CDCWeekly Data updated successfully!")

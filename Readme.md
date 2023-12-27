@@ -55,50 +55,46 @@ http://localhost:3838
 
 2. Set up Actions secrets.
 
-  a. Docker Hub Settings:
+a. Docker Hub Settings:
 
-   `DOCKERHUB_TOKEN`: Docker Hub token.
+`DOCKERHUB_TOKEN`: Docker Hub token.
 
-   `DOCKERHUB_USERNAME`: Docker Hub username.
+`DOCKERHUB_USERNAME`: Docker Hub username.
 
-  b. Microsoft Graph Settings:
+b. Microsoft Graph Settings:
 
-   `MS_client_id`: Microsoft Graph client id.
+`MS_client_id`: Microsoft Graph client id.
 
-   `MS_client_secret`: Microsoft Graph client secret.
+`MS_client_secret`: Microsoft Graph client secret.
 
-   `MS_sender_email`: Microsoft Graph sender email.
+`MS_sender_email`: Microsoft Graph sender email.
 
-   `MS_subscribe`: Microsoft OneDrive file share link.
+`MS_subscribe`: Microsoft OneDrive file share link.
 
-   `MS_tenant_id`: Microsoft Graph tenant id.
+`MS_tenant_id`: Microsoft Graph tenant id.
 
     > You can get the above information by registering an application in [Azure Active Directory](https://portal.azure.com/#blade/Microsoft_AAD_RegisteredApps/ApplicationsListBlade).
 
-  c. OpenAI Settings:
+c. OpenAI Settings:
 
-   `OPENAI_API_KEY`: OpenAI API key (sk-xxxxxxxx).
+`OPENAI_API_KEY`: OpenAI API key (sk-xxxxxxxx).
 
-   `OPENAI_API_BASE`: OpenAI API url (https://api.openai.com/v1).
+`OPENAI_API_BASE`: OpenAI API url (https://api.openai.com/v1).
 
     > You can get the above information by registering an application in [OpenAI](https://beta.openai.com/).
     > example: `sk-xxxxxxxxxxxxxxxxxxxxxxxxxxx`and `https://api.openai.com/v1`.
 
 3. Set up Actions variables.
 
-  a. `test`: Whether to test getting data from the China CDC Monthly Report. Default: `False`.
+a. `test`: Whether to test getting data from the China CDC Monthly Report. Default: `False`.
 
-  b. `test_analysis`: Whether to test the analysis program, if `True` only create report for two disease. Default: `False`.
+b. `cite`: Citation information. Default: `Cite Us: CNIDs: Chinese Notifiable Infectious Diseases Surveillance Project. <u><a href='https://github.com/xmusphlkg/CNID'>Github</a></u>'
 
-  c. `cite`: Citation information. Default: `Cite Us: CNIDs: Chinese Notifiable Infectious Diseases Surveillance Project. <u><a href='https://github.com/xmusphlkg/CNID'>Github</a></u>'
+c. `test_dc`: Whether to test getting data from the Public Health Scientific Data Center. Default: `False`.
 
-  d. `test_dc`: Whether to test getting data from the Public Health Scientific Data Center. Default: `False`.
+d. `test_mail`: Whether to display the test content in email. Default: `True`.
 
-  e. `test_mail`: Whether to display the test content in email. Default: `True`.
-
-  f. `send_mail`: Whether to send email. Default: `True`.
-
-  g. `update_info`: Whether to display the update information of each disease in the repository. Default: `False`.
+e. `send_mail`: Whether to send email. Default: `True`.
 
 4. Run Github Action.
 

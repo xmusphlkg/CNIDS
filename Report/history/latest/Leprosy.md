@@ -1,16 +1,4 @@
-Seasonal Patterns: 
-Based on the data provided, there seems to be a seasonal pattern in the occurrence of leprosy cases in mainland China. The number of cases appears to be higher during the months of March to July, with a peak in June. Starting from August and continuing till February, there is a general decrease in the number of cases, reaching the lowest point in October. This pattern repeats consistently throughout the years, indicating a predictable seasonal variation in leprosy cases.
 
-Peak and Trough Periods: 
-The highest number of leprosy cases in mainland China occurs in June, marking the peak period. Conversely, the lowest number of cases is reported in October, marking the trough period. These peak and trough periods remain consistent across the analyzed years.
-
-Overall Trends: 
-Overall, there is a slight decreasing trend in the number of leprosy cases in mainland China leading up to October 2023. From 2010 to 2013, there is a gradual decline in cases. However, from 2013 to 2016, there is a slight increase in cases, followed by another decline from 2016 to 2023. It is worth noting that there is a significant reduction in cases in 2013, which may be attributed to data reporting issues as negative values are reported for certain months. Therefore, caution should be exercised when interpreting the trend during this period.
-
-Discussion: 
-The observed seasonal pattern in leprosy cases in mainland China suggests a potential association with environmental factors or human behavior. The peak in cases during the months of March to July could be influenced by factors such as increased outdoor activities, higher population density, or changes in climate conditions favorable to disease transmission. The decrease in cases during the other months may be attributed to factors such as reduced exposure to the causative agent, improved hygiene practices, or seasonal variations in the immune response of the population.
-
-The overall declining trend in leprosy cases before October 2023 is promising and may indicate the effectiveness of control measures implemented in mainland China. However, it is crucial to continue monitoring the situation and maintaining surveillance efforts to ensure the sustainability of the declining trend. Furthermore, additional analysis and investigation are necessary to comprehend the specific factors contributing to the observed seasonal patterns and overall trends in leprosy cases in mainland China.
 ## Introduction
 
 Leprosy, also known as Hansen’s disease, is a chronic infectious disease caused by the bacterium Mycobacterium leprae. It primarily affects the skin, peripheral nerves, mucosa of the upper respiratory tract, and eyes. Leprosy is known for its potential to cause progressive and permanent damage to the skin, nerves, limbs, and eyes if untreated. Transmission is thought to occur through respiratory droplets from those with untreated, severe forms of the disease. It has a long incubation period, typically 5 years, and is treatable with a combination of antibiotics known as multidrug therapy.

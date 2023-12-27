@@ -39,31 +39,31 @@ def openai_information(model_create, model_check, user_content, disease_name, to
     )
 
     attempt = 0
-    print(f"Creating response for analysis...")
+    messages_create = [{"role": "system",
+                        "content": "You are a epidemiologist."},
+                       {"role": "user",
+                        "content": user_content}]
     while attempt < max_retries:
-        print("Start generate raw content...")
         content_raw = fetch_openai(model_create, client,
-                                   user_content,
-                                    "You are a epidemiologist.",
+                                   messages_create,
+                                   f"{disease_name} - information - Create",
                                    token, max_retries, delay)
-        print("Start check content...")
+        messages_check = [{"role": "system",
+                            "content": "You are a language editing robot."},
+                            {"role": "user",
+                            "content": content_raw}]
         box_check = fetch_openai(model_check, client,
-                                f"""Analyze the following text and tell me if it is the analysis of {disease_name}. If it is, please answer me Yes. If not, please answer me No.
-                                
-                                {content_raw}""",
-                                "You are a language editing robot.",
+                                messages_check,
+                                f"{disease_name} - information - Check",
                                 token*2, max_retries, delay)
         # box_check = 'Yes'
         if "Yes" in box_check:
-            break
+            return content_raw
         else:
             attempt += 1
             print(f"Retrying ({attempt}/{max_retries})...\n")
             print(f"box_check: {box_check}\n")
             print(f"box_content: {content_raw}\n")
-    if attempt >= max_retries:
-        print(f"Maximum retries reached. Failed to create response.")
-        return None
-    else:
-        print(f"Response created successfully after {attempt} try.")
-        return content_raw
+
+    print(f"{disease_name} - information: retries reached. Failed to create response.")
+    return None

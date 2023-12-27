@@ -1,10 +1,4 @@
-Seasonal Patterns: According to the provided data, no clear seasonal pattern is observed for SARS-CoV cases and deaths in mainland China prior to October 2023. The number of cases and deaths remained consistently low throughout the years, showing no significant fluctuations or patterns.
 
-Peak and Trough Periods: There are no identifiable peak and trough periods in the data. The number of cases and deaths consistently remained at zero or very low levels throughout the entire period.
-
-Overall Trends: The overall trend for SARS-CoV cases and deaths in mainland China before October 2023 is characterized by a consistently low and stable number. There is no significant increase or decrease observed over time.
-
-Discussion: The provided data suggests that there were no reported cases or deaths attributed to SARS-CoV in mainland China before October 2023. This implies that the virus was not actively circulating or causing a significant impact during this period. It is important to note that the absence of reported cases does not necessarily imply the absence of the virus, as surveillance and reporting systems may vary. However, based on the available data, there is no evidence of a SARS-CoV outbreak or significant transmission in mainland China prior to October 2023.
 ## Introduction
 
 Severe Acute Respiratory Syndrome Coronavirus (SARS-CoV) is a zoonotic virus belonging to the family Coronaviridae. It was identified in 2003 as the cause of an outbreak of severe respiratory illness that emerged in China in 2002. SARS-CoV is characterized by fever, cough, and often progresses to pneumonia. Human-to-human transmission occurs mainly through respiratory droplets. The global outbreak was contained by 2004, with over 8,000 cases and nearly 800 deaths reported. The experience with SARS-CoV informed responses to later emerging coronaviruses such as MERS-CoV and SARS-CoV-2.

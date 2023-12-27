@@ -43,7 +43,7 @@ def generate_weekly_report(analysis_YearMonth):
     # create mail table
     create_mail_table(table_data, analysis_YearMonth)
 
-    # # generate weekly report, history, mail content and web information
+    # # generate weekly report, history, mail content
     generate_report(df, table_data, diseases_order, analysis_date, analysis_YearMonth, analysis_MonthYear)
 
     # moving report pages

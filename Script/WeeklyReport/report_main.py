@@ -5,7 +5,7 @@ from concurrent.futures import ThreadPoolExecutor, as_completed
 from report_page import create_report_page, create_report_summary, create_report
 from report_fig import prepare_disease_data, plot_disease_data, plot_disease_heatmap
 from mail_main import create_cover_mail
-from web_info import create_web_info
+# from web_info import create_web_info
 
 def process_page(i, df, analysis_YearMonth, analysis_MonthYear, diseases_order, custom_total_num):
     create_report_page(df,
@@ -46,10 +46,6 @@ def generate_report(df, table_data, diseases_order, analysis_date, analysis_Year
         future_cover_mail = executor.submit(create_cover_mail, table_data_str, table_legend, analysis_YearMonth, analysis_MonthYear)
         # create summary
         future_report_summary = executor.submit(create_report_summary, table_data, table_data_str, analysis_MonthYear, table_legend)
-        # create web info
-        update_info = os.environ['update_info']
-        if update_info == 'True':
-            future_web_info = [executor.submit(create_web_info, disease_name) for disease_name in diseases_order]
         
         # wait for cover and mail
         future_plot.result()
