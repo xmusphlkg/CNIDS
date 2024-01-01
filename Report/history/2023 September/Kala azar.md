@@ -12,8 +12,9 @@ Kala azar, also known as visceral leishmaniasis, is a parasitic disease caused b
 ## Analysis
 
 ### Cases Analysis
-The presented data reveals consistent cases of Kala azar in mainland China over the years. The number of cases shows periodic peaks, especially in the cooler months (October to February), followed by a cyclical decrease during the warmer months (June to August). There are exceptional spikes in October 2015 and November 2015, where cases reached 113 and 123 respectively, significant outliers compared to the average monthly case tally. Despite these peaks, a steady declining trend is seen from 2010 where the cases kick-off at 53 in January to fewer cases by 2023.
+
+The presented data reveals consistent cases of Kala azar in Chinese mainland over the years. The number of cases shows periodic peaks, especially in the cooler months (October to February), followed by a cyclical decrease during the warmer months (June to August). There are exceptional spikes in October 2015 and November 2015, where cases reached 113 and 123 respectively, significant outliers compared to the average monthly case tally. Despite these peaks, a steady declining trend is seen from 2010 where the cases kick-off at 53 in January to fewer cases by 2023.
 
 ### Deaths Analysis
-In contrast to the number of cases, the number of deaths remains extremely low, with most months reporting zero deaths. Only 9 monthly entries out of the total reported a single death each. An increase in deaths is noticed in 2023, with three casualties in February, April and August, however, it's not consistent nor drastic. Overall, the mortality rate is low, implying a potentially successful response from health bodies or the disease's ordinarily low fatality rate in this region.
 
+In contrast to the number of cases, the number of deaths remains extremely low, with most months reporting zero deaths. Only 9 monthly entries out of the total reported a single death each. An increase in deaths is noticed in 2023, with three casualties in February, April and August, however, it's not consistent nor drastic. Overall, the mortality rate is low, implying a potentially successful response from health bodies or the disease's ordinarily low fatality rate in this region.

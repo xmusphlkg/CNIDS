@@ -13,7 +13,9 @@ Hand, Foot, and Mouth Disease (HFMD) is an infectious illness typically caused b
 ## Analysis
 
 ### Cases Analysis
-There has been a marked disparity in reported cases of Hand, Foot and Mouth Disease (HFMD) over the years in mainland China, with a noticeable seasonal pattern. A sharp increase is observed during April, reaching a peak around June, and then declining from July onwards. While the exact number of cases fluctuates each year, there has been a trend of an overall increase in yearly case numbers since 2010. However, there was a significant drop in cases in 2020, which might be due to stringent health measures during the Covid-19 pandemic. Reports for 2023 show an unprecedented surge in June, indicating potentially evolving dynamics of disease transmission.
+
+There has been a marked disparity in reported cases of Hand, Foot and Mouth Disease (HFMD) over the years in Chinese mainland, with a noticeable seasonal pattern. A sharp increase is observed during April, reaching a peak around June, and then declining from July onwards. While the exact number of cases fluctuates each year, there has been a trend of an overall increase in yearly case numbers since 2010. However, there was a significant drop in cases in 2020, which might be due to stringent health measures during the Covid-19 pandemic. Reports for 2023 show an unprecedented surge in June, indicating potentially evolving dynamics of disease transmission.
 
 ### Deaths Analysis
+
 The number of deaths from HFMD presents a generally low mortality, with the highest number recorded in April 2010 with 175 fatalities. A decrease in the number of deaths can be seen over the years, despite the increasing number of cases. This might suggest improvements in healthcare facilities and early detection strategies. The highest death rate coincides with the peak of cases around April-June, indicating deaths are closely related to the severity of the outbreak. Similar to the cases, there has been a noticeable drop in fatalities recorded during 2020, aligning with the pandemic period. Interestingly, no fatal cases are reported after April 2023 despite the surge in disease cases.

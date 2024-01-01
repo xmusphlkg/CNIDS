@@ -1,4 +1,4 @@
-The data reveals a discernible seasonal pattern in the incidence of hepatitis cases in mainland China. Typically, the number of cases peaks in the summer months (June, July, and August) and declines during the winter months (December, January, and February). This trend may be indicative of the influence of seasonal fluctuations in behavior or climatic factors on hepatitis transmission.
+The data reveals a discernible seasonal pattern in the incidence of hepatitis cases in Chinese mainland. Typically, the number of cases peaks in the summer months (June, July, and August) and declines during the winter months (December, January, and February). This trend may be indicative of the influence of seasonal fluctuations in behavior or climatic factors on hepatitis transmission.
 
 With regard to peak and trough periods, August exhibits the most significant number of reported cases, followed by July and June. Conversely, the period with the lowest number of cases occurs during December, January, and February.
 

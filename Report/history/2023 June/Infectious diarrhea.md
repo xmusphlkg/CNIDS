@@ -1,4 +1,4 @@
-Seasonality Patterns: The data provided regarding cases of infectious diarrhea in mainland China prior to June 2023 reveals a distinct seasonal pattern. Specifically, there is a higher number of cases during the summer months (June to August) and a lower number during the winter months (December to February).
+Seasonality Patterns: The data provided regarding cases of infectious diarrhea in Chinese mainland prior to June 2023 reveals a distinct seasonal pattern. Specifically, there is a higher number of cases during the summer months (June to August) and a lower number during the winter months (December to February).
 
 Peak and Trough Periods: Analysis consistently shows that the peak periods for infectious diarrhea cases occur during the summer months, particularly in July and August, when the incidence is highest. Conversely, the trough periods are observed during the winter months, with fewer cases reported in December and January.
 
@@ -8,4 +8,4 @@ Discussion: The observed seasonal patterns, peak and trough periods suggest a st
 
 The overall increasing trend of infectious diarrhea cases over time may be influenced by several factors including changes in surveillance and reporting systems, variations in population susceptibility or behavior, and shifts in the prevalence or virulence of infectious agents. Further analysis is necessary to investigate the specific factors contributing to these trends and to assess whether any interventions have been implemented to address the escalating trend.
 
-It is important to acknowledge that this analysis is based solely on the provided data, and comprehensive research and analysis would be indispensable to fully comprehend the epidemiology of infectious diarrhea in mainland China.
+It is important to acknowledge that this analysis is based solely on the provided data, and comprehensive research and analysis would be indispensable to fully comprehend the epidemiology of infectious diarrhea in Chinese mainland.

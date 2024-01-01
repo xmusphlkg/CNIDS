@@ -12,7 +12,9 @@ Japanese encephalitis (JE) is a viral disease that is spread through the bite of
 ## Analysis
 
 ### Cases Analysis
+
 A retrospective look at the data from 2010 to 2023 reveals considerable variability in the number of Japanese encephalitis cases throughout the years. However, certain patterns emerge. Specifically, a substantial increase in cases is observed from May to September each year, peaking in August. This pattern could be tied to the vector's (mosquito) life cycle and increased human exposure in the warmer months. Notably, the numbers have been decreasing overall since 2018, implying successful prevention or control measures. However, occasional spikes such as in August 2023 stress the need for continued surveillance and proactive public health measures.
 
 ### Deaths Analysis
-The mortality associated with Japanese encephalitis in mainland China appears to follow a similar seasonal trend as the case count. A noticeable rise in fatalities can be observed from June to September. The highest number of deaths was recorded in August 2018 with 55 fatalities. Appreciably fewer deaths have been reported since 2019, perhaps indicating improved medical management or effective intervention strategies. Nevertheless, the persistent fatality count, even if lower, indicates the high-risk nature of the disease and the need for reinforced efforts towards early detection and treatment.
+
+The mortality associated with Japanese encephalitis in Chinese mainland appears to follow a similar seasonal trend as the case count. A noticeable rise in fatalities can be observed from June to September. The highest number of deaths was recorded in August 2018 with 55 fatalities. Appreciably fewer deaths have been reported since 2019, perhaps indicating improved medical management or effective intervention strategies. Nevertheless, the persistent fatality count, even if lower, indicates the high-risk nature of the disease and the need for reinforced efforts towards early detection and treatment.

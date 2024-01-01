@@ -4,7 +4,7 @@ Leprosy, also known as Hansen's disease, is a chronic infectious disease caused 
 
 ## Highlights
 
-- Leprosy cases in mainland China have been experiencing a consistent downward trend since 2010, indicating a reduction in disease incidence. <br/>
+- Leprosy cases in Chinese mainland have been experiencing a consistent downward trend since 2010, indicating a reduction in disease incidence. <br/>
 - The number of deaths from Leprosy is quite low, suggesting effective disease management and treatment strategies in practice. <br/>
 - As of September 2023, the number of monthly cases has fluctuated around 30 suggesting a stabilization of the disease with low occurrence. <br/>
 - Despite the overall decline, there have been few notable increases at times, indicating periodic disease resurgence, which warrants continuous surveillance and control efforts.
@@ -12,7 +12,9 @@ Leprosy, also known as Hansen's disease, is a chronic infectious disease caused 
 ## Analysis
 
 ### Cases Analysis
-The reported data shows a general decline in Leprosy cases in mainland China from 2010 to 2023. Monthly case counts ranged from lows of 13 to highs of 127. March of 2012 reported the highest number of cases (127), while November, October, and January in 2022 recorded the lowest (13). This suggests variable seasonality could influence Leprosy transmission. The decline might be attributed to improved healthcare, early detection, and successful prevention strategies. The sharp periodic increases might align with population movements or healthcare access changes.
+
+The reported data shows a general decline in Leprosy cases in Chinese mainland from 2010 to 2023. Monthly case counts ranged from lows of 13 to highs of 127. March of 2012 reported the highest number of cases (127), while November, October, and January in 2022 recorded the lowest (13). This suggests variable seasonality could influence Leprosy transmission. The decline might be attributed to improved healthcare, early detection, and successful prevention strategies. The sharp periodic increases might align with population movements or healthcare access changes.
 
 ### Deaths Analysis
+
 Deaths from Leprosy over the reported period are relatively rare in comparison to the number of reported cases. The mortality rate compared to cases was very low, indicating a controlled epidemic and efficient treatment. There were several months in which no deaths were reported, and in the months where deaths occurred, the number never exceeded one. The disparate number of cases and deaths could be attributed to early detection and efficient treatment protocols, emphasizing the benefits of robust public health initiatives against Leprosy.

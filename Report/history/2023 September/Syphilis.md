@@ -12,7 +12,9 @@ Syphilis is a sexually transmitted infection caused by the bacterium Treponema p
 ## Analysis
 
 ### Cases Analysis
-The reported data on Syphilis cases in mainland China from 2010 to 2023 shows a general increasing trend in the recorded cases annually. While fluctuating monthly, the overall cases have been rising each year. The highest number of reported cases occurs in August 2023 with 61068 cases. It is significant to note that some month's data are missing, which may somewhat distort the overall picture. Patterns of increasing cases during certain months, particularly the summer months, suggests a possible seasonal influence on the transmission of Syphilis.
+
+The reported data on Syphilis cases in Chinese mainland from 2010 to 2023 shows a general increasing trend in the recorded cases annually. While fluctuating monthly, the overall cases have been rising each year. The highest number of reported cases occurs in August 2023 with 61068 cases. It is significant to note that some month's data are missing, which may somewhat distort the overall picture. Patterns of increasing cases during certain months, particularly the summer months, suggests a possible seasonal influence on the transmission of Syphilis.
 
 ### Deaths Analysis
+
 The death rate, in contrast to the number of Syphilis cases, does not follow a consistent upward trend over the years. The recorded deaths remain relatively low compared to the number of cases, with the highest number recorded in January 2020 as 25 deaths. The relatively low death rate indicates that while the disease seems to be prevalent, its fatal consequences are less frequent. Further analysis has to be made to see if this is an indication of successful health measures or due to underreporting of deaths.

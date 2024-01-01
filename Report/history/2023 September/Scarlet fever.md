@@ -9,11 +9,12 @@ Scarlet fever is an infectious disease caused by a strain of group A streptococc
 3. Mortality Rates: The mortality rate is generally low, with few recorded deaths throughout the recorded period.<br/>
 4. Current Status: As of September 2023, scarlet fever shows a slight increase from the previous month, however, overall the numbers remain lower in comparison to the earlier years.
 
-
 ## Analysis
 
 ### Cases Analysis
-Scarlet fever cases in mainland China appear to have a seasonal pattern, with the highest reported cases generally occurring around the months of May, June, and December. The period between 2010 and 2018 shows a significant increase in cases each year, reaching a peak in 2018. However, a dramatic decline in cases is seen in 2020, likely due to the COVID-19 pandemic and subsequent implementation of restrictive measures. Nonetheless, there was a gradual increase in cases observed since the start of 2021, although the numbers are still relatively lower compared to the pre-pandemic years.
+
+Scarlet fever cases in Chinese mainland appear to have a seasonal pattern, with the highest reported cases generally occurring around the months of May, June, and December. The period between 2010 and 2018 shows a significant increase in cases each year, reaching a peak in 2018. However, a dramatic decline in cases is seen in 2020, likely due to the COVID-19 pandemic and subsequent implementation of restrictive measures. Nonetheless, there was a gradual increase in cases observed since the start of 2021, although the numbers are still relatively lower compared to the pre-pandemic years.
 
 ### Deaths Analysis
-Overall, Scarlet fever has a very low mortality rate in mainland China. Throughout the entire recorded period, only a total of 5 deaths were reported, despite the large number of cases. These deaths occurred in 2011, 2012, 2013, 2015, and 2020. It's important to note, however, that despite its low mortality rate, Scarlet fever can cause severe complications if not treated properly and promptly. Despite the drop in cases in 2020, the disease continues to circulate and remain a potential public health concern.
+
+Overall, Scarlet fever has a very low mortality rate in Chinese mainland. Throughout the entire recorded period, only a total of 5 deaths were reported, despite the large number of cases. These deaths occurred in 2011, 2012, 2013, 2015, and 2020. It's important to note, however, that despite its low mortality rate, Scarlet fever can cause severe complications if not treated properly and promptly. Despite the drop in cases in 2020, the disease continues to circulate and remain a potential public health concern.

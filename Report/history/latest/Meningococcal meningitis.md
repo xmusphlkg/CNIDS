@@ -12,7 +12,9 @@ Meningococcal meningitis is a severe bacterial infection of the thin layer cover
 ## Analysis
 
 ### Cases Analysis
-The reported data illustrates a clear seasonality and a gradual declining trend of Meningococcal meningitis in mainland China over 2010-2023. Cases markedly peaked during the first quarter each year, typically March, suggesting an environmental or behavioral influence correlated with the disease's spread. Extensive public health measures appear to have reduced the numbers successfully, with significant drops from 2010's 420 cases to 66 in 2023. Further investigation is needed to identify specific actions leading to the decline in reported cases.
+
+The reported data illustrates a clear seasonality and a gradual declining trend of Meningococcal meningitis in Chinese mainland over 2010-2023. Cases markedly peaked during the first quarter each year, typically March, suggesting an environmental or behavioral influence correlated with the disease's spread. Extensive public health measures appear to have reduced the numbers successfully, with significant drops from 2010's 420 cases to 66 in 2023. Further investigation is needed to identify specific actions leading to the decline in reported cases.
 
 ### Deaths Analysis
+
 Death outcomes display a similar seasonal pattern but with notable drops, possibly reflecting improved healthcare treatments, early detection, and vaccination campaigns. Deaths peaked around 6-7 per month in early years, dramatically reducing to single digits from 2016 and onwards. Despite seasonal fluctuations, data shows a decrease in mortality over time, with a clear shift towards zero monthly deaths in later years. This trend suggests increasing clinical success in handling infected cases. Further research is needed to identify potential death seasonality correlations and continued mortality reduction strategies.

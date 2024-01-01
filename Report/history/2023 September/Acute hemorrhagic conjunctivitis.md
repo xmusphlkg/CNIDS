@@ -12,8 +12,9 @@ Acute Hemorrhagic Conjunctivitis (AHC) is a highly contagious eye infection char
 ## Analysis
 
 ### Cases Analysis
-The data reflects an annual cycle of Acute hemorrhagic conjunctivitis cases in mainland China, with the incidence generally rising in the spring, peaking in the summer, and declining in the fall and winter. This seasonal trend aligns with the known epidemiology of the disease. There are exceptional spikes seen in September 2010 and 2023, potentially indicating major outbreak events. Overall, an increase in the number of cases over the longer term can also be observed, suggesting a growing disease burden. The highest spike occurs in September 2023 with 125264 cases.
+
+The data reflects an annual cycle of Acute hemorrhagic conjunctivitis cases in Chinese mainland, with the incidence generally rising in the spring, peaking in the summer, and declining in the fall and winter. This seasonal trend aligns with the known epidemiology of the disease. There are exceptional spikes seen in September 2010 and 2023, potentially indicating major outbreak events. Overall, an increase in the number of cases over the longer term can also be observed, suggesting a growing disease burden. The highest spike occurs in September 2023 with 125264 cases.
 
 ### Deaths Analysis
-The number of reported deaths due to Acute hemorrhagic conjunctivitis in mainland China is remarkably low, with only three recorded deaths over the presented timeframe. These occurred in December 2011, August 2019, and February 2020. The low fatality rate reflects the typically self-limiting nature of the disease, which generally only poses a significant risk to health in rare events of severe conditions or complications arising.
 
+The number of reported deaths due to Acute hemorrhagic conjunctivitis in Chinese mainland is remarkably low, with only three recorded deaths over the presented timeframe. These occurred in December 2011, August 2019, and February 2020. The low fatality rate reflects the typically self-limiting nature of the disease, which generally only poses a significant risk to health in rare events of severe conditions or complications arising.

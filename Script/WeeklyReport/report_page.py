@@ -99,10 +99,10 @@ def create_report_page(df,
     highlights_box_content = openai_single(
         os.environ['REPORT_HIGHLIGHTS_CREATE'],
         os.environ['REPORT_HIGHLIGHTS_CHECK'],
-        f"""Analyze the provided data for {disease_name} in mainland China
+        f"""Analyze the provided data for {disease_name} in Chinese mainland
         and provide a brief summary of key epidemiological trends and the current disease situation as of {report_date}.
         The summary should be formatted as a list of highlights (3-4 elements), each one followed by a line break <br/>.
-        The word count should be between 100 and 110 words. Here is the data for {disease_name} in mainland China: {table_data_str}""",
+        The word count should be between 100 and 110 words. Here is the data for {disease_name} in Chinese mainland: {table_data_str}""",
         f"""Analyze the following text and tell me if it is the Highlights section to {disease_name} report. If it is, please answer me Yes. If not, please answer me No.""",
         "Highlights",
         disease_name
@@ -113,12 +113,12 @@ def create_report_page(df,
     analy_box_content = openai_single(
         os.environ['REPORT_ANALYSIS_CREATE'],
         os.environ['REPORT_ANALYSIS_CHECK'],
-        f"""Provide a concise case analysis of the reported data for {disease_name} in mainland China, following the format below:
+        f"""Provide a concise case analysis of the reported data for {disease_name} in Chinese mainland, following the format below:
         ### Cases Analysis
         ...... (Word count: 100-110 words)
         ### Deaths Analysis
         ...... (Word count: 100-110 words)
-        Here is the data for {disease_name} in mainland China:
+        Here is the data for {disease_name} in Chinese mainland:
         {table_data_str}""",
         f"""Evaluate the given text and determine whether it corresponds to the analysis section of a report related to {disease_name}.
         If it is indeed the analysis section and includes the sub-sections "### Cases Analysis" and "### Deaths Analysis," respond with 'Yes'.
@@ -457,7 +457,7 @@ def create_report_summary(table_data, table_data_str, analysis_MonthYear, legend
     # add monthly analysis
     analysis_content = openai_abstract(os.environ['REPORT_ABSTRACT_CREATE'],
                                        os.environ['REPORT_ABSTRACT_CHECK'],
-                                      f"""Craft an epidemiological report analyzing the prevalence and impact of various diseases in mainland China for the specified month and year, {analysis_MonthYear}.
+                                      f"""Craft an epidemiological report analyzing the prevalence and impact of various diseases in Chinese mainland for the specified month and year, {analysis_MonthYear}.
                                       The report should not only focus on diseases with a high incidence but also those that are of public concern. 
                                       The report should be between 1000 and 1200 words, structured as follows:
                                       <b>Overview:</b> <br/> 2 paragraphs to analysis cases and deaths, respectively. <br/>
@@ -489,7 +489,7 @@ def create_report_summary(table_data, table_data_str, analysis_MonthYear, legend
     bing_content = bing_analysis(os.environ['REPORT_NEWS_CREATE'],
                                  os.environ['REPORT_NEWS_CLEAN'],
                                  os.environ['REPORT_NEWS_CHECK'],
-                                  f"""Conduct a comprehensive yet concise search and summarize infectious disease events in mainland China since {analysis_MonthYear}. 
+                                  f"""Conduct a comprehensive yet concise search and summarize infectious disease events in Chinese mainland since {analysis_MonthYear}. 
                                   The summary should be structured as follows:
                                   <b>Summary</b>:
                                   (Provide an overall summary of the infectious disease events)

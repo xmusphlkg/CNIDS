@@ -1,6 +1,6 @@
 Dear [Recipient],
 
-I hope this email finds you well. China CDC Weekly has published the new data on the cases and deaths of notifiable infectious diseases in mainland China in 2023 October.
+I hope this email finds you well. China CDC Weekly has published the new data on the cases and deaths of notifiable infectious diseases in Chinese mainland in 2023 October.
 
 As an AI language model, I cannot directly access databases or real-time data. However, I can provide you with a hypothetical list of key points for each disease based on the provided data. The numbers in the list represent fictional cases and deaths for each disease in China during the month of October 2023. Since the numbers are fabricated for the purpose of this exercise, please note that they should not be used for any actual medical or research purposes.
 
@@ -49,7 +49,6 @@ Please remember that this information is fictional and created for the purpose o
 The notion generated automatically, and assistant by ChatGPT. Please check the data and description carefully.
 
 Best regards,
- CNIDS
+CNIDS
 
 2023-12-24
-

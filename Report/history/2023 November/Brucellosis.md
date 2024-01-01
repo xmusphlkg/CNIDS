@@ -12,8 +12,9 @@ Brucellosis is a bacterial infection acquired through contact with animals or an
 ## Analysis
 
 ### Cases Analysis
-The reported dataset for Brucellosis in mainland China from 2010 to 2023 indicates seasonal cyclic trends, with cases peaking during the spring and summer months, reflecting the zoonotic nature of the disease. From 2010, there has been an overall increasing trend in Brucellosis cases, culminating in 2022's peak of 9943 in June. Thereafter, reported cases declined sharply, reaching a low of 1820 in December 2022. Despite this, the numbers have shown a steady rebound during the early months of 2023.
+
+The reported dataset for Brucellosis in Chinese mainland from 2010 to 2023 indicates seasonal cyclic trends, with cases peaking during the spring and summer months, reflecting the zoonotic nature of the disease. From 2010, there has been an overall increasing trend in Brucellosis cases, culminating in 2022's peak of 9943 in June. Thereafter, reported cases declined sharply, reaching a low of 1820 in December 2022. Despite this, the numbers have shown a steady rebound during the early months of 2023.
 
 ### Deaths Analysis
-Despite the increasing number of cases over the 14-year period, Brucellosis-related death rates remained relatively low. The data suggests sporadic fatalities, usually not exceeding 1-2 deaths per month. However, there is a noticeable increase in fatalities in recent years, particularly in months with higher case numbers such as July 2023, indicating a possible parallel but not directly proportional relationship between the number of cases and deaths.
 
+Despite the increasing number of cases over the 14-year period, Brucellosis-related death rates remained relatively low. The data suggests sporadic fatalities, usually not exceeding 1-2 deaths per month. However, there is a noticeable increase in fatalities in recent years, particularly in months with higher case numbers such as July 2023, indicating a possible parallel but not directly proportional relationship between the number of cases and deaths.

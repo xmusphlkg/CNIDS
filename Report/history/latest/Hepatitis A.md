@@ -11,8 +11,10 @@ Hepatitis A is a highly contagious liver infection caused by the Hepatitis A vir
 
 ## Analysis
 
-### Cases Analysis 
-The Hepatitis A cases data from 2010 through 2023 discloses an overall decreasing trend in Mainland China. High numbers were observed in mid-2010 with a peak at 3789 cases in August. Thereafter, a gradual decline over the years is evident, with some seasonal surges usually in spring and summer months. Nevertheless, these surges have reduced in magnitude over the years, and by 2023, the highest monthly reported cases dropped to 1289 in March.
+### Cases Analysis
+
+The Hepatitis A cases data from 2010 through 2023 discloses an overall decreasing trend in Chinese mainland. High numbers were observed in mid-2010 with a peak at 3789 cases in August. Thereafter, a gradual decline over the years is evident, with some seasonal surges usually in spring and summer months. Nevertheless, these surges have reduced in magnitude over the years, and by 2023, the highest monthly reported cases dropped to 1289 in March.
 
 ### Deaths Analysis
+
 The death rate for Hepatitis A in the given period is significantly low, showcasing the non-lethal nature of the virus. A major aberration appears in May 2012, with 56 deaths reported, an anomaly in the general trend. Typically, monthly fatalities oscillate between 0 to 2. It's vital to investigate the sudden spike in 2012 for any systemic healthcare failures. Interestingly, no substantial correlation seems to exist between the number of reported cases and resultant deaths over these years.

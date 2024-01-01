@@ -1,8 +1,8 @@
 Dear [Recipient],
 
-I hope this email finds you well. China CDC Weekly has published the new data on the cases and deaths of notifiable infectious diseases in mainland China in 2023 August.
+I hope this email finds you well. China CDC Weekly has published the new data on the cases and deaths of notifiable infectious diseases in Chinese mainland in 2023 August.
 
-Based on the provided data for the monthly cases and deaths of different diseases in mainland China for 2023 August, here is a short list of important points to note:
+Based on the provided data for the monthly cases and deaths of different diseases in Chinese mainland for 2023 August, here is a short list of important points to note:
 
 1. Acute hemorrhagic conjunctivitis: Cases decreased by 5.09% compared to July 2023, but significantly increased by 462.06% compared to August 2022.
 
@@ -24,12 +24,11 @@ Based on the provided data for the monthly cases and deaths of different disease
 
 10. Syphilis: Cases increased by 4.84% compared to July 2023 and by 20.97% compared to August 2022. Deaths increased by 50% compared to July 2023, but decreased by 25% compared to August 2022.
 
-These points highlight the notable changes in the number of cases and deaths for certain diseases in mainland China in August 2023 compared to the previous month and the same month in the previous year.
+These points highlight the notable changes in the number of cases and deaths for certain diseases in Chinese mainland in August 2023 compared to the previous month and the same month in the previous year.
 
 The notion generated automatically, and assistant by ChatGPT. Please check the data and description carefully.
 
 Best regards,
- CNIDS
+CNIDS
 
 2023-10-25
-

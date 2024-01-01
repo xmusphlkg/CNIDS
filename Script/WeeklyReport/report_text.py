@@ -421,7 +421,7 @@ def update_markdown_file(disease, section, content, analysis_YearMonth):
 
 # table_data_str = table_data.to_markdown(index=False)
 # analysis_content = openai_analysis('gpt-4-32k', 'gpt-3.5-turbo',
-#                                   f"""Analyze the monthly cases and deaths of different diseases in mainland China for {analysis_MonthYear}. Provide a deeply and comprehensive analysis of the data.
+#                                   f"""Analyze the monthly cases and deaths of different diseases in Chinese mainland for {analysis_MonthYear}. Provide a deeply and comprehensive analysis of the data.
 #                                   You need to pay attention: select noteworthy diseases, not all diseases and using below format:
 #                                   <b>disease name:</b> analysis content. <br/><br/> <b>disease name:</b> analysis content. <br/><br/> .....
                                   

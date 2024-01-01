@@ -1,5 +1,5 @@
 Seasonal Patterns:
-Based on the provided data, a clear seasonal pattern emerges in the number of cases of Typhoid fever and paratyphoid fever in mainland China. The number of cases is higher during the summer months, specifically from June to August, and lower during the winter months, specifically from December to February.
+Based on the provided data, a clear seasonal pattern emerges in the number of cases of Typhoid fever and paratyphoid fever in Chinese mainland. The number of cases is higher during the summer months, specifically from June to August, and lower during the winter months, specifically from December to February.
 
 Peak and Trough Periods:
 Both Typhoid fever and paratyphoid fever cases peak during the summer months, specifically in July and August, when the number of cases is at its highest. Conversely, the lowest number of cases, known as trough periods, occur during the winter months, particularly in December and January.
@@ -14,4 +14,4 @@ The peak and trough periods are consistent with the seasonal patterns, with peak
 
 The overall trends indicate some variation in the number of cases throughout the years, with an initial period of increasing cases followed by fluctuating values. This suggests that efforts to control and prevent these diseases may have had an impact, but ongoing challenges remain in maintaining consistent control measures.
 
-It is important to note that this analysis is based solely on the provided data and may not encompass all factors that influence the occurrence of Typhoid fever and paratyphoid fever in mainland China. Further analysis, incorporating additional data and considering other variables, is necessary to develop a more comprehensive understanding of the trends and patterns associated with these diseases.
+It is important to note that this analysis is based solely on the provided data and may not encompass all factors that influence the occurrence of Typhoid fever and paratyphoid fever in Chinese mainland. Further analysis, incorporating additional data and considering other variables, is necessary to develop a more comprehensive understanding of the trends and patterns associated with these diseases.

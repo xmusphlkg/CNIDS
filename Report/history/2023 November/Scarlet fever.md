@@ -1,6 +1,7 @@
 ## Introduction
 
 Scarlet fever, also known as scarlatina, is an infectious disease caused by the bacterium Streptococcus pyogenes. It manifests as a distinctive pink-red rash, high temperature, sore throat, and a 'strawberry' textured tongue. Historically common in children, it's treatable with antibiotics today. The disease can spread via airborne droplets when the infected person coughs or sneezes, or through touching contaminated items. Complications may occur if left untreated, making early diagnosis essential.
+
 ## Highlights
 
 1. Seasonal Variation: Scarlet fever appears to follow a yearly cyclical pattern with peaks typically occurring from May to July and heightened incidence reported during late autumn and early winter. <br/>
@@ -11,8 +12,9 @@ Scarlet fever, also known as scarlatina, is an infectious disease caused by the 
 ## Analysis
 
 ### Cases Analysis
-Scarlet fever cases in mainland China show seasonal increase; notably during April through June and November through December. Year over year, an increase can be observed, peaking in December 2019 at 13053 cases. Shockingly, cases significantly dropped in 2020 likely due to stringent measures against COVID-19 reducing scarlet fever's spread. The curve starts to recover in 2021 with sporadic monthly cases. A significant drop is seen in January 2023, but the cases load ascends again through the subsequent months.
+
+Scarlet fever cases in Chinese mainland show seasonal increase; notably during April through June and November through December. Year over year, an increase can be observed, peaking in December 2019 at 13053 cases. Shockingly, cases significantly dropped in 2020 likely due to stringent measures against COVID-19 reducing scarlet fever's spread. The curve starts to recover in 2021 with sporadic monthly cases. A significant drop is seen in January 2023, but the cases load ascends again through the subsequent months.
 
 ### Deaths Analysis
-Despite sharp fluctuations in case numbers, the death toll remains almost consistently low. From 2010 through 2023, there are only 6 recorded deaths. This suggests effective management and treatment of scarlet fever in China, considering the contagion's potential severity. The occasional upticks in death, for instance in July 2012 and December 2013, should be regarded as rare, sporadic events in the context of the general trend of effective control and management of fatalities due to scarlet fever.
 
+Despite sharp fluctuations in case numbers, the death toll remains almost consistently low. From 2010 through 2023, there are only 6 recorded deaths. This suggests effective management and treatment of scarlet fever in China, considering the contagion's potential severity. The occasional upticks in death, for instance in July 2012 and December 2013, should be regarded as rare, sporadic events in the context of the general trend of effective control and management of fatalities due to scarlet fever.

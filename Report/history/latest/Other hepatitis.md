@@ -12,7 +12,9 @@ Other hepatitis refers to a group of infectious diseases affected by viruses, ty
 ## Analysis
 
 ### Cases Analysis
-In mainland China, the confirmed cases of Other hepatitis have revealed a consistent downward trend from 2010 to 2023. The initial reported cases were in the high neighborliness of approximately 4000 per month, with a discernible spike every March. Gradually, the numbers dwindled, most noticeably starting from 2016 onwards, with current reports showing figures lingering around the 600-700 cases per month bracket. The consistent reduction may intimate successful public health initiatives, better sanitary measures, or enhanced vaccination efforts. 
+
+In Chinese mainland, the confirmed cases of Other hepatitis have revealed a consistent downward trend from 2010 to 2023. The initial reported cases were in the high neighborliness of approximately 4000 per month, with a discernible spike every March. Gradually, the numbers dwindled, most noticeably starting from 2016 onwards, with current reports showing figures lingering around the 600-700 cases per month bracket. The consistent reduction may intimate successful public health initiatives, better sanitary measures, or enhanced vaccination efforts.
 
 ### Deaths Analysis
+
 The deaths from Other hepatitis remained significantly low throughout, with monthly tallies rarely exceeding 5 deaths, while numerous instances recorded zero fatalities. Generally, the death toll is uniformly low, comparatively irrespective of the incidence rates, indicating efficient patient care and potential advances in medical treatment procedures. Nevertheless, sporadic increments coincide with slightly elevated case figures, primarily in the earlier years of this period. Recently, month-on-month, there seems to be a significant decline - signifying further improvements in controlling the severity and managing the disease.
