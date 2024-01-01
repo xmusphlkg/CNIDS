@@ -40,7 +40,7 @@ def openai_information(model_create, model_check, user_content, disease_name, to
 
     attempt = 0
     messages_create = [{"role": "system",
-                        "content": "You are a epidemiologist."},
+                        "content": "You are an epidemiologist."},
                        {"role": "user",
                         "content": user_content}]
     while attempt < max_retries:

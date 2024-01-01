@@ -74,7 +74,7 @@ def openai_single(model_create, model_check,
 
     attempt = 0
     messages_create = [{"role": "system",
-                        "content": "You are a epidemiologist."},
+                        "content": "You are an epidemiologist."},
                        {"role": "user",
                         "content": user_content}]
     while attempt < max_retries:
@@ -120,7 +120,7 @@ def openai_mail(model_create, model_check, user_content, token = 4096, max_retri
 
     attempt = 0
     messages_create = [{"role": "system",
-                        "content": "You are a epidemiologist."},
+                        "content": "You are an epidemiologist."},
                         {"role": "user",
                         "content": user_content}]
     while attempt < max_retries:
@@ -168,7 +168,7 @@ def openai_key(model_create, model_check, user_content, token = 4096, max_retrie
 
     attempt = 0
     messages_create = [{"role": "system",
-                        "content": "You are a epidemiologist."},
+                        "content": "You are an epidemiologist."},
                         {"role": "user",
                         "content": user_content}]
     while attempt < max_retries:
@@ -251,7 +251,7 @@ def openai_abstract(model_create, model_check, user_content, token = 4096, max_r
     )
 
     attempt = 0
-    messages_create = [{"role": "system", "content": "You are a epidemiologist."},
+    messages_create = [{"role": "system", "content": "You are an epidemiologist."},
                        {"role": "user", "content": user_content}]
     while attempt < max_retries:
         content_raw = fetch_openai(model_create, client,
@@ -294,7 +294,7 @@ def bing_analysis(model_create, model_clean, model_check, user_content, max_retr
 
     attempt = 0
     messages_create = [{"role": "system",
-                        "content": "You are a epidemiologist."},
+                        "content": "You are an epidemiologist."},
                         {"role": "user",
                         "content": user_content}]
     while attempt < max_retries:
@@ -304,7 +304,7 @@ def bing_analysis(model_create, model_clean, model_check, user_content, max_retr
                                   None,
                                   max_retries, delay)
         messages_clean = [{"role": "system",
-                            "content": "You are a epidemiologist."},
+                            "content": "You are an epidemiologist."},
                             {"role": "user",
                             "content": f"""Clean the following text and generate a new summary using below format (words limited 800 - 1000):
                             <b>Summary</b>:
