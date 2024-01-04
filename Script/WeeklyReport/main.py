@@ -15,30 +15,30 @@ from sendmail import send_email_to_subscriber
 def fetch_data(existing_dates):
     sources = [
         {
-            'active': os.environ['DATA_PUBMED_ACTIVE'],
-            'label': os.environ['DATA_PUBMED_LABEL'],
-            'url': os.environ['DATA_PUBMED_URL'],
-            'origin': os.environ['DATA_PUBMED_ORIGIN'],
-            'function': os.environ['DATA_PUBMED_FUNCTION'],
+            'active': os.environ['SOURCE_PUBMED_ACTIVE'],
+            'label': os.environ['SOURCE_PUBMED_LABEL'],
+            'url': os.environ['SOURCE_PUBMED_URL'],
+            'origin': os.environ['SOURCE_PUBMED_ORIGIN'],
+            'function': os.environ['SOURCE_PUBMED_FUNCTION'],
             'results': [],
             'new_dates': []
         },
         {
-            'active': os.environ['DATA_CDC_ACTIVE'],
-            'label': os.environ['DATA_CDC_LABEL'],
-            'url': os.environ['DATA_CDC_URL'],
-            'origin': os.environ['DATA_CDC_ORIGIN'],
-            'function': os.environ['DATA_CDC_FUNCTION'],
+            'active': os.environ['SOURCE_CDC_ACTIVE'],
+            'label': os.environ['SOURCE_CDC_LABEL'],
+            'url': os.environ['SOURCE_CDC_URL'],
+            'origin': os.environ['SOURCE_CDC_ORIGIN'],
+            'function': os.environ['SOURCE_CDC_FUNCTION'],
             'results': [],
             'new_dates': []
         },
         {
-            'active': os.environ['DATA_GOV_ACTIVE'],
-            'label': os.environ['DATA_GOV_LABEL'],
-            'url': os.environ['DATA_GOV_URL'],
-            'origin': os.environ['DATA_GOV_ORIGIN'],
-            'form_data': os.environ['DATA_GOV_DATA'],
-            'function': os.environ['DATA_GOV_FUNCTION'],
+            'active': os.environ['SOURCE_GOV_ACTIVE'],
+            'label': os.environ['SOURCE_GOV_LABEL'],
+            'url': os.environ['SOURCE_GOV_URL'],
+            'origin': os.environ['SOURCE_GOV_ORIGIN'],
+            'form_data': os.environ['SOURCE_GOV_DATA'],
+            'function': os.environ['SOURCE_GOV_FUNCTION'],
             'results': [],
             'new_dates': []
         }
