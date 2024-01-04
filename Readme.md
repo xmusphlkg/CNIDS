@@ -96,7 +96,11 @@ d. `test_mail`: Whether to display the test content in email. Default: `True`.
 
 e. `send_mail`: Whether to send email. Default: `True`.
 
-4. Run Github Action.
+4. Set up config file (optional).
+
+a. [`config.yml`](./config.yml): Configuration file for data source and AI models.
+
+5. Run Github Action.
 
 ## Notice
 

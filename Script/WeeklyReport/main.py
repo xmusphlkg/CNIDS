@@ -1,17 +1,79 @@
 
-# Importing libraries
 import re
 import os
 from datetime import datetime
 import pandas as pd
 import glob
+import yaml
+import ast
 
-# import functions from function.py
-from function import get_rss_results, get_gov_results, get_cdc_results
-from function import process_table_data
+from function import get_rss_results, get_gov_results, get_cdc_results, process_table_data
 from analysis import generate_weekly_report
-from function import find_max_date
 from sendmail import send_email_to_subscriber
+
+# fetch data from setting
+def fetch_data(existing_dates):
+    sources = [
+        {
+            'active': os.environ['DATA_PUBMED_ACTIVE'],
+            'label': os.environ['DATA_PUBMED_LABEL'],
+            'url': os.environ['DATA_PUBMED_URL'],
+            'origin': os.environ['DATA_PUBMED_ORIGIN'],
+            'function': os.environ['DATA_PUBMED_FUNCTION'],
+            'results': [],
+            'new_dates': []
+        },
+        {
+            'active': os.environ['DATA_CDC_ACTIVE'],
+            'label': os.environ['DATA_CDC_LABEL'],
+            'url': os.environ['DATA_CDC_URL'],
+            'origin': os.environ['DATA_CDC_ORIGIN'],
+            'function': os.environ['DATA_CDC_FUNCTION'],
+            'results': [],
+            'new_dates': []
+        },
+        {
+            'active': os.environ['DATA_GOV_ACTIVE'],
+            'label': os.environ['DATA_GOV_LABEL'],
+            'url': os.environ['DATA_GOV_URL'],
+            'origin': os.environ['DATA_GOV_ORIGIN'],
+            'form_data': os.environ['DATA_GOV_DATA'],
+            'function': os.environ['DATA_GOV_FUNCTION'],
+            'results': [],
+            'new_dates': []
+        }
+    ]
+
+    for source in sources:
+        active = source['active']
+        label = source['label']
+        if active == 'False':
+            print(f"{label} is not active, try next one.")
+            continue
+
+        url = source['url']
+        origin = source['origin']
+        get_results = globals()[source['function']]
+
+        if 'form_data' in source:
+            form_data = ast.literal_eval(source['form_data'])
+            results = get_results(url, form_data, label, origin)
+        else:
+            results = get_results(url, label, origin)
+
+        new_dates = [result['YearMonth'] for result in results if result['YearMonth'] not in existing_dates and result['YearMonth'] not in source['new_dates']]
+        if not new_dates:
+            print(f"No new data in {label}, try next one.")
+        else:
+            source['results'] = [result for result in results if result['YearMonth'] in new_dates]
+            source['new_dates'] = new_dates
+            print(f"Find new data in {label}: {new_dates}")
+
+    results = [result for source in sources for result in source['results']]
+    new_dates = list(set([date for source in sources for date in source['new_dates']]))
+    current_date = datetime.now().strftime("%Y%m%d")
+
+    return results, new_dates, current_date
 
 # set working directory
 os.chdir("./Data/GetData")
@@ -20,38 +82,18 @@ os.chdir("./Data/GetData")
 folder_path = "WeeklyReport/"  # file path
 existing_dates = [os.path.splitext(file)[0] for file in os.listdir(folder_path) if os.path.isfile(os.path.join(folder_path, file))]
 
-results = []
-# Get data from pubmed
-# url = "https://pubmed.ncbi.nlm.nih.gov/rss/search/1tQjT4yH2iuqFpDL7Y1nShJmC4kDC5_BJYgw4R1O0BCs-_Nemt/?limit=100&utm_campaign=pubmed-2&fc=20230905093742"
-# results_pubmed = get_rss_results(url)
-# new_dates_pubmed = [result['YearMonth'] for result in results_pubmed if result['YearMonth'] not in existing_dates]
-# if len(new_dates_pubmed) == 0:
-#     print("No new data in the Pubmed RSS feed, try China CDC Weekly website.")
-# else:
-#     results_pubmed = [result for result in results_pubmed if result['YearMonth'] in new_dates_pubmed]
-#     results = results_pubmed
+# get environment from config.yml
+with open('../../config.yml', 'r') as file:
+    config_dict = yaml.safe_load(file)
+for section, subsections in config_dict.items():
+    for key, subvalues in subsections.items():
+        for subkey, value in subvalues.items():
+            if isinstance(value, str):
+                env_var_name = f"{section.upper()}_{key.upper()}_{subkey.upper()}"
+                os.environ[env_var_name] = value
 
-# Get data from cdc weekly
-results_cdc = get_cdc_results()
-new_dates_cdc = [result['YearMonth'] for result in results_cdc if result['YearMonth'] not in existing_dates]
-if not new_dates_cdc:
-    print("No new data in the China CDC weekly website, try National Disease Control and Prevention Administration.")
-else:
-    results.extend([result for result in results_cdc if result['YearMonth'] in new_dates_cdc])
-
-# Get data from gov
-results_gov = get_gov_results()
-new_dates_gov = [result['YearMonth'] for result in results_gov if result['YearMonth'] not in existing_dates and result['YearMonth'] not in new_dates_cdc]
-if not new_dates_gov:
-    print("No new data in the National Disease Control and Prevention Administration, stop.")
-else:
-    results.extend([result for result in results_gov if result['YearMonth'] in new_dates_gov])
-
-new_dates = list(set(new_dates_cdc + new_dates_gov))
-print(results)
-
-# get current date
-current_date = datetime.now().strftime("%Y%m%d")
+# Call the function to fetch data
+results, new_dates, current_date = fetch_data(existing_dates)
 
 if new_dates:
     print("Find new data, update.")
@@ -76,41 +118,26 @@ if new_dates:
     merged_data = merged_data.sort_values(by=["Date", "Diseases"], ascending=False)
     first_row = merged_data.iloc[0]
     year_month = first_row["YearMonth"]
-
-    # convert to a DataFrame
     merged_data = merged_data[['Date', 'YearMonthDay', 'YearMonth', 'Diseases', 'DiseasesCN', 'Cases', 'Deaths', 'Incidence', 'Mortality', 'ProvinceCN', 'Province', 'ADCode', 'DOI', 'URL', 'Source']]
 
     # get the unique values of diseases
     disease_unique = merged_data['Diseases'].unique()
-    # remove 'Total'
-    # disease_unique = [d for d in disease_unique if "Total" not in d]
-
-    # get the unique values of date
     YearMonth_unique = merged_data['YearMonth'].unique()
 
     # save the merged data to a CSV file
     for YearMonth in YearMonth_unique:
-        # filter the data by date
         date_data = merged_data[merged_data['YearMonth'] == YearMonth]
-        # if no data, skip
         if date_data.empty:
             continue
-        # save the data to a CSV file
         file_name = '..' + '/CleanData/WeeklyReport/ALL/' + YearMonth + '.csv'
         date_data.to_csv(file_name, index=False, encoding="UTF-8-sig")
         # save the data to a CSV file for each disease
         for disease in disease_unique:
-            # filter the data by disease
             disease_date_data = date_data[date_data['Diseases'] == disease]
-            # print(disease_date_data)
-            # if no data, skip
             if disease_date_data.empty:
                 continue
-            # convert the disease name to title case
             disease = disease.title()
-            # save the data to a CSV file
             file_name = '..' + '/CleanData/WeeklyReport/' + disease + '/' + YearMonth + '.csv'
-            # create the folder if not exist
             if not os.path.exists('..' + '/CleanData/WeeklyReport/' + disease):
                 os.makedirs('..' + '/CleanData/WeeklyReport/' + disease)
             disease_date_data.to_csv(file_name, index=False, encoding="UTF-8-sig")
@@ -149,6 +176,6 @@ if new_dates:
         send_email_to_subscriber(test_mail)
 
     # print success message
-    print("CDCWeekly Data updated successfully!")
-
-
+    print("Data updated successfully!")
+else:
+    print("No new data, stop.")

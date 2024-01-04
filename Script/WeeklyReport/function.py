@@ -41,24 +41,14 @@ def find_max_date(YearMonths):
     max_date_str = max_date.strftime("%Y %B")
     return max_date_str
 
-# define a function to get Pubmed RSS results
-def get_rss_results(url):
-    """
-    get RSS results from the URL
-
-    Args:
-        url (str): RSS URL
-    Raises:
-        Exception: Failed to fetch RSS results. Status code: {response.status_code}
-    Returns:
-        list: RSS results
-    """
+# define a function to get PubMed RSS results
+def get_rss_results(url, label, origin):
     # Send request and get response
     response = requests.get(url)
 
     # Check response status code
     if response.status_code != 200:
-        raise Exception("Failed to fetch RSS results. Status code: {}".format(response.status_code))
+        raise Exception(f"Failed to fetch {label} results. Status code: {response.status_code}")
 
     # Parse XML results
     rss_results = xmltodict.parse(response.content)
@@ -77,8 +67,8 @@ def get_rss_results(url):
             "YearMonthDay": formatted_date,
             "YearMonth": date,
             "doi": item["dc:identifier"],
-            "source": 'pubmed',
-            "origin": "EN"
+            "source": label,
+            "origin": origin
         })
 
     # Sort by date
@@ -91,18 +81,18 @@ def get_rss_results(url):
 
 # define a function to get china cdc weekly results
 
-def get_cdc_results(url="https://weekly.chinacdc.cn"):
+def get_cdc_results(url, label, origin):
     # Send an HTTP request to get the webpage content
     response = requests.get(url)
+
+    # Check response status code
+    if response.status_code != 200:
+        raise Exception(f"Failed to fetch {label} results. Status code: {response.status_code}")
+
+    # Parse HTML results
     html_content = response.text
-
-    # Use BeautifulSoup to parse the webpage content
     soup = BeautifulSoup(html_content, "html.parser")
-
-    # Find all <a> tags
     a_tags = soup.find_all("a")
-
-    # Create a list to store the results
     result_list = []
 
     # Traverse each <a> tag, extract text and link
@@ -110,11 +100,9 @@ def get_cdc_results(url="https://weekly.chinacdc.cn"):
         text = a_tag.text.strip()
         link = a_tag.get("href")
         if link and "doi" in link and "National Notifiable Infectious Diseases" in text:
-            # Extract the date from the text
             date = extract_date(re.sub(r"[^\w\s-]", "", text))
             date_obj = datetime.strptime(date, "%Y %B")
             formatted_date = date_obj.strftime("%Y/%m/%d")
-            # Split the link by "doi/" to get the doi
             doi = link.split("doi/")[1]
             result_list.append({
                 "title": text,
@@ -123,31 +111,24 @@ def get_cdc_results(url="https://weekly.chinacdc.cn"):
                 "YearMonth": date,
                 "link": url + link,
                 "doi": ['missing', 'missing', 'doi:' + doi],
-                "source": 'chinacdc',
-                "origin": "EN"
+                "source": label,
+                "origin": origin
             })
 
-    # Remove duplicate results
     result_list = list({v['link']: v for v in result_list}.values())
-
     return result_list
 
-def get_gov_results(url="https://www.ndcpa.gov.cn"):
+def get_gov_results(url, form_data, label, origin):
     # Send a request and get the response
-    form_data = {
-    'current': '1',
-    'pageSize': '10',
-    'webSiteCode[]': 'jbkzzx',
-    'channelCode[]': 'c100016'
-    }
-    response = requests.post(url + "/queryList", data=form_data)
+    response = requests.post(url, data=form_data)
     if response.status_code != 200:
-        print(url)
-        raise Exception("Failed to fetch web content, status code: {}".format(response.status_code))
-    else:
-        print("Successfully fetched web content, urls: {}".format(url))
+        raise Exception(f"Failed to fetch {label} results. Status code: {response.status_code}")
 
-    # Get all url
+    # Check if the response contains data
+    if response.json()['data']['results'] == []:
+        raise Exception(f"Failed to fetch {label} results. No data returned.")
+    
+    # Extract results
     titles = [response.json()['data']['results'][i]['source']['title'] for i in range(10)]
     links = [response.json()['data']['results'][i]['source']['urls'] for i in range(10)]
 
@@ -167,14 +148,12 @@ def get_gov_results(url="https://www.ndcpa.gov.cn"):
                 "YearMonth": date,
                 "link": link,
                 "doi": ['missing', 'missing', 'missing'],
-                "source": "gov",
-                "origin": "CN"
+                "source": label,
+                "origin": origin
             })
     return result_list
 
-
 # define a function to get table data from URLs
-
 def get_table_data(url):
     # Send a request and get the response
     response = requests.get(url)

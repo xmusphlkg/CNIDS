@@ -558,11 +558,17 @@ def add_page_number(canvas, doc, total_num):
         canvas.restoreState()
 
 def content_clean(content):
+    # Replace <br> with <br/> and remove new lines
     content = content.replace('<br>', '<br/>').replace('\n', '<br/>')
-    content = re.compile(r'(?i)<(?!br\s*/?>|/?b>)[^>]+>').sub('', content)
-    content = re.compile(r'(?i)(<br\s*/?>)+').sub('<br/>', content)
-    content = re.compile(r'^(<br\s*/?>)+').sub('', content)
-    content = markdown.markdown(content)
+    # Remove HTML tags but preserve the numbered list
+    numbered_list_pattern = re.compile(r'(\d+\.\s)')
+    parts = numbered_list_pattern.split(content)
+    cleaned_parts = [re.sub(r'(?i)<(?!br\s*/?>)[^>]+>', '', part) for part in parts]
+    content = ''.join(cleaned_parts)
+
+    # Remove extra <br/> tags
+    content = re.sub(r'(?i)(<br\s*/?>){2,}', '<br/>', content)
+    # content = markdown.markdown(content)
     return content
 
 def add_news(elements, content, analysis_MonthYear, location, styles):

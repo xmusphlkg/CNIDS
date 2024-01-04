@@ -30,16 +30,6 @@ def generate_weekly_report(analysis_YearMonth):
     diseases = table_data['Diseases'].tolist()
     print(diseases_order)
 
-    # get environment from model.yml
-    with open('../model.yml', 'r') as file:
-        config_dict = yaml.safe_load(file)
-    for section, subsections in config_dict.items():
-        for key, subvalues in subsections.items():
-            for subkey, value in subvalues.items():
-                if isinstance(value, str):
-                    env_var_name = f"{section.upper()}_{key.upper()}_{subkey.upper()}"
-                    os.environ[env_var_name] = value
-
     # create mail table
     create_mail_table(table_data, analysis_YearMonth)
 

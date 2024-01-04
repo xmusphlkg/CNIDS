@@ -1,3 +1,24 @@
+# setting for data source
+Source:
+  PubMed:
+    Active: 'True'
+    Label: 'Pubmed Data'
+    Url: 'https://pubmed.ncbi.nlm.nih.gov/rss/search/1tQjT4yH2iuqFpDL7Y1nShJmC4kDC5_BJYgw4R1O0BCs-_Nemt/?limit=100&utm_campaign=pubmed-2&fc=20230905093742'
+    Origin: 'EN'
+    Function: 'get_rss_results'
+  CDC:
+    Active: 'True'
+    Label: 'CDC Data'
+    Url: 'https://weekly.chinacdc.cn'
+    Origin: 'EN'
+    Function: 'get_cdc_results'
+  GOV:
+    Active: 'True'
+    Label: 'GOV Data'
+    Url: 'https://www.ndcpa.gov.cn/queryList'
+    Data: "{'current': '1', 'pageSize': '10','webSiteCode[]': 'jbkzzx','channelCode[]': 'c100016'}"
+    Origin: 'CN'
+    Function: 'get_gov_results'
 # setting for model
 Data:
   translate:
