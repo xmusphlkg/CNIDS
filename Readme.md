@@ -16,8 +16,8 @@ The primary objective of the CNIDS project is to establish an efficient infectio
 
 ### **Dynamic Surveillance**
 
-1. After data updates, use ChatGPT-3.5 to automatically generate [reports](./Report).
-2. After report generation, ChatGPT-3.5 automatically generates email content (including data update information and important highlights), sends email notifications to subscribed users, and attaches the report as an attachment.
+1. After data updates, use AI to automatically generate [reports](./Report).
+2. After report generation, AI automatically generates email content (including data update information and important highlights), sends email notifications to subscribed users, and attaches the report as an attachment.
 
 [Subscribe|Unsubscribe](https://forms.office.com/r/V6vH7rRfeq)
 
