@@ -1,16 +1,16 @@
 ## Introduction
 
-Plague is a severe, potentially fatal infectious disease caused by the bacterium Yersinia pestis. It primarily affects rodents such as rats and can spread to humans via flea bites or handling infected animals. Plague is infamous for causing the "Black Death" in the Middle Ages, killing millions. It typically presents in three forms: Bubonic, septicemic, and pneumonic, each with varying symptoms and levels of severity. Despite its historical significance, plague is now rare and treatable with antibiotics if caught early.
+Plague is a deadly infectious disease caused by the bacterium Yersinia pestis. It's primarily transmitted through the bites of infected fleas, typically found on small mammals, particularly rats. There are three forms: bubonic, pneumonic, and septicemic. Common symptoms include fever, weakness, and swollen lymph nodes. It's infamous for the Black Death in the 14th century, killing about a third of Europe's population. Today it's rare and treatable with antibiotics if caught early, however if left untreated, the mortality rate is high.
 ## Highlights
 
-- Plague occurrences in China mainland are sporadic, with a small number of cases each year and occasional deaths. <br/>
-- A slight increase in cases occurred in 2019 November (4 cases) and in 2023 August (4 cases, 1 death), indicating potential sporadic outbreaks. <br/>
-- Mortality associated with reported plague cases is inconsistent, suggesting variability in the detection, reporting, or effectiveness of treatment interventions over time. <br/>
-- The latest data from 2023 November show a single case with no associated death, pointing to continued surveillance and response efforts. <br/>
+- Sporadic cases of plague with occasional fatalities reported in the Chinese mainland over the last decade, with no large outbreaks. <br/>
+- Cases are infrequent and isolated, but a 100% case-fatality rate in some instances suggests possible delays in diagnosis or treatment. <br/>
+- Recent data for August 2023 shows a slight increase in cases (4 cases with 1 death), indicating potential localized transmission that warrants further monitoring. <br/>
+- As of November 2023, a single case without fatality suggests that the situation remains under control but requires continuous surveillance. <br/>
 ## Analysis
 
 ### Cases Analysis
-The data indicates sporadic plague cases in the Chinese mainland from 2010 to 2023, with a total of 22 instances reported in this period. The cases are few and isolated, with occurrences in June, September, October, and August of various years. The highest number of cases in a single month was recorded in November 2019, with 4 cases. The overall trend suggests infrequent outbreaks with no apparent seasonal pattern, reflecting rare transmissions or limited reporting.
+Over the span of nearly 14 years, mainland China reported a total of 22 cases of plague, with a generally sporadic incidence. The cases are distributed unevenly across the years with no discernible temporal pattern or trend indicating a consistent rise or fall. Noteworthy is the relative increase in cases in 2019 and a subsequent peak observed in August 2023, suggesting a potential cluster or outbreak. The majority of years saw no cases, highlighting the rarity of the disease's occurrence.
 
 ### Deaths Analysis
-There were a total of 11 deaths from plague between 2010 and 2023, signifying a roughly 50% case fatality rate. The majority of years recorded zero deaths, with the maximum in a single month being 2, observed in October 2014 and August 2020. Deaths occurred in months with reported cases but were not consistent across all reporting months, indicating variable outcomes of infection severity and effectiveness of medical interventions applied upon infection identification.
+During the same period, there were a total of 8 deaths due to plague, yielding a case-fatality ratio of about 36.36%. Deaths occurred in 7 out of the 22 cases indicating that while incidents of plague are infrequent, the outcome can be severe. Sporadic fatalities are noted, with no deaths reported in most years but spikes in mortality in June 2010, September 2011, 2014, and most recently in August 2023, which corresponded with the peak in cases for those specific periods.

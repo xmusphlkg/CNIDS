@@ -1,16 +1,16 @@
 ## Introduction
 
-Human infection with H7N9 virus, a subtype of influenza A virus, primarily occurs through exposure to infected poultry or contaminated environments. H7N9 is capable of causing severe disease, including pneumonia and acute respiratory distress syndrome (ARDS). Since its first reported human infections in China in 2013, H7N9 outspread has significantly impacted public health. While human-to-human transmission is rare, there is concern about the virus's potential to mutate and gain this capability, posing a pandemic risk. Evidence suggests that the virus does not readily infect humans, making surveillance critical.
+H7N9 is a subtype of influenza virus that has been detected in birds in the past. This particular strain had never before been found in humans until it was reported in China in March 2013. Human infection with H7N9 virus is characterized by fevers, severe and often progressive pneumonia, and acute respiratory distress syndrome. Transmission typically occurs through direct contact with infected poultry or contaminated environments. Antiviral treatment is most effective when initiated early, but the virus can be resistant to these drugs.
 ## Highlights
 
-- Peak incidence of human H7N9 virus infections occurred during the winter and spring of 2013–2017, with a notable spike in cases and deaths in early 2017.<br/>
-- Since February 2017, there has been a significant and sustained decrease in cases and mortality, with no cases reported since March 2019.<br/>
-- This downward trend culminates in zero reported cases and deaths from H7N9 in China from January 2021 through November 2023.<br/>
-- Such data suggest successful control measures have been implemented, and/or the virus has become less transmissible to humans, although continued surveillance is essential.<br/>
+- A significant peak in human cases of H7N9 was observed during the winters of 2013 to 2017, with the highest incidence in January 2017 (192 cases) followed by a high mortality rate (79 deaths). <br/>
+- After the 2017 surge, there has been a marked decline in both cases and deaths, with only sporadic cases reported in 2019 and none thereafter up to the current date of November 2023. <br/>
+- The current disease situation, as of November 2023, indicates no reported cases or deaths, suggesting effective control measures or potential changes in the virus's transmissibility to humans. <br/>
+- Continued surveillance and research are necessary to maintain this state of no reported cases and to prevent potential future outbreaks of the H7N9 virus. <br/>
 ## Analysis
 
 ### Cases Analysis
-H7N9 virus exhibited significant seasonality and intermittent peaks in reported cases in Chinese mainland. Cases surged from January 2014, peaking in the same year's February with 99 cases then declined. Notable spikes occurred annually during winter-spring periods, with the highest recorded in 2017 January (192 cases). Post-2017, cases steeply diminished, recalling control measures and possible shifts in viral patterns, leading to no reported cases from May 2019 onward, signaling effective containment or reporting changes.
+From 2013 to 2017, Chinese mainland reported cases of H7N9 with a notable peak in 2017, reaching 192 cases in January and declining thereafter. The highest incidence occurred during the winter and spring months, aligning with increased influenza activity. After a steep decline post-2017, no cases have been reported since April 2019. This suggests that intervention measures may have been effective, or the virus may have undergone changes diminishing its impact on humans.
 
 ### Deaths Analysis
-The fatality pattern mirrors case surges with a lag, highlighting a consequential mortality associated with H7N9. The mortality rate peaked in February 2014 (41 deaths) and further escalated until 2017, with an apex in January (79 deaths), exceeding morbidity peaks. Marked seasonality suggests higher lethality during the cold season, potentially due to enhanced viral virulence or host susceptibility. A drastic mitigation in deaths is visible from mid-2017 forward, paralleling the case trend and suggesting effective intervention or viral evolution resulting in reduced fatality.
+The fatality trend closely follows the incidence curve, with the highest number of deaths (79) also recorded in January 2017. The case-fatality ratio (CFR) was particularly high during the 2014 March outbreak, where 100% of reported cases resulted in death. The last reported death was in April 2019. The absence of cases and deaths post-April 2019 indicates successful containment or potential underreporting. Peak mortality also occurred in colder months, which might reflect higher virus survival and transmission rates.
