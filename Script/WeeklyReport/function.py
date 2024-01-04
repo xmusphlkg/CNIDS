@@ -10,6 +10,7 @@ from datetime import datetime
 import variables
 import json
 from io import StringIO
+from urllib.parse import urljoin
 from report_text import openai_trans
 
 # define a function to extract date from text
@@ -140,7 +141,7 @@ def get_gov_results(url, form_data, label, origin):
             date_obj = datetime.strptime(date, "%Y %B")
             formatted_date = date_obj.strftime("%Y/%m/%d")
             link = json.loads(link).get('common')
-            link = url + link
+            link = urljoin(url, link)
             result_list.append({
                 "title": title,
                 "date": date_obj,
