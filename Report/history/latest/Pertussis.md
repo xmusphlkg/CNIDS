@@ -1,20 +1,16 @@
 ## Introduction
 
-Pertussis, commonly known as whooping cough, is a highly contagious bacterial infection caused by Bordetella pertussis. It is characterized by severe coughing spells that can make it hard to breathe, hence the "whooping" sound when gasping for air. The disease primarily affects infants and young children and can be fatal, particularly in infants under 1 year of age. Vaccination is the most effective way of prevention. Despite being preventable, pertussis remains a significant public health concern globally.
-
+Pertussis, also known as whooping cough, is a highly contagious bacterial infection. It is caused by Bordetella pertussis and is characterized by severe coughing spells that can make it difficult to breathe. The cough often ends with a "whoop" sound when the person breathes in. Pertussis is a vaccine-preventable disease, yet remains a significant health concern, particularly for infants and young children who are either unvaccinated or incompletely vaccinated. Recovery can be slow and complications can include pneumonia, encephalopathy, and death in severe cases.
 ## Highlights
 
-1. Increase in Pertussis Cases: There has been a clear trend of increasing Pertussis cases over the years. The total case count jumped from 88 in January 2010 to 6410 in November 2023.<br/>
-2. Seasonal Spike: There is a noticeable seasonal trend, with case peaks usually in summer months, particularly between June and August.<br/>
-3. Mortality Rate: The mortality rate remains relatively low, but saw a slight increase in November 2023 with 2 reported deaths – the highest in the provided data set.<br/>
-4. Recent surge: Recent data (2021 – 2023) shows a significant resurgence of the disease after a downturn in 2020. This may suggest the inadequacy of current disease control measures in place.<br/>
-
+- A gradual increase in pertussis cases was observed in the Chinese mainland from 2010 to 2023, with a significant surge in numbers beginning from 2017 onwards. <br/>
+- The highest reported number of cases in a single month occurred in November 2023 with 6,410 cases, indicating that pertussis is becoming more prevalent or reporting has become more robust. <br/>
+- Despite the rise in cases, the mortality rate remained low, with only a few recorded deaths per year, showing potential effectiveness in clinical management and treatment. <br/>
+- Notably, there was a notable decrease in cases in 2020, possibly due to pandemic-related restrictions or changes in healthcare-seeking behavior during that period. <br/>
 ## Analysis
 
 ### Cases Analysis
-
-The data exhibits an overall increasing trend in Pertussis cases reported in Chinese mainland over the designated period (2010-2023). The cases have risen from modest numbers averaging 100-200 cases in the initial years to notable jumps to thousands per month in more recent periods with a peak reached in November 2023, reporting 6410 cases. Seasonally, noticeable spikes in reported cases typically coincide with summer months (June-August), which might possibly associate to climatic or behavioral factors affecting disease incidence.
+A steady increase in pertussis cases was observed in the Chinese mainland from 2010 to 2023. Initial average monthly cases hovered around 150, with a gradual rise year-over-year. Noticeable spikes occurred each summer, reaching peak levels in November 2023 with 6410 cases. The trend indicates seasonality, with higher transmission in warmer months. A significant leap in cases began in 2017, escalating further by 2023. Data also shows a sharp drop in early 2020, likely due to stringent measures during the COVID-19 pandemic.
 
 ### Deaths Analysis
-
-The number of deaths associated with Pertussis in Chinese mainland remains relatively low and scattered across the evaluated duration. The larger number of reported deaths does not necessarily align with the months of higher recorded case numbers, suggesting an irregular pattern. While the majority of months report no deaths, there is a notable rise in frequency of reported deaths starting from 2014. However, the death counts remained sporadic, with monthly deaths seldom exceeding a single case, but reaching a peak of two deaths in November 2023.
+Mortality due to pertussis in the Chinese mainland remained rare from 2010 to 2023, with just 13 reported deaths over 13 years. Deaths were sporadic, with years like 2015 and 2018 having only 1 recorded death each, despite high case numbers. The highest number of fatalities documented was in November 2023, with 2 deaths. This suggests that while incidence rates rose, the case-fatality rate remained low, potentially reflecting improved healthcare access, vaccination, or disease reporting. Nonetheless, the threat of fatalities remains, underscoring the need for continued vigilance and immunization efforts.

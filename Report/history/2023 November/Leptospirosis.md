@@ -1,20 +1,16 @@
 ## Introduction
 
-Leptospirosis is a bacterial zoonotic disease caused by the bacterium Leptospira. It primarily affects animals, but humans can contract the disease through contact with urine from infected animals or a contaminated environment. The infection may result in mild flu-like symptoms, severe symptoms like kidney damage, liver failure, or even death. The prevalence of Leptospirosis varies globally, with frequent occurrences in tropical and subtropical regions due to favorable conditions for Leptospira survival.
-
+Leptospirosis is a bacterial disease that affects humans and animals. It's caused by bacteria of the genus Leptospira and can lead to severe health problems like kidney damage, meningitis, liver failure, and respiratory complications. The bacteria often reside in animal urine and can be transmitted to humans through contact with contaminated water or soil. It is commonly found in humid, subtropical climates or areas with a high rainfall. Symptoms include high fever, severe headache, muscle pain, and may also lead to vomiting. It's typically treated with antibiotics.
 ## Highlights
 
-1. The yearly incidence of Leptospirosis shows a seasonal pattern with a spike in cases during the summer months and early autumn (June to October).<br/>
-2. The death count remained relatively low over the years with an occasional increase during autumn months, suggesting that while more people contract the disease during this period, the resulting mortality rate is relatively marginal.<br/>
-3. In recent years (2021-2023), there is a slightly increasing trend in Leptospirosis cases, though the number of deaths has remained steady.<br/>
-4. As of November 2023, the situation remains consistent with previous years, with a decline in cases expected in the following months due to seasonal trends.<br/>
-
+- Seasonal trends in Leptospirosis cases are evident, with a peak typically occurring between July and October each year, which corresponds to the warmer and wetter months conducive to bacterial spread. <br/>
+- There is an overall stability in the number of reported cases over the years, with no significant long-term increase or decrease, suggesting that risk factors and disease transmission dynamics remain constant. <br/>
+- Mortality associated with Leptospirosis in Chinese mainland is relatively low, with deaths occasionally reported but not consistent across all peak periods, indicating potentially effective clinical management and treatment regimes. <br/>
+- The data for November 2023 indicates a total of 25 cases with no deaths, aligning with the expected decline in cases toward the end of the year as temperatures cool. <br/>
 ## Analysis
 
 ### Cases Analysis
-
-Leptospirosis case data from Chinese mainland shows distinct seasonality, with cases peaking annually during the late Summer and Autumn months (August to October), indicating a potential linkage with agricultural activities and/or favorable environmental conditions. From 2010, while the overall cases fluctuated year by year, there seems to be a decreasing trend towards 2023, showing notable strides in public health intervention. Notable spikes occurred in 2010 and 2012 - further investigation is warranted to understand these anomalies.
+From 2010 to 2023, the data for Leptospirosis in the Chinese mainland demonstrates a seasonal pattern with higher incidence typically peaking between July and October each year. This may correlate with the warmer and wetter months, which are conducive to the bacteria's transmission. Notable surges occurred in the years 2010, 2012, 2013, 2014, and 2020, with September often exhibiting the highest number of cases. The subsequent years show a general decline in cases, although fluctuations are evident. The trend indicates the potential impact of preventive public health measures and improved awareness.
 
 ### Deaths Analysis
-
-Death rates have remained consistently low, the highest number occurring in September 2020 with seven fatalities. There appears to be a loose correlation between case numbers and death figures, with the annual pattern of potential fatalities also following the late Summer to Autumn prevalence. This suggests efficient medical intervention. However, the death occurrence in months like February 2011, despite lower case incidents, indicates the disease's unpredictability and the need for continued surveillance and healthcare resource allocation.
+Leptospirosis mortality remained relatively low from 2010 to 2023, but sporadic increases in deaths highlight periods of higher virulence or potentially larger outbreaks. The data shows lethal cases occurring mainly in the peak transmission months. The years 2010, 2014, 2019, and 2020 witnessed marginally higher fatalities, with the highest being seven deaths in September and October of 2010. The mortality rate oscillates with some years like 2011, 2012, 2017, 2018, and 2022 seeing near to no deaths, suggesting that while outbreaks do occur, the overall fatality risk associated with Leptospirosis in this region may be contained effectively.

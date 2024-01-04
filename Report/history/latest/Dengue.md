@@ -1,20 +1,17 @@
 ## Introduction
 
-Dengue is a mosquito-borne viral disease prevalent in tropical and subtropical regions around the world. It is caused by the Dengue virus, which can manifest in varying degrees of illness, with severe forms causing hemorrhagic fever. Symptoms appear 4-10 days after the bite of an infected mosquito and can include fever, headache, rash, and joint and muscle pain. There is no specific treatment for Dengue, but early detection and proper medical care can help manage the symptoms.
+Dengue is a mosquito-borne viral infection causing a severe flu-like illness and, sometimes causing a potentially lethal complication called severe dengue. The global prevalence of dengue has grown dramatically in recent decades. About half of the world's population is now at risk. Dengue is found in tropical and sub-tropical climates worldwide, mostly in urban and semi-urban areas. There are four distinct, but closely related, serotypes of the virus that cause dengue. Recovery from infection by one provides lifelong immunity against that particular serotype. However, cross-immunity to the other serotypes is partial and temporary.
 
 ## Highlights
 
-1. There is a significant seasonality aspect to Dengue spread, with elevated case numbers annually observed in the months from July to November. <br/>
-2. Major outbreak years since 2010 were 2013, 2014, 2017, 2018, and 2019, with 2014 presenting the highest peak in recorded cases, numbering up to 28,796 in October. <br/>
-3. While Dengue cases reduced significantly from 2020 to 2022, 2023 registered an unexpected increase in the incidence, especially in the months from July to October. <br/>
-4. The number of deaths remained very low compared to the total cases, suggesting effective public health care and management of severe infections. <br/>
-
+- Periodic fluctuations are observed, with peak case numbers typically occurring during the warmer months (July to October), suggesting a seasonal pattern of transmission. <br/>
+- Since 2010, there has been a general upward trend in the number of cases, with particularly large outbreaks in 2014 and 2019. <br/>
+- The number of deaths remains low compared to the total number of cases, indicating that while the virus is widespread, the case-fatality rate is low. <br/>
+- The recent data from 2023 demonstrate a significant outbreak with 16,785 cases reported from July to November, but with only one death, reinforcing the maintained low case-fatality rate. <br/>
 ## Analysis
 
 ### Cases Analysis
-
-The data indicates variable degrees of Dengue fever incidence in Chinese mainland from 2010 to 2023. The reported cases are generally low during winter and early spring, attributed to decreased mosquito activity in cold months. There's a noticeable uptrend in Dengue cases from 2010 to 2014, followed by ebbs and flows in the subsequent years. This cyclical pattern of increase and decrease over years is often observed in mosquito-borne diseases due to the interplay between population immunity, vector population, and climatic factors. 2022 notably recorded a lower incidence, while 2023 witnessed a major outbreak in mid-year.
+Dengue cases in the Chinese mainland presented seasonal peaks typically in the warmer months, with significant outbreaks observed in years such as 2013, 2014, and 2019. The largest monthly case count was recorded in October 2014 with 28,796 cases. A notable dip in cases began in 2020, coinciding with COVID-19 pandemic interventions, suggesting possible impacts on vector control or reporting practices. The upward trend in late summers, as seen in the visibly alarming rise in July and August 2023, emphasizes the importance of proactive vector surveillance and control measures during these high-risk periods.
 
 ### Deaths Analysis
-
-Overall, the fatality rate of Dengue fever incidents in Chinese mainland is minimal throughout the recorded period, suggestive of effective clinical management. However, a total of 10 deaths were reported from 2012 to 2023, with a peak in 2014 suggesting intensified disease activity or compromised healthcare delivery in this period. It's noteworthy that the fatality rate didn't significantly increase in 2023, the year with the highest number of cases, indicating possible improvements in disease surveillance, patient management, and community response. Yet, continuous vigilance is crucial to maintain and improve this trend.
+Dengue-related fatalities in the Chinese mainland were remarkably low despite high case numbers, reflecting effective clinical management and possibly low virulence strains. Deaths were sporadic, with a slight increase in mortality observed in September 2012, September 2014, October 2019, and December 2018. The sole death reported in September 2023 amidst an outbreak of over 6,000 cases further underscores the health system’s capacity to manage severe dengue outcomes. Continuous improvements in healthcare, alongside public health strategies to reduce transmission, likely contributed to the low mortality rates.

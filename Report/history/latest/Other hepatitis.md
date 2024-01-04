@@ -1,20 +1,16 @@
 ## Introduction
 
-Other hepatitis refers to a group of infectious diseases affected by viruses, typically hepatitis A, B, C, D, and E. These viruses cause inflammation in the liver, impairing its function, and present symptoms such as jaundice, abdominal pain, and fatigue. While hepatitis A and E are generally spread through contaminated food or water, hepatitis B, C, and D are primarily transmitted through infected blood and bodily fluids. Chronic hepatitis can lead to serious health conditions such as liver cirrhosis or cancer. Vaccinations are available for certain types of hepatitis.
-
+Other hepatitis refers to inflammation of the liver caused by agents other than the five known hepatitis viruses (A, B, C, D, E). This includes but is not limited to: autoimmune hepatitis, alcoholic hepatitis, steatohepatitis, and drug-induced hepatitis. These forms of hepatitis can cause damage and scarring to the liver, potentially leading to serious complications such as liver cirrhosis or liver cancer. The symptoms, treatment, and prognosis vary greatly depending on the specific type and severity of the hepatitis.
 ## Highlights
 
-- There is a significant downward trend in reported hepatitis cases from 2010 (avg ~4,350 cases/month) to 2023 (avg ~601 cases/month). The decline is consistent over these years, suggesting effective control measures. <br/>
-- There's a yearly cyclical pattern in the reported cases with relative highs observed in the early part of the year (March-May) and lows towards year-end (November-February). <br/>
-- The fatality rate from hepatitis over this period appears to be extremely low, reinforcing the assertion that effective management of the disease is in place.
-- Despite the overall decrease, a slight uptick of cases was observed from January to August 2023, warranting close tracking. <br/>
-
+- A significant decrease in hepatitis cases from the peak in 2010 to November 2023, indicating an effective reduction over 13 years. <br/>
+- Mortality rates have remained consistently low, with many months reporting zero deaths, demonstrating improved clinical management and/or vaccination impact. <br/>
+- Since the abrupt case count drop in February 2020, possibly linked to COVID-19 related interventions and healthcare disruptions, case numbers have stabilized at a lower level. <br/>
+- The data for January and February of 2013 are missing; this gap prevents a complete longitudinal analysis for that period. <br/>
 ## Analysis
 
 ### Cases Analysis
-
-In Chinese mainland, the confirmed cases of Other hepatitis have revealed a consistent downward trend from 2010 to 2023. The initial reported cases were in the high neighborliness of approximately 4000 per month, with a discernible spike every March. Gradually, the numbers dwindled, most noticeably starting from 2016 onwards, with current reports showing figures lingering around the 600-700 cases per month bracket. The consistent reduction may intimate successful public health initiatives, better sanitary measures, or enhanced vaccination efforts.
+From 2010 to 2023, there was a notable downward trend in the number of "Other hepatitis" cases in the Chinese mainland. The year 2010 began with 3,723 cases in January, experiencing fluctuations and reaching a peak in March 2011 (5,010 cases). Following this, there is a steady decline over the years, culminating in the lowest recorded cases by the end of 2022 (347 cases in December). A slight rebound is observed in early 2023, but the overall trend suggests a significant decrease in case numbers over this 13-year period.
 
 ### Deaths Analysis
-
-The deaths from Other hepatitis remained significantly low throughout, with monthly tallies rarely exceeding 5 deaths, while numerous instances recorded zero fatalities. Generally, the death toll is uniformly low, comparatively irrespective of the incidence rates, indicating efficient patient care and potential advances in medical treatment procedures. Nevertheless, sporadic increments coincide with slightly elevated case figures, primarily in the earlier years of this period. Recently, month-on-month, there seems to be a significant decline - signifying further improvements in controlling the severity and managing the disease.
+The death toll from "Other hepatitis" during the same period shows an overall low fatality rate, with monthly deaths seldom exceeding five individuals and many months reporting none. The highest death count in a single month was six, observed in December 2012. There were no deaths in several months across the years, indicating a possible effective management and/or treatment of the condition. The downward trend in the number of cases might have contributed to the lower mortality, with the data from 2020 onwards showing very few deaths, aligning with the reduction in cases observed.

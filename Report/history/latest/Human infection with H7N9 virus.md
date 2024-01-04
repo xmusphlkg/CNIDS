@@ -1,20 +1,16 @@
 ## Introduction
 
-The H7N9 virus is a strain of influenza found mostly in birds. It first emerged in China in 2013, causing severe respiratory illness in humans. Through exposure to infected poultry or contaminated environments, H7N9 can occasionally infect humans and potentially cause serious disease, including pneumonia and acute respiratory distress syndrome. It is important to note that sustained human-to-human transmission of H7N9 has not yet been reported. International vigilance and cooperation remain crucial due to the virus's pandemic potential.
-
+Human infection with H7N9 virus, a subtype of influenza A virus, primarily occurs through exposure to infected poultry or contaminated environments. H7N9 is capable of causing severe disease, including pneumonia and acute respiratory distress syndrome (ARDS). Since its first reported human infections in China in 2013, H7N9 outspread has significantly impacted public health. While human-to-human transmission is rare, there is concern about the virus's potential to mutate and gain this capability, posing a pandemic risk. Evidence suggests that the virus does not readily infect humans, making surveillance critical.
 ## Highlights
 
-1. High infection rate in 2014 and 2017: H7N9 virus saw two major waves in Chinese mainland, peaking during the early months of 2014 and 2017, registering the highest numbers in cases and deaths.<br/>
-2. Diminishing trend after 2017: Notably, after the last significant wave in 2017, the infection trends sharply down, with minimal cases, and eventually zero, observed since late 2018.<br/>
-3. No new cases or deaths since 2019: The data reveal a stable state with no reported cases or deaths due to the H7N9 virus in Chinese mainland from 2019 until the most recent record in November 2023. <br/>
-4. High fatality rate during outbreaks: From the data, the fatality rate during major outbreaks was considerable, hinting at the high potential lethality of the virus.
-
+- Peak incidence of human H7N9 virus infections occurred during the winter and spring of 2013–2017, with a notable spike in cases and deaths in early 2017.<br/>
+- Since February 2017, there has been a significant and sustained decrease in cases and mortality, with no cases reported since March 2019.<br/>
+- This downward trend culminates in zero reported cases and deaths from H7N9 in China from January 2021 through November 2023.<br/>
+- Such data suggest successful control measures have been implemented, and/or the virus has become less transmissible to humans, although continued surveillance is essential.<br/>
 ## Analysis
 
 ### Cases Analysis
-
-From late 2013 until 2023, the data exhibits distinct fluctuations of human H7N9 infections in Chinese mainland. High levels of cases were reported particularly in early 2014 and 2017, with sharp spikes observed in January of those years. The highest number of reported cases occurred in January 2017 (192 cases). Overall, the trend indicates a decrease in H7N9 cases from mid-2017, with no reported cases from July 2018 through 2023.
+H7N9 virus exhibited significant seasonality and intermittent peaks in reported cases in Chinese mainland. Cases surged from January 2014, peaking in the same year's February with 99 cases then declined. Notable spikes occurred annually during winter-spring periods, with the highest recorded in 2017 January (192 cases). Post-2017, cases steeply diminished, recalling control measures and possible shifts in viral patterns, leading to no reported cases from May 2019 onward, signaling effective containment or reporting changes.
 
 ### Deaths Analysis
-
-The number of recorded deaths due to H7N9 virus also shows a peak in early 2014 and 2017, with the highest fatalities reported in January and February of 2017, accounting for 79 and 61 deaths, respectively. However, the trend from mid-2017 suggests a significant reduction in H7N9-related mortality, similar to the infection rate, with no reported deaths from July 2018 onward. The overall data suggests that mortality fluctuated in synchrony with reported H7N9 cases over the years.
+The fatality pattern mirrors case surges with a lag, highlighting a consequential mortality associated with H7N9. The mortality rate peaked in February 2014 (41 deaths) and further escalated until 2017, with an apex in January (79 deaths), exceeding morbidity peaks. Marked seasonality suggests higher lethality during the cold season, potentially due to enhanced viral virulence or host susceptibility. A drastic mitigation in deaths is visible from mid-2017 forward, paralleling the case trend and suggesting effective intervention or viral evolution resulting in reduced fatality.

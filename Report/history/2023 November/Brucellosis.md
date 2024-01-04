@@ -1,20 +1,16 @@
 ## Introduction
 
-Brucellosis is a bacterial infection acquired through contact with animals or animal products contaminated with the Brucella bacteria. Humans can contract the disease by consuming untreated milk or undercooked meat, or through direct contact with infected animals. Symptoms range from fever, fatigue, and sweating, to more serious complications affecting the heart or central nervous system. It's largely found in rural, agricultural regions. Treatment typically involves prolonged antibiotic therapy.
-
+Brucellosis is a highly contagious zoonotic disease caused by the bacteria of the genus Brucella. It primarily affects animals like goats, sheep, cattle, and dogs, however, humans can contract the infection through consuming contaminated products, direct contact with infected animals, or inhaling the bacteria. In humans, it can cause flu-like symptoms such as fever, night sweats, and muscle pain. Occasionally, it can also have long-term complications like arthritis or inflammation of organs. Despite its global distribution, it is often neglected due to its non-specific symptoms and under-reporting.
 ## Highlights
 
-1. There has been a notable increase in brucellosis cases over the observed period, with particularly high incidence in the warm months (May to August). <br/>
-2. Despite fluctuations, the number of reported cases in recent years, especially from 2016 onward, shows a noticeably upward trend, suggesting worsening circumstances. <br/>
-3. The mortality rate due to brucellosis remains low, with only sporadic cases of death reported annually. However, the recent occurrences of fatalities in September 2023 indicates a potentially concerning development. <br/>
-4. As of November 2023, the disease situation remains high with 4540 cases reported, indicating ongoing transmission and need for brucellosis control measures.
-
+- Brucellosis cases have shown an overall increasing trend in Chinese mainland from 2010 to 2023, peaking during the warmer months (April to August).<br/>
+- Despite fluctuations, there is a notably sharp rise in case numbers from 2021 onwards, suggesting a heightened transmission period or possible changes in surveillance/reporting.<br/>
+- The mortality associated with Brucellosis has remained very low, with occasional deaths reported in some years, indicating a manageable case fatality rate.<br/>
+- By November 2023, the case count appears sustained compared to the previous months, with 4540 cases and no deaths, continuing the trend of significant disease presence with low mortality.<br/>
 ## Analysis
 
 ### Cases Analysis
-
-The reported dataset for Brucellosis in Chinese mainland from 2010 to 2023 indicates seasonal cyclic trends, with cases peaking during the spring and summer months, reflecting the zoonotic nature of the disease. From 2010, there has been an overall increasing trend in Brucellosis cases, culminating in 2022's peak of 9943 in June. Thereafter, reported cases declined sharply, reaching a low of 1820 in December 2022. Despite this, the numbers have shown a steady rebound during the early months of 2023.
+The data indicates a seasonal pattern of Brucellosis incidence with peaks generally occurring during the summer months (May to August), consistent with agricultural cycles and increased animal contact. Cases have progressively increased over the years, suggesting either improved reporting, a genuine increase in infections, or both. The sharp decline observed in February 2020 could be attributed to disruptions caused by the COVID-19 pandemic. Overall, the trend shows an upward trajectory in the number of cases, which warrants continuous surveillance and intensified control measures.
 
 ### Deaths Analysis
-
-Despite the increasing number of cases over the 14-year period, Brucellosis-related death rates remained relatively low. The data suggests sporadic fatalities, usually not exceeding 1-2 deaths per month. However, there is a noticeable increase in fatalities in recent years, particularly in months with higher case numbers such as July 2023, indicating a possible parallel but not directly proportional relationship between the number of cases and deaths.
+Brucellosis fatalities are exceptionally low, with instance-expanded months sometimes reporting one death despite thousands of cases. This demonstrates the disease's low mortality but potentially high morbidity. The deaths are sporadic with no distinct pattern or increase over time, indicating that while the disease incidence is rising, the case fatality rate remains extremely low. Note that even a single death in a month stands out due to the generally zero fatalities, underlining the rare occurrence of Brucellosis-associated mortality.

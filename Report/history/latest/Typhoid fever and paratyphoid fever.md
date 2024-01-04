@@ -1,20 +1,16 @@
 ## Introduction
 
-Typhoid and paratyphoid fevers are bacterial infections resulting from Salmonella typhi and Salmonella paratyphi, respectively. Both diseases often manifest similar symptoms, including prolonged fever, malaise, and gastrointestinal complications. Primarily spread via contaminated food or water, these infections are common in areas with poor sanitation. Vaccination is available for typhoid, but is not completely effective, and no vaccine currently exists for paratyphoid. Antibiotics are essential for treatment, but the rise of drug-resistant strains remains a global concern.
-
+Typhoid and paratyphoid fever are bacterial infections caused by Salmonella typhi and Salmonella paratyphi, respectively. Transmitted through contaminated food or water, they present similar symptoms including high fever, abdominal pain, and diarrhea or constipation. Typhoid, generally more severe, can cause life-threatening complications. Paratyphoid is less common and usually presents a milder form of the disease. Both are prevalent in areas with poor sanitation and hygiene, predominantly in developing countries. Vaccines are available for typhoid, but not paratyphoid, making hygiene measures the main form of prevention.
 ## Highlights
 
-1. Over the decade from 2010-2020, there is an observable decrease in reportable cases of Typhoid and Paratyphoid fevers, suggesting successful control and prevention measures in Chinese mainland. <br/>
-2. Despite the overall trend, seasonal increases in infections are consistent, with cases peaking during summer months (June - August) each year, demonstrating a potential environmental or lifestyle component influencing transmission.<br/>
-3. The fatality rate remains relatively low throughout the years, and there is no evident trend towards increasing deaths despite occasional jumps, implying effective disease management.<br/>
-4. As of November 2023, the number of cases has been lowered to 377 with zero deaths, continuing the general diminishing trend established over past years.<br/>
-
+- Cases of Typhoid fever and paratyphoid fever have shown a declining trend in the Chinese mainland over the past decade, with the number of cases peaking around the summer months annually. <br/>
+- There has been a notable decrease in reported cases from 2010 to 2023, with 1867 cases in August 2010 compared to 678 cases in August 2023, indicating improved prevention and control. <br/>
+- Mortality associated with these diseases has been relatively low over the years, with sporadic deaths reported and some years with no fatalities. <br/>
+- Despite fluctuations, the overall trend suggests progress in disease management, though continued surveillance is necessary to maintain control and prevent outbreaks. <br/>
 ## Analysis
 
 ### Cases Analysis
-
-The data from 2010 to 2023 shows a seasonal trend in the number of Typhoid and paratyphoid fever cases in Chinese mainland. Every year, cases tend to rise around April or May, peak during the summer months (June to August), then gradually decrease during autumn and winter. Considering the entire observed period, there is a subtle perceptible decrease in recorded cases, indicating potential improvements in sanitary conditions, immunization coverage, contamination control, healthcare provision, or public health awareness.
+From January 2010 to November 2023, cases of Typhoid and paratyphoid fever in Chinese mainland showed seasonality, peaking during the summer months from July to September annually. The highest monthly case count was reported in August 2010 (1867 cases), followed by notable summertime peaks in subsequent years. A general decreasing trend was observed over the years, with the latest data from 2023 displaying substantially fewer cases compared to the beginning of the time series. The seasonality combined with the overall downtrend suggests effectiveness in control measures and possible changes in risk factors.
 
 ### Deaths Analysis
-
-Deaths from Typhoid and paratyphoid fever in Chinese mainland are notably low during the entire period. These minimal numbers, when compared to the total case count, reflect high survival rates, indicating the effectiveness of the medical interventions that are available in the region or a general decrease in the virulence of the pathogen. However, the sporadic nature of deaths throughout the years suggests that risk factors are still present, which could include conditions affecting patients' immunity or variations in the virulence of the disease-causing organisms.
+The reported deaths from Typhoid and paratyphoid fever in the given timeframe are low, totaling 20 fatalities over approximately 13 years. Deaths were sporadic rather than perennial, with some years recording no fatalities. The highest annual death count was three in June 2017. Importantly, in multiple years, months with the highest case incidence did not correspond to increased mortality, suggesting that access to treatment or the severity of cases may not be directly correlated with case quantity. The data implies that while infections occurred, the fatality risk for these conditions was generally well-contained.
