@@ -160,7 +160,7 @@ if new_dates:
     readme_path = "../../Readme.md"
     with open(readme_path, "r", encoding='utf-8') as readme_file:
         readme_content = readme_file.read()
-    update_log = f"#### {year_month}\n\nDate: {current_date}\n\nUpdated: {new_dates}"
+    update_log = f"#### {year_month}\n\nDate: {current_date}\n\nUpdated: {new_dates}\n\n"
     pattern = re.compile(rf"#### {re.escape(year_month)}.*?(?=####|$)", re.DOTALL)
     if re.search(pattern, readme_content):
         updated_readme_content = re.sub(pattern, update_log, readme_content)
