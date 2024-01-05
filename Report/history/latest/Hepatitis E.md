@@ -1,16 +1,20 @@
 ## Introduction
 
-Hepatitis E is a viral infection that primarily affects the liver, causing it to inflame and malfunction. Mainly transmitted through fecal-oral route due to poor sanitation, it is caused by the Hepatitis E virus (HEV). Symptoms may include yellowish skin and eyes (jaundice), lack of appetite, and fatigue. While most people recover fully, it may pose severe complications, particularly for pregnant women or individuals with pre-existing chronic liver disease. It predominantly occurs in areas with poor sanitation and typically results in large outbreaks in these regions.
+Hepatitis E is a liver disease caused by the Hepatitis E virus (HEV), primarily spread through contaminated water or food. The infection is usually short-term and resolves within 4-6 weeks, but can be severe in certain populations, especially pregnant women. Globally, there are approximately 20 million HEV infections each year, leading to an estimated 3.3 million symptomatic cases of hepatitis E. Although vaccines have been developed, they are not widely available, making prevention measures crucial.
 ## Highlights
 
-- Hepatitis E cases in the Chinese mainland show seasonal fluctuations with peaks typically occurring in the months of March and April, suggesting a possible seasonal pattern of transmission. <br/>
-- Overall, the number of cases has been relatively stable over the years, with an average of approximately 2000-3000 cases per month, indicating a persistent presence of the virus in the population. <br/>
-- The mortality rate associated with Hepatitis E remains low, with zero deaths recorded in several months and typically not exceeding three deaths in the months when fatalities were reported. <br/>
-- Data for certain months in 2011 are missing, which could indicate reporting issues or a disruption in monitoring; however, there is no immediate evidence suggesting significant changes in disease incidence or mortality following this gap. <br/>
+- A gradual decrease in Hepatitis E cases from a peak in March 2011 (4262 cases) to November 2023 (2751 cases), indicating improvement in disease management over the years. <br/>
+- A generally low mortality rate throughout the years, often maintaining at or near zero deaths per month, showcasing effective clinical intervention or low disease virulence. <br/>
+- Persistent cyclical fluctuations in case numbers with peaks typically observed in the spring months (March, April), suggesting seasonal patterns in transmission. <br/>
+- An abrupt reduction in cases during early 2020, which may correlate with public health measures for COVID-19, hinting at the impact of broad health interventions on other infectious diseases. <br/>
 ## Analysis
 
 ### Cases Analysis
-The data for Hepatitis E cases in Chinese mainland from January 2010 to November 2023 shows seasonal variability with a higher incidence typically observed in March and April, suggesting potential seasonality in transmission. Overall cases have some fluctuation across the years, with a peak between 2011 and 2013. A notable decrease in cases occurred from 2020 February to 2020 December, potentially reflecting impacts of public health interventions during the COVID-19 pandemic. Post-2020, case counts appear to regain previous levels, highlighting the need for sustained disease surveillance.
+The data trend for Hepatitis E cases in China from 2010 to 2023 shows fluctuating patterns with notable peaks generally in March, which may suggest seasonal variability. The highest number of recorded cases occurred in March 2011 with 4,262 cases, while 2022 December had the lowest case count at 1,187. The apparent decline in cases at the beginning of 2020 correlates with the onset of the COVID-19 pandemic, potentially indicating impacts from public health interventions such as lockdowns or reporting changes.
+
+Word count: 106 words
 
 ### Deaths Analysis
-The number of deaths associated with Hepatitis E from January 2010 to November 2023 remained relatively low compared to the case counts, indicating a relatively low case-fatality rate. A maximum of 6 deaths in a single month was observed in February 2010 and December 2017. The deaths did not show a clear seasonal trend and fluctuated minimally over the years. The data does not demonstrate any significant year-to-year upward or downward trends in mortality but does indicate the continuous presence of fatal outcomes, reinforcing the need for effective clinical management and preventive strategies.
+The death toll associated with Hepatitis E from 2010 through 2023 has remained low relative to the number of cases, suggesting a low case-fatality rate. The highest number of deaths in a single month was six, occurring in February 2010, March 2010, and December 2017. A total of eight years (including 2011 August to December due to missing data) witnessed months with zero mortality. Throughout the observed period, there are no clear trends indicating an increase or decrease in fatalities, implying a consistently low disease lethality or uniform management efficacy.
+
+Word count: 103 words

@@ -1,16 +1,16 @@
 ## Introduction
 
-Hepatitis A is a highly contagious liver infection caused by the Hepatitis A virus (HAV). It is mainly transmitted through direct contact with an infected person or through ingestion of contaminated food and water. Symptoms include fatigue, nausea, stomach pain, jaundice, and low-grade fever. Most infections are mild, with recovery within two months. Vaccination can prevent the disease and is commonly administered in childhood. There is no specific treatment for HAV; management includes rest, adequate nutrition, and fluids. Outbreaks can happen in areas with poor sanitation and hygiene practices.
+Hepatitis A is a highly contagious liver infection caused by the Hepatitis A virus. It often spreads through ingestion of contaminated food and water or close contact with an infected person. Symptoms, appearing 2-6 weeks after exposure, include fatigue, nausea, abdominal pain, and jaundice. While rarely resulting in death, it can cause severe symptoms and liver damage. Vaccination is the most effective method of prevention, along with maintaining good hygiene and safe food practices. Unlike other types of viral hepatitis, Hepatitis A does not cause chronic liver disease.
 ## Highlights
 
-- A significant decrease in Hepatitis A cases over the 13-year span; cases dropped from a peak of 3789 in August 2010 to a low of 523 in January 2023. <br/>
-- The death rate has remained low throughout the years, with a notable spike of 56 deaths in May 2012, but otherwise often 0 or 1 death per month. <br/>
-- As of November 2023, the number of cases (1056) shows no significant increase or decrease compared to the beginning of the year, suggesting stabilization in the number of new infections. <br/>
-- Seasonal fluctuation is visible, with cases generally increasing in the early months of the year and decreasing towards the end, but the pattern is not very pronounced in the latest data. <br/>
+- Declining trend in Hepatitis A cases over 13 years, with cases reducing from 2379 in January 2010 to 1056 in November 2023, indicating effective control measures. <br/>
+- Low mortality rate associated with the disease, often zero, except for an anomalous spike of 56 deaths in May 2012. <br/>
+- Seasonal peaks in earlier years have become less pronounced in recent data, suggesting changes in transmission dynamics or improved vaccination. <br/>
+- Some data gaps, notably in early 2013, which could affect trend accuracy. <br/>
 ## Analysis
 
 ### Cases Analysis
-Analysis of Hepatitis A cases in Chinese mainland from 2010 to 2023 shows a decreasing trend in incidence. Early years (2010-2012) experienced higher case counts, often exceeding 2000 cases per month, with a peak in August 2010 at 3789 cases. Notably, May 2012 exhibited an uncharacteristic surge with 2235 cases. Post-2012, a gradual decline is clear, with monthly cases often falling below 1500 in recent years. The data for January and February 2013 is missing, but subsequent years show a sustained reduction in cases, reaching the lowest at 532 in December 2022.
+From January 2010 to November 2023, reported Hepatitis A cases in the Chinese mainland show a downward trend, decreasing from yearly highs around 3000 cases to less than 1100 cases towards the end of the period. There's a notable spike of 2235 cases in May 2012. Seasonal variations are apparent, with higher case counts seen generally in middle-year months. While data for January and February 2013 are missing, overall, a consistent decline in case numbers is evident over the years.
 
 ### Deaths Analysis
-The death count due to Hepatitis A from 2010 to 2023 in Chinese mainland is relatively low, with monthly figures seldom exceeding 2. An anomaly occurred in May 2012 with a sudden rise to 56 deaths, suggestive of a possible outbreak or reporting anomaly. Post-2012, deaths have generally been sporadic and infrequent, with many months reporting zero fatalities. The declining trend in fatalities correlates with the decrease in case numbers, highlighting improved public health measures and possibly vaccination impact over the examined period.
+The number of deaths associated with Hepatitis A over the same period was low, with monthly figures mostly at one or fewer. An exceptional spike of 56 deaths in May 2012 is an outlier in the dataset. There's no clear seasonal pattern to the fatalities, and deaths do not appear to correlate strongly with case numbers. The data shows that for most months, the reported death toll was zero, suggesting that mortality due to Hepatitis A in the Chinese mainland during this period was rare.

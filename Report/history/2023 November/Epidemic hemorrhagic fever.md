@@ -1,18 +1,19 @@
 ## Introduction
 
-Epidemic Hemorrhagic Fever, also known as Hantavirus Pulmonary Syndrome, is a severe, sometimes fatal, respiratory disease caused by infection with certain types of Hantavirus. Humans contract this zoonotic disease primarily through inhalation of aerosols or contact with the urine, feces, or saliva of infected rodents. Initial symptoms include intense headaches, back and abdominal pain, fevers, chills, nausea, and blurred vision. Severe cases can lead to low blood pressure, acute shock, vascular leakage, and acute kidney failure. There's no specific treatment, cure, or vaccine currently available for Hantavirus infection.
+Epidemic hemorrhagic fever, also known as hemorrhagic fever with renal syndrome (HFRS), is an acute viral disease predominantly caused by Hantaviruses. Predominantly found in Asia and Europe, it transmits mainly through rodents. Infected individuals typically exhibit symptoms such as fever, bleeding tendencies, and kidney damage. The severity ranges from mild to severe, potentially leading to life-threatening conditions. Early diagnosis is crucial in managing the disease, with supportive therapy being the cornerstone of patient management. The enhancement of rodent control measures is vital in prevention.
 ## Highlights
 
-- A seasonal upsurge in cases is consistently observed from June to November each year, with a peak commonly seen in November. <br/>
-- There is an overall declining trend in both cases and deaths from epidemic hemorrhagic fever throughout the years, with significant reductions since the peak in 2012. <br/>
-- The case-fatality rate has decreased, with death counts in November dropping from 32 in 2010 to 3 in 2023 despite a notable number of cases. <br/>
-- The data suggest improvements in management and intervention strategies, resulting in fewer fatalities associated with the disease. <br/>
+- November 2023 reports 1320 cases of Epidemic hemorrhagic fever with 3 deaths, suggesting controlled transmission and a low fatality rate for that period. 
+<br/>
+- Case numbers typically surge from late spring to autumn, particularly in November, reflecting possible seasonal patterns in vector activity or human exposure. 
+<br/>
+- Notably, there's been a reduction in both cases and deaths for November compared to previous years, hinting at enhanced disease control measures. 
+<br/>
+- The trend since the 2012 peak (3000 cases and 150 deaths in September) reveals a consistent decrease, indicative of effective public health strategies in battling EHF.
 ## Analysis
 
 ### Cases Analysis
-
-Over the years 2010-2023, cases of Epidemic hemorrhagic fever in the Chinese mainland demonstrate seasonality, with peaks often in November (e.g., 2278 cases in 2010, 2268 in 2011, 3000 in 2012, 2021 in 2017), suggesting a potential vector lifecycle influence. A noticeable outlier occurs in September 2012 with 395 cases, but an extraordinary death toll of 150, indicating a possible outbreak of severe cases or reporting anomalies. Generally, cases begin to rise in spring, peak in late autumn, and then fall in winter.
+Epidemic hemorrhagic fever in Chinese mainland demonstrates a clear seasonal pattern with cases rising in the warmer months (May to November) and falling in colder months, peaking notably in November across multiple years. An outlier is observed in September 2012 with a case count disproportionately lower compared to adjacent months and previous years. Overall, there is a general upward trend in cases from 2010, with peaks occurring later in the year and the highest counts consistently in November, suggesting a possible increase in vector population or activity during this period.
 
 ### Deaths Analysis
-
-Deaths from Epidemic hemorrhagic fever correlated loosely with case numbers but exhibit variance in case fatality rates over the surveillance period. The most alarming event was in September 2012, with a drastic increase to 150 deaths against a modest number of cases. Apart from this outlier, the highest mortality numbers are typically observed in the late year spikes of cases, notably in December 2010 and November 2018. There is an overall declining trend in fatal cases, peaking with 33 deaths and dropping to single digits or zero in more recent years, indicating improved control measures or under-reporting.
+The number of deaths follows a somewhat similar pattern to cases, with peaks typically occurring in the latter half of the year, particularly in November and December, which may indicate delayed mortality following peak transmission. An exceptionally high mortality was recorded in September 2012, which deviates from other data points significantly and may warrant a specific investigation to understand the cause of this spike. Aside from this anomaly, the case fatality rate appears relatively low and stable. The years 2010 to 2021 show fluctuations, whereas 2022 and onwards exhibit a slight decrease in deaths, possibly indicating improvements in treatment or intervention strategies.

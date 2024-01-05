@@ -1,16 +1,16 @@
 ## Introduction
 
-Syphilis is a sexually transmitted bacterial infection caused by the bacterium Treponema pallidum. The disease progresses in distinct stages, initially presenting as a painless sore, typically around the genital area, rectum, or mouth. If untreated, the infection can give rise to various health problems over the years. Syphilis can spread through sexual contact, shared needles, or from an infected mother to her baby during childbirth. Treatable with antibiotics, prevention methods include safe sex practices and regular testing.
+Syphilis is a sexually transmitted bacterial infection caused by the bacterium Treponema pallidum. It progresses through four distinct stages: primary, secondary, latent, and tertiary. Symptoms vary at each stage, making it often hard to diagnose. Early stages present sores or rashes, whereas late stages can affect major organs, leading to severe complications, even death. It's largely spread through sexual contact, including vaginal, anal and oral sex, but can also be transmitted from mother to child during pregnancy. Preventive measures include using condoms and regular testing. Early detection allows effective treatment using antibiotics.
 ## Highlights
 
-- Consistent increase in syphilis cases over the years, with a notable spike in recent months, reaching a high of 61,068 cases in August 2023. <br/>
-- Mortality rate remains relatively low, with the majority of months reporting single-digit death counts, despite the growing case numbers. <br/>
-- November 2023 saw 57,719 reported cases of syphilis in the Chinese mainland, which is among the highest monthly case counts observed, with a minimal death count of just 1. <br/>
-- The overall trend signifies a worsening syphilis situation in terms of case counts, necessitating robust public health interventions to curb transmission. <br/>
+- There is a marked increase in syphilis cases in China from 25,577 in January 2010 to 57,719 in November 2023, despite relatively low mortality throughout the period. <br/>
+- The recorded deaths remained low with single-digit figures most of the time, with occasional spikes (e.g., 19 deaths in August 2017, 25 deaths in January 2020). <br/>
+- A significant decrease to 21,448 cases in February 2020 likely reflects the impacts of the COVID-19 pandemic on healthcare reporting systems. <br/>
+- The disease trend does not exhibit clear seasonality, indicating transmission may be influenced by non-seasonal factors. <br/>
 ## Analysis
 
 ### Cases Analysis
-Between January 2010 and November 2023, reported Syphilis cases in the Chinese mainland show an upward trend, with peak values occurring in the summer months, indicative of seasonal variation. The data captures an increase in cases from 25,577 in January 2010 to a high of 61,068 in August 2023. Notable fluctuations are evident, such as a dip in February 2020, possibly linked to the COVID-19 outbreak and associated restrictions. The apparent seasonality and year-by-year rise suggest changing sexual health behaviors or reporting practices over the years.
+From 2010 to 2023, reported syphilis cases in Chinese mainland showed an overall increasing trend. Initial cases rose from around 25,577 in January 2010 to peak figures above 60,000 by August 2023, indicating a growing public health concern. Seasonal fluctuations are apparent, with cases generally increasing in warmer months, possibly due to increased sexual activity. A sharp decline in reported cases in February 2020 coincides with the outbreak of the COVID-19 pandemic, suggesting potential impacts on sexual health services or reporting.
 
 ### Deaths Analysis
-Syphilis-related deaths remained low throughout the same period, with most months reporting single-digit fatalities. The highest reported deaths occurred in January 2020 (25 deaths), an outlier against the overall trend. Deaths do not appear to follow a clear seasonal pattern and are likely influenced by factors such as treatment efficacy and reporting accuracy. The mortality rate is relatively stable, suggesting that while cases are increasing, the management of the disease might be preventing a concomitant rise in deaths.
+The death toll from syphilis in Chinese mainland remains low across the period, with monthly deaths rarely exceeding 10 and often below 5. The most significant spike of 25 deaths was recorded in January 2020, which is an outlier compared to the overall data. The low mortality rate suggests effective treatment options are available; however, the consistent occurrence of deaths highlights ongoing challenges in managing syphilis, emphasizing the need for continuous public health interventions and access to care.

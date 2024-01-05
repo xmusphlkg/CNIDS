@@ -1,16 +1,16 @@
 ## Introduction
 
-Tuberculosis (TB) is a contagious disease caused by the bacterium Mycobacterium tuberculosis. It primarily affects the lungs and can cause symptoms like a persistent cough, fever, weight loss, and night sweats. However, it can also impact other organs. TB spreads through the air when a person with active disease coughs or sneezes. There are two conditions: latent TB, where the bacteria remain inactive in the body, and active TB disease. Effective antibiotic treatments are available, but multi-drug resistant strains are becoming a challenge across the world. Vaccination (BCG) is available but its efficiency varies.
+Tuberculosis (TB) is an infectious disease caused by the bacterium Mycobacterium tuberculosis. Usually affecting the lungs, it can also damage other parts of the body. It is transmitted through the air when an infected individual coughs or sneezes. Although preventive measures and treatment exist, TB remains a major global health issue. Symptoms include a persistent cough, fever, night sweats, weight loss, and fatigue. Multidrug-resistant TB is a worldwide concern, highlighting the importance of early diagnosis and suitable treatment.
 ## Highlights
 
-- There has been a clear decline in Tuberculosis (TB) cases from the peak in 2010, with numbers consistently decreasing to reach a lower plateau in 2023. <br/>
-- The mortality rate, however, has seen an alarming increase in recent years, with deaths per month more than doubling from 2010 to 2022-2023. <br/>
-- The highest number of deaths was observed in October 2023, which contrasts with earlier years where cases peaked in March, suggesting potential changes in TB dynamics or reporting. <br/>
-- While the Caseload in November 2023 (57,432) reflects a downward trend, the death rate that month (320) remains concerning and underscores the need for enhanced control measures and treatment strategies. <br/>
+- A sustained decrease in TB cases in mainland China from January 2010 (105,877 cases) to November 2023 (57,432 cases) indicates a continued decline in incidence. <br/>
+- Despite fluctuations, TB-related deaths began to rise sharply from January 2022, with mortality rates reaching higher levels than any time since 2010. <br/>
+- The increased mortality rate post-2021 suggests potential issues such as increased virulence, reporting changes, or challenges in treatment and healthcare access. <br/>
+- A significant drop in cases and deaths in February 2020 hints at possible healthcare system strains during the COVID-19 pandemic onset. <br/>
 ## Analysis
 
-### Cases Analysis
-Tuberculosis cases in China displayed seasonal variance and a general declining trend over the years. Initial figures in 2010 began at 105,877 cases in January, peaking in March 2010 with 138,574 cases. Subsequent years similarly showed higher incidences in the spring months. Since 2010, the numbers gradually declined, with notable dips in February 2020 (44,933 cases), coinciding with the COVID-19 pandemic outbreak. By the end of 2022, cases dropped significantly to 33,951 in December, the lowest recorded in the data set, but slightly rebounded in 2023.
+### Cases Analysis:
+From 2010 to 2023, Tuberculosis (TB) cases in mainland China showed an overall declining trend with some fluctuations. An initial peak occurred in March 2010 with 138,574 cases, followed by subsequent peaks in March for most years, indicative of potential seasonal trends. Cases progressively decreased over time, particularly notable from 2020, likely influenced by public health measures during the COVID-19 pandemic, reaching the lowest reported figure of 33,951 cases in December 2022. However, there's been a minor uptick in cases since then, as observed in the first half of 2023.
 
-### Deaths Analysis
-Deaths due to tuberculosis in China revealed a somewhat stable pattern in early years, with average monthly fatalities around 150 to 200 from 2010 to 2017. A gradual increase in deaths is observed from 2018 onwards, with the highest number recorded at 367 deaths in July 2022. This uptrend in fatalities is concerning despite lower case reports, suggesting potential factors such as virulence, reporting changes, healthcare access during the pandemic, or treatment resistance. Deaths in 2023 maintained higher levels than earlier years, indicating a sustained challenge in combating tuberculosis mortality.
+### Deaths Analysis:
+The number of deaths associated with TB in China fluctuated over the years with a general increase, especially toward the latter years. It started with 141 deaths in January 2010, and despite some variability, death counts rose sharply from 2022, peaking in July with 367 deaths. This worrying trend continues into 2023, with an average monthly death count around 327 cases. The mortality data indicate that while incidence has decreased, the lethality of TB may be on the rise or detection and reporting of mortality have become more accurate over time.

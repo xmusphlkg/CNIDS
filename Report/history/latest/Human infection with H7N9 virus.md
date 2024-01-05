@@ -1,16 +1,17 @@
 ## Introduction
 
-H7N9 is a subtype of influenza virus that has been detected in birds in the past. This particular strain had never before been found in humans until it was reported in China in March 2013. Human infection with H7N9 virus is characterized by fevers, severe and often progressive pneumonia, and acute respiratory distress syndrome. Transmission typically occurs through direct contact with infected poultry or contaminated environments. Antiviral treatment is most effective when initiated early, but the virus can be resistant to these drugs.
+H7N9 is a subtype of influenza virus that has been detected in birds in the past. This particular strain had not been seen in humans until it was identified in China in March 2013. Human infection with H7N9 virus can cause severe respiratory illness, including pneumonia, acute respiratory distress syndrome (ARDS), organ failure, and even death. Transmission predominantly occurs through direct contact with infected poultry or through exposure in live poultry markets. Human to human transmission is rare but possible. No vaccine is available currently.
+
 ## Highlights
 
-- A significant peak in human cases of H7N9 was observed during the winters of 2013 to 2017, with the highest incidence in January 2017 (192 cases) followed by a high mortality rate (79 deaths). <br/>
-- After the 2017 surge, there has been a marked decline in both cases and deaths, with only sporadic cases reported in 2019 and none thereafter up to the current date of November 2023. <br/>
-- The current disease situation, as of November 2023, indicates no reported cases or deaths, suggesting effective control measures or potential changes in the virus's transmissibility to humans. <br/>
-- Continued surveillance and research are necessary to maintain this state of no reported cases and to prevent potential future outbreaks of the H7N9 virus. <br/>
+- The H7N9 virus outbreak in Chinese mainland peaked in January 2017, with 192 cases and 79 deaths. <br/>
+- A sharp decline in cases and deaths was observed after 2017, with no cases or deaths reported since July 2021. <br/>
+- As of November 2023, the data indicate over two years without new H7N9 infections, suggesting effective control measures. <br/>
+- The prolonged absence of cases highlights the potential success of prevention strategies and ongoing disease surveillance initiatives. <br/>
 ## Analysis
 
 ### Cases Analysis
-From 2013 to 2017, Chinese mainland reported cases of H7N9 with a notable peak in 2017, reaching 192 cases in January and declining thereafter. The highest incidence occurred during the winter and spring months, aligning with increased influenza activity. After a steep decline post-2017, no cases have been reported since April 2019. This suggests that intervention measures may have been effective, or the virus may have undergone changes diminishing its impact on humans.
+The H7N9 avian influenza outbreak in the Chinese mainland shows significant variability across months and years, peaking notably in 2014 and 2017. January and February of these years were of particular concern, with respective case counts reaching 127 and 99 in 2014, and surging to 192 and 160 in 2017. A pattern of winter-spring seasonality is evident, with cases dwindling to zero post-2017, possibly indicating successful containment measures or changes in viral circulation and surveillance efforts.
 
 ### Deaths Analysis
-The fatality trend closely follows the incidence curve, with the highest number of deaths (79) also recorded in January 2017. The case-fatality ratio (CFR) was particularly high during the 2014 March outbreak, where 100% of reported cases resulted in death. The last reported death was in April 2019. The absence of cases and deaths post-April 2019 indicates successful containment or potential underreporting. Peak mortality also occurred in colder months, which might reflect higher virus survival and transmission rates.
+Death tolls paralleled case counts, with the highest mortality observed in 2014 and 2017, reflective of peak case periods. February 2014 reported 41 deaths, the highest for that year, whereas January and February of 2017 observed 79 and 61 deaths, respectively. A clear decline in fatalities is seen from mid-2017 onward, reaching zero and persisting through 2023. Potential explanations include improved medical interventions, public health initiatives, and reduced virus virulence or host susceptibility.

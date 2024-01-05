@@ -114,11 +114,9 @@ a. [`config.yml`](./config.yml): Configuration file for data source and AI model
 
 #### 2023 November
 
-Date: 20240104
+Date: 20240105
 
-Updated: ['2023 November']
-
-#### 2023 October
+Updated: ['2023 November']#### 2023 October
 
 Date: 20231224
 

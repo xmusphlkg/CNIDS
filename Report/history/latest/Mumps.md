@@ -1,17 +1,17 @@
 ## Introduction
 
-Mumps is a contagious viral disease that primarily affects salivary glands causing discomfort and swelling. It is caused by the mumps virus, exhibiting symptoms like fever, headache, muscle aches, tiredness, and loss of appetite, followed by swelling of salivary glands. It commonly affects young children, but can occur at any age. Vaccination, specifically the MMR (measles, mumps and rubella) vaccine, is the best means of prevention against this disease.
+Mumps is a contagious viral infection characterized by swelling and pain in the salivary glands. It primarily affects the parotid glands located near the jawline. Symptoms tend to include fever, headache, muscle aches, tiredness, and loss of appetite. The disease spreads via respiratory droplets or direct contact with an infected individual. Vaccination with the MMR (measles, mumps, and rubella) vaccine is the primary preventative measure. Despite vaccination efforts, occasional outbreaks still occur, particularly in close-quarters environments.
+
 ## Highlights
 
-- There has been a notable decline in mumps cases in Chinese mainland from a peak of over 71,000 cases in June 2012 to just 7,642 cases in November 2023. <br/>
-- Mortality associated with mumps is exceptionally low, with many months reporting zero deaths throughout the observed years, including the most recent data from November 2023. <br/>
-- The number of cases has shown a declining trend especially since 2020, with annual peaks consistently lower than those in the previous decade. <br/>
-- Instances of mumps in 2023 to date tend to be lower than the corresponding months in the prior years, indicating ongoing suppression of the disease. <br/>
+- Consistent seasonality with cases peaking during the summer months (May to July), indicative of increased social interactions and outdoor activities during this period. <br/>
+- A significant reduction in cases and deaths from mumps has been observed since the spike in 2016, showing improved disease control and possible impacts of vaccination efforts. <br/>
+- The lowest numbers of cases in over a decade were reported in late 2022 and 2023, indicating a current low transmission rate for mumps in the Chinese mainland. <br/>
+- The consistent low number of deaths since 2010 suggests that fatalities due to mumps are rare, likely due to effective clinical management and possibly high vaccination coverage. <br/>
 ## Analysis
 
 ### Cases Analysis
-Mumps cases in mainland China typically show a seasonal pattern, with peaks often occurring from April to July, as evidenced by the surge in cases during those months each year. The data from 2010 to 2023 reveals a general declining trend in the number of reported cases. Notably, a significant drop in case counts begins in 2020, aligning with enhanced public health measures during the COVID-19 pandemic. However, there appears to be a slow resurgence of cases post-2020, yet they do not reach the pre-pandemic numbers. This decrease could be attributed to the continued public health practices or natural fluctuations in disease prevalence.
+The dataset on Mumps cases in Chinese mainland from 2010 to 2023 shows seasonal patterns with peaks generally in the months of May to July, indicating a higher transmission in warmer months. A notable decreasing trend is observed starting from 2016, with significantly lower case counts from 2020 onwards which might be associated with public health interventions during the COVID-19 pandemic, such as social distancing and mask-wearing. The data for January and February 2013 are missing, which could skew analysis for that period.
 
 ### Deaths Analysis
-Reported deaths from mumps in mainland China are extremely rare, with only a few sporadic instances recorded from 2010 to 2023. Deaths are not consistent year-to-year and do not appear correlated with the number of cases reported, which is expected given mumps' typically low mortality rate. The highest number of deaths in a single month is four, observed in January 2020. Overall, mumps-related mortality is negligible, suggesting effective management of severe cases and potentially widespread immunity, either through vaccination or previous infection.
-
+Deaths due to Mumps are extremely rare, with only 15 reported deaths over 13 years despite high case numbers, suggesting a low fatality rate. There was an atypical spike of 4 deaths in January 2020 which is an anomaly compared to other years. The data reflects good case management and the potentially effective role of vaccination and healthcare in preventing fatalities. Consistent zero-fatality months from March 2020 to November 2023 might also reflect improved disease surveillance and prevention measures amidst the COVID-19 response.
