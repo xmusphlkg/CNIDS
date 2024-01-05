@@ -23,6 +23,18 @@ import variables
 from report_fig import prepare_disease_data
 from report_text import openai_single, bing_analysis, update_markdown_file, openai_abstract
 
+def translate_html(text):
+    """
+    This function is used to trans html to support reportlab.
+    """
+    # trans all heading to <para fontsize='14'></para>
+    text = re.sub(r'<h([1-5])>(.*?)</h\1>', r'<para fontsize="14"><b>\2</b></para>', text)
+    
+    # trans <p></p> to <para></para>
+    text = re.sub(r'<p>(.*?)</p>', r'<para>\1</para>', text)
+
+    return text
+
 def create_report(disease_order):
     """
     This function is used to merge created pdf files into one pdf file.
@@ -460,8 +472,8 @@ def create_report_summary(table_data, table_data_str, analysis_MonthYear, legend
                                        4096)
     # analysis_content = 'test'
     analysis_content_html = markdown.markdown(analysis_content)
+    analysis_content_html = translate_html(analysis_content_html)
     elements = add_analysis(elements, analysis_content_html, styles)
-    print(analysis_content_html)
 
     # update README.md
     with open('../docs/README.md', 'r') as file:
@@ -482,8 +494,9 @@ def create_report_summary(table_data, table_data_str, analysis_MonthYear, legend
                                  variables.news_clean_nation,
                                  variables.news_check_nation)
     # bing_content = "test"
-    bing_content = markdown.markdown(bing_content)
-    elements = add_news(elements, bing_content, analysis_MonthYear, "in Chinese Mainland", styles)
+    bing_content_html = markdown.markdown(bing_content)
+    bing_content_html = translate_html(bing_content_html)
+    elements = add_news(elements, bing_content_html, analysis_MonthYear, "in Chinese Mainland", styles)
 
     bing_content = bing_analysis(os.environ['REPORT_NEWS_CREATE'],
                                  os.environ['REPORT_NEWS_CLEAN'],
@@ -492,8 +505,9 @@ def create_report_summary(table_data, table_data_str, analysis_MonthYear, legend
                                  variables.news_clean_global,
                                  variables.news_check_global)
     # bing_content = "test"
-    bing_content = markdown.markdown(bing_content)
-    elements = add_news(elements, bing_content, analysis_MonthYear, "around world", styles)
+    bing_content_html = markdown.markdown(bing_content)
+    bing_content_html = translate_html(bing_content_html)
+    elements = add_news(elements, bing_content_html, analysis_MonthYear, "around world", styles)
 
     # pre build
     doc = SimpleDocTemplate(f"./temp/{file_name}.pdf",
