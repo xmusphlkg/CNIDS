@@ -1,16 +1,16 @@
 ## Introduction
 
-Leptospirosis is a bacterial disease that affects both humans and animals. It is caused by corkscrew-shaped bacteria called leptospira. The condition can be caught through direct contact with urine from infected animals or by water, soil, or food contaminated with their urine. Symptoms vary from very mild and non-specific to severe disease with kidney or liver failure, lung hemorrhage, or meningitis. It's most common in tropical climates but can occur anywhere. The infection can be confirmed using laboratory tests. Treatment typically includes antibiotics.
+Leptospirosis is a bacterial disease caused by Leptospira bacteria, often transmitted through the urine of infected animals. Both domestic and wild animals can serve as carriers, including cows, dogs, rodents, and more. Humans can contract the disease by coming in direct contact with infected animals' urine, or indirectly through a contaminated environment. Symptoms may range from mild flu-like symptoms to severe manifestations like kidney damage, meningitis, liver failure, and respiratory complications. Timely antibiotic treatment is crucial for infected individuals to prevent severe health outcomes.
 ## Highlights
 
-- Seasonality is pronounced in leptospirosis cases, peaking from June to October, potentially due to climatic conditions favoring bacterial proliferation. <br/>
-- Over the years, case numbers have shown variability, with significant increases in certain years like 2010 and 2012. Recent trends indicate a decrease post-2021. <br/>
-- Mortality rates have stayed consistently low, with deaths mostly occurring in peak months. This suggests effective case management and public health measures. <br/>
-- As of November 2023, there's stability with 25 reported cases and no deaths, reflecting controlled disease transmission and intervention success. <br/>
+- Seasonal pattern with peak incidence from July to October, indicating a higher transmission risk during warmer, wet months.<br/>
+- Stable number of cases over the years without major outbreaks; however, there are sporadic peaks that could indicate localized increases in transmission.<br/>
+- The fatality rate appears low and inconsistent, with occasional spikes in deaths which may suggest variable severity or reporting.<br/>
+- The disease trend in November 2023, with 25 cases and 0 deaths, suggests ongoing transmission but effective case management, assuming consistent reporting and case detection.<br/>
 ## Analysis
 
 ### Cases Analysis
-Leptospirosis cases in Chinese mainland from 2010 to 2023 demonstrate a distinct seasonality, with the majority of cases occurring from June to October, indicating a possible correlation with the warm and wet summer months conducive to the spread of the disease. The peak of cases generally happens in September, suggesting environmental factors may contribute to enhanced transmission during this period. The consistent presence of cases each year indicates stable endemicity, yet with some fluctuations in annual caseloads that might be attributed to varying environmental conditions or public health interventions.
+The leptospirosis case data from Chinese mainland from 2010 to 2023 indicate a seasonal pattern with an increase in cases during the warmer, wetter months (May through October), peaking mostly in August and September. The highest number of cases reported in a single month was 141 in September 2012. There is a notable decline in cases starting from November. Annually, the case counts appear relatively consistent, with no drastic upward trends, suggesting stable transmission rates or effective control measures.
 
 ### Deaths Analysis
-Mortality associated with Leptospirosis over the years shows an overall low fatality rate, with some years experiencing slightly higher death counts (e.g., 2010 September and October). Deaths are sporadically distributed, with no clear pattern or trend observed. The highest number of deaths in a single month was seven, which occurred twice, in September and October of 2010. The data does not indicate any significant mortality spikes that would suggest major outbreaks, hinting at either timely diagnosis and treatment or a predominance of less severe leptospiral strains.
+From 2010 to 2023, deaths due to leptospirosis in Chinese mainland have been relatively infrequent, with most months reporting zero fatalities. The highest mortality in a single month was 7, observed in both September and October of 2010. Fatalities are sporadic but align with periods of case surges, indicating potential severity during peak transmission months. The overall fatality rate remains low, indicating that while outbreaks are periodic, they may generally be controlled, resulting in limited deaths.
