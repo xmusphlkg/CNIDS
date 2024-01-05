@@ -208,7 +208,9 @@ def clean_table_data(data, filtered_result):
         data[name] = value
     
     # trans Diseases to DiseasesCN
-    data['DiseasesCN'] = data['Diseases'].map(variables.diseaseCode2Name)
+    diseaseCode2Name = pd.read_csv("../../Script/WeeklyReport/variables/diseaseCode2Name.csv")
+    diseaseCode2Name = dict(zip(diseaseCode2Name["Code"], diseaseCode2Name["Name"]))
+    data['DiseasesCN'] = data['Diseases'].map(diseaseCode2Name)
 
     # Reorder the column names
     column_order = ['Date', 'YearMonthDay', 'YearMonth', 'Diseases', 'DiseasesCN', 'Cases', 'Deaths', 'Incidence', 'Mortality', 'ProvinceCN', 'Province', 'ADCode', 'DOI', 'URL', 'Source']
@@ -239,14 +241,23 @@ def clean_table_data_cn(data, filtered_result):
         data[name] = value
     
     # trans DiseasesCN to Diseases
-    data['Diseases'] = data['DiseasesCN'].map(variables.diseaseName2Code)
+    diseaseName2Code_df = pd.read_csv("../../Script/WeeklyReport/variables/diseaseName2Code.csv")
+    diseaseName2Code = dict(zip(diseaseName2Code_df["Name"], diseaseName2Code_df["Code"]))
+    data['Diseases'] = data['DiseasesCN'].map(diseaseName2Code)
     
     na_indices = data['DiseasesCN'][data['DiseasesCN'].isna()].index
     for i in na_indices:
         data.loc[i, 'Diseases'] = openai_trans(os.environ["DATA_TRANSLATE_CREATE"],
                                                os.environ["DATA_TRANSLATE_CHECK"],
                                                data.loc[i, 'DiseasesCN'],
-                                               variables.diseaseName2Code.values())
+                                               diseaseName2Code.values())
+        # append the new translation to diseaseName2Code_df
+        diseaseName2Code_df = diseaseName2Code_df.append({'Name': data.loc[i, 'DiseasesCN'], 'Code': data.loc[i, 'Diseases']},
+                                                         ignore_index=True)
+    
+    # if update diseaseName2Code.csv
+    if len(na_indices) > 0:
+        diseaseName2Code_df.to_csv("../../Script/WeeklyReport/variables/diseaseName2Code.csv", index=False)
 
     # Reorder the column names
     column_order = ['Date', 'YearMonthDay', 'YearMonth', 'Diseases', 'DiseasesCN', 'Cases', 'Deaths', 'Incidence', 'Mortality', 'ProvinceCN', 'Province', 'ADCode', 'DOI', 'URL', 'Source']

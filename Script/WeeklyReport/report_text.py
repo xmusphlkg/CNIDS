@@ -1,6 +1,14 @@
 from openai import OpenAI
 import os
 import time
+import re
+
+def length_check(box_content, content_words):
+    clean_content = re.sub(r'<[^>]+>', '', box_content)
+    clean_content = clean_content.replace('\n', ' ')
+    
+    box_length = len(clean_content.split()) <= content_words
+    return box_length
 
 def openai_trans(model_create, model_check, user_content, setting, token = 500, max_retries=10, delay=1):
     """
@@ -51,8 +59,10 @@ def openai_trans(model_create, model_check, user_content, setting, token = 500, 
     return None
 
 def openai_single(model_create, model_check,
-                  user_content, check_content,
-                  section, disease, token = 500, max_retries=10, delay=1):
+                  content_create, content_check,
+                  content_words,
+                  section, disease,
+                  token = 500, max_retries=10, delay=1):
     """
     Generate box content for single disease.
 
@@ -73,25 +83,21 @@ def openai_single(model_create, model_check,
     )
 
     attempt = 0
-    messages_create = [{"role": "system",
-                        "content": "You are an epidemiologist."},
-                       {"role": "user",
-                        "content": user_content}]
+    messages_create = [{"role": "system", "content": "You are an epidemiologist."},
+                       {"role": "user", "content": content_create}]
     while attempt < max_retries:
         box_content = fetch_openai(model_create, client,
                                    messages_create,
                                    f"{disease} - {section} - Create",
                                    token, max_retries, delay)
-        messages_check = [{"role": "system",
-                           "content": "You are a language editing robot."},
-                          {"role": "user",
-                           "content": f"""{check_content}
-                           {box_content}"""}]
+        messages_check = [{"role": "system", "content": "You are a language editing robot."},
+                          {"role": "user", "content": content_check + "\n" + box_content}]
         box_check = fetch_openai(model_check, client,
                                  messages_check,
                                   f"{disease} - {section} - Check",
                                  token, max_retries, delay)
-        if "Yes" in box_check:
+        box_length = length_check(box_content, content_words)
+        if "Yes" in box_check and box_length:
             return box_content
         else:
             attempt += 1
@@ -101,13 +107,14 @@ def openai_single(model_create, model_check,
     print(f"{disease} - {section}: Maximum retries reached. Failed to create response.")
     return None
     
-def openai_mail(model_create, model_check, user_content, token = 4096, max_retries=10, delay=1):
+def openai_mail(model_create, model_check, content_create, content_check, token = 4096, max_retries=10, delay=1):
     """
     Generate list content for mail.
 
     - model_create: The name of the model to use for the completion.
     - model_check: The name of the model to use for the check.
-    - user_content: The content provided by the user for the completion.
+    - content_create: The content provided by the user for the completion.
+    - content_check: The content provided by the user for the check.
     - token: The maximum number of tokens to generate.
     - max_retries: Maximum number of retries before giving up.
     - delay: Delay between retries in seconds.
@@ -119,21 +126,15 @@ def openai_mail(model_create, model_check, user_content, token = 4096, max_retri
     )
 
     attempt = 0
-    messages_create = [{"role": "system",
-                        "content": "You are an epidemiologist."},
-                        {"role": "user",
-                        "content": user_content}]
+    messages_create = [{"role": "system", "content": "You are an epidemiologist."},
+                       {"role": "user", "content": content_create}]
     while attempt < max_retries:
         content_raw = fetch_openai(model_create, client,
                                    messages_create,
                                    "Mail - Create",
                                    token, max_retries, delay)
-        messages_check = [{"role": "system",
-                           "content": "You are a language editing robot."},
-                           {"role": "user",
-                            "content": f"""Analyze the following text and tell me if it is a short list of important points of infectious diseases. If it is, please answer me Yes. If not, please answer me No.
-                            {content_raw}"""
-                            }]
+        messages_check = [{"role": "system", "content": "You are a language editing robot."},
+                          {"role": "user", "content": content_check.format(content_raw = content_raw)}]
         box_check = fetch_openai(model_check, client,
                                  messages_check,
                                  "Mail - Check",
@@ -149,13 +150,14 @@ def openai_mail(model_create, model_check, user_content, token = 4096, max_retri
     print("Mail: Maximum retries reached. Failed to create response.")
     return None
 
-def openai_key(model_create, model_check, user_content, token = 4096, max_retries=10, delay=1):
+def openai_key(model_create, model_check, content_create, content_check, token = 4096, max_retries=10, delay=1):
     """
     Generate key words for prompt.
 
     - model_create: The name of the model to use for the completion.
     - model_check: The name of the model to use for the check.
-    - user_content: The content provided by the user for the completion.
+    - content_create: The content provided by the user for the completion.
+    - content_check: The content provided by the user for the check.
     - token: The maximum number of tokens to generate.
     - max_retries: Maximum number of retries before giving up.
     - delay: Delay between retries in seconds.
@@ -170,17 +172,14 @@ def openai_key(model_create, model_check, user_content, token = 4096, max_retrie
     messages_create = [{"role": "system",
                         "content": "You are an epidemiologist."},
                         {"role": "user",
-                        "content": user_content}]
+                        "content": content_create}]
     while attempt < max_retries:
         content_raw = fetch_openai(model_create, client,
                                    messages_create,
                                     "Key - Create",
                                    token, max_retries, delay)
-        messages_check = [{"role": "system",
-                           "content": "You are a language editing robot."},
-                           {"role": "user",
-                            "content": f"""Analyze the following text and tell me if it is a Prompt. If it is, please answer me Yes. If not, please answer me No.
-                            {content_raw}"""}]
+        messages_check = [{"role": "system", "content": "You are a language editing robot."},
+                           {"role": "user", "content": content_check.format(content_raw = content_raw)}]
         box_check = fetch_openai(model_check, client,
                                  messages_check,
                                  "Key -Check",
@@ -195,7 +194,7 @@ def openai_key(model_create, model_check, user_content, token = 4096, max_retrie
     print("Key: Maximum retries reached. Failed to create response.")
     return None
     
-def openai_image(model_create, user_content, max_retries=10, delay=1):
+def openai_image(model_create, user_content, default, max_retries=10, delay=1):
     """
     Generate image url for prompt.
 
@@ -231,15 +230,16 @@ def openai_image(model_create, user_content, max_retries=10, delay=1):
             print(info, f"Retrying ({attempt}/{max_retries})...")
 
     print(info, "Maximum retries reached. Failed to fetch response. Using unsplash random image instead.")
-    return "https://source.unsplash.com/collection/94734566/1024x1792"
+    return default
 
-def openai_abstract(model_create, model_check, user_content, token = 4096, max_retries=10, delay=1):
+def openai_abstract(model_create, model_check, content_create, content_check, token = 4096, max_retries=10, delay=1):
     """
     Generate abstract content of report.
 
     - model_create: The name of the model to use for the completion.
     - model_check: The name of the model to use for the check.
-    - user_content: The content provided by the user for the completion.
+    - content_create: The content provided by the user for the completion.
+    - content_check: The content provided by the user for the check.
     - token: The maximum number of tokens to generate.
     - max_retries: Maximum number of retries before giving up.
     - delay: Delay between retries in seconds.
@@ -252,15 +252,14 @@ def openai_abstract(model_create, model_check, user_content, token = 4096, max_r
 
     attempt = 0
     messages_create = [{"role": "system", "content": "You are an epidemiologist."},
-                       {"role": "user", "content": user_content}]
+                       {"role": "user", "content": content_create}]
     while attempt < max_retries:
         content_raw = fetch_openai(model_create, client,
                                    messages_create,
                                     "Abstract - Create",
                                    token, max_retries, delay)
         messages_check = [{"role": "system", "content": "You are a language editing robot."},
-                            {"role": "user", "content": f"""Analyze the following text and tell me if it is a abstract of infectious diseases report. If it is, please answer me Yes. If not, please answer me No.
-                            {content_raw}"""}]
+                          {"role": "user", "content": content_check.format(content_raw = content_raw)}]
         box_check = fetch_openai(model_check, client,
                                 messages_check,
                                 "Abstract - Check",
@@ -275,14 +274,15 @@ def openai_abstract(model_create, model_check, user_content, token = 4096, max_r
     
     return None
 
-def bing_analysis(model_create, model_clean, model_check, user_content, max_retries=10, delay=1):
+def bing_analysis(model_create, model_clean, model_check, content_create, content_clean, content_check, max_retries=10, delay=1):
     """
     Fetches a response from the OpenAI API with automatic retries on failure.
 
     - model_create: The name of the model to use for the completion.
     - model_clean: The name of the model to use for the clean.
     - model_check: The name of the model to use for the check.
-    - user_content: The content provided by the user for the completion.
+    - content_create: The content provided by the user for the completion.
+    - content_check: The content provided by the user for the check.
     - max_retries: Maximum number of retries before giving up.
     - delay: Delay between retries in seconds.
     :return: The API response or None if all retries failed.
@@ -293,39 +293,23 @@ def bing_analysis(model_create, model_clean, model_check, user_content, max_retr
     )
 
     attempt = 0
-    messages_create = [{"role": "system",
-                        "content": "You are an epidemiologist."},
-                        {"role": "user",
-                        "content": user_content}]
+    messages_create = [{"role": "system", "content": "You are an epidemiologist."},
+                       {"role": "user", "content": content_create}]
     while attempt < max_retries:
         content_raw = fetch_openai(model_create, client,
-                                  messages_create,
-                                  "New - search",
-                                  None,
-                                  max_retries, delay)
-        messages_clean = [{"role": "system",
-                            "content": "You are an epidemiologist."},
-                            {"role": "user",
-                            "content": f"""Clean the following text and generate a new summary using below format (words limited 800 - 1000):
-                            <b>Summary</b>:
-                            (Provide an overall summary of the infectious disease events)
-                            <b>Outbreaks of Known Diseases:</b>
-                            (Detail the outbreaks of known diseases during this period)
-                            <b>Emergence of Novel Pathogens:</b>
-                            (Discuss any new pathogens that have emerged)
-  
-                            This is content you need to clean:
-                            {content_raw}"""}]
+                                   messages_create,
+                                   "New - search",
+                                   None,
+                                   max_retries, delay)
+        messages_clean = [{"role": "system", "content": "You are an epidemiologist."},
+                           {"role": "user", "content": content_clean.format(content_raw = content_raw)}]
         content_clean = fetch_openai(model_clean, client,
-                                    messages_clean,
-                                    "New - clean",
-                                    None,
-                                    max_retries, delay)
-        messages_check = [{"role": "system",
-                            "content": "You are a language editing robot."},
-                            {"role": "user",
-                            "content": f"""Analyze the following text and tell me if it is a summary of infectious diseases report. If it is, please answer me Yes. If not, please answer me No.
-                            {content_clean}"""}]
+                                     messages_clean,
+                                     "New - clean",
+                                     None,
+                                     max_retries, delay)
+        messages_check = [{"role": "system", "content": "You are a language editing robot."},
+                          {"role": "user", "content": content_check.format(content_clean = content_clean)}]
         box_check = fetch_openai(model_check, client,
                                  messages_check,
                                  "New - check",

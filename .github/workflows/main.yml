@@ -19,7 +19,6 @@ jobs:
       MS_tenant_id: ${{ secrets.MS_TENANT_ID }}
       test: ${{ vars.TEST }}
       test_dc: ${{ vars.TEST_DC }}
-      cite: ${{ vars.CITE }}
       test_mail: ${{ vars.TEST_MAIL }}
       send_mail: ${{ vars.SEND_MAIL }}
     steps:

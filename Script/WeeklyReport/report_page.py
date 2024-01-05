@@ -18,6 +18,7 @@ import datetime
 import os
 import re
 import markdown
+import variables
 
 from report_fig import prepare_disease_data
 from report_text import openai_single, bing_analysis, update_markdown_file, openai_abstract
@@ -58,9 +59,7 @@ def create_report_page(df,
                        analysis_YearMonth,
                        report_date,
                        page_number,
-                       page_total,
-                       links_app = "https://lkg1116.shinyapps.io/CNIDS/",
-                       links_web = "https://github.com/xmusphlkg/CNID"):
+                       page_total):
     """
     This function is used to process disease data.
 
@@ -71,10 +70,11 @@ def create_report_page(df,
     - report_date: the date of report, format: "June 2023"
     - page_number: the number of page
     - page_total: the total number of page
-    - links_app: the link of app
-    - links_web: the link of web
     - foot_left_content: the content of left footer, format: "Page 1 of 1"
     """
+
+    links_app = variables.links_app
+    links_web = variables.links_web
 
     # prepare data
     disease_data = prepare_disease_data(df, disease_name)
@@ -84,54 +84,46 @@ def create_report_page(df,
     pdfmetrics.registerFont(TTFont('Helvetica', './WeeklyReport/font/Helvetica.ttf'))
     pdfmetrics.registerFont(TTFont('Helvetica-Bold', './WeeklyReport/font/Helvetica-Bold.ttf'))
 
-    # generate introduction content
     introduction_box_content = openai_single(
         os.environ['REPORT_INTRODUCTION_CREATE'],
         os.environ['REPORT_INTRODUCTION_CHECK'],
-        f"Give a brief introduction to {disease_name}, not give any comment (words limit 90 - 100 words).", 
-        f"""Analyze the following text and tell me if it is the Introduction section to {disease_name} report and the word count between 90 and 100 words. If it is, please answer me Yes. If not, please answer me No.""",
+        variables.introduction_create.format(disease_name=disease_name), 
+        variables.introduction_check.format(disease_name=disease_name),
+        variables.introduction_words,
         "Introduction",
         disease_name
         )
     update_markdown_file(disease_name, "Introduction", introduction_box_content, analysis_YearMonth)
-    # introduction_box_content = "testinfo"
 
     highlights_box_content = openai_single(
         os.environ['REPORT_HIGHLIGHTS_CREATE'],
         os.environ['REPORT_HIGHLIGHTS_CHECK'],
-        f"""Analyze the provided data for {disease_name} in Chinese mainland
-        and provide a brief summary of key epidemiological trends and the current disease situation as of {report_date}.
-        The summary should be formatted as a list of highlights (3-4 elements), each one followed by a line break <br/>.
-        The word count should be between 100 and 110 words. Here is the data for {disease_name} in Chinese mainland: {table_data_str}""",
-        f"""Analyze the following text and tell me if it is the Highlights section to {disease_name} report and the word count between 100 and 110 words. If it is, please answer me Yes. If not, please answer me No.""",
+        variables.highlights_create.format(disease_name=disease_name, report_date=report_date, table_data_str=table_data_str),
+        variables.highlights_check.format(disease_name=disease_name),
+        variables.highlights_words,
         "Highlights",
         disease_name
         )
     update_markdown_file(disease_name, "Highlights", highlights_box_content, analysis_YearMonth)
-    # highlights_box_content = "testinfo"
 
     analy_box_content = openai_single(
         os.environ['REPORT_ANALYSIS_CREATE'],
         os.environ['REPORT_ANALYSIS_CHECK'],
-        f"""Provide a concise case analysis of the reported data for {disease_name} in Chinese mainland, following the format below:
-        ### Cases Analysis
-        ...... (Word count: 100-110 words)
-        ### Deaths Analysis
-        ...... (Word count: 100-110 words)
-        Here is the data for {disease_name} in Chinese mainland:
-        {table_data_str}""",
-        f"""Evaluate the given text and determine whether it corresponds to the analysis section of a report related to {disease_name}.
-        If it is indeed the analysis section and includes the sub-sections "### Cases Analysis" and "### Deaths Analysis," respond with 'Yes'.
-        If these conditions are not met, respond with 'No'.""",
+        variables.analysis_create.format(disease_name=disease_name, table_data_str=table_data_str),
+        variables.analysis_check.format(disease_name=disease_name),
+        variables.analysis_words,
         "Analysis",
         disease_name
         )
     update_markdown_file(disease_name, "Analysis", analy_box_content, analysis_YearMonth)
-    # analy_box_content = "### Cases Analysis\n\n testinfo ### Deaths Analysis\n\n testinfo"
     cases_box_content = analy_box_content.split("### Cases Analysis")[1].split("### Deaths Analysis")[0]
     death_box_content = analy_box_content.split("### Deaths Analysis")[1]
 
     foot_left_content = f"Page {page_number} of {page_total}"
+    info_box_content = '<font color="red"><b>' + variables.alert_content + '</b></font>'
+    foot_right_content = variables.cover_info_5
+    set_report_title = variables.cover_title_1 + " " + variables.cover_title_2
+
     add_disease(disease_name,
                 report_date, 
                 introduction_box_content,
@@ -140,7 +132,10 @@ def create_report_page(df,
                 death_box_content,
                 foot_left_content,
                 links_app,
-                links_web)
+                links_web,
+                info_box_content,
+                foot_right_content,
+                set_report_title)
 
 def add_disease(set_disease_name,
                 set_report_date, 
@@ -151,9 +146,9 @@ def add_disease(set_disease_name,
                 foot_left_content,
                 links_app,
                 links_web,
-                info_box_content = '<font color="red"><b>' + "IMPORTANT: The text in boxs is generated automatically by AI. " + '</b></font>', 
-                foot_right_content = "All rights reserved.",
-                set_report_title = "Chinese Notifiable Infectious Diseases Surveillance Report"):
+                info_box_content, 
+                foot_right_content,
+                set_report_title):
     # setting function description
     """
     This function is used to generate pdf report page for single disease.
@@ -378,7 +373,7 @@ def create_report_cover(analysis_MonthYear):
     # dram project
     c.setFont(project_font_family, project_font_sizes)
     c.setFillColor(project_text_color)
-    c.drawString(project_box_x, project_box_y, "CNIDS: Chinese Notifiable Infectious Diseases Surveillance Project")
+    c.drawString(project_box_x, project_box_y, variables.cover_project)
 
     # define title location
     title_box_x = 20
@@ -388,8 +383,8 @@ def create_report_cover(analysis_MonthYear):
     title_font_family = 'Helvetica-Bold'
 
     # draw title
-    text = ["Chinese Notifiable Infectious Diseases", 
-            "Surveillance Report",
+    text = [variables.cover_title_1, 
+            variables.cover_title_2,
             analysis_MonthYear]
     position = [(title_box_x, title_box_y),
                 (title_box_x, title_box_y - 40),
@@ -407,13 +402,13 @@ def create_report_cover(analysis_MonthYear):
     author_font_family = 'Helvetica'
 
     # draw author
-    datenow = datetime.datetime.now()
-    datenow = datenow.strftime("%Y-%m-%d")
-    text = ["Automaticly Generate by Python and generative AI",
-            "Power by: Github Action",
-            "Design by: Kangguo Li",
-            f"Generated Date: {datenow}",
-            os.environ['cite']]
+    date_now = datetime.datetime.now()
+    date_now = date_now.strftime("%Y-%m-%d")
+    text = [variables.cover_info_1,
+            variables.cover_info_2,
+            variables.cover_info_3,
+            variables.cover_info_4.format(date_now=date_now),
+            variables.cover_info_5]
     styles.add(ParagraphStyle(name='covernormal', parent=styles['Normal'],
                               fontSize=author_font_sizes, textColor=author_text_color, fontName=author_font_family))
     for i, line in enumerate(text):
@@ -457,20 +452,11 @@ def create_report_summary(table_data, table_data_str, analysis_MonthYear, legend
     # add monthly analysis
     analysis_content = openai_abstract(os.environ['REPORT_ABSTRACT_CREATE'],
                                        os.environ['REPORT_ABSTRACT_CHECK'],
-                                      f"""Craft an epidemiological report analyzing the prevalence and impact of various diseases in Chinese mainland for the specified month and year, {analysis_MonthYear}.
-                                      The report should not only focus on diseases with a high incidence but also those that are of public concern. 
-                                      The report should be between 1000 and 1200 words, structured using HTML tags as follows:
-                                      <h3>Overview:</h3> 2 paragraphs to analysis cases and deaths, respectively. <br/>
-                                      <h3>Concerns:</h3> 1 paragraphs to analysis high incidence disease and public concern, respectively. <br/>
-                                      <h3>Limitations:</h3> 2-3 paragraphs to analysis the limitations of the data. <br/>
-                                      <h3>Recommendations:</h3> 2-3 paragraphs to provided the recommendations for the public.
-                                      Use the provided data (Cases/Deaths) to support the analysis.
-                                      {table_data_str}.
-                                      {legend}""",
-                                      4096)
+                                       variables.abstract_create.format(analysis_MonthYear=analysis_MonthYear, table_data_str=table_data_str, legend=legend),
+                                       variables.abstract_check,
+                                       4096)
     # analysis_content = 'test'
-    analysis_content = re.sub(r'h[1-5]>', 'b>', analysis_content)
-    analysis_content = content_clean(analysis_content)
+    analysis_content = markdown.markdown(analysis_content)
     elements = add_analysis(elements, analysis_content, styles)
 
     # update README.md
@@ -488,35 +474,21 @@ def create_report_summary(table_data, table_data_str, analysis_MonthYear, legend
     bing_content = bing_analysis(os.environ['REPORT_NEWS_CREATE'],
                                  os.environ['REPORT_NEWS_CLEAN'],
                                  os.environ['REPORT_NEWS_CHECK'],
-                                  f"""Conduct a comprehensive yet concise search and summarize infectious disease events in Chinese mainland since {analysis_MonthYear}. 
-                                  The summary should be structured as follows:
-                                  <b>Summary</b>:
-                                  (Provide an overall summary of the infectious disease events)
-                                  <b>Outbreaks of Known Diseases:</b>
-                                  (Detail the outbreaks of known diseases during this period)
-                                  <b>Emergence of Novel Pathogens:</b>
-                                  (Discuss any new pathogens that have emerged)
-                                  """)
+                                 variables.news_create_nation.format(analysis_MonthYear=analysis_MonthYear),
+                                 variables.news_clean_nation,
+                                 variables.news_check_nation)
     # bing_content = "test"
-    bing_content = re.sub(r'h[1-5]>', 'b>', bing_content)
-    bing_content = content_clean(bing_content)
+    bing_content = markdown.markdown(bing_content)
     elements = add_news(elements, bing_content, analysis_MonthYear, "in Chinese Mainland", styles)
 
     bing_content = bing_analysis(os.environ['REPORT_NEWS_CREATE'],
-                                  os.environ['REPORT_NEWS_CLEAN'],
+                                 os.environ['REPORT_NEWS_CLEAN'],
                                  os.environ['REPORT_NEWS_CHECK'],
-                                  f"""Conduct a comprehensive yet concise search and summarize infectious disease events globally since {analysis_MonthYear}. 
-                                  The summary should be structured as follows:
-                                  <b>Summary</b>:
-                                  (Provide an overall summary of the infectious disease events)
-                                  <b>Outbreaks of Known Diseases:</b>
-                                  (Detail the outbreaks of known diseases during this period)
-                                  <b>Emergence of Novel Pathogens:</b>
-                                  (Discuss any new pathogens that have emerged)
-                                  """)
+                                 variables.news_create_global.format(analysis_MonthYear=analysis_MonthYear),
+                                 variables.news_clean_global,
+                                 variables.news_check_global)
     # bing_content = "test"
-    bing_content = re.sub(r'h[1-5]>', 'b>', bing_content)
-    bing_content = content_clean(bing_content)
+    bing_content = markdown.markdown(bing_content)
     elements = add_news(elements, bing_content, analysis_MonthYear, "around world", styles)
 
     # pre build
@@ -588,7 +560,7 @@ def add_toc(elements, diseases_order, styles):
                             rightMargin=20,
                             bottomMargin=0)
     # add title
-    title = f'Chinese Notifiable Infectious Diseases Surveillance Report<br/><br/>IMPORTANT'
+    title = variables.alert_title
     title = Paragraph(title, styles['Center'])
     title_table = Table([[title]], colWidths=[doc.width], rowHeights=[80])
     title_table.setStyle([
@@ -602,7 +574,7 @@ def add_toc(elements, diseases_order, styles):
     ])
     elements.append(title_table)
     elements.append(Spacer(50, 12))
-    text = "The text in report is generated automatically by generative AI."
+    text = variables.alert_content
     paragraphReportSummary = Paragraph(text, styles["Notice"])
     elements.append(paragraphReportSummary)
 
@@ -640,7 +612,8 @@ def add_table(elements, table_data, analysis_MonthYear, styles):
                             rightMargin=20,
                             bottomMargin=0)
     # add title
-    title = f'Chinese Notifiable Infectious Diseases Surveillance Report<br/><br/>{analysis_MonthYear}'
+    title = variables.cover_title_1 + " " + variables.cover_title_2
+    title = f'{title}<br/><br/>{analysis_MonthYear}'
     title = Paragraph(title, styles['Center'])
     title_table = Table([[title]], colWidths=[doc.width], rowHeights=[80])
     title_table.setStyle([

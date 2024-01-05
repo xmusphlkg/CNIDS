@@ -158,10 +158,14 @@ if new_dates:
 
     # modify the markdown file
     readme_path = "../../Readme.md"
-    with open(readme_path, "r") as readme_file:
+    with open(readme_path, "r", encoding='utf-8') as readme_file:
         readme_content = readme_file.read()
     update_log = f"#### {year_month}\n\nDate: {current_date}\n\nUpdated: {new_dates}"
-    updated_readme_content = readme_content.replace("### China CDC Monthly Report", "### China CDC Monthly Report\n\n" + update_log)
+    pattern = re.compile(rf"#### {re.escape(year_month)}.*?(?=####|$)", re.DOTALL)
+    if re.search(pattern, readme_content):
+        updated_readme_content = re.sub(pattern, update_log, readme_content)
+    else:
+        updated_readme_content = readme_content.replace("### China CDC Monthly Report", "### China CDC Monthly Report\n\n" + update_log)
     with open(readme_path, "w") as readme_file:
         readme_file.write(updated_readme_content)
     

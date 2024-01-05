@@ -4,12 +4,13 @@ import datetime
 import requests
 from report_text import openai_mail, openai_key, openai_image
 from report_page import create_report_cover
+import variables
 
 def add_mail_main(mail_main, analysis_YearMonth):
     mail_head = "Dear [Recipient],"
-    mail_info = f"I hope this email finds you well. China CDC Weekly has published the new data on the cases and deaths of notifiable infectious diseases in Chinese mainland in {analysis_YearMonth}."
-    mail_end = "The notion generated automatically, and assistant by AI. Please check the data and description carefully."
-    mail_signature = "Best regards,\n CNIDS"
+    mail_info = variables.email_head.format(analysis_YearMonth=analysis_YearMonth)
+    mail_end = variables.email_end
+    mail_signature = variables.email_sign
     mail_time = datetime.datetime.now().strftime("%Y-%m-%d")
     out_content = mail_head + "\n\n" + mail_info + "\n\n" + mail_main + "\n\n" + mail_end + "\n\n" + mail_signature + "\n\n" + mail_time + "\n\n"
     return out_content
@@ -17,26 +18,15 @@ def add_mail_main(mail_main, analysis_YearMonth):
 def openai_mail_cover(table_data_str, table_legend, analysis_YearMonth):
     mail_content = openai_mail(os.environ['MAIL_MAIN_CREATE'],
                                os.environ['MAIL_MAIN_CHECK'],
-                               f"""Examine the monthly cases and deaths related to various diseases in Chinese mainland for the month of {analysis_YearMonth}.
-                                Create a list of key points for each disease, and the list should be structured as follows:
-                               **1. disease_name:** description.
-                               **2. disease_name:** description.
-                               **3. disease_name:** description.
-                               ......
-                               
-                               Use the provided data (Cases/Deaths) to support the analysis.
-                               {table_data_str}.
-                               {table_legend}""")
+                               variables.mail_create.format(table_data_str=table_data_str, legend=table_legend, analysis_YearMonth=analysis_YearMonth),
+                               variables.mail_check)
     key_words = openai_key(os.environ['MAIL_KEYWORDS_CREATE'],
                            os.environ['MAIL_KEYWORDS_CHECK'],
-                           f"""Analyze below content, and give a prompt to create a abstract cover image of this report.
-                           Keep the cover as simple as possible. Don't touch on any text or statistical charts.
-                           The background color should be darkblue. The image theme is technology.
-
-                           {mail_content}""")
+                           variables.key_create.format(mail_content=mail_content),
+                           variables.key_check)
     print(key_words)
 
-    image_url = openai_image(os.environ['REPORT_COVER_CREATE'], key_words)
+    image_url = openai_image(os.environ['REPORT_COVER_CREATE'], key_words, variables.cover_image)
     response = requests.get(image_url)
 
     if response.status_code == 200:

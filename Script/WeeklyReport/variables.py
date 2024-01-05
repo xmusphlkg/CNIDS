@@ -1,181 +1,136 @@
-
-## Variables
-diseaseCode2Name = {
-    'Plague': '鼠疫',
-    'Cholera': '霍乱',
-    'Dysentery': '痢疾',
-    'Bacterial dysentery': '细菌性痢疾',
-    'Amoebic dysentery': '阿米巴痢疾',
-    'Typhoid': '伤寒',
-    'Paratyphoid': '副伤寒',
-    'Typhoid fever and paratyphoid fever': '伤寒和副伤寒',
-    'Acquired immune deficiency syndrome': '艾滋病',
-    'HIV': 'ＨＩＶ',
-    'Gonorrhea': '淋病',
-    'Syphilis': '梅毒',
-    'Tertiary syphilis': 'Ⅲ期梅毒',
-    'Secondary syphilis': 'Ⅱ期梅毒',
-    'Primary syphilis': 'Ⅰ期梅毒',
-    'Congenital syphilis': '胎传梅毒',
-    'Latent syphilis': '隐性梅毒',
-    'Malaria': '疟疾',
-    'Measles': '麻疹',
-    'Pertussis': '百日咳',
-    'Meningococcal meningitis': '流脑',
-    'Scarlet fever': '猩红热',
-    'Epidemic hemorrhagic fever': '出血热',
-    'Rabies': '狂犬病',
-    'Leptospirosis': '钩体病',
-    'Brucellosis': '布病',
-    'Anthrax': '炭疽',
-    'Neonatal tetanus': '新生儿破伤风',
-    'Typhus': '斑疹伤寒',
-    'Kala azar': '黑热病',
-    'Malignant malaria': '恶性疟',
-    'Tertian malaria': '间日疟',
-    'Malaria (unclassified)': '疟疾（未分型）',
-    'Japanese encephalitis': '乙脑',
-    'Dengue': '登革热',
-    'Tuberculosis': '肺结核',
-    'Tuberculosis (rifampicin-resistant)': '利福平耐药',
-    'Tuberculosis (unclassified)': '无病原学结果',
-    'Tuberculosis (positive)': '病原学阳性',
-    'Tuberculosis (negative)': '病原学阴性',
-    'Schistosomiasis': '血吸虫病',
-    'Echinococcosis': '包虫病',
-    'Leprosy': '麻风病',
-    'Influenza': '流行性感冒',
-    'Mumps': '流行性腮腺炎',
-    'Rubella': '风疹',
-    'Nongonococcal urethritis': '非淋菌性尿道炎',
-    'Infectious diarrhea': '其它感染性腹泻病',
-    'Acute hemorrhagic conjunctivitis': '急性出血性结膜炎',
-    'Condyloma acuminatum': '尖锐湿疣',
-    'Genital herpes': '生殖器疱疹',
-    'Hand foot and mouth disease': '手足口病',
-    'Cutaneous anthrax': '皮肤炭疽',
-    'Other': '其它',
-    'Hepatitis A': '甲肝',
-    'Hepatitis B': '乙肝',
-    'Hepatitis C': '丙肝',
-    'Hepatitis D': '丁肝',
-    'Hepatitis E': '戊肝',
-    'Other hepatitis': '肝炎（未分型）',
-    'Chickenpox': '水痘',
-    'Streptococcus suis': '人感染猪链球菌',
-    'Chlamydia trachomatis': '生殖道沙眼衣原体感染',
-    'Fascioliasis': '肝吸虫病',
-    'Typhus': '恙虫病',
-    # add
-    'SARS-CoV': 'SARS',
-    'Hepatitis': '肝炎',
-    'Poliomyelitis': '脊髓灰质炎', 
-    'Human infection with H5N1 virus': '人感染H5N1病毒',
-    'Diphtheria': '白喉',
-    'Human infection with H7N9 virus': '人感染H7N9病毒',
-    'COVID-19': '新冠肺炎',
-    'Filariasis': '丝虫病',
-    'Total': '合计',
-    'Monkey pox': '猴痘'
-}
-
-
-#  '鼠疫',
-#  '霍乱',
-#  '传染性非典型肺炎',
-#  '艾滋病',
-#  '病毒性肝炎',
-#  '甲型肝炎',
-#  '乙型肝炎',
-#  '丙型肝炎',
-#  '丁型肝炎',
-#  '戊型肝炎',
-#  '未分型肝炎',
-#  '脊髓灰质炎',
-#  '人感染高致病性禽流感',
-#  '麻疹',
-#  '流行性出血热',
-#  '狂犬病',
-#  '流行性乙型脑炎',
-#  '登革热',
-#  '炭疽',
-#  '细菌性和阿米巴性痢疾',
-#  '肺结核',
-#  '伤寒和副伤寒',
-#  '流行性脑脊髓膜炎',
-#  '百日咳',
-#  '白喉',
-#  '新生儿破伤风',
-#  '猩红热',
-#  '布鲁氏菌病',
-#  '淋病',
-#  '梅毒',
-#  '钩端螺旋体病',
-#  '血吸虫病',
-#  '疟疾',
-#  '人感染H7N9禽流感',
-#  '猴痘',
-#  '流行性感冒',
-#  '流行性腮腺炎',
-#  '风疹',
-#  '急性出血性结膜炎',
-#  '麻风病',
-#  '流行性和地方性斑疹伤寒',
-#  '黑热病',
-#  '包虫病',
-#  '丝虫病',
-#  '其他感染性腹泻病',
-#  '手足口病'
-
-diseaseName2Code = {
-  '鼠疫': 'Plague',
-  '霍乱': 'Cholera',
-  '传染性非典型肺炎': 'SARS-CoV',
-  '艾滋病': 'Acquired immune deficiency syndrome',
-  '病毒性肝炎': 'Hepatitis',
-  '甲型肝炎': 'Hepatitis A',
-  '乙型肝炎': 'Hepatitis B',
-  '丙型肝炎': 'Hepatitis C',
-  '丁型肝炎': 'Hepatitis D',
-  '戊型肝炎': 'Hepatitis E',
-  '未分型肝炎': 'Other hepatitis',
-  '脊髓灰质炎': 'Poliomyelitis',
-  '人感染高致病性禽流感': 'Human infection with H5N1 virus',
-  '麻疹': 'Measles',
-  '流行性出血热': 'Epidemic hemorrhagic fever',
-  '狂犬病': 'Rabies',
-  '流行性乙型脑炎': 'Japanese encephalitis',
-  '登革热': 'Dengue',
-  '炭疽': 'Anthrax',
-  '细菌性和阿米巴性痢疾': 'Dysentery',
-  '肺结核': 'Tuberculosis',
-  '伤寒和副伤寒': 'Typhoid fever and paratyphoid fever',
-  '流行性脑脊髓膜炎': 'Meningococcal meningitis',
-  '百日咳': 'Pertussis',
-  '白喉': 'Diphtheria',
-  '新生儿破伤风': 'Neonatal tetanus',
-  '猩红热': 'Scarlet fever',
-  '布鲁氏菌病': 'Brucellosis',
-  '淋病': 'Gonorrhea',
-  '梅毒': 'Syphilis',
-  '钩端螺旋体病': 'Leptospirosis',
-  '血吸虫病': 'Schistosomiasis',
-  '疟疾': 'Malaria',
-  '人感染H7N9禽流感': 'Human infection with H7N9 virus',
-  '猴痘': 'Monkey pox',
-  '流行性感冒': 'Influenza',
-  '流行性腮腺炎': 'Mumps',
-  '风疹': 'Rubella',
-  '急性出血性结膜炎': 'Acute hemorrhagic conjunctivitis',
-  '麻风病': 'Leprosy',
-  '流行性和地方性斑疹伤寒': 'Typhus',
-  '黑热病': 'Kala azar',
-  '包虫病': 'Echinococcosis',
-  '丝虫病': 'Filariasis',
-  '其他感染性腹泻病': 'Infectious diarrhea',
-  '手足口病': 'Hand foot and mouth disease',
-  '合计': 'Total'
-}
-
 # email information
-emailInfo = "\n\n\n\nFurther support: lkg1116@outlook.com" + "\n\nFull Report Link: https://github.com/xmusphlkg/CNID/blob/master/Report/report%20latest.pdf" + "\n\nDashboard Link: https://lkg1116.shinyapps.io/CNIDS/" + "\n\nData Source: https://github.com/xmusphlkg/CNID/tree/master/Data" + "\n\nUnsubscribe: https://forms.office.com/r/V6vH7rRfeq"
+email_info = "\n\n\n\nFurther support: lkg1116@outlook.com" + "\n\nFull Report Link: https://github.com/xmusphlkg/CNID/blob/master/Report/report%20latest.pdf" + "\n\nDashboard Link: https://lkg1116.shinyapps.io/CNIDS/" + "\n\nData Source: https://github.com/xmusphlkg/CNID/tree/master/Data" + "\n\nUnsubscribe: https://forms.office.com/r/V6vH7rRfeq"
+email_head = "I hope this email finds you well. China CDC has published the new data on the cases and deaths of notifiable infectious diseases in Chinese mainland in {analysis_YearMonth}."
+email_end = "The notion generated automatically, and assistant by AI. Please check the data and description carefully."
+email_sign = "Best regards,\nCNIDS"
+
+# links to application
+links_app = "https://lkg1116.shinyapps.io/CNIDS/"
+
+# links to website
+links_web = "https://github.com/xmusphlkg/CNID"
+
+# project description
+cover_project = "CNIDS: Chinese Notifiable Infectious Diseases Surveillance Project"
+cover_title_1 = "Chinese Notifiable Infectious Diseases"
+cover_title_2 = "Surveillance Project"
+cover_info_1 = "Automatically Generate by Python and generative AI"
+cover_info_2 = "Power by: Github Action"
+cover_info_3 = "Design by: Kangguo Li"
+cover_info_4 = "Generated Date: {date_now}"
+cover_info_5 = "Cite Us: CNIDs: Chinese Notifiable Infectious Diseases Surveillance Project. <u><a href='https://github.com/xmusphlkg/CNID'>Github</a></u>"
+
+# default cover
+cover_image = "https://source.unsplash.com/collection/94734566/1024x1792"
+
+# alert information
+alert_title = "Chinese Notifiable Infectious Diseases Surveillance Report<br/><br/>IMPORTANT"
+alert_content = "The text in report is generated automatically by generative AI."
+
+# page words limit
+introduction_words = 100
+highlights_words = 110
+analysis_words = 230
+
+# Prompt
+## abstract
+abstract_create = """Craft an epidemiological report analyzing the prevalence and impact of various diseases in Chinese mainland for the specified month and year, {analysis_MonthYear}.
+The report should not only focus on diseases with a high incidence but also those that are of public concern. 
+The report should be between 1000 and 1200 words, structured as follows:
+## Overview
+2 paragraphs to analysis cases and deaths, respectively. <br/>
+## Concerns
+2 paragraphs to analysis high incidence disease and public concern, respectively. <br/>
+## Recommendations
+2-3 paragraphs to provided the recommendations for the public.
+Use the provided data (Cases/Deaths) to support the analysis.
+{table_data_str}.
+{legend}"""
+abstract_check = """Analyze the following text and tell me if it is indeed the abstract of report and includes the sub-sections "## Overview", "## Concerns" and "## Recommendations" respond with 'Yes'.
+If these conditions are not met, respond with 'No'.
+{content_raw}"""
+# news
+news_create_nation = """Conduct a comprehensive yet concise search and summarize infectious disease events in Chinese mainland since {analysis_MonthYear}.
+The summary should be structured as follows:
+## Summary
+(Provide an overall summary of the infectious disease events)
+### Outbreaks of Known Diseases
+(Detail the outbreaks of known diseases during this period)
+### Emergence of Novel Pathogens
+(Discuss any new pathogens that have emerged)
+"""
+news_clean_nation = """Clean the following text and generate a new summary using below format (words limited 800 - 1000):
+## Summary
+(Provide an overall summary of the infectious disease events)
+### Outbreaks of Known Diseases
+(Detail the outbreaks of known diseases during this period)
+### Emergence of Novel Pathogens
+(Discuss any new pathogens that have emerged)
+This is content you need to clean:
+{content_raw}"""
+news_check_nation = """Analyze the following text and tell me if it is a summary of infectious diseases report and includes the sub-sections "## Summary", "## Concerns" and "## Recommendations" respond with 'Yes'.
+If these conditions are not met, respond with 'No'.
+{content_clean}"""
+news_create_global = """Conduct a comprehensive yet concise search and summarize infectious disease events globally since {analysis_MonthYear}. 
+The summary should be structured as follows:
+## Summary
+(Provide an overall summary of the infectious disease events)
+### Outbreaks of Known Diseases
+(Detail the outbreaks of known diseases during this period)
+### Emergence of Novel Pathogens
+(Discuss any new pathogens that have emerged)
+"""
+news_clean_global = """Clean the following text and generate a new summary using below format (words limited 800 - 1000):
+## Summary
+(Provide an overall summary of the infectious disease events)
+### Outbreaks of Known Diseases
+(Detail the outbreaks of known diseases during this period)
+### Emergence of Novel Pathogens
+(Discuss any new pathogens that have emerged)
+This is content you need to clean:
+{content_raw}"""
+news_check_global = """Analyze the following text and tell me if it is a summary of infectious diseases report and includes the sub-sections "## Summary", "## Concerns" and "## Recommendations" respond with 'Yes'.
+If these conditions are not met, respond with 'No'.
+{content_clean}"""
+
+## introduction
+introduction_create = "Give a brief introduction to {disease_name}, not give any comment (words limit 90 - 100 words)."
+introduction_check = "Analyze the following text and tell me if it is the Introduction section to {disease_name} report. If it is, please answer me Yes. If not, please answer me No."
+## Highlights
+highlights_create = """Analyze the provided data for {disease_name} in Chinese mainland
+and provide a brief summary of key epidemiological trends and the current disease situation as of {report_date}.
+The summary should be formatted as a list of highlights (3-4 elements), each one followed by a line break <br/>.
+The word count should be between 100 and 110 words. Here is the data for {disease_name} in Chinese mainland:
+{table_data_str}"""
+highlights_check = "Analyze the following text and tell me if it is the Highlights section to {disease_name} report. If it is, please answer me Yes. If not, please answer me No."
+## Analysis
+analysis_create = """Provide a concise case analysis of the reported data for {disease_name} in Chinese mainland, following the format below:
+### Cases Analysis
+...... (Word count: 100-110 words)
+### Deaths Analysis
+...... (Word count: 100-110 words)
+Here is the data for {disease_name} in Chinese mainland:
+{table_data_str}"""
+analysis_check = """Evaluate the given text and determine whether it corresponds to the analysis section of a report related to {disease_name}.
+If it is indeed the analysis section and includes the sub-sections "### Cases Analysis" and "### Deaths Analysis," respond with 'Yes'.
+If these conditions are not met, respond with 'No'."""
+
+## mail
+mail_create = """Examine the monthly cases and deaths related to various diseases in Chinese mainland for the month of {analysis_YearMonth}.
+Create a list of key points for each disease, and the list should be structured as follows:
+**1. disease_name:** description.
+**2. disease_name:** description.
+**3. disease_name:** description.
+...... 
+Use the provided data (Cases/Deaths) to support the analysis.
+{table_data_str}.
+{table_legend}"""
+mail_check = """Analyze the following text and tell me if it is a short list of important points of infectious diseases. If it is, please answer me Yes. If not, please answer me No.
+{content_raw}"""
+## cover image
+key_create = """Analyze below content, and give a prompt to create a abstract cover image of this report.
+Keep the cover as simple as possible. Don't touch on any text or statistical charts.
+The background color should be darkblue. The image theme is technology.
+{mail_content}"""
+key_check = """Analyze the following text and tell me if it is a Prompt. If it is, please answer me Yes. If not, please answer me No.
+{content_raw}"""

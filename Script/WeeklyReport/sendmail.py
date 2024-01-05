@@ -97,14 +97,14 @@ def send_email_to_subscriber(test_info):
     body_main = open("../Report/mail/latest.md", "r").read()
     body_table = open("../Report/table/latest.md", "r").read()
     body_table = markdown.markdown(body_table, extensions=['markdown.extensions.tables'])
-    emailInfo = re.sub(r'(https?://\S+)', r'<a href="\1">\1</a>', variables.emailInfo)
+    email_info = re.sub(r'(https?://\S+)', r'<a href="\1">\1</a>', variables.email_info)
     # send email to all subscribers
     for index, row in df.iterrows():
         recipient_email = row['email']
         subject = subject
         if test_info == "True":
             body_main = "<h1>Project still in test mode, please ignore this email.</h1>\n\n" + body_main
-        body = body_main.replace("[Recipient]", row['name']) + emailInfo + "\n\n"
+        body = body_main.replace("[Recipient]", row['name']) + email_info + "\n\n"
         # trans markdown content to html
         body = body.replace("\n", "<br>")
         body = body.replace("  ", "&nbsp;&nbsp;")
