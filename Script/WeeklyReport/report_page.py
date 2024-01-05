@@ -118,10 +118,13 @@ def create_report_page(df,
     update_markdown_file(disease_name, "Analysis", analy_box_content, analysis_YearMonth)
     cases_box_content = analy_box_content.split("### Cases Analysis")[1].split("### Deaths Analysis")[0]
     death_box_content = analy_box_content.split("### Deaths Analysis")[1]
+    # remove all \n
+    cases_box_content = cases_box_content.replace("\n", "")
+    death_box_content = death_box_content.replace("\n", "")
 
     foot_left_content = f"Page {page_number} of {page_total}"
     info_box_content = '<font color="red"><b>' + variables.alert_content + '</b></font>'
-    foot_right_content = variables.cover_info_5
+    foot_right_content = ""
     set_report_title = variables.cover_title_1 + " " + variables.cover_title_2
 
     add_disease(disease_name,
@@ -456,8 +459,9 @@ def create_report_summary(table_data, table_data_str, analysis_MonthYear, legend
                                        variables.abstract_check,
                                        4096)
     # analysis_content = 'test'
-    analysis_content = markdown.markdown(analysis_content)
-    elements = add_analysis(elements, analysis_content, styles)
+    analysis_content_html = markdown.markdown(analysis_content)
+    elements = add_analysis(elements, analysis_content_html, styles)
+    print(analysis_content_html)
 
     # update README.md
     with open('../docs/README.md', 'r') as file:

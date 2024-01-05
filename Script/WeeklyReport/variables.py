@@ -38,9 +38,9 @@ abstract_create = """Craft an epidemiological report analyzing the prevalence an
 The report should not only focus on diseases with a high incidence but also those that are of public concern. 
 The report should be between 1000 and 1200 words, structured as follows:
 ## Overview
-2 paragraphs to analysis cases and deaths, respectively. <br/>
+2 paragraphs to analysis cases and deaths, respectively.
 ## Concerns
-2 paragraphs to analysis high incidence disease and public concern, respectively. <br/>
+2 paragraphs to analysis high incidence disease and public concern, respectively.
 ## Recommendations
 2-3 paragraphs to provided the recommendations for the public.
 Use the provided data (Cases/Deaths) to support the analysis.
