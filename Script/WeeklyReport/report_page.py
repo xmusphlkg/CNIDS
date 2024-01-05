@@ -477,10 +477,7 @@ def create_report_summary(table_data, table_data_str, analysis_MonthYear, legend
                                        variables.abstract_create.format(analysis_MonthYear=analysis_MonthYear, table_data_str=table_data_str, legend=legend),
                                        variables.abstract_check,
                                        4096)
-    # analysis_content = 'test'
-    analysis_content_html = markdown.markdown(analysis_content)
-    analysis_content_html = translate_html(analysis_content_html)
-    elements = add_analysis(elements, analysis_content_html, styles)
+    elements = add_analysis(elements, analysis_content, styles)
 
     # update README.md
     with open('../docs/README.md', 'r') as file:
@@ -500,10 +497,7 @@ def create_report_summary(table_data, table_data_str, analysis_MonthYear, legend
                                  variables.news_create_nation.format(analysis_MonthYear=analysis_MonthYear),
                                  variables.news_clean_nation,
                                  variables.news_check_nation)
-    # bing_content = "test"
-    bing_content_html = markdown.markdown(bing_content)
-    bing_content_html = translate_html(bing_content_html)
-    elements = add_news(elements, bing_content_html, analysis_MonthYear, "in Chinese Mainland", styles)
+    elements = add_news(elements, bing_content, analysis_MonthYear, "in Chinese Mainland", styles)
 
     bing_content = bing_analysis(os.environ['REPORT_NEWS_CREATE'],
                                  os.environ['REPORT_NEWS_CLEAN'],
@@ -511,10 +505,7 @@ def create_report_summary(table_data, table_data_str, analysis_MonthYear, legend
                                  variables.news_create_global.format(analysis_MonthYear=analysis_MonthYear),
                                  variables.news_clean_global,
                                  variables.news_check_global)
-    # bing_content = "test"
-    bing_content_html = markdown.markdown(bing_content)
-    bing_content_html = translate_html(bing_content_html)
-    elements = add_news(elements, bing_content_html, analysis_MonthYear, "around world", styles)
+    elements = add_news(elements, bing_content, analysis_MonthYear, "around world", styles)
 
     # pre build
     doc = SimpleDocTemplate(f"./temp/{file_name}.pdf",
