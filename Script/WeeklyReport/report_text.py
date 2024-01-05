@@ -100,10 +100,17 @@ def openai_single(model_create, model_check,
         if "Yes" in box_check and box_length:
             return box_content
         else:
-            attempt += 1
+            attempt += 1                
             print(f"Retrying ({attempt}/{max_retries})...\n")
             print(f"box_check: {box_check}\n")
-            print(f"box_content: {box_content}\n")
+            print(f"box_content: {box_content}\n") 
+            if not box_length:
+                # rebuild messages_create
+                content_add = f"Good, but the content is too long. Please shorten the content block to {content_words} words."
+                messages_create = [{"role": "system", "content": "You are an epidemiologist."},
+                                  {"role": "user", "content": content_create},
+                                  {"role": "assistant", "content": box_content},
+                                  {"role": "user", "content": content_add}]
     print(f"{disease} - {section}: Maximum retries reached. Failed to create response.")
     return None
     
