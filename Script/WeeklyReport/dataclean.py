@@ -10,18 +10,18 @@ def calculate_change_data(df, analysis_date):
     # get previous data
     latest_data_2 = df[df['Date'] == analysis_date - pd.DateOffset(months=1)]
     latest_data_2 = latest_data_2.sort_values(by='Diseases', ascending=True).reset_index()
-    latest_data_2 = latest_data_2[['Diseases', 'DiseasesCN', 'Cases', 'Deaths']]
-    latest_data_2.columns = ['Diseases', 'DiseasesCN', 'CasesPM', 'DeathsPM']
+    latest_data_2 = latest_data_2[['Diseases', 'Cases', 'Deaths']]
+    latest_data_2.columns = ['Diseases', 'CasesPM', 'DeathsPM']
     
     # get previous year data
     latest_data_3 = df[df['Date'] == analysis_date - pd.DateOffset(years=1)]
     latest_data_3 = latest_data_3.sort_values(by='Diseases', ascending=True).reset_index()
-    latest_data_3 = latest_data_3[['Diseases', 'DiseasesCN', 'Cases', 'Deaths']]
-    latest_data_3.columns = ['Diseases', 'DiseasesCN', 'CasesPY', 'DeathsPY']
+    latest_data_3 = latest_data_3[['Diseases', 'Cases', 'Deaths']]
+    latest_data_3.columns = ['Diseases', 'CasesPY', 'DeathsPY']
     
     # change_data is join latest_data_1 and latest_data_2
-    change_data = pd.merge(latest_data_1, latest_data_2, on=['Diseases', 'DiseasesCN'], how='left')
-    change_data = pd.merge(change_data, latest_data_3, on=['Diseases', 'DiseasesCN'], how='left')
+    change_data = pd.merge(latest_data_1, latest_data_2, on=['Diseases'], how='left')
+    change_data = pd.merge(change_data, latest_data_3, on=['Diseases'], how='left')
 
     # ChangeCasesMonth, ChangeCasesYear, ChangeDeathsMonth, ChangeDeathsYear
     change_data['ChangeCasesMonth'] = change_data['Cases'] - change_data['CasesPM']
