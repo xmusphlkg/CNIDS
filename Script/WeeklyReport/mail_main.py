@@ -18,7 +18,7 @@ def add_mail_main(mail_main, analysis_YearMonth):
 def openai_mail_cover(table_data_str, table_legend, analysis_YearMonth):
     mail_content = openai_mail(os.environ['MAIL_MAIN_CREATE'],
                                os.environ['MAIL_MAIN_CHECK'],
-                               variables.mail_create.format(table_data_str=table_data_str, legend=table_legend, analysis_YearMonth=analysis_YearMonth),
+                               variables.mail_create.format(table_data_str=table_data_str, table_legend=table_legend, analysis_YearMonth=analysis_YearMonth),
                                variables.mail_check)
     key_words = openai_key(os.environ['MAIL_KEYWORDS_CREATE'],
                            os.environ['MAIL_KEYWORDS_CHECK'],
