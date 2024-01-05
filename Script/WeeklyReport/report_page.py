@@ -23,17 +23,23 @@ import variables
 from report_fig import prepare_disease_data
 from report_text import openai_single, bing_analysis, update_markdown_file, openai_abstract
 
-def translate_html(text):
+def translate_html(element, styles, text):
     """
-    This function is used to trans html to support reportlab.
+    This function is used to trans markdown to reportlab supported html.
     """
-    # trans all heading to <para fontsize='14'></para>
-    text = re.sub(r'<h([1-5])>(.*?)</h\1>', r'<para><b>\2</b></para>', text)
-    
-    # trans <p></p> to <para></para>
-    text = re.sub(r'<p>(.*?)</p>', r'<para>\1</para>', text)
-
-    return text
+    # split text by \n
+    contents = text.split("\n")
+    for content in contents:
+        if content.startswith("#"):
+            # remove all # and following spaces
+            content = content.replace("#", "").strip()
+            element.append(Spacer(1, 12))
+            element.append(Paragraph(content, styles['Hed1']))
+            element.append(Spacer(1, 12))
+        else:
+            content = markdown.markdown(content)
+            element.append(Paragraph(content, styles['Normal']))
+    return element
 
 def create_report(disease_order):
     """
@@ -448,6 +454,7 @@ def create_report_summary(table_data, table_data_str, analysis_MonthYear, legend
     styles.add(ParagraphStyle(name='Notice', parent=styles['Normal'], fontSize=14, textColor=colors.red, alignment=TA_CENTER, borderWidth=3))
     styles.add(ParagraphStyle(name="Cite", alignment=TA_LEFT, fontSize=10, textColor=colors.gray))
     styles.add(ParagraphStyle(name="Author", alignment=TA_LEFT, fontSize=10, textColor=colors.black))
+    styles.add(ParagraphStyle(name='Hed1', alignment=TA_LEFT, fontSize=14, fontName='Helvetica-Bold', textColor=colors.black))
     styles.add(ParagraphStyle(name='Center', alignment=TA_CENTER, fontName='Helvetica-Bold', fontSize=14, textColor=colors.white))
     styles.add(ParagraphStyle(name='Hed0', fontSize=16, alignment=TA_LEFT, borderWidth=3, textColor=colors.HexColor("#1E5E84")))
     styles.add(ParagraphStyle(name='foot', fontName='Helvetica', fontSize=10, textColor=colors.black))
@@ -560,13 +567,17 @@ def content_clean(content):
     # content = markdown.markdown(content)
     return content
 
+def add_analysis(elements, text, styles):
+    elements = translate_html(elements, styles, text)
+    elements.append(Spacer(12, 12))
+    return elements
+
 def add_news(elements, content, analysis_MonthYear, location, styles):
     title = f"News information since {analysis_MonthYear} {location}"
     paragraphReportHeader = Paragraph(title, styles['Hed0'])
     elements.append(paragraphReportHeader)
     elements.append(Spacer(12, 12))
-    paragraphReportSummary = Paragraph(content, styles["Author"])
-    elements.append(paragraphReportSummary)
+    elements = translate_html(elements, styles, content)
     elements.append(PageBreak())
     return elements
 
@@ -715,13 +726,6 @@ def add_table(elements, table_data, analysis_MonthYear, styles):
     footnote = Paragraph(footnote, styles['foot'])
     elements.append(footnote)
     elements.append(PageBreak())
-
-    return elements
-
-def add_analysis(elements, text, styles):
-    paragraphReportSummary = Paragraph(text, styles["Author"])
-    elements.append(paragraphReportSummary)
-    elements.append(Spacer(12, 12))
 
     return elements
 
