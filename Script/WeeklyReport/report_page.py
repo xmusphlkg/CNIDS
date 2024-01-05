@@ -27,11 +27,15 @@ def translate_html(text):
     """
     This function is used to trans html to support reportlab.
     """
+    print(text)
+    
     # trans all heading to <para fontsize='14'></para>
     text = re.sub(r'<h([1-5])>(.*?)</h\1>', r'<para fontsize="14"><b>\2</b></para>', text)
     
     # trans <p></p> to <para></para>
     text = re.sub(r'<p>(.*?)</p>', r'<para>\1</para>', text)
+
+    print(text)
 
     return text
 
