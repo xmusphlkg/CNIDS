@@ -1,16 +1,16 @@
 ## Introduction
 
-Typhoid and Paratyphoid fevers are life-threatening illnesses caused by Salmonella Typhi and Salmonella Paratyphi bacteria, respectively. Both diseases, prevalent in regions with poor sanitation and a lack of clean water, are spread through the consumption of food or water contaminated by feces of an infected person. Clinically, they present similar symptoms including prolonged high fever, weakness, stomach pains, headache, and loss of appetite. Vaccines are available against Typhoid, but not against Paratyphoid. Antibiotics are the standard treatment for both diseases.
+Typhoid fever and paratyphoid fever are systemic illnesses caused by bacteria, Salmonella Typhi and Salmonella Paratyphi respectively. The diseases are primarily acquired through ingestion of contaminated food or water, characterized by prolonged fever, fatigue, headache, nausea, and abdominal pain. Both can develop into life-threatening complications without treatment. Typhoid is more severe compared to paratyphoid, being potentially fatal if untreated. Globally, these diseases are more common in areas lacking clean water and proper sanitation. The most effective prevention method is through maintaining hygienic water and food practices and vaccination.
 ## Highlights
 
-- There's an observable seasonal trend with cases peaking during the summer months, suggesting possible links to environmental factors or human activities during this period. <br/>
-- Overall, cases of Typhoid fever and paratyphoid fever have shown a declining trend over the years, with a notable decrease since 2010. <br/>
-- Despite the declining trend, sporadic outbreaks and occasional deaths underscore the persistent risk and the need for continued surveillance and preventive measures. <br/>
-- As of November 2023, the cases (377) and zero deaths indicate a maintenance of the general downward trend in disease prevalence, with occasional spikes. <br/>
+- A general declining trend in the number of cases and deaths from typhoid fever and paratyphoid fever is observed, with peaks typically occurring during the summer months. <br/>
+- Despite fluctuations, there has been a significant decrease in cases from the peak in 2014 (1,787 cases in September) to November 2023 (377 cases). <br/>
+- The fatality rate remains low, with only a few isolated deaths reported sporadically throughout the observed period, indicating effective clinical management. <br/>
+- The lowest number of cases (234) was reported in December 2022, suggesting possible effective public health interventions or underreporting. <br/>
 ## Analysis
 
 ### Cases Analysis
-The number of typhoid and paratyphoid fever cases in China's mainland shows clear seasonality with peaks during the warmer months from May to October, indicating possible seasonal factors influencing transmission, like increased bacterial proliferation or food handling practices. Between 2010 and 2023, there was a general trend of decreasing case numbers, dipping notably in 2020 which coincides with the onset of the COVID-19 pandemic, possibly due to enhanced hygiene measures. The post-2020 period continues to show reduced cases, suggesting a sustained impact or improved public health interventions.
+The reported cases of Typhoid and paratyphoid fever in mainland China from November 2013 to November 2023 show seasonal variation with peaks generally during the summer months, June through August, indicative of increased transmission in warmer periods. The highest number of cases (1787) was reported in September 2014. A downward trend is observed from 2014 to 2023, with cases decreasing from four-digit numbers to low three-digits, showing improved control and/or reporting over the years.
 
 ### Deaths Analysis
-Despite the fluctuating number of cases annually, the reported deaths from typhoid and paratyphoid fevers remained low, with often zero or one monthly reported death. A few sporadic increases up to three deaths in a month were noted, with the highest in June 2017. This low mortality rate could reflect effective clinical management and treatment availability. Additionally, the near-elimination of deaths in recent years could be attributed to ongoing health initiatives, although underreporting cannot be ruled out.
+Over the same period, deaths remained extremely low relative to case numbers, with occasional single fatalities reported sporadically throughout the years (a total of 15 deaths across a decade). The reported case-fatality ratio is thus very low, indicating either mild disease presentation, effective treatment, underreporting of deaths, or a combination thereof. The lone death in October 2023 after several months with no fatalities highlights the continued importance of surveillance.

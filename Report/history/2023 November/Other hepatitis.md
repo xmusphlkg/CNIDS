@@ -1,16 +1,16 @@
 ## Introduction
 
-Other hepatitis refers to the inflammation of the liver caused by infectious agents other than the five known hepatitis viruses, A to E. This condition can result from exposures to certain drugs, toxins, heavy alcohol use, and some autoimmune diseases. It also includes rare types of viral hepatitis such as hepatitis caused by herpesviruses, adenoviruses, or cytomegalovirus. The symptoms are similar to viral hepatitis but may vary based on etiology. The impact and outcome range from mild and self-limiting conditions to severe liver damage, which can be acute or chronic.
+Other hepatitis refers to inflammation of the liver caused by factors other than the common viral strains (A, B, C, D, and E). These could include autoimmune hepatitis, where the body attacks its own cells; alcoholic hepatitis due to excessive alcohol consumption; or drug-induced hepatitis, resulting from certain drugs or toxins. Other hepatitis can result in both acute and chronic liver conditions, with symptoms ranging from mild to severe. It’s essential to diagnose and treat these conditions promptly to prevent further liver damage.
 ## Highlights
 
-- Significant decrease in Other hepatitis cases from 2010 to 2023, with initial highs (5,010 in March 2011) to a low of 347 in December 2022. <br/>
-- Reduction in mortality, with deaths dwindling from occasional peaks (6 in December 2012) to zero in November 2023. <br/>
-- Consistent downward trend in annual case numbers with no recent peaks nearing early-decade figures. <br/>
-- Notable case drop in early 2020, potentially due to COVID-19 public health measures, with no rebound to pre-2020 levels by November 2023. <br/>
+- Steady decline in Other hepatitis cases from 3,198 in November 2013 to 601 in November 2023, reflecting successful containment efforts. <br/>
+- Mortality rates are low, with zero deaths in November 2023, indicating effective treatment and management of the disease. <br/>
+- A notable decline in cases during early 2020 suggests an impact of COVID-19 public health measures on reducing transmission. <br/>
+- The lack of a seasonal trend suggests that Other hepatitis transmission in China is not highly season-dependent. <br/>
 ## Analysis
 
 ### Cases Analysis
-Between January 2010 and November 2023, Chinese mainland reported a general downward trend in cases of Other hepatitis, decreasing from 3723 cases to a low of 347 cases in December 2022. A seasonal pattern is not prominently observable. However, there were apparent spikes, notably in March annually, with fluctuations throughout the years. The highest peak occurred in March 2011 with 5010 cases, whereas the lowest counts were reported at the end of 2022. The data for January and February 2013 are missing, interrupting the trend analysis for that period.
+The data from November 2013 to November 2023 demonstrate a marked decrease in reported cases of Other hepatitis in Chinese mainland. The initial count was 3098 cases in November 2013, with a clear downward trend over the 10-year span, reaching a low of 347 cases in December 2022. This suggests effective preventative measures or improvements in public health, but seasonal variations are apparent. The cases slightly increased in the following months, suggesting possible fluctuations in transmission or reporting.
 
 ### Deaths Analysis
-The death count associated with Other hepatitis in the 2010-2023 time frame shows overall low mortality, with monthly deaths rarely exceeding five. There is no clear trend or significant increase in deaths over time, indicating steady case fatality rates. The highest number of deaths in a single month was 6 in December 2012. Deaths dropped to zero on multiple occasions, particularly noticeable from 2018 onwards, with few exceptions where deaths were reported. This suggests improved management or reporting of Other hepatitis, or both. Data are missing for the entirety of January and February 2013, creating a gap in the continuity.
+Death counts due to Other hepatitis remained very low relative to the number of cases throughout the observed period, with no deaths reported in more than half of the months. The highest monthly death toll recorded was 4 deaths, happening occasionally in 2013 and 2014. Since then, monthly deaths have seldom exceeded 1, with many months reporting none. The low death rate, even as case numbers varied, could indicate effective clinical management of the disease and/or the non-severe nature of most infections.

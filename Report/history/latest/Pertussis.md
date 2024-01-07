@@ -1,16 +1,16 @@
 ## Introduction
 
-Pertussis, commonly known as whooping cough, is a highly contagious bacterial disease caused by Bordetella pertussis. It is characterized by severe coughing spells that end in a "whooping" sound when the person breathes in. It primarily affects infants and young children, and can be deadly, particularly in babies less than 1 year of age. Vaccination is the most effective way to prevent pertussis. Despite high levels of immunization, the disease continues to occur in all age groups, with periodic outbreaks.
+Pertussis, also known as whooping cough, is an infectious bacterial disease caused by Bordetella pertussis. It primarily affects the respiratory tract and is characterized by severe coughing spells that often end in a "whooping" sound during the intake of breath. Although it affects individuals of all ages, it can be severe, and sometimes deadly, in infants and young children. Pertussis is highly contagious and spreads through contact with respiratory droplets from coughs or sneezes from an individual carrying the infection. Methods of prevention include vaccination and good hygiene practices.
 ## Highlights
 
-- A steady increase in pertussis cases is observed in Chinese mainland, from 88 cases in January 2010 to a peak of 6410 cases in November 2023. <br/>
-- Mortality remains low, with occasional occurrences, including 2 deaths in November 2023. <br/>
-- Seasonal trends indicate higher case numbers in the summer, culminating in 4793 cases in August 2023. <br/>
-- The consistent rise in cases, including the sharp increase in November 2023, highlights the need for stronger public health measures. <br/>
+- A significant increase in Pertussis cases in mainland China, with cases growing from 106 in November 2013 to 6410 in November 2023. <br/>
+- Deaths remain sporadically low; however, a minor rise to 2 deaths in November 2023 may hint at increased disease severity. <br/>
+- Seasonal peaks in late summer suggest a pattern in transmission, pivotal for timing public health interventions. <br/>
+- The steady rise in cases underscores the necessity for improved surveillance, vaccination campaigns, and public education to address the pertussis challenge.
 ## Analysis
 
 ### Cases Analysis
-The data from the Chinese mainland indicate a pronounced increase in Pertussis cases from 2010 to 2023. Initially, cases were below 300 per month. However, as the years progressed, there was a significant upsurge, with sporadic peaks suggesting possible outbreaks. By 2023, the number of cases often exceeded 4000 per month, highlighting a concerning upward trend. Seasonal patterns are not distinctly clear, but there is a notable escalation toward the later months, notably November 2023 with 6410 cases, suggesting potential seasonal fluctuations or reporting variabilities.
+Pertussis cases in Chinese mainland showed a fluctuating but overall increasing trend over a decade. Starting with 106 cases in 2013 November, numbers were consistently under 500 cases per month until mid-2014. From 2015 onwards, there was a notable rise each year, reaching peaks during the summer months, typically July or August. Remarkably, there was a dramatic increase to 6410 cases by 2023 November, reflecting a potential public health challenge. Seasonal variation appears consistent, possibly illustrating transmission dynamics influenced by climate or social patterns.
 
 ### Deaths Analysis
-Despite the substantial rise in Pertussis cases over the years, the number of deaths remained relatively low, with no deaths in many months. There were occasional fatalities, typically not exceeding one death per month until November 2023, where a peak of two deaths was recorded. The overall mortality rate for Pertussis in this dataset remains low, but the two deaths in the latter part of the dataset could suggest evolving virulence or lag in timely effective treatment, emphasizing the need for monitoring and potential public health interventions.
+Over the observed period, Pertussis-related deaths remained very low, with only sporadic fatalities recorded despite large numbers of cases. Initially, there were no deaths until August 2014. Overall, there seems to be no direct correlation between case numbers and deaths, indicating a relatively low case-fatality rate or effective clinical management. The highest number of deaths in a single month is 2, recorded in 2023 November, which contrasts with the high case number that month, suggesting maintained low mortality even with increased incidence.

@@ -1,17 +1,16 @@
 ## Introduction
 
-Gonorrhea is a highly contagious sexually transmitted infection caused by the bacterium Neisseria gonorrhoeae. It primarily affects mucous membranes, including those found in the urethra, cervix, throat, and rectum. Transmission can occur through sexual contact or from mother to newborn during childbirth. Symptoms include painful urination, increased vaginal or penile discharge, and abdominal pain. If left untreated, gonorrhea can lead to severe complications, including infertility. Antibiotics are used for treatment, but antibiotic-resistant strains of the bacteria are becoming increasingly common.
+Gonorrhea is a sexually transmitted infection (STI) caused by the bacteria Neisseria gonorrhoeae. It's often asymptomatic, but symptoms when present can include painful urination, pelvic pain, and discharge in both men and women. It can cause serious health complications if left untreated, including infertility. It is most prevalent in young adults. The infection can be diagnosed through laboratory tests and is typically treated with antibiotics. It is preventable through safe sex practices including consistent use of condoms.
 ## Highlights
 
-- An overall increase in gonorrhea cases was observed from 2010 through 2017, with a monthly average surpassing 10,000 cases at its apex. <br/>
-- Case numbers saw a sharp decline in February 2020, likely linked to COVID-19 health interventions, with gradual recovery but not reaching prior peak levels as of November 2023. <br/>
-- Deaths remain extremely rare throughout the observed period, with sporadic instances suggesting possible data irregularities or co-infections. <br/>
-- The current trend by November 2023 shows a stabilization of case numbers, indicating a lower but persistent transmission rate post-pandemic peak. <br/>
+- Gonorrhea cases in Chinese mainland show a sharp decline from December 2022 (6027 cases) to January 2023 (4762 cases), then steadily rise to November 2023 (10065 cases). <br/>
+- There's an increasing trend in the number of yearly cases, with a rise seen from 2013 through 2023. <br/>
+- Deaths remain exceedingly rare, with no fatalities reported in November 2023 and only sporadic instances over the years. <br/>
+- Seasonality is observed, with cases typically decreasing at the year's start and increasing as the year progresses. <br/>
 ## Analysis
 
 ### Cases Analysis
-The data indicates a fluctuating yet generally increasing trend in gonorrhea cases across the Chinese mainland from January 2010 to November 2023. Notable peaks are observed in hot months (June, July, and August), potentially linked to increased sexual activity during these periods. The surge in 2016-2017 and a drop in February 2020 could be attributed to seasonal variations and the onset of the COVID-19 pandemic, respectively. The lowest recorded cases occur in December 2022, possibly due to intensified public health interventions or underreporting during the festive season.
+Gonorrhea cases in the Chinese mainland display a noticeable trend over the observed period. Starting at 9079 cases in November 2013, a peak of 13803 cases occurred in August 2017, indicating an increasing trend. After this peak, the numbers fluctuated, with notable dips in February of each year, potentially due to the Chinese New Year affecting reporting and clinic operation. A significant drop to 3524 cases was observed in February 2020, coinciding with the COVID-19 pandemic onset. Post-2020, cases have gradually increased but have not reached pre-pandemic levels.
 
 ### Deaths Analysis
-Gonorrhea-related deaths over the observed period are extremely rare, with a total of 14 deaths from January 2010 to November 2023. The data shows sporadic fatalities, with the highest deaths (4) in January 2020, which may be an anomaly or associated with co-infections or complications. The overall death rate is negligible, suggesting effective treatment availability and potentially reflecting the non-lethal nature of gonorrhea, emphasizing the condition's burden as a public health concern rather than a direct cause of mortality.
-
+Gonorrhea-associated deaths in the Chinese mainland were rare from 2013 to 2023, with a total of 13 reported deaths. The first death was recorded in May 2014, hinting at a potential data reporting change or a severe complication case since gonorrhea rarely results in mortality. Deaths remained sporadic and did not exceed four in a single month (January 2020). Yearly, deaths are nearly non-existent, indicating effective gonorrhea management or possibly underreported mortality related to the disease.

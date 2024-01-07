@@ -1,16 +1,16 @@
 ## Introduction
 
-Dysentery is an infectious disease caused by bacteria, viruses, or parasites, primarily characterized by severe diarrhea with the presence of blood or mucus. The two main types, amoebic and bacillary, are caused by a single-celled parasite Entamoeba histolytica and bacteria of the Shigella group, respectively. It is typically contracted through consumption of contaminated food or water, often in areas with poor sanitation. While treatable with antibiotics and amoebicides, it remains a significant global health issue, particularly in developing regions, often leading to dehydration, malnutrition, and in severe cases, death.
+Dysentery is a type of gastroenteritis that results in severe diarrhea with mucus or blood in the feces. It is most often caused by the bacteria Shigella (bacillary dysentery) or the amoeba Entamoeba histolytica (amoebic dysentery). Dysentery is highly contagious, spreading through poor hygiene practices or contaminated food or water. It typically presents with abdominal pain and fever. Prompt treatment for dysentery includes rehydration and, in some cases, antibiotics. Untreated, dysentery can lead to serious complications such as dehydration or organ damage.
 ## Highlights
 
-- Consistent seasonal pattern with case peaks during summer months (June, July, August) indicating potential seasonal transmission factors, such as higher temperatures or specific local habits during this period. <br/>
-- Overall, a decline in both cases and deaths from Dysentery observed over the 13-year span, possibly due to improved sanitation, public health policies, or increased community awareness. <br/>
-- Specific spike in deaths in September 2012 (198 deaths) is an anomaly in the data, warranting investigation for potential outbreak or data recording errors. <br/>
-- As of November 2023, the incidence of Dysentery continues to be low, with 1963 cases and 1 death, suggesting ongoing effective disease management and control strategies. <br/>
+- Seasonality is evident in dysentery trends within Chinese mainland, with a summer peak and winter nadir. <br/>
+- A significant reduction in cases is noted, from 11,192 in November 2013 to 1,963 in November 2023. <br/>
+- Deaths remain rare, signifying potential advancements in treatment and intervention strategies. <br/>
+- As of November 2023, the disease situation shows a low incidence with minimal fatalities, indicating controlled disease spread.
 ## Analysis
 
 ### Cases Analysis
-The data for dysentery cases in Chinese mainland from 2010 to 2023 shows a clear seasonality pattern, with cases peaking during the summer months (June-August) and declining towards the winter. Starting in 2010 with nearly 9,000 cases in January, there has been a general downward trend over the years, with seasonal peaks decreasing in magnitude. However, a notable spike occurred in September 2012. By 2023, case numbers have significantly reduced, with under 5,000 cases by July and dropping steadily thereafter.
+The data indicates a seasonality in dysentery cases in Chinese mainland, with peaks often occurring in the summer months (May to August) and lower incidence in winter (December to March). The highest number of cases was reported in July 2014 (22,311 cases), while a general downward trend in the annual caseload is visible, reaching a low in December 2022 (1,215 cases). This could suggest improved sanitation, hygiene, and public health interventions over the years. The impact of COVID-19 related measures may also contribute to the reduced transmission seen from 2020 onwards.
 
 ### Deaths Analysis
-Dysentery-related deaths in the same period are remarkably low compared to case numbers, with most months recording zero or one death. The fatality rate appears to have decreased over time, with a distinct anomaly in September 2012 where deaths spiked to 198. Apart from this outlier, the data demonstrates a generally low and stable mortality rate, even when case numbers were substantially higher in earlier years. The decrease in cases has not significantly impacted the already low death count observed monthly.
+Mortality due to dysentery in Chinese mainland has remained low from 2013 to 2023, with a total of 29 deaths reported over this period, indicative of a case-fatality ratio well below 0.1%. The highest number of deaths in a single month was three, occurring in November 2013, July 2015, and January 2020. The sporadic distribution of deaths across the years indicates no clear pattern or seasonality in fatal cases, which may reflect effective clinical management and potentially the availability of healthcare services preventing progression to severe disease.

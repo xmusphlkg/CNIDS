@@ -1,16 +1,16 @@
 ## Introduction
 
-Scarlet fever, also known as scarlatina, is a bacterial infection that typically affects children aged 5 to 15. The infection, caused by Streptococcus pyogenes or group A streptococcus, manifests as a distinctive pink-red rash and is often accompanied by a high fever and a sore throat. Other symptoms can include a white or red tongue and swollen neck glands. Historically a severe childhood disease, antibiotic treatments have rendered Scarlet fever much less threatening today, but it still requires prompt medical attention.
+Scarlet fever, also known as scarlatina, is a bacterial illness often linked with a sore throat (streptococcal pharyngitis) and characterized by distinct pink-red rash. It is caused by an infection with group A Streptococcus bacteria. The disease primarily affects children, and its distinguishing symptoms involve a high temperature, sore throat, and the prominent 'strawberry' tongue. Prompt treatment with antibiotics is crucial to prevent complications. Scarlet fever was once a severe childhood disease, but now it's treatable with modern medicine.
 ## Highlights
 
-- Significant reduction in Scarlet fever cases and no reported deaths since 2020, suggesting effective control measures or changes in reporting. <br/>
-- Notable increase in cases from March 2023 with 4637 cases by November, indicating a resurgence or seasonal trend. <br/>
-- No fatalities recorded in recent years, reflecting advancements in disease management and healthcare interventions. <br/>
-- Despite the low case numbers relative to the peak in 2019, the rising cases in 2023 call for continued vigilance and public health response.
+- Scarlet fever in Chinese mainland shows seasonality, peaking from May to July and again in November and December. <br/>
+- After 2019, cases significantly declined, potentially due to COVID-19 public health measures, with numbers stabilizing at lower levels thereafter. <br/>
+- The latest surge in November 2023 reached 4637 cases; however, fatalities remain nonexistent, indicating effective case management. <br/>
+- Overall, mortality is very low, suggesting adequate control and treatment strategies for Scarlet fever in the region. <br/>
 ## Analysis
 
 ### Cases Analysis
-Scarlet fever cases in mainland China displayed seasonality with peaks typically in May and June, which aligns with late spring and early summer months. The number of cases rose sharply from 2010 (925 cases in January) to a peak in December 2019 (13,053 cases). Notably, there was a significant drop in reported cases in 2020, which coincided with the COVID-19 pandemic possibly due to lockdowns and increased hygiene measures. As of November 2023, cases have rebounded to pre-pandemic levels (4,637 cases).
+Scarlet fever cases in the Chinese mainland exhibit a pronounced seasonality with peaks typically in the months from May to July and a smaller peak around December, as evident in the data spanning from 2013 to 2023. Incidence rates surged notably from 2013, reaching a zenith in June 2019 with 13,053 cases. A drastic decline in cases begins in 2020; this may correlate with COVID-19 pandemic control measures such as social distancing, which likely curbed the transmission of other infectious diseases including Scarlet fever.
 
 ### Deaths Analysis
-The dataset reflects remarkably low mortality, with only four reported deaths over the 13-year span despite tens of thousands of cases. The first recorded death occurred in July 2011, and subsequent deaths were sporadic and infrequent with one in May 2012, July 2012, and September 2020. The minimal death occurrences suggest effective clinical management and low virulence of the scarlet fever-causing pathogen. It's essential to maintain vigilance and adequate public health measures to ensure continued low mortality rates.
+The mortality data for Scarlet fever in Chinese mainland from 2013 to 2023 indicate exceedingly low fatality rates, with only three recorded deaths in an entire decade, amidst tens of thousands of cases. Two deaths occurred in 2013, and one each in 2015 and 2020. The scarcity of deaths suggests that although Scarlet fever cases were quite prevalent at certain times, the condition remained non-lethal, possibly due to effective clinical management or the non-virulent nature of the circulating strains.

@@ -1,16 +1,16 @@
 ## Introduction
 
-Plague is an infectious disease caused by the bacterium Yersinia pestis, primarily affecting rodents. It is usually transmitted to humans through fleas' bite that have been infected by feeding on plague-infected animals. There are three forms of human plague: bubonic (most common), septicemic, and pneumonic, depending on the route of infection. Symptoms often include high fever, chills, headache, and swollen lymph nodes. Without prompt treatment, the disease can cause severe illness or death. It played a tragic role in human history with several pandemics, the most notable being the Black Death in the 14th century.
+Plague is an infectious disease caused by the bacterium Yersinia pestis. It's primarily spread through the bite of infected fleas living on small mammals, particularly rats. It can also be transmitted through contaminated fluids or tissues. Plague is known for causing the "Black Death" in the Middle Ages, killing millions. It typically manifests in three forms: bubonic, septicemic, and pneumonic. Symptoms include fever, weakness, chills, and swollen lymph nodes. Though it can be fatal if not treated promptly, plague responds well to modern antibiotics.
 ## Highlights
 
-- Incidence peaks: Occasional outbreaks are noted, with a notable spike in August 2023 (4 cases, 1 death). <br/>
-- Low prevalence: The overall low case count over 13 years indicates effective control measures in the Chinese mainland. <br/>
-- Case-fatality ratio: Some incidents have high fatality rates, emphasizing the potential severity of outbreaks. <br/>
-- Current status: A single case without death reported in November 2023 suggests either an isolated case or an early sign of a minor outbreak. Monitoring is essential. <br/>
+- Overall, plague in Chinese mainland from 2013 to November 2023 shows sporadic cases rather than steady or persistent outbreaks, suggesting infrequent transmission events or localized occurrences. <br/>
+- Within the 10-year dataset provided, a total of 17 cases and 11 deaths were reported, indicating a relatively high case-fatality rate when infections did occur. <br/>
+- Notably, the months with reported cases (July to November) point towards potential seasonal trends; however, more comprehensive data across years would be needed for confirmation. <br/>
+- The most recent data for November 2023 reports a single case with no fatality, displaying an ongoing, albeit low, risk of plague transmission in the region. <br/>
 ## Analysis
 
 ### Cases Analysis
-Over the 2010-2023 period, Chinese mainland reported sporadic cases of plague, with a total of 19 confirmed cases. Plague cases occurred in isolated incidents, with no year reporting more than 4 cases, which were observed in November 2019 and August 2023. The distribution of plague cases did not show any clear seasonal pattern, and multiple years (2011, 2013-2015, 2017-2019, 2021, and 2022) had single-case reports indicating rare and possibly contained outbreaks.
+Plague occurrences on the Chinese mainland from November 2013 to November 2023 were rare, with case counts from zero to four over the observed months. A total of 16 cases emerged sporadically, with slight clustering in 2019 and a notable increase in August 2023. Onset of cases was intermittent and unpredictable, more characteristic of individual or localized outbreaks than widespread transmission. The data reveals no clear temporal pattern, suggesting incidents may relate more to zoonotic exposure or isolated human-to-human transmission rather than seasonal trends.
 
 ### Deaths Analysis
-There were a total of 9 reported deaths due to plague between 2010 and 2023, indicating a high case-fatality rate, as expected for this serious disease. However, the death count remained at zero for several years, suggesting improved clinical interventions or reporting of less severe forms of the disease. The maximum number of deaths in a given year was two, occurring in June 2010, September 2012, October 2014, and August 2020, possibly suggesting occasional severe outbreaks or forms of the disease.
+Deaths associated with plague show an infrequent pattern corresponding to the low case occurrences, totaling seven over the ten-year span. Case fatality rates (CFRs) varied, with some months showing a 100% CFR (July 2014, October 2014, December 2017, August 2020, and September 2022) while other months report cases with no deaths. Notably, August 2023 accounts for four cases with one death, indicating a CFR of 25%. Overall, the death toll remained low annually, with no discernible trends in fatality rates, aligning with the sporadic and contained nature of plague incidents reported.

@@ -1,16 +1,16 @@
 ## Introduction
 
-Hepatitis A is an acute, highly contagious liver infection caused by the Hepatitis A virus (HAV). It typically spreads via ingestion of contaminated food or water or through direct contact with an infected person and is most prevalent in regions with poor sanitation. Symptoms include fatigue, nausea, abdominal pain, loss of appetite, and jaundice. Vaccines are available to prevent HAV infection. Although Hepatitis A does not lead to chronic disease, severe infections can cause liver failure and death.
+Hepatitis A is a highly contagious liver infection caused by the Hepatitis A virus (HAV). It is primarily spread when an individual unknowingly ingests the virus from objects, food, or drinks contaminated by small, undetected amounts of feces from an infected person. Hepatitis A does not typically cause chronic liver disease and is rarely fatal, but it can cause debilitating symptoms and acute liver failure. There's no specific treatment for Hepatitis A. Prevention includes proper hygiene practices such as handwashing and vaccination.
 ## Highlights
 
-- Notable Decline in Case Numbers: Data from 2010 to 2023 indicates a significant decrease in Hepatitis A cases in Chinese mainland, reflecting improved prevention measures. <br/>
-- Consistently Low Mortality: Deaths are rare and sporadic, suggesting effective healthcare intervention and possible high immunity levels in the population. <br/>
-- Sporadic Outbreaks: Occasional spikes such as the one in May 2012 suggest isolated outbreaks, but these appear to have been efficiently managed and contained. <br/>
-- Stabilization of Cases: The last few years show a consistent low level of cases, indicating ongoing effective public health strategies.
+- A continuous decrease in Hepatitis A cases is observed from 2013 to 2023, indicating an effective control of the disease in Chinese mainland. <br/>
+- Despite occasional spikes, such as in September 2014 with 2656 cases, the overall trend shows a reduction with November 2023 reporting 1056 cases. <br/>
+- Death counts have remained low through the years, and there have been no reported deaths from 2020 January to November 2023, reflecting possible improvements in healthcare management. <br/>
+- The data suggests successful public health interventions, although periodic surveillance remains critical to maintain control of Hepatitis A in China.
 ## Analysis
 
 ### Cases Analysis
-From January 2010 to November 2023, mainland China reported a declining trend in Hepatitis A cases. Initial figures fluctuated, with high counts observed during summer months, suggesting potential seasonal patterns. The case count peaked in August 2010 at 3,789, and an aberrant spike occurred in May 2012 with 2,235 cases. Overall, cases decreased over the years, with the lowest number, 523, recorded in January 2023. Factors such as improved sanitation, vaccination, and public health interventions likely contributed to the overall downward trend in cases.
+From November 2013 to November 2023, cases of Hepatitis A in mainland China showed a general decline. The initial cases hovered around 2,000 per month, with occasional peaks exceeding 2,500 in September and October of 2014. Thereafter, a gradual decrease was observed, particularly pronounced after 2019. A significant drop is noticeable from January 2020 onwards, coinciding with the COVID-19 pandemic onset, possibly due to heightened hygiene measures. Since then, cases maintained lower levels, dipping below 1,000 monthly from 2021, with the lowest recorded at 532 in December 2022.
 
 ### Deaths Analysis
-During the same period, deaths associated with Hepatitis A were rare, totaling 96, with the highest mortality occurring in May 2012, reporting 56 deaths. Multiple months recorded zero deaths while occasional fluctuations with one to four fatalities were noted. The mortality trend appears relatively stable over the years though the spike in 2012 warrants investigation for possible outbreak-related factors. The low and decreasing fatality rates correspond with an effective public health response and the typically self-limiting nature of the disease.
+Over the decade, deaths associated with Hepatitis A in mainland China were very low, totaling 26. The virus exhibited low fatality, with most months reporting zero deaths. Notable spikes occurred with four deaths in December 2015 and two on several occasions in mid-2014 and mid-2015. Since then, deaths remained predominantly at zero with rare single fatalities sporadically dispersed throughout the years up to August 2022. The data suggests effective management in preventing fatalities from Hepatitis A despite the occurrence of cases.

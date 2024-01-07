@@ -1,16 +1,16 @@
 ## Introduction
 
-Hand, foot, and mouth disease (HFMD) is a contagious illness caused by different types of viruses. Predominantly affecting children, it presents symptoms such as fever, sore throat, followed by blisters on the hands, feet, mouth and sometimes buttocks and legs. The disease is transmitted through direct contact with nasal discharge, saliva, feces, and fluid from the blisters of an affected person. There's no specific treatment, but symptoms can be eased with medication. Prevention includes practicing good hygiene like frequent hand washing and disinfection of contaminated surfaces.
+Hand, foot, and mouth disease (HFMD) is a highly contagious infection often affecting children under five years old. It's caused primarily by the Coxsackievirus. Symptoms include fever, painful sores in the mouth, and a rash on the hands and feet. It spreads through contact with nose, throat, or stool particles of an infected person. While uncomfortable, it’s generally not serious and most people recover within 7-10 days without medical treatment. Vaccines aren't available for HFMD, but the risk can be reduced with good hygiene.
 ## Highlights
 
-- Seasonal peaks in HFMD are observed from April to July, with a significant surge to 457,212 cases in July 2023. <br/>
-- A marked decrease in HFMD incidence and mortality in 2023, with zero deaths from January to November and cases peaking at 92,955 in November, compared to previous years. <br/>
-- The reduction in cases and fatalities since 2020 coincides with the onset of COVID-19, suggesting an impact from public health interventions. <br/>
-- Successful containment of HFMD by 2023 is evident, with no recorded deaths, showcasing the effectiveness of health measures and treatments. <br/>
+- Seasonal trends in HFMD cases evident, with peaks in May-June and troughs in winter. A dramatic decline in cases began in 2020. <br/>
+- Fatality rates have shown a steady decrease, with no deaths reported since the latter half of 2021, suggesting improved disease control. <br/>
+- The latest data from November 2023 indicates a continued low number of cases (92,955) with no fatalities, aligning with the general downward trend in severity. <br/>
+- Public health measures and awareness likely contributed to the sustained reduction in both incidence and mortality of HFMD.
 ## Analysis
 
 ### Cases Analysis
-The data for Hand foot and mouth disease (HFMD) in China from 2010 to 2023 reflects a clear seasonal pattern, with caseloads peaking during May and June each year, coinciding with warmer months. Overall, cases surged annually until 2012, with the highest number recorded in May 2012 (462,116 cases). Post-2012, although fluctuations persist, there’s a trend of gradual decline, particularly from 2020 onwards, where cases plummet dramatically, likely due to COVID-19 pandemic measures. The substantial decrease in 2020 continues with only slight upticks observed thereafter.
+Hand, foot, and mouth disease (HFMD) incidents in Chinese mainland exhibit notable seasonal and annual trends. Noteworthy are the surges in cases often occurring from April to July each year, possibly linked to cyclical factors conducive to enterovirus spread. After 2014's peak incidence, a gradual decline transpires, though sporadic rises are still evident. The years 2020 and 2021 markedly diverge from the trend with reduced cases, likely due to public health interventions amidst the COVID-19 pandemic. By 2023, case numbers regain momentum, approaching pre-pandemic figures.
 
 ### Deaths Analysis
-Fatalities due to HFMD present a proportional trend to the number of cases, with highest deaths in months with peak cases, particularly from April to July each year. The deadliest month throughout this period was May 2010, with 186 deaths. Since then, although cases remained high, the fatality rate decreased, indicating improved management and treatment. From 2020, deaths are nearly nil, which could be again attributed to intensified health measures during COVID-19. This suggests potentially better surveillance, healthcare responses, and public health interventions over the years.
+The fatality occurrences due to HFMD display a descending trend over the years. The peak of death cases coincides with the highest incidence of infections in 2014. Despite the fluctuations in monthly case rates, death rates significantly decrease and stabilize post-2014. From 2020 onwards, mortality is virtually eliminated, which could be attributed to improved disease management, heightened awareness, and effective containment measures synergizing with pandemic counteractions. As of 2023, the mortality has been consistently at zero, showing remarkable control over the fatal outcomes of the disease.

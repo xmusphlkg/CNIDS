@@ -1,16 +1,16 @@
 ## Introduction
 
-Leprosy, also known as Hansen's disease, is a chronic infectious disease caused by Mycobacterium leprae. The disease primarily affects the skin and peripheral nerves resulting in physical disfigurement and nerve damage. Leprosy is characterized by long incubation periods, typically five to seven years. Transmission often occurs through prolonged close contact with people afflicted by the disease. Not everyone exposed develops symptoms since susceptibility depends on the individual’s immune response. With early diagnosis and multi-drug therapy (MDT), leprosy can be effectively treated and deformation prevented.
+Leprosy, also known as Hansen's disease, is a chronic infectious illness caused by the bacterium Mycobacterium leprae. It primarily affects the peripheral nerves and mucosa of the upper respiratory tract, leading to skin lesions, muscle weakness, and numbness. While highly contagious, it has a long incubation period, often taking 5-7 years to show symptoms. Treatable with a multi-drug therapy, early diagnosis is key to preventing disability. Despite dramatic reduction globally, it remains prevalent in parts of Asia, Africa and South America. WHO provides free treatment for all diagnosed cases.
 ## Highlights
 
-- Leprosy cases in Mainland China have consistently decreased from a peak of 127 cases in March 2012 to 34 cases in November 2023, indicating a positive downward trend. <br/>
-- Mortality is minimal, with occasional single monthly deaths throughout the years, signifying effective management of disease complications. <br/>
-- The declining number of cases suggests successful control measures, though ongoing surveillance and preventive strategies are essential to sustain this progress and work towards eradication. <br/>
-- Continuous monitoring remains crucial, as leprosy persists in the population albeit at reduced levels.
+- Trend analysis indicates a decline in leprosy cases in mainland China, with the highest monthly cases (108) in March 2016 and the lowest (13) in October 2022. <br/>
+- Mortality is very low, with only three deaths reported over ten years, emphasizing effective management of the disease. <br/>
+- Current data as of November 2023 displays 34 cases and zero deaths, signifying a low but persistent incidence of leprosy. <br/>
+- Seasonal variations in reporting are apparent, but the overall trend appears to be downward, suggesting improvements in disease control and prevention. <br/>
 ## Analysis
 
 ### Cases Analysis
-From January 2010 to November 2023, mainland China reported a decreasing trend in leprosy cases. Initially, cases per month were commonly above 70, with occasional peaks above 100, like in March 2010 (101 cases) and March 2012 (127 cases). However, starting in 2018, cases dwindled, predominantly ranging between 20 and 40. Noteworthy, data for January and February 2013 are missing. Peaks and troughs suggest seasonality, with higher counts typically in March through June. The diminishing trend might imply effective public health interventions and early detection systems.
+Over the observed period from November 2013 to November 2023, leprosy cases in Chinese mainland displayed an overall fluctuating but without clear trend, with monthly case counts ranging from 13 to 108. Notably, there was a peak of 108 cases reported in March 2016, whereas the lowest count of 13 occurred in October 2022. The majority of months reported fewer than 80 cases, suggesting controlled endemicity. However, occasional peaks emphasize the need for ongoing surveillance and targeted interventions.
 
 ### Deaths Analysis
-During the same period, leprosy-related deaths were extremely rare, with total fatalities not exceeding 1 per reported month. Most months registered zero deaths. The few instances of leprosy-related mortality were sporadic, without apparent seasonal patterns. This indicates either leprosy's low lethality or the success of treatment protocols. The consistent low death rate over the years, coupled with declining cases, suggests improved management and potential eradication efforts for leprosy in China.
+Throughout the observed span of a decade, leprosy-associated mortality in Chinese mainland was exceedingly low, with only three deaths, each occurring in different years: November 2013, January 2016, and December 2021. The death count never exceeded one per month, indicating a very low case-fatality rate and suggesting that despite the persistence of leprosy cases, the health system’s response, in terms of treatment and management, may be effective in preventing fatal outcomes of the disease.
