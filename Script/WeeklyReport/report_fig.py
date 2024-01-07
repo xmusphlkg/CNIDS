@@ -6,6 +6,7 @@ import os
 import matplotlib
 import matplotlib.pyplot as plt
 import matplotlib.font_manager as font_manager
+import variables
 
 def prepare_disease_data(df, disease):
     """
@@ -82,7 +83,7 @@ def plot_disease_data(disease_data, disease, output_folder="temp"):
     # Set the x-axis with date formatting
     years = matplotlib.dates.YearLocator()
     years_fmt = matplotlib.dates.DateFormatter('%Y')
-    ax1.set_xlim([max(disease_data['Date']) - pd.DateOffset(years=10), max(disease_data['Date']) + pd.DateOffset(months=3)])
+    ax1.set_xlim([max(disease_data['Date']) - pd.DateOffset(years=variables.analysis_years), max(disease_data['Date']) + pd.DateOffset(months=3)])
     ax1.xaxis.set_major_locator(years)
     ax1.xaxis.set_major_formatter(years_fmt)
 

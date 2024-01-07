@@ -13,7 +13,7 @@ links_web = "https://github.com/xmusphlkg/CNID"
 # project description
 cover_project = "CNIDS: Chinese Notifiable Infectious Diseases Surveillance Project"
 cover_title_1 = "Chinese Notifiable Infectious Diseases"
-cover_title_2 = "Surveillance Project"
+cover_title_2 = "Surveillance Report"
 cover_info_1 = "Automatically Generate by Python and generative AI"
 cover_info_2 = "Power by: Github Action"
 cover_info_3 = "Design by: Kangguo Li"
@@ -31,6 +31,9 @@ alert_content = "The text in report is generated automatically by generative AI.
 introduction_words = 100
 highlights_words = 110
 analysis_words = 230
+
+# analysis date range
+analysis_years = 10
 
 # Prompt
 ## abstract

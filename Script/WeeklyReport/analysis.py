@@ -8,6 +8,7 @@ from dataclean import calculate_change_data, format_table_data, generate_merge_c
 from report_main import generate_report
 from mail_main import create_mail_table
 from web_main import update_pages
+import variables
 
 def generate_weekly_report(analysis_YearMonth):
     data_path = '../Data/GetData/WeeklyReport'
@@ -17,9 +18,13 @@ def generate_weekly_report(analysis_YearMonth):
     # read data
     df = pd.read_csv('../Data/AllData/WeeklyReport/latest.csv', encoding='utf-8')
     df['Date'] = pd.to_datetime(df['Date'])
-    # convert 2023 May 01 to date format
     analysis_date = datetime.datetime.strptime(analysis_YearMonth + " 01", "%Y %B %d")
     analysis_MonthYear = analysis_date.strftime("%B %Y")
+    
+    # subset data
+    date_range = variables.analysis_date
+    start_date = analysis_date - pd.DateOffset(years=date_range)
+    df = df[df['Date'] >= start_date]
 
     change_data = calculate_change_data(df, analysis_date)
     diseases_order, diseases_order_cn = generate_merge_chart(change_data, original_file=f'{data_path}/{analysis_YearMonth}.csv')
