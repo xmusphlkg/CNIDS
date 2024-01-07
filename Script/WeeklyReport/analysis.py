@@ -22,7 +22,7 @@ def generate_weekly_report(analysis_YearMonth):
     analysis_MonthYear = analysis_date.strftime("%B %Y")
     
     # subset data
-    date_range = variables.analysis_date
+    date_range = variables.analysis_years
     start_date = analysis_date - pd.DateOffset(years=date_range)
     df = df[df['Date'] >= start_date]
 
