@@ -481,12 +481,12 @@ def create_report_summary(table_data, table_data_str, analysis_MonthYear, legend
 
     # update README.md
     with open('../docs/README.md', 'r') as file:
-        readme = file.read()
-    pattern = r"(# Introduction\n(?:.*?(?=\n# |\Z))*)"
+      readme = file.read()
+    pattern = r"(# Introduction\n(?:.*?(?=\n# Latest Update|\Z))*)"
     replacement = f"# Introduction\n\n{analysis_content}\n\n"
     readme_new = re.sub(pattern, replacement, readme, flags=re.DOTALL)
     with open('../docs/README.md', 'w') as file:
-        file.writelines(readme_new)
+      file.writelines(readme_new)
 
     # add table legend
     elements = add_legend(elements, legend, styles)
