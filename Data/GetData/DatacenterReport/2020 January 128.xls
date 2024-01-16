@@ -1,0 +1,2304 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?mso-application progid="Excel.Sheet"?>
+
+<Workbook xmlns="urn:schemas-microsoft-com:office:spreadsheet" xmlns:o="urn:schemas-microsoft-com:office:office" xmlns:x="urn:schemas-microsoft-com:office:excel" xmlns:ss="urn:schemas-microsoft-com:office:spreadsheet" xmlns:html="http://www.w3.org/TR/REC-html40">
+	<DocumentProperties xmlns="urn:schemas-microsoft-com:office:office">
+		<Author/>
+		<Title/>
+		<Description/>
+		<Subject/>
+	</DocumentProperties>
+	<Styles>
+		<Style ss:ID="HyperlinkId" ss:Name="Hyperlink">
+			<Font ss:Color="#0000ff"/>
+		</Style>
+		<Style ss:ID="1">
+			<NumberFormat ss:Format="yyyy-M-d HH:mm:ss AM/PM"/>
+		</Style>
+		<Style ss:ID="20">
+			<Alignment ss:Horizontal="Left" ss:Vertical="Top" ss:WrapText="1"/>
+			<Borders>
+				<Border ss:Position="Bottom"/>
+				<Border ss:Position="Top"/>
+				<Border ss:Position="Left"/>
+				<Border ss:Position="Right"/>
+				<Border ss:Position="DiagonalLeft"/>
+			</Borders>
+			<Font ss:FontName="sans-serif" ss:Size="10.0" ss:Color="#000000"/>
+		</Style>
+		<Style ss:ID="26">
+			<Alignment ss:Horizontal="Left" ss:Vertical="Top" ss:WrapText="1"/>
+			<Borders>
+				<Border ss:Position="Bottom"/>
+				<Border ss:Position="Top"/>
+				<Border ss:Position="Left"/>
+				<Border ss:Position="Right"/>
+				<Border ss:Position="DiagonalLeft"/>
+			</Borders>
+			<Font ss:FontName="sans-serif" ss:Size="10.0" ss:Color="#000000"/>
+		</Style>
+		<Style ss:ID="28">
+			<Alignment ss:Horizontal="Center" ss:Vertical="Top" ss:WrapText="1"/>
+			<Borders>
+				<Border ss:Position="Bottom" ss:LineStyle="Continuous" ss:Weight="2" ss:Color="#cccccc"/>
+				<Border ss:Position="Top" ss:LineStyle="Continuous" ss:Weight="2" ss:Color="#cccccc"/>
+				<Border ss:Position="Left" ss:LineStyle="Continuous" ss:Weight="2" ss:Color="#cccccc"/>
+				<Border ss:Position="Right" ss:LineStyle="Continuous" ss:Weight="2" ss:Color="#cccccc"/>
+				<Border ss:Position="DiagonalLeft"/>
+			</Borders>
+			<Font ss:FontName="sans-serif" ss:Size="10.0" ss:Color="#000000"/>
+		</Style>
+		<Style ss:ID="33">
+			<Alignment ss:Horizontal="Center" ss:Vertical="Top" ss:WrapText="1"/>
+			<Borders>
+				<Border ss:Position="Bottom" ss:LineStyle="Continuous" ss:Weight="2" ss:Color="#cccccc"/>
+				<Border ss:Position="Top" ss:LineStyle="Continuous" ss:Weight="2" ss:Color="#cccccc"/>
+				<Border ss:Position="Left" ss:LineStyle="Continuous" ss:Weight="2" ss:Color="#cccccc"/>
+				<Border ss:Position="Right" ss:LineStyle="Continuous" ss:Weight="2" ss:Color="#cccccc"/>
+				<Border ss:Position="DiagonalLeft"/>
+			</Borders>
+			<Font ss:FontName="sans-serif" ss:Size="10.0" ss:Color="#000000"/>
+		</Style>
+		<Style ss:ID="35">
+			<Alignment ss:Horizontal="Center" ss:Vertical="Top" ss:WrapText="1"/>
+			<Borders>
+				<Border ss:Position="Bottom" ss:LineStyle="Continuous" ss:Weight="2" ss:Color="#cccccc"/>
+				<Border ss:Position="Top" ss:LineStyle="Continuous" ss:Weight="2" ss:Color="#cccccc"/>
+				<Border ss:Position="Left" ss:LineStyle="Continuous" ss:Weight="2" ss:Color="#cccccc"/>
+				<Border ss:Position="Right" ss:LineStyle="Continuous" ss:Weight="2" ss:Color="#cccccc"/>
+				<Border ss:Position="DiagonalLeft"/>
+			</Borders>
+			<Font ss:FontName="sans-serif" ss:Size="10.0" ss:Color="#000000"/>
+			<NumberFormat ss:Format="###0.0000"/>
+		</Style>
+		<Style ss:ID="37">
+			<Alignment ss:Horizontal="Center" ss:Vertical="Top" ss:WrapText="1"/>
+			<Borders>
+				<Border ss:Position="Bottom" ss:LineStyle="Continuous" ss:Weight="2" ss:Color="#cccccc"/>
+				<Border ss:Position="Top" ss:LineStyle="Continuous" ss:Weight="2" ss:Color="#cccccc"/>
+				<Border ss:Position="Left" ss:LineStyle="Continuous" ss:Weight="2" ss:Color="#cccccc"/>
+				<Border ss:Position="Right" ss:LineStyle="Continuous" ss:Weight="2" ss:Color="#cccccc"/>
+				<Border ss:Position="DiagonalLeft"/>
+			</Borders>
+			<Font ss:FontName="sans-serif" ss:Size="10.0" ss:Color="#000000"/>
+		</Style>
+		<Style ss:ID="21">
+			<Alignment ss:Horizontal="Left" ss:Vertical="Top" ss:WrapText="1"/>
+			<Borders>
+				<Border ss:Position="Bottom"/>
+				<Border ss:Position="Top" ss:LineStyle="Continuous" ss:Weight="2" ss:Color="#cccccc"/>
+				<Border ss:Position="Left" ss:LineStyle="Continuous" ss:Weight="2" ss:Color="#cccccc"/>
+				<Border ss:Position="Right"/>
+				<Border ss:Position="DiagonalLeft"/>
+			</Borders>
+			<Font ss:FontName="sans-serif" ss:Size="10.0" ss:Color="#000000"/>
+		</Style>
+		<Style ss:ID="24">
+			<Alignment ss:Horizontal="Left" ss:Vertical="Top" ss:WrapText="1"/>
+			<Borders>
+				<Border ss:Position="Bottom" ss:LineStyle="Continuous" ss:Weight="2" ss:Color="#cccccc"/>
+				<Border ss:Position="Top" ss:LineStyle="Continuous" ss:Weight="2" ss:Color="#cccccc"/>
+				<Border ss:Position="Left" ss:LineStyle="Continuous" ss:Weight="2" ss:Color="#cccccc"/>
+				<Border ss:Position="Right" ss:LineStyle="Continuous" ss:Weight="2" ss:Color="#cccccc"/>
+				<Border ss:Position="DiagonalLeft"/>
+			</Borders>
+			<Font ss:FontName="sans-serif" ss:Size="10.0" ss:Color="#000000"/>
+		</Style>
+		<Style ss:ID="31">
+			<Alignment ss:Horizontal="Left" ss:Vertical="Top" ss:WrapText="1"/>
+			<Borders>
+				<Border ss:Position="Bottom" ss:LineStyle="Continuous" ss:Weight="2" ss:Color="#cccccc"/>
+				<Border ss:Position="Top" ss:LineStyle="Continuous" ss:Weight="2" ss:Color="#cccccc"/>
+				<Border ss:Position="Left"/>
+				<Border ss:Position="Right"/>
+				<Border ss:Position="DiagonalLeft"/>
+			</Borders>
+			<Font ss:FontName="sans-serif" ss:Size="10.0" ss:Color="#000000"/>
+		</Style>
+		<Style ss:ID="25">
+			<Alignment ss:Horizontal="Left" ss:Vertical="Top" ss:WrapText="1"/>
+			<Borders>
+				<Border ss:Position="Bottom"/>
+				<Border ss:Position="Top"/>
+				<Border ss:Position="Left" ss:LineStyle="Continuous" ss:Weight="2" ss:Color="#cccccc"/>
+				<Border ss:Position="Right"/>
+				<Border ss:Position="DiagonalLeft"/>
+			</Borders>
+			<Font ss:FontName="sans-serif" ss:Size="10.0" ss:Color="#000000"/>
+		</Style>
+		<Style ss:ID="27">
+			<Alignment ss:Horizontal="Center" ss:Vertical="Top" ss:WrapText="1"/>
+			<Borders>
+				<Border ss:Position="Bottom"/>
+				<Border ss:Position="Top" ss:LineStyle="Continuous" ss:Weight="2" ss:Color="#cccccc"/>
+				<Border ss:Position="Left" ss:LineStyle="Continuous" ss:Weight="2" ss:Color="#cccccc"/>
+				<Border ss:Position="Right" ss:LineStyle="Continuous" ss:Weight="2" ss:Color="#cccccc"/>
+				<Border ss:Position="DiagonalLeft"/>
+			</Borders>
+			<Font ss:FontName="sans-serif" ss:Size="10.0" ss:Color="#000000"/>
+		</Style>
+		<Style ss:ID="32">
+			<Alignment ss:Horizontal="Center" ss:Vertical="Top" ss:WrapText="1"/>
+			<Borders>
+				<Border ss:Position="Bottom"/>
+				<Border ss:Position="Top" ss:LineStyle="Continuous" ss:Weight="2" ss:Color="#cccccc"/>
+				<Border ss:Position="Left" ss:LineStyle="Continuous" ss:Weight="2" ss:Color="#cccccc"/>
+				<Border ss:Position="Right" ss:LineStyle="Continuous" ss:Weight="2" ss:Color="#cccccc"/>
+				<Border ss:Position="DiagonalLeft"/>
+			</Borders>
+			<Font ss:FontName="sans-serif" ss:Size="10.0" ss:Color="#000000"/>
+		</Style>
+		<Style ss:ID="34">
+			<Alignment ss:Horizontal="Center" ss:Vertical="Top" ss:WrapText="1"/>
+			<Borders>
+				<Border ss:Position="Bottom"/>
+				<Border ss:Position="Top" ss:LineStyle="Continuous" ss:Weight="2" ss:Color="#cccccc"/>
+				<Border ss:Position="Left" ss:LineStyle="Continuous" ss:Weight="2" ss:Color="#cccccc"/>
+				<Border ss:Position="Right" ss:LineStyle="Continuous" ss:Weight="2" ss:Color="#cccccc"/>
+				<Border ss:Position="DiagonalLeft"/>
+			</Borders>
+			<Font ss:FontName="sans-serif" ss:Size="10.0" ss:Color="#000000"/>
+			<NumberFormat ss:Format="###0.0000"/>
+		</Style>
+		<Style ss:ID="36">
+			<Alignment ss:Horizontal="Center" ss:Vertical="Top" ss:WrapText="1"/>
+			<Borders>
+				<Border ss:Position="Bottom"/>
+				<Border ss:Position="Top" ss:LineStyle="Continuous" ss:Weight="2" ss:Color="#cccccc"/>
+				<Border ss:Position="Left" ss:LineStyle="Continuous" ss:Weight="2" ss:Color="#cccccc"/>
+				<Border ss:Position="Right" ss:LineStyle="Continuous" ss:Weight="2" ss:Color="#cccccc"/>
+				<Border ss:Position="DiagonalLeft"/>
+			</Borders>
+			<Font ss:FontName="sans-serif" ss:Size="10.0" ss:Color="#000000"/>
+		</Style>
+		<Style ss:ID="23">
+			<Alignment ss:Horizontal="Left" ss:Vertical="Top" ss:WrapText="1"/>
+			<Borders>
+				<Border ss:Position="Bottom"/>
+				<Border ss:Position="Top" ss:LineStyle="Continuous" ss:Weight="2" ss:Color="#cccccc"/>
+				<Border ss:Position="Left" ss:LineStyle="Continuous" ss:Weight="2" ss:Color="#cccccc"/>
+				<Border ss:Position="Right" ss:LineStyle="Continuous" ss:Weight="2" ss:Color="#cccccc"/>
+				<Border ss:Position="DiagonalLeft"/>
+			</Borders>
+			<Font ss:FontName="sans-serif" ss:Size="10.0" ss:Color="#000000"/>
+		</Style>
+		<Style ss:ID="22">
+			<Alignment ss:Horizontal="Left" ss:Vertical="Top" ss:WrapText="1"/>
+			<Borders>
+				<Border ss:Position="Bottom"/>
+				<Border ss:Position="Top" ss:LineStyle="Continuous" ss:Weight="2" ss:Color="#cccccc"/>
+				<Border ss:Position="Left"/>
+				<Border ss:Position="Right"/>
+				<Border ss:Position="DiagonalLeft"/>
+			</Borders>
+			<Font ss:FontName="sans-serif" ss:Size="10.0" ss:Color="#000000"/>
+		</Style>
+		<Style ss:ID="30">
+			<Alignment ss:Horizontal="Left" ss:Vertical="Top" ss:WrapText="1"/>
+			<Borders>
+				<Border ss:Position="Bottom"/>
+				<Border ss:Position="Top" ss:LineStyle="Continuous" ss:Weight="2" ss:Color="#cccccc"/>
+				<Border ss:Position="Left"/>
+				<Border ss:Position="Right"/>
+				<Border ss:Position="DiagonalLeft"/>
+			</Borders>
+			<Font ss:FontName="sans-serif" ss:Size="10.0" ss:Color="#000000"/>
+		</Style>
+		<Style ss:ID="29">
+			<Alignment ss:Horizontal="Left" ss:Vertical="Top" ss:WrapText="1"/>
+			<Borders>
+				<Border ss:Position="Bottom" ss:LineStyle="Continuous" ss:Weight="2" ss:Color="#cccccc"/>
+				<Border ss:Position="Top" ss:LineStyle="Continuous" ss:Weight="2" ss:Color="#cccccc"/>
+				<Border ss:Position="Left" ss:LineStyle="Continuous" ss:Weight="2" ss:Color="#cccccc"/>
+				<Border ss:Position="Right"/>
+				<Border ss:Position="DiagonalLeft"/>
+			</Borders>
+			<Font ss:FontName="sans-serif" ss:Size="10.0" ss:Color="#000000"/>
+		</Style>
+	</Styles>
+	<Names>
+		<NamedRange ss:Name="__bookmark_1" ss:RefersTo="Report!R2C1:R35C22"/>
+	</Names>
+
+<Worksheet ss:Name="Report">
+	<ss:Table>
+		<ss:Column ss:Width="24.704" ss:AutoFitWidth="0"/>
+		<ss:Column ss:Width="56.704" ss:AutoFitWidth="0"/>
+		<ss:Column ss:Width="24.704" ss:AutoFitWidth="0"/>
+		<ss:Column ss:Width="24.704" ss:AutoFitWidth="0"/>
+		<ss:Column ss:Width="24.704" ss:AutoFitWidth="0"/>
+		<ss:Column ss:Width="24.704" ss:AutoFitWidth="0"/>
+		<ss:Column ss:Width="24.832" ss:AutoFitWidth="0"/>
+		<ss:Column ss:Width="24.704" ss:AutoFitWidth="0"/>
+		<ss:Column ss:Width="24.704" ss:AutoFitWidth="0"/>
+		<ss:Column ss:Width="24.704" ss:AutoFitWidth="0"/>
+		<ss:Column ss:Width="24.704" ss:AutoFitWidth="0"/>
+		<ss:Column ss:Width="24.704" ss:AutoFitWidth="0"/>
+		<ss:Column ss:Width="24.832" ss:AutoFitWidth="0"/>
+		<ss:Column ss:Width="24.704" ss:AutoFitWidth="0"/>
+		<ss:Column ss:Width="24.704" ss:AutoFitWidth="0"/>
+		<ss:Column ss:Width="24.704" ss:AutoFitWidth="0"/>
+		<ss:Column ss:Width="24.704" ss:AutoFitWidth="0"/>
+		<ss:Column ss:Width="24.832" ss:AutoFitWidth="0"/>
+		<ss:Column ss:Width="24.704" ss:AutoFitWidth="0"/>
+		<ss:Column ss:Width="24.704" ss:AutoFitWidth="0"/>
+		<ss:Column ss:Width="24.704" ss:AutoFitWidth="0"/>
+		<ss:Column ss:Width="24.832" ss:AutoFitWidth="0"/>
+		<Row ss:AutoFitHeight="1">
+			<Cell ss:Index="1" ss:StyleID="20" ss:MergeAcross="21"/>
+		</Row>
+		<Row ss:AutoFitHeight="1">
+			<Cell ss:Index="1" ss:StyleID="21"/>
+			<Cell ss:Index="2" ss:StyleID="22"/>
+			<Cell ss:Index="3" ss:StyleID="24" ss:MergeAcross="3">
+				<Data ss:Type="String">利福平耐药</Data>
+			</Cell>
+			<Cell ss:Index="7" ss:StyleID="24" ss:MergeAcross="3">
+				<Data ss:Type="String">无病原学结果</Data>
+			</Cell>
+			<Cell ss:Index="11" ss:StyleID="24" ss:MergeAcross="3">
+				<Data ss:Type="String">病原学阳性</Data>
+			</Cell>
+			<Cell ss:Index="15" ss:StyleID="24" ss:MergeAcross="3">
+				<Data ss:Type="String">病原学阴性</Data>
+			</Cell>
+			<Cell ss:Index="19" ss:StyleID="24" ss:MergeAcross="3">
+				<Data ss:Type="String">肺结核</Data>
+			</Cell>
+		</Row>
+		<Row ss:AutoFitHeight="1">
+			<Cell ss:Index="1" ss:StyleID="25"/>
+			<Cell ss:Index="2" ss:StyleID="26">
+				<Data ss:Type="String">地	区</Data>
+			</Cell>
+			<Cell ss:Index="3" ss:StyleID="28">
+				<Data ss:Type="String">发病数</Data>
+			</Cell>
+			<Cell ss:Index="4" ss:StyleID="24">
+				<Data ss:Type="String">死亡数</Data>
+			</Cell>
+			<Cell ss:Index="5" ss:StyleID="24">
+				<Data ss:Type="String">发病率(1/10万)</Data>
+			</Cell>
+			<Cell ss:Index="6" ss:StyleID="24">
+				<Data ss:Type="String">死亡率(1/10万)</Data>
+			</Cell>
+			<Cell ss:Index="7" ss:StyleID="28">
+				<Data ss:Type="String">发病数</Data>
+			</Cell>
+			<Cell ss:Index="8" ss:StyleID="24">
+				<Data ss:Type="String">死亡数</Data>
+			</Cell>
+			<Cell ss:Index="9" ss:StyleID="24">
+				<Data ss:Type="String">发病率(1/10万)</Data>
+			</Cell>
+			<Cell ss:Index="10" ss:StyleID="24">
+				<Data ss:Type="String">死亡率(1/10万)</Data>
+			</Cell>
+			<Cell ss:Index="11" ss:StyleID="28">
+				<Data ss:Type="String">发病数</Data>
+			</Cell>
+			<Cell ss:Index="12" ss:StyleID="24">
+				<Data ss:Type="String">死亡数</Data>
+			</Cell>
+			<Cell ss:Index="13" ss:StyleID="24">
+				<Data ss:Type="String">发病率(1/10万)</Data>
+			</Cell>
+			<Cell ss:Index="14" ss:StyleID="24">
+				<Data ss:Type="String">死亡率(1/10万)</Data>
+			</Cell>
+			<Cell ss:Index="15" ss:StyleID="28">
+				<Data ss:Type="String">发病数</Data>
+			</Cell>
+			<Cell ss:Index="16" ss:StyleID="24">
+				<Data ss:Type="String">死亡数</Data>
+			</Cell>
+			<Cell ss:Index="17" ss:StyleID="24">
+				<Data ss:Type="String">发病率(1/10万)</Data>
+			</Cell>
+			<Cell ss:Index="18" ss:StyleID="24">
+				<Data ss:Type="String">死亡率(1/10万)</Data>
+			</Cell>
+			<Cell ss:Index="19" ss:StyleID="28">
+				<Data ss:Type="String">发病数</Data>
+			</Cell>
+			<Cell ss:Index="20" ss:StyleID="24">
+				<Data ss:Type="String">死亡数</Data>
+			</Cell>
+			<Cell ss:Index="21" ss:StyleID="24">
+				<Data ss:Type="String">发病率(1/10万)</Data>
+			</Cell>
+			<Cell ss:Index="22" ss:StyleID="24">
+				<Data ss:Type="String">死亡率(1/10万)</Data>
+			</Cell>
+		</Row>
+		<Row ss:AutoFitHeight="1">
+			<Cell ss:Index="1" ss:StyleID="29"/>
+			<Cell ss:Index="2" ss:StyleID="31">
+				<Data ss:Type="String">全    国</Data>
+			</Cell>
+			<Cell ss:Index="3" ss:StyleID="33">
+				<Data ss:Type="Number">1655.0</Data>
+			</Cell>
+			<Cell ss:Index="4" ss:StyleID="33">
+				<Data ss:Type="Number">4.0</Data>
+			</Cell>
+			<Cell ss:Index="5" ss:StyleID="35">
+				<Data ss:Type="Number">0.11789064247028688</Data>
+			</Cell>
+			<Cell ss:Index="6" ss:StyleID="35">
+				<Data ss:Type="Number">0.0002849320663934426</Data>
+			</Cell>
+			<Cell ss:Index="7" ss:StyleID="33">
+				<Data ss:Type="Number">4401.0</Data>
+			</Cell>
+			<Cell ss:Index="8" ss:StyleID="33">
+				<Data ss:Type="Number">7.0</Data>
+			</Cell>
+			<Cell ss:Index="9" ss:StyleID="35">
+				<Data ss:Type="Number">0.3134965060493852</Data>
+			</Cell>
+			<Cell ss:Index="10" ss:StyleID="35">
+				<Data ss:Type="Number">0.0004986311161885245</Data>
+			</Cell>
+			<Cell ss:Index="11" ss:StyleID="33">
+				<Data ss:Type="Number">29468.0</Data>
+			</Cell>
+			<Cell ss:Index="12" ss:StyleID="33">
+				<Data ss:Type="Number">95.0</Data>
+			</Cell>
+			<Cell ss:Index="13" ss:StyleID="35">
+				<Data ss:Type="Number">2.0990945331204918</Data>
+			</Cell>
+			<Cell ss:Index="14" ss:StyleID="35">
+				<Data ss:Type="Number">0.0067671365768442624</Data>
+			</Cell>
+			<Cell ss:Index="15" ss:StyleID="33">
+				<Data ss:Type="Number">24002.0</Data>
+			</Cell>
+			<Cell ss:Index="16" ss:StyleID="33">
+				<Data ss:Type="Number">36.0</Data>
+			</Cell>
+			<Cell ss:Index="17" ss:StyleID="35">
+				<Data ss:Type="Number">1.7097348643938524</Data>
+			</Cell>
+			<Cell ss:Index="18" ss:StyleID="35">
+				<Data ss:Type="Number">0.0025643885975409836</Data>
+			</Cell>
+			<Cell ss:Index="19" ss:StyleID="33">
+				<Data ss:Type="Number">59526.0</Data>
+			</Cell>
+			<Cell ss:Index="20" ss:StyleID="33">
+				<Data ss:Type="Number">142.0</Data>
+			</Cell>
+			<Cell ss:Index="21" ss:StyleID="35">
+				<Data ss:Type="Number">4.240216546034016</Data>
+			</Cell>
+			<Cell ss:Index="22" ss:StyleID="35">
+				<Data ss:Type="Number">0.010115088356967212</Data>
+			</Cell>
+		</Row>
+		<Row ss:AutoFitHeight="1">
+			<Cell ss:Index="1" ss:StyleID="29"/>
+			<Cell ss:Index="2" ss:StyleID="31">
+				<Data ss:Type="String">北京市</Data>
+			</Cell>
+			<Cell ss:Index="3" ss:StyleID="33">
+				<Data ss:Type="Number">11.0</Data>
+			</Cell>
+			<Cell ss:Index="4" ss:StyleID="33">
+				<Data ss:Type="Number">0.0</Data>
+			</Cell>
+			<Cell ss:Index="5" ss:StyleID="35">
+				<Data ss:Type="Number">0.051077351355156425</Data>
+			</Cell>
+			<Cell ss:Index="6" ss:StyleID="37"/>
+			<Cell ss:Index="7" ss:StyleID="33">
+				<Data ss:Type="Number">109.0</Data>
+			</Cell>
+			<Cell ss:Index="8" ss:StyleID="33">
+				<Data ss:Type="Number">0.0</Data>
+			</Cell>
+			<Cell ss:Index="9" ss:StyleID="35">
+				<Data ss:Type="Number">0.5061301179738228</Data>
+			</Cell>
+			<Cell ss:Index="10" ss:StyleID="37"/>
+			<Cell ss:Index="11" ss:StyleID="33">
+				<Data ss:Type="Number">224.0</Data>
+			</Cell>
+			<Cell ss:Index="12" ss:StyleID="33">
+				<Data ss:Type="Number">0.0</Data>
+			</Cell>
+			<Cell ss:Index="13" ss:StyleID="35">
+				<Data ss:Type="Number">1.0401206094140945</Data>
+			</Cell>
+			<Cell ss:Index="14" ss:StyleID="37"/>
+			<Cell ss:Index="15" ss:StyleID="33">
+				<Data ss:Type="Number">136.0</Data>
+			</Cell>
+			<Cell ss:Index="16" ss:StyleID="33">
+				<Data ss:Type="Number">0.0</Data>
+			</Cell>
+			<Cell ss:Index="17" ss:StyleID="35">
+				<Data ss:Type="Number">0.631501798572843</Data>
+			</Cell>
+			<Cell ss:Index="18" ss:StyleID="37"/>
+			<Cell ss:Index="19" ss:StyleID="33">
+				<Data ss:Type="Number">480.0</Data>
+			</Cell>
+			<Cell ss:Index="20" ss:StyleID="33">
+				<Data ss:Type="Number">0.0</Data>
+			</Cell>
+			<Cell ss:Index="21" ss:StyleID="35">
+				<Data ss:Type="Number">2.228829877315917</Data>
+			</Cell>
+			<Cell ss:Index="22" ss:StyleID="37"/>
+		</Row>
+		<Row ss:AutoFitHeight="1">
+			<Cell ss:Index="1" ss:StyleID="29"/>
+			<Cell ss:Index="2" ss:StyleID="31">
+				<Data ss:Type="String">天津市</Data>
+			</Cell>
+			<Cell ss:Index="3" ss:StyleID="33">
+				<Data ss:Type="Number">9.0</Data>
+			</Cell>
+			<Cell ss:Index="4" ss:StyleID="33">
+				<Data ss:Type="Number">0.0</Data>
+			</Cell>
+			<Cell ss:Index="5" ss:StyleID="35">
+				<Data ss:Type="Number">0.057624702096297026</Data>
+			</Cell>
+			<Cell ss:Index="6" ss:StyleID="37"/>
+			<Cell ss:Index="7" ss:StyleID="33">
+				<Data ss:Type="Number">52.0</Data>
+			</Cell>
+			<Cell ss:Index="8" ss:StyleID="33">
+				<Data ss:Type="Number">0.0</Data>
+			</Cell>
+			<Cell ss:Index="9" ss:StyleID="35">
+				<Data ss:Type="Number">0.33294272322304946</Data>
+			</Cell>
+			<Cell ss:Index="10" ss:StyleID="37"/>
+			<Cell ss:Index="11" ss:StyleID="33">
+				<Data ss:Type="Number">136.0</Data>
+			</Cell>
+			<Cell ss:Index="12" ss:StyleID="33">
+				<Data ss:Type="Number">1.0</Data>
+			</Cell>
+			<Cell ss:Index="13" ss:StyleID="35">
+				<Data ss:Type="Number">0.8707732761218218</Data>
+			</Cell>
+			<Cell ss:Index="14" ss:StyleID="35">
+				<Data ss:Type="Number">0.006402744677366336</Data>
+			</Cell>
+			<Cell ss:Index="15" ss:StyleID="33">
+				<Data ss:Type="Number">77.0</Data>
+			</Cell>
+			<Cell ss:Index="16" ss:StyleID="33">
+				<Data ss:Type="Number">0.0</Data>
+			</Cell>
+			<Cell ss:Index="17" ss:StyleID="35">
+				<Data ss:Type="Number">0.4930113401572079</Data>
+			</Cell>
+			<Cell ss:Index="18" ss:StyleID="37"/>
+			<Cell ss:Index="19" ss:StyleID="33">
+				<Data ss:Type="Number">274.0</Data>
+			</Cell>
+			<Cell ss:Index="20" ss:StyleID="33">
+				<Data ss:Type="Number">1.0</Data>
+			</Cell>
+			<Cell ss:Index="21" ss:StyleID="35">
+				<Data ss:Type="Number">1.754352041598376</Data>
+			</Cell>
+			<Cell ss:Index="22" ss:StyleID="35">
+				<Data ss:Type="Number">0.006402744677366336</Data>
+			</Cell>
+		</Row>
+		<Row ss:AutoFitHeight="1">
+			<Cell ss:Index="1" ss:StyleID="29"/>
+			<Cell ss:Index="2" ss:StyleID="31">
+				<Data ss:Type="String">河北省</Data>
+			</Cell>
+			<Cell ss:Index="3" ss:StyleID="33">
+				<Data ss:Type="Number">51.0</Data>
+			</Cell>
+			<Cell ss:Index="4" ss:StyleID="33">
+				<Data ss:Type="Number">0.0</Data>
+			</Cell>
+			<Cell ss:Index="5" ss:StyleID="35">
+				<Data ss:Type="Number">0.06717619326290485</Data>
+			</Cell>
+			<Cell ss:Index="6" ss:StyleID="37"/>
+			<Cell ss:Index="7" ss:StyleID="33">
+				<Data ss:Type="Number">186.0</Data>
+			</Cell>
+			<Cell ss:Index="8" ss:StyleID="33">
+				<Data ss:Type="Number">0.0</Data>
+			</Cell>
+			<Cell ss:Index="9" ss:StyleID="35">
+				<Data ss:Type="Number">0.24499552837059413</Data>
+			</Cell>
+			<Cell ss:Index="10" ss:StyleID="37"/>
+			<Cell ss:Index="11" ss:StyleID="33">
+				<Data ss:Type="Number">1093.0</Data>
+			</Cell>
+			<Cell ss:Index="12" ss:StyleID="33">
+				<Data ss:Type="Number">2.0</Data>
+			</Cell>
+			<Cell ss:Index="13" ss:StyleID="35">
+				<Data ss:Type="Number">1.4396780242422549</Data>
+			</Cell>
+			<Cell ss:Index="14" ss:StyleID="35">
+				<Data ss:Type="Number">0.0026343605201139156</Data>
+			</Cell>
+			<Cell ss:Index="15" ss:StyleID="33">
+				<Data ss:Type="Number">844.0</Data>
+			</Cell>
+			<Cell ss:Index="16" ss:StyleID="33">
+				<Data ss:Type="Number">1.0</Data>
+			</Cell>
+			<Cell ss:Index="17" ss:StyleID="35">
+				<Data ss:Type="Number">1.1117001394880723</Data>
+			</Cell>
+			<Cell ss:Index="18" ss:StyleID="35">
+				<Data ss:Type="Number">0.0013171802600569578</Data>
+			</Cell>
+			<Cell ss:Index="19" ss:StyleID="33">
+				<Data ss:Type="Number">2174.0</Data>
+			</Cell>
+			<Cell ss:Index="20" ss:StyleID="33">
+				<Data ss:Type="Number">3.0</Data>
+			</Cell>
+			<Cell ss:Index="21" ss:StyleID="35">
+				<Data ss:Type="Number">2.863549885363826</Data>
+			</Cell>
+			<Cell ss:Index="22" ss:StyleID="35">
+				<Data ss:Type="Number">0.003951540780170873</Data>
+			</Cell>
+		</Row>
+		<Row ss:AutoFitHeight="1">
+			<Cell ss:Index="1" ss:StyleID="29"/>
+			<Cell ss:Index="2" ss:StyleID="31">
+				<Data ss:Type="String">山西省</Data>
+			</Cell>
+			<Cell ss:Index="3" ss:StyleID="33">
+				<Data ss:Type="Number">19.0</Data>
+			</Cell>
+			<Cell ss:Index="4" ss:StyleID="33">
+				<Data ss:Type="Number">0.0</Data>
+			</Cell>
+			<Cell ss:Index="5" ss:StyleID="35">
+				<Data ss:Type="Number">0.05094881987248529</Data>
+			</Cell>
+			<Cell ss:Index="6" ss:StyleID="37"/>
+			<Cell ss:Index="7" ss:StyleID="33">
+				<Data ss:Type="Number">149.0</Data>
+			</Cell>
+			<Cell ss:Index="8" ss:StyleID="33">
+				<Data ss:Type="Number">0.0</Data>
+			</Cell>
+			<Cell ss:Index="9" ss:StyleID="35">
+				<Data ss:Type="Number">0.3995460084737005</Data>
+			</Cell>
+			<Cell ss:Index="10" ss:StyleID="37"/>
+			<Cell ss:Index="11" ss:StyleID="33">
+				<Data ss:Type="Number">350.0</Data>
+			</Cell>
+			<Cell ss:Index="12" ss:StyleID="33">
+				<Data ss:Type="Number">1.0</Data>
+			</Cell>
+			<Cell ss:Index="13" ss:StyleID="35">
+				<Data ss:Type="Number">0.938530892387887</Data>
+			</Cell>
+			<Cell ss:Index="14" ss:StyleID="35">
+				<Data ss:Type="Number">0.002681516835393963</Data>
+			</Cell>
+			<Cell ss:Index="15" ss:StyleID="33">
+				<Data ss:Type="Number">394.0</Data>
+			</Cell>
+			<Cell ss:Index="16" ss:StyleID="33">
+				<Data ss:Type="Number">0.0</Data>
+			</Cell>
+			<Cell ss:Index="17" ss:StyleID="35">
+				<Data ss:Type="Number">1.0565176331452213</Data>
+			</Cell>
+			<Cell ss:Index="18" ss:StyleID="37"/>
+			<Cell ss:Index="19" ss:StyleID="33">
+				<Data ss:Type="Number">912.0</Data>
+			</Cell>
+			<Cell ss:Index="20" ss:StyleID="33">
+				<Data ss:Type="Number">1.0</Data>
+			</Cell>
+			<Cell ss:Index="21" ss:StyleID="35">
+				<Data ss:Type="Number">2.445543353879294</Data>
+			</Cell>
+			<Cell ss:Index="22" ss:StyleID="35">
+				<Data ss:Type="Number">0.002681516835393963</Data>
+			</Cell>
+		</Row>
+		<Row ss:AutoFitHeight="1">
+			<Cell ss:Index="1" ss:StyleID="29"/>
+			<Cell ss:Index="2" ss:StyleID="31">
+				<Data ss:Type="String">内蒙古</Data>
+			</Cell>
+			<Cell ss:Index="3" ss:StyleID="33">
+				<Data ss:Type="Number">32.0</Data>
+			</Cell>
+			<Cell ss:Index="4" ss:StyleID="33">
+				<Data ss:Type="Number">1.0</Data>
+			</Cell>
+			<Cell ss:Index="5" ss:StyleID="35">
+				<Data ss:Type="Number">0.1260040852099476</Data>
+			</Cell>
+			<Cell ss:Index="6" ss:StyleID="35">
+				<Data ss:Type="Number">0.003937627662810863</Data>
+			</Cell>
+			<Cell ss:Index="7" ss:StyleID="33">
+				<Data ss:Type="Number">92.0</Data>
+			</Cell>
+			<Cell ss:Index="8" ss:StyleID="33">
+				<Data ss:Type="Number">0.0</Data>
+			</Cell>
+			<Cell ss:Index="9" ss:StyleID="35">
+				<Data ss:Type="Number">0.3622617449785994</Data>
+			</Cell>
+			<Cell ss:Index="10" ss:StyleID="37"/>
+			<Cell ss:Index="11" ss:StyleID="33">
+				<Data ss:Type="Number">377.0</Data>
+			</Cell>
+			<Cell ss:Index="12" ss:StyleID="33">
+				<Data ss:Type="Number">1.0</Data>
+			</Cell>
+			<Cell ss:Index="13" ss:StyleID="35">
+				<Data ss:Type="Number">1.4844856288796953</Data>
+			</Cell>
+			<Cell ss:Index="14" ss:StyleID="35">
+				<Data ss:Type="Number">0.003937627662810863</Data>
+			</Cell>
+			<Cell ss:Index="15" ss:StyleID="33">
+				<Data ss:Type="Number">351.0</Data>
+			</Cell>
+			<Cell ss:Index="16" ss:StyleID="33">
+				<Data ss:Type="Number">0.0</Data>
+			</Cell>
+			<Cell ss:Index="17" ss:StyleID="35">
+				<Data ss:Type="Number">1.382107309646613</Data>
+			</Cell>
+			<Cell ss:Index="18" ss:StyleID="37"/>
+			<Cell ss:Index="19" ss:StyleID="33">
+				<Data ss:Type="Number">852.0</Data>
+			</Cell>
+			<Cell ss:Index="20" ss:StyleID="33">
+				<Data ss:Type="Number">2.0</Data>
+			</Cell>
+			<Cell ss:Index="21" ss:StyleID="35">
+				<Data ss:Type="Number">3.354858768714855</Data>
+			</Cell>
+			<Cell ss:Index="22" ss:StyleID="35">
+				<Data ss:Type="Number">0.007875255325621725</Data>
+			</Cell>
+		</Row>
+		<Row ss:AutoFitHeight="1">
+			<Cell ss:Index="1" ss:StyleID="29"/>
+			<Cell ss:Index="2" ss:StyleID="31">
+				<Data ss:Type="String">辽宁省</Data>
+			</Cell>
+			<Cell ss:Index="3" ss:StyleID="33">
+				<Data ss:Type="Number">109.0</Data>
+			</Cell>
+			<Cell ss:Index="4" ss:StyleID="33">
+				<Data ss:Type="Number">1.0</Data>
+			</Cell>
+			<Cell ss:Index="5" ss:StyleID="35">
+				<Data ss:Type="Number">0.2504768136371159</Data>
+			</Cell>
+			<Cell ss:Index="6" ss:StyleID="35">
+				<Data ss:Type="Number">0.0022979524186891366</Data>
+			</Cell>
+			<Cell ss:Index="7" ss:StyleID="33">
+				<Data ss:Type="Number">123.0</Data>
+			</Cell>
+			<Cell ss:Index="8" ss:StyleID="33">
+				<Data ss:Type="Number">0.0</Data>
+			</Cell>
+			<Cell ss:Index="9" ss:StyleID="35">
+				<Data ss:Type="Number">0.2826481474987638</Data>
+			</Cell>
+			<Cell ss:Index="10" ss:StyleID="37"/>
+			<Cell ss:Index="11" ss:StyleID="33">
+				<Data ss:Type="Number">783.0</Data>
+			</Cell>
+			<Cell ss:Index="12" ss:StyleID="33">
+				<Data ss:Type="Number">9.0</Data>
+			</Cell>
+			<Cell ss:Index="13" ss:StyleID="35">
+				<Data ss:Type="Number">1.799296743833594</Data>
+			</Cell>
+			<Cell ss:Index="14" ss:StyleID="35">
+				<Data ss:Type="Number">0.02068157176820223</Data>
+			</Cell>
+			<Cell ss:Index="15" ss:StyleID="33">
+				<Data ss:Type="Number">792.0</Data>
+			</Cell>
+			<Cell ss:Index="16" ss:StyleID="33">
+				<Data ss:Type="Number">1.0</Data>
+			</Cell>
+			<Cell ss:Index="17" ss:StyleID="35">
+				<Data ss:Type="Number">1.8199783156017961</Data>
+			</Cell>
+			<Cell ss:Index="18" ss:StyleID="35">
+				<Data ss:Type="Number">0.0022979524186891366</Data>
+			</Cell>
+			<Cell ss:Index="19" ss:StyleID="33">
+				<Data ss:Type="Number">1807.0</Data>
+			</Cell>
+			<Cell ss:Index="20" ss:StyleID="33">
+				<Data ss:Type="Number">11.0</Data>
+			</Cell>
+			<Cell ss:Index="21" ss:StyleID="35">
+				<Data ss:Type="Number">4.15240002057127</Data>
+			</Cell>
+			<Cell ss:Index="22" ss:StyleID="35">
+				<Data ss:Type="Number">0.025277476605580506</Data>
+			</Cell>
+		</Row>
+		<Row ss:AutoFitHeight="1">
+			<Cell ss:Index="1" ss:StyleID="29"/>
+			<Cell ss:Index="2" ss:StyleID="31">
+				<Data ss:Type="String">吉林省</Data>
+			</Cell>
+			<Cell ss:Index="3" ss:StyleID="33">
+				<Data ss:Type="Number">62.0</Data>
+			</Cell>
+			<Cell ss:Index="4" ss:StyleID="33">
+				<Data ss:Type="Number">0.0</Data>
+			</Cell>
+			<Cell ss:Index="5" ss:StyleID="35">
+				<Data ss:Type="Number">0.2304203726098114</Data>
+			</Cell>
+			<Cell ss:Index="6" ss:StyleID="37"/>
+			<Cell ss:Index="7" ss:StyleID="33">
+				<Data ss:Type="Number">37.0</Data>
+			</Cell>
+			<Cell ss:Index="8" ss:StyleID="33">
+				<Data ss:Type="Number">0.0</Data>
+			</Cell>
+			<Cell ss:Index="9" ss:StyleID="35">
+				<Data ss:Type="Number">0.13750893204133907</Data>
+			</Cell>
+			<Cell ss:Index="10" ss:StyleID="37"/>
+			<Cell ss:Index="11" ss:StyleID="33">
+				<Data ss:Type="Number">488.0</Data>
+			</Cell>
+			<Cell ss:Index="12" ss:StyleID="33">
+				<Data ss:Type="Number">0.0</Data>
+			</Cell>
+			<Cell ss:Index="13" ss:StyleID="35">
+				<Data ss:Type="Number">1.8136313198965799</Data>
+			</Cell>
+			<Cell ss:Index="14" ss:StyleID="37"/>
+			<Cell ss:Index="15" ss:StyleID="33">
+				<Data ss:Type="Number">276.0</Data>
+			</Cell>
+			<Cell ss:Index="16" ss:StyleID="33">
+				<Data ss:Type="Number">0.0</Data>
+			</Cell>
+			<Cell ss:Index="17" ss:StyleID="35">
+				<Data ss:Type="Number">1.0257423038759346</Data>
+			</Cell>
+			<Cell ss:Index="18" ss:StyleID="37"/>
+			<Cell ss:Index="19" ss:StyleID="33">
+				<Data ss:Type="Number">863.0</Data>
+			</Cell>
+			<Cell ss:Index="20" ss:StyleID="33">
+				<Data ss:Type="Number">0.0</Data>
+			</Cell>
+			<Cell ss:Index="21" ss:StyleID="35">
+				<Data ss:Type="Number">3.2073029284236645</Data>
+			</Cell>
+			<Cell ss:Index="22" ss:StyleID="37"/>
+		</Row>
+		<Row ss:AutoFitHeight="1">
+			<Cell ss:Index="1" ss:StyleID="29"/>
+			<Cell ss:Index="2" ss:StyleID="31">
+				<Data ss:Type="String">黑龙江省</Data>
+			</Cell>
+			<Cell ss:Index="3" ss:StyleID="33">
+				<Data ss:Type="Number">101.0</Data>
+			</Cell>
+			<Cell ss:Index="4" ss:StyleID="33">
+				<Data ss:Type="Number">0.0</Data>
+			</Cell>
+			<Cell ss:Index="5" ss:StyleID="35">
+				<Data ss:Type="Number">0.26924099444187954</Data>
+			</Cell>
+			<Cell ss:Index="6" ss:StyleID="37"/>
+			<Cell ss:Index="7" ss:StyleID="33">
+				<Data ss:Type="Number">110.0</Data>
+			</Cell>
+			<Cell ss:Index="8" ss:StyleID="33">
+				<Data ss:Type="Number">0.0</Data>
+			</Cell>
+			<Cell ss:Index="9" ss:StyleID="35">
+				<Data ss:Type="Number">0.2932327662238292</Data>
+			</Cell>
+			<Cell ss:Index="10" ss:StyleID="37"/>
+			<Cell ss:Index="11" ss:StyleID="33">
+				<Data ss:Type="Number">760.0</Data>
+			</Cell>
+			<Cell ss:Index="12" ss:StyleID="33">
+				<Data ss:Type="Number">6.0</Data>
+			</Cell>
+			<Cell ss:Index="13" ss:StyleID="35">
+				<Data ss:Type="Number">2.0259718393646384</Data>
+			</Cell>
+			<Cell ss:Index="14" ss:StyleID="35">
+				<Data ss:Type="Number">0.015994514521299776</Data>
+			</Cell>
+			<Cell ss:Index="15" ss:StyleID="33">
+				<Data ss:Type="Number">641.0</Data>
+			</Cell>
+			<Cell ss:Index="16" ss:StyleID="33">
+				<Data ss:Type="Number">2.0</Data>
+			</Cell>
+			<Cell ss:Index="17" ss:StyleID="35">
+				<Data ss:Type="Number">1.7087473013588592</Data>
+			</Cell>
+			<Cell ss:Index="18" ss:StyleID="35">
+				<Data ss:Type="Number">0.005331504840433258</Data>
+			</Cell>
+			<Cell ss:Index="19" ss:StyleID="33">
+				<Data ss:Type="Number">1612.0</Data>
+			</Cell>
+			<Cell ss:Index="20" ss:StyleID="33">
+				<Data ss:Type="Number">8.0</Data>
+			</Cell>
+			<Cell ss:Index="21" ss:StyleID="35">
+				<Data ss:Type="Number">4.297192901389206</Data>
+			</Cell>
+			<Cell ss:Index="22" ss:StyleID="35">
+				<Data ss:Type="Number">0.02132601936173303</Data>
+			</Cell>
+		</Row>
+		<Row ss:AutoFitHeight="1">
+			<Cell ss:Index="1" ss:StyleID="29"/>
+			<Cell ss:Index="2" ss:StyleID="31">
+				<Data ss:Type="String">上海市</Data>
+			</Cell>
+			<Cell ss:Index="3" ss:StyleID="33">
+				<Data ss:Type="Number">4.0</Data>
+			</Cell>
+			<Cell ss:Index="4" ss:StyleID="33">
+				<Data ss:Type="Number">0.0</Data>
+			</Cell>
+			<Cell ss:Index="5" ss:StyleID="35">
+				<Data ss:Type="Number">0.01647352420491977</Data>
+			</Cell>
+			<Cell ss:Index="6" ss:StyleID="37"/>
+			<Cell ss:Index="7" ss:StyleID="33">
+				<Data ss:Type="Number">33.0</Data>
+			</Cell>
+			<Cell ss:Index="8" ss:StyleID="33">
+				<Data ss:Type="Number">0.0</Data>
+			</Cell>
+			<Cell ss:Index="9" ss:StyleID="35">
+				<Data ss:Type="Number">0.1359065746905881</Data>
+			</Cell>
+			<Cell ss:Index="10" ss:StyleID="37"/>
+			<Cell ss:Index="11" ss:StyleID="33">
+				<Data ss:Type="Number">246.0</Data>
+			</Cell>
+			<Cell ss:Index="12" ss:StyleID="33">
+				<Data ss:Type="Number">0.0</Data>
+			</Cell>
+			<Cell ss:Index="13" ss:StyleID="35">
+				<Data ss:Type="Number">1.0131217386025657</Data>
+			</Cell>
+			<Cell ss:Index="14" ss:StyleID="37"/>
+			<Cell ss:Index="15" ss:StyleID="33">
+				<Data ss:Type="Number">84.0</Data>
+			</Cell>
+			<Cell ss:Index="16" ss:StyleID="33">
+				<Data ss:Type="Number">0.0</Data>
+			</Cell>
+			<Cell ss:Index="17" ss:StyleID="35">
+				<Data ss:Type="Number">0.3459440083033151</Data>
+			</Cell>
+			<Cell ss:Index="18" ss:StyleID="37"/>
+			<Cell ss:Index="19" ss:StyleID="33">
+				<Data ss:Type="Number">367.0</Data>
+			</Cell>
+			<Cell ss:Index="20" ss:StyleID="33">
+				<Data ss:Type="Number">0.0</Data>
+			</Cell>
+			<Cell ss:Index="21" ss:StyleID="35">
+				<Data ss:Type="Number">1.5114458458013886</Data>
+			</Cell>
+			<Cell ss:Index="22" ss:StyleID="37"/>
+		</Row>
+		<Row ss:AutoFitHeight="1">
+			<Cell ss:Index="1" ss:StyleID="29"/>
+			<Cell ss:Index="2" ss:StyleID="31">
+				<Data ss:Type="String">江苏省</Data>
+			</Cell>
+			<Cell ss:Index="3" ss:StyleID="33">
+				<Data ss:Type="Number">31.0</Data>
+			</Cell>
+			<Cell ss:Index="4" ss:StyleID="33">
+				<Data ss:Type="Number">0.0</Data>
+			</Cell>
+			<Cell ss:Index="5" ss:StyleID="35">
+				<Data ss:Type="Number">0.038413838101905344</Data>
+			</Cell>
+			<Cell ss:Index="6" ss:StyleID="37"/>
+			<Cell ss:Index="7" ss:StyleID="33">
+				<Data ss:Type="Number">124.0</Data>
+			</Cell>
+			<Cell ss:Index="8" ss:StyleID="33">
+				<Data ss:Type="Number">0.0</Data>
+			</Cell>
+			<Cell ss:Index="9" ss:StyleID="35">
+				<Data ss:Type="Number">0.15365535240762138</Data>
+			</Cell>
+			<Cell ss:Index="10" ss:StyleID="37"/>
+			<Cell ss:Index="11" ss:StyleID="33">
+				<Data ss:Type="Number">957.0</Data>
+			</Cell>
+			<Cell ss:Index="12" ss:StyleID="33">
+				<Data ss:Type="Number">4.0</Data>
+			</Cell>
+			<Cell ss:Index="13" ss:StyleID="35">
+				<Data ss:Type="Number">1.1858723568878522</Data>
+			</Cell>
+			<Cell ss:Index="14" ss:StyleID="35">
+				<Data ss:Type="Number">0.004956624271213593</Data>
+			</Cell>
+			<Cell ss:Index="15" ss:StyleID="33">
+				<Data ss:Type="Number">742.0</Data>
+			</Cell>
+			<Cell ss:Index="16" ss:StyleID="33">
+				<Data ss:Type="Number">0.0</Data>
+			</Cell>
+			<Cell ss:Index="17" ss:StyleID="35">
+				<Data ss:Type="Number">0.9194538023101214</Data>
+			</Cell>
+			<Cell ss:Index="18" ss:StyleID="37"/>
+			<Cell ss:Index="19" ss:StyleID="33">
+				<Data ss:Type="Number">1854.0</Data>
+			</Cell>
+			<Cell ss:Index="20" ss:StyleID="33">
+				<Data ss:Type="Number">4.0</Data>
+			</Cell>
+			<Cell ss:Index="21" ss:StyleID="35">
+				<Data ss:Type="Number">2.2973953497075</Data>
+			</Cell>
+			<Cell ss:Index="22" ss:StyleID="35">
+				<Data ss:Type="Number">0.004956624271213593</Data>
+			</Cell>
+		</Row>
+		<Row ss:AutoFitHeight="1">
+			<Cell ss:Index="1" ss:StyleID="29"/>
+			<Cell ss:Index="2" ss:StyleID="31">
+				<Data ss:Type="String">浙江省</Data>
+			</Cell>
+			<Cell ss:Index="3" ss:StyleID="33">
+				<Data ss:Type="Number">33.0</Data>
+			</Cell>
+			<Cell ss:Index="4" ss:StyleID="33">
+				<Data ss:Type="Number">0.0</Data>
+			</Cell>
+			<Cell ss:Index="5" ss:StyleID="35">
+				<Data ss:Type="Number">0.05641024580320164</Data>
+			</Cell>
+			<Cell ss:Index="6" ss:StyleID="37"/>
+			<Cell ss:Index="7" ss:StyleID="33">
+				<Data ss:Type="Number">155.0</Data>
+			</Cell>
+			<Cell ss:Index="8" ss:StyleID="33">
+				<Data ss:Type="Number">0.0</Data>
+			</Cell>
+			<Cell ss:Index="9" ss:StyleID="35">
+				<Data ss:Type="Number">0.26495721513625015</Data>
+			</Cell>
+			<Cell ss:Index="10" ss:StyleID="37"/>
+			<Cell ss:Index="11" ss:StyleID="33">
+				<Data ss:Type="Number">1043.0</Data>
+			</Cell>
+			<Cell ss:Index="12" ss:StyleID="33">
+				<Data ss:Type="Number">6.0</Data>
+			</Cell>
+			<Cell ss:Index="13" ss:StyleID="35">
+				<Data ss:Type="Number">1.782905647658767</Data>
+			</Cell>
+			<Cell ss:Index="14" ss:StyleID="35">
+				<Data ss:Type="Number">0.010256408327854844</Data>
+			</Cell>
+			<Cell ss:Index="15" ss:StyleID="33">
+				<Data ss:Type="Number">561.0</Data>
+			</Cell>
+			<Cell ss:Index="16" ss:StyleID="33">
+				<Data ss:Type="Number">2.0</Data>
+			</Cell>
+			<Cell ss:Index="17" ss:StyleID="35">
+				<Data ss:Type="Number">0.9589741786544279</Data>
+			</Cell>
+			<Cell ss:Index="18" ss:StyleID="35">
+				<Data ss:Type="Number">0.0034188027759516145</Data>
+			</Cell>
+			<Cell ss:Index="19" ss:StyleID="33">
+				<Data ss:Type="Number">1792.0</Data>
+			</Cell>
+			<Cell ss:Index="20" ss:StyleID="33">
+				<Data ss:Type="Number">8.0</Data>
+			</Cell>
+			<Cell ss:Index="21" ss:StyleID="35">
+				<Data ss:Type="Number">3.063247287252647</Data>
+			</Cell>
+			<Cell ss:Index="22" ss:StyleID="35">
+				<Data ss:Type="Number">0.013675211103806458</Data>
+			</Cell>
+		</Row>
+		<Row ss:AutoFitHeight="1">
+			<Cell ss:Index="1" ss:StyleID="29"/>
+			<Cell ss:Index="2" ss:StyleID="31">
+				<Data ss:Type="String">安徽省</Data>
+			</Cell>
+			<Cell ss:Index="3" ss:StyleID="33">
+				<Data ss:Type="Number">44.0</Data>
+			</Cell>
+			<Cell ss:Index="4" ss:StyleID="33">
+				<Data ss:Type="Number">0.0</Data>
+			</Cell>
+			<Cell ss:Index="5" ss:StyleID="35">
+				<Data ss:Type="Number">0.06911829901625496</Data>
+			</Cell>
+			<Cell ss:Index="6" ss:StyleID="37"/>
+			<Cell ss:Index="7" ss:StyleID="33">
+				<Data ss:Type="Number">126.0</Data>
+			</Cell>
+			<Cell ss:Index="8" ss:StyleID="33">
+				<Data ss:Type="Number">0.0</Data>
+			</Cell>
+			<Cell ss:Index="9" ss:StyleID="35">
+				<Data ss:Type="Number">0.19792967445563922</Data>
+			</Cell>
+			<Cell ss:Index="10" ss:StyleID="37"/>
+			<Cell ss:Index="11" ss:StyleID="33">
+				<Data ss:Type="Number">1090.0</Data>
+			</Cell>
+			<Cell ss:Index="12" ss:StyleID="33">
+				<Data ss:Type="Number">3.0</Data>
+			</Cell>
+			<Cell ss:Index="13" ss:StyleID="35">
+				<Data ss:Type="Number">1.712248771084498</Data>
+			</Cell>
+			<Cell ss:Index="14" ss:StyleID="35">
+				<Data ss:Type="Number">0.004712611296562839</Data>
+			</Cell>
+			<Cell ss:Index="15" ss:StyleID="33">
+				<Data ss:Type="Number">862.0</Data>
+			</Cell>
+			<Cell ss:Index="16" ss:StyleID="33">
+				<Data ss:Type="Number">2.0</Data>
+			</Cell>
+			<Cell ss:Index="17" ss:StyleID="35">
+				<Data ss:Type="Number">1.3540903125457222</Data>
+			</Cell>
+			<Cell ss:Index="18" ss:StyleID="35">
+				<Data ss:Type="Number">0.0031417408643752255</Data>
+			</Cell>
+			<Cell ss:Index="19" ss:StyleID="33">
+				<Data ss:Type="Number">2122.0</Data>
+			</Cell>
+			<Cell ss:Index="20" ss:StyleID="33">
+				<Data ss:Type="Number">5.0</Data>
+			</Cell>
+			<Cell ss:Index="21" ss:StyleID="35">
+				<Data ss:Type="Number">3.3333870571021142</Data>
+			</Cell>
+			<Cell ss:Index="22" ss:StyleID="35">
+				<Data ss:Type="Number">0.007854352160938063</Data>
+			</Cell>
+		</Row>
+		<Row ss:AutoFitHeight="1">
+			<Cell ss:Index="1" ss:StyleID="29"/>
+			<Cell ss:Index="2" ss:StyleID="31">
+				<Data ss:Type="String">福建省</Data>
+			</Cell>
+			<Cell ss:Index="3" ss:StyleID="33">
+				<Data ss:Type="Number">59.0</Data>
+			</Cell>
+			<Cell ss:Index="4" ss:StyleID="33">
+				<Data ss:Type="Number">0.0</Data>
+			</Cell>
+			<Cell ss:Index="5" ss:StyleID="35">
+				<Data ss:Type="Number">0.14850249206059113</Data>
+			</Cell>
+			<Cell ss:Index="6" ss:StyleID="37"/>
+			<Cell ss:Index="7" ss:StyleID="33">
+				<Data ss:Type="Number">62.0</Data>
+			</Cell>
+			<Cell ss:Index="8" ss:StyleID="33">
+				<Data ss:Type="Number">0.0</Data>
+			</Cell>
+			<Cell ss:Index="9" ss:StyleID="35">
+				<Data ss:Type="Number">0.15605346623316355</Data>
+			</Cell>
+			<Cell ss:Index="10" ss:StyleID="37"/>
+			<Cell ss:Index="11" ss:StyleID="33">
+				<Data ss:Type="Number">699.0</Data>
+			</Cell>
+			<Cell ss:Index="12" ss:StyleID="33">
+				<Data ss:Type="Number">1.0</Data>
+			</Cell>
+			<Cell ss:Index="13" ss:StyleID="35">
+				<Data ss:Type="Number">1.7593769822093763</Data>
+			</Cell>
+			<Cell ss:Index="14" ss:StyleID="35">
+				<Data ss:Type="Number">0.0025169913908574767</Data>
+			</Cell>
+			<Cell ss:Index="15" ss:StyleID="33">
+				<Data ss:Type="Number">629.0</Data>
+			</Cell>
+			<Cell ss:Index="16" ss:StyleID="33">
+				<Data ss:Type="Number">0.0</Data>
+			</Cell>
+			<Cell ss:Index="17" ss:StyleID="35">
+				<Data ss:Type="Number">1.5831875848493528</Data>
+			</Cell>
+			<Cell ss:Index="18" ss:StyleID="37"/>
+			<Cell ss:Index="19" ss:StyleID="33">
+				<Data ss:Type="Number">1449.0</Data>
+			</Cell>
+			<Cell ss:Index="20" ss:StyleID="33">
+				<Data ss:Type="Number">1.0</Data>
+			</Cell>
+			<Cell ss:Index="21" ss:StyleID="35">
+				<Data ss:Type="Number">3.647120525352484</Data>
+			</Cell>
+			<Cell ss:Index="22" ss:StyleID="35">
+				<Data ss:Type="Number">0.0025169913908574767</Data>
+			</Cell>
+		</Row>
+		<Row ss:AutoFitHeight="1">
+			<Cell ss:Index="1" ss:StyleID="29"/>
+			<Cell ss:Index="2" ss:StyleID="31">
+				<Data ss:Type="String">江西省</Data>
+			</Cell>
+			<Cell ss:Index="3" ss:StyleID="33">
+				<Data ss:Type="Number">52.0</Data>
+			</Cell>
+			<Cell ss:Index="4" ss:StyleID="33">
+				<Data ss:Type="Number">0.0</Data>
+			</Cell>
+			<Cell ss:Index="5" ss:StyleID="35">
+				<Data ss:Type="Number">0.11144182663783694</Data>
+			</Cell>
+			<Cell ss:Index="6" ss:StyleID="37"/>
+			<Cell ss:Index="7" ss:StyleID="33">
+				<Data ss:Type="Number">93.0</Data>
+			</Cell>
+			<Cell ss:Index="8" ss:StyleID="33">
+				<Data ss:Type="Number">0.0</Data>
+			</Cell>
+			<Cell ss:Index="9" ss:StyleID="35">
+				<Data ss:Type="Number">0.19930942071766994</Data>
+			</Cell>
+			<Cell ss:Index="10" ss:StyleID="37"/>
+			<Cell ss:Index="11" ss:StyleID="33">
+				<Data ss:Type="Number">1139.0</Data>
+			</Cell>
+			<Cell ss:Index="12" ss:StyleID="33">
+				<Data ss:Type="Number">2.0</Data>
+			</Cell>
+			<Cell ss:Index="13" ss:StyleID="35">
+				<Data ss:Type="Number">2.4410046257787745</Data>
+			</Cell>
+			<Cell ss:Index="14" ss:StyleID="35">
+				<Data ss:Type="Number">0.004286224101455267</Data>
+			</Cell>
+			<Cell ss:Index="15" ss:StyleID="33">
+				<Data ss:Type="Number">1032.0</Data>
+			</Cell>
+			<Cell ss:Index="16" ss:StyleID="33">
+				<Data ss:Type="Number">4.0</Data>
+			</Cell>
+			<Cell ss:Index="17" ss:StyleID="35">
+				<Data ss:Type="Number">2.211691636350918</Data>
+			</Cell>
+			<Cell ss:Index="18" ss:StyleID="35">
+				<Data ss:Type="Number">0.008572448202910534</Data>
+			</Cell>
+			<Cell ss:Index="19" ss:StyleID="33">
+				<Data ss:Type="Number">2316.0</Data>
+			</Cell>
+			<Cell ss:Index="20" ss:StyleID="33">
+				<Data ss:Type="Number">6.0</Data>
+			</Cell>
+			<Cell ss:Index="21" ss:StyleID="35">
+				<Data ss:Type="Number">4.963447509485199</Data>
+			</Cell>
+			<Cell ss:Index="22" ss:StyleID="35">
+				<Data ss:Type="Number">0.012858672304365801</Data>
+			</Cell>
+		</Row>
+		<Row ss:AutoFitHeight="1">
+			<Cell ss:Index="1" ss:StyleID="29"/>
+			<Cell ss:Index="2" ss:StyleID="31">
+				<Data ss:Type="String">山东省</Data>
+			</Cell>
+			<Cell ss:Index="3" ss:StyleID="33">
+				<Data ss:Type="Number">48.0</Data>
+			</Cell>
+			<Cell ss:Index="4" ss:StyleID="33">
+				<Data ss:Type="Number">0.0</Data>
+			</Cell>
+			<Cell ss:Index="5" ss:StyleID="35">
+				<Data ss:Type="Number">0.04766528531014793</Data>
+			</Cell>
+			<Cell ss:Index="6" ss:StyleID="37"/>
+			<Cell ss:Index="7" ss:StyleID="33">
+				<Data ss:Type="Number">136.0</Data>
+			</Cell>
+			<Cell ss:Index="8" ss:StyleID="33">
+				<Data ss:Type="Number">0.0</Data>
+			</Cell>
+			<Cell ss:Index="9" ss:StyleID="35">
+				<Data ss:Type="Number">0.1350516417120858</Data>
+			</Cell>
+			<Cell ss:Index="10" ss:StyleID="37"/>
+			<Cell ss:Index="11" ss:StyleID="33">
+				<Data ss:Type="Number">1238.0</Data>
+			</Cell>
+			<Cell ss:Index="12" ss:StyleID="33">
+				<Data ss:Type="Number">3.0</Data>
+			</Cell>
+			<Cell ss:Index="13" ss:StyleID="35">
+				<Data ss:Type="Number">1.2293671502908987</Data>
+			</Cell>
+			<Cell ss:Index="14" ss:StyleID="35">
+				<Data ss:Type="Number">0.0029790803318842456</Data>
+			</Cell>
+			<Cell ss:Index="15" ss:StyleID="33">
+				<Data ss:Type="Number">1133.0</Data>
+			</Cell>
+			<Cell ss:Index="16" ss:StyleID="33">
+				<Data ss:Type="Number">0.0</Data>
+			</Cell>
+			<Cell ss:Index="17" ss:StyleID="35">
+				<Data ss:Type="Number">1.1250993386749502</Data>
+			</Cell>
+			<Cell ss:Index="18" ss:StyleID="37"/>
+			<Cell ss:Index="19" ss:StyleID="33">
+				<Data ss:Type="Number">2555.0</Data>
+			</Cell>
+			<Cell ss:Index="20" ss:StyleID="33">
+				<Data ss:Type="Number">3.0</Data>
+			</Cell>
+			<Cell ss:Index="21" ss:StyleID="35">
+				<Data ss:Type="Number">2.5371834159880824</Data>
+			</Cell>
+			<Cell ss:Index="22" ss:StyleID="35">
+				<Data ss:Type="Number">0.0029790803318842456</Data>
+			</Cell>
+		</Row>
+		<Row ss:AutoFitHeight="1">
+			<Cell ss:Index="1" ss:StyleID="29"/>
+			<Cell ss:Index="2" ss:StyleID="31">
+				<Data ss:Type="String">河南省</Data>
+			</Cell>
+			<Cell ss:Index="3" ss:StyleID="33">
+				<Data ss:Type="Number">94.0</Data>
+			</Cell>
+			<Cell ss:Index="4" ss:StyleID="33">
+				<Data ss:Type="Number">0.0</Data>
+			</Cell>
+			<Cell ss:Index="5" ss:StyleID="35">
+				<Data ss:Type="Number">0.09751243900830348</Data>
+			</Cell>
+			<Cell ss:Index="6" ss:StyleID="37"/>
+			<Cell ss:Index="7" ss:StyleID="33">
+				<Data ss:Type="Number">484.0</Data>
+			</Cell>
+			<Cell ss:Index="8" ss:StyleID="33">
+				<Data ss:Type="Number">0.0</Data>
+			</Cell>
+			<Cell ss:Index="9" ss:StyleID="35">
+				<Data ss:Type="Number">0.5020853242555201</Data>
+			</Cell>
+			<Cell ss:Index="10" ss:StyleID="37"/>
+			<Cell ss:Index="11" ss:StyleID="33">
+				<Data ss:Type="Number">1791.0</Data>
+			</Cell>
+			<Cell ss:Index="12" ss:StyleID="33">
+				<Data ss:Type="Number">4.0</Data>
+			</Cell>
+			<Cell ss:Index="13" ss:StyleID="35">
+				<Data ss:Type="Number">1.85792317301991</Data>
+			</Cell>
+			<Cell ss:Index="14" ss:StyleID="35">
+				<Data ss:Type="Number">0.004149465489715042</Data>
+			</Cell>
+			<Cell ss:Index="15" ss:StyleID="33">
+				<Data ss:Type="Number">1731.0</Data>
+			</Cell>
+			<Cell ss:Index="16" ss:StyleID="33">
+				<Data ss:Type="Number">1.0</Data>
+			</Cell>
+			<Cell ss:Index="17" ss:StyleID="35">
+				<Data ss:Type="Number">1.7956811906741843</Data>
+			</Cell>
+			<Cell ss:Index="18" ss:StyleID="35">
+				<Data ss:Type="Number">0.0010373663724287604</Data>
+			</Cell>
+			<Cell ss:Index="19" ss:StyleID="33">
+				<Data ss:Type="Number">4100.0</Data>
+			</Cell>
+			<Cell ss:Index="20" ss:StyleID="33">
+				<Data ss:Type="Number">5.0</Data>
+			</Cell>
+			<Cell ss:Index="21" ss:StyleID="35">
+				<Data ss:Type="Number">4.253202126957918</Data>
+			</Cell>
+			<Cell ss:Index="22" ss:StyleID="35">
+				<Data ss:Type="Number">0.005186831862143802</Data>
+			</Cell>
+		</Row>
+		<Row ss:AutoFitHeight="1">
+			<Cell ss:Index="1" ss:StyleID="29"/>
+			<Cell ss:Index="2" ss:StyleID="31">
+				<Data ss:Type="String">湖北省</Data>
+			</Cell>
+			<Cell ss:Index="3" ss:StyleID="33">
+				<Data ss:Type="Number">48.0</Data>
+			</Cell>
+			<Cell ss:Index="4" ss:StyleID="33">
+				<Data ss:Type="Number">1.0</Data>
+			</Cell>
+			<Cell ss:Index="5" ss:StyleID="35">
+				<Data ss:Type="Number">0.08098358341288846</Data>
+			</Cell>
+			<Cell ss:Index="6" ss:StyleID="35">
+				<Data ss:Type="Number">0.0016871579877685097</Data>
+			</Cell>
+			<Cell ss:Index="7" ss:StyleID="33">
+				<Data ss:Type="Number">92.0</Data>
+			</Cell>
+			<Cell ss:Index="8" ss:StyleID="33">
+				<Data ss:Type="Number">0.0</Data>
+			</Cell>
+			<Cell ss:Index="9" ss:StyleID="35">
+				<Data ss:Type="Number">0.15521853487470288</Data>
+			</Cell>
+			<Cell ss:Index="10" ss:StyleID="37"/>
+			<Cell ss:Index="11" ss:StyleID="33">
+				<Data ss:Type="Number">1149.0</Data>
+			</Cell>
+			<Cell ss:Index="12" ss:StyleID="33">
+				<Data ss:Type="Number">1.0</Data>
+			</Cell>
+			<Cell ss:Index="13" ss:StyleID="35">
+				<Data ss:Type="Number">1.9385445279460174</Data>
+			</Cell>
+			<Cell ss:Index="14" ss:StyleID="35">
+				<Data ss:Type="Number">0.0016871579877685097</Data>
+			</Cell>
+			<Cell ss:Index="15" ss:StyleID="33">
+				<Data ss:Type="Number">1083.0</Data>
+			</Cell>
+			<Cell ss:Index="16" ss:StyleID="33">
+				<Data ss:Type="Number">0.0</Data>
+			</Cell>
+			<Cell ss:Index="17" ss:StyleID="35">
+				<Data ss:Type="Number">1.8271921007532956</Data>
+			</Cell>
+			<Cell ss:Index="18" ss:StyleID="37"/>
+			<Cell ss:Index="19" ss:StyleID="33">
+				<Data ss:Type="Number">2372.0</Data>
+			</Cell>
+			<Cell ss:Index="20" ss:StyleID="33">
+				<Data ss:Type="Number">2.0</Data>
+			</Cell>
+			<Cell ss:Index="21" ss:StyleID="35">
+				<Data ss:Type="Number">4.001938746986904</Data>
+			</Cell>
+			<Cell ss:Index="22" ss:StyleID="35">
+				<Data ss:Type="Number">0.0033743159755370193</Data>
+			</Cell>
+		</Row>
+		<Row ss:AutoFitHeight="1">
+			<Cell ss:Index="1" ss:StyleID="29"/>
+			<Cell ss:Index="2" ss:StyleID="31">
+				<Data ss:Type="String">湖南省</Data>
+			</Cell>
+			<Cell ss:Index="3" ss:StyleID="33">
+				<Data ss:Type="Number">82.0</Data>
+			</Cell>
+			<Cell ss:Index="4" ss:StyleID="33">
+				<Data ss:Type="Number">1.0</Data>
+			</Cell>
+			<Cell ss:Index="5" ss:StyleID="35">
+				<Data ss:Type="Number">0.11852462569525715</Data>
+			</Cell>
+			<Cell ss:Index="6" ss:StyleID="35">
+				<Data ss:Type="Number">0.0014454222645763066</Data>
+			</Cell>
+			<Cell ss:Index="7" ss:StyleID="33">
+				<Data ss:Type="Number">185.0</Data>
+			</Cell>
+			<Cell ss:Index="8" ss:StyleID="33">
+				<Data ss:Type="Number">0.0</Data>
+			</Cell>
+			<Cell ss:Index="9" ss:StyleID="35">
+				<Data ss:Type="Number">0.2674031189466167</Data>
+			</Cell>
+			<Cell ss:Index="10" ss:StyleID="37"/>
+			<Cell ss:Index="11" ss:StyleID="33">
+				<Data ss:Type="Number">2342.0</Data>
+			</Cell>
+			<Cell ss:Index="12" ss:StyleID="33">
+				<Data ss:Type="Number">4.0</Data>
+			</Cell>
+			<Cell ss:Index="13" ss:StyleID="35">
+				<Data ss:Type="Number">3.38517894363771</Data>
+			</Cell>
+			<Cell ss:Index="14" ss:StyleID="35">
+				<Data ss:Type="Number">0.0057816890583052265</Data>
+			</Cell>
+			<Cell ss:Index="15" ss:StyleID="33">
+				<Data ss:Type="Number">1902.0</Data>
+			</Cell>
+			<Cell ss:Index="16" ss:StyleID="33">
+				<Data ss:Type="Number">3.0</Data>
+			</Cell>
+			<Cell ss:Index="17" ss:StyleID="35">
+				<Data ss:Type="Number">2.749193147224135</Data>
+			</Cell>
+			<Cell ss:Index="18" ss:StyleID="35">
+				<Data ss:Type="Number">0.0043362667937289195</Data>
+			</Cell>
+			<Cell ss:Index="19" ss:StyleID="33">
+				<Data ss:Type="Number">4511.0</Data>
+			</Cell>
+			<Cell ss:Index="20" ss:StyleID="33">
+				<Data ss:Type="Number">8.0</Data>
+			</Cell>
+			<Cell ss:Index="21" ss:StyleID="35">
+				<Data ss:Type="Number">6.520299835503719</Data>
+			</Cell>
+			<Cell ss:Index="22" ss:StyleID="35">
+				<Data ss:Type="Number">0.011563378116610453</Data>
+			</Cell>
+		</Row>
+		<Row ss:AutoFitHeight="1">
+			<Cell ss:Index="1" ss:StyleID="29"/>
+			<Cell ss:Index="2" ss:StyleID="31">
+				<Data ss:Type="String">广东省</Data>
+			</Cell>
+			<Cell ss:Index="3" ss:StyleID="33">
+				<Data ss:Type="Number">110.0</Data>
+			</Cell>
+			<Cell ss:Index="4" ss:StyleID="33">
+				<Data ss:Type="Number">0.0</Data>
+			</Cell>
+			<Cell ss:Index="5" ss:StyleID="35">
+				<Data ss:Type="Number">0.0954810179613249</Data>
+			</Cell>
+			<Cell ss:Index="6" ss:StyleID="37"/>
+			<Cell ss:Index="7" ss:StyleID="33">
+				<Data ss:Type="Number">463.0</Data>
+			</Cell>
+			<Cell ss:Index="8" ss:StyleID="33">
+				<Data ss:Type="Number">1.0</Data>
+			</Cell>
+			<Cell ss:Index="9" ss:StyleID="35">
+				<Data ss:Type="Number">0.40188828469175847</Data>
+			</Cell>
+			<Cell ss:Index="10" ss:StyleID="35">
+				<Data ss:Type="Number">0.0008680092541938627</Data>
+			</Cell>
+			<Cell ss:Index="11" ss:StyleID="33">
+				<Data ss:Type="Number">2611.0</Data>
+			</Cell>
+			<Cell ss:Index="12" ss:StyleID="33">
+				<Data ss:Type="Number">9.0</Data>
+			</Cell>
+			<Cell ss:Index="13" ss:StyleID="35">
+				<Data ss:Type="Number">2.2663721627001756</Data>
+			</Cell>
+			<Cell ss:Index="14" ss:StyleID="35">
+				<Data ss:Type="Number">0.007812083287744764</Data>
+			</Cell>
+			<Cell ss:Index="15" ss:StyleID="33">
+				<Data ss:Type="Number">1815.0</Data>
+			</Cell>
+			<Cell ss:Index="16" ss:StyleID="33">
+				<Data ss:Type="Number">3.0</Data>
+			</Cell>
+			<Cell ss:Index="17" ss:StyleID="35">
+				<Data ss:Type="Number">1.575436796361861</Data>
+			</Cell>
+			<Cell ss:Index="18" ss:StyleID="35">
+				<Data ss:Type="Number">0.002604027762581588</Data>
+			</Cell>
+			<Cell ss:Index="19" ss:StyleID="33">
+				<Data ss:Type="Number">4999.0</Data>
+			</Cell>
+			<Cell ss:Index="20" ss:StyleID="33">
+				<Data ss:Type="Number">13.0</Data>
+			</Cell>
+			<Cell ss:Index="21" ss:StyleID="35">
+				<Data ss:Type="Number">4.339178261715119</Data>
+			</Cell>
+			<Cell ss:Index="22" ss:StyleID="35">
+				<Data ss:Type="Number">0.011284120304520215</Data>
+			</Cell>
+		</Row>
+		<Row ss:AutoFitHeight="1">
+			<Cell ss:Index="1" ss:StyleID="29"/>
+			<Cell ss:Index="2" ss:StyleID="31">
+				<Data ss:Type="String">广    西</Data>
+			</Cell>
+			<Cell ss:Index="3" ss:StyleID="33">
+				<Data ss:Type="Number">62.0</Data>
+			</Cell>
+			<Cell ss:Index="4" ss:StyleID="33">
+				<Data ss:Type="Number">0.0</Data>
+			</Cell>
+			<Cell ss:Index="5" ss:StyleID="35">
+				<Data ss:Type="Number">0.12499991935489074</Data>
+			</Cell>
+			<Cell ss:Index="6" ss:StyleID="37"/>
+			<Cell ss:Index="7" ss:StyleID="33">
+				<Data ss:Type="Number">224.0</Data>
+			</Cell>
+			<Cell ss:Index="8" ss:StyleID="33">
+				<Data ss:Type="Number">2.0</Data>
+			</Cell>
+			<Cell ss:Index="9" ss:StyleID="35">
+				<Data ss:Type="Number">0.451612611862831</Data>
+			</Cell>
+			<Cell ss:Index="10" ss:StyleID="35">
+				<Data ss:Type="Number">0.004032255463060992</Data>
+			</Cell>
+			<Cell ss:Index="11" ss:StyleID="33">
+				<Data ss:Type="Number">1821.0</Data>
+			</Cell>
+			<Cell ss:Index="12" ss:StyleID="33">
+				<Data ss:Type="Number">2.0</Data>
+			</Cell>
+			<Cell ss:Index="13" ss:StyleID="35">
+				<Data ss:Type="Number">3.6713685991170326</Data>
+			</Cell>
+			<Cell ss:Index="14" ss:StyleID="35">
+				<Data ss:Type="Number">0.004032255463060992</Data>
+			</Cell>
+			<Cell ss:Index="15" ss:StyleID="33">
+				<Data ss:Type="Number">1447.0</Data>
+			</Cell>
+			<Cell ss:Index="16" ss:StyleID="33">
+				<Data ss:Type="Number">2.0</Data>
+			</Cell>
+			<Cell ss:Index="17" ss:StyleID="35">
+				<Data ss:Type="Number">2.917336827524627</Data>
+			</Cell>
+			<Cell ss:Index="18" ss:StyleID="35">
+				<Data ss:Type="Number">0.004032255463060992</Data>
+			</Cell>
+			<Cell ss:Index="19" ss:StyleID="33">
+				<Data ss:Type="Number">3554.0</Data>
+			</Cell>
+			<Cell ss:Index="20" ss:StyleID="33">
+				<Data ss:Type="Number">6.0</Data>
+			</Cell>
+			<Cell ss:Index="21" ss:StyleID="35">
+				<Data ss:Type="Number">7.165317957859382</Data>
+			</Cell>
+			<Cell ss:Index="22" ss:StyleID="35">
+				<Data ss:Type="Number">0.012096766389182974</Data>
+			</Cell>
+		</Row>
+		<Row ss:AutoFitHeight="1">
+			<Cell ss:Index="1" ss:StyleID="29"/>
+			<Cell ss:Index="2" ss:StyleID="31">
+				<Data ss:Type="String">海南省</Data>
+			</Cell>
+			<Cell ss:Index="3" ss:StyleID="33">
+				<Data ss:Type="Number">28.0</Data>
+			</Cell>
+			<Cell ss:Index="4" ss:StyleID="33">
+				<Data ss:Type="Number">0.0</Data>
+			</Cell>
+			<Cell ss:Index="5" ss:StyleID="35">
+				<Data ss:Type="Number">0.2964682478800667</Data>
+			</Cell>
+			<Cell ss:Index="6" ss:StyleID="37"/>
+			<Cell ss:Index="7" ss:StyleID="33">
+				<Data ss:Type="Number">115.0</Data>
+			</Cell>
+			<Cell ss:Index="8" ss:StyleID="33">
+				<Data ss:Type="Number">0.0</Data>
+			</Cell>
+			<Cell ss:Index="9" ss:StyleID="35">
+				<Data ss:Type="Number">1.2176374466502742</Data>
+			</Cell>
+			<Cell ss:Index="10" ss:StyleID="37"/>
+			<Cell ss:Index="11" ss:StyleID="33">
+				<Data ss:Type="Number">221.0</Data>
+			</Cell>
+			<Cell ss:Index="12" ss:StyleID="33">
+				<Data ss:Type="Number">0.0</Data>
+			</Cell>
+			<Cell ss:Index="13" ss:StyleID="35">
+				<Data ss:Type="Number">2.3399815279105267</Data>
+			</Cell>
+			<Cell ss:Index="14" ss:StyleID="37"/>
+			<Cell ss:Index="15" ss:StyleID="33">
+				<Data ss:Type="Number">288.0</Data>
+			</Cell>
+			<Cell ss:Index="16" ss:StyleID="33">
+				<Data ss:Type="Number">0.0</Data>
+			</Cell>
+			<Cell ss:Index="17" ss:StyleID="35">
+				<Data ss:Type="Number">3.0493876924806864</Data>
+			</Cell>
+			<Cell ss:Index="18" ss:StyleID="37"/>
+			<Cell ss:Index="19" ss:StyleID="33">
+				<Data ss:Type="Number">652.0</Data>
+			</Cell>
+			<Cell ss:Index="20" ss:StyleID="33">
+				<Data ss:Type="Number">0.0</Data>
+			</Cell>
+			<Cell ss:Index="21" ss:StyleID="35">
+				<Data ss:Type="Number">6.903474914921554</Data>
+			</Cell>
+			<Cell ss:Index="22" ss:StyleID="37"/>
+		</Row>
+		<Row ss:AutoFitHeight="1">
+			<Cell ss:Index="1" ss:StyleID="29"/>
+			<Cell ss:Index="2" ss:StyleID="31">
+				<Data ss:Type="String">重庆市</Data>
+			</Cell>
+			<Cell ss:Index="3" ss:StyleID="33">
+				<Data ss:Type="Number">79.0</Data>
+			</Cell>
+			<Cell ss:Index="4" ss:StyleID="33">
+				<Data ss:Type="Number">0.0</Data>
+			</Cell>
+			<Cell ss:Index="5" ss:StyleID="35">
+				<Data ss:Type="Number">0.25285553921347714</Data>
+			</Cell>
+			<Cell ss:Index="6" ss:StyleID="37"/>
+			<Cell ss:Index="7" ss:StyleID="33">
+				<Data ss:Type="Number">134.0</Data>
+			</Cell>
+			<Cell ss:Index="8" ss:StyleID="33">
+				<Data ss:Type="Number">1.0</Data>
+			</Cell>
+			<Cell ss:Index="9" ss:StyleID="35">
+				<Data ss:Type="Number">0.42889420575450554</Data>
+			</Cell>
+			<Cell ss:Index="10" ss:StyleID="35">
+				<Data ss:Type="Number">0.0032007030280186985</Data>
+			</Cell>
+			<Cell ss:Index="11" ss:StyleID="33">
+				<Data ss:Type="Number">1167.0</Data>
+			</Cell>
+			<Cell ss:Index="12" ss:StyleID="33">
+				<Data ss:Type="Number">8.0</Data>
+			</Cell>
+			<Cell ss:Index="13" ss:StyleID="35">
+				<Data ss:Type="Number">3.7352204336978208</Data>
+			</Cell>
+			<Cell ss:Index="14" ss:StyleID="35">
+				<Data ss:Type="Number">0.025605624224149588</Data>
+			</Cell>
+			<Cell ss:Index="15" ss:StyleID="33">
+				<Data ss:Type="Number">707.0</Data>
+			</Cell>
+			<Cell ss:Index="16" ss:StyleID="33">
+				<Data ss:Type="Number">1.0</Data>
+			</Cell>
+			<Cell ss:Index="17" ss:StyleID="35">
+				<Data ss:Type="Number">2.2628970408092197</Data>
+			</Cell>
+			<Cell ss:Index="18" ss:StyleID="35">
+				<Data ss:Type="Number">0.0032007030280186985</Data>
+			</Cell>
+			<Cell ss:Index="19" ss:StyleID="33">
+				<Data ss:Type="Number">2087.0</Data>
+			</Cell>
+			<Cell ss:Index="20" ss:StyleID="33">
+				<Data ss:Type="Number">10.0</Data>
+			</Cell>
+			<Cell ss:Index="21" ss:StyleID="35">
+				<Data ss:Type="Number">6.679867219475023</Data>
+			</Cell>
+			<Cell ss:Index="22" ss:StyleID="35">
+				<Data ss:Type="Number">0.032007030280186984</Data>
+			</Cell>
+		</Row>
+		<Row ss:AutoFitHeight="1">
+			<Cell ss:Index="1" ss:StyleID="29"/>
+			<Cell ss:Index="2" ss:StyleID="31">
+				<Data ss:Type="String">四川省</Data>
+			</Cell>
+			<Cell ss:Index="3" ss:StyleID="33">
+				<Data ss:Type="Number">89.0</Data>
+			</Cell>
+			<Cell ss:Index="4" ss:StyleID="33">
+				<Data ss:Type="Number">0.0</Data>
+			</Cell>
+			<Cell ss:Index="5" ss:StyleID="35">
+				<Data ss:Type="Number">0.10626872777371649</Data>
+			</Cell>
+			<Cell ss:Index="6" ss:StyleID="37"/>
+			<Cell ss:Index="7" ss:StyleID="33">
+				<Data ss:Type="Number">341.0</Data>
+			</Cell>
+			<Cell ss:Index="8" ss:StyleID="33">
+				<Data ss:Type="Number">0.0</Data>
+			</Cell>
+			<Cell ss:Index="9" ss:StyleID="35">
+				<Data ss:Type="Number">0.40716445135772267</Data>
+			</Cell>
+			<Cell ss:Index="10" ss:StyleID="37"/>
+			<Cell ss:Index="11" ss:StyleID="33">
+				<Data ss:Type="Number">1830.0</Data>
+			</Cell>
+			<Cell ss:Index="12" ss:StyleID="33">
+				<Data ss:Type="Number">4.0</Data>
+			</Cell>
+			<Cell ss:Index="13" ss:StyleID="35">
+				<Data ss:Type="Number">2.1850760879314737</Data>
+			</Cell>
+			<Cell ss:Index="14" ss:StyleID="35">
+				<Data ss:Type="Number">0.004776122596571527</Data>
+			</Cell>
+			<Cell ss:Index="15" ss:StyleID="33">
+				<Data ss:Type="Number">1787.0</Data>
+			</Cell>
+			<Cell ss:Index="16" ss:StyleID="33">
+				<Data ss:Type="Number">4.0</Data>
+			</Cell>
+			<Cell ss:Index="17" ss:StyleID="35">
+				<Data ss:Type="Number">2.13373277001833</Data>
+			</Cell>
+			<Cell ss:Index="18" ss:StyleID="35">
+				<Data ss:Type="Number">0.004776122596571527</Data>
+			</Cell>
+			<Cell ss:Index="19" ss:StyleID="33">
+				<Data ss:Type="Number">4047.0</Data>
+			</Cell>
+			<Cell ss:Index="20" ss:StyleID="33">
+				<Data ss:Type="Number">8.0</Data>
+			</Cell>
+			<Cell ss:Index="21" ss:StyleID="35">
+				<Data ss:Type="Number">4.832242037081243</Data>
+			</Cell>
+			<Cell ss:Index="22" ss:StyleID="35">
+				<Data ss:Type="Number">0.009552245193143055</Data>
+			</Cell>
+		</Row>
+		<Row ss:AutoFitHeight="1">
+			<Cell ss:Index="1" ss:StyleID="29"/>
+			<Cell ss:Index="2" ss:StyleID="31">
+				<Data ss:Type="String">贵州省</Data>
+			</Cell>
+			<Cell ss:Index="3" ss:StyleID="33">
+				<Data ss:Type="Number">102.0</Data>
+			</Cell>
+			<Cell ss:Index="4" ss:StyleID="33">
+				<Data ss:Type="Number">0.0</Data>
+			</Cell>
+			<Cell ss:Index="5" ss:StyleID="35">
+				<Data ss:Type="Number">0.28153878167735674</Data>
+			</Cell>
+			<Cell ss:Index="6" ss:StyleID="37"/>
+			<Cell ss:Index="7" ss:StyleID="33">
+				<Data ss:Type="Number">160.0</Data>
+			</Cell>
+			<Cell ss:Index="8" ss:StyleID="33">
+				<Data ss:Type="Number">1.0</Data>
+			</Cell>
+			<Cell ss:Index="9" ss:StyleID="35">
+				<Data ss:Type="Number">0.44162946145467724</Data>
+			</Cell>
+			<Cell ss:Index="10" ss:StyleID="35">
+				<Data ss:Type="Number">0.0027601841340917327</Data>
+			</Cell>
+			<Cell ss:Index="11" ss:StyleID="33">
+				<Data ss:Type="Number">1709.0</Data>
+			</Cell>
+			<Cell ss:Index="12" ss:StyleID="33">
+				<Data ss:Type="Number">4.0</Data>
+			</Cell>
+			<Cell ss:Index="13" ss:StyleID="35">
+				<Data ss:Type="Number">4.717154685162771</Data>
+			</Cell>
+			<Cell ss:Index="14" ss:StyleID="35">
+				<Data ss:Type="Number">0.01104073653636693</Data>
+			</Cell>
+			<Cell ss:Index="15" ss:StyleID="33">
+				<Data ss:Type="Number">1111.0</Data>
+			</Cell>
+			<Cell ss:Index="16" ss:StyleID="33">
+				<Data ss:Type="Number">1.0</Data>
+			</Cell>
+			<Cell ss:Index="17" ss:StyleID="35">
+				<Data ss:Type="Number">3.0665645729759152</Data>
+			</Cell>
+			<Cell ss:Index="18" ss:StyleID="35">
+				<Data ss:Type="Number">0.0027601841340917327</Data>
+			</Cell>
+			<Cell ss:Index="19" ss:StyleID="33">
+				<Data ss:Type="Number">3082.0</Data>
+			</Cell>
+			<Cell ss:Index="20" ss:StyleID="33">
+				<Data ss:Type="Number">6.0</Data>
+			</Cell>
+			<Cell ss:Index="21" ss:StyleID="35">
+				<Data ss:Type="Number">8.50688750127072</Data>
+			</Cell>
+			<Cell ss:Index="22" ss:StyleID="35">
+				<Data ss:Type="Number">0.016561104804550395</Data>
+			</Cell>
+		</Row>
+		<Row ss:AutoFitHeight="1">
+			<Cell ss:Index="1" ss:StyleID="29"/>
+			<Cell ss:Index="2" ss:StyleID="31">
+				<Data ss:Type="String">云南省</Data>
+			</Cell>
+			<Cell ss:Index="3" ss:StyleID="33">
+				<Data ss:Type="Number">81.0</Data>
+			</Cell>
+			<Cell ss:Index="4" ss:StyleID="33">
+				<Data ss:Type="Number">0.0</Data>
+			</Cell>
+			<Cell ss:Index="5" ss:StyleID="35">
+				<Data ss:Type="Number">0.16672315700054172</Data>
+			</Cell>
+			<Cell ss:Index="6" ss:StyleID="37"/>
+			<Cell ss:Index="7" ss:StyleID="33">
+				<Data ss:Type="Number">108.0</Data>
+			</Cell>
+			<Cell ss:Index="8" ss:StyleID="33">
+				<Data ss:Type="Number">0.0</Data>
+			</Cell>
+			<Cell ss:Index="9" ss:StyleID="35">
+				<Data ss:Type="Number">0.222297542667389</Data>
+			</Cell>
+			<Cell ss:Index="10" ss:StyleID="37"/>
+			<Cell ss:Index="11" ss:StyleID="33">
+				<Data ss:Type="Number">1421.0</Data>
+			</Cell>
+			<Cell ss:Index="12" ss:StyleID="33">
+				<Data ss:Type="Number">3.0</Data>
+			</Cell>
+			<Cell ss:Index="13" ss:StyleID="35">
+				<Data ss:Type="Number">2.924859334540368</Data>
+			</Cell>
+			<Cell ss:Index="14" ss:StyleID="35">
+				<Data ss:Type="Number">0.006174931740760805</Data>
+			</Cell>
+			<Cell ss:Index="15" ss:StyleID="33">
+				<Data ss:Type="Number">1233.0</Data>
+			</Cell>
+			<Cell ss:Index="16" ss:StyleID="33">
+				<Data ss:Type="Number">2.0</Data>
+			</Cell>
+			<Cell ss:Index="17" ss:StyleID="35">
+				<Data ss:Type="Number">2.5378969454526907</Data>
+			</Cell>
+			<Cell ss:Index="18" ss:StyleID="35">
+				<Data ss:Type="Number">0.004116621160507203</Data>
+			</Cell>
+			<Cell ss:Index="19" ss:StyleID="33">
+				<Data ss:Type="Number">2843.0</Data>
+			</Cell>
+			<Cell ss:Index="20" ss:StyleID="33">
+				<Data ss:Type="Number">5.0</Data>
+			</Cell>
+			<Cell ss:Index="21" ss:StyleID="35">
+				<Data ss:Type="Number">5.85177697966099</Data>
+			</Cell>
+			<Cell ss:Index="22" ss:StyleID="35">
+				<Data ss:Type="Number">0.010291552901268007</Data>
+			</Cell>
+		</Row>
+		<Row ss:AutoFitHeight="1">
+			<Cell ss:Index="1" ss:StyleID="29"/>
+			<Cell ss:Index="2" ss:StyleID="31">
+				<Data ss:Type="String">西    藏</Data>
+			</Cell>
+			<Cell ss:Index="3" ss:StyleID="33">
+				<Data ss:Type="Number">17.0</Data>
+			</Cell>
+			<Cell ss:Index="4" ss:StyleID="33">
+				<Data ss:Type="Number">0.0</Data>
+			</Cell>
+			<Cell ss:Index="5" ss:StyleID="35">
+				<Data ss:Type="Number">0.48482732874686685</Data>
+			</Cell>
+			<Cell ss:Index="6" ss:StyleID="37"/>
+			<Cell ss:Index="7" ss:StyleID="33">
+				<Data ss:Type="Number">143.0</Data>
+			</Cell>
+			<Cell ss:Index="8" ss:StyleID="33">
+				<Data ss:Type="Number">0.0</Data>
+			</Cell>
+			<Cell ss:Index="9" ss:StyleID="35">
+				<Data ss:Type="Number">4.078253412400115</Data>
+			</Cell>
+			<Cell ss:Index="10" ss:StyleID="37"/>
+			<Cell ss:Index="11" ss:StyleID="33">
+				<Data ss:Type="Number">86.0</Data>
+			</Cell>
+			<Cell ss:Index="12" ss:StyleID="33">
+				<Data ss:Type="Number">0.0</Data>
+			</Cell>
+			<Cell ss:Index="13" ss:StyleID="35">
+				<Data ss:Type="Number">2.4526558983665026</Data>
+			</Cell>
+			<Cell ss:Index="14" ss:StyleID="37"/>
+			<Cell ss:Index="15" ss:StyleID="33">
+				<Data ss:Type="Number">257.0</Data>
+			</Cell>
+			<Cell ss:Index="16" ss:StyleID="33">
+				<Data ss:Type="Number">0.0</Data>
+			</Cell>
+			<Cell ss:Index="17" ss:StyleID="35">
+				<Data ss:Type="Number">7.329448440467339</Data>
+			</Cell>
+			<Cell ss:Index="18" ss:StyleID="37"/>
+			<Cell ss:Index="19" ss:StyleID="33">
+				<Data ss:Type="Number">503.0</Data>
+			</Cell>
+			<Cell ss:Index="20" ss:StyleID="33">
+				<Data ss:Type="Number">0.0</Data>
+			</Cell>
+			<Cell ss:Index="21" ss:StyleID="35">
+				<Data ss:Type="Number">14.345185079980824</Data>
+			</Cell>
+			<Cell ss:Index="22" ss:StyleID="37"/>
+		</Row>
+		<Row ss:AutoFitHeight="1">
+			<Cell ss:Index="1" ss:StyleID="29"/>
+			<Cell ss:Index="2" ss:StyleID="31">
+				<Data ss:Type="String">陕西省</Data>
+			</Cell>
+			<Cell ss:Index="3" ss:StyleID="33">
+				<Data ss:Type="Number">55.0</Data>
+			</Cell>
+			<Cell ss:Index="4" ss:StyleID="33">
+				<Data ss:Type="Number">0.0</Data>
+			</Cell>
+			<Cell ss:Index="5" ss:StyleID="35">
+				<Data ss:Type="Number">0.14189108569254136</Data>
+			</Cell>
+			<Cell ss:Index="6" ss:StyleID="37"/>
+			<Cell ss:Index="7" ss:StyleID="33">
+				<Data ss:Type="Number">114.0</Data>
+			</Cell>
+			<Cell ss:Index="8" ss:StyleID="33">
+				<Data ss:Type="Number">1.0</Data>
+			</Cell>
+			<Cell ss:Index="9" ss:StyleID="35">
+				<Data ss:Type="Number">0.29410152307181303</Data>
+			</Cell>
+			<Cell ss:Index="10" ss:StyleID="35">
+				<Data ss:Type="Number">0.0025798379216825703</Data>
+			</Cell>
+			<Cell ss:Index="11" ss:StyleID="33">
+				<Data ss:Type="Number">757.0</Data>
+			</Cell>
+			<Cell ss:Index="12" ss:StyleID="33">
+				<Data ss:Type="Number">2.0</Data>
+			</Cell>
+			<Cell ss:Index="13" ss:StyleID="35">
+				<Data ss:Type="Number">1.9529373067137057</Data>
+			</Cell>
+			<Cell ss:Index="14" ss:StyleID="35">
+				<Data ss:Type="Number">0.005159675843365141</Data>
+			</Cell>
+			<Cell ss:Index="15" ss:StyleID="33">
+				<Data ss:Type="Number">627.0</Data>
+			</Cell>
+			<Cell ss:Index="16" ss:StyleID="33">
+				<Data ss:Type="Number">1.0</Data>
+			</Cell>
+			<Cell ss:Index="17" ss:StyleID="35">
+				<Data ss:Type="Number">1.6175583768949715</Data>
+			</Cell>
+			<Cell ss:Index="18" ss:StyleID="35">
+				<Data ss:Type="Number">0.0025798379216825703</Data>
+			</Cell>
+			<Cell ss:Index="19" ss:StyleID="33">
+				<Data ss:Type="Number">1553.0</Data>
+			</Cell>
+			<Cell ss:Index="20" ss:StyleID="33">
+				<Data ss:Type="Number">4.0</Data>
+			</Cell>
+			<Cell ss:Index="21" ss:StyleID="35">
+				<Data ss:Type="Number">4.006488292373032</Data>
+			</Cell>
+			<Cell ss:Index="22" ss:StyleID="35">
+				<Data ss:Type="Number">0.010319351686730281</Data>
+			</Cell>
+		</Row>
+		<Row ss:AutoFitHeight="1">
+			<Cell ss:Index="1" ss:StyleID="29"/>
+			<Cell ss:Index="2" ss:StyleID="31">
+				<Data ss:Type="String">甘肃省</Data>
+			</Cell>
+			<Cell ss:Index="3" ss:StyleID="33">
+				<Data ss:Type="Number">50.0</Data>
+			</Cell>
+			<Cell ss:Index="4" ss:StyleID="33">
+				<Data ss:Type="Number">0.0</Data>
+			</Cell>
+			<Cell ss:Index="5" ss:StyleID="35">
+				<Data ss:Type="Number">0.18886202809186686</Data>
+			</Cell>
+			<Cell ss:Index="6" ss:StyleID="37"/>
+			<Cell ss:Index="7" ss:StyleID="33">
+				<Data ss:Type="Number">62.0</Data>
+			</Cell>
+			<Cell ss:Index="8" ss:StyleID="33">
+				<Data ss:Type="Number">0.0</Data>
+			</Cell>
+			<Cell ss:Index="9" ss:StyleID="35">
+				<Data ss:Type="Number">0.2341889148339149</Data>
+			</Cell>
+			<Cell ss:Index="10" ss:StyleID="37"/>
+			<Cell ss:Index="11" ss:StyleID="33">
+				<Data ss:Type="Number">393.0</Data>
+			</Cell>
+			<Cell ss:Index="12" ss:StyleID="33">
+				<Data ss:Type="Number">0.0</Data>
+			</Cell>
+			<Cell ss:Index="13" ss:StyleID="35">
+				<Data ss:Type="Number">1.4844555408020736</Data>
+			</Cell>
+			<Cell ss:Index="14" ss:StyleID="37"/>
+			<Cell ss:Index="15" ss:StyleID="33">
+				<Data ss:Type="Number">259.0</Data>
+			</Cell>
+			<Cell ss:Index="16" ss:StyleID="33">
+				<Data ss:Type="Number">0.0</Data>
+			</Cell>
+			<Cell ss:Index="17" ss:StyleID="35">
+				<Data ss:Type="Number">0.9783053055158704</Data>
+			</Cell>
+			<Cell ss:Index="18" ss:StyleID="37"/>
+			<Cell ss:Index="19" ss:StyleID="33">
+				<Data ss:Type="Number">764.0</Data>
+			</Cell>
+			<Cell ss:Index="20" ss:StyleID="33">
+				<Data ss:Type="Number">0.0</Data>
+			</Cell>
+			<Cell ss:Index="21" ss:StyleID="35">
+				<Data ss:Type="Number">2.885811789243726</Data>
+			</Cell>
+			<Cell ss:Index="22" ss:StyleID="37"/>
+		</Row>
+		<Row ss:AutoFitHeight="1">
+			<Cell ss:Index="1" ss:StyleID="29"/>
+			<Cell ss:Index="2" ss:StyleID="31">
+				<Data ss:Type="String">青海省</Data>
+			</Cell>
+			<Cell ss:Index="3" ss:StyleID="33">
+				<Data ss:Type="Number">19.0</Data>
+			</Cell>
+			<Cell ss:Index="4" ss:StyleID="33">
+				<Data ss:Type="Number">0.0</Data>
+			</Cell>
+			<Cell ss:Index="5" ss:StyleID="35">
+				<Data ss:Type="Number">0.31257336220195103</Data>
+			</Cell>
+			<Cell ss:Index="6" ss:StyleID="37"/>
+			<Cell ss:Index="7" ss:StyleID="33">
+				<Data ss:Type="Number">80.0</Data>
+			</Cell>
+			<Cell ss:Index="8" ss:StyleID="33">
+				<Data ss:Type="Number">0.0</Data>
+			</Cell>
+			<Cell ss:Index="9" ss:StyleID="35">
+				<Data ss:Type="Number">1.3160983671661095</Data>
+			</Cell>
+			<Cell ss:Index="10" ss:StyleID="37"/>
+			<Cell ss:Index="11" ss:StyleID="33">
+				<Data ss:Type="Number">196.0</Data>
+			</Cell>
+			<Cell ss:Index="12" ss:StyleID="33">
+				<Data ss:Type="Number">1.0</Data>
+			</Cell>
+			<Cell ss:Index="13" ss:StyleID="35">
+				<Data ss:Type="Number">3.2244409995569687</Data>
+			</Cell>
+			<Cell ss:Index="14" ss:StyleID="35">
+				<Data ss:Type="Number">0.01645122958957637</Data>
+			</Cell>
+			<Cell ss:Index="15" ss:StyleID="33">
+				<Data ss:Type="Number">318.0</Data>
+			</Cell>
+			<Cell ss:Index="16" ss:StyleID="33">
+				<Data ss:Type="Number">0.0</Data>
+			</Cell>
+			<Cell ss:Index="17" ss:StyleID="35">
+				<Data ss:Type="Number">5.231491009485286</Data>
+			</Cell>
+			<Cell ss:Index="18" ss:StyleID="37"/>
+			<Cell ss:Index="19" ss:StyleID="33">
+				<Data ss:Type="Number">613.0</Data>
+			</Cell>
+			<Cell ss:Index="20" ss:StyleID="33">
+				<Data ss:Type="Number">1.0</Data>
+			</Cell>
+			<Cell ss:Index="21" ss:StyleID="35">
+				<Data ss:Type="Number">10.084603738410314</Data>
+			</Cell>
+			<Cell ss:Index="22" ss:StyleID="35">
+				<Data ss:Type="Number">0.01645122958957637</Data>
+			</Cell>
+		</Row>
+		<Row ss:AutoFitHeight="1">
+			<Cell ss:Index="1" ss:StyleID="29"/>
+			<Cell ss:Index="2" ss:StyleID="31">
+				<Data ss:Type="String">宁夏</Data>
+			</Cell>
+			<Cell ss:Index="3" ss:StyleID="33">
+				<Data ss:Type="Number">8.0</Data>
+			</Cell>
+			<Cell ss:Index="4" ss:StyleID="33">
+				<Data ss:Type="Number">0.0</Data>
+			</Cell>
+			<Cell ss:Index="5" ss:StyleID="35">
+				<Data ss:Type="Number">0.11516524773484353</Data>
+			</Cell>
+			<Cell ss:Index="6" ss:StyleID="37"/>
+			<Cell ss:Index="7" ss:StyleID="33">
+				<Data ss:Type="Number">6.0</Data>
+			</Cell>
+			<Cell ss:Index="8" ss:StyleID="33">
+				<Data ss:Type="Number">1.0</Data>
+			</Cell>
+			<Cell ss:Index="9" ss:StyleID="35">
+				<Data ss:Type="Number">0.08637393580113265</Data>
+			</Cell>
+			<Cell ss:Index="10" ss:StyleID="35">
+				<Data ss:Type="Number">0.014395655966855441</Data>
+			</Cell>
+			<Cell ss:Index="11" ss:StyleID="33">
+				<Data ss:Type="Number">125.0</Data>
+			</Cell>
+			<Cell ss:Index="12" ss:StyleID="33">
+				<Data ss:Type="Number">1.0</Data>
+			</Cell>
+			<Cell ss:Index="13" ss:StyleID="35">
+				<Data ss:Type="Number">1.7994569958569302</Data>
+			</Cell>
+			<Cell ss:Index="14" ss:StyleID="35">
+				<Data ss:Type="Number">0.014395655966855441</Data>
+			</Cell>
+			<Cell ss:Index="15" ss:StyleID="33">
+				<Data ss:Type="Number">56.0</Data>
+			</Cell>
+			<Cell ss:Index="16" ss:StyleID="33">
+				<Data ss:Type="Number">0.0</Data>
+			</Cell>
+			<Cell ss:Index="17" ss:StyleID="35">
+				<Data ss:Type="Number">0.8061567341439048</Data>
+			</Cell>
+			<Cell ss:Index="18" ss:StyleID="37"/>
+			<Cell ss:Index="19" ss:StyleID="33">
+				<Data ss:Type="Number">195.0</Data>
+			</Cell>
+			<Cell ss:Index="20" ss:StyleID="33">
+				<Data ss:Type="Number">2.0</Data>
+			</Cell>
+			<Cell ss:Index="21" ss:StyleID="35">
+				<Data ss:Type="Number">2.8071529135368114</Data>
+			</Cell>
+			<Cell ss:Index="22" ss:StyleID="35">
+				<Data ss:Type="Number">0.028791311933710883</Data>
+			</Cell>
+		</Row>
+		<Row ss:AutoFitHeight="1">
+			<Cell ss:Index="1" ss:StyleID="29"/>
+			<Cell ss:Index="2" ss:StyleID="31">
+				<Data ss:Type="String">新疆</Data>
+			</Cell>
+			<Cell ss:Index="3" ss:StyleID="33">
+				<Data ss:Type="Number">66.0</Data>
+			</Cell>
+			<Cell ss:Index="4" ss:StyleID="33">
+				<Data ss:Type="Number">0.0</Data>
+			</Cell>
+			<Cell ss:Index="5" ss:StyleID="35">
+				<Data ss:Type="Number">0.2615711030512864</Data>
+			</Cell>
+			<Cell ss:Index="6" ss:StyleID="37"/>
+			<Cell ss:Index="7" ss:StyleID="33">
+				<Data ss:Type="Number">103.0</Data>
+			</Cell>
+			<Cell ss:Index="8" ss:StyleID="33">
+				<Data ss:Type="Number">0.0</Data>
+			</Cell>
+			<Cell ss:Index="9" ss:StyleID="35">
+				<Data ss:Type="Number">0.4082094487012499</Data>
+			</Cell>
+			<Cell ss:Index="10" ss:StyleID="37"/>
+			<Cell ss:Index="11" ss:StyleID="33">
+				<Data ss:Type="Number">1226.0</Data>
+			</Cell>
+			<Cell ss:Index="12" ss:StyleID="33">
+				<Data ss:Type="Number">13.0</Data>
+			</Cell>
+			<Cell ss:Index="13" ss:StyleID="35">
+				<Data ss:Type="Number">4.858881399104198</Data>
+			</Cell>
+			<Cell ss:Index="14" ss:StyleID="35">
+				<Data ss:Type="Number">0.05152158090404125</Data>
+			</Cell>
+			<Cell ss:Index="15" ss:StyleID="33">
+				<Data ss:Type="Number">827.0</Data>
+			</Cell>
+			<Cell ss:Index="16" ss:StyleID="33">
+				<Data ss:Type="Number">6.0</Data>
+			</Cell>
+			<Cell ss:Index="17" ss:StyleID="35">
+				<Data ss:Type="Number">3.27756518520324</Data>
+			</Cell>
+			<Cell ss:Index="18" ss:StyleID="35">
+				<Data ss:Type="Number">0.02377919118648058</Data>
+			</Cell>
+			<Cell ss:Index="19" ss:StyleID="33">
+				<Data ss:Type="Number">2222.0</Data>
+			</Cell>
+			<Cell ss:Index="20" ss:StyleID="33">
+				<Data ss:Type="Number">19.0</Data>
+			</Cell>
+			<Cell ss:Index="21" ss:StyleID="35">
+				<Data ss:Type="Number">8.806227136059976</Data>
+			</Cell>
+			<Cell ss:Index="22" ss:StyleID="35">
+				<Data ss:Type="Number">0.07530077209052184</Data>
+			</Cell>
+		</Row>
+		<Row ss:AutoFitHeight="1">
+			<Cell ss:Index="1" ss:StyleID="26" ss:MergeAcross="21">
+				<Data ss:Type="String">2024年1月16日 下午3:09</Data>
+			</Cell>
+		</Row>
+	</ss:Table>
+	<WorksheetOptions xmlns="urn:schemas-microsoft-com:office:excel">
+		<PageSetup>
+			<PageMargins x:Bottom="0.25" x:Left="0.25" x:Right="0.25" x:Top="0.25"/>
+		</PageSetup>
+		<Print>
+			<PaperSizeIndex>9</PaperSizeIndex>
+		</Print>
+	</WorksheetOptions>
+</Worksheet>
+</Workbook>

@@ -112,6 +112,14 @@ a. [`config.yml`](./config.yml): Configuration file for data source and AI model
 
 ### China CDC Monthly Report
 
+#### 2023 December
+
+Date: 20240116
+
+Updated: ['2023 December']
+
+
+
 #### 2023 November
 
 Date: 20240107
@@ -167,6 +175,12 @@ Date: 20230906
 Updated: Initial
 
 ### Public Health Scientific Data Center
+
+#### 2020
+
+Date: 20240116
+
+Updated: ['2020']
 
 #### 2019
 
