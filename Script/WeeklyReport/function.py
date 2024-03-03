@@ -155,6 +155,11 @@ def get_gov_results(url, form_data, label, origin):
     return result_list
 
 # define a function to get table data from URLs
+def is_column_meaningful(column):
+    """Check if a pandas Series contains meaningful data."""
+    non_empty_rows = column[column != ""].count()
+    return non_empty_rows / len(column) > 0.1
+
 def get_table_data(url):
     # Send a request and get the response
     response = requests.get(url)
@@ -185,6 +190,9 @@ def get_table_data(url):
                 data.append([td.get_text().strip() for td in cells])
 
     table_data = pd.DataFrame(data)
+    for column in table_data:
+      if not is_column_meaningful(table_data[column]):
+          table_data.drop(column, axis=1, inplace=True)
 
     return table_data
 
