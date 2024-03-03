@@ -8,7 +8,7 @@ on:
 
 jobs:
   run-python-script:
-    runs-on: ubuntu-latest
+    runs-on: ubuntu-22.04
     env:
       OPENAI_API_KEY: ${{ secrets.OPENAI_API_KEY }}
       OPENAI_API_BASE: ${{ secrets.OPENAI_API_BASE }}
@@ -32,7 +32,7 @@ jobs:
 
       - name: Install dependencies
         run: |
-          pip install requests xmltodict beautifulsoup4 pandas reportlab plotnine onedrivedownloader openpyxl tabulate markdown plotly jinja2 openai pyyaml PyPDF2 Pillow
+          pip install requests==2.31.0 xmltodict==0.13.0 beautifulsoup4==4.12.2 pandas==2.1.4 reportlab==4.0.9 plotnine==0.12.4 onedrivedownloader==1.1.3 openpyxl==3.1.2 tabulate==0.9.0 markdown==3.5.2 plotly==5.18.0 jinja2==3.1.3 openai==1.7.2 pyyaml==6.0.1 PyPDF2==3.0.1 Pillow==10.2.0
 
       - name: Run Python script
         run: |
