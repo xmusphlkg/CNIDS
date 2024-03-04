@@ -19,7 +19,7 @@ The primary objective of the CNIDS project is to establish an efficient infectio
 1. After data updates, use AI to automatically generate [reports](./Report).
 2. After report generation, AI automatically generates email content (including data update information and important highlights), sends email notifications to subscribed users, and attaches the report as an attachment.
 
-[Subscribe|Unsubscribe](https://forms.office.com/r/V6vH7rRfeq)
+<iframe width="640px" height= "480px" src= "https://forms.office.com/Pages/ResponsePage.aspx?id=6-Sl81f1K0auaA_vKW7hg57W8blB75tHvQVpO5Wc8kVUNVJZQ0dPWEw3RFA0REtRTzBWMkdUMFkzUC4u&embed=true" frameborder= "0" marginwidth= "0" marginheight= "0" style= "border: none; max-width:100%; max-height:100vh" allowfullscreen webkitallowfullscreen mozallowfullscreen msallowfullscreen> </iframe>
 
 ### **Dashboard Session**
 
@@ -58,22 +58,14 @@ http://localhost:3838
 a. Docker Hub Settings:
 
 `DOCKERHUB_TOKEN`: Docker Hub token.
-
 `DOCKERHUB_USERNAME`: Docker Hub username.
 
-b. Microsoft Graph Settings:
+b. SMTP Settings:
 
-`MS_client_id`: Microsoft Graph client id.
-
-`MS_client_secret`: Microsoft Graph client secret.
-
-`MS_sender_email`: Microsoft Graph sender email.
-
-`MS_subscribe`: Microsoft OneDrive file share link.
-
-`MS_tenant_id`: Microsoft Graph tenant id.
-
-    > You can get the above information by registering an application in [Azure Active Directory](https://portal.azure.com/#blade/Microsoft_AAD_RegisteredApps/ApplicationsListBlade).
+`smtp_sender`: Email address of the sender.
+`smtp_password`: Email password of the sender.
+`smtp_server_url`: Email server url.
+`smtp_server_port`: Email server port.
 
 c. OpenAI Settings:
 
@@ -83,6 +75,10 @@ c. OpenAI Settings:
 
     > You can get the above information by registering an application in [OpenAI](https://beta.openai.com/).
     > example: `sk-xxxxxxxxxxxxxxxxxxxxxxxxxxx`and `https://api.openai.com/v1`.
+
+d. OneDrive Settings:
+
+`onedrive_url`: OneDrive share file url which contains subscriber list.
 
 3. Set up Actions variables.
 
@@ -118,15 +114,11 @@ Date: 20240304
 
 Updated: ['2024 January']
 
-
-
 #### 2023 December
 
 Date: 20240116
 
 Updated: ['2023 December']
-
-
 
 #### 2023 November
 

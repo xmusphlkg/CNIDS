@@ -1,5 +1,3 @@
-import requests
-import json
 import os
 from onedrivedownloader import download
 import pandas as pd
@@ -7,21 +5,9 @@ import datetime
 import variables
 import markdown
 import re
-
-def get_access_token():
-    tenant_id = os.environ['MS_tenant_id']
-    client_id = os.environ['MS_client_id']
-    client_secret = os.environ['MS_client_secret']
-    url = f"https://login.microsoftonline.com/{tenant_id}/oauth2/v2.0/token"
-    payload = {
-        "client_id": client_id,
-        "client_secret": client_secret,
-        "scope": "https://graph.microsoft.com/.default",
-        "grant_type": "client_credentials"
-    }
-    response = requests.post(url, data=payload)
-    access_token = response.json().get("access_token")
-    return access_token
+import smtplib
+from email.mime.multipart import MIMEMultipart
+from email.mime.text import MIMEText
 
 def download_onedrive_file(url:str, filename: str):
     max_attempts = 10
@@ -43,34 +29,16 @@ def download_onedrive_file(url:str, filename: str):
     print(f'Reached maximum attempts, failed to download the file.')
     return None
 
-def send_email(access_token, sender_email, recipient_email, subject, body):
-    url = f"https://graph.microsoft.com/v1.0/users/{sender_email}/sendMail"
-    headers = {
-        "Authorization": f"Bearer {access_token}",
-        "Content-Type": "application/json"
-    }
-    payload = {
-        "message": {
-            "subject": subject,
-            "body": {
-                "contentType": "HTML",
-                "content": body
-            },
-            "toRecipients": [
-                {
-                    "emailAddress": {
-                        "address": recipient_email
-                    }
-                }
-            ]
-        }
-    }
-    response = requests.post(url, headers=headers, data=json.dumps(payload))
-    if response.status_code == 202:
-        print("Email sent successfully!")
-    else:
-        print("Email sent failed!")
-        print(response.text)
+def send_email(email_address, email_password, email_recipient, smtp_server_url, smtp_server_port, subject, body):
+    msg = MIMEMultipart()
+    msg['From'] = email_address
+    msg['To'] = email_recipient
+    msg['Subject'] = subject
+    msg.attach(MIMEText(body, 'html', 'utf-8'))
+
+    with smtplib.SMTP_SSL(smtp_server_url, smtp_server_port) as smtp_server:
+        smtp_server.login(email_address, email_password)
+        smtp_server.sendmail(email_address, email_recipient, msg.as_string())
 
 def get_subscriber_list(url:str, file_name = "subscriber.xlsx"):
     if os.path.exists(file_name):
@@ -89,30 +57,27 @@ def get_subscriber_list(url:str, file_name = "subscriber.xlsx"):
         return df
 
 def send_email_to_subscriber(test_info):
-    access_token = get_access_token()
-    sender_email = os.environ['MS_sender_email']
-    url = os.environ['MS_subscribe']
-    df = get_subscriber_list(url)
+    
+    sender_email = os.environ['smtp_sender']
+    url = os.environ['smtp_server_url']
+    port = os.environ['smtp_server_port']
+    passwd = os.environ['smtp_password']
+    fileurl = os.environ['onedrive_url']
+
+    df = get_subscriber_list(fileurl)
+    recipient_email = df['email_address']
     subject = "CNIDS Automatic Report Update!"
+
     body_main = open("../Report/mail/latest.md", "r").read()
     body_table = open("../Report/table/latest.md", "r").read()
     body_table = markdown.markdown(body_table, extensions=['markdown.extensions.tables'])
     email_info = re.sub(r'(https?://\S+)', r'<a href="\1">\1</a>', variables.email_info)
+
     # send email to all subscribers
-    for index, row in df.iterrows():
-        recipient_email = row['email']
-        subject = subject
-        if test_info == "True":
-            body_main = "<h1>Project still in test mode, please ignore this email.</h1>\n\n" + body_main
-        body = body_main.replace("[Recipient]", row['name']) + email_info + "\n\n"
-        # trans markdown content to html
-        body = body.replace("\n", "<br>")
-        body = body.replace("  ", "&nbsp;&nbsp;")
-
-        body = body + f"<h3>Appendix: Notifiable Infectious Diseases Reports: Reported Cases and Deaths of National Notifiable Infectious Diseases</h3>" + "\n\n" + body_table
-
-
-        send_email(access_token, sender_email, recipient_email, subject, body)
-
-# os.chdir("./Data/")
-# send_email_to_subscriber()
+    if test_info == "True":
+        body_main = "<h1>Project still in test mode, please ignore this email.</h1>\n\n" + body_main
+    body = body_main + email_info + "\n\n"
+    body = body.replace("\n", "<br>")
+    body = body.replace("  ", "&nbsp;&nbsp;")
+    body = body + f"<h3>Appendix: Notifiable Infectious Diseases Reports: Reported Cases and Deaths of National Notifiable Infectious Diseases</h3>" + "\n\n" + body_table
+    send_email(sender_email, passwd, recipient_email, url, port, subject, body)

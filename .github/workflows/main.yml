@@ -12,15 +12,14 @@ jobs:
     env:
       OPENAI_API_KEY: ${{ secrets.OPENAI_API_KEY }}
       OPENAI_API_BASE: ${{ secrets.OPENAI_API_BASE }}
-      MS_subscribe: ${{ secrets.MS_SUBSCRIBE }}
-      MS_sender_email: ${{ secrets.MS_SENDER_EMAIL }}
-      MS_client_id: ${{ secrets.MS_CLIENT_ID }}
-      MS_client_secret: ${{ secrets.MS_CLIENT_SECRET }}
-      MS_tenant_id: ${{ secrets.MS_TENANT_ID }}
       test: ${{ vars.TEST }}
       test_dc: ${{ vars.TEST_DC }}
       test_mail: ${{ vars.TEST_MAIL }}
       send_mail: ${{ vars.SEND_MAIL }}
+      smtp_sender: ${{ secrets.SMTP_SENDER }}
+      smtp_password: ${{ secrets.SMTP_PASSWORD }}
+      smtp_server_url: ${{ secrets.SMTP_SERVER_URL }}
+      smtp_server_port: ${{ secrets.SMTP_SERVER_PORT }}
     steps:
       - name: Checkout code
         uses: actions/checkout@v2

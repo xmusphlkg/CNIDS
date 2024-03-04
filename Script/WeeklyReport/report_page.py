@@ -313,28 +313,30 @@ def add_disease(set_disease_name,
             c.setFont(title_font_family[0], 14)
             c.setFillColor(content_box_title_color)
             c.drawString(x + title_box_space*2, y + height - 15, box_titles[i])
-
-        if content.startswith('figure'):
-            if content == 'figure3':
-                image_path = f'./{content}.png'
-            else:
-                image_path = f'temp/{set_disease_name} {content}.png'
-            image = ImageReader(image_path)
-            iw, ih = image.getSize()
-            scale_w = (width - 20) / iw
-            scale_h = (height - 30) / ih
-            scale = min(scale_w, scale_h)
-            new_width = iw * scale
-            new_height = ih * scale
-            new_x = x + 10 + (width - 20 - new_width) / 2
-            new_y = y + 10 + (height - 30 - new_height) / 2
-            c.drawImage(image_path, new_x, new_y, new_width, new_height, mask='auto')
-            c.linkURL(url=box_links[i], rect=(x + 10, y + 10, x + 10 + width - 20, y + 10 + height - 30))
-        elif box_titles[i] is not None:
-            content = content_clean(content)
-            para = Paragraph(content, styles['Normal'])
-            para.wrapOn(c, width - 15, height - 30)
-            para.drawOn(c, x + 10, y + height - para.height - 20)
+        
+        ## replace content none with ''
+        if content is not None:
+            if content.startswith('figure'):
+                if content == 'figure3':
+                    image_path = f'./{content}.png'
+                else:
+                    image_path = f'temp/{set_disease_name} {content}.png'
+                image = ImageReader(image_path)
+                iw, ih = image.getSize()
+                scale_w = (width - 20) / iw
+                scale_h = (height - 30) / ih
+                scale = min(scale_w, scale_h)
+                new_width = iw * scale
+                new_height = ih * scale
+                new_x = x + 10 + (width - 20 - new_width) / 2
+                new_y = y + 10 + (height - 30 - new_height) / 2
+                c.drawImage(image_path, new_x, new_y, new_width, new_height, mask='auto')
+                c.linkURL(url=box_links[i], rect=(x + 10, y + 10, x + 10 + width - 20, y + 10 + height - 30))
+            elif box_titles[i] is not None:
+                content = content_clean(content)
+                para = Paragraph(content, styles['Normal'])
+                para.wrapOn(c, width - 15, height - 30)
+                para.drawOn(c, x + 10, y + height - para.height - 20)
 
     # define copy right
     copy_right_font_size = 8
