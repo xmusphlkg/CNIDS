@@ -20,6 +20,7 @@ jobs:
       smtp_password: ${{ secrets.SMTP_PASSWORD }}
       smtp_server_url: ${{ secrets.SMTP_SERVER_URL }}
       smtp_server_port: ${{ secrets.SMTP_SERVER_PORT }}
+      onedrive_url: ${{ secrets.ONEDRIVE_URL }}
     steps:
       - name: Checkout code
         uses: actions/checkout@v2
