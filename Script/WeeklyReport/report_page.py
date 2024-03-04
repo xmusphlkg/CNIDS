@@ -19,6 +19,7 @@ import os
 import re
 import markdown
 import variables
+import time
 
 from report_fig import prepare_disease_data
 from report_text import openai_single, bing_analysis, update_markdown_file, openai_abstract
@@ -40,6 +41,14 @@ def translate_html(element, styles, text):
             content = markdown.markdown(content)
             element.append(Paragraph(content, styles['Normal']))
     return element
+
+def get_section_content(analy_box_content, section_title, info =''):
+    pattern = r"### " + re.escape(section_title) + r"(.+?)(?=###|$)"
+    match = re.search(pattern, analy_box_content, re.DOTALL)
+    if match:
+        return match.group(1).strip()
+    else:
+        raise ValueError(f"{info} section {section_title} not found")
 
 def create_report(disease_order):
     """
@@ -124,22 +133,31 @@ def create_report_page(df,
         )
     update_markdown_file(disease_name, "Highlights", highlights_box_content, analysis_YearMonth)
 
-    analy_box_content = openai_single(
-        os.environ['REPORT_ANALYSIS_CREATE'],
-        os.environ['REPORT_ANALYSIS_CHECK'],
-        variables.analysis_create.format(disease_name=disease_name, table_data_str=table_data_str),
-        variables.analysis_check.format(disease_name=disease_name),
-        variables.analysis_words,
-        "Analysis",
-        disease_name
-        )
+    section_titles = ["Cases Analysis", "Deaths Analysis"]
+    section_contents = {}
+    for section_title in section_titles:
+        content_obtained = False
+        while not content_obtained:
+            try:
+                analy_box_content = openai_single(
+                    os.environ['REPORT_ANALYSIS_CREATE'],
+                    os.environ['REPORT_ANALYSIS_CHECK'],
+                    variables.analysis_create.format(disease_name=disease_name, table_data_str=table_data_str),
+                    variables.analysis_check.format(disease_name=disease_name),
+                    variables.analysis_words,
+                    "Analysis",
+                    disease_name
+                    )
+                section_content = get_section_content(analy_box_content, section_title)
+                section_contents[section_title] = section_content
+                content_obtained = True
+            except ValueError as e:
+                print(f"{disease_name} Error: {e}. Retrying...")
+                time.sleep(1)
     update_markdown_file(disease_name, "Analysis", analy_box_content, analysis_YearMonth)
-    cases_box_content = analy_box_content.split("### Cases Analysis")[1].split("### Deaths Analysis")[0]
-    death_box_content = analy_box_content.split("### Deaths Analysis")[1]
     # remove all \n
-    cases_box_content = cases_box_content.replace("\n", "")
-    death_box_content = death_box_content.replace("\n", "")
-
+    cases_box_content = section_contents["Cases Analysis"].replace("\n", "")
+    death_box_content = section_contents["Deaths Analysis"].replace("\n", "")
     foot_left_content = f"Page {page_number} of {page_total}"
     info_box_content = '<font color="red"><b>' + variables.alert_content + '</b></font>'
     foot_right_content = ""
