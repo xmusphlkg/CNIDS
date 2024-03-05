@@ -757,7 +757,7 @@ def add_legend(elements, legend, styles):
 # incidence_box_content = "this is test information"
 # death_box_content = "this is test information"
 # links_app = "https://lkg1116.shinyapps.io/CNIDS/"
-# links_web = "https://github.com/xmusphlkg/CNID"
+# links_web = "https://github.com/xmusphlkg/CNIDS"
 # foot_left_content = "Page 1 of 1"
 
 # add_disease(disease_name, report_date, 

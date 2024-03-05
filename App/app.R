@@ -6,7 +6,7 @@ library(DT)
 library(dplyr)
 
 # reading github data
-DataRaw <- read.csv("https://raw.githubusercontent.com/xmusphlkg/CNID/master/Data/AllData/WeeklyReport/latest.csv")
+DataRaw <- read.csv("https://raw.githubusercontent.com/xmusphlkg/CNIDS/master/Data/AllData/WeeklyReport/latest.csv")
 DataRaw$Date <- as.Date(DataRaw$Date)
 DataRaw <- DataRaw[, c("Date", "Diseases", "DiseasesCN", "Cases", "Deaths", "Source")]
 
@@ -78,15 +78,15 @@ ui <- navbarPage(
       tags$p("The data is from the website of China CDC Weekly."),
       tags$p("The dashboard is developed by Kangguo Li."),
       tags$p("The source code is available on Github:"),
-      tags$a("Github", href = "https://github.com/xmusphlkg/CNID/"),
+      tags$a("Github", href = "https://github.com/xmusphlkg/CNIDS/"),
       tags$h2("Documents and Data"),
-      tags$a("Get Report of NID", href = "https://github.com/xmusphlkg/CNID/tree/master/Report", target = "_blank"),
+      tags$a("Get Report of NID", href = "https://github.com/xmusphlkg/CNIDS/tree/master/Report", target = "_blank"),
       tags$br(),
-      tags$a("Get All Data", href = "https://github.com/xmusphlkg/CNID/tree/master/Data/AllData/WeeklyReport", target = "_blank"),
+      tags$a("Get All Data", href = "https://github.com/xmusphlkg/CNIDS/tree/master/Data/AllData/WeeklyReport", target = "_blank"),
       tags$br(),
-      tags$a("Get Province Level Data", href = "https://github.com/xmusphlkg/CNID/tree/master/Data/AllData/DatacenterReport", target = "_blank"),
+      tags$a("Get Province Level Data", href = "https://github.com/xmusphlkg/CNIDS/tree/master/Data/AllData/DatacenterReport", target = "_blank"),
       tags$h2("Cite:"),
-      tags$p("CNIDS: Chinese Notifiable Infectious Diseases Surveillance Project. https://github.com/xmusphlkg/CNID")
+      tags$p("CNIDS: Chinese Notifiable Infectious Diseases Surveillance Project. https://github.com/xmusphlkg/CNIDS")
     )
   )
 )
@@ -102,7 +102,7 @@ server <- function(input, output) {
 
     output$markdown <- renderUI({
       url <- paste0(
-        "https://raw.githubusercontent.com/xmusphlkg/CNID/master/docs/",
+        "https://raw.githubusercontent.com/xmusphlkg/CNIDS/master/docs/",
         input$disease,
         ".md"
       )

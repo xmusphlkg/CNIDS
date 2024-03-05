@@ -84,7 +84,7 @@ d. OneDrive Settings:
 
 a. `test`: Whether to test getting data from the China CDC Monthly Report. Default: `False`.
 
-b. `cite`: Citation information. Default: `Cite Us: CNIDs: Chinese Notifiable Infectious Diseases Surveillance Project. <u><a href='https://github.com/xmusphlkg/CNID'>Github</a></u>'
+b. `cite`: Citation information. Default: `Cite Us: CNIDs: Chinese Notifiable Infectious Diseases Surveillance Project. <u><a href='https://github.com/xmusphlkg/CNIDS'>Github</a></u>'
 
 c. `test_dc`: Whether to test getting data from the Public Health Scientific Data Center. Default: `False`.
 

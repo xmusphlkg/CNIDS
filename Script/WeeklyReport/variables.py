@@ -1,5 +1,5 @@
 # email information
-email_info = "\n\n\n\nFurther support: lkg1116@outlook.com" + "\n\nFull Report Link: https://github.com/xmusphlkg/CNID/blob/master/Report/report%20latest.pdf" + "\n\nDashboard Link: https://lkg1116.shinyapps.io/CNIDS/" + "\n\nData Source: https://github.com/xmusphlkg/CNID/tree/master/Data" + "\n\nUnsubscribe: https://forms.office.com/r/V6vH7rRfeq"
+email_info = "\n\n\n\nFurther support: lkg1116@outlook.com" + "\n\nFull Report Link: https://github.com/xmusphlkg/CNIDS/blob/master/Report/report%20latest.pdf" + "\n\nDashboard Link: https://lkg1116.shinyapps.io/CNIDS/" + "\n\nData Source: https://github.com/xmusphlkg/CNIDS/tree/master/Data" + "\n\nUnsubscribe: https://forms.office.com/r/V6vH7rRfeq"
 email_head = "I hope this email finds you well. China CDC has published the new data on the cases and deaths of notifiable infectious diseases in Chinese mainland in {analysis_YearMonth}."
 email_end = "The notion generated automatically, and assistant by AI. Please check the data and description carefully."
 email_sign = "Best regards,\nCNIDS"
@@ -8,7 +8,7 @@ email_sign = "Best regards,\nCNIDS"
 links_app = "https://lkg1116.shinyapps.io/CNIDS/"
 
 # links to website
-links_web = "https://github.com/xmusphlkg/CNID"
+links_web = "https://github.com/xmusphlkg/CNIDS"
 
 # project description
 cover_project = "CNIDS: Chinese Notifiable Infectious Diseases Surveillance Project"
@@ -18,7 +18,7 @@ cover_info_1 = "Automatically Generate by Python and generative AI"
 cover_info_2 = "Power by: Github Action"
 cover_info_3 = "Design by: Kangguo Li"
 cover_info_4 = "Generated Date: {date_now}"
-cover_info_5 = "Cite Us: CNIDs: Chinese Notifiable Infectious Diseases Surveillance Project. <u><a href='https://github.com/xmusphlkg/CNID'>Github</a></u>"
+cover_info_5 = "Cite Us: CNIDs: Chinese Notifiable Infectious Diseases Surveillance Project. <u><a href='https://github.com/xmusphlkg/CNIDS'>Github</a></u>"
 
 # default cover
 cover_image = "https://source.unsplash.com/collection/94734566/1024x1792"
