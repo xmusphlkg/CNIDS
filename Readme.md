@@ -6,6 +6,8 @@ CNIDS is a project aimed at monitoring notifiable infectious diseases in Chinese
 
 The primary objective of the CNIDS project is to establish an efficient infectious disease Surveillance system that enables real-time monitoring and prediction of legally notifiable infectious diseases. It provides decision-makers with timely information and recommendations to facilitate appropriate measures for disease control and prevention.
 
+Subscribe e-mail to receive the latest report: [Subscribe](https://forms.office.com/r/EJUEfKkttK)
+
 ## Usage Example
 
 ### **Data Sharing**
@@ -18,8 +20,6 @@ The primary objective of the CNIDS project is to establish an efficient infectio
 
 1. After data updates, use AI to automatically generate [reports](./Report).
 2. After report generation, AI automatically generates email content (including data update information and important highlights), sends email notifications to subscribed users, and attaches the report as an attachment.
-
-<iframe width="640px" height= "480px" src= "https://forms.office.com/Pages/ResponsePage.aspx?id=6-Sl81f1K0auaA_vKW7hg57W8blB75tHvQVpO5Wc8kVUNVJZQ0dPWEw3RFA0REtRTzBWMkdUMFkzUC4u&embed=true" frameborder= "0" marginwidth= "0" marginheight= "0" style= "border: none; max-width:100%; max-height:100vh" allowfullscreen webkitallowfullscreen mozallowfullscreen msallowfullscreen> </iframe>
 
 ### **Dashboard Session**
 
