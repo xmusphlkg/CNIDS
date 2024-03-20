@@ -47,10 +47,8 @@ def get_subscriber_list(url:str, file_name = "subscriber.xlsx"):
 
     if result:
         df = pd.read_excel("subscriber.xlsx")
-        df['time'] = datetime.datetime.now()
-        df = pd.read_excel("subscriber.xlsx")
-        df['time'] = df['time'].dt.strftime('%Y-%m-%d %H:%M:%S')
-        df = df.sort_values('time', ascending=False).drop_duplicates('email').sort_index()
+        df['time'] = df['Completion time'].dt.strftime('%Y-%m-%d %H:%M:%S')
+        df = df.sort_values('time', ascending=False).drop_duplicates('email_address').sort_index()
         df = df[df['subscribe'] == 'Subscribe']
         # remove the file
         os.remove(file_name)
