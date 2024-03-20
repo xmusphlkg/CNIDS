@@ -99,22 +99,19 @@ if new_dates:
     print("Find new data, update.")
     print(results)
 
-    # process table data
+    # get data from url and save to WeeklyReport
     process_table_data(results)
 
     # access the folder
     csv_files = [file for file in os.listdir(folder_path) if file.endswith(".csv")]
 
-    # create an empty DataFrame
-    merged_data = pd.DataFrame()
-
     # read and merge CSV files
+    merged_data = pd.DataFrame()
     for file in csv_files:
         file_path = os.path.join(folder_path, file)
         data = pd.read_csv(file_path)
         merged_data = pd.concat([merged_data, data], ignore_index=True)
 
-    # sort by date and disease
     merged_data = merged_data.sort_values(by=["Date", "Diseases"], ascending=False)
     first_row = merged_data.iloc[0]
     year_month = first_row["YearMonth"]
@@ -146,13 +143,9 @@ if new_dates:
     folder_path = '../CleanData/WeeklyReport/'
     csv_files = glob.glob(os.path.join(folder_path, '*/*.csv'))
     data = pd.concat([pd.read_csv(csv_file) for csv_file in csv_files], ignore_index=True)
-
-    # remove duplicates
     data = data.drop_duplicates()
     max_date = data['YearMonthDay'].max()
     max_date = datetime.strptime(max_date, '%Y/%m/%d').strftime("%Y %B")
-
-    # save the data to a CSV file
     data.to_csv('..' + '/AllData/WeeklyReport/latest.csv', index=False, encoding='utf-8', header=True)
     data.to_csv('..' + '/AllData/WeeklyReport/' + max_date + '.csv', index=False, encoding='utf-8', header=True)
 

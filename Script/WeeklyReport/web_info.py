@@ -21,7 +21,7 @@ def create_web_info(disease_name):
     with open(f'../Report/information/{disease_name}.md', 'w') as f:
         f.write(info)
 
-def openai_information(model_create, model_check, user_content, disease_name, token = 4096, max_retries=10, delay=1):
+def openai_information(model_create, model_check, user_content, disease_name, token = 4096, max_retries=20, delay=1):
     """
     Fetches a response from the OpenAI API with automatic retries on failure.
 

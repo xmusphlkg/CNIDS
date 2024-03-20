@@ -10,7 +10,7 @@ def length_check(box_content, content_words):
     box_length = len(clean_content.split()) <= content_words
     return box_length
 
-def openai_trans(model_create, model_check, user_content, setting, token = 500, max_retries=10, delay=1):
+def openai_trans(model_create, model_check, user_content, setting, token = 500, max_retries=20, delay=1):
     """
     Fetches a response from the OpenAI API with automatic retries on failure.
 
@@ -62,7 +62,7 @@ def openai_single(model_create, model_check,
                   content_create, content_check,
                   content_words,
                   section, disease,
-                  token = 500, max_retries=10, delay=1):
+                  token = 500, max_retries=20, delay=1):
     """
     Generate box content for single disease.
 
@@ -114,7 +114,7 @@ def openai_single(model_create, model_check,
     print(f"{disease} - {section}: Maximum retries reached. Failed to create response.")
     return None
     
-def openai_mail(model_create, model_check, content_create, content_check, token = 4096, max_retries=10, delay=1):
+def openai_mail(model_create, model_check, content_create, content_check, token = 4096, max_retries=20, delay=1):
     """
     Generate list content for mail.
 
@@ -157,7 +157,7 @@ def openai_mail(model_create, model_check, content_create, content_check, token 
     print("Mail: Maximum retries reached. Failed to create response.")
     return None
 
-def openai_key(model_create, model_check, content_create, content_check, token = 4096, max_retries=10, delay=1):
+def openai_key(model_create, model_check, content_create, content_check, token = 4096, max_retries=20, delay=1):
     """
     Generate key words for prompt.
 
@@ -201,7 +201,7 @@ def openai_key(model_create, model_check, content_create, content_check, token =
     print("Key: Maximum retries reached. Failed to create response.")
     return None
     
-def openai_image(model_create, user_content, default, max_retries=10, delay=1):
+def openai_image(model_create, user_content, default, max_retries=20, delay=1):
     """
     Generate image url for prompt.
 
@@ -239,7 +239,7 @@ def openai_image(model_create, user_content, default, max_retries=10, delay=1):
     print(info, "Maximum retries reached. Failed to fetch response. Using unsplash random image instead.")
     return default
 
-def openai_abstract(model_create, model_check, content_create, content_check, token = 4096, max_retries=10, delay=1):
+def openai_abstract(model_create, model_check, content_create, content_check, token = 4096, max_retries=20, delay=1):
     """
     Generate abstract content of report.
 
@@ -281,7 +281,7 @@ def openai_abstract(model_create, model_check, content_create, content_check, to
     
     return None
 
-def bing_analysis(model_create, model_clean, model_check, content_create, content_clean, content_check, max_retries=10, delay=1):
+def bing_analysis(model_create, model_clean, model_check, content_create, content_clean, content_check, max_retries=20, delay=1):
     """
     Fetches a response from the OpenAI API with automatic retries on failure.
 
@@ -332,7 +332,7 @@ def bing_analysis(model_create, model_clean, model_check, content_create, conten
     print(f"Maximum retries reached. Failed to create response.")
     return None
 
-def fetch_openai(model, client, messages, info = "", token = 500, max_retries=10, delay=1):
+def fetch_openai(model, client, messages, info = "", token = 500, max_retries=20, delay=1):
     """
     Fetches a response from the OpenAI API with automatic retries on failure.
 
@@ -362,8 +362,13 @@ def fetch_openai(model, client, messages, info = "", token = 500, max_retries=10
                 print(info, response)
             except:
                 print(info, "An error occurred and cannot get response error information.")
-            attempt += 1
-            time.sleep(delay)
+            ## if error code is 307
+            if "307" in str(e):
+                print(info, "Retrying after 10 seconds...")
+                time.sleep(delay*10)
+            else:
+                attempt += 1
+                time.sleep(delay)
             print(info, f"Retrying ({attempt}/{max_retries})...")
 
     print(info, "Maximum retries reached. Failed to fetch response.")
