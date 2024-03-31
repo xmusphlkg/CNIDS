@@ -87,7 +87,7 @@ If you use CNIDS in your research, please cite the following paper:
 
 # Developer and Maintainer
 
-[kangguo Li]: Ph.D. student in Epidemiology and Biostatistics at the School of Public Health, Xiamen University, China.
+kangguo Li: Ph.D. student in Epidemiology and Biostatistics at the School of Public Health, Xiamen University, China.
 
 > I am currently looking for opportunities for joint Ph.D. supervision in other countries. If you are interested in my research or projects, please feel free to contact me by email (lkg1116@outlook.com).
 >
