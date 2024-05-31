@@ -108,6 +108,14 @@ a. [`config.yml`](./config.yml): Configuration file for data source and AI model
 
 ### China CDC Monthly Report
 
+#### 2024 April
+
+Date: 20240531
+
+Updated: ['2024 April']
+
+
+
 #### 2024 March
 
 Date: 20240424
