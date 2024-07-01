@@ -29,11 +29,11 @@ Report:
     create: 'dall-e-3'
   abstract: # create_report_summary function
     create: 'gpt-4-1106-preview'
-    check: 'gpt-3.5-turbo-16k'
+    check: 'gpt-3.5-turbo-16k-0613'
   news: # bing_analysis function
     create: 'gpt-4-all'
     clean: 'gpt-4-1106-preview'
-    check: 'gpt-3.5-turbo-16k'
+    check: 'gpt-3.5-turbo-16k-0613'
   introduction: # create_report_page function
     create: 'gpt-4'
     check: 'gpt-3.5-turbo'
@@ -46,11 +46,11 @@ Report:
 Mail:
   main: # send_mail function
     create: 'gpt-4-1106-preview'
-    check: 'gpt-3.5-turbo-16k'
+    check: 'gpt-3.5-turbo-16k-0613'
   keywords:
     create: 'gpt-4-1106-preview'
-    check: 'gpt-3.5-turbo-16k'
+    check: 'gpt-3.5-turbo-16k-0613'
 Website:
   main: # create_website function
     create: 'gpt-4-1106-preview'
-    check: 'gpt-3.5-turbo-16k'
+    check: 'gpt-3.5-turbo-16k-0613'
