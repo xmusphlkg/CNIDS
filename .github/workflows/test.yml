@@ -7,6 +7,18 @@ on:
 jobs:
   github-actions-environment-variables-ubuntu:
     runs-on: ubuntu-latest
+    env:
+      OPENAI_API_KEY: ${{ secrets.OPENAI_API_KEY }}
+      OPENAI_API_BASE: ${{ secrets.OPENAI_API_BASE }}
+      test: ${{ vars.TEST }}
+      test_dc: ${{ vars.TEST_DC }}
+      test_mail: ${{ vars.TEST_MAIL }}
+      send_mail: ${{ vars.SEND_MAIL }}
+      smtp_sender: ${{ secrets.SMTP_SENDER }}
+      smtp_password: ${{ secrets.SMTP_PASSWORD }}
+      smtp_server_url: ${{ secrets.SMTP_SERVER_URL }}
+      smtp_server_port: ${{ secrets.SMTP_SERVER_PORT }}
+      onedrive_url: ${{ secrets.ONEDRIVE_URL }}
     steps:
       - name: Get env
         run: env
