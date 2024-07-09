@@ -1,3 +1,13 @@
+
+# Project Discontinuation Notice
+
+This project is no longer being updated. We have transitioned to a new platform to continue our efforts more focused and comprehensively.
+
+Please visit our new project at [Global Infectious Disease](https://globalinfectiousdisease.com/CN/) for the latest updates and more information.
+
+Thank you for your support and understanding.
+
+
 ## Introduction
 
 **CNIDS: Chinese Notifiable Infectious Diseases Surveillance Project**
