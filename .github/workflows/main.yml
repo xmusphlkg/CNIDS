@@ -2,6 +2,9 @@ name: auto update CDC Monthly Report Data
 
 on:
   workflow_dispatch:
+  schedule:
+    # IMPORTANT: Set cron job in UTC timezone
+    - cron: '0 6 * * *'
 
 jobs:
   run-python-script:
@@ -33,13 +36,13 @@ jobs:
 
       - name: Run Python script
         run: |
-          python3 Script/WeeklyReport/main.py
+          # python3 Script/WeeklyReport/main.py
           python3 Script/DatacenterReport/main.py
 
       - name: Check for changes in a specific file
         id: check_file
         run: |
-          if git diff --name-only --exit-code "Report/report latest.pdf"; then
+          if git diff --name-only --exit-code "Data/AllData/WeeklyReport/latest.csv"; then
             echo "report_latest.pdf has not changed."
             echo "::set-output name=changed::false"
           else
